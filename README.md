@@ -6,37 +6,37 @@
 
 ## 🔥 GitHub Trending (Python)
 
-- [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything): Comprehensive RAG framework for diverse documents
-- [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar): AI-powered multi-platform opinion monitoring tool
-- [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal): Advanced market analysis and investment research terminal
-- [AIDC-AI/Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video): Fully automated AI short video generation engine
-- [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool): All-in-one hacking tool collection
+- [FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal): 고급 시장 분석, 투자 연구, 경제 데이터 도구를 제공하는 현대식 금융 애플리케이션
+- [RAG-Anything](https://github.com/HKUDS/RAG-Anything): 통합 RAG 프레임워크로 다양한 문서 형식을 처리하는 종합 솔루션
+- [TrendRadar](https://github.com/sansan0/TrendRadar): AI 기반 여론 및 트렌드 모니터링 도구, 다중 플랫폼 통합 지원
+- [Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video): 완전 자동화된 AI 단편 영상 생성 엔진
+- [hackingtool](https://github.com/Z4nzu/hackingtool): 해킹 및 보안 테스트를 위한 통합 도구 모음
 
 ## 📄 Hugging Face Papers
 
-- [Tstars-Tryon 1.0: Robust and Realistic Virtual Try-On](https://huggingface.co/papers)
-  Robust and realistic virtual try-on for diverse fashion items
-- [CoInteract: Physically-Consistent Human-Object Interaction Video Synthesis](https://huggingface.co/papers)
-  Physically-consistent human-object interaction video synthesis via spatially-structured co-generation
-- [AgentSPEX: An Agent SPecification and EXecution Language](https://huggingface.co/papers)
-  Agent specification and execution language framework
-- [AnyRecon: Arbitrary-View 3D Reconstruction with Video Diffusion Model](https://huggingface.co/papers)
-  3D reconstruction from arbitrary views using video diffusion models
-- [TEMPO: Scaling Test-time Training for Large Reasoning Models](https://huggingface.co/papers)
-  Scaling test-time training for large reasoning models
+- [Tstars-Tryon 1.0](https://huggingface.co/papers)
+  다양한 패션 아이템에 대한 강건하고 현실적인 가상 피팅 기술
+- [CoInteract](https://huggingface.co/papers)
+  물리 법칙을 준수하는 인간-객체 상호작용 비디오 합성 기술
+- [AgentSPEX](https://huggingface.co/papers)
+  에이전트 명세 및 실행을 위한 언어 프레임워크
+- [AnyRecon](https://huggingface.co/papers)
+  비디오 확산 모델을 활용한 임의 시점 3D 재구성
+- [TEMPO](https://huggingface.co/papers)
+  대규모 추론 모델을 위한 테스트 시간 학습 확장 기법
 
 ## 🦉 GeekNews
 
-- [Skillify — Converting AI agent failures into permanent structural fixes](https://x.com/garrytan/status/2046876981711769720)
-  Garry Tan's methodology for AI agent failure correction
-- [GPT 5.5 Released](https://huggingface.co/papers)
-  OpenAI's latest model release
-- [SpaceX secures option to acquire Cursor for $60B](https://www.reuters.com/technology/spacex-says-it-has-option-acquire-startup-cursor-60-billion-2026-04-21/)
-  SpaceX has option to acquire AI coding startup Cursor for $60 billion
-- [Anthropic removes Claude Code for new Pro users](https://www.wheresyoured.at/news-anthropic-removes-pro-cc/)
-  Anthropic restricts Claude Code access for new Pro subscribers
-- [Google LiteRT-LM: High-performance LLM inference for edge devices](https://github.com/google-ai-edge/LiteRT-LM)
-  High-performance LLM inference framework for edge devices
+- [Garry Tan의 Skillify — AI 에이전트 실패를 영구적 구조 수정으로](https://x.com/garrytan/status/2046876981711769720)
+  AI 에이전트의 실패 패턴을 시스템 구조 개선으로 연결하는 방법론
+- [GPT 5.5 출시](https://huggingface.co/papers)
+  OpenAI의 차세대 모델 GPT 5.5 공개
+- [SpaceX, AI 코딩 스타트업 Cursor를 600억 달러에 인수할 옵션 확보](https://www.reuters.com/technology/spacex-says-it-has-option-acquire-startup-cursor-60-billion-2026-04-21/)
+  SpaceX가 AI 코딩 도구 Cursor의 인수 옵션 확보 — 코딩 AI 시장 격변 예고
+- [Anthropic, 신규 Pro 사용자에게 Claude Code 제공 중단?](https://www.wheresyoured.at/news-anthropic-removes-pro-cc/)
+  $20/월 Pro 신규 가입자에게 Claude Code 접근 제한 조치
+- [Google LiteRT-LM — 엣지 디바이스용 고성능 LLM 추론 프레임워크](https://github.com/google-ai-edge/LiteRT-LM)
+  모바일·IoT 기기에서 LLM을 고성능으로 실행하기 위한 구글의 오픈소스 프레임워크
 
 ---
 ## 📅 Previous Dates
