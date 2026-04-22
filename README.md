@@ -1,44 +1,44 @@
-# 📰 AI 뉴스 데일리
+# 📰 AI News Daily
 
-> 마지막 업데이트: 2026-04-22
+> Last updated: 2026-04-22
 
-# AI 뉴스 — 2026-04-22
+# AI News — 2026-04-22
 
 ## 🔥 GitHub Trending (Python)
 
-- [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything): 멀티모달 All-in-One RAG 프레임워크
-- [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar): AI 기반 멀티플랫폼 여론·트렌드 모니터링
-- [AIDC-AI/Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video): AI 완전 자동 숏폼 비디오 생성 엔진
-- [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal): 고급 금융 분석·투자 리서치 통합 터미널
-- [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool): All-in-One 해킹 도구 모음 (보안 리서치용)
+- [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything): Multimodal All-in-One RAG framework
+- [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar): AI-powered multi-platform trend & public opinion monitor
+- [AIDC-AI/Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video): Fully automated AI short-form video generation engine
+- [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal): Advanced financial analysis and investment research terminal
+- [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool): All-in-One hacking tools collection (for security research)
 
 ## 📄 Hugging Face Papers
 
 - [Tstars-Tryon 1.0](https://huggingface.co/papers/2604.19748)
-  다양한 패션 아이템을 위한 강인하고 사실적인 가상 피팅 모델
+  Robust and realistic virtual try-on model for diverse fashion items
 - [AgentSPEX](https://huggingface.co/papers/2604.13346)
-  에이전트 명세 및 실행 언어 제안
+  Proposed specification and execution language for AI agents
 - [AnyRecon](https://huggingface.co/papers/2604.19747)
-  비디오 Diffusion 모델 기반 임의 시점 3D 재구성
+  Arbitrary-view 3D reconstruction via video diffusion models
 - [CoInteract](https://huggingface.co/papers/2604.19636)
-  물리적으로 일관된 인간-물체 상호작용 비디오 합성
+  Physically consistent human-object interaction video synthesis
 - [TEMPO](https://huggingface.co/papers/2604.19295)
-  대형 추론 모델의 테스트 타임 트레이닝 스케일링
+  Scaling test-time training for large reasoning models
 
 ## 🦉 GeekNews
 
-- [Claude Code 및 Codex 설정 변경으로 토큰을 절약하는 방법](https://news.hada.io/topic?id=28697)
-  Claude Code 토큰 절약 설정 팁
-- [프로그래밍의 일곱 가지 원형 언어 (2022)](https://news.hada.io/topic?id=28703)
-  프로그래밍 언어의 근본 패러다임 분류
-- [소프트웨어 공학의 법칙들](https://news.hada.io/topic?id=28760)
-  개발자가 알아야 할 소프트웨어 공학 원칙
-- [프로덕션에서 바이브 코딩을 책임감 있게 하는 법](https://news.hada.io/topic?id=28749)
-  AI 코딩 도구를 프로덕션에서 안전하게 쓰는 방법
+- [How to Save Tokens by Tweaking Claude Code and Codex Settings](https://news.hada.io/topic?id=28697)
+  Tips for reducing token usage in Claude Code and Codex
+- [Seven Primitive Programming Languages (2022)](https://news.hada.io/topic?id=28703)
+  Classification of fundamental programming language paradigms
+- [Laws of Software Engineering](https://news.hada.io/topic?id=28760)
+  Essential software engineering principles every developer should know
+- [How to Vibe Code Responsibly in Production](https://news.hada.io/topic?id=28749)
+  Safe practices for using AI coding tools in production
 - [Why 2026 Seniors are just highly-paid Code Editors](https://news.hada.io/topic?id=28716)
-  시니어 개발자의 역할 변화에 대한 논의
+  Discussion on the changing role of senior developers
 
 ---
-## 📅 이전 날짜
+## 📅 Previous Dates
 
-_아직 이전 날짜 데이터가 없습니다._
+_No previous dates yet._
