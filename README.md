@@ -1,44 +1,44 @@
 # 📰 AI News Daily
 
-> Last updated: 2026-04-22
+> Last updated: 2026-04-23
 
-# AI News — 2026-04-22
+# AI News — 2026-04-23
 
 ## 🔥 GitHub Trending (Python)
 
-- [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything): Multimodal All-in-One RAG framework
-- [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar): AI-powered multi-platform trend & public opinion monitor
-- [AIDC-AI/Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video): Fully automated AI short-form video generation engine
-- [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal): Advanced financial analysis and investment research terminal
-- [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool): All-in-One hacking tools collection (for security research)
+- [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything): Comprehensive RAG framework for diverse documents
+- [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar): AI-powered multi-platform opinion monitoring tool
+- [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal): Advanced market analysis and investment research terminal
+- [AIDC-AI/Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video): Fully automated AI short video generation engine
+- [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool): All-in-one hacking tool collection
 
 ## 📄 Hugging Face Papers
 
-- [Tstars-Tryon 1.0](https://huggingface.co/papers/2604.19748)
-  Robust and realistic virtual try-on model for diverse fashion items
-- [AgentSPEX](https://huggingface.co/papers/2604.13346)
-  Proposed specification and execution language for AI agents
-- [AnyRecon](https://huggingface.co/papers/2604.19747)
-  Arbitrary-view 3D reconstruction via video diffusion models
-- [CoInteract](https://huggingface.co/papers/2604.19636)
-  Physically consistent human-object interaction video synthesis
-- [TEMPO](https://huggingface.co/papers/2604.19295)
+- [Tstars-Tryon 1.0: Robust and Realistic Virtual Try-On](https://huggingface.co/papers)
+  Robust and realistic virtual try-on for diverse fashion items
+- [CoInteract: Physically-Consistent Human-Object Interaction Video Synthesis](https://huggingface.co/papers)
+  Physically-consistent human-object interaction video synthesis via spatially-structured co-generation
+- [AgentSPEX: An Agent SPecification and EXecution Language](https://huggingface.co/papers)
+  Agent specification and execution language framework
+- [AnyRecon: Arbitrary-View 3D Reconstruction with Video Diffusion Model](https://huggingface.co/papers)
+  3D reconstruction from arbitrary views using video diffusion models
+- [TEMPO: Scaling Test-time Training for Large Reasoning Models](https://huggingface.co/papers)
   Scaling test-time training for large reasoning models
 
 ## 🦉 GeekNews
 
-- [How to Save Tokens by Tweaking Claude Code and Codex Settings](https://news.hada.io/topic?id=28697)
-  Tips for reducing token usage in Claude Code and Codex
-- [Seven Primitive Programming Languages (2022)](https://news.hada.io/topic?id=28703)
-  Classification of fundamental programming language paradigms
-- [Laws of Software Engineering](https://news.hada.io/topic?id=28760)
-  Essential software engineering principles every developer should know
-- [How to Vibe Code Responsibly in Production](https://news.hada.io/topic?id=28749)
-  Safe practices for using AI coding tools in production
-- [Why 2026 Seniors are just highly-paid Code Editors](https://news.hada.io/topic?id=28716)
-  Discussion on the changing role of senior developers
+- [Skillify — Converting AI agent failures into permanent structural fixes](https://x.com/garrytan/status/2046876981711769720)
+  Garry Tan's methodology for AI agent failure correction
+- [GPT 5.5 Released](https://huggingface.co/papers)
+  OpenAI's latest model release
+- [SpaceX secures option to acquire Cursor for $60B](https://www.reuters.com/technology/spacex-says-it-has-option-acquire-startup-cursor-60-billion-2026-04-21/)
+  SpaceX has option to acquire AI coding startup Cursor for $60 billion
+- [Anthropic removes Claude Code for new Pro users](https://www.wheresyoured.at/news-anthropic-removes-pro-cc/)
+  Anthropic restricts Claude Code access for new Pro subscribers
+- [Google LiteRT-LM: High-performance LLM inference for edge devices](https://github.com/google-ai-edge/LiteRT-LM)
+  High-performance LLM inference framework for edge devices
 
 ---
 ## 📅 Previous Dates
 
-_No previous dates yet._
+- [2026-04-22](data/2026-04-22.md)
