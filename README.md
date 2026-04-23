@@ -1,44 +1,45 @@
 # 📰 AI News Daily
 
-> Last updated: 2026-04-23
+> Last updated: 2026-04-24
 
-# AI News — 2026-04-23
+# AI News — 2026-04-24
 
 ## 🔥 GitHub Trending (Python)
 
-- [FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal): Modern financial application providing advanced market analysis, investment research, and economic data tools
-- [RAG-Anything](https://github.com/HKUDS/RAG-Anything): Unified RAG framework for processing diverse document formats
-- [TrendRadar](https://github.com/sansan0/TrendRadar): AI-powered public opinion and trend monitoring tool with multi-platform integration
-- [Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video): Fully automated AI short video generation engine
-- [hackingtool](https://github.com/Z4nzu/hackingtool): All-in-one collection of hacking and security testing tools
+- [huggingface/ml-intern](https://github.com/huggingface/ml-intern): Open-source ML engineer that reads papers, trains models, and ships ML models
+- [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything): Comprehensive RAG framework supporting all-in-one retrieval-augmented generation workflows
+- [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool): All-in-one collection of hacking tools for security testing and research
+- [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code): Access Claude code capabilities for free via terminal, VSCode extension, or Discord integration
+- [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI): Framework enabling autonomous AI agents to collaborate on complex tasks through role-playing
 
 ## 📄 Hugging Face Papers
 
-- [Tstars-Tryon 1.0](https://huggingface.co/papers)
-  Robust and realistic virtual try-on technology for diverse fashion items
-- [CoInteract](https://huggingface.co/papers)
-  Physically-consistent human-object interaction video synthesis via spatially-structured co-generation
-- [AgentSPEX](https://huggingface.co/papers)
-  An agent specification and execution language framework for structured AI agent workflows
-- [AnyRecon](https://huggingface.co/papers)
-  Arbitrary-view 3D reconstruction using video diffusion models
-- [TEMPO](https://huggingface.co/papers)
-  Scaling test-time training for large reasoning models
+- [LLaDA2.0-Uni: Unifying Multimodal Understanding and Generation with Diffusion LLM](https://huggingface.co/papers/2604.20796)
+  Unified framework combining multimodal understanding and generation using diffusion-based LLMs.
+- [Near-Future Policy Optimization](https://huggingface.co/papers/2604.20733)
+  Policy optimization approach focused on near-future outcome optimization for RL agents.
+- [DR-Venus: Frontier Edge-Scale Deep Research Agents with Only 10K Open Data](https://huggingface.co/papers/2604.19859)
+  Training efficient deep research agents at edge scale using minimal open-source data.
+- [OpenMobile: Building Open Mobile Agents with Task and Trajectory Synthesis](https://huggingface.co/papers/2604.15093)
+  Open framework for building mobile agents through task and trajectory synthesis techniques.
+- [DeVI: Physics-based Dexterous Human-Object Interaction via Synthetic Video Imitation](https://huggingface.co/papers/2604.20841)
+  Physics-informed approach for learning dexterous human-object interactions using synthetic video imitation.
 
 ## 🦉 GeekNews
 
-- [Garry Tan's Skillify — Turning AI Agent Failures into Permanent Structural Fixes](https://x.com/garrytan/status/2046876981711769720)
-  A methodology for converting AI agent failure patterns into permanent system-level structural improvements
-- [GPT 5.5 Released](https://huggingface.co/papers)
-  OpenAI unveils next-generation model GPT 5.5
-- [SpaceX Secures Option to Acquire AI Coding Startup Cursor for $60B](https://www.reuters.com/technology/spacex-says-it-has-option-acquire-startup-cursor-60-billion-2026-04-21/)
-  SpaceX secures acquisition option for AI coding tool Cursor — signals major disruption in the AI coding market
-- [Anthropic Removes Claude Code Access for New Pro Subscribers?](https://www.wheresyoured.at/news-anthropic-removes-pro-cc/)
-  Anthropic restricts Claude Code access for new $20/month Pro subscribers
-- [Google LiteRT-LM — High-Performance LLM Inference Framework for Edge Devices](https://github.com/google-ai-edge/LiteRT-LM)
-  Google's open-source framework for high-performance LLM inference on mobile and IoT edge devices
+- [GStack: YC CEO Garry Tan's Open-Source AI Coding Agent Framework](https://www.youtube.com/watch?v=wkv2ifxPpF8)
+  Garry Tan released his Claude-based AI coding workflow as open-source GStack framework.
+- [OpenAI Announces GPT-5.5: A New Dimension of Intelligence for Real Work](https://openai.com/index/introducing-gpt-5-5/)
+  OpenAI launched GPT-5.5 with agent-like capabilities beyond text generation for practical applications.
+- [Google Cloud AI Agent Governance Stack at Cloud Next 26](https://x.com/GoogleCloudTech/status/2047120160100860290)
+  Google Cloud presented systematic framework for AI agent security management at Cloud Next 26.
+- [Anthropic-AWS $100B Compute Partnership Over 10 Years](https://www.anthropic.com/news/anthropic-amazon-compute)
+  Following Claude revenue surge from $9B to $30B annually, Anthropic expanded AWS partnership for 5GW capacity.
+- [SpaceX Secures Option to Acquire AI Coding Startup Cursor for $60 Billion](https://www.reuters.com/technology/spacex-says-it-has-option-acquire-startup-cursor-60-billion-2026-04-21/)
+  SpaceX established strategic partnership with AI coding tool Cursor, gaining year-end acquisition rights.
 
 ---
 ## 📅 Previous Dates
 
+- [2026-04-23](data/2026-04-23.md)
 - [2026-04-22](data/2026-04-22.md)
