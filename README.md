@@ -1,45 +1,46 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-04-24
+> 마지막 업데이트: 2026-04-25
 
-# AI 뉴스 — 2026-04-24
+# AI 뉴스 — 2026-04-25
 
 ## 🔥 GitHub Trending (Python)
 
-- [huggingface/ml-intern](https://github.com/huggingface/ml-intern): 논문을 읽고, 모델을 학습하며, ML 모델을 배포하는 오픈소스 머신러닝 엔지니어
-- [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything): 모든 검색 강화 생성 워크플로우를 지원하는 종합 RAG 프레임워크
-- [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool): 보안 테스트 및 연구를 위한 해킹 도구 모음
-- [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code): 터미널, VSCode 확장, Discord를 통해 Claude 코드 기능 무료 이용
-- [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI): 자율 AI 에이전트가 역할극을 통해 복잡한 작업에 협력하는 프레임워크
+- [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code): 터미널·VSCode·Discord에서 Claude Code를 무료로 사용하는 방법
+- [huggingface/ml-intern](https://github.com/huggingface/ml-intern): 논문 읽고, 모델 훈련하고, ML 모델을 배포하는 오픈소스 ML 엔지니어
+- [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool): 해커를 위한 올인원 해킹 도구 모음
+- [PostHog/posthog](https://github.com/PostHog/posthog): 제품 분석·세션 리플레이·실험·AI 어시스턴트 등 올인원 개발자 플랫폼
+- [AIDC-AI/Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video): AI 완전 자동화 숏폼 영상 생성 엔진
 
 ## 📄 Hugging Face Papers
 
-- [LLaDA2.0-Uni: 확산 LLM 기반 멀티모달 이해·생성 통합](https://huggingface.co/papers/2604.20796)
-  확산 기반 LLM을 사용하여 멀티모달 이해 및 생성 기능을 통합한 프레임워크
-- [근미래 정책 최적화](https://huggingface.co/papers/2604.20733)
-  RL 에이전트의 근미래 결과 최적화에 초점을 맞춘 정책 최적화 접근법
-- [DR-Venus: 10K 공개 데이터만으로 엣지 규모 심층 연구 에이전트](https://huggingface.co/papers/2604.19859)
-  최소한의 공개 데이터를 사용하여 엣지 규모 심층 연구 에이전트를 효율적으로 학습
-- [OpenMobile: 작업·궤적 합성으로 오픈 모바일 에이전트 구축](https://huggingface.co/papers/2604.15093)
-  작업 및 궤적 합성 기술로 모바일 에이전트를 구축하는 개방형 프레임워크
-- [DeVI: 합성 비디오 모방을 통한 물리 기반 인간-객체 상호작용](https://huggingface.co/papers/2604.20841)
-  합성 비디오 모방으로 민첩한 인간-객체 상호작용을 학습하는 물리 기반 접근법
+- [LLaTiSA: 시각 인식부터 의미 분석까지 난이도별 시계열 추론](https://huggingface.co/papers/2604.17295)
+  시각적 인식부터 의미 분석까지, 난이도별로 계층화된 시계열 추론 벤치마크를 제안한 연구
+- [WorldMark: 인터랙티브 비디오 월드 모델 통합 벤치마크](https://huggingface.co/papers/2604.21686)
+  비디오 생성 기반 월드 모델 평가를 위한 통합 벤치마크 스위트
+- [UniT: 인간→휴머노이드 정책 학습을 위한 통합 물리 언어](https://huggingface.co/papers/2604.19734)
+  인간의 동작을 휴머노이드 로봇에 전달하기 위한 통합된 물리 언어 프레임워크
+- [StyleID: 스타일 불변 얼굴 인식 데이터셋 및 지각 기반 메트릭](https://huggingface.co/papers/2604.21689)
+  다양한 스타일 변환에 불변인 얼굴 인식을 위한 데이터셋과 평가 지표 제안
+- [LLM 결정 + 스킬 뱅크 에이전트의 공동 진화로 장기 태스크 해결](https://huggingface.co/papers/2604.20987)
+  LLM 의사결정과 스킬 저장소 에이전트를 공동 진화시켜 복잡한 장기 태스크를 해결하는 프레임워크
 
 ## 🦉 GeekNews
 
-- [GStack: YC 대표 개리 탄의 오픈소스 AI 코딩 에이전트 프레임워크](https://www.youtube.com/watch?v=wkv2ifxPpF8)
-  개리 탄이 Claude 기반 AI 코딩 워크플로우를 GStack 오픈소스로 공개
-- [OpenAI, GPT-5.5 발표 — 실제 업무를 위한 에이전트 수준 지능](https://openai.com/index/introducing-gpt-5-5/)
-  OpenAI가 텍스트 생성을 넘어 에이전트 능력을 갖춘 GPT-5.5를 발표
-- [Google Cloud, AI 에이전트 거버넌스 스택 공개 — 에이전트를 엔지니어 팀처럼 관리](https://x.com/GoogleCloudTech/status/2047120160100860290)
-  Google Cloud Next 26에서 AI 에이전트를 엔지니어 조직처럼 체계적으로 관리하는 거버넌스 스택 공개
-- [Anthropic-AWS 10년 1000억 달러 규모 컴퓨트 파트너십 확대](https://www.anthropic.com/news/anthropic-amazon-compute)
-  Claude 매출이 90억→300억 달러로 급증하면서 Anthropic-AWS 장기 파트너십 확대
-- [SpaceX, Cursor 600억 달러 인수 옵션 확보](https://www.reuters.com/technology/spacex-says-it-has-option-acquire-startup-cursor-60-billion-2026-04-21/)
-  SpaceX가 AI 코딩 도구 Cursor와 전략적 파트너십 및 연말 인수 옵션 확보
+- [기술 부채, 인지 부채, 의도 부채](https://martinfowler.com/fragments/2026-04-02.html)
+  LLM이 코드를 대량 생산하는 환경에서는 코드 부채뿐 아니라 팀의 공유 이해와 시스템 목표 기록도 함께 약해진다
+- [LLM으로 할 수 있는 비전형적인 일 7가지](https://www.kdnuggets.com/7-specific-unconventional-things-to-do-with-language-models)
+  챗봇·검색 이상으로 LLM을 활용하는 7가지 비전통적 사용법 소개
+- [소프트웨어 공학의 법칙들](https://lawsofsoftwareengineering.com)
+  시스템·팀·의사결정에 영향을 미치는 56가지 소프트웨어 공학 원칙과 패턴 컬렉션
+- [Palantir 직원들, 자신들이 나쁜 편인지 고민하기 시작](https://www.wired.com/story/palantir-employees-are-starting-to-wonder-if-theyre-the-bad-guys/)
+  이민 집행·군사 지원 업무가 겹치면서 직원들 내부에서 정체성 혼란 확산
+- [AI 크롤러 시대, 로그 파일 분석으로 검색 가시성의 사각지대를 읽는 법](https://searchengineland.com/log-file-analysis-ai-crawlers-search-visibility-474428)
+  ChatGPT·Claude·Perplexity 등 AI 크롤러가 내 사이트를 어떻게 보는지 로그로 파악하는 방법
 
 ---
 ## 📅 이전 날짜
 
+- [2026-04-24](data/2026-04-24.md)
 - [2026-04-23](data/2026-04-23.md)
 - [2026-04-22](data/2026-04-22.md)
