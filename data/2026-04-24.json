@@ -4,81 +4,106 @@
     {
       "name": "huggingface/ml-intern",
       "url": "https://github.com/huggingface/ml-intern",
-      "description": "논문을 읽고, 모델을 학습하며, ML 모델을 배포하는 오픈소스 머신러닝 엔지니어"
+      "description": "논문을 읽고, 모델을 학습하며, ML 모델을 배포하는 오픈소스 머신러닝 엔지니어",
+      "description_en": "Open-source machine learning engineer that reads papers, trains models, and deploys ML models"
     },
     {
       "name": "HKUDS/RAG-Anything",
       "url": "https://github.com/HKUDS/RAG-Anything",
-      "description": "모든 검색 강화 생성 워크플로우를 지원하는 종합 RAG 프레임워크"
+      "description": "모든 검색 강화 생성 워크플로우를 지원하는 종합 RAG 프레임워크",
+      "description_en": "Comprehensive RAG framework supporting all retrieval-augmented generation workflows"
     },
     {
       "name": "Z4nzu/hackingtool",
       "url": "https://github.com/Z4nzu/hackingtool",
-      "description": "보안 테스트 및 연구를 위한 해킹 도구 모음"
+      "description": "보안 테스트 및 연구를 위한 해킹 도구 모음",
+      "description_en": "Collection of hacking tools for security testing and research"
     },
     {
       "name": "Alishahryar1/free-claude-code",
       "url": "https://github.com/Alishahryar1/free-claude-code",
-      "description": "터미널, VSCode 확장, Discord를 통해 Claude 코드 기능 무료 이용"
+      "description": "터미널, VSCode 확장, Discord를 통해 Claude 코드 기능 무료 이용",
+      "description_en": "Use Claude Code features for free via terminal, VSCode extension, and Discord"
     },
     {
       "name": "crewAIInc/crewAI",
       "url": "https://github.com/crewAIInc/crewAI",
-      "description": "자율 AI 에이전트가 역할극을 통해 복잡한 작업에 협력하는 프레임워크"
+      "description": "자율 AI 에이전트가 역할극을 통해 복잡한 작업에 협력하는 프레임워크",
+      "description_en": "Framework for autonomous AI agents to collaborate on complex tasks through role-playing"
     }
   ],
   "huggingface": [
     {
       "title": "LLaDA2.0-Uni: 확산 LLM 기반 멀티모달 이해·생성 통합",
       "url": "https://huggingface.co/papers/2604.20796",
-      "summary": "확산 기반 LLM을 사용하여 멀티모달 이해 및 생성 기능을 통합한 프레임워크"
+      "summary": "확산 기반 LLM을 사용하여 멀티모달 이해 및 생성 기능을 통합한 프레임워크",
+      "title_en": "LLaDA2.0-Uni: Unified Multimodal Understanding and Generation via Diffusion LLM",
+      "summary_en": "Framework integrating multimodal understanding and generation capabilities using diffusion-based LLM"
     },
     {
       "title": "근미래 정책 최적화",
       "url": "https://huggingface.co/papers/2604.20733",
-      "summary": "RL 에이전트의 근미래 결과 최적화에 초점을 맞춘 정책 최적화 접근법"
+      "summary": "RL 에이전트의 근미래 결과 최적화에 초점을 맞춘 정책 최적화 접근법",
+      "title_en": "Near-Future Policy Optimization",
+      "summary_en": "Policy optimization approach focused on near-future outcome optimization for RL agents"
     },
     {
       "title": "DR-Venus: 10K 공개 데이터만으로 엣지 규모 심층 연구 에이전트",
       "url": "https://huggingface.co/papers/2604.19859",
-      "summary": "최소한의 공개 데이터를 사용하여 엣지 규모 심층 연구 에이전트를 효율적으로 학습"
+      "summary": "최소한의 공개 데이터를 사용하여 엣지 규모 심층 연구 에이전트를 효율적으로 학습",
+      "title_en": "DR-Venus: Edge-Scale Deep Research Agent with Only 10K Public Data",
+      "summary_en": "Efficiently training edge-scale deep research agents using minimal public data"
     },
     {
       "title": "OpenMobile: 작업·궤적 합성으로 오픈 모바일 에이전트 구축",
       "url": "https://huggingface.co/papers/2604.15093",
-      "summary": "작업 및 궤적 합성 기술로 모바일 에이전트를 구축하는 개방형 프레임워크"
+      "summary": "작업 및 궤적 합성 기술로 모바일 에이전트를 구축하는 개방형 프레임워크",
+      "title_en": "OpenMobile: Building Open Mobile Agents via Task and Trajectory Synthesis",
+      "summary_en": "Open framework for building mobile agents using task and trajectory synthesis techniques"
     },
     {
       "title": "DeVI: 합성 비디오 모방을 통한 물리 기반 인간-객체 상호작용",
       "url": "https://huggingface.co/papers/2604.20841",
-      "summary": "합성 비디오 모방으로 민첩한 인간-객체 상호작용을 학습하는 물리 기반 접근법"
+      "summary": "합성 비디오 모방으로 민첩한 인간-객체 상호작용을 학습하는 물리 기반 접근법",
+      "title_en": "DeVI: Physics-Based Human-Object Interaction via Synthetic Video Imitation",
+      "summary_en": "Physics-based approach for learning agile human-object interactions through synthetic video imitation"
     }
   ],
   "geeknews": [
     {
       "title": "GStack: YC 대표 개리 탄의 오픈소스 AI 코딩 에이전트 프레임워크",
       "url": "https://www.youtube.com/watch?v=wkv2ifxPpF8",
-      "summary": "개리 탄이 Claude 기반 AI 코딩 워크플로우를 GStack 오픈소스로 공개"
+      "summary": "개리 탄이 Claude 기반 AI 코딩 워크플로우를 GStack 오픈소스로 공개",
+      "title_en": "GStack: Open-Source AI Coding Agent Framework by YC's Garry Tan",
+      "summary_en": "Garry Tan releases GStack, an open-source Claude-based AI coding workflow"
     },
     {
       "title": "OpenAI, GPT-5.5 발표 — 실제 업무를 위한 에이전트 수준 지능",
       "url": "https://openai.com/index/introducing-gpt-5-5/",
-      "summary": "OpenAI가 텍스트 생성을 넘어 에이전트 능력을 갖춘 GPT-5.5를 발표"
+      "summary": "OpenAI가 텍스트 생성을 넘어 에이전트 능력을 갖춘 GPT-5.5를 발표",
+      "title_en": "OpenAI Introduces GPT-5.5 — Agent-Level Intelligence for Real-World Tasks",
+      "summary_en": "OpenAI announces GPT-5.5 with agentic capabilities beyond text generation"
     },
     {
       "title": "Google Cloud, AI 에이전트 거버넌스 스택 공개 — 에이전트를 엔지니어 팀처럼 관리",
       "url": "https://x.com/GoogleCloudTech/status/2047120160100860290",
-      "summary": "Google Cloud Next 26에서 AI 에이전트를 엔지니어 조직처럼 체계적으로 관리하는 거버넌스 스택 공개"
+      "summary": "Google Cloud Next 26에서 AI 에이전트를 엔지니어 조직처럼 체계적으로 관리하는 거버넌스 스택 공개",
+      "title_en": "Google Cloud Unveils AI Agent Governance Stack — Manage Agents Like Engineering Teams",
+      "summary_en": "Google Cloud Next 26 introduces a governance stack for systematically managing AI agents like engineering organizations"
     },
     {
       "title": "Anthropic-AWS 10년 1000억 달러 규모 컴퓨트 파트너십 확대",
       "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
-      "summary": "Claude 매출이 90억→300억 달러로 급증하면서 Anthropic-AWS 장기 파트너십 확대"
+      "summary": "Claude 매출이 90억→300억 달러로 급증하면서 Anthropic-AWS 장기 파트너십 확대",
+      "title_en": "Anthropic-AWS Expand 10-Year $100B Compute Partnership",
+      "summary_en": "Anthropic and AWS extend long-term partnership as Claude revenue surges from $9B to $30B"
     },
     {
       "title": "SpaceX, Cursor 600억 달러 인수 옵션 확보",
       "url": "https://www.reuters.com/technology/spacex-says-it-has-option-acquire-startup-cursor-60-billion-2026-04-21/",
-      "summary": "SpaceX가 AI 코딩 도구 Cursor와 전략적 파트너십 및 연말 인수 옵션 확보"
+      "summary": "SpaceX가 AI 코딩 도구 Cursor와 전략적 파트너십 및 연말 인수 옵션 확보",
+      "title_en": "SpaceX Secures $60B Acquisition Option for Cursor",
+      "summary_en": "SpaceX secures strategic partnership and year-end acquisition option for AI coding tool Cursor"
     }
   ]
 }
