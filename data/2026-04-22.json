@@ -4,54 +4,69 @@
     {
       "name": "HKUDS/RAG-Anything",
       "url": "https://github.com/HKUDS/RAG-Anything",
-      "description": "멀티모달 All-in-One RAG 프레임워크"
+      "description": "멀티모달 All-in-One RAG 프레임워크",
+      "description_en": "Multimodal All-in-One RAG framework"
     },
     {
       "name": "sansan0/TrendRadar",
       "url": "https://github.com/sansan0/TrendRadar",
-      "description": "AI 기반 멀티플랫폼 여론·트렌드 모니터링"
+      "description": "AI 기반 멀티플랫폼 여론·트렌드 모니터링",
+      "description_en": "AI-based multi-platform public opinion and trend monitoring"
     },
     {
       "name": "AIDC-AI/Pixelle-Video",
       "url": "https://github.com/AIDC-AI/Pixelle-Video",
-      "description": "AI 완전 자동 숏폼 비디오 생성 엔진"
+      "description": "AI 완전 자동 숏폼 비디오 생성 엔진",
+      "description_en": "Fully automated AI short-form video generation engine"
     },
     {
       "name": "Fincept-Corporation/FinceptTerminal",
       "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
-      "description": "고급 금융 분석·투자 리서치 통합 터미널"
+      "description": "고급 금융 분석·투자 리서치 통합 터미널",
+      "description_en": "Advanced financial analysis and investment research integrated terminal"
     },
     {
       "name": "Z4nzu/hackingtool",
       "url": "https://github.com/Z4nzu/hackingtool",
-      "description": "All-in-One 해킹 도구 모음 (보안 리서치용)"
+      "description": "All-in-One 해킹 도구 모음 (보안 리서치용)",
+      "description_en": "All-in-one collection of hacking tools for security research"
     }
   ],
   "huggingface": [
     {
       "title": "Tstars-Tryon 1.0",
       "url": "https://huggingface.co/papers/2604.19748",
-      "summary": "다양한 패션 아이템을 위한 강인하고 사실적인 가상 피팅 모델"
+      "summary": "다양한 패션 아이템을 위한 강인하고 사실적인 가상 피팅 모델",
+      "title_en": "Tstars-Tryon 1.0",
+      "summary_en": "Robust and realistic virtual try-on model for diverse fashion items"
     },
     {
       "title": "AgentSPEX",
       "url": "https://huggingface.co/papers/2604.13346",
-      "summary": "에이전트 명세 및 실행 언어 제안"
+      "summary": "에이전트 명세 및 실행 언어 제안",
+      "title_en": "AgentSPEX",
+      "summary_en": "Proposed language for agent specification and execution"
     },
     {
       "title": "AnyRecon",
       "url": "https://huggingface.co/papers/2604.19747",
-      "summary": "비디오 Diffusion 모델 기반 임의 시점 3D 재구성"
+      "summary": "비디오 Diffusion 모델 기반 임의 시점 3D 재구성",
+      "title_en": "AnyRecon",
+      "summary_en": "Arbitrary viewpoint 3D reconstruction based on video diffusion models"
     },
     {
       "title": "CoInteract",
       "url": "https://huggingface.co/papers/2604.19636",
-      "summary": "물리적으로 일관된 인간-물체 상호작용 비디오 합성"
+      "summary": "물리적으로 일관된 인간-물체 상호작용 비디오 합성",
+      "title_en": "CoInteract",
+      "summary_en": "Physically consistent human-object interaction video synthesis"
     },
     {
       "title": "TEMPO",
       "url": "https://huggingface.co/papers/2604.19295",
-      "summary": "대형 추론 모델의 테스트 타임 트레이닝 스케일링"
+      "summary": "대형 추론 모델의 테스트 타임 트레이닝 스케일링",
+      "title_en": "TEMPO",
+      "summary_en": "Test-time training scaling for large inference models"
     }
   ],
   "geeknews": [
@@ -59,31 +74,41 @@
       "title": "Claude Code 및 Codex 설정 변경으로 토큰을 절약하는 방법",
       "url": "https://news.hada.io/topic?id=28697",
       "score": 48,
-      "summary": "Claude Code 토큰 절약 설정 팁"
+      "summary": "Claude Code 토큰 절약 설정 팁",
+      "title_en": "How to Save Tokens by Changing Claude Code and Codex Settings",
+      "summary_en": "Tips for reducing token usage with Claude Code configuration"
     },
     {
       "title": "프로그래밍의 일곱 가지 원형 언어 (2022)",
       "url": "https://news.hada.io/topic?id=28703",
       "score": 45,
-      "summary": "프로그래밍 언어의 근본 패러다임 분류"
+      "summary": "프로그래밍 언어의 근본 패러다임 분류",
+      "title_en": "The Seven Archetypal Languages of Programming (2022)",
+      "summary_en": "Classification of fundamental paradigms in programming languages"
     },
     {
       "title": "소프트웨어 공학의 법칙들",
       "url": "https://news.hada.io/topic?id=28760",
       "score": 36,
-      "summary": "개발자가 알아야 할 소프트웨어 공학 원칙"
+      "summary": "개발자가 알아야 할 소프트웨어 공학 원칙",
+      "title_en": "Laws of Software Engineering",
+      "summary_en": "Core principles every developer should know in software engineering"
     },
     {
       "title": "프로덕션에서 바이브 코딩을 책임감 있게 하는 법",
       "url": "https://news.hada.io/topic?id=28749",
       "score": 28,
-      "summary": "AI 코딩 도구를 프로덕션에서 안전하게 쓰는 방법"
+      "summary": "AI 코딩 도구를 프로덕션에서 안전하게 쓰는 방법",
+      "title_en": "How to Vibe-Code Responsibly in Production",
+      "summary_en": "How to safely use AI coding tools in production environments"
     },
     {
       "title": "Why 2026 Seniors are just highly-paid Code Editors",
       "url": "https://news.hada.io/topic?id=28716",
       "score": 18,
-      "summary": "시니어 개발자의 역할 변화에 대한 논의"
+      "summary": "시니어 개발자의 역할 변화에 대한 논의",
+      "title_en": "Why 2026 Seniors are just highly-paid Code Editors",
+      "summary_en": "Discussion on the changing role of senior developers"
     }
   ]
 }
