@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-04-25
+> 마지막 업데이트: 2026-04-26
 
-# AI 뉴스 — 2026-04-25
+# AI 뉴스 — 2026-04-26
 
 ## 🔥 GitHub Trending (Python)
 
-- [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code): 터미널·VSCode·Discord에서 Claude Code를 무료로 사용하는 방법
-- [huggingface/ml-intern](https://github.com/huggingface/ml-intern): 논문 읽고, 모델 훈련하고, ML 모델을 배포하는 오픈소스 ML 엔지니어
-- [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool): 해커를 위한 올인원 해킹 도구 모음
-- [PostHog/posthog](https://github.com/PostHog/posthog): 제품 분석·세션 리플레이·실험·AI 어시스턴트 등 올인원 개발자 플랫폼
-- [AIDC-AI/Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video): AI 완전 자동화 숏폼 영상 생성 엔진
+- [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code): 터미널, VSCode 확장 또는 디스코드에서 Claude Code를 무료로 사용할 수 있는 도구
+- [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool): 해커를 위한 모든 기능을 포함한 해킹 도구 모음
+- [PostHog/posthog](https://github.com/PostHog/posthog): 제품 분석, 세션 재생, 오류 추적, 기능 플래그를 포함한 올인원 개발자 플랫폼
+- [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates): Claude Code를 구성하고 모니터링하기 위한 CLI 도구
+- [huggingface/ml-intern](https://github.com/huggingface/ml-intern): 논문을 읽고 모델을 학습하며 ML 모델을 배포하는 오픈소스 머신러닝 엔지니어
 
 ## 📄 Hugging Face Papers
 
-- [LLaTiSA: 시각 인식부터 의미 분석까지 난이도별 시계열 추론](https://huggingface.co/papers/2604.17295)
-  시각적 인식부터 의미 분석까지, 난이도별로 계층화된 시계열 추론 벤치마크를 제안한 연구
-- [WorldMark: 인터랙티브 비디오 월드 모델 통합 벤치마크](https://huggingface.co/papers/2604.21686)
-  비디오 생성 기반 월드 모델 평가를 위한 통합 벤치마크 스위트
-- [UniT: 인간→휴머노이드 정책 학습을 위한 통합 물리 언어](https://huggingface.co/papers/2604.19734)
-  인간의 동작을 휴머노이드 로봇에 전달하기 위한 통합된 물리 언어 프레임워크
-- [StyleID: 스타일 불변 얼굴 인식 데이터셋 및 지각 기반 메트릭](https://huggingface.co/papers/2604.21689)
-  다양한 스타일 변환에 불변인 얼굴 인식을 위한 데이터셋과 평가 지표 제안
-- [LLM 결정 + 스킬 뱅크 에이전트의 공동 진화로 장기 태스크 해결](https://huggingface.co/papers/2604.20987)
-  LLM 의사결정과 스킬 저장소 에이전트를 공동 진화시켜 복잡한 장기 태스크를 해결하는 프레임워크
+- [LLaTiSA: 시각 인식에서 의미론까지의 난이도 계층화 시계열 추론](https://huggingface.co/papers/2604.17295)
+  시각적 인식에서 의미론적 이해까지 난이도 계층화된 시계열 추론 벤치마크 제안
+- [WorldMark: 대화형 비디오 월드 모델을 위한 통합 벤치마크 스위트](https://huggingface.co/papers/2604.21686)
+  대화형 비디오 월드 모델의 성능 평가를 위한 통합 벤치마크 스위트
+- [UniT: 인간형 로봇 정책 학습을 위한 통합 물리 언어](https://huggingface.co/papers/2604.19734)
+  인간에서 인간형 로봇으로의 정책 학습과 월드 모델링을 위한 통합 물리 언어 제안
+- [StyleID: 스타일화 불변 얼굴 신원 인식을 위한 인식 기반 데이터셋](https://huggingface.co/papers/2604.21689)
+  스타일화에 무관한 얼굴 신원 인식을 위한 인식 기반 데이터셋 및 평가 메트릭 소개
+- [LLM 의사결정과 스킬 뱅크 에이전트의 공진화로 장기 태스크 해결](https://huggingface.co/papers/2604.20987)
+  LLM 의사결정과 스킬 뱅크 에이전트를 공진화시켜 복잡한 장기 태스크를 해결하는 프레임워크
 
 ## 🦉 GeekNews
 
 - [기술 부채, 인지 부채, 의도 부채](https://martinfowler.com/fragments/2026-04-02.html)
-  LLM이 코드를 대량 생산하는 환경에서는 코드 부채뿐 아니라 팀의 공유 이해와 시스템 목표 기록도 함께 약해진다
+  LLM 시대에 코드 생산의 부작용으로 발생하는 새로운 부채 형태. 공유 이해와 시스템 목표 기록의 약화 문제
+- [DESIGN.md — AI 코딩 도구를 위한 디자인 시스템 단일 파일 포맷](https://rubric.im/curriculum/design-md)
+  Google Labs Stitch 프로젝트에서 제안한 AI 코딩 도구용 디자인 시스템 스펙 포맷
+- [GoScrapy - Go 기반 초고속 웹 스크래핑 프레임워크](https://github.com/tech-engine/goscrapy)
+  Python Scrapy의 아키텍처를 Go 언어로 네이티브 구현한 고성능 웹 스크래핑 프레임워크
+- [TypeScript 7.0 Beta 공개](https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-beta/)
+  Go로 포팅한 새 네이티브 TypeScript 컴파일러로 약 10배 성능 향상
 - [LLM으로 할 수 있는 비전형적인 일 7가지](https://www.kdnuggets.com/7-specific-unconventional-things-to-do-with-language-models)
-  챗봇·검색 이상으로 LLM을 활용하는 7가지 비전통적 사용법 소개
-- [소프트웨어 공학의 법칙들](https://lawsofsoftwareengineering.com)
-  시스템·팀·의사결정에 영향을 미치는 56가지 소프트웨어 공학 원칙과 패턴 컬렉션
-- [Palantir 직원들, 자신들이 나쁜 편인지 고민하기 시작](https://www.wired.com/story/palantir-employees-are-starting-to-wonder-if-theyre-the-bad-guys/)
-  이민 집행·군사 지원 업무가 겹치면서 직원들 내부에서 정체성 혼란 확산
-- [AI 크롤러 시대, 로그 파일 분석으로 검색 가시성의 사각지대를 읽는 법](https://searchengineland.com/log-file-analysis-ai-crawlers-search-visibility-474428)
-  ChatGPT·Claude·Perplexity 등 AI 크롤러가 내 사이트를 어떻게 보는지 로그로 파악하는 방법
+  챗봇·검색 이상으로 LLM을 활용하는 7가지 비전통적 사용법
 
 ---
 ## 📅 이전 날짜
 
+- [2026-04-25](data/2026-04-25.md)
 - [2026-04-24](data/2026-04-24.md)
 - [2026-04-23](data/2026-04-23.md)
 - [2026-04-22](data/2026-04-22.md)
