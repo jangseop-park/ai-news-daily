@@ -1,0 +1,109 @@
+{
+  "date": "2026-04-28",
+  "github_trending": [
+    {
+      "name": "ComposioHQ/awesome-codex-skills",
+      "url": "https://github.com/ComposioHQ/awesome-codex-skills",
+      "description": "Codex CLI와 API에서 워크플로우를 자동화하는 실용적인 Codex 스킬 큐레이션 목록",
+      "description_en": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API"
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "터미널, VSCode 확장, Discord를 통해 Claude Code를 무료로 사용할 수 있는 도구 (+2,973 stars)",
+      "description_en": "Free access to Claude Code via terminal, VSCode extension, and Discord integration"
+    },
+    {
+      "name": "davila7/claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "description": "Claude Code 설정 및 모니터링을 위한 CLI 도구",
+      "description_en": "CLI tool for configuring and monitoring Claude Code"
+    },
+    {
+      "name": "microsoft/VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "description": "Microsoft의 오픈소스 최전선 음성 AI 프로젝트",
+      "description_en": "Open-Source Frontier Voice AI project from Microsoft"
+    },
+    {
+      "name": "Z4nzu/hackingtool",
+      "url": "https://github.com/Z4nzu/hackingtool",
+      "description": "해커를 위한 올인원 해킹 툴 모음 (+1,839 stars)",
+      "description_en": "ALL IN ONE Hacking Tool For Hackers"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "에이전트 세계 모델링: 기초, 능력, 법칙 그리고 그 너머",
+      "title_en": "Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond",
+      "url": "https://huggingface.co/papers/2604.22748",
+      "summary": "42명의 저자가 참여한 대형 서베이. 에이전트 세계 모델링의 이론적 기반과 실용적 응용을 종합 정리 (↑151)",
+      "summary_en": "A comprehensive 42-author survey on foundations and capabilities of agentic world modeling systems. 151 upvotes."
+    },
+    {
+      "title": "의미적 진행 함수를 통한 비디오 분석 및 생성",
+      "title_en": "Video Analysis and Generation via a Semantic Progress Function",
+      "url": "https://huggingface.co/papers/2604.22554",
+      "summary": "텔아비브대학. 비디오 콘텐츠의 구조적 이해와 생성을 위한 의미적 진행 함수 방법론 제안 (↑36)",
+      "summary_en": "Tel Aviv Univ. proposes semantic progress function for structured video understanding and generation. 36 upvotes."
+    },
+    {
+      "title": "DiffNR: 희소 시야 3D 단층 촬영 재구성을 위한 확산 강화 신경 표현",
+      "title_en": "DiffNR: Diffusion-Enhanced Neural Representation Optimization for Sparse-View 3D Tomographic Reconstruction",
+      "url": "https://huggingface.co/papers/2604.21518",
+      "summary": "모나시대학. 확산 모델과 신경 표현을 결합해 의료 영상에서 제한된 각도로 3D 재구성 성능 향상 (↑26)",
+      "summary_en": "Monash Univ. combines diffusion models with neural representations for improved sparse-view medical 3D reconstruction. 26 upvotes."
+    },
+    {
+      "title": "내부에서 LLM 안전성: 내부 표현으로 유해 콘텐츠 탐지",
+      "title_en": "LLM Safety From Within: Detecting Harmful Content with Internal Representations",
+      "url": "https://huggingface.co/papers/2604.18519",
+      "summary": "토론토대학. LLM 내부 표현 분석으로 유해 콘텐츠를 탐지하는 새로운 안전성 접근법 제안 (↑21)",
+      "summary_en": "Univ. of Toronto. Detects harmful content using LLM internal representations for improved safety. 21 upvotes."
+    },
+    {
+      "title": "인간-AI 감독을 통한 정밀 비디오 언어 구축",
+      "title_en": "Building a Precise Video Language with Human-AI Oversight",
+      "url": "https://huggingface.co/papers/2604.21718",
+      "summary": "카네기멜론대학. 인간-AI 협력 어노테이션으로 더 정밀한 비디오 설명 언어 체계 개발 (↑21)",
+      "summary_en": "CMU. Develops precise video description language through human-AI collaborative annotation. 21 upvotes."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "소프트웨어 공학의 법칙들",
+      "title_en": "Laws of Software Engineering",
+      "url": "https://lawsofsoftwareengineering.com",
+      "summary": "팀 운영·아키텍처·품질·의사결정에 영향 미치는 56가지 원칙과 패턴 모음",
+      "summary_en": "Collection of 56 principles and patterns covering team operation, architecture, quality, and decision-making"
+    },
+    {
+      "title": "DESIGN.md — AI 코딩 도구를 위한 디자인 시스템 단일 파일 포맷",
+      "title_en": "DESIGN.md — Single-file design system format for AI coding tools",
+      "url": "https://rubric.im/curriculum/design-md",
+      "summary": "Google Labs의 DESIGN.md 포맷 분석 — AI 코딩 도구를 위한 단일 파일 디자인 시스템 규격",
+      "summary_en": "Analysis of Google Labs' DESIGN.md format proposal for AI coding tools"
+    },
+    {
+      "title": "기술 부채, 인지 부채, 의도 부채",
+      "title_en": "Technical Debt, Cognitive Debt, Intent Debt",
+      "url": "https://martinfowler.com/fragments/2026-04-02.html",
+      "summary": "LLM이 코드를 대량 생산할 때 팀의 공유 이해가 약해지는 새로운 부채 유형 분석",
+      "summary_en": "Analysis of how LLM code generation weakens shared team understanding, creating new debt types"
+    },
+    {
+      "title": "NVIDIA Nemotron-Personas-Korea — 실제 인구 분포 기반 100만 건 합성 페르소나",
+      "title_en": "NVIDIA Nemotron-Personas-Korea — 1M synthetic personas based on real Korean demographics",
+      "url": "https://huggingface.co/datasets/nvidia/Nemotron-Personas-Korea",
+      "summary": "실제 인구통계·지리·성격 분포를 반영한 최초의 대규모 한국어 합성 페르소나 데이터셋",
+      "summary_en": "First large-scale Korean synthetic persona dataset reflecting real demographic, geographic, and personality distributions"
+    },
+    {
+      "title": "자신보다 뛰어난 사람을 채용하는 법",
+      "title_en": "How to Hire Someone Better Than You",
+      "url": "https://longform.asmartbear.com/hire-better-than-you/",
+      "summary": "CEO가 잘 모르는 분야의 임원급 인재를 평가할 때 전문성 대신 쓸 수 있는 실질적 기준들",
+      "summary_en": "Practical criteria for evaluating executive-level talent in domains where you lack expertise"
+    }
+  ]
+}
