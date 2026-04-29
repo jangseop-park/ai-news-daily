@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-04-29
+> 마지막 업데이트: 2026-04-30
 
-# AI 뉴스 — 2026-04-29
+# AI 뉴스 — 2026-04-30
 
 ## 🔥 GitHub Trending (Python)
 
-- [ComposioHQ/awesome-codex-skills](https://github.com/ComposioHQ/awesome-codex-skills): Codex 워크플로우 자동화를 위한 실용적 스킬 모음집
-- [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice): 오픈소스 최전선 음성 AI
-- [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates): Claude Code 설정 및 모니터링 CLI 도구
-- [HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack): 위치 및 전화번호 추적 도구
-- [public-apis/public-apis](https://github.com/public-apis/public-apis): 무료 공개 API 목록 모음
+- [HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack): 위치 또는 전화번호 추적 도구
+- [ComposioHQ/awesome-codex-skills](https://github.com/ComposioHQ/awesome-codex-skills): Codex CLI/API에서 워크플로 자동화를 위한 실용적인 코덱스 스킬 모음
+- [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice): Microsoft의 오픈소스 프론티어 음성 AI
+- [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis): LLM 기반 A/H/미국 주식 멀티소스 실시간 분석 시스템
+- [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books): 무료 프로그래밍 도서 모음
 
 ## 📄 Hugging Face Papers
 
-- [에이전트를 실제 회사처럼 조직하기: 스킬에서 인재로](https://huggingface.co/papers/2604.22446)
-  이질적인 에이전트들을 실제 기업 구조처럼 조직하는 멀티에이전트 프레임워크 제안
-- [World-R1: 텍스트-비디오 생성을 위한 3D 제약 강화 학습](https://huggingface.co/papers/2604.24764)
-  텍스트에서 비디오 생성 시 3D 물리적 일관성을 강화학습으로 향상
-- [ReVSI: VLM 3D 공간 추론 평가 재구축](https://huggingface.co/papers/2604.24300)
-  시각-언어 모델의 3D 공간 추론 능력을 정확하게 평가하는 새 벤치마크
-- [Tuna-2: 픽셀 임베딩이 멀티모달 이해·생성에서 비전 인코더를 능가](https://huggingface.co/papers/2604.24763)
-  픽셀 기반 임베딩이 기존 비전 인코더보다 멀티모달 작업에서 우수함을 실증
-- [VLA 안전성: 위협, 평가 및 방어 메커니즘](https://huggingface.co/papers/2604.23775)
-  시각-언어-행동 모델의 안전 위협 체계적 분류 및 방어 방법 제시
+- [재귀적 멀티에이전트 시스템](https://huggingface.co/papers/2604.25917)
+  재귀적 멀티에이전트 시스템 아키텍처 및 설계 패턴 연구 (Stanford University)
+- [테스트 주도 데이터 엔지니어링으로 LLM 자기개선](https://huggingface.co/papers/2604.24819)
+  원시 코퍼스에서 LLM 성능을 향상시키는 테스트 주도 데이터 엔지니어링 접근법
+- [DV-World: 실세계 데이터 시각화 에이전트 벤치마크](https://huggingface.co/papers/2604.25914)
+  실제 시나리오에서 데이터 시각화 에이전트를 평가하는 종합 벤치마크
+- [AutoResearchBench: 복잡한 과학 문헌 발견 AI 에이전트 벤치마킹](https://huggingface.co/papers/2604.25256)
+  AI 에이전트의 복잡한 과학 문헌 발굴 능력을 평가하는 벤치마킹 프레임워크 (BAAI)
+- [Meta-CoT: 이미지 편집의 세밀도와 일반화 향상](https://huggingface.co/papers/2604.24625)
+  메타 체인오브쏫 방식으로 이미지 편집의 세밀도와 일반화 능력을 향상시키는 방법 (Tsinghua University)
 
 ## 🦉 GeekNews
 
-- [자신보다 뛰어난 사람을 채용하는 법](https://longform.asmartbear.com/hire-better-than-you/)
-  스타트업에서 자신보다 뛰어난 인재를 발굴하고 채용하는 실전 전략
-- [stitch가 유행시킨 DESIGN.md를 모아놓은 사이트](https://getdesign.md)
-  프로젝트 설계 문서 DESIGN.md 모음 — AI 코딩 에이전트 맥락 제공용으로 활용
+- [DESIGN.md를 모아놓은 사이트 — AI 코딩 도구를 위한 웹 디자인 가이드라인 표준화](https://getdesign.md)
+  AI 코딩 도구와 자동화를 위한 웹 디자인 가이드라인을 표준화하는 DESIGN.md 파일 모음 사이트
 - [하네스 엔지니어링: 모델보다 중요한 작업 환경 설계의 시대](https://addyosmani.com/blog/agent-harness-engineering/)
-  AI 에이전트 시대, 모델 선택보다 작업 하네스(환경) 설계가 더 중요해졌다는 통찰
-- [Remotion - React로 영상을 만드는 오픈소스 프레임워크](https://github.com/remotion-dev/remotion)
-  React 컴포넌트로 프로그래밍 방식의 동영상 제작이 가능한 오픈소스 프레임워크
+  Addy Osmani가 분석한 AI 에이전트 인프라 설계의 중요성 — 모델 개발보다 작업 환경 설계로 산업 초점 이동
 - [만들기 전에 고려해야 할 3가지 제약 조건](https://jordanlord.co.uk/blog/3-constraints/)
-  제품/기능 개발 전 반드시 확인해야 할 시간·자원·범위 제약의 중요성
+  전략적 제약이 탐색 공간을 좁혀 제품의 복잡성 증가와 정체성 혼란을 예방하는 방법
+- [Remotion — React로 영상을 만드는 오픈소스 프레임워크](https://github.com/remotion-dev/remotion)
+  GUI 편집기 대신 TypeScript 코드로 MP4를 생성하는 프레임워크, AI 에이전트 생성 콘텐츠에 유용
+- [YC의 스타트업 요청 — 2026년 여름](https://www.ycombinator.com/rfs)
+  Y Combinator가 AI 및 신흥 기술 분야의 스타트업 아이디어를 공유하는 연례 RFS 이니셔티브
 
 ---
 ## 📅 이전 날짜
 
+- [2026-04-29](data/2026-04-29.md)
 - [2026-04-28](data/2026-04-28.md)
 - [2026-04-27](data/2026-04-27.md)
 - [2026-04-26](data/2026-04-26.md)
