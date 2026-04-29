@@ -1,0 +1,109 @@
+{
+  "date": "2026-04-30",
+  "github_trending": [
+    {
+      "name": "HunxByts/GhostTrack",
+      "url": "https://github.com/HunxByts/GhostTrack",
+      "description": "위치 또는 전화번호 추적 도구",
+      "description_en": "Useful tool to track location or mobile number"
+    },
+    {
+      "name": "ComposioHQ/awesome-codex-skills",
+      "url": "https://github.com/ComposioHQ/awesome-codex-skills",
+      "description": "Codex CLI/API에서 워크플로 자동화를 위한 실용적인 코덱스 스킬 모음",
+      "description_en": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API."
+    },
+    {
+      "name": "microsoft/VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "description": "Microsoft의 오픈소스 프론티어 음성 AI",
+      "description_en": "Open-Source Frontier Voice AI by Microsoft"
+    },
+    {
+      "name": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 기반 A/H/미국 주식 멀티소스 실시간 분석 시스템",
+      "description_en": "LLM-powered stock analysis system for A/H/US markets with multi-source data and real-time news integration"
+    },
+    {
+      "name": "EbookFoundation/free-programming-books",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "description": "무료 프로그래밍 도서 모음",
+      "description_en": "Freely available programming books"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "재귀적 멀티에이전트 시스템",
+      "title_en": "Recursive Multi-Agent Systems",
+      "url": "https://huggingface.co/papers/2604.25917",
+      "summary": "재귀적 멀티에이전트 시스템 아키텍처 및 설계 패턴 연구 (Stanford University)",
+      "summary_en": "Research on recursive multi-agent systems architecture and design patterns from Stanford University."
+    },
+    {
+      "title": "테스트 주도 데이터 엔지니어링으로 LLM 자기개선",
+      "title_en": "Programming with Data: Test-Driven Data Engineering for Self-Improving LLMs",
+      "url": "https://huggingface.co/papers/2604.24819",
+      "summary": "원시 코퍼스에서 LLM 성능을 향상시키는 테스트 주도 데이터 엔지니어링 접근법",
+      "summary_en": "Test-driven approaches to data engineering for improving LLM performance through raw corpus processing."
+    },
+    {
+      "title": "DV-World: 실세계 데이터 시각화 에이전트 벤치마크",
+      "title_en": "DV-World: Benchmarking Data Visualization Agents in Real-World Scenarios",
+      "url": "https://huggingface.co/papers/2604.25914",
+      "summary": "실제 시나리오에서 데이터 시각화 에이전트를 평가하는 종합 벤치마크",
+      "summary_en": "A comprehensive benchmark for evaluating data visualization agents in practical real-world applications."
+    },
+    {
+      "title": "AutoResearchBench: 복잡한 과학 문헌 발견 AI 에이전트 벤치마킹",
+      "title_en": "AutoResearchBench: Benchmarking AI Agents on Complex Scientific Literature Discovery",
+      "url": "https://huggingface.co/papers/2604.25256",
+      "summary": "AI 에이전트의 복잡한 과학 문헌 발굴 능력을 평가하는 벤치마킹 프레임워크 (BAAI)",
+      "summary_en": "A benchmarking framework for evaluating AI agents' capabilities in discovering and analyzing complex scientific literature."
+    },
+    {
+      "title": "Meta-CoT: 이미지 편집의 세밀도와 일반화 향상",
+      "title_en": "Meta-CoT: Enhancing Granularity and Generalization in Image Editing",
+      "url": "https://huggingface.co/papers/2604.24625",
+      "summary": "메타 체인오브쏫 방식으로 이미지 편집의 세밀도와 일반화 능력을 향상시키는 방법 (Tsinghua University)",
+      "summary_en": "Meta-chain-of-thought approach to improve image editing with enhanced granularity and generalization capabilities."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "DESIGN.md를 모아놓은 사이트 — AI 코딩 도구를 위한 웹 디자인 가이드라인 표준화",
+      "title_en": "A site collecting DESIGN.md specs for AI coding tools",
+      "url": "https://getdesign.md",
+      "summary": "AI 코딩 도구와 자동화를 위한 웹 디자인 가이드라인을 표준화하는 DESIGN.md 파일 모음 사이트",
+      "summary_en": "A collection site for DESIGN.md specifications standardizing web design guidelines for AI coding tools and automation."
+    },
+    {
+      "title": "하네스 엔지니어링: 모델보다 중요한 작업 환경 설계의 시대",
+      "title_en": "Harness Engineering: The Age of Work Environment Design Over Model Development",
+      "url": "https://addyosmani.com/blog/agent-harness-engineering/",
+      "summary": "Addy Osmani가 분석한 AI 에이전트 인프라 설계의 중요성 — 모델 개발보다 작업 환경 설계로 산업 초점 이동",
+      "summary_en": "Addy Osmani examines how industry focus has shifted from model development toward infrastructure design for AI agents."
+    },
+    {
+      "title": "만들기 전에 고려해야 할 3가지 제약 조건",
+      "title_en": "3 Constraints to Consider Before Building",
+      "url": "https://jordanlord.co.uk/blog/3-constraints/",
+      "summary": "전략적 제약이 탐색 공간을 좁혀 제품의 복잡성 증가와 정체성 혼란을 예방하는 방법",
+      "summary_en": "Strategic constraints narrow exploration space and prevent products from becoming overly complex or identity-confused."
+    },
+    {
+      "title": "Remotion — React로 영상을 만드는 오픈소스 프레임워크",
+      "title_en": "Remotion — Open-source Framework for Making Videos with React",
+      "url": "https://github.com/remotion-dev/remotion",
+      "summary": "GUI 편집기 대신 TypeScript 코드로 MP4를 생성하는 프레임워크, AI 에이전트 생성 콘텐츠에 유용",
+      "summary_en": "Framework enabling MP4 generation through TypeScript code rather than GUI editors, particularly useful for AI agent-generated content."
+    },
+    {
+      "title": "YC의 스타트업 요청 — 2026년 여름",
+      "title_en": "YC's Requests for Startups — Summer 2026",
+      "url": "https://www.ycombinator.com/rfs",
+      "summary": "Y Combinator가 AI 및 신흥 기술 분야의 스타트업 아이디어를 공유하는 연례 RFS 이니셔티브",
+      "summary_en": "Y Combinator's annual initiative sharing founder ideas for startup opportunities focused on AI and emerging technologies."
+    }
+  ]
+}
