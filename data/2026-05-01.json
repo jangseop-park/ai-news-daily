@@ -1,0 +1,109 @@
+{
+  "date": "2026-05-01",
+  "github_trending": [
+    {
+      "name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "멀티에이전트 LLM 금융 트레이딩 프레임워크",
+      "description_en": "Multi-Agents LLM Financial Trading Framework"
+    },
+    {
+      "name": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "무료 공개 API 목록 모음",
+      "description_en": "A collective list of free APIs"
+    },
+    {
+      "name": "soxoj/maigret",
+      "url": "https://github.com/soxoj/maigret",
+      "description": "3000개 이상 사이트에서 사용자명으로 개인 정보 수집 도구",
+      "description_en": "Collect a dossier on a person by username from 3000+ sites"
+    },
+    {
+      "name": "HunxByts/GhostTrack",
+      "url": "https://github.com/HunxByts/GhostTrack",
+      "description": "위치 및 전화번호 추적 도구",
+      "description_en": "Useful tool to track location or mobile number"
+    },
+    {
+      "name": "EbookFoundation/free-programming-books",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "description": "무료 프로그래밍 도서 모음",
+      "description_en": "Freely available programming books"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "GLM-5V-Turbo: 멀티모달 에이전트를 위한 네이티브 파운데이션 모델",
+      "title_en": "GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents",
+      "url": "https://huggingface.co/papers/2604.26752",
+      "summary": "비전과 언어를 통합한 멀티모달 에이전트용 파운데이션 모델",
+      "summary_en": "Foundation model combining vision and language for native multimodal agent applications"
+    },
+    {
+      "title": "LLM의 잠재 증류를 통한 탐색 능력 향상",
+      "title_en": "Large Language Models Explore by Latent Distilling",
+      "url": "https://huggingface.co/papers/2604.24927",
+      "summary": "잠재 증류 기법으로 LLM 추론 및 의사결정 탐색 능력 강화",
+      "summary_en": "Improving LLM exploration via latent distillation for better reasoning and decision-making"
+    },
+    {
+      "title": "RADIO-ViPE: 동적 환경에서의 오픈어휘 시맨틱 SLAM",
+      "title_en": "RADIO-ViPE: Online Multi-Modal Fusion for Open-Vocabulary Semantic SLAM",
+      "url": "https://huggingface.co/papers/2604.26067",
+      "summary": "동적 환경에서 멀티모달 융합으로 오픈어휘 시맨틱 SLAM 구현",
+      "summary_en": "Multi-modal fusion for semantic SLAM with open-vocabulary in dynamic environments"
+    },
+    {
+      "title": "ClawGym: 효과적인 클로 에이전트 구축을 위한 확장 가능한 프레임워크",
+      "title_en": "ClawGym: A Scalable Framework for Building Effective Claw Agents",
+      "url": "https://huggingface.co/papers/2604.26904",
+      "summary": "로봇 클로 조작 에이전트 훈련을 위한 확장 가능한 환경 프레임워크",
+      "summary_en": "Scalable framework for training robotic claw manipulation agents"
+    },
+    {
+      "title": "TIDE: 확산 LLM의 크로스 아키텍처 지식 증류",
+      "title_en": "Turning the TIDE: Cross-Architecture Distillation for Diffusion LLMs",
+      "url": "https://huggingface.co/papers/2604.26951",
+      "summary": "확산 기반 대형 언어 모델에 크로스 아키텍처 지식 증류 적용으로 효율성 향상",
+      "summary_en": "Cross-architecture knowledge distillation for diffusion-based LLMs for improved efficiency"
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "DESIGN.md 모음 사이트",
+      "title_en": "Design.md Collection Site",
+      "url": "https://getdesign.md",
+      "summary": "AI 코딩 도구가 참조할 수 있는 웹사이트 디자인 가이드라인 DESIGN.md 모음 + Chrome 확장 자동 생성",
+      "summary_en": "Collection of DESIGN.md files for AI coding tools with Chrome extension for auto-generation"
+    },
+    {
+      "title": "UX의 법칙들",
+      "title_en": "Laws of UX",
+      "url": "https://lawsofux.com",
+      "summary": "UI 디자이너를 위한 30가지 이상의 심리학 기반 사용성·인지 설계 원칙 모음",
+      "summary_en": "30+ psychology-based design principles for UI designers covering usability and cognitive psychology"
+    },
+    {
+      "title": "YC의 Requests for Startups — 2026년 여름",
+      "title_en": "Y Combinator RFS Summer 2026",
+      "url": "https://ycombinator.com/rfs",
+      "summary": "YC가 창업자에게 추천하는 AI 중심 스타트업 아이디어 목록 2026 여름판",
+      "summary_en": "YC curated startup ideas for founders, emphasizing AI-first opportunities for Summer 2026"
+    },
+    {
+      "title": "Claude-Ads: Claude Code로 광고 대행사 대체",
+      "title_en": "Claude-Ads: Replace Ad Agency with Claude Code",
+      "url": "https://github.com/AgriciDaniel/claude-ads",
+      "summary": "Google, Meta, YouTube, TikTok 등 7개 광고 플랫폼에서 250개 이상 자동 감사 항목 실행",
+      "summary_en": "Open-source Claude Code skill for 250+ automated audits across 7 advertising platforms"
+    },
+    {
+      "title": "Cursor Camp",
+      "title_en": "Cursor Camp",
+      "url": "https://neal.fun/cursor-camp/",
+      "summary": "커서로 서로 상호작용하는 협동 웹 게임 — Neal Agarwal 작품",
+      "summary_en": "Collaborative web game by Neal Agarwal where users interact as cursors"
+    }
+  ]
+}
