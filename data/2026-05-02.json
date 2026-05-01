@@ -1,0 +1,109 @@
+{
+  "date": "2026-05-02",
+  "github_trending": [
+    {
+      "name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "멀티에이전트 LLM 금융 트레이딩 프레임워크",
+      "description_en": "Multi-Agents LLM Financial Trading Framework"
+    },
+    {
+      "name": "soxoj/maigret",
+      "url": "https://github.com/soxoj/maigret",
+      "description": "3000개 이상 사이트에서 사용자명으로 개인 정보 수집 도구",
+      "description_en": "Collect a dossier on a person by username from 3000+ sites"
+    },
+    {
+      "name": "hugohe3/ppt-master",
+      "url": "https://github.com/hugohe3/ppt-master",
+      "description": "AI로 문서를 편집 가능한 PowerPoint로 자동 변환",
+      "description_en": "Generates natively editable PowerPoint presentations from documents using AI"
+    },
+    {
+      "name": "google-research/timesfm",
+      "url": "https://github.com/google-research/timesfm",
+      "description": "Google의 사전 훈련된 시계열 파운데이션 모델",
+      "description_en": "TimesFM: Google's pretrained time-series foundation model for forecasting"
+    },
+    {
+      "name": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "무료 공개 API 목록 모음",
+      "description_en": "A collective list of free APIs"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "이종 과학 파운데이션 모델 협업",
+      "title_en": "Heterogeneous Scientific Foundation Model Collaboration",
+      "url": "https://huggingface.co/papers/2604.27351",
+      "summary": "UIUC — 서로 다른 과학 파운데이션 모델 간 협업 방법론 연구",
+      "summary_en": "UIUC research on collaboration between heterogeneous scientific foundation models"
+    },
+    {
+      "title": "원자 매핑에서 에이전트 세계 모델링으로: 시각 생성의 진화",
+      "title_en": "Visual Generation: From Atomic Mapping to Agentic World Modeling",
+      "url": "https://huggingface.co/papers/2604.28185",
+      "summary": "시각 생성 기술이 원자 매핑에서 에이전트 기반 세계 모델링으로 진화하는 과정 분석",
+      "summary_en": "Analysis of visual generation evolution from atomic mapping to agentic world modeling"
+    },
+    {
+      "title": "공동 진화 정책 증류",
+      "title_en": "Co-Evolving Policy Distillation",
+      "url": "https://huggingface.co/papers/2604.27083",
+      "summary": "강화학습 정책을 공동 진화 방식으로 증류하는 새로운 방법론",
+      "summary_en": "Novel method for co-evolving policy distillation in reinforcement learning"
+    },
+    {
+      "title": "ExoActor: 외부 시점 비디오 생성으로 범용 인간형 로봇 제어",
+      "title_en": "ExoActor: Exocentric Video Generation as Generalizable Humanoid Control",
+      "url": "https://huggingface.co/papers/2604.27711",
+      "summary": "외부 시점(exocentric) 비디오 생성을 통한 인간형 로봇 제어 범용화",
+      "summary_en": "Exocentric video generation methods for generalizable humanoid robot control"
+    },
+    {
+      "title": "RoundPipe: 소비자용 GPU 다중 학습 효율화",
+      "title_en": "Efficient Training on Multiple Consumer GPUs with RoundPipe",
+      "url": "https://huggingface.co/papers/2604.27085",
+      "summary": "소비자용 GPU 여러 장에서 효율적인 분산 학습을 위한 RoundPipe 파이프라인",
+      "summary_en": "RoundPipe for efficient distributed training across multiple consumer-grade GPUs"
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "자신보다 뛰어난 사람을 채용하는 법",
+      "title_en": "How to Hire People Better Than Yourself",
+      "url": "https://longform.asmartbear.com/hire-better-than-you/",
+      "summary": "전문 영역 밖 임원급 인재를 평가해야 하는 CEO를 위한 구체적 채용 기준 가이드 (최고 점수)",
+      "summary_en": "Practical hiring guide with concrete criteria for CEOs evaluating talent outside their domain"
+    },
+    {
+      "title": "NVIDIA Nemotron-Personas-Korea — 한국어 페르소나 데이터셋",
+      "title_en": "NVIDIA Nemotron-Personas-Korea",
+      "url": "https://huggingface.co/datasets/nvidia/Nemotron-Personas-Korea",
+      "summary": "한국 실제 인구통계·지역·성격 분포를 반영한 100만 합성 페르소나 한국어 데이터셋",
+      "summary_en": "1M synthetic Korean persona dataset reflecting Korea's actual demographic distributions"
+    },
+    {
+      "title": "UX의 법칙들",
+      "title_en": "Laws of UX",
+      "url": "https://lawsofux.com",
+      "summary": "UI 디자이너를 위한 30가지 이상 심리학 기반 사용성·인지 설계 원칙 모음",
+      "summary_en": "30+ psychology-based design principles for UI designers"
+    },
+    {
+      "title": "하네스 엔지니어링: 모델보다 환경 설계가 중요한 시대",
+      "title_en": "Agent Harness Engineering",
+      "url": "https://addyosmani.com/blog/agent-harness-engineering/",
+      "summary": "AI 산업 초점이 '어떤 모델'에서 '에이전트를 위한 최적 환경 설계'로 이동 — Addy Osmani 분석",
+      "summary_en": "Addy Osmani: industry focus shifting from model selection to designing optimal AI agent environments"
+    },
+    {
+      "title": "만들기 전에 고려해야 할 3가지 제약 조건",
+      "title_en": "3 Constraints to Consider Before Building",
+      "url": "https://jordanlord.co.uk/blog/3-constraints/",
+      "summary": "초기 제약 설정이 범위 비대화와 정체성 혼란을 막는 핵심 전략",
+      "summary_en": "Setting constraints early prevents scope creep and product identity confusion"
+    }
+  ]
+}
