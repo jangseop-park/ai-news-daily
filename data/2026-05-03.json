@@ -71,18 +71,18 @@
   ],
   "geeknews": [
     {
-      "title": "DESIGN.md 모음 사이트",
-      "title_en": "DESIGN.md collection site (popularized by stitch)",
+      "title": "DESIGN.md 모음 사이트 (stitch가 유행시킴)",
+      "title_en": "DESIGN.md collection site",
       "url": "https://getdesign.md",
       "summary": "제품·서비스 디자인 문서화 템플릿 DESIGN.md를 모아놓은 큐레이션 사이트",
-      "summary_en": "Curated collection of DESIGN.md templates for product and service design documentation"
+      "summary_en": "Curated site collecting DESIGN.md templates for products and services"
     },
     {
       "title": "자신보다 뛰어난 사람을 채용하는 법",
-      "title_en": "How to hire people better than you",
+      "title_en": "How to hire people better than yourself",
       "url": "https://longform.asmartbear.com/hire-better-than-you/",
       "summary": "전문 영역 밖 임원급 인재를 평가해야 하는 CEO를 위한 구체적 채용 기준 가이드",
-      "summary_en": "Concrete hiring criteria guide for CEOs who must evaluate executive talent outside their domain"
+      "summary_en": "Concrete hiring criteria guide for CEOs who need to evaluate executive talent outside their domain"
     },
     {
       "title": "UX의 법칙들",
@@ -93,17 +93,19 @@
     },
     {
       "title": "Claude-Ads — Claude Code로 광고 대행사 대체하기",
-      "title_en": "Claude-Ads — Replace ad agencies with Claude Code",
+      "title_en": "Claude-Ads — Replace an ad agency with Claude Code",
       "url": "https://github.com/AgriciDaniel/claude-ads",
+      "points": 28,
       "summary": "Claude Code를 활용해 광고 크리에이티브 및 캠페인을 자동 생성하는 실험적 도구",
-      "summary_en": "Experimental tool for automatically generating ad creatives and campaigns using Claude Code"
+      "summary_en": "Experimental tool to auto-generate ad creatives and campaigns using Claude Code"
     },
     {
       "title": "Fincept Terminal — 금융 분석 플랫폼 오픈소스",
       "title_en": "Fincept Terminal — Open-source financial analytics platform",
       "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "points": 21,
       "summary": "터미널 기반 금융 데이터 분석·스크리닝 오픈소스 플랫폼",
-      "summary_en": "Terminal-based open-source financial data analysis and screening platform"
+      "summary_en": "Terminal-based open-source platform for financial data analysis and screening"
     }
   ]
 }
