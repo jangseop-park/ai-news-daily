@@ -1,46 +1,48 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-05-02
+> 마지막 업데이트: 2026-05-04
 
-# AI 뉴스 — 2026-05-02
+# AI 뉴스 — 2026-05-04
 
 ## 🔥 GitHub Trending (Python)
 
-- [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents): 멀티에이전트 LLM 금융 트레이딩 프레임워크
-- [soxoj/maigret](https://github.com/soxoj/maigret): 3000개 이상 사이트에서 사용자명으로 개인 정보 수집 도구
-- [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master): AI로 문서를 편집 가능한 PowerPoint로 자동 변환
-- [google-research/timesfm](https://github.com/google-research/timesfm): Google의 사전 훈련된 시계열 파운데이션 모델
-- [public-apis/public-apis](https://github.com/public-apis/public-apis): 무료 공개 API 목록 모음
+- [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents): 멀티 에이전트 LLM 기반 금융 트레이딩 프레임워크
+- [soxoj/maigret](https://github.com/soxoj/maigret): 3000개 이상의 사이트에서 사용자명으로 인물 정보를 수집하는 도구
+- [AIDC-AI/Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video): AI 기반 완전 자동화 숏폼 영상 제작 엔진
+- [Q00/ouroboros](https://github.com/Q00/ouroboros): 에이전트 OS: 프롬프팅 대신 명세(specification)로 에이전트를 제어하는 플랫폼
+- [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM): 토크나이저 없는 다국어 TTS — 창의적 음성 디자인 및 실감나는 음성 복제 지원
 
 ## 📄 Hugging Face Papers
 
-- [이종 과학 파운데이션 모델 협업](https://huggingface.co/papers/2604.27351)
-  UIUC — 서로 다른 과학 파운데이션 모델 간 협업 방법론 연구
-- [원자 매핑에서 에이전트 세계 모델링으로: 시각 생성의 진화](https://huggingface.co/papers/2604.28185)
-  시각 생성 기술이 원자 매핑에서 에이전트 기반 세계 모델링으로 진화하는 과정 분석
-- [공동 진화 정책 증류](https://huggingface.co/papers/2604.27083)
-  강화학습 정책을 공동 진화 방식으로 증류하는 새로운 방법론
-- [ExoActor: 외부 시점 비디오 생성으로 범용 인간형 로봇 제어](https://huggingface.co/papers/2604.27711)
-  외부 시점(exocentric) 비디오 생성을 통한 인간형 로봇 제어 범용화
-- [RoundPipe: 소비자용 GPU 다중 학습 효율화](https://huggingface.co/papers/2604.27085)
-  소비자용 GPU 여러 장에서 효율적인 분산 학습을 위한 RoundPipe 파이프라인
+- [이종 과학 기반 모델 협업](https://huggingface.co/papers/2604.27351)
+  서로 다른 과학 기반 모델들이 효과적으로 협업하는 방법을 탐구한 UIUC 연구.
+- [원자 매핑에서 에이전트 월드 모델링으로: 시각 생성의 진화](https://huggingface.co/papers/2604.28185)
+  기본 매핑에서 고급 에이전트 월드 모델링까지 시각 생성 기술의 발전을 포괄적으로 조망.
+- [공진화 정책 증류 (Co-Evolving Policy Distillation)](https://huggingface.co/papers/2604.27083)
+  강화학습 및 모델 경량화에 적용 가능한 공진화 기반 정책 증류 방법 제안.
+- [ExoActor: 일반화 가능한 휴머노이드 제어를 위한 외시점 영상 생성](https://huggingface.co/papers/2604.27711)
+  외시점 영상 생성으로 범용 휴머노이드 제어 정책을 학습시키는 ExoActor 프레임워크.
+- [Intern-Atlas: AI 과학자를 위한 방법론 진화 그래프 연구 인프라](https://huggingface.co/papers/2604.28158)
+  AI 연구자가 방법론 발전을 추적·이해할 수 있도록 돕는 Intern-Atlas 연구 인프라 소개.
 
 ## 🦉 GeekNews
 
-- [자신보다 뛰어난 사람을 채용하는 법](https://longform.asmartbear.com/hire-better-than-you/)
-  전문 영역 밖 임원급 인재를 평가해야 하는 CEO를 위한 구체적 채용 기준 가이드 (최고 점수)
-- [NVIDIA Nemotron-Personas-Korea — 한국어 페르소나 데이터셋](https://huggingface.co/datasets/nvidia/Nemotron-Personas-Korea)
-  한국 실제 인구통계·지역·성격 분포를 반영한 100만 합성 페르소나 한국어 데이터셋
-- [UX의 법칙들](https://lawsofux.com)
-  UI 디자이너를 위한 30가지 이상 심리학 기반 사용성·인지 설계 원칙 모음
-- [하네스 엔지니어링: 모델보다 환경 설계가 중요한 시대](https://addyosmani.com/blog/agent-harness-engineering/)
-  AI 산업 초점이 '어떤 모델'에서 '에이전트를 위한 최적 환경 설계'로 이동 — Addy Osmani 분석
-- [만들기 전에 고려해야 할 3가지 제약 조건](https://jordanlord.co.uk/blog/3-constraints/)
-  초기 제약 설정이 범위 비대화와 정체성 혼란을 막는 핵심 전략
+- [UX의 법칙들](https://lawsofux.com/)
+  UI 디자이너를 위한 30가지 이상의 심리학 기반 디자인 원칙 모음.
+- [Claude-Ads — Claude Code로 광고 대행사 대체](https://github.com/AgriciDaniel/claude-ads)
+  7개 광고 플랫폼에 걸쳐 250개 이상의 검증 항목을 자동 감사하는 Claude Code 오픈소스 스킬.
+- [Fincept Terminal — 오픈소스 금융 분석 플랫폼](https://github.com/Fincept-Corporation/FinceptTerminal)
+  C++20과 Qt6로 구축한 Bloomberg 대안 오픈소스 금융 터미널.
+- [WhatCable — USB-C 케이블 정보를 보여주는 macOS 메뉴바 앱](https://github.com/darrylmorley/whatcable)
+  USB-C 케이블 사양을 확인하고 충전 속도가 느린 이유를 알려주는 macOS 앱.
+- [Context Mode — AI 코딩 에이전트 컨텍스트를 98% 절약하는 MCP 서버](https://github.com/mksglu/context-mode)
+  AI 코딩 에이전트 세션을 30분에서 3시간으로 늘려주는 MCP 서버.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-05-03](data/2026-05-03.md)
+- [2026-05-02](data/2026-05-02.md)
 - [2026-05-01](data/2026-05-01.md)
 - [2026-04-30](data/2026-04-30.md)
 - [2026-04-29](data/2026-04-29.md)
