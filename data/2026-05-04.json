@@ -1,0 +1,109 @@
+{
+  "date": "2026-05-04",
+  "github_trending": [
+    {
+      "name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "멀티 에이전트 LLM 기반 금융 트레이딩 프레임워크",
+      "description_en": "Multi-Agents LLM Financial Trading Framework"
+    },
+    {
+      "name": "soxoj/maigret",
+      "url": "https://github.com/soxoj/maigret",
+      "description": "3000개 이상의 사이트에서 사용자명으로 인물 정보를 수집하는 도구",
+      "description_en": "Collect a dossier on a person by username from 3000+ sites"
+    },
+    {
+      "name": "AIDC-AI/Pixelle-Video",
+      "url": "https://github.com/AIDC-AI/Pixelle-Video",
+      "description": "AI 기반 완전 자동화 숏폼 영상 제작 엔진",
+      "description_en": "AI Fully Automated Short Video Engine"
+    },
+    {
+      "name": "Q00/ouroboros",
+      "url": "https://github.com/Q00/ouroboros",
+      "description": "에이전트 OS: 프롬프팅 대신 명세(specification)로 에이전트를 제어하는 플랫폼",
+      "description_en": "Agent OS: Stop prompting. Start specifying"
+    },
+    {
+      "name": "OpenBMB/VoxCPM",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "description": "토크나이저 없는 다국어 TTS — 창의적 음성 디자인 및 실감나는 음성 복제 지원",
+      "description_en": "Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "이종 과학 기반 모델 협업",
+      "title_en": "Heterogeneous Scientific Foundation Model Collaboration",
+      "url": "https://huggingface.co/papers/2604.27351",
+      "summary": "서로 다른 과학 기반 모델들이 효과적으로 협업하는 방법을 탐구한 UIUC 연구.",
+      "summary_en": "Explores how heterogeneous scientific foundation models can collaborate effectively."
+    },
+    {
+      "title": "원자 매핑에서 에이전트 월드 모델링으로: 시각 생성의 진화",
+      "title_en": "Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling",
+      "url": "https://huggingface.co/papers/2604.28185",
+      "summary": "기본 매핑에서 고급 에이전트 월드 모델링까지 시각 생성 기술의 발전을 포괄적으로 조망.",
+      "summary_en": "Comprehensive survey of visual generation evolution from atomic mapping to agentic world modeling."
+    },
+    {
+      "title": "공진화 정책 증류 (Co-Evolving Policy Distillation)",
+      "title_en": "Co-Evolving Policy Distillation",
+      "url": "https://huggingface.co/papers/2604.27083",
+      "summary": "강화학습 및 모델 경량화에 적용 가능한 공진화 기반 정책 증류 방법 제안.",
+      "summary_en": "A novel co-evolution-based policy distillation approach for reinforcement learning and model compression."
+    },
+    {
+      "title": "ExoActor: 일반화 가능한 휴머노이드 제어를 위한 외시점 영상 생성",
+      "title_en": "ExoActor: Exocentric Video Generation as Generalizable Interactive Humanoid Control",
+      "url": "https://huggingface.co/papers/2604.27711",
+      "summary": "외시점 영상 생성으로 범용 휴머노이드 제어 정책을 학습시키는 ExoActor 프레임워크.",
+      "summary_en": "Proposes ExoActor, using exocentric video generation to train generalizable humanoid control policies."
+    },
+    {
+      "title": "Intern-Atlas: AI 과학자를 위한 방법론 진화 그래프 연구 인프라",
+      "title_en": "Intern-Atlas: A Methodological Evolution Graph as Research Infrastructure for AI Scientists",
+      "url": "https://huggingface.co/papers/2604.28158",
+      "summary": "AI 연구자가 방법론 발전을 추적·이해할 수 있도록 돕는 Intern-Atlas 연구 인프라 소개.",
+      "summary_en": "Introduces Intern-Atlas, a research infrastructure mapping methodological evolution for AI scientists."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "UX의 법칙들",
+      "title_en": "Laws of UX",
+      "url": "https://lawsofux.com/",
+      "summary": "UI 디자이너를 위한 30가지 이상의 심리학 기반 디자인 원칙 모음.",
+      "summary_en": "Collection of 30+ psychology-based design principles for UI designers."
+    },
+    {
+      "title": "Claude-Ads — Claude Code로 광고 대행사 대체",
+      "title_en": "Claude-Ads: Replace Your Ad Agency with Claude Code",
+      "url": "https://github.com/AgriciDaniel/claude-ads",
+      "summary": "7개 광고 플랫폼에 걸쳐 250개 이상의 검증 항목을 자동 감사하는 Claude Code 오픈소스 스킬.",
+      "summary_en": "Open-source Claude Code skill automating ad audits across 7 platforms with 250+ validation checks."
+    },
+    {
+      "title": "Fincept Terminal — 오픈소스 금융 분석 플랫폼",
+      "title_en": "Fincept Terminal: Open-Source Financial Analysis Platform",
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "summary": "C++20과 Qt6로 구축한 Bloomberg 대안 오픈소스 금융 터미널.",
+      "summary_en": "Open-source financial terminal built with C++20/Qt6, a free Bloomberg alternative."
+    },
+    {
+      "title": "WhatCable — USB-C 케이블 정보를 보여주는 macOS 메뉴바 앱",
+      "title_en": "WhatCable: macOS Menu Bar App for USB-C Cable Inspection",
+      "url": "https://github.com/darrylmorley/whatcable",
+      "summary": "USB-C 케이블 사양을 확인하고 충전 속도가 느린 이유를 알려주는 macOS 앱.",
+      "summary_en": "macOS menu bar app that identifies USB-C cable capabilities and explains slow charging."
+    },
+    {
+      "title": "Context Mode — AI 코딩 에이전트 컨텍스트를 98% 절약하는 MCP 서버",
+      "title_en": "Context Mode: MCP Server Saving 98% of AI Coding Agent Context",
+      "url": "https://github.com/mksglu/context-mode",
+      "summary": "AI 코딩 에이전트 세션을 30분에서 3시간으로 늘려주는 MCP 서버.",
+      "summary_en": "MCP server extending AI coding agent sessions from ~30 minutes to 3 hours by saving 98% of context."
+    }
+  ]
+}
