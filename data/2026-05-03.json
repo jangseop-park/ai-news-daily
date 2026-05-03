@@ -1,0 +1,109 @@
+{
+  "date": "2026-05-03",
+  "github_trending": [
+    {
+      "name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "멀티에이전트 LLM 금융 트레이딩 프레임워크",
+      "description_en": "Multi-Agents LLM Financial Trading Framework"
+    },
+    {
+      "name": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "description": "Claude용 멀티에이전트 스웜 오케스트레이션 플랫폼",
+      "description_en": "Agent orchestration platform for Claude — deploy intelligent multi-agent swarms"
+    },
+    {
+      "name": "browserbase/skills",
+      "url": "https://github.com/browserbase/skills",
+      "description": "웹 브라우징 도구가 통합된 Claude Agent SDK",
+      "description_en": "Claude Agent SDK with a web browsing tool"
+    },
+    {
+      "name": "soxoj/maigret",
+      "url": "https://github.com/soxoj/maigret",
+      "description": "3000개 이상 사이트에서 사용자명으로 개인 정보 수집 도구",
+      "description_en": "Collect a dossier on a person by username from 3000+ sites"
+    },
+    {
+      "name": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "description": "Rust로 구현한 코딩 에이전트 하네스",
+      "description_en": "Coding Agent Harness"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "이종 과학 파운데이션 모델 협업",
+      "title_en": "Heterogeneous Scientific Foundation Model Collaboration",
+      "url": "https://huggingface.co/papers/2604.27351",
+      "summary": "UIUC — 서로 다른 과학 파운데이션 모델 간 협업 방법론 연구",
+      "summary_en": "UIUC research on collaborative approaches for heterogeneous scientific foundation models"
+    },
+    {
+      "title": "원자 매핑에서 에이전트 세계 모델링으로: 시각 생성의 진화",
+      "title_en": "Visual Generation: From Atomic Mapping to Agentic World Modeling",
+      "url": "https://huggingface.co/papers/2604.28185",
+      "summary": "시각 생성 기술의 진화 — 원자 매핑에서 에이전트 기반 세계 모델링까지",
+      "summary_en": "Survey on visual generation evolution from atomic mapping to agentic world modeling"
+    },
+    {
+      "title": "공동 진화 정책 증류",
+      "title_en": "Co-Evolving Policy Distillation",
+      "url": "https://huggingface.co/papers/2604.27083",
+      "summary": "강화학습 정책을 공동 진화 방식으로 증류하는 새로운 방법론",
+      "summary_en": "Novel co-evolutionary policy distillation approach for reinforcement learning"
+    },
+    {
+      "title": "ExoActor: 외부 시점 비디오 생성으로 범용 인간형 로봇 제어",
+      "title_en": "ExoActor: Exocentric Video Generation as Generalizable Humanoid Control",
+      "url": "https://huggingface.co/papers/2604.27711",
+      "summary": "외부 시점 비디오 생성을 통한 인간형 로봇 범용 제어 프레임워크",
+      "summary_en": "Framework using exocentric video generation for generalizable humanoid robot control"
+    },
+    {
+      "title": "RoundPipe: 소비자용 GPU 다중 학습 효율화",
+      "title_en": "Efficient Training on Multiple Consumer GPUs with RoundPipe",
+      "url": "https://huggingface.co/papers/2604.27085",
+      "summary": "소비자용 GPU 여러 장에서 효율적인 분산 학습을 위한 파이프라인 병렬화",
+      "summary_en": "RoundPipe pipeline parallelism for efficient training across multiple consumer-grade GPUs"
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "DESIGN.md 모음 사이트",
+      "title_en": "DESIGN.md collection site (popularized by stitch)",
+      "url": "https://getdesign.md",
+      "summary": "제품·서비스 디자인 문서화 템플릿 DESIGN.md를 모아놓은 큐레이션 사이트",
+      "summary_en": "Curated collection of DESIGN.md templates for product and service design documentation"
+    },
+    {
+      "title": "자신보다 뛰어난 사람을 채용하는 법",
+      "title_en": "How to hire people better than you",
+      "url": "https://longform.asmartbear.com/hire-better-than-you/",
+      "summary": "전문 영역 밖 임원급 인재를 평가해야 하는 CEO를 위한 구체적 채용 기준 가이드",
+      "summary_en": "Concrete hiring criteria guide for CEOs who must evaluate executive talent outside their domain"
+    },
+    {
+      "title": "UX의 법칙들",
+      "title_en": "Laws of UX",
+      "url": "https://lawsofux.com",
+      "summary": "UI 디자이너를 위한 30가지 이상 심리학 기반 사용성·인지 설계 원칙 모음",
+      "summary_en": "Collection of 30+ psychology-based usability and cognitive design principles for UI designers"
+    },
+    {
+      "title": "Claude-Ads — Claude Code로 광고 대행사 대체하기",
+      "title_en": "Claude-Ads — Replace ad agencies with Claude Code",
+      "url": "https://github.com/AgriciDaniel/claude-ads",
+      "summary": "Claude Code를 활용해 광고 크리에이티브 및 캠페인을 자동 생성하는 실험적 도구",
+      "summary_en": "Experimental tool for automatically generating ad creatives and campaigns using Claude Code"
+    },
+    {
+      "title": "Fincept Terminal — 금융 분석 플랫폼 오픈소스",
+      "title_en": "Fincept Terminal — Open-source financial analytics platform",
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "summary": "터미널 기반 금융 데이터 분석·스크리닝 오픈소스 플랫폼",
+      "summary_en": "Terminal-based open-source financial data analysis and screening platform"
+    }
+  ]
+}
