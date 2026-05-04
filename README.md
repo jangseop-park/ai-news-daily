@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-05-04
+> 마지막 업데이트: 2026-05-05
 
-# AI 뉴스 — 2026-05-04
+# AI 뉴스 — 2026-05-05
 
 ## 🔥 GitHub Trending (Python)
 
 - [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents): 멀티 에이전트 LLM 기반 금융 트레이딩 프레임워크
 - [soxoj/maigret](https://github.com/soxoj/maigret): 3000개 이상의 사이트에서 사용자명으로 인물 정보를 수집하는 도구
 - [AIDC-AI/Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video): AI 기반 완전 자동화 숏폼 영상 제작 엔진
-- [Q00/ouroboros](https://github.com/Q00/ouroboros): 에이전트 OS: 프롬프팅 대신 명세(specification)로 에이전트를 제어하는 플랫폼
-- [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM): 토크나이저 없는 다국어 TTS — 창의적 음성 디자인 및 실감나는 음성 복제 지원
+- [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM): 토크나이저 없는 다국어 TTS — 창의적 음성 디자인 및 실감 복제 지원
+- [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar): AI 기반 여론 모니터링 플랫폼 — 다중 플랫폼 집계, RSS 피드, 스마트 알림
 
 ## 📄 Hugging Face Papers
 
-- [이종 과학 기반 모델 협업](https://huggingface.co/papers/2604.27351)
-  서로 다른 과학 기반 모델들이 효과적으로 협업하는 방법을 탐구한 UIUC 연구.
-- [원자 매핑에서 에이전트 월드 모델링으로: 시각 생성의 진화](https://huggingface.co/papers/2604.28185)
-  기본 매핑에서 고급 에이전트 월드 모델링까지 시각 생성 기술의 발전을 포괄적으로 조망.
-- [공진화 정책 증류 (Co-Evolving Policy Distillation)](https://huggingface.co/papers/2604.27083)
-  강화학습 및 모델 경량화에 적용 가능한 공진화 기반 정책 증류 방법 제안.
-- [ExoActor: 일반화 가능한 휴머노이드 제어를 위한 외시점 영상 생성](https://huggingface.co/papers/2604.27711)
-  외시점 영상 생성으로 범용 휴머노이드 제어 정책을 학습시키는 ExoActor 프레임워크.
-- [Intern-Atlas: AI 과학자를 위한 방법론 진화 그래프 연구 인프라](https://huggingface.co/papers/2604.28158)
-  AI 연구자가 방법론 발전을 추적·이해할 수 있도록 돕는 Intern-Atlas 연구 인프라 소개.
+- [UniVidX: 통합 멀티모달 영상 생성 프레임워크](https://huggingface.co/papers/2605.00658)
+  디퓨전 프라이어를 활용해 다양한 멀티모달 조건에서 영상을 생성하는 통합 프레임워크.
+- [Web2BigTable: 인터넷 규모 정보 추출을 위한 이중 레벨 멀티 에이전트 LLM 시스템](https://huggingface.co/papers/2604.27221)
+  LLM 기반 계층적 멀티 에이전트 시스템으로 웹에서 대규모 정보를 검색·추출.
+- [Map2World: 세그먼트 맵 기반 텍스트→3D 월드 생성](https://huggingface.co/papers/2605.00781)
+  시맨틱 세그먼트 맵으로 조건화된 텍스트 입력에서 3D 세계를 생성하는 방법.
+- [Prox-E: 프리미티브 기반 추상화를 통한 세밀한 3D 형상 편집](https://huggingface.co/papers/2604.23774)
+  프리미티브 기반 추상 표현을 사용해 3D 형상을 정밀하게 편집하는 기법.
+- [스킬 텍스트에서 스킬 구조로: 에이전트 스킬의 스케줄링-구조-논리 표현](https://huggingface.co/papers/2604.24026)
+  에이전트 프로그래밍 실행을 위해 스킬 설명을 구조화된 표현으로 변환하는 프레임워크 (Peking University).
 
 ## 🦉 GeekNews
 
 - [UX의 법칙들](https://lawsofux.com/)
-  UI 디자이너를 위한 30가지 이상의 심리학 기반 디자인 원칙 모음.
-- [Claude-Ads — Claude Code로 광고 대행사 대체](https://github.com/AgriciDaniel/claude-ads)
-  7개 광고 플랫폼에 걸쳐 250개 이상의 검증 항목을 자동 감사하는 Claude Code 오픈소스 스킬.
+  UI 디자이너를 위한 30가지 이상의 심리학 기반 디자인 원칙과 패턴 모음.
+- [Amazon에서 약 1,000번 면접을 진행하며 얻은 교훈](https://newsletter.pragmaticengineer.com)
+  Amazon 베테랑이 1000번의 면접 경험을 통해 기술 평가보다 행동 면접이 채용 성공을 더 잘 예측한다고 공유.
+- [장기 실행 에이전트 — 에이전트가 며칠 동안 실행되면 무엇이 달라지는가](https://addyo.substack.com)
+  며칠~수 주 동안 자율적으로 실행되는 AI 에이전트의 컨텍스트 관리 및 장애 복구 문제를 탐구.
+- [이메일 주소 심층 분석](https://lasans.blog)
+  RFC 표준과 구조적 규칙, 보안 고려사항까지 이메일 주소의 복잡성을 심층 분석.
 - [Fincept Terminal — 오픈소스 금융 분석 플랫폼](https://github.com/Fincept-Corporation/FinceptTerminal)
-  C++20과 Qt6로 구축한 Bloomberg 대안 오픈소스 금융 터미널.
-- [WhatCable — USB-C 케이블 정보를 보여주는 macOS 메뉴바 앱](https://github.com/darrylmorley/whatcable)
-  USB-C 케이블 사양을 확인하고 충전 속도가 느린 이유를 알려주는 macOS 앱.
-- [Context Mode — AI 코딩 에이전트 컨텍스트를 98% 절약하는 MCP 서버](https://github.com/mksglu/context-mode)
-  AI 코딩 에이전트 세션을 30분에서 3시간으로 늘려주는 MCP 서버.
+  Bloomberg·Refinitiv의 저렴한 대안을 목표로 C++20과 Qt6로 구축한 오픈소스 금융 터미널.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-05-04](data/2026-05-04.md)
 - [2026-05-03](data/2026-05-03.md)
 - [2026-05-02](data/2026-05-02.md)
 - [2026-05-01](data/2026-05-01.md)
