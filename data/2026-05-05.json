@@ -1,0 +1,109 @@
+{
+  "date": "2026-05-05",
+  "github_trending": [
+    {
+      "name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "멀티 에이전트 LLM 기반 금융 트레이딩 프레임워크",
+      "description_en": "Multi-Agents LLM Financial Trading Framework"
+    },
+    {
+      "name": "soxoj/maigret",
+      "url": "https://github.com/soxoj/maigret",
+      "description": "3000개 이상의 사이트에서 사용자명으로 인물 정보를 수집하는 도구",
+      "description_en": "Collect a dossier on a person by username from 3000+ sites"
+    },
+    {
+      "name": "AIDC-AI/Pixelle-Video",
+      "url": "https://github.com/AIDC-AI/Pixelle-Video",
+      "description": "AI 기반 완전 자동화 숏폼 영상 제작 엔진",
+      "description_en": "AI Fully Automated Short Video Engine"
+    },
+    {
+      "name": "OpenBMB/VoxCPM",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "description": "토크나이저 없는 다국어 TTS — 창의적 음성 디자인 및 실감 복제 지원",
+      "description_en": "Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning"
+    },
+    {
+      "name": "sansan0/TrendRadar",
+      "url": "https://github.com/sansan0/TrendRadar",
+      "description": "AI 기반 여론 모니터링 플랫폼 — 다중 플랫폼 집계, RSS 피드, 스마트 알림",
+      "description_en": "AI-driven public opinion monitoring platform with multi-platform aggregation and smart alerts"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "UniVidX: 통합 멀티모달 영상 생성 프레임워크",
+      "title_en": "UniVidX: A Unified Multimodal Framework for Versatile Video Generation via Diffusion Priors",
+      "url": "https://huggingface.co/papers/2605.00658",
+      "summary": "디퓨전 프라이어를 활용해 다양한 멀티모달 조건에서 영상을 생성하는 통합 프레임워크.",
+      "summary_en": "A unified framework leveraging diffusion priors for generating videos across diverse multimodal conditions."
+    },
+    {
+      "title": "Web2BigTable: 인터넷 규모 정보 추출을 위한 이중 레벨 멀티 에이전트 LLM 시스템",
+      "title_en": "Web2BigTable: A Bi-Level Multi-Agent LLM System for Internet-Scale Information Search and Extraction",
+      "url": "https://huggingface.co/papers/2604.27221",
+      "summary": "LLM 기반 계층적 멀티 에이전트 시스템으로 웹에서 대규모 정보를 검색·추출.",
+      "summary_en": "A hierarchical multi-agent LLM system for searching and extracting information at internet scale."
+    },
+    {
+      "title": "Map2World: 세그먼트 맵 기반 텍스트→3D 월드 생성",
+      "title_en": "Map2World: Segment Map Conditioned Text to 3D World Generation",
+      "url": "https://huggingface.co/papers/2605.00781",
+      "summary": "시맨틱 세그먼트 맵으로 조건화된 텍스트 입력에서 3D 세계를 생성하는 방법.",
+      "summary_en": "Generates 3D worlds from text descriptions conditioned on semantic segment maps."
+    },
+    {
+      "title": "Prox-E: 프리미티브 기반 추상화를 통한 세밀한 3D 형상 편집",
+      "title_en": "Prox-E: Fine-Grained 3D Shape Editing via Primitive-Based Abstractions",
+      "url": "https://huggingface.co/papers/2604.23774",
+      "summary": "프리미티브 기반 추상 표현을 사용해 3D 형상을 정밀하게 편집하는 기법.",
+      "summary_en": "Precise 3D shape editing using primitive-based abstract representations."
+    },
+    {
+      "title": "스킬 텍스트에서 스킬 구조로: 에이전트 스킬의 스케줄링-구조-논리 표현",
+      "title_en": "From Skill Text to Skill Structure: The Scheduling-Structural-Logical Representation for Agent Skills",
+      "url": "https://huggingface.co/papers/2604.24026",
+      "summary": "에이전트 프로그래밍 실행을 위해 스킬 설명을 구조화된 표현으로 변환하는 프레임워크 (Peking University).",
+      "summary_en": "A framework converting skill descriptions into structured representations for agent programming and execution."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "UX의 법칙들",
+      "title_en": "Laws of UX",
+      "url": "https://lawsofux.com/",
+      "summary": "UI 디자이너를 위한 30가지 이상의 심리학 기반 디자인 원칙과 패턴 모음.",
+      "summary_en": "Collection of 30+ psychology-based design principles and patterns for UI designers."
+    },
+    {
+      "title": "Amazon에서 약 1,000번 면접을 진행하며 얻은 교훈",
+      "title_en": "Lessons from ~1,000 Interviews at Amazon",
+      "url": "https://newsletter.pragmaticengineer.com",
+      "summary": "Amazon 베테랑이 1000번의 면접 경험을 통해 기술 평가보다 행동 면접이 채용 성공을 더 잘 예측한다고 공유.",
+      "summary_en": "Amazon veteran shares that behavioral interviews are more predictive than technical assessments for hiring success."
+    },
+    {
+      "title": "장기 실행 에이전트 — 에이전트가 며칠 동안 실행되면 무엇이 달라지는가",
+      "title_en": "Long-Running Agents: What Changes When an Agent Runs for Days",
+      "url": "https://addyo.substack.com",
+      "summary": "며칠~수 주 동안 자율적으로 실행되는 AI 에이전트의 컨텍스트 관리 및 장애 복구 문제를 탐구.",
+      "summary_en": "Explores context management and failure recovery for AI agents operating autonomously over days or weeks."
+    },
+    {
+      "title": "이메일 주소 심층 분석",
+      "title_en": "A Deep Dive into Email Addresses",
+      "url": "https://lasans.blog",
+      "summary": "RFC 표준과 구조적 규칙, 보안 고려사항까지 이메일 주소의 복잡성을 심층 분석.",
+      "summary_en": "Deep dive into email address complexity covering RFC standards, structural rules, and security considerations."
+    },
+    {
+      "title": "Fincept Terminal — 오픈소스 금융 분석 플랫폼",
+      "title_en": "Fincept Terminal: Open-Source Financial Analysis Platform",
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "summary": "Bloomberg·Refinitiv의 저렴한 대안을 목표로 C++20과 Qt6로 구축한 오픈소스 금융 터미널.",
+      "summary_en": "Open-source financial terminal built with C++20/Qt6 as an affordable Bloomberg alternative."
+    }
+  ]
+}
