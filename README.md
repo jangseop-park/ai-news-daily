@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-05-05
+> 마지막 업데이트: 2026-05-06
 
-# AI 뉴스 — 2026-05-05
+# AI 뉴스 — 2026-05-06
 
 ## 🔥 GitHub Trending (Python)
 
-- [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents): 멀티 에이전트 LLM 기반 금융 트레이딩 프레임워크
-- [soxoj/maigret](https://github.com/soxoj/maigret): 3000개 이상의 사이트에서 사용자명으로 인물 정보를 수집하는 도구
+- [cocoindex-io/cocoindex](https://github.com/cocoindex-io/cocoindex): 장기 에이전트를 위한 증분 처리 엔진
+- [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps): RAG·에이전트·워크플로우 등 AI 앱 구현 모음집
 - [AIDC-AI/Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video): AI 기반 완전 자동화 숏폼 영상 제작 엔진
-- [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM): 토크나이저 없는 다국어 TTS — 창의적 음성 디자인 및 실감 복제 지원
-- [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar): AI 기반 여론 모니터링 플랫폼 — 다중 플랫폼 집계, RSS 피드, 스마트 알림
+- [LearningCircuit/local-deep-research](https://github.com/LearningCircuit/local-deep-research): 로컬·클라우드 LLM과 다중 검색 엔진 지원 심층 리서치 도구 (SimpleQA ~95%)
+- [PriorLabs/TabPFN](https://github.com/PriorLabs/TabPFN): 표 형식 데이터를 위한 파운데이션 모델
 
 ## 📄 Hugging Face Papers
 
-- [UniVidX: 통합 멀티모달 영상 생성 프레임워크](https://huggingface.co/papers/2605.00658)
-  디퓨전 프라이어를 활용해 다양한 멀티모달 조건에서 영상을 생성하는 통합 프레임워크.
-- [Web2BigTable: 인터넷 규모 정보 추출을 위한 이중 레벨 멀티 에이전트 LLM 시스템](https://huggingface.co/papers/2604.27221)
-  LLM 기반 계층적 멀티 에이전트 시스템으로 웹에서 대규모 정보를 검색·추출.
-- [Map2World: 세그먼트 맵 기반 텍스트→3D 월드 생성](https://huggingface.co/papers/2605.00781)
-  시맨틱 세그먼트 맵으로 조건화된 텍스트 입력에서 3D 세계를 생성하는 방법.
-- [Prox-E: 프리미티브 기반 추상화를 통한 세밀한 3D 형상 편집](https://huggingface.co/papers/2604.23774)
-  프리미티브 기반 추상 표현을 사용해 3D 형상을 정밀하게 편집하는 기법.
-- [스킬 텍스트에서 스킬 구조로: 에이전트 스킬의 스케줄링-구조-논리 표현](https://huggingface.co/papers/2604.24026)
-  에이전트 프로그래밍 실행을 위해 스킬 설명을 구조화된 표현으로 변환하는 프레임워크 (Peking University).
+- [MolmoAct2: 실세계 배포를 위한 행동 추론 모델](https://huggingface.co/papers/2605.02881)
+  AI2에서 개발한 실세계 배포 시나리오를 위한 행동 추론 모델.
+- [컨텍스트에서 스킬로: 언어 모델은 컨텍스트에서 스킬을 배울 수 있는가?](https://huggingface.co/papers/2604.27660)
+  언어 모델이 컨텍스트 정보로부터 새로운 스킬을 효과적으로 습득할 수 있는지 탐구.
+- [지속적 시각 메모리: 대형 비전 언어 모델의 깊은 생성을 위한 지각 유지](https://huggingface.co/papers/2605.00814)
+  대형 비전 언어 모델이 시각적 기억을 유지해 생성 능력을 향상시키는 방법 탐구.
+- [다양성보다 반복: 표본 효율적 독일어 모델링을 위한 고신호 데이터 필터링](https://huggingface.co/papers/2604.28075)
+  효율적인 독일어 언어 모델 학습을 위해 고품질 반복 데이터를 우선시하는 필터링 기법 제안.
+- [OceanPile: 파운데이션 모델을 위한 대규모 멀티모달 해양 데이터셋](https://huggingface.co/papers/2605.00877)
+  저장 장대학(Zhejiang University)이 해양 관련 파운데이션 모델 학습을 위해 구축한 포괄적 멀티모달 데이터셋.
 
 ## 🦉 GeekNews
 
-- [UX의 법칙들](https://lawsofux.com/)
-  UI 디자이너를 위한 30가지 이상의 심리학 기반 디자인 원칙과 패턴 모음.
-- [Amazon에서 약 1,000번 면접을 진행하며 얻은 교훈](https://newsletter.pragmaticengineer.com)
-  Amazon 베테랑이 1000번의 면접 경험을 통해 기술 평가보다 행동 면접이 채용 성공을 더 잘 예측한다고 공유.
-- [장기 실행 에이전트 — 에이전트가 며칠 동안 실행되면 무엇이 달라지는가](https://addyo.substack.com)
-  며칠~수 주 동안 자율적으로 실행되는 AI 에이전트의 컨텍스트 관리 및 장애 복구 문제를 탐구.
-- [이메일 주소 심층 분석](https://lasans.blog)
-  RFC 표준과 구조적 규칙, 보안 고려사항까지 이메일 주소의 복잡성을 심층 분석.
-- [Fincept Terminal — 오픈소스 금융 분석 플랫폼](https://github.com/Fincept-Corporation/FinceptTerminal)
-  Bloomberg·Refinitiv의 저렴한 대안을 목표로 C++20과 Qt6로 구축한 오픈소스 금융 터미널.
+- [Amazon 1,000번 면접에서 얻은 교훈](https://newsletter.pragmaticengineer.com/p/learnings-from-conducting-1000-interviews)
+  전 Amazon 매니저가 공유하는 1000번 면접 인사이트 — 기술 평가보다 행동 평가가 채용 성공을 더 잘 예측.
+- [Understand-Anything: 코드→지식 그래프 자동 생성 플러그인](https://github.com/Lum1104/Understand-Anything)
+  프로젝트 파일·함수·의존성을 자동 분석해 대화형 지식 그래프를 생성, 복잡한 코드베이스 시각화.
+- [에이전트 경제의 블루오션 기회](https://investinginai.substack.com/p/blue-ocean-opportunities-in-the-agentic)
+  2026년 1분기 AI가 채팅에서 자율 에이전트로 전환되며 엔터프라이즈 소프트웨어에 새로운 시장 기회 창출.
+- [Agentic Coding의 함정](https://larsfaye.com/articles/agentic-coding-is-a-trap)
+  멀티 에이전트 코딩 시스템이 효율을 약속하지만, 인간 개발자와 코드 사이의 거리를 벌려 유지보수를 어렵게 할 위험.
+- [이메일 주소 심층 분석](https://lasans.blog/articles/misc/email-addresses-deep-dive/)
+  RFC 표준·구조적 규칙·보안 고려사항까지, 단순한 사용자명@도메인을 넘어선 이메일 주소의 복잡성 탐구.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-05-05](data/2026-05-05.md)
 - [2026-05-04](data/2026-05-04.md)
 - [2026-05-03](data/2026-05-03.md)
 - [2026-05-02](data/2026-05-02.md)
