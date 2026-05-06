@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-05-06
+> 마지막 업데이트: 2026-05-07
 
-# AI 뉴스 — 2026-05-06
+# AI 뉴스 — 2026-05-07
 
 ## 🔥 GitHub Trending (Python)
 
-- [cocoindex-io/cocoindex](https://github.com/cocoindex-io/cocoindex): 장기 에이전트를 위한 증분 처리 엔진
-- [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps): RAG·에이전트·워크플로우 등 AI 앱 구현 모음집
-- [AIDC-AI/Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video): AI 기반 완전 자동화 숏폼 영상 제작 엔진
-- [LearningCircuit/local-deep-research](https://github.com/LearningCircuit/local-deep-research): 로컬·클라우드 LLM과 다중 검색 엔진 지원 심층 리서치 도구 (SimpleQA ~95%)
 - [PriorLabs/TabPFN](https://github.com/PriorLabs/TabPFN): 표 형식 데이터를 위한 파운데이션 모델
+- [LearningCircuit/local-deep-research](https://github.com/LearningCircuit/local-deep-research): 로컬·클라우드 LLM 지원, 10개 이상 검색엔진(arXiv, PubMed 포함) 심층 리서치 도구
+- [anthropics/financial-services](https://github.com/anthropics/financial-services): Anthropic이 구축한 금융 서비스 응용 레포지토리
+- [cheahjs/free-llm-api-resources](https://github.com/cheahjs/free-llm-api-resources): API로 접근 가능한 무료 LLM 추론 리소스 목록
+- [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos): 금융 시장 언어를 위한 파운데이션 모델
 
 ## 📄 Hugging Face Papers
 
-- [MolmoAct2: 실세계 배포를 위한 행동 추론 모델](https://huggingface.co/papers/2605.02881)
-  AI2에서 개발한 실세계 배포 시나리오를 위한 행동 추론 모델.
-- [컨텍스트에서 스킬로: 언어 모델은 컨텍스트에서 스킬을 배울 수 있는가?](https://huggingface.co/papers/2604.27660)
-  언어 모델이 컨텍스트 정보로부터 새로운 스킬을 효과적으로 습득할 수 있는지 탐구.
-- [지속적 시각 메모리: 대형 비전 언어 모델의 깊은 생성을 위한 지각 유지](https://huggingface.co/papers/2605.00814)
-  대형 비전 언어 모델이 시각적 기억을 유지해 생성 능력을 향상시키는 방법 탐구.
-- [다양성보다 반복: 표본 효율적 독일어 모델링을 위한 고신호 데이터 필터링](https://huggingface.co/papers/2604.28075)
-  효율적인 독일어 언어 모델 학습을 위해 고품질 반복 데이터를 우선시하는 필터링 기법 제안.
-- [OceanPile: 파운데이션 모델을 위한 대규모 멀티모달 해양 데이터셋](https://huggingface.co/papers/2605.00877)
-  저장 장대학(Zhejiang University)이 해양 관련 파운데이션 모델 학습을 위해 구축한 포괄적 멀티모달 데이터셋.
+- [ARIS: 적대적 멀티 에이전트 협업을 통한 자율 연구 시스템](https://huggingface.co/papers/2605.03042)
+  Shanghai Jiao Tong University의 적대적 멀티 에이전트 협업으로 연구 품질과 혁신성을 높이는 자율 연구 시스템.
+- [OpenSeeker-v2: 정보성 고난도 궤적으로 검색 에이전트 한계 돌파](https://huggingface.co/papers/2605.04036)
+  정보성 고난도 궤적을 활용해 검색 기반 AI 에이전트의 성능 한계를 돌파하는 강화 검색 에이전트 프레임워크.
+- [SFT-to-RL을 넘어서: 멀티모달 RL을 위한 블랙박스 온폴리시 증류 기반 사전 정렬](https://huggingface.co/papers/2604.28123)
+  HKUSTGZ의 블랙박스 온폴리시 증류를 통해 기존 SFT-to-RL 파이프라인을 넘어 멀티모달 강화학습을 개선하는 사전 정렬 방법.
+- [X2SAM: 이미지와 비디오의 범용 세그멘테이션](https://huggingface.co/papers/2605.00891)
+  Sun Yat-sen University의 정적 이미지와 동적 비디오를 통합 처리하는 범용 세그멘테이션 프레임워크.
+- [HeavySkill: 에이전트 하네스 내 심층 추론을 내부 스킬로](https://huggingface.co/papers/2605.02396)
+  Meituan-LongCat의 에이전트 아키텍처 내부 핵심 스킬로 집중적 추론·계획 능력을 통합하는 방법 제안.
 
 ## 🦉 GeekNews
 
-- [Amazon 1,000번 면접에서 얻은 교훈](https://newsletter.pragmaticengineer.com/p/learnings-from-conducting-1000-interviews)
-  전 Amazon 매니저가 공유하는 1000번 면접 인사이트 — 기술 평가보다 행동 평가가 채용 성공을 더 잘 예측.
-- [Understand-Anything: 코드→지식 그래프 자동 생성 플러그인](https://github.com/Lum1104/Understand-Anything)
-  프로젝트 파일·함수·의존성을 자동 분석해 대화형 지식 그래프를 생성, 복잡한 코드베이스 시각화.
-- [에이전트 경제의 블루오션 기회](https://investinginai.substack.com/p/blue-ocean-opportunities-in-the-agentic)
-  2026년 1분기 AI가 채팅에서 자율 에이전트로 전환되며 엔터프라이즈 소프트웨어에 새로운 시장 기회 창출.
-- [Agentic Coding의 함정](https://larsfaye.com/articles/agentic-coding-is-a-trap)
-  멀티 에이전트 코딩 시스템이 효율을 약속하지만, 인간 개발자와 코드 사이의 거리를 벌려 유지보수를 어렵게 할 위험.
-- [이메일 주소 심층 분석](https://lasans.blog/articles/misc/email-addresses-deep-dive/)
-  RFC 표준·구조적 규칙·보안 고려사항까지, 단순한 사용자명@도메인을 넘어선 이메일 주소의 복잡성 탐구.
+- [최고의 직원이 최악의 관리자가 되는 이유](https://yanivpreiss.com/2026/04/12/why-your-best-employee-becomes-your-worst-manager/)
+  기술 전문가를 관리자로 승진시킬 때의 실패 패턴 분석 — 관리직은 승진이 아닌 새로운 커리어로 접근해야 함.
+- [Uncle Bob: "코딩의 시대는 끝났다"](https://www.reddit.com/r/vibecoding/comments/1srfqm0/uncle_bob_its_over/)
+  Clean Code 저자, AI가 인간보다 훨씬 빠르게 코드를 작성하며 개발자의 역할이 근본적으로 변화하고 있다고 주장.
+- [생산적 미루기의 심리학](https://www.maxvanijsselmuiden.nl/blog/productive-procrastination/)
+  핵심 업무 대신 다른 생산적 활동을 선택하는 이유를 신경과학·인지과학으로 분석.
+- [모두가 AI를 써도 회사는 여전히 아무것도 배우지 못한다](https://www.robert-glaser.de/when-everyone-has-ai-and-the-company-still-learns-nothing/)
+  개인 AI 생산성 향상이 지식 이전 메커니즘 없이는 조직 학습으로 이어지지 않는다는 주장.
+- [Amazon 1,000번 면접 교훈](https://newsletter.pragmaticengineer.com/p/learnings-from-conducting-1000-interviews)
+  Amazon에서 약 1000번 면접을 진행한 리크루터의 결론 — 행동 평가가 기술 평가보다 중요.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-05-06](data/2026-05-06.md)
 - [2026-05-05](data/2026-05-05.md)
 - [2026-05-04](data/2026-05-04.md)
 - [2026-05-03](data/2026-05-03.md)
