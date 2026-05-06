@@ -1,0 +1,109 @@
+{
+  "date": "2026-05-07",
+  "github_trending": [
+    {
+      "name": "PriorLabs/TabPFN",
+      "url": "https://github.com/PriorLabs/TabPFN",
+      "description": "표 형식 데이터를 위한 파운데이션 모델",
+      "description_en": "Foundation Model for Tabular Data"
+    },
+    {
+      "name": "LearningCircuit/local-deep-research",
+      "url": "https://github.com/LearningCircuit/local-deep-research",
+      "description": "로컬·클라우드 LLM 지원, 10개 이상 검색엔진(arXiv, PubMed 포함) 심층 리서치 도구",
+      "description_en": "Deep research tool with local/cloud LLM support and 10+ search engines"
+    },
+    {
+      "name": "anthropics/financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "description": "Anthropic이 구축한 금융 서비스 응용 레포지토리",
+      "description_en": "Financial services applications repository built by Anthropic's team"
+    },
+    {
+      "name": "cheahjs/free-llm-api-resources",
+      "url": "https://github.com/cheahjs/free-llm-api-resources",
+      "description": "API로 접근 가능한 무료 LLM 추론 리소스 목록",
+      "description_en": "A list of free LLM inference resources accessible via API"
+    },
+    {
+      "name": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "금융 시장 언어를 위한 파운데이션 모델",
+      "description_en": "Kronos: A Foundation Model for the Language of Financial Markets"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "ARIS: 적대적 멀티 에이전트 협업을 통한 자율 연구 시스템",
+      "title_en": "ARIS: Autonomous Research via Adversarial Multi-Agent Collaboration",
+      "url": "https://huggingface.co/papers/2605.03042",
+      "summary": "Shanghai Jiao Tong University의 적대적 멀티 에이전트 협업으로 연구 품질과 혁신성을 높이는 자율 연구 시스템.",
+      "summary_en": "System enabling autonomous research through adversarial multi-agent collaboration to improve research quality."
+    },
+    {
+      "title": "OpenSeeker-v2: 정보성 고난도 궤적으로 검색 에이전트 한계 돌파",
+      "title_en": "OpenSeeker-v2: Pushing the Limits of Search Agents with Informative and High-Difficulty Trajectories",
+      "url": "https://huggingface.co/papers/2605.04036",
+      "summary": "정보성 고난도 궤적을 활용해 검색 기반 AI 에이전트의 성능 한계를 돌파하는 강화 검색 에이전트 프레임워크.",
+      "summary_en": "Enhanced search agent framework leveraging high-difficulty trajectories to push limits of search-based AI agents."
+    },
+    {
+      "title": "SFT-to-RL을 넘어서: 멀티모달 RL을 위한 블랙박스 온폴리시 증류 기반 사전 정렬",
+      "title_en": "Beyond SFT-to-RL: Pre-alignment via Black-Box On-Policy Distillation for Multimodal RL",
+      "url": "https://huggingface.co/papers/2604.28123",
+      "summary": "HKUSTGZ의 블랙박스 온폴리시 증류를 통해 기존 SFT-to-RL 파이프라인을 넘어 멀티모달 강화학습을 개선하는 사전 정렬 방법.",
+      "summary_en": "Pre-alignment approach using black-box on-policy distillation to improve multimodal RL beyond traditional SFT-to-RL."
+    },
+    {
+      "title": "X2SAM: 이미지와 비디오의 범용 세그멘테이션",
+      "title_en": "X2SAM: Any Segmentation in Images and Videos",
+      "url": "https://huggingface.co/papers/2605.00891",
+      "summary": "Sun Yat-sen University의 정적 이미지와 동적 비디오를 통합 처리하는 범용 세그멘테이션 프레임워크.",
+      "summary_en": "Unified framework extending segmentation capabilities across both static images and dynamic videos."
+    },
+    {
+      "title": "HeavySkill: 에이전트 하네스 내 심층 추론을 내부 스킬로",
+      "title_en": "HeavySkill: Heavy Thinking as the Inner Skill in Agentic Harness",
+      "url": "https://huggingface.co/papers/2605.02396",
+      "summary": "Meituan-LongCat의 에이전트 아키텍처 내부 핵심 스킬로 집중적 추론·계획 능력을 통합하는 방법 제안.",
+      "summary_en": "Incorporates intensive reasoning and planning as core internal skills within agent architectures."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "최고의 직원이 최악의 관리자가 되는 이유",
+      "title_en": "Why Your Best Employee Becomes Your Worst Manager",
+      "url": "https://yanivpreiss.com/2026/04/12/why-your-best-employee-becomes-your-worst-manager/",
+      "summary": "기술 전문가를 관리자로 승진시킬 때의 실패 패턴 분석 — 관리직은 승진이 아닌 새로운 커리어로 접근해야 함.",
+      "summary_en": "Analyzes failure patterns when promoting technical employees to management; management requires treating it as a new career."
+    },
+    {
+      "title": "Uncle Bob: \"코딩의 시대는 끝났다\"",
+      "title_en": "Uncle Bob: \"The Era of Coding Is Over\"",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1srfqm0/uncle_bob_its_over/",
+      "summary": "Clean Code 저자, AI가 인간보다 훨씬 빠르게 코드를 작성하며 개발자의 역할이 근본적으로 변화하고 있다고 주장.",
+      "summary_en": "Clean Code author argues AI now writes code faster than humans, signaling a fundamental shift in developer roles."
+    },
+    {
+      "title": "생산적 미루기의 심리학",
+      "title_en": "Productive Procrastination Psychology",
+      "url": "https://www.maxvanijsselmuiden.nl/blog/productive-procrastination/",
+      "summary": "핵심 업무 대신 다른 생산적 활동을 선택하는 이유를 신경과학·인지과학으로 분석.",
+      "summary_en": "Examines why people substitute core tasks with productive activities, analyzed through neuroscience and cognitive science."
+    },
+    {
+      "title": "모두가 AI를 써도 회사는 여전히 아무것도 배우지 못한다",
+      "title_en": "When Everyone Has AI, Companies Still Learn Nothing",
+      "url": "https://www.robert-glaser.de/when-everyone-has-ai-and-the-company-still-learns-nothing/",
+      "summary": "개인 AI 생산성 향상이 지식 이전 메커니즘 없이는 조직 학습으로 이어지지 않는다는 주장.",
+      "summary_en": "Individual AI gains don't translate to organizational learning without proper knowledge transfer mechanisms."
+    },
+    {
+      "title": "Amazon 1,000번 면접 교훈",
+      "title_en": "Lessons from ~1,000 Amazon Interviews",
+      "url": "https://newsletter.pragmaticengineer.com/p/learnings-from-conducting-1000-interviews",
+      "summary": "Amazon에서 약 1000번 면접을 진행한 리크루터의 결론 — 행동 평가가 기술 평가보다 중요.",
+      "summary_en": "Recruiter's insights from ~1,000 Amazon interviews: behavioral assessments outweigh technical evaluation."
+    }
+  ]
+}
