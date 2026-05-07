@@ -1,46 +1,49 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-05-07
+> 마지막 업데이트: 2026-05-08
 
-# AI 뉴스 — 2026-05-07
+
+# AI 뉴스 — 2026-05-08
 
 ## 🔥 GitHub Trending (Python)
 
-- [PriorLabs/TabPFN](https://github.com/PriorLabs/TabPFN): 표 형식 데이터를 위한 파운데이션 모델
-- [LearningCircuit/local-deep-research](https://github.com/LearningCircuit/local-deep-research): 로컬·클라우드 LLM 지원, 10개 이상 검색엔진(arXiv, PubMed 포함) 심층 리서치 도구
 - [anthropics/financial-services](https://github.com/anthropics/financial-services): Anthropic이 구축한 금융 서비스 응용 레포지토리
-- [cheahjs/free-llm-api-resources](https://github.com/cheahjs/free-llm-api-resources): API로 접근 가능한 무료 LLM 추론 리소스 목록
-- [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos): 금융 시장 언어를 위한 파운데이션 모델
+- [z-lab/dflash](https://github.com/z-lab/dflash): 블록 디퓨전 기반 플래시 Speculative Decoding 프레임워크
+- [LearningCircuit/local-deep-research](https://github.com/LearningCircuit/local-deep-research): 로컬·클라우드 LLM 지원, 10개 이상 검색엔진 심층 리서치 도구
+- [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex): 벡터 없이 추론 기반 RAG를 위한 문서 인덱스 솔루션
+- [PriorLabs/TabPFN](https://github.com/PriorLabs/TabPFN): 표 형식 데이터를 위한 파운데이션 모델
 
 ## 📄 Hugging Face Papers
 
-- [ARIS: 적대적 멀티 에이전트 협업을 통한 자율 연구 시스템](https://huggingface.co/papers/2605.03042)
-  Shanghai Jiao Tong University의 적대적 멀티 에이전트 협업으로 연구 품질과 혁신성을 높이는 자율 연구 시스템.
-- [OpenSeeker-v2: 정보성 고난도 궤적으로 검색 에이전트 한계 돌파](https://huggingface.co/papers/2605.04036)
-  정보성 고난도 궤적을 활용해 검색 기반 AI 에이전트의 성능 한계를 돌파하는 강화 검색 에이전트 프레임워크.
-- [SFT-to-RL을 넘어서: 멀티모달 RL을 위한 블랙박스 온폴리시 증류 기반 사전 정렬](https://huggingface.co/papers/2604.28123)
-  HKUSTGZ의 블랙박스 온폴리시 증류를 통해 기존 SFT-to-RL 파이프라인을 넘어 멀티모달 강화학습을 개선하는 사전 정렬 방법.
-- [X2SAM: 이미지와 비디오의 범용 세그멘테이션](https://huggingface.co/papers/2605.00891)
-  Sun Yat-sen University의 정적 이미지와 동적 비디오를 통합 처리하는 범용 세그멘테이션 프레임워크.
-- [HeavySkill: 에이전트 하네스 내 심층 추론을 내부 스킬로](https://huggingface.co/papers/2605.02396)
-  Meituan-LongCat의 에이전트 아키텍처 내부 핵심 스킬로 집중적 추론·계획 능력을 통합하는 방법 제안.
+- [Stream-R1: 스트리밍 비디오 생성을 위한 신뢰도-퍼플렉시티 보상 증류](https://huggingface.co/papers/2605.03849)
+  스트리밍 비디오 생성 품질을 신뢰도 인식 보상 증류 기법으로 개선.
+- [Stream-T1: 스트리밍 비디오 생성을 위한 테스트 타임 스케일링](https://huggingface.co/papers/2605.04461)
+  테스트 타임 계산량 조절로 스트리밍 비디오 생성 품질·효율 동시 향상.
+- [RLDX-1 기술 보고서](https://huggingface.co/papers/2605.03269)
+  RLWRLD이 개발한 강화학습 시스템 RLDX-1의 아키텍처와 성능 기술 보고서.
+- [OpenSearch-VL: 프론티어 멀티모달 검색 에이전트를 위한 오픈 레시피](https://huggingface.co/papers/2605.05185)
+  Tencent Hunyuan이 제안한 멀티모달 검색 에이전트 구축을 위한 오픈 프레임워크.
+- [HERMES++: 3D 씬 이해·생성을 위한 통합 자율주행 월드 모델](https://huggingface.co/papers/2604.28196)
+  자율주행을 위해 3D 씬 이해와 생성 능력을 하나의 프레임워크로 통합한 월드 모델.
 
 ## 🦉 GeekNews
 
+- [AI가 끌어올린 바닥, 우리의 천장은 어디인가?](https://brunch.co.kr/@hongchanchoi/11)
+  AI 시대 불안감의 근원을 진단하고 개발자가 나아가야 할 방향과 극복 전략 제시.
+- [병목은 결코 코드가 아니었다](https://www.thetypicalset.com/blog/thoughts-on-coding-agents)
+  Codex가 코드 작성 속도를 끌어올렸지만 진짜 병목은 협업 방식의 변화임을 논증.
 - [최고의 직원이 최악의 관리자가 되는 이유](https://yanivpreiss.com/2026/04/12/why-your-best-employee-becomes-your-worst-manager/)
-  기술 전문가를 관리자로 승진시킬 때의 실패 패턴 분석 — 관리직은 승진이 아닌 새로운 커리어로 접근해야 함.
-- [Uncle Bob: "코딩의 시대는 끝났다"](https://www.reddit.com/r/vibecoding/comments/1srfqm0/uncle_bob_its_over/)
-  Clean Code 저자, AI가 인간보다 훨씬 빠르게 코드를 작성하며 개발자의 역할이 근본적으로 변화하고 있다고 주장.
-- [생산적 미루기의 심리학](https://www.maxvanijsselmuiden.nl/blog/productive-procrastination/)
-  핵심 업무 대신 다른 생산적 활동을 선택하는 이유를 신경과학·인지과학으로 분석.
-- [모두가 AI를 써도 회사는 여전히 아무것도 배우지 못한다](https://www.robert-glaser.de/when-everyone-has-ai-and-the-company-still-learns-nothing/)
-  개인 AI 생산성 향상이 지식 이전 메커니즘 없이는 조직 학습으로 이어지지 않는다는 주장.
-- [Amazon 1,000번 면접 교훈](https://newsletter.pragmaticengineer.com/p/learnings-from-conducting-1000-interviews)
-  Amazon에서 약 1000번 면접을 진행한 리크루터의 결론 — 행동 평가가 기술 평가보다 중요.
+  기술 전문가를 관리자로 승진시킬 때의 실패 패턴 — 관리직은 승진이 아닌 새 커리어로 접근해야 함.
+- [엉클 밥: "코드를 직접 짜던 시대는 끝났다"](https://www.reddit.com/r/vibecoding/comments/1srfqm0/uncle_bob_its_over/)
+  Clean Code 저자, AI가 훨씬 빠르게 코드를 작성하며 개발자의 역할이 근본적으로 변화 중이라고 주장.
+- [생산적 미루기 — 왜 해야 할 일 대신 다른 생산적인 일을 하게 되는가](https://www.maxvanijsselmuiden.nl/blog/productive-procrastination/)
+  핵심 업무를 미루면서 다른 생산적 활동을 선택하는 심리적 원인을 뇌과학·인지과학으로 분석.
+
 
 ---
 ## 📅 이전 날짜
 
+- [2026-05-07](data/2026-05-07.md)
 - [2026-05-06](data/2026-05-06.md)
 - [2026-05-05](data/2026-05-05.md)
 - [2026-05-04](data/2026-05-04.md)
