@@ -72,28 +72,38 @@
   "geeknews": [
     {
       "title": "AI가 끌어올린 바닥, 우리의 천장은 어디인가?",
+      "title_en": "AI Raised the Floor — Where is Our Ceiling?",
       "url": "https://brunch.co.kr/@hongchanchoi/11",
-      "summary": "AI 시대의 불안감 근원을 진단하고 개발자가 나아가야 할 방향과 극복 전략 제시."
+      "summary": "AI 시대 불안감의 근원을 진단하고 개발자가 나아가야 할 방향과 극복 전략 제시.",
+      "summary_en": "Diagnoses the root of AI-era anxiety and presents strategies for developers to navigate and overcome it."
     },
     {
       "title": "병목은 결코 코드가 아니었다",
+      "title_en": "The Bottleneck Was Never the Code",
       "url": "https://www.thetypicalset.com/blog/thoughts-on-coding-agents",
-      "summary": "Codex가 코드 작성 속도를 끌어올렸지만 진짜 병목은 협업 방식의 변화임을 논증."
+      "summary": "Codex가 코드 작성 속도를 끌어올렸지만 진짜 병목은 협업 방식의 변화임을 논증.",
+      "summary_en": "Argues that while Codex accelerated coding speed, the real bottleneck is how collaboration must change."
     },
     {
       "title": "최고의 직원이 최악의 관리자가 되는 이유",
+      "title_en": "Why Your Best Employee Becomes Your Worst Manager",
       "url": "https://yanivpreiss.com/2026/04/12/why-your-best-employee-becomes-your-worst-manager/",
-      "summary": "기술 전문가를 관리자로 승진시킬 때의 실패 패턴 — 관리직은 승진이 아닌 새 커리어로 접근해야 함."
+      "summary": "기술 전문가를 관리자로 승진시킬 때의 실패 패턴 — 관리직은 승진이 아닌 새 커리어로 접근해야 함.",
+      "summary_en": "Analyzes failure patterns when promoting technical experts to management roles."
     },
     {
       "title": "엉클 밥: \"코드를 직접 짜던 시대는 끝났다\"",
+      "title_en": "Uncle Bob: The Era of Writing Code Yourself Is Over",
       "url": "https://www.reddit.com/r/vibecoding/comments/1srfqm0/uncle_bob_its_over/",
-      "summary": "Clean Code 저자, AI가 훨씬 빠르게 코드를 작성하며 개발자 역할이 근본적으로 변화 중이라고 주장."
+      "summary": "Clean Code 저자, AI가 훨씬 빠르게 코드를 작성하며 개발자의 역할이 근본적으로 변화 중이라고 주장.",
+      "summary_en": "Clean Code author argues AI writes code far faster than humans and the developer role is fundamentally changing."
     },
     {
       "title": "생산적 미루기 — 왜 해야 할 일 대신 다른 생산적인 일을 하게 되는가",
+      "title_en": "Productive Procrastination — Why You Do Other Productive Things Instead",
       "url": "https://www.maxvanijsselmuiden.nl/blog/productive-procrastination/",
-      "summary": "핵심 업무를 미루면서 다른 생산적 활동을 선택하는 심리적 원인을 뇌과학으로 분석."
+      "summary": "핵심 업무를 미루면서 다른 생산적 활동을 선택하는 심리적 원인을 뇌과학·인지과학으로 분석.",
+      "summary_en": "Analyzes through neuroscience why people choose other productive tasks instead of their core work."
     }
   ]
 }
