@@ -1,0 +1,109 @@
+{
+  "date": "2026-05-09",
+  "github_trending": [
+    {
+      "name": "anthropics/financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "description": "Anthropic이 구축한 금융 서비스 응용 레포지토리",
+      "description_en": "Financial services tools and resources built by Anthropic"
+    },
+    {
+      "name": "z-lab/dflash",
+      "url": "https://github.com/z-lab/dflash",
+      "description": "블록 디퓨전 기반 플래시 Speculative Decoding 프레임워크",
+      "description_en": "DFlash: Block Diffusion for Flash Speculative Decoding"
+    },
+    {
+      "name": "CloakHQ/CloakBrowser",
+      "url": "https://github.com/CloakHQ/CloakBrowser",
+      "description": "모든 봇 감지 테스트 통과 스텔스 Chromium — Playwright 드롭인 대체품",
+      "description_en": "Stealth Chromium passing every bot detection test. Drop-in Playwright replacement."
+    },
+    {
+      "name": "awslabs/aidlc-workflows",
+      "url": "https://github.com/awslabs/aidlc-workflows",
+      "description": "AI 코딩 에이전트를 위한 AI-DLC 적응형 워크플로우 스티어링 규칙",
+      "description_en": "AI-Driven Life Cycle adaptive workflow steering rules for AI coding agents"
+    },
+    {
+      "name": "HKUDS/AI-Trader",
+      "url": "https://github.com/HKUDS/AI-Trader",
+      "description": "100% 완전 자동화 에이전트 네이티브 트레이딩 시스템",
+      "description_en": "AI-Trader: 100% Fully-Automated Agent-Native Trading"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "Skill1: 강화학습을 통한 스킬 강화 에이전트의 통합 진화",
+      "title_en": "Skill1: Unified Evolution of Skill-Augmented Agents via Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2605.06130",
+      "summary": "강화학습 기법으로 스킬 강화 에이전트를 통합적으로 진화시키는 프레임워크 제안.",
+      "summary_en": "Proposes a unified RL framework for evolving skill-augmented agents."
+    },
+    {
+      "title": "시맨틱 유사도를 넘어서: 직접 코퍼스 상호작용으로 에이전틱 검색 재정의",
+      "title_en": "Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction",
+      "url": "https://huggingface.co/papers/2605.05242",
+      "summary": "전통적 시맨틱 유사도 검색 방식에 도전해 직접 코퍼스 상호작용으로 에이전틱 검색을 개선하는 방법 제안.",
+      "summary_en": "Challenges semantic similarity retrieval by introducing direct corpus interaction for agentic search."
+    },
+    {
+      "title": "연속 잠재 확산 언어 모델",
+      "title_en": "Continuous Latent Diffusion Language Model",
+      "url": "https://huggingface.co/papers/2605.06548",
+      "summary": "연속 잠재 공간과 확산 기반 생성을 결합한 새로운 언어 모델 아키텍처 제시.",
+      "summary_en": "Presents a language model architecture combining continuous latent spaces with diffusion-based generation."
+    },
+    {
+      "title": "MiA-Signature: 장문 맥락 이해를 위한 전역 활성화 근사",
+      "title_en": "MiA-Signature: Approximating Global Activation for Long-Context Understanding",
+      "url": "https://huggingface.co/papers/2605.06416",
+      "summary": "전역 활성화 함수 근사로 언어 모델의 장문 맥락 이해 성능을 향상시키는 방법.",
+      "summary_en": "Improves long-context understanding by approximating global activation functions in language models."
+    },
+    {
+      "title": "RaguTeam at SemEval-2026 Task 8: 판사 오케스트레이션 LLM 앙상블로 신뢰성 있는 멀티턴 응답 생성",
+      "title_en": "RaguTeam at SemEval-2026 Task 8: Meno and Friends in a Judge-Orchestrated LLM Ensemble",
+      "url": "https://huggingface.co/papers/2605.04523",
+      "summary": "판사 오케스트레이션 LLM 앙상블 방식으로 신뢰성 있는 멀티턴 대화 응답을 생성하는 접근법.",
+      "summary_en": "Judge-orchestrated LLM ensemble for faithful multi-turn conversational response generation."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "AI Slop이 온라인 커뮤니티를 죽이고 있다",
+      "title_en": "AI Slop is Killing Online Communities",
+      "url": "https://rmoff.net/2026/05/06/ai-slop-is-killing-online-communities/",
+      "summary": "저품질 AI 생성물 범람이 온라인 커뮤니티의 신호 대 잡음비를 파괴하고 있다는 분석.",
+      "summary_en": "Analysis of how low-effort AI-generated content floods online communities and destroys signal-to-noise ratio."
+    },
+    {
+      "title": "프로그래밍은 여전히 형편없다",
+      "title_en": "Programming Still Sucks",
+      "url": "https://www.stvn.sh/writing/programming-still-sucks-fqffhyp",
+      "summary": "AI가 아닌 경영진의 탐욕과 단기 성과주의가 기술 업계의 근본적 문제라는 주장.",
+      "summary_en": "Argues that management greed and short-termism, not AI, are the fundamental problems in the tech industry."
+    },
+    {
+      "title": "AI가 끌어올린 바닥, 우리의 천장은 어디인가?",
+      "title_en": "AI Raised the Floor — Where is Our Ceiling?",
+      "url": "https://brunch.co.kr/@hongchanchoi/11",
+      "summary": "AI 시대 불안감의 근원을 진단하고 개발자가 나아가야 할 방향과 극복 전략 제시.",
+      "summary_en": "Diagnoses the root of AI-era anxiety and presents strategies for developers."
+    },
+    {
+      "title": "병목은 결코 코드가 아니었다",
+      "title_en": "The Bottleneck Was Never the Code",
+      "url": "https://www.thetypicalset.com/blog/thoughts-on-coding-agents",
+      "summary": "AI 코딩 도구가 개인 생산성보다 협업 구조의 변화를 가져온다는 통찰.",
+      "summary_en": "Insight that AI coding tools drive structural collaboration changes more than individual productivity gains."
+    },
+    {
+      "title": "최고의 직원이 최악의 관리자가 되는 이유",
+      "title_en": "Why Your Best Employee Becomes Your Worst Manager",
+      "url": "https://yanivpreiss.com/2026/04/12/why-your-best-employee-becomes-your-worst-manager/",
+      "summary": "기술 전문가를 관리자로 승진시킬 때의 실패 패턴 — 관리직은 새로운 커리어로 접근해야 함.",
+      "summary_en": "Analyzes failure patterns when promoting technical experts to management roles."
+    }
+  ]
+}
