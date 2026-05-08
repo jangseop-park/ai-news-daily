@@ -1,48 +1,48 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-05-08
+> 마지막 업데이트: 2026-05-09
 
-
-# AI 뉴스 — 2026-05-08
+# AI 뉴스 — 2026-05-09
 
 ## 🔥 GitHub Trending (Python)
 
 - [anthropics/financial-services](https://github.com/anthropics/financial-services): Anthropic이 구축한 금융 서비스 응용 레포지토리
 - [z-lab/dflash](https://github.com/z-lab/dflash): 블록 디퓨전 기반 플래시 Speculative Decoding 프레임워크
-- [LearningCircuit/local-deep-research](https://github.com/LearningCircuit/local-deep-research): 로컬·클라우드 LLM 지원, 10개 이상 검색엔진 심층 리서치 도구
-- [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex): 벡터 없이 추론 기반 RAG를 위한 문서 인덱스 솔루션
-- [PriorLabs/TabPFN](https://github.com/PriorLabs/TabPFN): 표 형식 데이터를 위한 파운데이션 모델
+- [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser): 모든 봇 감지 테스트 통과 스텔스 Chromium — Playwright 드롭인 대체품
+- [awslabs/aidlc-workflows](https://github.com/awslabs/aidlc-workflows): AI 코딩 에이전트를 위한 AI-DLC 적응형 워크플로우 스티어링 규칙
+- [HKUDS/AI-Trader](https://github.com/HKUDS/AI-Trader): 100% 완전 자동화 에이전트 네이티브 트레이딩 시스템
 
 ## 📄 Hugging Face Papers
 
-- [Stream-R1: 스트리밍 비디오 생성을 위한 신뢰도-퍼플렉시티 보상 증류](https://huggingface.co/papers/2605.03849)
-  스트리밍 비디오 생성 품질을 신뢰도 인식 보상 증류 기법으로 개선.
-- [Stream-T1: 스트리밍 비디오 생성을 위한 테스트 타임 스케일링](https://huggingface.co/papers/2605.04461)
-  테스트 타임 계산량 조절로 스트리밍 비디오 생성 품질·효율 동시 향상.
-- [RLDX-1 기술 보고서](https://huggingface.co/papers/2605.03269)
-  RLWRLD이 개발한 강화학습 시스템 RLDX-1의 아키텍처와 성능 기술 보고서.
-- [OpenSearch-VL: 프론티어 멀티모달 검색 에이전트를 위한 오픈 레시피](https://huggingface.co/papers/2605.05185)
-  Tencent Hunyuan이 제안한 멀티모달 검색 에이전트 구축을 위한 오픈 프레임워크.
-- [HERMES++: 3D 씬 이해·생성을 위한 통합 자율주행 월드 모델](https://huggingface.co/papers/2604.28196)
-  자율주행을 위해 3D 씬 이해와 생성 능력을 하나의 프레임워크로 통합한 월드 모델.
+- [Skill1: 강화학습을 통한 스킬 강화 에이전트의 통합 진화](https://huggingface.co/papers/2605.06130)
+  강화학습 기법으로 스킬 강화 에이전트를 통합적으로 진화시키는 프레임워크 제안.
+- [시맨틱 유사도를 넘어서: 직접 코퍼스 상호작용으로 에이전틱 검색 재정의](https://huggingface.co/papers/2605.05242)
+  전통적 시맨틱 유사도 검색 방식에 도전해 직접 코퍼스 상호작용으로 에이전틱 검색을 개선하는 방법 제안.
+- [연속 잠재 확산 언어 모델](https://huggingface.co/papers/2605.06548)
+  연속 잠재 공간과 확산 기반 생성을 결합한 새로운 언어 모델 아키텍처 제시.
+- [MiA-Signature: 장문 맥락 이해를 위한 전역 활성화 근사](https://huggingface.co/papers/2605.06416)
+  전역 활성화 함수 근사로 언어 모델의 장문 맥락 이해 성능을 향상시키는 방법.
+- [RaguTeam at SemEval-2026 Task 8: 판사 오케스트레이션 LLM 앙상블로 신뢰성 있는 멀티턴 응답 생성](https://huggingface.co/papers/2605.04523)
+  판사 오케스트레이션 LLM 앙상블 방식으로 신뢰성 있는 멀티턴 대화 응답을 생성하는 접근법.
 
 ## 🦉 GeekNews
 
+- [AI Slop이 온라인 커뮤니티를 죽이고 있다](https://rmoff.net/2026/05/06/ai-slop-is-killing-online-communities/)
+  저품질 AI 생성물 범람이 온라인 커뮤니티의 신호 대 잡음비를 파괴하고 있다는 분석.
+- [프로그래밍은 여전히 형편없다](https://www.stvn.sh/writing/programming-still-sucks-fqffhyp)
+  AI가 아닌 경영진의 탐욕과 단기 성과주의가 기술 업계의 근본적 문제라는 주장.
 - [AI가 끌어올린 바닥, 우리의 천장은 어디인가?](https://brunch.co.kr/@hongchanchoi/11)
   AI 시대 불안감의 근원을 진단하고 개발자가 나아가야 할 방향과 극복 전략 제시.
 - [병목은 결코 코드가 아니었다](https://www.thetypicalset.com/blog/thoughts-on-coding-agents)
-  Codex가 코드 작성 속도를 끌어올렸지만 진짜 병목은 협업 방식의 변화임을 논증.
+  AI 코딩 도구가 개인 생산성보다 협업 구조의 변화를 가져온다는 통찰.
 - [최고의 직원이 최악의 관리자가 되는 이유](https://yanivpreiss.com/2026/04/12/why-your-best-employee-becomes-your-worst-manager/)
-  기술 전문가를 관리자로 승진시킬 때의 실패 패턴 — 관리직은 승진이 아닌 새 커리어로 접근해야 함.
-- [엉클 밥: "코드를 직접 짜던 시대는 끝났다"](https://www.reddit.com/r/vibecoding/comments/1srfqm0/uncle_bob_its_over/)
-  Clean Code 저자, AI가 훨씬 빠르게 코드를 작성하며 개발자의 역할이 근본적으로 변화 중이라고 주장.
-- [생산적 미루기 — 왜 해야 할 일 대신 다른 생산적인 일을 하게 되는가](https://www.maxvanijsselmuiden.nl/blog/productive-procrastination/)
-  핵심 업무를 미루면서 다른 생산적 활동을 선택하는 심리적 원인을 뇌과학·인지과학으로 분석.
+  기술 전문가를 관리자로 승진시킬 때의 실패 패턴 — 관리직은 새로운 커리어로 접근해야 함.
 
 
 ---
 ## 📅 이전 날짜
 
+- [2026-05-08](data/2026-05-08.md)
 - [2026-05-07](data/2026-05-07.md)
 - [2026-05-06](data/2026-05-06.md)
 - [2026-05-05](data/2026-05-05.md)
