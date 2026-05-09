@@ -1,47 +1,48 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-05-09
+> 마지막 업데이트: 2026-05-10
 
-# AI 뉴스 — 2026-05-09
+# AI 뉴스 — 2026-05-10
 
 ## 🔥 GitHub Trending (Python)
 
 - [anthropics/financial-services](https://github.com/anthropics/financial-services): Anthropic이 구축한 금융 서비스 응용 레포지토리
-- [z-lab/dflash](https://github.com/z-lab/dflash): 블록 디퓨전 기반 플래시 Speculative Decoding 프레임워크
+- [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents): 에이전트 원리와 실천 — 처음부터 시작하는 지능 에이전트 구축 튜토리얼
+- [HKUDS/ViMax](https://github.com/HKUDS/ViMax): 감독·시나리오·제작·생성 올인원 에이전틱 비디오 생성 시스템
 - [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser): 모든 봇 감지 테스트 통과 스텔스 Chromium — Playwright 드롭인 대체품
-- [awslabs/aidlc-workflows](https://github.com/awslabs/aidlc-workflows): AI 코딩 에이전트를 위한 AI-DLC 적응형 워크플로우 스티어링 규칙
-- [HKUDS/AI-Trader](https://github.com/HKUDS/AI-Trader): 100% 완전 자동화 에이전트 네이티브 트레이딩 시스템
+- [freemocap/freemocap](https://github.com/freemocap/freemocap): 누구나 무료로 사용하는 오픈소스 모션 캡처 시스템
 
 ## 📄 Hugging Face Papers
 
-- [Skill1: 강화학습을 통한 스킬 강화 에이전트의 통합 진화](https://huggingface.co/papers/2605.06130)
-  강화학습 기법으로 스킬 강화 에이전트를 통합적으로 진화시키는 프레임워크 제안.
 - [시맨틱 유사도를 넘어서: 직접 코퍼스 상호작용으로 에이전틱 검색 재정의](https://huggingface.co/papers/2605.05242)
-  전통적 시맨틱 유사도 검색 방식에 도전해 직접 코퍼스 상호작용으로 에이전틱 검색을 개선하는 방법 제안.
+  전통적 시맨틱 유사도 검색 한계를 넘어 직접 코퍼스 상호작용으로 에이전틱 검색을 개선하는 방법 제안.
+- [Skill1: 강화학습을 통한 스킬 강화 에이전트의 통합 진화](https://huggingface.co/papers/2605.06130)
+  강화학습으로 스킬 강화 에이전트를 통합적으로 진화시키는 새 프레임워크.
 - [연속 잠재 확산 언어 모델](https://huggingface.co/papers/2605.06548)
-  연속 잠재 공간과 확산 기반 생성을 결합한 새로운 언어 모델 아키텍처 제시.
+  연속 잠재 공간과 확산 기반 생성을 결합한 새로운 언어 모델 아키텍처.
 - [MiA-Signature: 장문 맥락 이해를 위한 전역 활성화 근사](https://huggingface.co/papers/2605.06416)
-  전역 활성화 함수 근사로 언어 모델의 장문 맥락 이해 성능을 향상시키는 방법.
-- [RaguTeam at SemEval-2026 Task 8: 판사 오케스트레이션 LLM 앙상블로 신뢰성 있는 멀티턴 응답 생성](https://huggingface.co/papers/2605.04523)
-  판사 오케스트레이션 LLM 앙상블 방식으로 신뢰성 있는 멀티턴 대화 응답을 생성하는 접근법.
+  전역 활성화 근사로 LM의 장문 맥락 이해 성능 향상.
+- [RaguTeam at SemEval-2026 Task 8: 판사 오케스트레이션 LLM 앙상블로 신뢰 멀티턴 응답 생성](https://huggingface.co/papers/2605.04523)
+  판사 오케스트레이션 LLM 앙상블로 신뢰성 있는 멀티턴 대화 응답을 생성하는 방법.
 
 ## 🦉 GeekNews
 
-- [AI Slop이 온라인 커뮤니티를 죽이고 있다](https://rmoff.net/2026/05/06/ai-slop-is-killing-online-communities/)
-  저품질 AI 생성물 범람이 온라인 커뮤니티의 신호 대 잡음비를 파괴하고 있다는 분석.
-- [프로그래밍은 여전히 형편없다](https://www.stvn.sh/writing/programming-still-sucks-fqffhyp)
-  AI가 아닌 경영진의 탐욕과 단기 성과주의가 기술 업계의 근본적 문제라는 주장.
-- [AI가 끌어올린 바닥, 우리의 천장은 어디인가?](https://brunch.co.kr/@hongchanchoi/11)
-  AI 시대 불안감의 근원을 진단하고 개발자가 나아가야 할 방향과 극복 전략 제시.
-- [병목은 결코 코드가 아니었다](https://www.thetypicalset.com/blog/thoughts-on-coding-agents)
-  AI 코딩 도구가 개인 생산성보다 협업 구조의 변화를 가져온다는 통찰.
-- [최고의 직원이 최악의 관리자가 되는 이유](https://yanivpreiss.com/2026/04/12/why-your-best-employee-becomes-your-worst-manager/)
-  기술 전문가를 관리자로 승진시킬 때의 실패 패턴 — 관리직은 새로운 커리어로 접근해야 함.
+- [모나리자 크기로 도화지를 자르면 저작권 위반인가?](https://github.com/edwardkim/rhwp/discussions/736)
+  폰트 구현 방식과 관련해 도화지 크기 조정이 저작권 침해에 해당하는지 기술적으로 논의.
+- [GPT-5.5 low vs medium vs high vs xhigh: 실제 오픈소스 작업 26개로 본 추론 곡선](https://www.reddit.com/r/codex/comments/1t7dqnc/gpt55_low_vs_medium_vs_high_vs_xhigh_the/)
+  실제 오픈소스 저장소의 26개 작업으로 GPT-5.5 Codex 설정별 성능을 비교 분석.
+- [브라우저가 알려준 모든 정보를 보여주는 웹페이지](https://sinceyouarrived.world/taken)
+  브라우저가 자동으로 노출하는 위치·기기·GPU·배터리 등의 정보를 한눈에 시각화하는 도구.
+- [FreeLens에서 Kubernetes 리소스 관계와 멀티 Pod 로그를 한눈에](https://github.com/agent-jeong)
+  Kubernetes 워크로드 관계를 시각화하고 여러 Pod 로그를 통합 조회하는 FreeLens 확장 소개.
+- [Camofox Browser — AI 에이전트를 위한 스텔스 헤드리스 브라우저](https://github.com/jo-inc/camofox-browser)
+  Cloudflare 및 봇 탐지를 우회하는 Firefox 기반의 AI 에이전트용 헤드리스 브라우저.
 
 
 ---
 ## 📅 이전 날짜
 
+- [2026-05-09](data/2026-05-09.md)
 - [2026-05-08](data/2026-05-08.md)
 - [2026-05-07](data/2026-05-07.md)
 - [2026-05-06](data/2026-05-06.md)
