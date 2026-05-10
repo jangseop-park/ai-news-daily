@@ -1,0 +1,109 @@
+{
+  "date": "2026-05-11",
+  "github_trending": [
+    {
+      "name": "anthropics/financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "description": "Anthropic이 구축한 금융 서비스 응용 레포지토리",
+      "description_en": "Financial services tools and resources built by Anthropic"
+    },
+    {
+      "name": "CloakHQ/CloakBrowser",
+      "url": "https://github.com/CloakHQ/CloakBrowser",
+      "description": "봇 감지 테스트 30/30 통과 스텔스 Chromium — Playwright 드롭인 대체품",
+      "description_en": "Stealth Chromium passing every bot detection test. Drop-in Playwright replacement."
+    },
+    {
+      "name": "HKUDS/AI-Trader",
+      "url": "https://github.com/HKUDS/AI-Trader",
+      "description": "100% 완전 자동화 에이전트 네이티브 트레이딩 시스템",
+      "description_en": "Fully-automated agent-native trading system"
+    },
+    {
+      "name": "jundot/omlx",
+      "url": "https://github.com/jundot/omlx",
+      "description": "Apple Silicon 전용 연속 배치·SSD 캐싱 LLM 추론 서버 — macOS 메뉴바 관리",
+      "description_en": "LLM inference server with continuous batching & SSD caching for Apple Silicon, managed from the macOS menu bar"
+    },
+    {
+      "name": "lsdefine/GenericAgent",
+      "url": "https://github.com/lsdefine/GenericAgent",
+      "description": "초기 시드 코드에서 능력을 스스로 진화시키는 자기 발전형 에이전트",
+      "description_en": "Self-evolving agent that develops capabilities from initial seed code while reducing token consumption"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "시맨틱 유사도를 넘어서: 직접 코퍼스 상호작용으로 에이전틱 검색 재정의",
+      "title_en": "Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction",
+      "url": "https://huggingface.co/papers/2605.05242",
+      "summary": "전통적 시맨틱 유사도 검색 한계를 넘어 직접 코퍼스 상호작용으로 에이전틱 검색을 개선.",
+      "summary_en": "Improves agentic search retrieval via direct corpus interaction beyond semantic similarity."
+    },
+    {
+      "title": "Skill1: 강화학습을 통한 스킬 강화 에이전트의 통합 진화",
+      "title_en": "Skill1: Unified Evolution of Skill-Augmented Agents via Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2605.06130",
+      "summary": "강화학습으로 스킬 강화 에이전트를 통합적으로 진화시키는 새 프레임워크.",
+      "summary_en": "Unified RL framework for evolving skill-augmented agents."
+    },
+    {
+      "title": "연속 잠재 확산 언어 모델 (ByteDance Seed)",
+      "title_en": "Continuous Latent Diffusion Language Model",
+      "url": "https://huggingface.co/papers/2605.06548",
+      "summary": "ByteDance Seed의 연속 잠재 공간과 확산 기반 생성을 결합한 언어 모델 아키텍처.",
+      "summary_en": "Language model combining continuous latent spaces with diffusion-based generation by ByteDance Seed."
+    },
+    {
+      "title": "MiA-Signature: 장문 맥락 이해를 위한 전역 활성화 근사 (Tencent)",
+      "title_en": "MiA-Signature: Approximating Global Activation for Long-Context Understanding",
+      "url": "https://huggingface.co/papers/2605.06416",
+      "summary": "Tencent의 전역 활성화 근사로 LM의 장문 맥락 이해 성능 향상.",
+      "summary_en": "Tencent's method for approximating global activation to improve long-context understanding."
+    },
+    {
+      "title": "RaguTeam at SemEval-2026 Task 8: 판사 오케스트레이션 LLM 앙상블",
+      "title_en": "RaguTeam at SemEval-2026 Task 8: Judge-Orchestrated LLM Ensemble",
+      "url": "https://huggingface.co/papers/2605.04523",
+      "summary": "판사 오케스트레이션 LLM 앙상블로 신뢰성 있는 멀티턴 대화 응답 생성.",
+      "summary_en": "Judge-orchestrated LLM ensemble for faithful multi-turn conversational response generation."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "Claude Code에서 HTML의 놀라운 효율성",
+      "title_en": "The surprising efficiency of HTML in Claude Code",
+      "url": "https://twitter.com/trq212/status/2052809885763747935",
+      "summary": "Claude Code에서 마크다운 대신 HTML을 쓰면 시각화·색상·다이어그램·상호작용을 훨씬 풍부하게 표현할 수 있다는 팁.",
+      "summary_en": "Using HTML instead of markdown in Claude Code enables richer visualization, colors, diagrams, and interactivity."
+    },
+    {
+      "title": "CodeBurn — AI 코딩 도구 18개의 토큰·비용 추적 TUI 대시보드",
+      "title_en": "CodeBurn — TUI dashboard tracking token usage and costs across 18 AI coding tools",
+      "url": "https://github.com/getagentseal/codeburn",
+      "summary": "Claude Code·Cursor 등 18개 AI 코딩 도구의 토큰 소비와 비용을 자동 추적하는 터미널 대시보드.",
+      "summary_en": "Terminal dashboard automatically tracking token consumption and costs for 18 AI coding tools."
+    },
+    {
+      "title": "이름에 대한 프로그래머의 오해들",
+      "title_en": "Falsehoods Programmers Believe About Names",
+      "url": "https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/",
+      "summary": "사람의 이름에 관해 개발자들이 흔히 품는 근거 없는 가정들을 체계적으로 지적한 2010년 클래식 글.",
+      "summary_en": "Classic 2010 post systematically debunking false assumptions developers make about human names."
+    },
+    {
+      "title": "확률적 엔지니어링과 24/7 직원",
+      "title_en": "Probabilistic Engineering and the 24/7 Employee",
+      "url": "https://www.timdavis.com/blog/probabilistic-engineering-and-the-24-7-employee",
+      "summary": "AI 에이전트가 업무를 자동화하면서 소프트웨어 개발이 결정론적에서 확률적 시스템으로 변화하는 현상 분석.",
+      "summary_en": "Analysis of how AI agents automating work shifts software development from deterministic to probabilistic systems."
+    },
+    {
+      "title": "Mojo 1.0 베타 출시 — Python처럼 쓰고, C++처럼 실행",
+      "title_en": "Mojo 1.0 Beta Released — Write like Python, Run like C++",
+      "url": "https://mojolang.org/",
+      "summary": "Python 문법으로 쓰고 C++ 수준의 성능으로 실행되는 AI/ML 특화 새 언어 Mojo가 1.0.0b1로 출시.",
+      "summary_en": "New AI/ML programming language Mojo reaches 1.0.0b1: Python-like syntax with C++-level performance."
+    }
+  ]
+}
