@@ -1,47 +1,49 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-05-11
+> 마지막 업데이트: 2026-05-12
 
-# AI 뉴스 — 2026-05-11
+
+# AI 뉴스 — 2026-05-12
 
 ## 🔥 GitHub Trending (Python)
 
-- [anthropics/financial-services](https://github.com/anthropics/financial-services): Anthropic이 구축한 금융 서비스 응용 레포지토리
-- [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser): 봇 감지 테스트 30/30 통과 스텔스 Chromium — Playwright 드롭인 대체품
-- [HKUDS/AI-Trader](https://github.com/HKUDS/AI-Trader): 100% 완전 자동화 에이전트 네이티브 트레이딩 시스템
-- [jundot/omlx](https://github.com/jundot/omlx): Apple Silicon 전용 연속 배치·SSD 캐싱 LLM 추론 서버 — macOS 메뉴바 관리
-- [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent): 초기 시드 코드에서 능력을 스스로 진화시키는 자기 발전형 에이전트
+- [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser): 모든 봇 탐지 테스트를 통과하는 스텔스 Chromium — Playwright 드롭인 대체품, 소스 레벨 지문 패치 포함
+- [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui): 이미지 생성을 위한 Stable Diffusion 웹 UI 인터페이스
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): 사용자와 함께 성장하는 지능형 에이전트 프레임워크
+- [HKUDS/AI-Trader](https://github.com/HKUDS/AI-Trader): 100% 완전 자동화 에이전트 기반 주식 거래 시스템
+- [jundot/omlx](https://github.com/jundot/omlx): Apple Silicon용 연속 배칭·SSD 캐싱 LLM 추론 서버 — macOS 메뉴바에서 관리
 
 ## 📄 Hugging Face Papers
 
-- [시맨틱 유사도를 넘어서: 직접 코퍼스 상호작용으로 에이전틱 검색 재정의](https://huggingface.co/papers/2605.05242)
-  전통적 시맨틱 유사도 검색 한계를 넘어 직접 코퍼스 상호작용으로 에이전틱 검색을 개선.
-- [Skill1: 강화학습을 통한 스킬 강화 에이전트의 통합 진화](https://huggingface.co/papers/2605.06130)
-  강화학습으로 스킬 강화 에이전트를 통합적으로 진화시키는 새 프레임워크.
-- [연속 잠재 확산 언어 모델 (ByteDance Seed)](https://huggingface.co/papers/2605.06548)
-  ByteDance Seed의 연속 잠재 공간과 확산 기반 생성을 결합한 언어 모델 아키텍처.
-- [MiA-Signature: 장문 맥락 이해를 위한 전역 활성화 근사 (Tencent)](https://huggingface.co/papers/2605.06416)
-  Tencent의 전역 활성화 근사로 LM의 장문 맥락 이해 성능 향상.
-- [RaguTeam at SemEval-2026 Task 8: 판사 오케스트레이션 LLM 앙상블](https://huggingface.co/papers/2605.04523)
-  판사 오케스트레이션 LLM 앙상블로 신뢰성 있는 멀티턴 대화 응답 생성.
+- [Mean Mode Screaming: 1000층 Diffusion Transformer를 위한 Mean-Variance Split Residuals](https://huggingface.co/papers/2605.06169)
+  극도로 깊은 디퓨전 트랜스포머(1000층) 훈련을 위한 mean-variance split residuals 기법 제안.
+- [MACE-Dance: 음악 기반 댄스 비디오 생성을 위한 Motion-Appearance Cascaded Experts](https://huggingface.co/papers/2512.18181)
+  모션과 외형 모델링을 분리하는 계층형 전문가 아키텍처로 음악 동기화 댄스 비디오 생성 품질 향상.
+- [Flow-OPD: Flow Matching 모델을 위한 On-Policy Distillation](https://huggingface.co/papers/2605.08063)
+  Flow matching 모델의 효율적 훈련·추론을 위한 on-policy distillation 기법.
+- [HyperEyes: 병렬 멀티모달 검색 에이전트를 위한 Dual-Grained 효율성 인식 강화 학습](https://huggingface.co/papers/2605.07177)
+  검색을 병렬화하는 멀티모달 에이전트 강화 학습 프레임워크 — 정확도와 계산 비용 동시 최적화.
+- [Listwise Policy Optimization: LLM Response Simplex 위의 Group-based RLVR](https://huggingface.co/papers/2605.06139)
+  여러 응답을 그룹으로 처리하고 기하학적 투영을 활용해 LLM 정렬 품질을 높이는 listwise 정책 최적화.
 
 ## 🦉 GeekNews
 
-- [Claude Code에서 HTML의 놀라운 효율성](https://twitter.com/trq212/status/2052809885763747935)
-  Claude Code에서 마크다운 대신 HTML을 쓰면 시각화·색상·다이어그램·상호작용을 훨씬 풍부하게 표현할 수 있다는 팁.
-- [CodeBurn — AI 코딩 도구 18개의 토큰·비용 추적 TUI 대시보드](https://github.com/getagentseal/codeburn)
-  Claude Code·Cursor 등 18개 AI 코딩 도구의 토큰 소비와 비용을 자동 추적하는 터미널 대시보드.
-- [이름에 대한 프로그래머의 오해들](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)
-  사람의 이름에 관해 개발자들이 흔히 품는 근거 없는 가정들을 체계적으로 지적한 2010년 클래식 글.
-- [확률적 엔지니어링과 24/7 직원](https://www.timdavis.com/blog/probabilistic-engineering-and-the-24-7-employee)
-  AI 에이전트가 업무를 자동화하면서 소프트웨어 개발이 결정론적에서 확률적 시스템으로 변화하는 현상 분석.
-- [Mojo 1.0 베타 출시 — Python처럼 쓰고, C++처럼 실행](https://mojolang.org/)
-  Python 문법으로 쓰고 C++ 수준의 성능으로 실행되는 AI/ML 특화 새 언어 Mojo가 1.0.0b1로 출시.
+- [Anthropic, 금융 서비스 특화 AI 에이전트·스킬·커넥터 오픈소스 공개](https://github.com/anthropics/financial-services)
+  Anthropic이 Claude Managed Agents API를 활용한 금융 워크플로우 자동화 오픈소스 공개.
+- [Claude Code에서 HTML의 놀라운 토큰 효율성](https://twitter.com/trq212/status/2052809885763747935)
+  Claude Code에서 Markdown 대신 HTML 사용 시 색상·다이어그램 포함 풍부한 시각화로 효율성 향상.
+- [로컬 AI가 표준이 되어야 한다](https://unix.foo/posts/local-ai-needs-to-be-norm/)
+  클라우드 AI API 의존성 위험을 지적하며 오프라인 로컬 AI 구현이 표준이 되어야 함을 주장.
+- [Open Design — Claude Design의 로컬 퍼스트 오픈소스 대체제](https://github.com/nexu-io/open-design)
+  16개 코딩 에이전트 CLI 자동 감지·31개 통합 스킬 포함 로컬 퍼스트 오픈소스 디자인 엔진.
+- [CodeBurn — AI 코딩 도구 토큰 사용량·비용 추적 TUI 대시보드](https://github.com/getagentseal/codeburn)
+  래퍼 없이 18개 AI 코딩 도구의 토큰 사용량과 비용을 자동 추적하는 터미널 대시보드.
 
 
 ---
 ## 📅 이전 날짜
 
+- [2026-05-11](data/2026-05-11.md)
 - [2026-05-10](data/2026-05-10.md)
 - [2026-05-09](data/2026-05-09.md)
 - [2026-05-08](data/2026-05-08.md)
