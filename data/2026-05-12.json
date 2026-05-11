@@ -1,0 +1,109 @@
+{
+  "date": "2026-05-12",
+  "github_trending": [
+    {
+      "name": "CloakHQ/CloakBrowser",
+      "url": "https://github.com/CloakHQ/CloakBrowser",
+      "description": "모든 봇 탐지 테스트를 통과하는 스텔스 Chromium — Playwright 드롭인 대체품, 소스 레벨 지문 패치 포함",
+      "description_en": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches."
+    },
+    {
+      "name": "AUTOMATIC1111/stable-diffusion-webui",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "description": "이미지 생성을 위한 Stable Diffusion 웹 UI 인터페이스",
+      "description_en": "Stable Diffusion web UI interface for image generation"
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "사용자와 함께 성장하는 지능형 에이전트 프레임워크",
+      "description_en": "The agent that grows with you — an intelligent agent framework"
+    },
+    {
+      "name": "HKUDS/AI-Trader",
+      "url": "https://github.com/HKUDS/AI-Trader",
+      "description": "100% 완전 자동화 에이전트 기반 주식 거래 시스템",
+      "description_en": "100% Fully-Automated Agent-Native Trading system"
+    },
+    {
+      "name": "jundot/omlx",
+      "url": "https://github.com/jundot/omlx",
+      "description": "Apple Silicon용 연속 배칭·SSD 캐싱 LLM 추론 서버 — macOS 메뉴바에서 관리",
+      "description_en": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "Mean Mode Screaming: 1000층 Diffusion Transformer를 위한 Mean-Variance Split Residuals",
+      "title_en": "Mean Mode Screaming: Mean–Variance Split Residuals for 1000-Layer Diffusion Transformers",
+      "url": "https://huggingface.co/papers/2605.06169",
+      "summary": "극도로 깊은 디퓨전 트랜스포머(1000층) 훈련을 위한 mean-variance split residuals 기법 제안.",
+      "summary_en": "Proposes mean-variance split residuals technique for training extremely deep diffusion transformers (1000 layers)."
+    },
+    {
+      "title": "MACE-Dance: 음악 기반 댄스 비디오 생성을 위한 Motion-Appearance Cascaded Experts",
+      "title_en": "MACE-Dance: Motion-Appearance Cascaded Experts for Music-Driven Dance Video Generation",
+      "url": "https://huggingface.co/papers/2512.18181",
+      "summary": "모션과 외형 모델링을 분리하는 계층형 전문가 아키텍처로 음악 동기화 댄스 비디오 생성 품질 향상.",
+      "summary_en": "Cascaded expert architecture separating motion and appearance modeling for high-quality music-driven dance video generation."
+    },
+    {
+      "title": "Flow-OPD: Flow Matching 모델을 위한 On-Policy Distillation",
+      "title_en": "Flow-OPD: On-Policy Distillation for Flow Matching Models",
+      "url": "https://huggingface.co/papers/2605.08063",
+      "summary": "Flow matching 모델의 효율적 훈련·추론을 위한 on-policy distillation 기법.",
+      "summary_en": "On-policy distillation technique for efficient training and inference of flow matching generative models."
+    },
+    {
+      "title": "HyperEyes: 병렬 멀티모달 검색 에이전트를 위한 Dual-Grained 효율성 인식 강화 학습",
+      "title_en": "HyperEyes: Dual-Grained Efficiency-Aware Reinforcement Learning for Parallel Multimodal Search Agents",
+      "url": "https://huggingface.co/papers/2605.07177",
+      "summary": "검색을 병렬화하는 멀티모달 에이전트 강화 학습 프레임워크 — 정확도와 계산 비용 동시 최적화.",
+      "summary_en": "RL framework for multimodal search agents that parallelizes searches, jointly optimizing accuracy and computational cost."
+    },
+    {
+      "title": "Listwise Policy Optimization: LLM Response Simplex 위의 Group-based RLVR",
+      "title_en": "Listwise Policy Optimization: Group-based RLVR as Target-Projection on the LLM Response Simplex",
+      "url": "https://huggingface.co/papers/2605.06139",
+      "summary": "여러 응답을 그룹으로 처리하고 기하학적 투영을 활용해 LLM 정렬 품질을 높이는 listwise 정책 최적화.",
+      "summary_en": "Listwise policy optimization treating multiple responses as a group, using geometric projections to improve LLM alignment quality."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "Anthropic, 금융 서비스 특화 AI 에이전트·스킬·커넥터 오픈소스 공개",
+      "title_en": "Anthropic Releases Open-Source AI Agents/Skills/Connectors for Financial Services",
+      "url": "https://github.com/anthropics/financial-services",
+      "summary": "Anthropic이 Claude Managed Agents API를 활용한 금융 워크플로우 자동화 오픈소스 공개.",
+      "summary_en": "Anthropic released open-source financial workflow automation using the Claude Managed Agents API."
+    },
+    {
+      "title": "Claude Code에서 HTML의 놀라운 토큰 효율성",
+      "title_en": "Surprising Token Efficiency of HTML in Claude Code",
+      "url": "https://twitter.com/trq212/status/2052809885763747935",
+      "summary": "Claude Code에서 Markdown 대신 HTML 사용 시 색상·다이어그램 포함 풍부한 시각화로 효율성 향상.",
+      "summary_en": "Using HTML instead of Markdown in Claude Code yields richer visualizations and improved context efficiency."
+    },
+    {
+      "title": "로컬 AI가 표준이 되어야 한다",
+      "title_en": "Local AI Should Become the Standard",
+      "url": "https://unix.foo/posts/local-ai-needs-to-be-norm/",
+      "summary": "클라우드 AI API 의존성 위험을 지적하며 오프라인 로컬 AI 구현이 표준이 되어야 함을 주장.",
+      "summary_en": "Argues that reliance on cloud-hosted AI APIs creates dependency risks; local AI implementations should become standard."
+    },
+    {
+      "title": "Open Design — Claude Design의 로컬 퍼스트 오픈소스 대체제",
+      "title_en": "Open Design — Local-First Open Source Alternative to Claude Design",
+      "url": "https://github.com/nexu-io/open-design",
+      "summary": "16개 코딩 에이전트 CLI 자동 감지·31개 통합 스킬 포함 로컬 퍼스트 오픈소스 디자인 엔진.",
+      "summary_en": "Local-first open-source design engine auto-detecting 16 coding agent CLIs with 31 integrated skills."
+    },
+    {
+      "title": "CodeBurn — AI 코딩 도구 토큰 사용량·비용 추적 TUI 대시보드",
+      "title_en": "CodeBurn — TUI Dashboard for Tracking AI Coding Tool Token Usage and Cost",
+      "url": "https://github.com/getagentseal/codeburn",
+      "summary": "래퍼 없이 18개 AI 코딩 도구의 토큰 사용량과 비용을 자동 추적하는 터미널 대시보드.",
+      "summary_en": "Terminal dashboard that automatically tracks token usage and costs across 18 AI coding tools without wrappers."
+    }
+  ]
+}
