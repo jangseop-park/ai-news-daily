@@ -1,0 +1,109 @@
+{
+  "date": "2026-05-13",
+  "github_trending": [
+    {
+      "name": "CloakHQ/CloakBrowser",
+      "url": "https://github.com/CloakHQ/CloakBrowser",
+      "description": "모든 봇 탐지 테스트를 통과하는 스텔스 Chromium — Playwright 드롭인 대체품, 소스 레벨 지문 패치 포함",
+      "description_en": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches."
+    },
+    {
+      "name": "datawhalechina/hello-agents",
+      "url": "https://github.com/datawhalechina/hello-agents",
+      "description": "기초 원리부터 실제 구현까지 다루는 지능형 에이전트 구축 종합 튜토리얼",
+      "description_en": "Comprehensive tutorial for building intelligent agents from scratch, covering foundational principles and practical implementation."
+    },
+    {
+      "name": "HKUDS/AI-Trader",
+      "url": "https://github.com/HKUDS/AI-Trader",
+      "description": "100% 완전 자동화 에이전트 기반 주식 거래 시스템",
+      "description_en": "100% Fully-Automated Agent-Native Trading system leveraging AI for automated financial trading."
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "사용자와 함께 성장하는 적응형 AI 에이전트 프레임워크",
+      "description_en": "The agent that grows with you — adaptive AI agent framework designed for continuous improvement."
+    },
+    {
+      "name": "Imbad0202/academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "description": "Claude Code로 연구→작성→검토→수정→최종화 전체 워크플로우를 수행하는 학술 연구 도구",
+      "description_en": "Academic research tools enabling Claude Code to perform comprehensive research→write→review→revise→finalize workflows."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "SenseNova-U1: NEO-unify 아키텍처를 사용한 멀티모달 이해·생성 통합 모델",
+      "title_en": "SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture",
+      "url": "https://huggingface.co/papers/2605.12500",
+      "summary": "NEO-unify 접근 방식으로 멀티모달 이해와 생성을 하나의 아키텍처로 통합한 모델 제시.",
+      "summary_en": "Presents a unified architecture for multimodal understanding and generation using the NEO-unify approach."
+    },
+    {
+      "title": "MemPrivacy: 엣지-클라우드 에이전트를 위한 개인정보 보호 개인화 메모리 관리",
+      "title_en": "MemPrivacy: Privacy-Preserving Personalized Memory Management for Edge-Cloud Agents",
+      "url": "https://huggingface.co/papers/2605.09530",
+      "summary": "엣지-클라우드 에이전트의 개인화 메모리를 개인정보 보호하며 관리하는 기법 제안.",
+      "summary_en": "Proposes privacy-preserving techniques for managing personalized memory in edge-cloud agent systems."
+    },
+    {
+      "title": "δ-mem: 대규모 언어 모델을 위한 효율적인 온라인 메모리",
+      "title_en": "δ-mem: Efficient Online Memory for Large Language Models",
+      "url": "https://huggingface.co/papers/2605.12357",
+      "summary": "LLM을 위해 설계된 효율적인 온라인 메모리 메커니즘 소개.",
+      "summary_en": "Introduces an efficient online memory mechanism designed specifically for large language models."
+    },
+    {
+      "title": "RubricEM: 검증 가능한 보상을 넘어선 루브릭 기반 정책 분해 메타-강화학습",
+      "title_en": "RubricEM: Meta-RL with Rubric-guided Policy Decomposition beyond Verifiable Rewards",
+      "url": "https://huggingface.co/papers/2605.10899",
+      "summary": "쉽게 검증할 수 없는 보상을 가진 작업에서 루브릭 기반 정책 분해로 메타-RL 성능 향상.",
+      "summary_en": "Improves meta-RL for tasks with non-verifiable rewards using rubric-guided policy decomposition."
+    },
+    {
+      "title": "World Action Models: 구현된 AI의 새로운 프런티어",
+      "title_en": "World Action Models: The Next Frontier in Embodied AI",
+      "url": "https://huggingface.co/papers/2605.12090",
+      "summary": "물리적 환경을 이해·상호작용하는 구현된 AI 시스템의 핵심 발전으로 월드 액션 모델 탐구.",
+      "summary_en": "Explores world action models as a key advancement for embodied AI systems interacting with physical environments."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "Rust 백엔드 DB 라이브러리 4종 비교 (Diesel vs SQLx vs SeaORM vs Rusqlite)",
+      "title_en": "Comparison of 4 Rust Backend Database Libraries (Diesel vs SQLx vs SeaORM vs Rusqlite)",
+      "url": "https://aarambhdevhub.medium.com/rust-orms-in-2026-diesel-vs-sqlx-vs-seaorm-vs-rusqlite-which-one-should-you-actually-use-706d0fe912f3",
+      "summary": "2026년 기준 주요 Rust DB 라이브러리 4종을 성능·생산성·유연성 측면에서 비교 분석.",
+      "summary_en": "Comparative analysis of four major Rust database libraries in 2026 across performance, productivity, and flexibility."
+    },
+    {
+      "title": "소프트웨어 아키텍처 배우기",
+      "title_en": "Learning Software Architecture",
+      "url": "https://matklad.github.io/2026/05/12/software-architecture.html",
+      "summary": "소프트웨어 설계 원리는 강의보다 실제 프로젝트 책임을 통해 더 깊이 있게 학습된다는 논지.",
+      "summary_en": "Argues that software design principles are learned more deeply through real project responsibility than through lectures."
+    },
+    {
+      "title": "Claude Code에 /goal 기능 추가 — 목표 달성까지 자동 반복",
+      "title_en": "New /goal Feature Added to Claude Code — Autonomous Iteration Until Goal Achieved",
+      "url": "https://code.claude.com/docs/ko/goal",
+      "summary": "목표 기반 자동 반복 기능으로 Claude가 목표 달성까지 여러 차례를 자율적으로 수행 가능.",
+      "summary_en": "New goal-based feature enables Claude to autonomously execute multiple turns until a specified objective is completed."
+    },
+    {
+      "title": "Rapid-MLX — Apple Silicon 전용 초고속 로컬 AI 추론 엔진",
+      "title_en": "Rapid-MLX — Ultra-fast Local AI Inference Engine for Apple Silicon",
+      "url": "https://github.com/raullenchai/Rapid-MLX",
+      "summary": "MLX 프레임워크 기반 Apple Silicon Mac용 고속 추론 엔진 — Ollama를 능가하는 성능 제공.",
+      "summary_en": "High-speed inference engine for Apple Silicon Macs based on MLX framework, outperforming Ollama alternatives."
+    },
+    {
+      "title": "Anthropic, 금융 서비스 특화 AI 에이전트·스킬·커넥터 오픈소스 공개",
+      "title_en": "Anthropic Releases Open-Source AI Agents/Skills/Connectors for Financial Services",
+      "url": "https://github.com/anthropics/financial-services",
+      "summary": "다양한 배포 아키텍처에서 Claude 에이전트를 지원하는 금융 서비스 워크플로우 오픈소스 공개.",
+      "summary_en": "Open-source financial services reference implementation supporting Claude agents across multiple deployment architectures."
+    }
+  ]
+}
