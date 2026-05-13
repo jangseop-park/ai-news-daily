@@ -1,0 +1,109 @@
+{
+  "date": "2026-05-14",
+  "github_trending": [
+    {
+      "name": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "연구, 과학, 공학, 분석, 금융 및 글쓰기를 위한 준비된 에이전트 스킬 세트",
+      "description_en": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing"
+    },
+    {
+      "name": "CloakHQ/CloakBrowser",
+      "url": "https://github.com/CloakHQ/CloakBrowser",
+      "description": "모든 봇 탐지 테스트를 통과하는 은폐 크로미움. Playwright 대체 드롭인",
+      "description_en": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement"
+    },
+    {
+      "name": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "description": "사양 주도 개발을 시작하는 데 도움이 되는 툴킷",
+      "description_en": "Toolkit to help you get started with Spec-Driven Development"
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "당신과 함께 성장하는 에이전트",
+      "description_en": "The agent that grows with you"
+    },
+    {
+      "name": "Asabeneh/30-Days-Of-Python",
+      "url": "https://github.com/Asabeneh/30-Days-Of-Python",
+      "description": "30일 동안 파이썬을 배우기 위한 단계별 가이드인 파이썬 프로그래밍 챌린지",
+      "description_en": "30 Days of Python programming challenge - step-by-step guide to learn Python in 30 days"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "개인화된 메모리 관리를 위한 프라이버시 보존",
+      "title_en": "MemPrivacy: Privacy-Preserving Personalized Memory Management for Edge-Cloud Agents",
+      "url": "https://huggingface.co/papers/2605.09530",
+      "summary": "엣지-클라우드 에이전트를 위한 프라이버시 보존 개인화 메모리 관리 시스템",
+      "summary_en": "Privacy-preserving personalized memory management system for edge-cloud agents"
+    },
+    {
+      "title": "센스노바-U1: 멀티모달 이해와 생성의 통합",
+      "title_en": "SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture",
+      "url": "https://huggingface.co/papers/2605.12500",
+      "summary": "NEO-unify 아키텍처를 이용한 멀티모달 이해와 생성의 통합 모델",
+      "summary_en": "Unified multimodal understanding and generation model using NEO-unify architecture"
+    },
+    {
+      "title": "δ-mem: 대규모 언어 모델을 위한 효율적인 온라인 메모리",
+      "title_en": "δ-mem: Efficient Online Memory for Large Language Models",
+      "url": "https://huggingface.co/papers/2605.12357",
+      "summary": "LLM의 효율적인 온라인 메모리 관리 기법으로 추론 성능 향상",
+      "summary_en": "Efficient online memory management technique for LLMs to improve inference performance"
+    },
+    {
+      "title": "RubricEM: 검증 가능한 보상을 넘어선 메타-RL",
+      "title_en": "RubricEM: Meta-RL with Rubric-guided Policy Decomposition beyond Verifiable Rewards",
+      "url": "https://huggingface.co/papers/2605.10899",
+      "summary": "루브릭 가이드 정책 분해를 통해 검증 가능한 보상 없이도 효과적인 메타 강화학습 구현",
+      "summary_en": "Meta reinforcement learning with rubric-guided policy decomposition beyond verifiable rewards"
+    },
+    {
+      "title": "엔터프라이즈 시스템은 학습된 월드 모델이 필요한가?",
+      "title_en": "Do Enterprise Systems Need Learned World Models? The Importance of Context to Infer Dynamics",
+      "url": "https://huggingface.co/papers/2605.12178",
+      "summary": "엔터프라이즈 시스템에서 동역학 추론을 위한 컨텍스트의 중요성 연구",
+      "summary_en": "Study on the importance of context for inferring dynamics in enterprise systems"
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "소프트웨어 아키텍처 학습",
+      "title_en": "Learning Software Architecture",
+      "url": "https://matklad.github.io/2026/05/12/software-architecture.html",
+      "summary": "실제 프로젝트 책임을 통해 소프트웨어 디자인을 더 깊이 있게 배운다. 콘웨이의 법칙은 조직이 소프트웨어를 어떻게 형성하는지 설명한다",
+      "summary_en": "Software design is learned deeper through real project responsibility. Conway's Law explains how organizations shape software"
+    },
+    {
+      "title": "Rust 백엔드 DB 라이브러리 비교",
+      "title_en": "Rust Backend DB Libraries Compared",
+      "url": "https://aarambhdevhub.medium.com",
+      "summary": "Rust 백엔드 개발을 위한 4가지 주요 데이터베이스 접근 방식에 대한 포괄적 비교",
+      "summary_en": "Comprehensive comparison of four major database approaches for Rust backend development"
+    },
+    {
+      "title": "금융 서비스 AI 오픈소스 (Anthropic)",
+      "title_en": "Financial Services AI Open Source by Anthropic",
+      "url": "https://github.com/anthropics/financial-services",
+      "summary": "에이전트와 API 커넥터를 통해 금융 워크플로우 자동화를 위한 Anthropic 참고 구현",
+      "summary_en": "Anthropic reference implementation for automating financial workflows via agents and API connectors"
+    },
+    {
+      "title": "오픈 디자인 - AI 코딩 에이전트 지원 플랫폼",
+      "title_en": "Open Design - Local-first Design Platform for AI Coding Agents",
+      "url": "https://github.com/nexu-io/open-design",
+      "summary": "로컬 우선 오픈소스 디자인 플랫폼으로 16개의 코딩 에이전트 CLI를 자동 감지",
+      "summary_en": "Local-first open-source design platform auto-detecting 16 coding agent CLIs"
+    },
+    {
+      "title": "Rapid-MLX - Apple Silicon AI 추론 엔진",
+      "title_en": "Rapid-MLX - Native Metal Compute Inference Engine for Apple Silicon",
+      "url": "https://github.com/raullenchai/Rapid-MLX",
+      "summary": "Apple Silicon용 네이티브 Metal 컴퓨팅 추론 엔진으로 최대 4배 속도 향상",
+      "summary_en": "Native Metal compute inference engine for Apple Silicon, delivering up to 4x speed improvements"
+    }
+  ]
+}
