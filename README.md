@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-05-14
+> 마지막 업데이트: 2026-05-15
 
-# AI 뉴스 — 2026-05-14
+# AI 뉴스 — 2026-05-15
 
 ## 🔥 GitHub Trending (Python)
 
 - [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills): 연구·과학·엔지니어링·분석·금융·글쓰기를 위한 즉시 사용 가능한 Agent Skills 모음
+- [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos): 금융 시장 언어를 위한 파운데이션 모델
+- [roboflow/supervision](https://github.com/roboflow/supervision): 재사용 가능한 컴퓨터 비전 도구 모음
+- [NVIDIA-AI-Blueprints/video-search-and-summarization](https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization): GPU 가속 비전 에이전트 및 AI 비디오 분석 레퍼런스 아키텍처
 - [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser): 모든 봇 탐지 테스트를 통과하는 스텔스 Chromium — Playwright 드롭인 대체제
-- [github/spec-kit](https://github.com/github/spec-kit): Spec-Driven Development를 시작하는 데 도움을 주는 툴킷
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): 함께 성장하는 AI 에이전트
-- [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python): 30일 만에 Python을 배우는 단계별 가이드 챌린지
 
 ## 📄 Hugging Face Papers
 
-- [MemPrivacy: Privacy-Preserving Personalized Memory Management for Edge-Cloud Agents](https://huggingface.co/papers/2605.09530)
-  개인 정보를 보호하면서도 개인화된 에이전트 메모리를 관리하는 새로운 프레임워크 제안
-- [SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture](https://huggingface.co/papers/2605.12500)
-  멀티모달 이해와 생성을 단일 통합 아키텍처로 처리하는 새로운 모델 구조 제안
-- [δ-mem: Efficient Online Memory for Large Language Models](https://huggingface.co/papers/2605.12357)
-  LLM의 온라인 학습 및 메모리 효율을 높이는 델타 기반 메모리 방식 제안
-- [RubricEM: Meta-RL with Rubric-guided Policy Decomposition beyond Verifiable Rewards](https://huggingface.co/papers/2605.10899)
-  검증 불가능한 복잡한 작업에서도 루브릭을 활용해 메타-RL 학습을 개선하는 방법 제안
-- [Do Enterprise Systems Need Learned World Models? The Importance of Context to Infer Dynamics](https://huggingface.co/papers/2605.12178)
-  기업 환경에서 복잡한 동역학 모델이 필요한지, 맥락 정보만으로 충분한지를 분석
+- [Achieving Gold-Medal-Level Olympiad Reasoning via Simple and Unified Scaling](https://huggingface.co/papers/2605.13301)
+  스케일링 법칙만으로 수학 올림피아드 금메달 수준의 추론 능력을 달성하는 방법 제안
+- [MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory](https://huggingface.co/papers/2605.15128)
+  멀티모달 에이전트의 시각적 메모리 능력을 평가하는 새로운 벤치마크 프레임워크 제안
+- [Self-Distilled Agentic Reinforcement Learning](https://huggingface.co/papers/2605.15155)
+  에이전트 RL에서 자기 증류를 활용해 성능을 향상시키는 새로운 학습 방법론
+- [SANA-WM: Efficient Minute-Scale World Modeling with Hybrid Linear Diffusion Transformer](https://huggingface.co/papers/2605.15178)
+  분 단위 시간 스케일의 효율적인 월드 모델링을 위한 하이브리드 아키텍처 제안
+- [Darwin Family: MRI-Trust-Weighted Evolutionary Merging for Training-Free Scaling of Language-Model Reasoning](https://huggingface.co/papers/2605.14386)
+  신뢰도 가중치 기반 진화적 모델 병합으로 추가 학습 없이 LLM 추론 능력을 확장하는 방법
 
 ## 🦉 GeekNews
 
-- [Open Design — Claude Design의 로컬 퍼스트 오픈소스 대체제](https://github.com/nexu-io/open-design)
-  Claude Design와 유사한 UI/UX를 로컬에서 실행할 수 있는 오픈소스 프로젝트
-- [Anthropic, 금융 서비스 특화 AI 에이전트·스킬·커넥터 오픈소스 공개](https://github.com/anthropics/financial-services)
-  금융 서비스 도메인에 특화된 Claude 기반 에이전트, 스킬, 커넥터를 오픈소스로 공개
-- [Claude Code에 여러 에이전트를 한 화면에서 관리하는 'Agent View' 공개](https://code.claude.com/docs/en/agent-view)
-  Claude Code에 여러 AI 에이전트를 동시에 모니터링·제어할 수 있는 Agent View 기능 추가
-- [Claude Code에 /goal 기능 추가](https://code.claude.com/docs/ko/goal)
-  Claude Code에 장기 목표를 설정하고 추적하는 /goal 슬래시 커맨드 기능 추가
-- [zero-native — Zig와 웹 UI로 데스크톱 + 모바일 앱 빌드](https://github.com/vercel-labs/zero-native)
-  Zig 언어와 웹 기술을 활용해 데스크톱 및 모바일 앱을 동시에 빌드하는 프레임워크
+- [Code w/ Claude에서 발표한 모든 것들](https://claude.com/code-with-claude/san-francisco)
+  Anthropic의 Code w/ Claude 행사에서 발표된 Claude Code 신기능 총정리
+- [Learning Opportunities — Claude Code와 Codex에서 의도적 기술 개발을 돕는 스킬](https://github.com/DrCatHicks/learning-opportunities)
+  AI 코딩 도구 사용 중에도 개발자의 의도적인 학습을 돕는 스킬 모음
+- [어떤 시대에도 살아남는 기업을 만드는 방법](https://www.youtube.com/watch?v=PoJ1vTdHpks)
+  시대가 바뀌어도 살아남는 기업의 본질적 특성에 대한 인사이트
+- [소프트웨어의 Emacs화](https://sockpuppet.org/blog/2026/05/12/emacsification/)
+  현대 소프트웨어가 Emacs처럼 무한히 확장 가능한 방향으로 진화하는 트렌드 분석
+- [시니어 개발자가 전문성을 전달하지 못하는 이유](https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise)
+  시니어 개발자들이 지식을 효과적으로 전달하지 못하는 원인과 해결 방안
 
 ---
 ## 📅 이전 날짜
 
+- [2026-05-14](data/2026-05-14.md)
 - [2026-05-13](data/2026-05-13.md)
 - [2026-05-12](data/2026-05-12.md)
 - [2026-05-11](data/2026-05-11.md)
