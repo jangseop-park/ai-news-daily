@@ -2,39 +2,10 @@
   "date": "2026-05-18",
   "github_trending": [
     {
-      "name": "Imbad0202/academic-research-skills",
-      "url": "https://github.com/Imbad0202/academic-research-skills",
-      "description": "Claude Code를 위한 학술 연구 스킬 모음",
-      "description_en": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
-      "stars_today": "1,667 stars today"
-    },
-    {
-      "name": "rohitg00/ai-engineering-from-scratch",
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "AI 엔지니어링을 처음부터 배우고 구축하는 실습 가이드",
-      "description_en": "Learn it. Build it. Ship it for others.",
-      "stars_today": "765 stars today"
-    },
-    {
-      "name": "HKUDS/CLI-Anything",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "description": "모든 소프트웨어를 에이전트 네이티브로 만드는 CLI 프레임워크",
-      "description_en": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
-      "stars_today": "890 stars today"
-    },
-    {
-      "name": "anthropics/claude-plugins-official",
-      "url": "https://github.com/anthropics/claude-plugins-official",
-      "description": "Anthropic 공식 Claude 플러그인 고품질 디렉토리",
-      "description_en": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-      "stars_today": "674 stars today"
-    },
-    {
-      "name": "HKUDS/ViMax",
-      "url": "https://github.com/HKUDS/ViMax",
-      "description": "에이전틱 비디오 생성 프레임워크 (감독/화면/캐릭터 에이전트)",
-      "description_en": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
-      "stars_today": "674 stars today"
+      "name": "⚠ 데이터 미수집 / Data not collected",
+      "url": "#",
+      "description": "해당 날짜의 GitHub Trending 데이터가 수집되지 않았습니다.",
+      "description_en": "GitHub Trending data was not collected for this date."
     }
   ],
   "huggingface": [
