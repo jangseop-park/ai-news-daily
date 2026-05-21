@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-05-17
+> 마지막 업데이트: 2026-05-19
 
-# AI 뉴스 — 2026-05-17
+# AI 뉴스 — 2026-05-19
 
 ## 🔥 GitHub Trending (Python)
 
-- [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills): Claude Code가 학술 연구 워크플로우 전체(조사→작성→검토→완성)를 관리하는 프레임워크
-- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): 실세계 AI 엔지니어링 기술을 실전 중심으로 가르치는 종합 학습 리소스
-- [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything): CLI를 통해 모든 소프트웨어를 AI 에이전트와 호환되게 만드는 플랫폼
-- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official): Anthropic이 관리하는 검증된 Claude Code 공식 플러그인 모음
-- [HKUDS/ViMax](https://github.com/HKUDS/ViMax): 감독·작가·프로듀서 기능을 결합해 영상 제작 파이프라인 전체를 자동화하는 에이전틱 영상 생성 시스템
+- [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills): Claude Code를 위한 학술 연구 스킬 모음
+- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링을 처음부터 배우고 구축하는 실습 가이드
+- [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything): 모든 소프트웨어를 에이전트 네이티브로 만드는 CLI 프레임워크
+- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official): Anthropic 공식 Claude 플러그인 고품질 디렉토리
+- [HKUDS/ViMax](https://github.com/HKUDS/ViMax): 에이전틱 비디오 생성 프레임워크 (감독/화면/캐릭터 에이전트)
 
 ## 📄 Hugging Face Papers
 
-- [KV 캐시 극한 양자화: OScaR](https://huggingface.co/papers/2605.19660)
-  LLM 배포 시 메모리 효율성 문제를 해결하는 극한의 키-값 캐시 양자화 기법을 제시합니다.
-- [LLM 컨텍스트 무결성을 위한 상호 자기증류](https://huggingface.co/papers/2605.20258)
-  상호 자기증류 방식으로 LLM의 컨텍스트 무결성을 유지해 모델 일관성을 향상시킵니다.
-- [에이전틱 파이프라인의 시간적 시맨틱 캐싱 평가](https://huggingface.co/papers/2605.20630)
-  계획-실행 패턴을 따르는 에이전틱 시스템의 시간적 시맨틱 캐싱 기법과 워크플로우 최적화 전략을 평가합니다.
-- [생성적 재귀 추론](https://huggingface.co/papers/2605.19376)
-  반복적 추론 단계를 통해 복잡한 문제를 해결하는 생성적 재귀 추론 방법론을 소개합니다.
+- [OScaR: LLM KV 캐시 극단적 양자화를 위한 오컴의 면도날](https://huggingface.co/papers/2605.19660)
+  LLM에서 KV 캐시를 극단적으로 양자화하는 새로운 방법론
+- [It Takes Two: 맥락 무결성을 위한 상호 보완적 자기 증류](https://huggingface.co/papers/2605.20258)
+  개인정보 보호 맥락 유지를 위한 두 모델 간 자기 증류 기법
+- [에이전틱 AI의 시간적 시맨틱 캐싱과 워크플로 최적화 평가](https://huggingface.co/papers/2605.20630)
+  에이전트 AI 파이프라인에서 시맨틱 캐싱으로 성능 최적화
+- [생성적 재귀 추론 (Generative Recursive Reasoning)](https://huggingface.co/papers/2605.19376)
+  재귀적 구조를 활용한 새로운 LLM 추론 방법론
 - [Uni-Edit: 통합 모델 튜닝을 위한 지능형 편집](https://huggingface.co/papers/2605.21487)
-  지능형 편집을 일반 과제로 처리하는 통합 모델 튜닝 프레임워크로 모델 적응 효율성을 향상시킵니다.
+  다양한 편집 작업을 단일 통합 모델로 처리하는 튜닝 프레임워크
 
 ## 🦉 GeekNews
 
 - [AI와 함께 일하며 복리처럼 쌓아 성장하는 법](https://eugeneyan.com/writing/working-with-ai/)
-  컨텍스트 제공, 취향 설정, 검증 자동화, 위임 확대, 피드백 루프 5가지 원칙으로 AI 협업 실무 가이드를 제시합니다.
+  AI를 단순 도구가 아닌 협업 파트너로 활용해 복리처럼 성장하는 실전 전략
 - [Datatype - 텍스트를 차트로 변환하는 가변 폰트](https://github.com/franktisellano/datatype)
-  OpenType 합자 치환을 활용해 외부 라이브러리 없이 순수 텍스트만으로 차트를 표시하는 폰트입니다.
-- [whichllm - 내 하드웨어에서 최적 로컬 LLM 찾기](https://github.com/Andyyyy64/whichllm)
-  GPU/CPU/RAM을 감지해 실측 벤치마크 기반으로 최적의 로컬 LLM을 자동 추천하는 CLI 도구입니다.
-- [SideQuick - 사이드 프로젝트 완주 도우미](https://www.sidequick.co/)
-  작업을 퀘스트 단위로 분해해 진행 상황을 추적함으로써 사이드 프로젝트 완성도를 높이는 데스크톱 앱입니다.
-- [AI-native 조직 (잭 도시 트위터 창업자)](https://www.youtube.com/watch?v=TlpFc7x8SHo)
-  Block CEO 잭 도시가 계층적 구조에서 지능형 조직으로의 전환 철학을 논의합니다.
+  텍스트 문자를 데이터 시각화 차트로 변환하는 오픈소스 가변 폰트
+- [whichllm - 내 하드웨어에서 실제로 돌아가고 최고 성능을 내는 로컬 LLM 찾기](https://github.com/Andyyyy64/whichllm)
+  사용자 하드웨어 사양에 맞춰 최고 성능을 내는 로컬 LLM을 찾아주는 도구
+- [SideQuick - 사이드 프로젝트를 끝까지 완주하게 돕는 도구](https://www.sidequick.co/)
+  사이드 프로젝트를 끝내지 못하는 문제를 해결하는 생산성 도구
+- [Files.md - Obsidian의 오픈소스 대안인 로컬 우선 Markdown 파일 앱](https://github.com/zakirullin/files.md)
+  Obsidian 대안의 로컬 우선 오픈소스 Markdown 파일 관리 앱
 
 ---
 ## 📅 이전 날짜
 
+- [2026-05-17](data/2026-05-17.md)
 - [2026-05-21](data/2026-05-21.md)
 - [2026-05-16](data/2026-05-16.md)
 - [2026-05-15](data/2026-05-15.md)
