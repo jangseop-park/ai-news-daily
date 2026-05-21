@@ -2,10 +2,34 @@
   "date": "2026-05-18",
   "github_trending": [
     {
-      "name": "⚠ 데이터 미수집 / Data not collected",
-      "url": "#",
-      "description": "해당 날짜의 GitHub Trending 데이터가 수집되지 않았습니다.",
-      "description_en": "GitHub Trending data was not collected for this date."
+      "name": "Imbad0202/academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "description": "Claude Code를 활용한 학술 연구 스킬 가이드 (연구→작성→검토→수정→완성)",
+      "description_en": "Academic Research Skills for Claude Code: research → write → review → revise → finalize"
+    },
+    {
+      "name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "AI 엔지니어링 처음부터 배우고, 만들고, 배포하기",
+      "description_en": "Learn AI engineering from scratch. Build it. Ship it for others."
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "모든 소프트웨어를 AI 에이전트 네이티브로 만드는 CLI 도구",
+      "description_en": "CLI-Anything: Making ALL Software Agent-Native via CLI-Hub"
+    },
+    {
+      "name": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Anthropic 공식 Claude Code 플러그인 디렉토리",
+      "description_en": "Official, Anthropic-managed directory of high quality Claude Code Plugins"
+    },
+    {
+      "name": "HKUDS/ViMax",
+      "url": "https://github.com/HKUDS/ViMax",
+      "description": "감독·작가·제작자·비디오 생성기를 하나로 합친 에이전틱 비디오 생성 도구",
+      "description_en": "ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)"
     }
   ],
   "huggingface": [
@@ -13,78 +37,73 @@
       "title": "OScaR: LLM KV 캐시 극단적 양자화를 위한 오컴의 면도날",
       "title_en": "OScaR: The Occam's Razor for Extreme KV Cache Quantization in LLMs and Beyond",
       "url": "https://huggingface.co/papers/2605.19660",
-      "summary": "LLM에서 KV 캐시를 극단적으로 양자화하는 새로운 방법론",
-      "summary_en": ""
+      "summary": "LLM의 KV 캐시를 극단적으로 양자화하면서도 성능을 유지하는 간결하고 효과적인 방법론 제안",
+      "summary_en": "Proposes a simple yet effective method for extreme KV cache quantization in LLMs while maintaining performance"
     },
     {
-      "title": "It Takes Two: 맥락 무결성을 위한 상호 보완적 자기 증류",
+      "title": "It Takes Two: LLM 문맥 무결성을 위한 상호보완적 자기 증류",
       "title_en": "It Takes Two: Complementary Self-Distillation for Contextual Integrity in LLMs",
       "url": "https://huggingface.co/papers/2605.20258",
-      "summary": "개인정보 보호 맥락 유지를 위한 두 모델 간 자기 증류 기법",
-      "summary_en": ""
+      "summary": "두 모델이 서로 보완적으로 학습하는 자기 증류 기법으로 LLM의 문맥 무결성을 향상",
+      "summary_en": "Improves contextual integrity in LLMs through complementary self-distillation with two cooperative models"
     },
     {
-      "title": "에이전틱 AI의 시간적 시맨틱 캐싱과 워크플로 최적화 평가",
+      "title": "에이전틱 Plan-Execute 파이프라인의 시간적 시맨틱 캐싱 평가",
       "title_en": "Evaluating Temporal Semantic Caching and Workflow Optimization in Agentic Plan-Execute Pipelines",
       "url": "https://huggingface.co/papers/2605.20630",
-      "summary": "에이전트 AI 파이프라인에서 시맨틱 캐싱으로 성능 최적화",
-      "summary_en": ""
+      "summary": "에이전틱 파이프라인에서 시간적 시맨틱 캐싱과 워크플로우 최적화의 효과를 종합 평가",
+      "summary_en": "Comprehensive evaluation of temporal semantic caching and workflow optimization in agentic plan-execute pipelines"
     },
     {
-      "title": "생성적 재귀 추론 (Generative Recursive Reasoning)",
+      "title": "생성적 재귀 추론(Generative Recursive Reasoning)",
       "title_en": "Generative Recursive Reasoning",
       "url": "https://huggingface.co/papers/2605.19376",
-      "summary": "재귀적 구조를 활용한 새로운 LLM 추론 방법론",
-      "summary_en": ""
+      "summary": "생성 모델이 재귀적으로 추론을 수행하는 새로운 프레임워크로 복잡한 추론 문제 해결",
+      "summary_en": "Novel framework where generative models perform recursive reasoning to solve complex inference problems"
     },
     {
-      "title": "Uni-Edit: 통합 모델 튜닝을 위한 지능형 편집",
+      "title": "Uni-Edit: 통합 모델 튜닝을 위한 범용 지능형 편집 태스크",
       "title_en": "Uni-Edit: Intelligent Editing Is A General Task For Unified Model Tuning",
       "url": "https://huggingface.co/papers/2605.21487",
-      "summary": "다양한 편집 작업을 단일 통합 모델로 처리하는 튜닝 프레임워크",
-      "summary_en": ""
+      "summary": "지능형 편집을 통합 모델 튜닝의 범용 태스크로 정의하여 다양한 편집 작업을 단일 모델로 처리",
+      "summary_en": "Defines intelligent editing as a general task for unified model tuning, handling diverse editing with a single model"
     }
   ],
   "geeknews": [
     {
-      "title": "AI와 함께 일하며 복리처럼 쌓아 성장하는 법",
-      "title_en": "Compounding Growth While Working with AI",
-      "url": "https://eugeneyan.com/writing/working-with-ai/",
-      "votes": 96,
-      "summary": "AI를 협업 파트너로 활용해 복리처럼 성장하는 실전 전략",
-      "summary_en": "Compounding Growth While Working with AI"
+      "title": "Codex의 Goals를 활용하는 법",
+      "title_en": "How to use Goals in Codex",
+      "url": "https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex",
+      "summary": "OpenAI Codex에서 Goals 기능을 효과적으로 활용하는 방법 가이드",
+      "summary_en": "Guide on effectively using the Goals feature in OpenAI Codex"
     },
     {
-      "title": "Datatype - 텍스트를 차트로 변환하는 가변 폰트",
-      "title_en": "Variable font transforming text into data visualization charts",
-      "url": "https://github.com/franktisellano/datatype",
-      "votes": 74,
-      "summary": "텍스트 문자를 데이터 시각화 차트로 변환하는 오픈소스 가변 폰트",
-      "summary_en": "Variable font transforming text into data visualization charts"
+      "title": "내가 만든 AI사이트/앱을 홍보할 곳이 없어서 만들어봤어",
+      "title_en": "I built a site to promote my AI projects because there was nowhere else",
+      "url": "https://news.hada.io/topic?id=29727",
+      "summary": "AI 사이트 및 앱 홍보를 위한 커뮤니티 플랫폼을 직접 제작한 사례",
+      "summary_en": "A developer built their own community platform to promote AI sites and apps"
     },
     {
-      "title": "whichllm - 내 하드웨어에서 실제로 돌아가고 최고 성능을 내는 로컬 LLM 찾기",
-      "title_en": "Find the best-performing local LLM for your hardware",
-      "url": "https://github.com/Andyyyy64/whichllm",
-      "votes": 61,
-      "summary": "사용자 하드웨어 사양에 맞춰 최고 성능의 로컬 LLM을 찾아주는 도구",
-      "summary_en": "Find the best-performing local LLM for your hardware"
+      "title": "Andrej Karpathy, Anthropic에 합류",
+      "title_en": "Andrej Karpathy joins Anthropic",
+      "url": "https://twitter.com/karpathy/status/2056753169888334312",
+      "summary": "Tesla AI 전 디렉터이자 OpenAI 공동창업자인 Andrej Karpathy가 Anthropic에 합류",
+      "summary_en": "Former Tesla AI director and OpenAI co-founder Andrej Karpathy joins Anthropic"
     },
     {
-      "title": "SideQuick - 사이드 프로젝트를 끝까지 완주하게 돕는 도구",
-      "title_en": "Productivity tool to help you actually finish side projects",
-      "url": "https://www.sidequick.co/",
-      "votes": 33,
-      "summary": "사이드 프로젝트를 포기하지 않고 끝내도록 돕는 생산성 도구",
-      "summary_en": "Productivity tool to help you actually finish side projects"
+      "title": "Mini Shai-Hulud 재공격: npm 패키지 314개 침해",
+      "title_en": "Mini Shai-Hulud Strikes Again: 314 npm Packages Compromised",
+      "url": "https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised/",
+      "summary": "악성 공격자 Mini Shai-Hulud가 npm 패키지 314개를 침해하는 공급망 공격 재발",
+      "summary_en": "Malicious actor Mini Shai-Hulud compromises 314 npm packages in another supply chain attack"
     },
     {
-      "title": "Files.md - Obsidian의 오픈소스 대안인 로컬 우선 Markdown 파일 앱",
-      "title_en": "Open-source local-first Markdown file app as Obsidian alternative",
-      "url": "https://github.com/zakirullin/files.md",
-      "votes": 21,
-      "summary": "Obsidian 대안의 로컬 우선 오픈소스 Markdown 파일 관리 앱",
-      "summary_en": "Open-source local-first Markdown file app as Obsidian alternative"
+      "title": "Mirage - AI 에이전트를 위한 통합 가상 파일시스템",
+      "title_en": "Mirage - Unified Virtual Filesystem for AI Agents",
+      "url": "https://github.com/strukto-ai/mirage",
+      "summary": "AI 에이전트가 다양한 스토리지 백엔드를 하나의 통합된 가상 파일시스템으로 다룰 수 있는 오픈소스 도구",
+      "summary_en": "Open-source tool enabling AI agents to interact with diverse storage backends through a unified virtual filesystem"
     }
   ]
 }
