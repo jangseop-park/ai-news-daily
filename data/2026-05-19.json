@@ -2,34 +2,10 @@
   "date": "2026-05-19",
   "github_trending": [
     {
-      "name": "Imbad0202/academic-research-skills",
-      "url": "https://github.com/Imbad0202/academic-research-skills",
-      "description": "Claude Code를 위한 학술 연구 스킬 모음 (research → write → review → revise → finalize)",
-      "description_en": "Academic Research Skills for Claude Code: research → write → review → revise → finalize"
-    },
-    {
-      "name": "rohitg00/ai-engineering-from-scratch",
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "AI 엔지니어링 처음부터 배우기 — 배우고, 만들고, 출시하기",
-      "description_en": "Learn it. Build it. Ship it for others. AI engineering from the ground up."
-    },
-    {
-      "name": "HKUDS/CLI-Anything",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "description": "모든 소프트웨어를 에이전트 네이티브로 만드는 통합 CLI 인터페이스",
-      "description_en": "Making ALL Software Agent-Native with a unified CLI interface"
-    },
-    {
-      "name": "anthropics/claude-plugins-official",
-      "url": "https://github.com/anthropics/claude-plugins-official",
-      "description": "Anthropic이 공식 관리하는 고품질 Claude Code 플러그인 디렉토리",
-      "description_en": "Official, Anthropic-managed directory of high quality Claude Code Plugins"
-    },
-    {
-      "name": "HKUDS/ViMax",
-      "url": "https://github.com/HKUDS/ViMax",
-      "description": "감독·각본가·프로듀서·영상 생성기를 하나로 합친 에이전틱 영상 생성 도구",
-      "description_en": "Agentic Video Generation: Director, Screenwriter, Producer, and Video Generator All-in-One"
+      "name": "⚠ 데이터 미수집 / Data not collected",
+      "url": "#",
+      "description": "해당 날짜의 GitHub Trending 데이터가 수집되지 않았습니다.",
+      "description_en": "GitHub Trending data was not collected for this date."
     }
   ],
   "huggingface": [
