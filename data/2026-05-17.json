@@ -4,116 +4,106 @@
     {
       "name": "Imbad0202/academic-research-skills",
       "url": "https://github.com/Imbad0202/academic-research-skills",
-      "description": "Claude Code를 위한 학술 연구 스킬 모음",
-      "description_en": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
-      "stars_today": "1,667 stars today"
+      "description": "Claude Code가 학술 연구 워크플로우 전체(조사→작성→검토→완성)를 관리하는 프레임워크",
+      "description_en": "Framework enabling Claude Code to manage the complete research workflow, from investigation through writing, reviewing, and finalizing academic content."
     },
     {
       "name": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "AI 엔지니어링을 처음부터 배우고 직접 구축하는 실습 가이드",
-      "description_en": "Learn it. Build it. Ship it for others.",
-      "stars_today": "765 stars today"
+      "description": "실세계 AI 엔지니어링 기술을 실전 중심으로 가르치는 종합 학습 리소스",
+      "description_en": "Comprehensive learning resource teaching practical AI engineering skills with emphasis on building and deploying solutions for real-world applications."
     },
     {
       "name": "HKUDS/CLI-Anything",
       "url": "https://github.com/HKUDS/CLI-Anything",
-      "description": "모든 소프트웨어를 에이전트 네이티브로 만드는 CLI 프레임워크",
-      "description_en": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
-      "stars_today": "890 stars today"
+      "description": "CLI를 통해 모든 소프트웨어를 AI 에이전트와 호환되게 만드는 플랫폼",
+      "description_en": "Platform designed to make all software natively compatible with AI agents through command-line interfaces."
     },
     {
       "name": "anthropics/claude-plugins-official",
       "url": "https://github.com/anthropics/claude-plugins-official",
-      "description": "Anthropic 공식 관리 고품질 Claude 플러그인 디렉토리",
-      "description_en": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-      "stars_today": "674 stars today"
+      "description": "Anthropic이 관리하는 검증된 Claude Code 공식 플러그인 모음",
+      "description_en": "Official repository curating quality Claude Code plugins, maintained by Anthropic."
     },
     {
       "name": "HKUDS/ViMax",
       "url": "https://github.com/HKUDS/ViMax",
-      "description": "에이전틱 비디오 생성 프레임워크 (감독/화면/캐릭터 에이전트)",
-      "description_en": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
-      "stars_today": "674 stars today"
+      "description": "감독·작가·프로듀서 기능을 결합해 영상 제작 파이프라인 전체를 자동화하는 에이전틱 영상 생성 시스템",
+      "description_en": "Agentic video generation system combining director, screenwriter, and producer functions to automate the entire video creation pipeline."
     }
   ],
   "huggingface": [
     {
-      "title": "OScaR: LLM KV 캐시 극단적 양자화를 위한 오컴의 면도날",
+      "title": "KV 캐시 극한 양자화: OScaR",
       "title_en": "OScaR: The Occam's Razor for Extreme KV Cache Quantization in LLMs and Beyond",
       "url": "https://huggingface.co/papers/2605.19660",
-      "summary": "LLM에서 KV 캐시를 극단적으로 양자화하는 새로운 방법론 제안",
-      "summary_en": ""
+      "summary": "LLM 배포 시 메모리 효율성 문제를 해결하는 극한의 키-값 캐시 양자화 기법을 제시합니다.",
+      "summary_en": "Presents a method for extreme key-value cache quantization in large language models, addressing memory efficiency challenges."
     },
     {
-      "title": "It Takes Two: 맥락 무결성을 위한 상호 보완적 자기 증류",
+      "title": "LLM 컨텍스트 무결성을 위한 상호 자기증류",
       "title_en": "It Takes Two: Complementary Self-Distillation for Contextual Integrity in LLMs",
       "url": "https://huggingface.co/papers/2605.20258",
-      "summary": "개인정보 보호 맥락 유지를 위한 두 모델 간 상호 자기 증류 기법",
-      "summary_en": ""
+      "summary": "상호 자기증류 방식으로 LLM의 컨텍스트 무결성을 유지해 모델 일관성을 향상시킵니다.",
+      "summary_en": "Proposes a complementary self-distillation approach to maintain contextual integrity in LLMs, improving model consistency."
     },
     {
-      "title": "에이전틱 AI의 시간적 시맨틱 캐싱과 워크플로 최적화 평가",
+      "title": "에이전틱 파이프라인의 시간적 시맨틱 캐싱 평가",
       "title_en": "Evaluating Temporal Semantic Caching and Workflow Optimization in Agentic Plan-Execute Pipelines",
       "url": "https://huggingface.co/papers/2605.20630",
-      "summary": "에이전트 AI 파이프라인에서 시맨틱 캐싱으로 성능 최적화",
-      "summary_en": ""
+      "summary": "계획-실행 패턴을 따르는 에이전틱 시스템의 시간적 시맨틱 캐싱 기법과 워크플로우 최적화 전략을 평가합니다.",
+      "summary_en": "Evaluates temporal semantic caching and workflow optimization for agentic systems following plan-execute patterns."
     },
     {
-      "title": "생성적 재귀 추론 (Generative Recursive Reasoning)",
+      "title": "생성적 재귀 추론",
       "title_en": "Generative Recursive Reasoning",
       "url": "https://huggingface.co/papers/2605.19376",
-      "summary": "재귀적 구조를 활용한 새로운 LLM 추론 방법론",
-      "summary_en": ""
+      "summary": "반복적 추론 단계를 통해 복잡한 문제를 해결하는 생성적 재귀 추론 방법론을 소개합니다.",
+      "summary_en": "Introduces a generative approach to recursive reasoning enabling models to solve complex problems through iterative steps."
     },
     {
       "title": "Uni-Edit: 통합 모델 튜닝을 위한 지능형 편집",
       "title_en": "Uni-Edit: Intelligent Editing Is A General Task For Unified Model Tuning",
       "url": "https://huggingface.co/papers/2605.21487",
-      "summary": "다양한 편집 작업을 단일 통합 모델로 처리하는 튜닝 프레임워크",
-      "summary_en": ""
+      "summary": "지능형 편집을 일반 과제로 처리하는 통합 모델 튜닝 프레임워크로 모델 적응 효율성을 향상시킵니다.",
+      "summary_en": "Proposes a unified model tuning framework where intelligent editing is treated as a general task."
     }
   ],
   "geeknews": [
     {
       "title": "AI와 함께 일하며 복리처럼 쌓아 성장하는 법",
-      "title_en": "Compounding Growth While Working with AI",
-      "url": "https://eugeneyan.com/writing/working-with-ai",
-      "votes": 95,
-      "summary": "AI를 단순 도구가 아닌 협업 파트너로 활용해 복리처럼 성장하는 실전 전략",
-      "summary_en": "Practical strategies for compounding growth by treating AI as a collaborative partner"
+      "title_en": "Working with AI to grow compoundingly",
+      "url": "https://eugeneyan.com/writing/working-with-ai/",
+      "summary": "컨텍스트 제공, 취향 설정, 검증 자동화, 위임 확대, 피드백 루프 5가지 원칙으로 AI 협업 실무 가이드를 제시합니다.",
+      "summary_en": "Practical AI collaboration guide with 5 principles: providing context, setting preferences, automating validation, expanding delegation, and feedback loops."
     },
     {
       "title": "Datatype - 텍스트를 차트로 변환하는 가변 폰트",
-      "title_en": "Datatype - Variable font that transforms text into charts",
+      "title_en": "Datatype - Variable font that converts text to charts",
       "url": "https://github.com/franktisellano/datatype",
-      "votes": 74,
-      "summary": "텍스트 문자를 데이터 시각화 차트로 변환하는 창의적인 오픈소스 가변 폰트",
-      "summary_en": "Creative open-source variable font that transforms text characters into data visualization charts"
+      "summary": "OpenType 합자 치환을 활용해 외부 라이브러리 없이 순수 텍스트만으로 차트를 표시하는 폰트입니다.",
+      "summary_en": "Font using OpenType ligature substitution to display charts with pure text, no external libraries needed."
     },
     {
-      "title": "whichllm - 내 하드웨어에서 최고 성능 로컬 LLM 찾기",
+      "title": "whichllm - 내 하드웨어에서 최적 로컬 LLM 찾기",
       "title_en": "whichllm - Find the best local LLM for your hardware",
       "url": "https://github.com/Andyyyy64/whichllm",
-      "votes": 61,
-      "summary": "사용자 하드웨어 사양에 맞춰 실제로 돌아가면서 최고 성능을 내는 로컬 LLM을 찾아주는 도구",
-      "summary_en": "Tool to find the best-performing local LLM that actually runs on your hardware specs"
+      "summary": "GPU/CPU/RAM을 감지해 실측 벤치마크 기반으로 최적의 로컬 LLM을 자동 추천하는 CLI 도구입니다.",
+      "summary_en": "CLI tool that detects your GPU/CPU/RAM and recommends optimal local LLMs based on real benchmarks."
     },
     {
-      "title": "SideQuick - 사이드 프로젝트 완주 도구",
+      "title": "SideQuick - 사이드 프로젝트 완주 도우미",
       "title_en": "SideQuick - Tool to help you finish side projects",
       "url": "https://www.sidequick.co/",
-      "votes": 33,
-      "summary": "사이드 프로젝트를 시작만 하고 끝내지 못하는 문제를 해결하는 생산성 도구",
-      "summary_en": "Productivity tool that helps you actually finish side projects instead of abandoning them"
+      "summary": "작업을 퀘스트 단위로 분해해 진행 상황을 추적함으로써 사이드 프로젝트 완성도를 높이는 데스크톱 앱입니다.",
+      "summary_en": "Desktop app that breaks work into quest units and tracks progress to improve side project completion rates."
     },
     {
-      "title": "Andrej Karpathy, Anthropic에 합류",
-      "title_en": "Andrej Karpathy joins Anthropic",
-      "url": "https://twitter.com/karpathy/status/205675316",
-      "votes": 17,
-      "summary": "AI 분야 유명 연구자 Andrej Karpathy가 Anthropic에 합류한다고 발표",
-      "summary_en": "Prominent AI researcher Andrej Karpathy announces joining Anthropic"
+      "title": "AI-native 조직 (잭 도시 트위터 창업자)",
+      "title_en": "AI-native organization (Jack Dorsey, Twitter founder)",
+      "url": "https://www.youtube.com/watch?v=TlpFc7x8SHo",
+      "summary": "Block CEO 잭 도시가 계층적 구조에서 지능형 조직으로의 전환 철학을 논의합니다.",
+      "summary_en": "Block CEO Jack Dorsey discusses the philosophy of transitioning from hierarchical to intelligent organizational structures."
     }
   ]
 }
