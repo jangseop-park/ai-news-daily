@@ -51,29 +51,39 @@
   ],
   "geeknews": [
     {
-      "title": "▲",
-      "votes": "1",
-      "link": "https://www.youtube.com/watch?v=TlpFc7x8SHo"
+      "title": "asm.js에 작별을 고하기",
+      "title_en": "asm.js에 작별을 고하기",
+      "url": "https://news.hada.io/topic?id=29732",
+      "summary": "Firefox 148부터 SpiderMonkey의 asm.js 최적화가 기본 비활성화됐고, 향후 관련 코드가 제거될 예정 asm.js는 JavaScript 하위 집합이라 기존 사이트는 계속 동작하지만, 일반 JIT 경로로 실행되어 최적화 이점은 사라짐 asm.js 콘텐",
+      "summary_en": "Firefox 148부터 SpiderMonkey의 asm.js 최적화가 기본 비활성화됐고, 향후 관련 코드가 제거될 예정 asm.js는 JavaScript 하위 집합이라 기존 사이트는 계속 동작하지만, 일반 JIT 경로로 실행되어 최적화 이점은 사라짐 asm.js 콘텐"
     },
     {
-      "title": "▲",
-      "votes": "2",
-      "link": "https://www.openshorts.app/"
+      "title": "GitHub, 악성 VSCode 확장을 통한 3,800개 저장소 침해 확인",
+      "title_en": "GitHub, 악성 VSCode 확장을 통한 3,800개 저장소 침해 확인",
+      "url": "https://news.hada.io/topic?id=29731",
+      "summary": "GitHub 내부 저장소 약 3,800개가 직원 1명의 악성 VS Code 확장 설치 뒤 침해됐으며, 현재 평가는 유출 범위를 내부 저장소로 한정함 GitHub는 트로이목마화된 확장을 VS Code Marketplace에서 제거하고 감염 엔드포인트를 격리했으며, 즉각적",
+      "summary_en": "GitHub 내부 저장소 약 3,800개가 직원 1명의 악성 VS Code 확장 설치 뒤 침해됐으며, 현재 평가는 유출 범위를 내부 저장소로 한정함 GitHub는 트로이목마화된 확장을 VS Code Marketplace에서 제거하고 감염 엔드포인트를 격리했으며, 즉각적"
     },
     {
-      "title": "▲",
-      "votes": "3",
-      "link": "https://www.sidequick.co/"
+      "title": "나는 소프트웨어 엔지니어가 아니다",
+      "title_en": "나는 소프트웨어 엔지니어가 아니다",
+      "url": "https://news.hada.io/topic?id=29730",
+      "summary": "소프트웨어 엔지니어라는 정체성 거부는 23년 전 “좋은 해커지만 엔지니어는 아니다”라는 평가에서 시작됨 에이전트 패러다임은 비결정적 프로그램으로 결정적이어야 하는 프로그램을 만들게 하는 방식처럼 느껴짐 코드에 대한 믿음은 가독성...",
+      "summary_en": "소프트웨어 엔지니어라는 정체성 거부는 23년 전 “좋은 해커지만 엔지니어는 아니다”라는 평가에서 시작됨 에이전트 패러다임은 비결정적 프로그램으로 결정적이어야 하는 프로그램을 만들게 하는 방식처럼 느껴짐 코드에 대한 믿음은 가독성..."
     },
     {
-      "title": "▲",
-      "votes": "4",
-      "link": "https://twitter.com/pokemoncentral/status/2057123807404638250"
+      "title": "Google I/O 2026에서 발표한 모든 것",
+      "title_en": "Google I/O 2026에서 발표한 모든 것",
+      "url": "https://news.hada.io/topic?id=29729",
+      "summary": "핵심 축은 Gemini 3.5 Flash, Gemini Omni Flash, Antigravity 2.0, Google AI Studio, Gemma 4, Android 17, Chrome/Web, Firebase, Google Play",
+      "summary_en": "핵심 축은 Gemini 3.5 Flash, Gemini Omni Flash, Antigravity 2.0, Google AI Studio, Gemma 4, Android 17, Chrome/Web, Firebase, Google Play"
     },
     {
-      "title": "▲",
-      "votes": "5",
-      "link": "https://github.com/franktisellano/datatype"
+      "title": "Google이 이제 우리를 싫어하는 것 같다",
+      "title_en": "Google이 이제 우리를 싫어하는 것 같다",
+      "url": "https://news.hada.io/topic?id=29728",
+      "summary": "Pokémon Central Wiki는 15년 넘게 이탈리아어 Pokémon 정보의 주요 출처였지만, 현재 Google 검색 결과에서 거의 사라짐 wiki.pokemoncentral.it는 MediaWiki 기반의 대형 위키인데도 site: 검색 결과가 문자 그대로 4",
+      "summary_en": "Pokémon Central Wiki는 15년 넘게 이탈리아어 Pokémon 정보의 주요 출처였지만, 현재 Google 검색 결과에서 거의 사라짐 wiki.pokemoncentral.it는 MediaWiki 기반의 대형 위키인데도 site: 검색 결과가 문자 그대로 4"
     }
   ]
 }
