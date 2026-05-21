@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-16",
+  "github_trending": [
+    {
+      "name": "Imbad0202/academic-research-skills",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "stars_today": "1,667 stars today"
+    },
+    {
+      "name": "rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "stars_today": "765 stars today"
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
+      "stars_today": "890 stars today"
+    },
+    {
+      "name": "anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "stars_today": "674 stars today"
+    },
+    {
+      "name": "HKUDS/ViMax",
+      "description": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
+      "stars_today": "674 stars today"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "OScaR: The Occam's Razor for Extreme KV Cache Quantization in LLMs and Beyond",
+      "link": "https://huggingface.co/papers/2605.19660"
+    },
+    {
+      "title": "It Takes Two: Complementary Self-Distillation for Contextual Integrity in LLMs",
+      "link": "https://huggingface.co/papers/2605.20258"
+    },
+    {
+      "title": "Evaluating Temporal Semantic Caching and Workflow Optimization in Agentic Plan-Execute Pipelines",
+      "link": "https://huggingface.co/papers/2605.20630"
+    },
+    {
+      "title": "Generative Recursive Reasoning",
+      "link": "https://huggingface.co/papers/2605.19376"
+    },
+    {
+      "title": "Uni-Edit: Intelligent Editing Is A General Task For Unified Model Tuning",
+      "link": "https://huggingface.co/papers/2605.21487"
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "▲",
+      "votes": "1",
+      "link": "https://www.youtube.com/watch?v=TlpFc7x8SHo"
+    },
+    {
+      "title": "▲",
+      "votes": "2",
+      "link": "https://www.openshorts.app/"
+    },
+    {
+      "title": "▲",
+      "votes": "3",
+      "link": "https://www.sidequick.co/"
+    },
+    {
+      "title": "▲",
+      "votes": "4",
+      "link": "https://twitter.com/pokemoncentral/status/2057123807404638250"
+    },
+    {
+      "title": "▲",
+      "votes": "5",
+      "link": "https://github.com/franktisellano/datatype"
+    }
+  ]
+}
