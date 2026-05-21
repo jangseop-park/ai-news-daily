@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-05-15
+> 마지막 업데이트: 2026-05-21
 
-# AI 뉴스 — 2026-05-15
+# AI 뉴스 — 2026-05-21
 
 ## 🔥 GitHub Trending (Python)
 
-- [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills): 연구, 과학, 공학, 분석, 금융 및 작문 작업을 위한 에이전트 스킬 툴킷
-- [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos): 금융 시장 언어 이해·처리에 특화된 파운데이션 모델
-- [roboflow/supervision](https://github.com/roboflow/supervision): 비전 애플리케이션 구축을 위한 재사용 가능한 컴퓨터 비전 도구 모음
-- [NVIDIA-AI-Blueprints/video-search-and-summarization](https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization): GPU 가속 비전 에이전트 및 AI 기반 영상 분석 레퍼런스 아키텍처
-- [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser): 봇 감지 우회 기능과 Playwright 호환성을 갖춘 스텔스 Chromium 브라우저
+- [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills): Claude Code를 활용한 학술 연구 작업 흐름 도구로, 연구부터 작성, 검토, 수정, 최종화까지 지원
+- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링의 기초 학습부터 실제 배포까지 포괄하는 종합 가이드
+- [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything): 모든 소프트웨어를 에이전트 기반으로 전환하여 AI 에이전트가 CLI와 상호작용 가능하게 함
+- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official): Anthropic에서 관리하는 고품질 Claude Code 플러그인의 공식 디렉토리
+- [HKUDS/ViMax](https://github.com/HKUDS/ViMax): 감독, 각본가, 프로듀서, 비디오 생성 역할을 통합한 에이전트 기반 영상 제작 시스템
 
 ## 📄 Hugging Face Papers
 
-- [단순·통합 스케일링으로 올림피아드 금메달 수준 추론 달성](https://huggingface.co/papers/2605.13301)
-  단순하고 통합된 스케일링 접근법으로 수학 올림피아드 금메달 수준의 추론 성능을 달성하는 방법을 제시
-- [MemEye: 멀티모달 에이전트 메모리의 시각 중심 평가 프레임워크](https://huggingface.co/papers/2605.15128)
-  멀티모달 에이전트가 시각 정보를 어떻게 기억·활용하는지 평가하는 벤치마크 프레임워크 제안
-- [자기 증류 에이전틱 강화학습](https://huggingface.co/papers/2605.15155)
-  에이전트가 자신이 생성한 경험으로부터 학습하는 자기 증류 기반 강화학습 방법 — 샘플 효율과 성능 동시 향상
-- [SANA-WM: 하이브리드 선형 확산 트랜스포머를 활용한 분 단위 월드 모델링](https://huggingface.co/papers/2605.15178)
-  분 단위 장기 영상 예측이 가능한 효율적인 월드 모델 — 하이브리드 선형 확산 트랜스포머 활용
-- [Darwin Family: 훈련 없는 언어모델 추론 스케일링을 위한 진화적 모델 병합](https://huggingface.co/papers/2605.14386)
-  추가 훈련 없이 신뢰 가중치 진화적 모델 병합으로 언어모델 추론 능력을 스케일링하는 방법
+- [OScaR: LLM의 극단적 KV 캐시 양자화를 위한 오컴의 면도날](https://huggingface.co/papers/2605.19660)
+  대규모 언어 모델의 극단적 KV 캐시 양자화 방법을 제시하며, 오컴의 면도날 원칙을 적용하여 성능 유지 하에 메모리 요구사항을 감소
+- [이중성: LLM의 문맥적 무결성을 위한 상호보완적 자기 증류](https://huggingface.co/papers/2605.20258)
+  모델 변형 간의 상호 학습을 통해 LLM의 문맥적 무결성을 개선하는 상호보완적 자기 증류 방법 제안
+- [에이전트 계획-실행 파이프라인에서 시간적 의미 캐싱 평가](https://huggingface.co/papers/2605.20630)
+  에이전트 기반 계획-실행 시스템에서 효율성 개선을 위해 시간적 의미 캐싱 기술과 워크플로우 최적화 전략을 평가
+- [생성적 재귀적 추론](https://huggingface.co/papers/2605.19376)
+  모델이 반복적인 자기 참조 프로세스를 통해 복잡한 문제를 분해할 수 있도록 하는 생성적 재귀적 추론 방식 소개
+- [Uni-Edit: 지능형 편집을 위한 통합 모델 튜닝](https://huggingface.co/papers/2605.21487)
+  지능형 편집을 일반 작업으로 취급하여 다양한 편집 응용 분야에 걸쳐 통합 모델 튜닝을 가능하게 하는 Uni-Edit 프레임워크
 
 ## 🦉 GeekNews
 
-- [경험은 이제 세금이다](https://x.com/JayaGup10/status/2047508230813917600)
-  AI 도구 미경험 시니어 의사결정자들이 조직의 AI 도입을 결정하는 반면 주니어는 신속히 프로덕션 코드를 작성하는 현상 분석
-- [AI 분야의 다음 최대 해자는 '조직'이다](https://x.com/jayagup10/status/2052870394093408558)
-  제품·기술 우위가 빠르게 수렴하면서 기업 조직 구조 자체가 경쟁 해자로 부상하는 추세
-- [소프트웨어 아키텍처 배우기](https://matklad.github.io/2026/05/12/software-architecture.html)
-  실제 책임을 맡고 문제가 자신의 업무가 될 때 소프트웨어 설계가 더 깊게 학습되며 Conway's Law의 중요성을 강조
-- [시니어 개발자가 전문성을 전달하지 못하는 이유](https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise)
-  시니어와 비개발자가 AI 에이전트 도입에 대해 서로 다른 기준으로 평가하는 커뮤니케이션 갭 분석
-- [중국 AI 연구소 내부에서 얻은 교훈](https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs)
-  중국 주요 AI 연구소 방문을 통해 중미 AI 생태계의 문화적 차이와 모델 개발에 미치는 영향 직접 관찰
+- [AI와 함께 일하며 복리처럼 쌓아 성장하는 법](https://eugeneyan.com/writing/working-with-ai/)
+  AI와의 협업에서 컨텍스트 제공, 취향 설정, 검증 자동화, 위임 확대, 피드백 루프라는 다섯 가지 원칙을 체계적으로 정리한 실무 가이드
+- [Datatype - 텍스트를 차트로 변환하는 가변 폰트](https://github.com/franktisellano/datatype)
+  JS/이미지/렌더링 라이브러리 없이 OpenType 합자 치환을 활용해 텍스트만으로 차트를 표시하는 개념의 구현
+- [whichllm - 내 하드웨어에서 실제로 돌아가는 로컬 LLM 찾기](https://github.com/Andyyyy64/whichllm)
+  파라미터 수가 아닌 실측 벤치마크 기반으로 사용자 하드웨어에 맞는 로컬 LLM을 자동 추천하는 CLI 도구
+- [Andrej Karpathy, Anthropic에 합류](https://twitter.com/karpathy/status/2056753169888334312)
+  LLM 분야의 최전선에서 향후 몇 년을 보낼 예정이며, R&D에 다시 참여하게 되었음을 발표
+- [SideQuick - 사이드 프로젝트를 끝까지 완주하게 돕는 도구](https://www.sidequick.co/)
+  작업을 퀘스트 단위로 쪼개고 진행 상황을 추적해 사이드 프로젝트가 흐지부지되는 패턴을 방지하는 데스크톱 앱
 
 ---
 ## 📅 이전 날짜
 
+- [2026-05-15](data/2026-05-15.md)
 - [2026-05-14](data/2026-05-14.md)
 - [2026-05-13](data/2026-05-13.md)
 - [2026-05-12](data/2026-05-12.md)
