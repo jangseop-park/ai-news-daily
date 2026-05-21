@@ -1,49 +1,49 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-05-18
+> 마지막 업데이트: 2026-05-21
 
-# AI 뉴스 — 2026-05-18
+# AI 뉴스 — 2026-05-21
 
 ## 🔥 GitHub Trending (Python)
 
-- [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills): Claude Code를 활용한 학술 연구 스킬 가이드 (연구→작성→검토→수정→완성)
-- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링 처음부터 배우고, 만들고, 배포하기
-- [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything): 모든 소프트웨어를 AI 에이전트 네이티브로 만드는 CLI 도구
-- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official): Anthropic 공식 Claude Code 플러그인 디렉토리
-- [HKUDS/ViMax](https://github.com/HKUDS/ViMax): 감독·작가·제작자·비디오 생성기를 하나로 합친 에이전틱 비디오 생성 도구
+- [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills): Claude Code를 활용한 학술 연구 작업 흐름 도구로, 연구부터 작성, 검토, 수정, 최종화까지 지원
+- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링의 기초 학습부터 실제 배포까지 포괄하는 종합 가이드
+- [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything): 모든 소프트웨어를 에이전트 기반으로 전환하여 AI 에이전트가 CLI와 상호작용 가능하게 함
+- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official): Anthropic에서 관리하는 고품질 Claude Code 플러그인의 공식 디렉토리
+- [HKUDS/ViMax](https://github.com/HKUDS/ViMax): 감독, 각본가, 프로듀서, 비디오 생성 역할을 통합한 에이전트 기반 영상 제작 시스템
 
 ## 📄 Hugging Face Papers
 
-- [OScaR: LLM KV 캐시 극단적 양자화를 위한 오컴의 면도날](https://huggingface.co/papers/2605.19660)
-  LLM의 KV 캐시를 극단적으로 양자화하면서도 성능을 유지하는 간결하고 효과적인 방법론 제안
-- [It Takes Two: LLM 문맥 무결성을 위한 상호보완적 자기 증류](https://huggingface.co/papers/2605.20258)
-  두 모델이 서로 보완적으로 학습하는 자기 증류 기법으로 LLM의 문맥 무결성을 향상
-- [에이전틱 Plan-Execute 파이프라인의 시간적 시맨틱 캐싱 평가](https://huggingface.co/papers/2605.20630)
-  에이전틱 파이프라인에서 시간적 시맨틱 캐싱과 워크플로우 최적화의 효과를 종합 평가
-- [생성적 재귀 추론(Generative Recursive Reasoning)](https://huggingface.co/papers/2605.19376)
-  생성 모델이 재귀적으로 추론을 수행하는 새로운 프레임워크로 복잡한 추론 문제 해결
-- [Uni-Edit: 통합 모델 튜닝을 위한 범용 지능형 편집 태스크](https://huggingface.co/papers/2605.21487)
-  지능형 편집을 통합 모델 튜닝의 범용 태스크로 정의하여 다양한 편집 작업을 단일 모델로 처리
+- [OScaR: LLM의 극단적 KV 캐시 양자화를 위한 오컴의 면도날](https://huggingface.co/papers/2605.19660)
+  대규모 언어 모델의 극단적 KV 캐시 양자화 방법을 제시하며, 오컴의 면도날 원칙을 적용하여 성능 유지 하에 메모리 요구사항을 감소
+- [이중성: LLM의 문맥적 무결성을 위한 상호보완적 자기 증류](https://huggingface.co/papers/2605.20258)
+  모델 변형 간의 상호 학습을 통해 LLM의 문맥적 무결성을 개선하는 상호보완적 자기 증류 방법 제안
+- [에이전트 계획-실행 파이프라인에서 시간적 의미 캐싱 평가](https://huggingface.co/papers/2605.20630)
+  에이전트 기반 계획-실행 시스템에서 효율성 개선을 위해 시간적 의미 캐싱 기술과 워크플로우 최적화 전략을 평가
+- [생성적 재귀적 추론](https://huggingface.co/papers/2605.19376)
+  모델이 반복적인 자기 참조 프로세스를 통해 복잡한 문제를 분해할 수 있도록 하는 생성적 재귀적 추론 방식 소개
+- [Uni-Edit: 지능형 편집을 위한 통합 모델 튜닝](https://huggingface.co/papers/2605.21487)
+  지능형 편집을 일반 작업으로 취급하여 다양한 편집 응용 분야에 걸쳐 통합 모델 튜닝을 가능하게 하는 Uni-Edit 프레임워크
 
 ## 🦉 GeekNews
 
-- [Codex의 Goals를 활용하는 법](https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex)
-  OpenAI Codex에서 Goals 기능을 효과적으로 활용하는 방법 가이드
-- [내가 만든 AI사이트/앱을 홍보할 곳이 없어서 만들어봤어](https://news.hada.io/topic?id=29727)
-  AI 사이트 및 앱 홍보를 위한 커뮤니티 플랫폼을 직접 제작한 사례
+- [AI와 함께 일하며 복리처럼 쌓아 성장하는 법](https://eugeneyan.com/writing/working-with-ai/)
+  AI와의 협업에서 컨텍스트 제공, 취향 설정, 검증 자동화, 위임 확대, 피드백 루프라는 다섯 가지 원칙을 체계적으로 정리한 실무 가이드
+- [Datatype - 텍스트를 차트로 변환하는 가변 폰트](https://github.com/franktisellano/datatype)
+  JS/이미지/렌더링 라이브러리 없이 OpenType 합자 치환을 활용해 텍스트만으로 차트를 표시하는 개념의 구현
+- [whichllm - 내 하드웨어에서 실제로 돌아가는 로컬 LLM 찾기](https://github.com/Andyyyy64/whichllm)
+  파라미터 수가 아닌 실측 벤치마크 기반으로 사용자 하드웨어에 맞는 로컬 LLM을 자동 추천하는 CLI 도구
 - [Andrej Karpathy, Anthropic에 합류](https://twitter.com/karpathy/status/2056753169888334312)
-  Tesla AI 전 디렉터이자 OpenAI 공동창업자인 Andrej Karpathy가 Anthropic에 합류
-- [Mini Shai-Hulud 재공격: npm 패키지 314개 침해](https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised/)
-  악성 공격자 Mini Shai-Hulud가 npm 패키지 314개를 침해하는 공급망 공격 재발
-- [Mirage - AI 에이전트를 위한 통합 가상 파일시스템](https://github.com/strukto-ai/mirage)
-  AI 에이전트가 다양한 스토리지 백엔드를 하나의 통합된 가상 파일시스템으로 다룰 수 있는 오픈소스 도구
+  LLM 분야의 최전선에서 향후 몇 년을 보낼 예정이며, R&D에 다시 참여하게 되었음을 발표
+- [SideQuick - 사이드 프로젝트를 끝까지 완주하게 돕는 도구](https://www.sidequick.co/)
+  작업을 퀘스트 단위로 쪼개고 진행 상황을 추적해 사이드 프로젝트가 흐지부지되는 패턴을 방지하는 데스크톱 앱
 
 ---
 ## 📅 이전 날짜
 
-- [2026-05-21](data/2026-05-21.md)
 - [2026-05-20](data/2026-05-20.md)
 - [2026-05-19](data/2026-05-19.md)
+- [2026-05-18](data/2026-05-18.md)
 - [2026-05-17](data/2026-05-17.md)
 - [2026-05-16](data/2026-05-16.md)
 - [2026-05-15](data/2026-05-15.md)
