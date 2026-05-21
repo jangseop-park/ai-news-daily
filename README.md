@@ -6,37 +6,37 @@
 
 ## 🔥 GitHub Trending (Python)
 
-- [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills): Claude Code를 위한 학술 연구 스킬 모음
-- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링을 처음부터 배우고 구축하는 실습 가이드
-- [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything): 모든 소프트웨어를 에이전트 네이티브로 만드는 CLI 프레임워크
-- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official): Anthropic 공식 Claude 플러그인 고품질 디렉토리
-- [HKUDS/ViMax](https://github.com/HKUDS/ViMax): 에이전틱 비디오 생성 프레임워크 (감독/화면/캐릭터 에이전트)
+- [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills): Claude Code를 위한 학술 연구 스킬 모음 (research → write → review → revise → finalize)
+- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링 처음부터 배우기 — 배우고, 만들고, 출시하기
+- [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything): 모든 소프트웨어를 에이전트 네이티브로 만드는 통합 CLI 인터페이스
+- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official): Anthropic이 공식 관리하는 고품질 Claude Code 플러그인 디렉토리
+- [HKUDS/ViMax](https://github.com/HKUDS/ViMax): 감독·각본가·프로듀서·영상 생성기를 하나로 합친 에이전틱 영상 생성 도구
 
 ## 📄 Hugging Face Papers
 
 - [OScaR: LLM KV 캐시 극단적 양자화를 위한 오컴의 면도날](https://huggingface.co/papers/2605.19660)
-  LLM에서 KV 캐시를 극단적으로 양자화하는 새로운 방법론
-- [It Takes Two: 맥락 무결성을 위한 상호 보완적 자기 증류](https://huggingface.co/papers/2605.20258)
-  개인정보 보호 맥락 유지를 위한 두 모델 간 자기 증류 기법
-- [에이전틱 AI의 시간적 시맨틱 캐싱과 워크플로 최적화 평가](https://huggingface.co/papers/2605.20630)
-  에이전트 AI 파이프라인에서 시맨틱 캐싱으로 성능 최적화
-- [생성적 재귀 추론 (Generative Recursive Reasoning)](https://huggingface.co/papers/2605.19376)
-  재귀적 구조를 활용한 새로운 LLM 추론 방법론
-- [Uni-Edit: 통합 모델 튜닝을 위한 지능형 편집](https://huggingface.co/papers/2605.21487)
-  다양한 편집 작업을 단일 통합 모델로 처리하는 튜닝 프레임워크
+  대형 언어 모델의 KV 캐시를 극단적으로 양자화하여 메모리 효율성과 연산 성능을 최적화하는 기법을 제안합니다.
+- [LLM의 문맥 무결성을 위한 상호 보완적 자기 증류](https://huggingface.co/papers/2605.20258)
+  상호 보완적 학습 메커니즘을 통해 언어 모델의 문맥 무결성을 유지하는 자기 증류 접근법을 제시합니다.
+- [에이전틱 계획-실행 파이프라인의 시간적 의미 캐싱 및 워크플로 최적화 평가](https://huggingface.co/papers/2605.20630)
+  다단계 계획을 실행하는 에이전틱 AI 시스템의 효율성 향상을 위한 캐싱 전략 및 워크플로 최적화 기법을 평가합니다.
+- [생성적 재귀 추론](https://huggingface.co/papers/2605.19376)
+  AI 모델이 복잡한 반복 추론 작업을 더 효과적으로 수행할 수 있도록 재귀 추론에 생성적 접근법을 도입합니다.
+- [Uni-Edit: 통합 모델 튜닝을 위한 범용 지능형 편집](https://huggingface.co/papers/2605.21487)
+  지능형 편집을 범용 작업으로 처리하는 통합 모델 튜닝 프레임워크로, 다양한 도메인에서 유연한 모델 적응을 가능하게 합니다.
 
 ## 🦉 GeekNews
 
-- [AI와 함께 일하며 복리처럼 쌓아 성장하는 법](https://eugeneyan.com/writing/working-with-ai/)
-  AI를 단순 도구가 아닌 협업 파트너로 활용해 복리처럼 성장하는 실전 전략
+- [AI-native 조직](https://www.youtube.com/watch?v=TlpFc7x8SHo)
+  Jack Dorsey(Block CEO)가 AI 시대에 맞는 새로운 조직 관리 철학과 계층적 구조에서 지능 기반 구조로의 전환을 논의합니다.
 - [Datatype - 텍스트를 차트로 변환하는 가변 폰트](https://github.com/franktisellano/datatype)
-  텍스트 문자를 데이터 시각화 차트로 변환하는 오픈소스 가변 폰트
-- [whichllm - 내 하드웨어에서 실제로 돌아가고 최고 성능을 내는 로컬 LLM 찾기](https://github.com/Andyyyy64/whichllm)
-  사용자 하드웨어 사양에 맞춰 최고 성능을 내는 로컬 LLM을 찾아주는 도구
+  OpenType 합자 치환을 활용해 JS 라이브러리 없이 텍스트만으로 차트를 표시하는 혁신적인 폰트 개념입니다.
+- [AI와 함께 일하며 복리처럼 쌓아 성장하는 법](https://eugeneyan.com/writing/working-with-ai/)
+  문맥 제공, 선호도 설정, 검증 자동화, 위임 확장, 피드백 루프 등 AI 협업을 위한 5가지 체계적 원칙을 제시합니다.
+- [OpenShorts - 무료 오픈소스 클립 생성기](https://www.openshorts.app/)
+  긴 영상을 TikTok, Instagram Reels, YouTube Shorts용 9:16 세로 영상으로 자동 변환하는 셀프호스팅 오픈소스 도구입니다.
 - [SideQuick - 사이드 프로젝트를 끝까지 완주하게 돕는 도구](https://www.sidequick.co/)
-  사이드 프로젝트를 끝내지 못하는 문제를 해결하는 생산성 도구
-- [Files.md - Obsidian의 오픈소스 대안인 로컬 우선 Markdown 파일 앱](https://github.com/zakirullin/files.md)
-  Obsidian 대안의 로컬 우선 오픈소스 Markdown 파일 관리 앱
+  작업을 퀘스트로 분해하고 진행 상황을 추적하여 개발자가 사이드 프로젝트를 포기하지 않고 완주할 수 있도록 돕는 데스크탑 앱입니다.
 
 ---
 ## 📅 이전 날짜
