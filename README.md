@@ -1,50 +1,50 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-05-18
+> 마지막 업데이트: 2026-05-21
 
-# AI 뉴스 — 2026-05-18
+# AI 뉴스 — 2026-05-21
 
 ## 🔥 GitHub Trending (Python)
 
-- [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills): Claude Code를 위한 학술 연구 스킬 모음
-- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링을 처음부터 배우고 구축하는 실습 가이드
-- [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything): 모든 소프트웨어를 에이전트 네이티브로 만드는 CLI 프레임워크
-- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official): Anthropic 공식 Claude 플러그인 고품질 디렉토리
-- [HKUDS/ViMax](https://github.com/HKUDS/ViMax): 에이전틱 비디오 생성 프레임워크 (감독/화면/캐릭터 에이전트)
+- [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills): Claude Code를 활용한 학술 연구 작업 흐름 도구로, 연구부터 작성, 검토, 수정, 최종화까지 지원
+- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링의 기초 학습부터 실제 배포까지 포괄하는 종합 가이드
+- [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything): 모든 소프트웨어를 에이전트 기반으로 전환하여 AI 에이전트가 CLI와 상호작용 가능하게 함
+- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official): Anthropic에서 관리하는 고품질 Claude Code 플러그인의 공식 디렉토리
+- [HKUDS/ViMax](https://github.com/HKUDS/ViMax): 감독, 각본가, 프로듀서, 비디오 생성 역할을 통합한 에이전트 기반 영상 제작 시스템
 
 ## 📄 Hugging Face Papers
 
-- [OScaR: LLM KV 캐시 극단적 양자화를 위한 오컴의 면도날](https://huggingface.co/papers/2605.19660)
-  LLM에서 KV 캐시를 극단적으로 양자화하는 새로운 방법론
-- [It Takes Two: 맥락 무결성을 위한 상호 보완적 자기 증류](https://huggingface.co/papers/2605.20258)
-  개인정보 보호 맥락 유지를 위한 두 모델 간 자기 증류 기법
-- [에이전틱 AI의 시간적 시맨틱 캐싱과 워크플로 최적화 평가](https://huggingface.co/papers/2605.20630)
-  에이전트 AI 파이프라인에서 시맨틱 캐싱으로 성능 최적화
-- [생성적 재귀 추론 (Generative Recursive Reasoning)](https://huggingface.co/papers/2605.19376)
-  재귀적 구조를 활용한 새로운 LLM 추론 방법론
-- [Uni-Edit: 통합 모델 튜닝을 위한 지능형 편집](https://huggingface.co/papers/2605.21487)
-  다양한 편집 작업을 단일 통합 모델로 처리하는 튜닝 프레임워크
+- [OScaR: LLM의 극단적 KV 캐시 양자화를 위한 오컴의 면도날](https://huggingface.co/papers/2605.19660)
+  대규모 언어 모델의 극단적 KV 캐시 양자화 방법을 제시하며, 오컴의 면도날 원칙을 적용하여 성능 유지 하에 메모리 요구사항을 감소
+- [이중성: LLM의 문맥적 무결성을 위한 상호보완적 자기 증류](https://huggingface.co/papers/2605.20258)
+  모델 변형 간의 상호 학습을 통해 LLM의 문맥적 무결성을 개선하는 상호보완적 자기 증류 방법 제안
+- [에이전트 계획-실행 파이프라인에서 시간적 의미 캐싱 평가](https://huggingface.co/papers/2605.20630)
+  에이전트 기반 계획-실행 시스템에서 효율성 개선을 위해 시간적 의미 캐싱 기술과 워크플로우 최적화 전략을 평가
+- [생성적 재귀적 추론](https://huggingface.co/papers/2605.19376)
+  모델이 반복적인 자기 참조 프로세스를 통해 복잡한 문제를 분해할 수 있도록 하는 생성적 재귀적 추론 방식 소개
+- [Uni-Edit: 지능형 편집을 위한 통합 모델 튜닝](https://huggingface.co/papers/2605.21487)
+  지능형 편집을 일반 작업으로 취급하여 다양한 편집 응용 분야에 걸쳐 통합 모델 튜닝을 가능하게 하는 Uni-Edit 프레임워크
 
 ## 🦉 GeekNews
 
 - [AI와 함께 일하며 복리처럼 쌓아 성장하는 법](https://eugeneyan.com/writing/working-with-ai/)
-  AI를 협업 파트너로 활용해 복리처럼 성장하는 실전 전략
+  AI와의 협업에서 컨텍스트 제공, 취향 설정, 검증 자동화, 위임 확대, 피드백 루프라는 다섯 가지 원칙을 체계적으로 정리한 실무 가이드
 - [Datatype - 텍스트를 차트로 변환하는 가변 폰트](https://github.com/franktisellano/datatype)
-  텍스트 문자를 데이터 시각화 차트로 변환하는 오픈소스 가변 폰트
-- [whichllm - 내 하드웨어에서 실제로 돌아가고 최고 성능을 내는 로컬 LLM 찾기](https://github.com/Andyyyy64/whichllm)
-  사용자 하드웨어 사양에 맞춰 최고 성능의 로컬 LLM을 찾아주는 도구
+  JS/이미지/렌더링 라이브러리 없이 OpenType 합자 치환을 활용해 텍스트만으로 차트를 표시하는 개념의 구현
+- [whichllm - 내 하드웨어에서 실제로 돌아가는 로컬 LLM 찾기](https://github.com/Andyyyy64/whichllm)
+  파라미터 수가 아닌 실측 벤치마크 기반으로 사용자 하드웨어에 맞는 로컬 LLM을 자동 추천하는 CLI 도구
+- [Andrej Karpathy, Anthropic에 합류](https://twitter.com/karpathy/status/2056753169888334312)
+  LLM 분야의 최전선에서 향후 몇 년을 보낼 예정이며, R&D에 다시 참여하게 되었음을 발표
 - [SideQuick - 사이드 프로젝트를 끝까지 완주하게 돕는 도구](https://www.sidequick.co/)
-  사이드 프로젝트를 포기하지 않고 끝내도록 돕는 생산성 도구
-- [Files.md - Obsidian의 오픈소스 대안인 로컬 우선 Markdown 파일 앱](https://github.com/zakirullin/files.md)
-  Obsidian 대안의 로컬 우선 오픈소스 Markdown 파일 관리 앱
+  작업을 퀘스트 단위로 쪼개고 진행 상황을 추적해 사이드 프로젝트가 흐지부지되는 패턴을 방지하는 데스크톱 앱
 
 ---
 ## 📅 이전 날짜
 
 - [2026-05-20](data/2026-05-20.md)
 - [2026-05-19](data/2026-05-19.md)
+- [2026-05-18](data/2026-05-18.md)
 - [2026-05-17](data/2026-05-17.md)
-- [2026-05-21](data/2026-05-21.md)
 - [2026-05-16](data/2026-05-16.md)
 - [2026-05-15](data/2026-05-15.md)
 - [2026-05-14](data/2026-05-14.md)
