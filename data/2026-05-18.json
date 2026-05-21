@@ -1,0 +1,119 @@
+{
+  "date": "2026-05-18",
+  "github_trending": [
+    {
+      "name": "Imbad0202/academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "description": "Claude Code를 위한 학술 연구 스킬 모음",
+      "description_en": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "stars_today": "1,667 stars today"
+    },
+    {
+      "name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "AI 엔지니어링을 처음부터 배우고 구축하는 실습 가이드",
+      "description_en": "Learn it. Build it. Ship it for others.",
+      "stars_today": "765 stars today"
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "모든 소프트웨어를 에이전트 네이티브로 만드는 CLI 프레임워크",
+      "description_en": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
+      "stars_today": "890 stars today"
+    },
+    {
+      "name": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Anthropic 공식 Claude 플러그인 고품질 디렉토리",
+      "description_en": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "stars_today": "674 stars today"
+    },
+    {
+      "name": "HKUDS/ViMax",
+      "url": "https://github.com/HKUDS/ViMax",
+      "description": "에이전틱 비디오 생성 프레임워크 (감독/화면/캐릭터 에이전트)",
+      "description_en": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
+      "stars_today": "674 stars today"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "OScaR: LLM KV 캐시 극단적 양자화를 위한 오컴의 면도날",
+      "title_en": "OScaR: The Occam's Razor for Extreme KV Cache Quantization in LLMs and Beyond",
+      "url": "https://huggingface.co/papers/2605.19660",
+      "summary": "LLM에서 KV 캐시를 극단적으로 양자화하는 새로운 방법론",
+      "summary_en": ""
+    },
+    {
+      "title": "It Takes Two: 맥락 무결성을 위한 상호 보완적 자기 증류",
+      "title_en": "It Takes Two: Complementary Self-Distillation for Contextual Integrity in LLMs",
+      "url": "https://huggingface.co/papers/2605.20258",
+      "summary": "개인정보 보호 맥락 유지를 위한 두 모델 간 자기 증류 기법",
+      "summary_en": ""
+    },
+    {
+      "title": "에이전틱 AI의 시간적 시맨틱 캐싱과 워크플로 최적화 평가",
+      "title_en": "Evaluating Temporal Semantic Caching and Workflow Optimization in Agentic Plan-Execute Pipelines",
+      "url": "https://huggingface.co/papers/2605.20630",
+      "summary": "에이전트 AI 파이프라인에서 시맨틱 캐싱으로 성능 최적화",
+      "summary_en": ""
+    },
+    {
+      "title": "생성적 재귀 추론 (Generative Recursive Reasoning)",
+      "title_en": "Generative Recursive Reasoning",
+      "url": "https://huggingface.co/papers/2605.19376",
+      "summary": "재귀적 구조를 활용한 새로운 LLM 추론 방법론",
+      "summary_en": ""
+    },
+    {
+      "title": "Uni-Edit: 통합 모델 튜닝을 위한 지능형 편집",
+      "title_en": "Uni-Edit: Intelligent Editing Is A General Task For Unified Model Tuning",
+      "url": "https://huggingface.co/papers/2605.21487",
+      "summary": "다양한 편집 작업을 단일 통합 모델로 처리하는 튜닝 프레임워크",
+      "summary_en": ""
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "AI와 함께 일하며 복리처럼 쌓아 성장하는 법",
+      "title_en": "Compounding Growth While Working with AI",
+      "url": "https://eugeneyan.com/writing/working-with-ai/",
+      "votes": 96,
+      "summary": "AI를 협업 파트너로 활용해 복리처럼 성장하는 실전 전략",
+      "summary_en": "Compounding Growth While Working with AI"
+    },
+    {
+      "title": "Datatype - 텍스트를 차트로 변환하는 가변 폰트",
+      "title_en": "Variable font transforming text into data visualization charts",
+      "url": "https://github.com/franktisellano/datatype",
+      "votes": 74,
+      "summary": "텍스트 문자를 데이터 시각화 차트로 변환하는 오픈소스 가변 폰트",
+      "summary_en": "Variable font transforming text into data visualization charts"
+    },
+    {
+      "title": "whichllm - 내 하드웨어에서 실제로 돌아가고 최고 성능을 내는 로컬 LLM 찾기",
+      "title_en": "Find the best-performing local LLM for your hardware",
+      "url": "https://github.com/Andyyyy64/whichllm",
+      "votes": 61,
+      "summary": "사용자 하드웨어 사양에 맞춰 최고 성능의 로컬 LLM을 찾아주는 도구",
+      "summary_en": "Find the best-performing local LLM for your hardware"
+    },
+    {
+      "title": "SideQuick - 사이드 프로젝트를 끝까지 완주하게 돕는 도구",
+      "title_en": "Productivity tool to help you actually finish side projects",
+      "url": "https://www.sidequick.co/",
+      "votes": 33,
+      "summary": "사이드 프로젝트를 포기하지 않고 끝내도록 돕는 생산성 도구",
+      "summary_en": "Productivity tool to help you actually finish side projects"
+    },
+    {
+      "title": "Files.md - Obsidian의 오픈소스 대안인 로컬 우선 Markdown 파일 앱",
+      "title_en": "Open-source local-first Markdown file app as Obsidian alternative",
+      "url": "https://github.com/zakirullin/files.md",
+      "votes": 21,
+      "summary": "Obsidian 대안의 로컬 우선 오픈소스 Markdown 파일 관리 앱",
+      "summary_en": "Open-source local-first Markdown file app as Obsidian alternative"
+    }
+  ]
+}
