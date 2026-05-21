@@ -4,116 +4,106 @@
     {
       "name": "anthropics/claude-plugins-official",
       "url": "https://github.com/anthropics/claude-plugins-official",
-      "description": "Anthropic 공식 Claude 플러그인 고품질 디렉토리",
-      "description_en": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-      "stars_today": "891 stars today"
+      "description": "Anthropic이 직접 관리하는 고품질 Claude Code 플러그인 공식 디렉토리",
+      "description_en": "Official directory of high quality Claude Code Plugins managed by Anthropic"
     },
     {
       "name": "HKUDS/CLI-Anything",
       "url": "https://github.com/HKUDS/CLI-Anything",
-      "description": "모든 소프트웨어를 에이전트 네이티브로 만드는 CLI 프레임워크",
-      "description_en": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
-      "stars_today": "644 stars today"
+      "description": "CLI 통합으로 모든 소프트웨어를 에이전트 네이티브로 만드는 플랫폼",
+      "description_en": "Platform dedicated to making all software agent-native through CLI integration"
     },
     {
       "name": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "AI 엔지니어링을 처음부터 배우고 구축하는 실습 가이드",
-      "description_en": "Learn it. Build it. Ship it for others.",
-      "stars_today": "1,318 stars today"
+      "description": "AI 애플리케이션 이해, 구축, 배포를 위한 학습 리소스",
+      "description_en": "Learning resource for understanding, building, and deploying AI applications"
     },
     {
       "name": "teng-lin/notebooklm-py",
       "url": "https://github.com/teng-lin/notebooklm-py",
-      "description": "Google NotebookLM 비공식 Python API 및 에이전트 스킬",
-      "description_en": "Unofficial Python API and agentic skill for Google NotebookLM. Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.",
-      "stars_today": "182 stars today"
+      "description": "Python, CLI, AI 에이전트를 통해 Google NotebookLM 기능에 프로그래밍 방식으로 접근하는 비공식 API",
+      "description_en": "Unofficial Python API providing programmatic access to Google NotebookLM features via Python, CLI, and AI agents"
     },
     {
       "name": "antoinezambelli/forge",
       "url": "https://github.com/antoinezambelli/forge",
-      "description": "셀프 호스팅 LLM 툴 콜링을 위한 Python 프레임워크",
-      "description_en": "A Python framework for self-hosted LLM tool-calling and multi-step agentic workflows",
-      "stars_today": "449 stars today"
+      "description": "자체 호스팅 LLM 툴 콜링과 다단계 에이전트 워크플로우를 가능하게 하는 Python 프레임워크",
+      "description_en": "Python framework enabling self-hosted LLM tool-calling and multi-step agentic workflows"
     }
   ],
   "huggingface": [
     {
-      "title": "Mega-ASR: 실제 환경 대규모 음성인식 확장 연구",
-      "title_en": "Mega-ASR: Towards In-the-wild^2 Speech Recognition via Scaling up Real-world Acoustic Simulation",
+      "title": "Mega-ASR: 실제 환경 음향 시뮬레이션 확장을 통한 야생 음성 인식",
+      "title_en": "Mega-ASR: Towards In-the-wild Speech Recognition via Scaling up Real-world Acoustic Simulation",
       "url": "https://huggingface.co/papers/2605.19833",
-      "summary": "실세계 대규모 데이터를 활용해 강인한 음성인식 성능을 높이는 연구",
-      "summary_en": ""
+      "summary": "실제 환경 음향 시뮬레이션 규모 확장으로 ASR 성능을 향상시켜 다양한 실제 음성 시나리오에 대한 일반화 개선",
+      "summary_en": "Improves ASR performance through scaling real-world acoustic simulation, enabling better generalization to in-the-wild speech scenarios."
     },
     {
-      "title": "Video2GUI: 대규모 인터랙션 궤적 합성으로 GUI 에이전트 학습",
+      "title": "Video2GUI: 범용 GUI 에이전트 사전학습을 위한 대규모 인터랙션 궤적 합성",
       "title_en": "Video2GUI: Synthesizing Large-Scale Interaction Trajectories for Generalized GUI Agent Pretraining",
       "url": "https://huggingface.co/papers/2605.14747",
-      "summary": "비디오에서 GUI 인터랙션 데이터를 자동 합성해 에이전트를 훈련하는 방법",
-      "summary_en": ""
+      "summary": "GUI 에이전트 사전학습을 위한 대규모 인터랙션 궤적 합성 방법으로, 다양한 GUI에서 범용적 성능 달성",
+      "summary_en": "A method for synthesizing large-scale interaction trajectories to pretrain GUI agents across different graphical user interfaces."
     },
     {
-      "title": "긴 동영상 일관성 생성을 위한 무학습 무한 프레임 생성 향상",
+      "title": "학습 없이 일관된 장시간 영상 무한 프레임 생성 향상",
       "title_en": "Enhancing Train-Free Infinite-Frame Generation for Consistent Long Videos",
       "url": "https://huggingface.co/papers/2605.18233",
-      "summary": "학습 없이 일관된 장기 비디오를 무한 프레임으로 생성하는 기술",
-      "summary_en": ""
+      "summary": "학습 없이 긴 영상을 일관되게 생성하는 접근법으로, 무한 프레임 생성 품질과 시간적 일관성 향상",
+      "summary_en": "Approach for generating consistent long-form videos without training, improving infinite-frame generation quality."
     },
     {
-      "title": "IndusAgent: 강화학습 기반 산업 이상 감지 에이전트",
+      "title": "IndusAgent: 에이전트 도구로 오픈 어휘 산업 이상 탐지 강화",
       "title_en": "IndusAgent: Reinforcing Open-Vocabulary Industrial Anomaly Detection with Agentic Tools",
       "url": "https://huggingface.co/papers/2605.20682",
-      "summary": "강화학습으로 오픈 어휘 산업 이상 감지 능력을 강화한 에이전트",
-      "summary_en": ""
+      "summary": "에이전트 도구를 활용해 제조 및 품질 관리 분야의 오픈 어휘 이상 탐지 능력을 향상시키는 에이전트 기반 시스템",
+      "summary_en": "Agent-based system for industrial anomaly detection leveraging agentic tools to improve open-vocabulary detection in manufacturing."
     },
     {
-      "title": "최소한의 RLVR 훈련만으로 충분: Rank-1 전이로 LLM 능력 확장",
+      "title": "최소 RLVR 학습만으로 충분: Rank-1 궤적으로 LLM 외삽",
       "title_en": "You Only Need Minimal RLVR Training: Extrapolating LLMs via Rank-1 Trajectories",
       "url": "https://huggingface.co/papers/2605.21468",
-      "summary": "소규모 RLVR 훈련만으로 LLM의 추론 능력을 효과적으로 확장하는 방법",
-      "summary_en": ""
+      "summary": "rank-1 궤적을 사용한 최소한의 RLVR 학습으로 LLM 성능을 효과적으로 확장할 수 있음을 입증한 연구",
+      "summary_en": "Demonstrates that minimal RLVR training using rank-1 trajectories can effectively extrapolate large language model capabilities."
     }
   ],
   "geeknews": [
     {
-      "title": "AI와 함께 일하며 복리처럼 쌓아 성장하는 법",
-      "title_en": "Compounding growth strategies while working with AI",
+      "title": "AI 네이티브 조직",
+      "title_en": "AI-native Organization",
+      "url": "https://www.youtube.com/watch?v=TlpFc7x8SHo",
+      "summary": "Jack Dorsey가 AI 시대에 맞는 계층 구조에서 지능 중심 조직 구조로의 전환을 논의",
+      "summary_en": "Jack Dorsey discusses transitioning from hierarchical to intelligence-driven organizational structures for the AI era."
+    },
+    {
+      "title": "AI와 함께 일하기: 협업을 통한 복리 성장",
+      "title_en": "Working with AI: Compounding Growth Through Collaboration",
       "url": "https://eugeneyan.com/writing/working-with-ai/",
-      "votes": 99,
-      "summary": "AI를 협업 파트너로 활용해 복리처럼 성장하는 실전 전략",
-      "summary_en": "Compounding growth strategies while working with AI"
+      "summary": "효과적인 AI 협업을 위한 5가지 원칙: 컨텍스트 제공, 선호도 설정, 검증 자동화, 위임 확장, 피드백 루프",
+      "summary_en": "Five systematic principles for effective AI collaboration: context provision, preference setting, validation automation, delegation expansion, feedback loops."
+    },
+    {
+      "title": "whichllm - 하드웨어에 맞는 최적 로컬 LLM 찾기",
+      "title_en": "whichllm - Find Optimal Local LLMs for Your Hardware",
+      "url": "https://github.com/Andyyyy64/whichllm",
+      "summary": "파라미터 수가 아닌 실제 벤치마크 기반으로 GPU/CPU/RAM을 자동 감지해 최적 로컬 LLM을 추천하는 CLI 도구",
+      "summary_en": "CLI tool recommending local LLMs based on actual benchmarks, auto-detecting GPU/CPU/RAM specifications."
     },
     {
       "title": "Datatype - 텍스트를 차트로 변환하는 가변 폰트",
-      "title_en": "Variable font that transforms text into data visualization charts",
+      "title_en": "Datatype - Variable Font Converting Text to Charts",
       "url": "https://github.com/franktisellano/datatype",
-      "votes": 79,
-      "summary": "텍스트 문자를 데이터 시각화 차트로 변환하는 오픈소스 가변 폰트",
-      "summary_en": "Variable font that transforms text into data visualization charts"
+      "summary": "JavaScript, 이미지, 렌더링 라이브러리 없이 OpenType 합자 치환으로 텍스트에 차트를 표시하는 혁신적 방법",
+      "summary_en": "Using OpenType ligature substitution to display charts as text without JavaScript, images, or rendering libraries."
     },
     {
-      "title": "whichllm - 내 하드웨어에서 실제로 돌아가고 최고 성능을 내는 로컬 LLM 찾기",
-      "title_en": "Find the best-performing local LLM for your hardware",
-      "url": "https://github.com/Andyyyy64/whichllm",
-      "votes": 62,
-      "summary": "사용자 하드웨어 사양에 맞춰 최고 성능의 로컬 LLM을 찾아주는 도구",
-      "summary_en": "Find the best-performing local LLM for your hardware"
-    },
-    {
-      "title": "Show GN: 30년전 RPG (포가튼사가) 소스 포팅 하기",
-      "title_en": "Porting the source code of 30-year-old Korean RPG Forgotten Saga to modern systems",
-      "url": "https://news.hada.io/topic?id=29586",
-      "votes": 48,
-      "summary": "30년 전 한국 RPG 포가튼사가의 소스코드를 현대 환경으로 포팅하는 과정",
-      "summary_en": "Porting the source code of 30-year-old Korean RPG Forgotten Saga to modern systems"
-    },
-    {
-      "title": "SideQuick - 사이드 프로젝트를 끝까지 완주하게 돕는 도구",
-      "title_en": "Productivity tool to help you actually finish side projects",
-      "url": "https://www.sidequick.co/",
-      "votes": 39,
-      "summary": "사이드 프로젝트를 포기하지 않고 끝내도록 돕는 생산성 도구",
-      "summary_en": "Productivity tool to help you actually finish side projects"
+      "title": "TabPFN - 표 형식 데이터를 위한 파운데이션 모델",
+      "title_en": "TabPFN - Foundation Model for Tabular Data",
+      "url": "https://github.com/PriorLabs/TabPFN",
+      "summary": "scikit-learn 스타일 fit/predict 인터페이스로 구조화 데이터에서 즉시 분류/회귀가 가능한 파운데이션 모델",
+      "summary_en": "Foundation model enabling immediate classification and regression on structured data using scikit-learn-style fit/predict interface."
     }
   ]
 }
