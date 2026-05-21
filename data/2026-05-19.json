@@ -4,37 +4,32 @@
     {
       "name": "Imbad0202/academic-research-skills",
       "url": "https://github.com/Imbad0202/academic-research-skills",
-      "description": "Claude Code를 위한 학술 연구 스킬 모음",
-      "description_en": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
-      "stars_today": "1,667 stars today"
+      "description": "Claude Code를 위한 학술 연구 스킬 모음 (research → write → review → revise → finalize)",
+      "description_en": "Academic Research Skills for Claude Code: research → write → review → revise → finalize"
     },
     {
       "name": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "AI 엔지니어링을 처음부터 배우고 구축하는 실습 가이드",
-      "description_en": "Learn it. Build it. Ship it for others.",
-      "stars_today": "765 stars today"
+      "description": "AI 엔지니어링 처음부터 배우기 — 배우고, 만들고, 출시하기",
+      "description_en": "Learn it. Build it. Ship it for others. AI engineering from the ground up."
     },
     {
       "name": "HKUDS/CLI-Anything",
       "url": "https://github.com/HKUDS/CLI-Anything",
-      "description": "모든 소프트웨어를 에이전트 네이티브로 만드는 CLI 프레임워크",
-      "description_en": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
-      "stars_today": "890 stars today"
+      "description": "모든 소프트웨어를 에이전트 네이티브로 만드는 통합 CLI 인터페이스",
+      "description_en": "Making ALL Software Agent-Native with a unified CLI interface"
     },
     {
       "name": "anthropics/claude-plugins-official",
       "url": "https://github.com/anthropics/claude-plugins-official",
-      "description": "Anthropic 공식 Claude 플러그인 고품질 디렉토리",
-      "description_en": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-      "stars_today": "674 stars today"
+      "description": "Anthropic이 공식 관리하는 고품질 Claude Code 플러그인 디렉토리",
+      "description_en": "Official, Anthropic-managed directory of high quality Claude Code Plugins"
     },
     {
       "name": "HKUDS/ViMax",
       "url": "https://github.com/HKUDS/ViMax",
-      "description": "에이전틱 비디오 생성 프레임워크 (감독/화면/캐릭터 에이전트)",
-      "description_en": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
-      "stars_today": "674 stars today"
+      "description": "감독·각본가·프로듀서·영상 생성기를 하나로 합친 에이전틱 영상 생성 도구",
+      "description_en": "Agentic Video Generation: Director, Screenwriter, Producer, and Video Generator All-in-One"
     }
   ],
   "huggingface": [
@@ -42,78 +37,73 @@
       "title": "OScaR: LLM KV 캐시 극단적 양자화를 위한 오컴의 면도날",
       "title_en": "OScaR: The Occam's Razor for Extreme KV Cache Quantization in LLMs and Beyond",
       "url": "https://huggingface.co/papers/2605.19660",
-      "summary": "LLM에서 KV 캐시를 극단적으로 양자화하는 새로운 방법론",
-      "summary_en": ""
+      "summary": "대형 언어 모델의 KV 캐시를 극단적으로 양자화하여 메모리 효율성과 연산 성능을 최적화하는 기법을 제안합니다.",
+      "summary_en": "Proposes extreme KV cache quantization techniques for LLMs, optimizing memory efficiency and computational performance."
     },
     {
-      "title": "It Takes Two: 맥락 무결성을 위한 상호 보완적 자기 증류",
+      "title": "LLM의 문맥 무결성을 위한 상호 보완적 자기 증류",
       "title_en": "It Takes Two: Complementary Self-Distillation for Contextual Integrity in LLMs",
       "url": "https://huggingface.co/papers/2605.20258",
-      "summary": "개인정보 보호 맥락 유지를 위한 두 모델 간 자기 증류 기법",
-      "summary_en": ""
+      "summary": "상호 보완적 학습 메커니즘을 통해 언어 모델의 문맥 무결성을 유지하는 자기 증류 접근법을 제시합니다.",
+      "summary_en": "Presents a self-distillation approach maintaining contextual integrity in LLMs through complementary learning mechanisms."
     },
     {
-      "title": "에이전틱 AI의 시간적 시맨틱 캐싱과 워크플로 최적화 평가",
+      "title": "에이전틱 계획-실행 파이프라인의 시간적 의미 캐싱 및 워크플로 최적화 평가",
       "title_en": "Evaluating Temporal Semantic Caching and Workflow Optimization in Agentic Plan-Execute Pipelines",
       "url": "https://huggingface.co/papers/2605.20630",
-      "summary": "에이전트 AI 파이프라인에서 시맨틱 캐싱으로 성능 최적화",
-      "summary_en": ""
+      "summary": "다단계 계획을 실행하는 에이전틱 AI 시스템의 효율성 향상을 위한 캐싱 전략 및 워크플로 최적화 기법을 평가합니다.",
+      "summary_en": "Evaluates caching strategies and workflow optimization for improving efficiency in agentic AI plan-execute systems."
     },
     {
-      "title": "생성적 재귀 추론 (Generative Recursive Reasoning)",
+      "title": "생성적 재귀 추론",
       "title_en": "Generative Recursive Reasoning",
       "url": "https://huggingface.co/papers/2605.19376",
-      "summary": "재귀적 구조를 활용한 새로운 LLM 추론 방법론",
-      "summary_en": ""
+      "summary": "AI 모델이 복잡한 반복 추론 작업을 더 효과적으로 수행할 수 있도록 재귀 추론에 생성적 접근법을 도입합니다.",
+      "summary_en": "Introduces a generative approach to recursive reasoning, enabling AI models to perform complex iterative reasoning more effectively."
     },
     {
-      "title": "Uni-Edit: 통합 모델 튜닝을 위한 지능형 편집",
+      "title": "Uni-Edit: 통합 모델 튜닝을 위한 범용 지능형 편집",
       "title_en": "Uni-Edit: Intelligent Editing Is A General Task For Unified Model Tuning",
       "url": "https://huggingface.co/papers/2605.21487",
-      "summary": "다양한 편집 작업을 단일 통합 모델로 처리하는 튜닝 프레임워크",
-      "summary_en": ""
+      "summary": "지능형 편집을 범용 작업으로 처리하는 통합 모델 튜닝 프레임워크로, 다양한 도메인에서 유연한 모델 적응을 가능하게 합니다.",
+      "summary_en": "Proposes a unified model tuning framework treating intelligent editing as a general task for flexible domain adaptation."
     }
   ],
   "geeknews": [
     {
-      "title": "AI와 함께 일하며 복리처럼 쌓아 성장하는 법",
-      "title_en": "Compounding Growth While Working with AI",
-      "url": "https://eugeneyan.com/writing/working-with-ai/",
-      "votes": 95,
-      "summary": "AI를 단순 도구가 아닌 협업 파트너로 활용해 복리처럼 성장하는 실전 전략",
-      "summary_en": "Compounding Growth While Working with AI"
+      "title": "AI-native 조직",
+      "title_en": "AI-native Organizations",
+      "url": "https://www.youtube.com/watch?v=TlpFc7x8SHo",
+      "summary": "Jack Dorsey(Block CEO)가 AI 시대에 맞는 새로운 조직 관리 철학과 계층적 구조에서 지능 기반 구조로의 전환을 논의합니다.",
+      "summary_en": "Jack Dorsey (Block CEO) discusses transitioning from hierarchical to intelligence-driven organizational structures for the AI era."
     },
     {
       "title": "Datatype - 텍스트를 차트로 변환하는 가변 폰트",
-      "title_en": "Variable font that transforms text characters into data visualization charts",
+      "title_en": "Datatype - Variable Font That Converts Text to Charts",
       "url": "https://github.com/franktisellano/datatype",
-      "votes": 74,
-      "summary": "텍스트 문자를 데이터 시각화 차트로 변환하는 오픈소스 가변 폰트",
-      "summary_en": "Variable font that transforms text characters into data visualization charts"
+      "summary": "OpenType 합자 치환을 활용해 JS 라이브러리 없이 텍스트만으로 차트를 표시하는 혁신적인 폰트 개념입니다.",
+      "summary_en": "Uses OpenType ligature substitution to display charts using text only, eliminating JS libraries or rendering frameworks."
     },
     {
-      "title": "whichllm - 내 하드웨어에서 실제로 돌아가고 최고 성능을 내는 로컬 LLM 찾기",
-      "title_en": "Find the best-performing local LLM that runs on your hardware",
-      "url": "https://github.com/Andyyyy64/whichllm",
-      "votes": 61,
-      "summary": "사용자 하드웨어 사양에 맞춰 최고 성능을 내는 로컬 LLM을 찾아주는 도구",
-      "summary_en": "Find the best-performing local LLM that runs on your hardware"
+      "title": "AI와 함께 일하며 복리처럼 쌓아 성장하는 법",
+      "title_en": "Growing Compoundly by Working with AI",
+      "url": "https://eugeneyan.com/writing/working-with-ai/",
+      "summary": "문맥 제공, 선호도 설정, 검증 자동화, 위임 확장, 피드백 루프 등 AI 협업을 위한 5가지 체계적 원칙을 제시합니다.",
+      "summary_en": "Presents five systematic principles for AI collaboration: context provision, preference setting, validation automation, delegation, and feedback loops."
+    },
+    {
+      "title": "OpenShorts - 무료 오픈소스 클립 생성기",
+      "title_en": "OpenShorts - Free Open Source Short Clip Generator",
+      "url": "https://www.openshorts.app/",
+      "summary": "긴 영상을 TikTok, Instagram Reels, YouTube Shorts용 9:16 세로 영상으로 자동 변환하는 셀프호스팅 오픈소스 도구입니다.",
+      "summary_en": "Self-hosted open-source tool automatically converting long-form videos into vertical shorts for TikTok, Instagram Reels, and YouTube Shorts."
     },
     {
       "title": "SideQuick - 사이드 프로젝트를 끝까지 완주하게 돕는 도구",
-      "title_en": "Productivity tool to help you actually finish side projects",
+      "title_en": "SideQuick - Tool to Help Complete Side Projects",
       "url": "https://www.sidequick.co/",
-      "votes": 33,
-      "summary": "사이드 프로젝트를 끝내지 못하는 문제를 해결하는 생산성 도구",
-      "summary_en": "Productivity tool to help you actually finish side projects"
-    },
-    {
-      "title": "Files.md - Obsidian의 오픈소스 대안인 로컬 우선 Markdown 파일 앱",
-      "title_en": "Open-source local-first Markdown file app as an Obsidian alternative",
-      "url": "https://github.com/zakirullin/files.md",
-      "votes": 21,
-      "summary": "Obsidian 대안의 로컬 우선 오픈소스 Markdown 파일 관리 앱",
-      "summary_en": "Open-source local-first Markdown file app as an Obsidian alternative"
+      "summary": "작업을 퀘스트로 분해하고 진행 상황을 추적하여 개발자가 사이드 프로젝트를 포기하지 않고 완주할 수 있도록 돕는 데스크탑 앱입니다.",
+      "summary_en": "Desktop app breaking tasks into quests and tracking progress, helping developers complete side projects by preventing abandonment."
     }
   ]
 }
