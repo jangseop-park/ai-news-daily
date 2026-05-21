@@ -1,0 +1,109 @@
+{
+  "date": "2026-05-21",
+  "github_trending": [
+    {
+      "name": "Imbad0202/academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "description": "Claude Code를 활용한 학술 연구 작업 흐름 도구로, 연구부터 작성, 검토, 수정, 최종화까지 지원",
+      "description_en": "Academic research workflow tool enabling research, writing, review, revision and finalization using Claude Code"
+    },
+    {
+      "name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "AI 엔지니어링의 기초 학습부터 실제 배포까지 포괄하는 종합 가이드",
+      "description_en": "Comprehensive guide for building and deploying AI systems from fundamentals to production"
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "모든 소프트웨어를 에이전트 기반으로 전환하여 AI 에이전트가 CLI와 상호작용 가능하게 함",
+      "description_en": "Framework enabling software to be agent-native, allowing AI agents to interact with any CLI interface"
+    },
+    {
+      "name": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Anthropic에서 관리하는 고품질 Claude Code 플러그인의 공식 디렉토리",
+      "description_en": "Official directory of high-quality Claude Code plugins curated by Anthropic"
+    },
+    {
+      "name": "HKUDS/ViMax",
+      "url": "https://github.com/HKUDS/ViMax",
+      "description": "감독, 각본가, 프로듀서, 비디오 생성 역할을 통합한 에이전트 기반 영상 제작 시스템",
+      "description_en": "Agentic video generation system combining director, screenwriter, producer and video generation roles"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "OScaR: LLM의 극단적 KV 캐시 양자화를 위한 오컴의 면도날",
+      "title_en": "OScaR: The Occam's Razor for Extreme KV Cache Quantization in LLMs and Beyond",
+      "url": "https://huggingface.co/papers/2605.19660",
+      "summary": "대규모 언어 모델의 극단적 KV 캐시 양자화 방법을 제시하며, 오컴의 면도날 원칙을 적용하여 성능 유지 하에 메모리 요구사항을 감소",
+      "summary_en": "Presents OScaR for extreme KV cache quantization in LLMs, applying Occam's Razor principles to reduce memory while maintaining performance"
+    },
+    {
+      "title": "이중성: LLM의 문맥적 무결성을 위한 상호보완적 자기 증류",
+      "title_en": "It Takes Two: Complementary Self-Distillation for Contextual Integrity in LLMs",
+      "url": "https://huggingface.co/papers/2605.20258",
+      "summary": "모델 변형 간의 상호 학습을 통해 LLM의 문맥적 무결성을 개선하는 상호보완적 자기 증류 방법 제안",
+      "summary_en": "Proposes complementary self-distillation for improving contextual integrity in LLMs through mutual learning between model variants"
+    },
+    {
+      "title": "에이전트 계획-실행 파이프라인에서 시간적 의미 캐싱 평가",
+      "title_en": "Evaluating Temporal Semantic Caching and Workflow Optimization in Agentic Plan-Execute Pipelines",
+      "url": "https://huggingface.co/papers/2605.20630",
+      "summary": "에이전트 기반 계획-실행 시스템에서 효율성 개선을 위해 시간적 의미 캐싱 기술과 워크플로우 최적화 전략을 평가",
+      "summary_en": "Evaluates temporal semantic caching and workflow optimization in agent-based plan-execute systems"
+    },
+    {
+      "title": "생성적 재귀적 추론",
+      "title_en": "Generative Recursive Reasoning",
+      "url": "https://huggingface.co/papers/2605.19376",
+      "summary": "모델이 반복적인 자기 참조 프로세스를 통해 복잡한 문제를 분해할 수 있도록 하는 생성적 재귀적 추론 방식 소개",
+      "summary_en": "Introduces generative recursive reasoning enabling models to decompose complex problems through iterative self-referential processes"
+    },
+    {
+      "title": "Uni-Edit: 지능형 편집을 위한 통합 모델 튜닝",
+      "title_en": "Uni-Edit: Intelligent Editing Is A General Task For Unified Model Tuning",
+      "url": "https://huggingface.co/papers/2605.21487",
+      "summary": "지능형 편집을 일반 작업으로 취급하여 다양한 편집 응용 분야에 걸쳐 통합 모델 튜닝을 가능하게 하는 Uni-Edit 프레임워크",
+      "summary_en": "Proposes Uni-Edit treating intelligent editing as a general task for unified model tuning across diverse applications"
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "AI와 함께 일하며 복리처럼 쌓아 성장하는 법",
+      "title_en": "Working with AI: Compound Growth Through Collaboration",
+      "url": "https://eugeneyan.com/writing/working-with-ai/",
+      "summary": "AI와의 협업에서 컨텍스트 제공, 취향 설정, 검증 자동화, 위임 확대, 피드백 루프라는 다섯 가지 원칙을 체계적으로 정리한 실무 가이드",
+      "summary_en": "A practical guide on five principles for AI collaboration: context provision, preference setting, validation automation, delegation expansion, and feedback loops"
+    },
+    {
+      "title": "Datatype - 텍스트를 차트로 변환하는 가변 폰트",
+      "title_en": "Datatype: Variable Font Converting Text to Charts",
+      "url": "https://github.com/franktisellano/datatype",
+      "summary": "JS/이미지/렌더링 라이브러리 없이 OpenType 합자 치환을 활용해 텍스트만으로 차트를 표시하는 개념의 구현",
+      "summary_en": "Displays charts using only text through OpenType ligature substitution, without JavaScript or image libraries"
+    },
+    {
+      "title": "whichllm - 내 하드웨어에서 실제로 돌아가는 로컬 LLM 찾기",
+      "title_en": "whichllm: Finding the Best Local LLM for Your Hardware",
+      "url": "https://github.com/Andyyyy64/whichllm",
+      "summary": "파라미터 수가 아닌 실측 벤치마크 기반으로 사용자 하드웨어에 맞는 로컬 LLM을 자동 추천하는 CLI 도구",
+      "summary_en": "A CLI tool recommending local LLMs based on actual benchmarks rather than parameter count"
+    },
+    {
+      "title": "Andrej Karpathy, Anthropic에 합류",
+      "title_en": "Andrej Karpathy Joins Anthropic",
+      "url": "https://twitter.com/karpathy/status/2056753169888334312",
+      "summary": "LLM 분야의 최전선에서 향후 몇 년을 보낼 예정이며, R&D에 다시 참여하게 되었음을 발표",
+      "summary_en": "Announced joining Anthropic's R&D team, viewing the coming years in LLM as particularly significant"
+    },
+    {
+      "title": "SideQuick - 사이드 프로젝트를 끝까지 완주하게 돕는 도구",
+      "title_en": "SideQuick: Completing Side Projects Successfully",
+      "url": "https://www.sidequick.co/",
+      "summary": "작업을 퀘스트 단위로 쪼개고 진행 상황을 추적해 사이드 프로젝트가 흐지부지되는 패턴을 방지하는 데스크톱 앱",
+      "summary_en": "Desktop app breaking tasks into quests to prevent side projects from stalling"
+    }
+  ]
+}
