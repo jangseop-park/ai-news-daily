@@ -2,34 +2,10 @@
   "date": "2026-05-17",
   "github_trending": [
     {
-      "name": "Imbad0202/academic-research-skills",
-      "url": "https://github.com/Imbad0202/academic-research-skills",
-      "description": "Claude Code가 학술 연구 워크플로우 전체(조사→작성→검토→완성)를 관리하는 프레임워크",
-      "description_en": "Framework enabling Claude Code to manage the complete research workflow, from investigation through writing, reviewing, and finalizing academic content."
-    },
-    {
-      "name": "rohitg00/ai-engineering-from-scratch",
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "실세계 AI 엔지니어링 기술을 실전 중심으로 가르치는 종합 학습 리소스",
-      "description_en": "Comprehensive learning resource teaching practical AI engineering skills with emphasis on building and deploying solutions for real-world applications."
-    },
-    {
-      "name": "HKUDS/CLI-Anything",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "description": "CLI를 통해 모든 소프트웨어를 AI 에이전트와 호환되게 만드는 플랫폼",
-      "description_en": "Platform designed to make all software natively compatible with AI agents through command-line interfaces."
-    },
-    {
-      "name": "anthropics/claude-plugins-official",
-      "url": "https://github.com/anthropics/claude-plugins-official",
-      "description": "Anthropic이 관리하는 검증된 Claude Code 공식 플러그인 모음",
-      "description_en": "Official repository curating quality Claude Code plugins, maintained by Anthropic."
-    },
-    {
-      "name": "HKUDS/ViMax",
-      "url": "https://github.com/HKUDS/ViMax",
-      "description": "감독·작가·프로듀서 기능을 결합해 영상 제작 파이프라인 전체를 자동화하는 에이전틱 영상 생성 시스템",
-      "description_en": "Agentic video generation system combining director, screenwriter, and producer functions to automate the entire video creation pipeline."
+      "name": "⚠ 데이터 미수집 / Data not collected",
+      "url": "#",
+      "description": "해당 날짜의 GitHub Trending 데이터가 수집되지 않았습니다.",
+      "description_en": "GitHub Trending data was not collected for this date."
     }
   ],
   "huggingface": [
