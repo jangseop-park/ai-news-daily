@@ -4,116 +4,106 @@
     {
       "name": "anthropics/claude-plugins-official",
       "url": "https://github.com/anthropics/claude-plugins-official",
-      "description": "Anthropic 공식 Claude 플러그인 고품질 디렉토리",
-      "description_en": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-      "stars_today": "2,556 stars today"
+      "description": "Anthropic이 공식 관리하는 Claude Code 플러그인 디렉토리",
+      "description_en": "Official, Anthropic-managed directory of high quality Claude Code Plugins."
     },
     {
       "name": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "AI 엔지니어링을 처음부터 배우고 구축하는 실습 가이드",
-      "description_en": "Learn it. Build it. Ship it for others.",
-      "stars_today": "988 stars today"
+      "description": "AI 엔지니어링 기초부터 배우고 직접 만들어 배포하는 실습 레포",
+      "description_en": "Learn it. Build it. Ship it for others."
     },
     {
       "name": "odoo/odoo",
       "url": "https://github.com/odoo/odoo",
-      "description": "비즈니스 성장을 위한 오픈소스 ERP/CRM 앱 모음",
-      "description_en": "Odoo. Open Source Apps To Grow Your Business.",
-      "stars_today": "48 stars today"
+      "description": "비즈니스 성장을 위한 오픈소스 통합 업무 앱 플랫폼",
+      "description_en": "Odoo. Open Source Apps To Grow Your Business."
     },
     {
       "name": "Fincept-Corporation/FinceptTerminal",
       "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
-      "description": "현대적인 터미널 기반 금융 데이터 분석 애플리케이션",
-      "description_en": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
-      "stars_today": "337 stars today"
+      "description": "고급 시장 분석·투자 리서치·경제 데이터 도구를 제공하는 현대적 금융 터미널 앱",
+      "description_en": "A modern finance application offering advanced market analytics, investment research, and economic data tools."
     },
     {
       "name": "yt-dlp/yt-dlp",
       "url": "https://github.com/yt-dlp/yt-dlp",
-      "description": "풍부한 기능을 갖춘 커맨드라인 오디오/비디오 다운로더",
-      "description_en": "A feature-rich command-line audio/video downloader",
-      "stars_today": "536 stars today"
+      "description": "강력한 기능을 갖춘 커맨드라인 오디오/비디오 다운로더",
+      "description_en": "A feature-rich command-line audio/video downloader."
     }
   ],
   "huggingface": [
     {
-      "title": "TransitLM: 지도 없는 대중교통 경로 탐색 대규모 데이터셋 및 벤치마크",
+      "title": "TransitLM: 지도 없는 대중교통 경로 생성 대규모 데이터셋 및 벤치마크",
       "title_en": "TransitLM: A Large-Scale Dataset and Benchmark for Map-Free Transit Route Generation",
       "url": "https://huggingface.co/papers/2605.22355",
-      "summary": "지도 없이 대중교통 경로를 탐색하는 대규모 LLM 학습 데이터셋 구축",
-      "summary_en": ""
+      "summary": "지도 정보 없이 대중교통 경로를 생성하는 LLM 벤치마크 및 대규모 데이터셋을 제안한 연구.",
+      "summary_en": "Proposes a large-scale dataset and benchmark for evaluating LLMs on map-free transit route generation tasks."
     },
     {
-      "title": "Perception or Prejudice: MLLM이 첫인상을 넘어설 수 있을까?",
-      "title_en": "Perception or Prejudice: Can MLLMs Go Beyond First Impressions of Personality?",
-      "url": "https://huggingface.co/papers/2605.22109",
-      "summary": "다중모달 LLM이 외모 기반 편견을 넘어 공정한 판단을 할 수 있는지 평가",
-      "summary_en": ""
-    },
-    {
-      "title": "DelTA: 강화학습에서 식별적 토큰 크레딧 할당",
+      "title": "DelTA: 검증 가능한 보상 기반 강화학습을 위한 토큰 크레딧 할당",
       "title_en": "DelTA: Discriminative Token Credit Assignment for Reinforcement Learning from Verifiable Rewards",
-      "url": "https://huggingface.co/papers/2605.21467",
-      "summary": "강화학습 기반 LLM 훈련에서 토큰별 기여도를 더 정확히 측정하는 방법",
-      "summary_en": ""
+      "url": "https://huggingface.co/papers/2605.22109",
+      "summary": "검증 가능한 보상으로 강화학습 시 각 토큰의 기여도를 차별적으로 할당하는 방법론 제안.",
+      "summary_en": "Introduces discriminative credit assignment per token for RLVR, improving training signal quality."
     },
     {
-      "title": "π-Bench: 장기 개인 비서 에이전트 선제적 능력 평가",
+      "title": "π-Bench: 장기 워크플로우에서 능동적 개인 비서 에이전트 평가",
       "title_en": "π-Bench: Evaluating Proactive Personal Assistant Agents in Long-Horizon Workflows",
-      "url": "https://huggingface.co/papers/2605.14678",
-      "summary": "장기 개인 비서 에이전트의 선제적 작업 수행 능력을 평가하는 벤치마크",
-      "summary_en": ""
+      "url": "https://huggingface.co/papers/2605.21467",
+      "summary": "장기 작업 흐름에서 능동적으로 행동하는 AI 에이전트를 평가하는 새로운 벤치마크 제안.",
+      "summary_en": "A benchmark for evaluating proactive personal assistant agents in long-horizon, multi-step workflow settings."
     },
     {
-      "title": "풀 어텐션의 귀환: 풀 어텐션을 희소 모델에 전이하기",
+      "title": "Full Attention Strikes Back: 100 훈련 스텝 내 스파스 어텐션으로 전환",
       "title_en": "Full Attention Strikes Back: Transferring Full Attention into Sparse within Hundred Training Steps",
-      "url": "https://huggingface.co/papers/2605.16928",
-      "summary": "풀 어텐션 능력을 희소 어텐션 모델에 효과적으로 전이하는 방법",
-      "summary_en": ""
+      "url": "https://huggingface.co/papers/2605.14678",
+      "summary": "기존 Full Attention 모델을 100 스텝 이내에 Sparse Attention으로 효율적으로 전환하는 방법 제안.",
+      "summary_en": "Shows that full attention can be efficiently transferred to sparse attention patterns within just 100 training steps."
+    },
+    {
+      "title": "ACC: 장문 컨텍스트 훈련을 위한 에이전트 궤적 컴파일",
+      "title_en": "ACC: Compiling Agent Trajectories for Long-Context Training",
+      "url": "https://huggingface.co/papers/2605.21850",
+      "summary": "에이전트 실행 궤적을 컴파일해 장문 컨텍스트 학습에 활용하는 새로운 데이터 구성 방법론.",
+      "summary_en": "Compiles agent trajectories into long-context training data to improve LLM performance on extended tasks."
     }
   ],
   "geeknews": [
     {
-      "title": "AI와 함께 일하며 복리처럼 쌓아 성장하는 법",
-      "title_en": "Compounding growth strategies while working with AI",
-      "url": "https://eugeneyan.com/writing/working-with-ai/",
-      "votes": 103,
-      "summary": "AI를 협업 파트너로 활용해 복리처럼 성장하는 실전 전략",
-      "summary_en": "Compounding growth strategies while working with AI"
+      "title": "AI 보조 코딩에 대해 틀리는 열두 가지 방식",
+      "title_en": "Twelve Ways to Be Wrong About AI-Assisted Coding",
+      "url": "https://third-bit.com/2026/05/20/twelve-ways-to-be-wrong/",
+      "summary": "AI 코딩 도구에 대해 개발자들이 흔히 잘못 이해하는 12가지 패턴을 정리한 글.",
+      "summary_en": "A list of twelve common misconceptions developers have about AI-assisted coding tools."
     },
     {
-      "title": "Datatype - 텍스트를 차트로 변환하는 가변 폰트",
-      "title_en": "Variable font that transforms text into data visualization charts",
-      "url": "https://github.com/franktisellano/datatype",
-      "votes": 82,
-      "summary": "텍스트 문자를 데이터 시각화 차트로 변환하는 오픈소스 가변 폰트",
-      "summary_en": "Variable font that transforms text into data visualization charts"
+      "title": "제품의 시대는 끝나고, 두뇌의 시대가 온다",
+      "title_en": "Products Are Out, Brains Are In",
+      "url": "https://mrmarket.bearblog.dev/products-are-out-brains-are-in-new/",
+      "summary": "소프트웨어 제품 시대가 저물고 AI 기반 지식 노동(두뇌)이 새로운 가치 원천이 되는 시대 전망.",
+      "summary_en": "Argues that the era of software products is ending, replaced by AI-powered knowledge work as the new value driver."
     },
     {
-      "title": "whichllm - 내 하드웨어에서 실제로 돌아가고 최고 성능을 내는 로컬 LLM 찾기",
-      "title_en": "Find the best-performing local LLM for your hardware",
-      "url": "https://github.com/Andyyyy64/whichllm",
-      "votes": 64,
-      "summary": "사용자 하드웨어 사양에 맞춰 최고 성능의 로컬 LLM을 찾아주는 도구",
-      "summary_en": "Find the best-performing local LLM for your hardware"
+      "title": "오픈소스 소프트웨어에서 오픈소스 전략으로",
+      "title_en": "From Open Source Software to Open Source Strategy",
+      "url": "https://p3institute.substack.com/p/from-open-source-software-to-open",
+      "summary": "단순 코드 공개를 넘어 오픈소스를 전략적 비즈니스 모델로 활용하는 흐름을 분석한 글.",
+      "summary_en": "Explores the evolution from merely releasing open source code to using openness as a full business strategy."
     },
     {
-      "title": "SideQuick - 사이드 프로젝트를 끝까지 완주하게 돕는 도구",
-      "title_en": "Productivity tool to help you actually finish side projects",
-      "url": "https://www.sidequick.co/",
-      "votes": 41,
-      "summary": "사이드 프로젝트를 포기하지 않고 끝내도록 돕는 생산성 도구",
-      "summary_en": "Productivity tool to help you actually finish side projects"
+      "title": "소프트웨어가 헤드리스로 가는가?",
+      "title_en": "Is Software Losing Its Head?",
+      "url": "https://www.a16z.news/p/is-software-losing-its-head",
+      "summary": "AI 에이전트의 등장으로 UI(헤드)가 사라지고 소프트웨어가 API·에이전트 중심으로 재편되는지 논의.",
+      "summary_en": "Discusses whether AI agents are making software interfaces obsolete, shifting to headless, API-first paradigms."
     },
     {
-      "title": "AI-native 조직 (잭 도시 트위터 창업자)",
-      "title_en": "Jack Dorsey on transforming to AI-native organizations",
-      "url": "https://www.youtube.com/watch?v=TlpFc7x8SHo",
-      "votes": 35,
-      "summary": "잭 도시의 위계 조직에서 AI 인텔리전스 조직으로의 전환 철학",
-      "summary_en": "Jack Dorsey on transforming to AI-native organizations"
+      "title": "agentmemory — AI 코딩 에이전트용 영구 메모리 시스템",
+      "title_en": "agentmemory — Persistent Memory System for AI Coding Agents",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "summary": "AI 코딩 에이전트가 대화 간 컨텍스트를 기억할 수 있도록 영구 메모리를 제공하는 오픈소스 라이브러리.",
+      "summary_en": "An open-source persistent memory system that allows AI coding agents to retain context across sessions."
     }
   ]
 }
