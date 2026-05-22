@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-05-22
+> 마지막 업데이트: 2026-05-23
 
-# AI 뉴스 — 2026-05-22
+# AI 뉴스 — 2026-05-23
 
 ## 🔥 GitHub Trending (Python)
 
-- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official): Anthropic이 직접 관리하는 고품질 Claude Code 플러그인 공식 디렉토리
-- [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything): CLI 통합으로 모든 소프트웨어를 에이전트 네이티브로 만드는 플랫폼
-- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 애플리케이션 이해, 구축, 배포를 위한 학습 리소스
-- [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py): Python, CLI, AI 에이전트를 통해 Google NotebookLM 기능에 프로그래밍 방식으로 접근하는 비공식 API
-- [antoinezambelli/forge](https://github.com/antoinezambelli/forge): 자체 호스팅 LLM 툴 콜링과 다단계 에이전트 워크플로우를 가능하게 하는 Python 프레임워크
+- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official): Anthropic 공식 Claude 플러그인 고품질 디렉토리
+- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링을 처음부터 배우고 구축하는 실습 가이드
+- [odoo/odoo](https://github.com/odoo/odoo): 비즈니스 성장을 위한 오픈소스 ERP/CRM 앱 모음
+- [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal): 현대적인 터미널 기반 금융 데이터 분석 애플리케이션
+- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp): 풍부한 기능을 갖춘 커맨드라인 오디오/비디오 다운로더
 
 ## 📄 Hugging Face Papers
 
-- [Mega-ASR: 실제 환경 음향 시뮬레이션 확장을 통한 야생 음성 인식](https://huggingface.co/papers/2605.19833)
-  실제 환경 음향 시뮬레이션 규모 확장으로 ASR 성능을 향상시켜 다양한 실제 음성 시나리오에 대한 일반화 개선
-- [Video2GUI: 범용 GUI 에이전트 사전학습을 위한 대규모 인터랙션 궤적 합성](https://huggingface.co/papers/2605.14747)
-  GUI 에이전트 사전학습을 위한 대규모 인터랙션 궤적 합성 방법으로, 다양한 GUI에서 범용적 성능 달성
-- [학습 없이 일관된 장시간 영상 무한 프레임 생성 향상](https://huggingface.co/papers/2605.18233)
-  학습 없이 긴 영상을 일관되게 생성하는 접근법으로, 무한 프레임 생성 품질과 시간적 일관성 향상
-- [IndusAgent: 에이전트 도구로 오픈 어휘 산업 이상 탐지 강화](https://huggingface.co/papers/2605.20682)
-  에이전트 도구를 활용해 제조 및 품질 관리 분야의 오픈 어휘 이상 탐지 능력을 향상시키는 에이전트 기반 시스템
-- [최소 RLVR 학습만으로 충분: Rank-1 궤적으로 LLM 외삽](https://huggingface.co/papers/2605.21468)
-  rank-1 궤적을 사용한 최소한의 RLVR 학습으로 LLM 성능을 효과적으로 확장할 수 있음을 입증한 연구
+- [TransitLM: 지도 없는 대중교통 경로 탐색 대규모 데이터셋 및 벤치마크](https://huggingface.co/papers/2605.22355)
+  지도 없이 대중교통 경로를 탐색하는 대규모 LLM 학습 데이터셋 구축
+- [Perception or Prejudice: MLLM이 첫인상을 넘어설 수 있을까?](https://huggingface.co/papers/2605.22109)
+  다중모달 LLM이 외모 기반 편견을 넘어 공정한 판단을 할 수 있는지 평가
+- [DelTA: 강화학습에서 식별적 토큰 크레딧 할당](https://huggingface.co/papers/2605.21467)
+  강화학습 기반 LLM 훈련에서 토큰별 기여도를 더 정확히 측정하는 방법
+- [π-Bench: 장기 개인 비서 에이전트 선제적 능력 평가](https://huggingface.co/papers/2605.14678)
+  장기 개인 비서 에이전트의 선제적 작업 수행 능력을 평가하는 벤치마크
+- [풀 어텐션의 귀환: 풀 어텐션을 희소 모델에 전이하기](https://huggingface.co/papers/2605.16928)
+  풀 어텐션 능력을 희소 어텐션 모델에 효과적으로 전이하는 방법
 
 ## 🦉 GeekNews
 
-- [AI 네이티브 조직](https://www.youtube.com/watch?v=TlpFc7x8SHo)
-  Jack Dorsey가 AI 시대에 맞는 계층 구조에서 지능 중심 조직 구조로의 전환을 논의
-- [AI와 함께 일하기: 협업을 통한 복리 성장](https://eugeneyan.com/writing/working-with-ai/)
-  효과적인 AI 협업을 위한 5가지 원칙: 컨텍스트 제공, 선호도 설정, 검증 자동화, 위임 확장, 피드백 루프
-- [whichllm - 하드웨어에 맞는 최적 로컬 LLM 찾기](https://github.com/Andyyyy64/whichllm)
-  파라미터 수가 아닌 실제 벤치마크 기반으로 GPU/CPU/RAM을 자동 감지해 최적 로컬 LLM을 추천하는 CLI 도구
+- [AI와 함께 일하며 복리처럼 쌓아 성장하는 법](https://eugeneyan.com/writing/working-with-ai/)
+  AI를 협업 파트너로 활용해 복리처럼 성장하는 실전 전략
 - [Datatype - 텍스트를 차트로 변환하는 가변 폰트](https://github.com/franktisellano/datatype)
-  JavaScript, 이미지, 렌더링 라이브러리 없이 OpenType 합자 치환으로 텍스트에 차트를 표시하는 혁신적 방법
-- [TabPFN - 표 형식 데이터를 위한 파운데이션 모델](https://github.com/PriorLabs/TabPFN)
-  scikit-learn 스타일 fit/predict 인터페이스로 구조화 데이터에서 즉시 분류/회귀가 가능한 파운데이션 모델
+  텍스트 문자를 데이터 시각화 차트로 변환하는 오픈소스 가변 폰트
+- [whichllm - 내 하드웨어에서 실제로 돌아가고 최고 성능을 내는 로컬 LLM 찾기](https://github.com/Andyyyy64/whichllm)
+  사용자 하드웨어 사양에 맞춰 최고 성능의 로컬 LLM을 찾아주는 도구
+- [SideQuick - 사이드 프로젝트를 끝까지 완주하게 돕는 도구](https://www.sidequick.co/)
+  사이드 프로젝트를 포기하지 않고 끝내도록 돕는 생산성 도구
+- [AI-native 조직 (잭 도시 트위터 창업자)](https://www.youtube.com/watch?v=TlpFc7x8SHo)
+  잭 도시의 위계 조직에서 AI 인텔리전스 조직으로의 전환 철학
 
 ---
 ## 📅 이전 날짜
 
+- [2026-05-22](data/2026-05-22.md)
 - [2026-05-21](data/2026-05-21.md)
 - [2026-05-20](data/2026-05-20.md)
 - [2026-05-19](data/2026-05-19.md)
