@@ -6,37 +6,37 @@
 
 ## 🔥 GitHub Trending (Python)
 
-- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official): Anthropic 공식 Claude 플러그인 고품질 디렉토리
-- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링을 처음부터 배우고 구축하는 실습 가이드
-- [odoo/odoo](https://github.com/odoo/odoo): 비즈니스 성장을 위한 오픈소스 ERP/CRM 앱 모음
-- [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal): 현대적인 터미널 기반 금융 데이터 분석 애플리케이션
-- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp): 풍부한 기능을 갖춘 커맨드라인 오디오/비디오 다운로더
+- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official): Anthropic이 공식 관리하는 Claude Code 플러그인 디렉토리
+- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링 기초부터 배우고 직접 만들어 배포하는 실습 레포
+- [odoo/odoo](https://github.com/odoo/odoo): 비즈니스 성장을 위한 오픈소스 통합 업무 앱 플랫폼
+- [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal): 고급 시장 분석·투자 리서치·경제 데이터 도구를 제공하는 현대적 금융 터미널 앱
+- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp): 강력한 기능을 갖춘 커맨드라인 오디오/비디오 다운로더
 
 ## 📄 Hugging Face Papers
 
-- [TransitLM: 지도 없는 대중교통 경로 탐색 대규모 데이터셋 및 벤치마크](https://huggingface.co/papers/2605.22355)
-  지도 없이 대중교통 경로를 탐색하는 대규모 LLM 학습 데이터셋 구축
-- [Perception or Prejudice: MLLM이 첫인상을 넘어설 수 있을까?](https://huggingface.co/papers/2605.22109)
-  다중모달 LLM이 외모 기반 편견을 넘어 공정한 판단을 할 수 있는지 평가
-- [DelTA: 강화학습에서 식별적 토큰 크레딧 할당](https://huggingface.co/papers/2605.21467)
-  강화학습 기반 LLM 훈련에서 토큰별 기여도를 더 정확히 측정하는 방법
-- [π-Bench: 장기 개인 비서 에이전트 선제적 능력 평가](https://huggingface.co/papers/2605.14678)
-  장기 개인 비서 에이전트의 선제적 작업 수행 능력을 평가하는 벤치마크
-- [풀 어텐션의 귀환: 풀 어텐션을 희소 모델에 전이하기](https://huggingface.co/papers/2605.16928)
-  풀 어텐션 능력을 희소 어텐션 모델에 효과적으로 전이하는 방법
+- [TransitLM: 지도 없는 대중교통 경로 생성 대규모 데이터셋 및 벤치마크](https://huggingface.co/papers/2605.22355)
+  지도 정보 없이 대중교통 경로를 생성하는 LLM 벤치마크 및 대규모 데이터셋을 제안한 연구.
+- [DelTA: 검증 가능한 보상 기반 강화학습을 위한 토큰 크레딧 할당](https://huggingface.co/papers/2605.22109)
+  검증 가능한 보상으로 강화학습 시 각 토큰의 기여도를 차별적으로 할당하는 방법론 제안.
+- [π-Bench: 장기 워크플로우에서 능동적 개인 비서 에이전트 평가](https://huggingface.co/papers/2605.21467)
+  장기 작업 흐름에서 능동적으로 행동하는 AI 에이전트를 평가하는 새로운 벤치마크 제안.
+- [Full Attention Strikes Back: 100 훈련 스텝 내 스파스 어텐션으로 전환](https://huggingface.co/papers/2605.14678)
+  기존 Full Attention 모델을 100 스텝 이내에 Sparse Attention으로 효율적으로 전환하는 방법 제안.
+- [ACC: 장문 컨텍스트 훈련을 위한 에이전트 궤적 컴파일](https://huggingface.co/papers/2605.21850)
+  에이전트 실행 궤적을 컴파일해 장문 컨텍스트 학습에 활용하는 새로운 데이터 구성 방법론.
 
 ## 🦉 GeekNews
 
-- [AI와 함께 일하며 복리처럼 쌓아 성장하는 법](https://eugeneyan.com/writing/working-with-ai/)
-  AI를 협업 파트너로 활용해 복리처럼 성장하는 실전 전략
-- [Datatype - 텍스트를 차트로 변환하는 가변 폰트](https://github.com/franktisellano/datatype)
-  텍스트 문자를 데이터 시각화 차트로 변환하는 오픈소스 가변 폰트
-- [whichllm - 내 하드웨어에서 실제로 돌아가고 최고 성능을 내는 로컬 LLM 찾기](https://github.com/Andyyyy64/whichllm)
-  사용자 하드웨어 사양에 맞춰 최고 성능의 로컬 LLM을 찾아주는 도구
-- [SideQuick - 사이드 프로젝트를 끝까지 완주하게 돕는 도구](https://www.sidequick.co/)
-  사이드 프로젝트를 포기하지 않고 끝내도록 돕는 생산성 도구
-- [AI-native 조직 (잭 도시 트위터 창업자)](https://www.youtube.com/watch?v=TlpFc7x8SHo)
-  잭 도시의 위계 조직에서 AI 인텔리전스 조직으로의 전환 철학
+- [AI 보조 코딩에 대해 틀리는 열두 가지 방식](https://third-bit.com/2026/05/20/twelve-ways-to-be-wrong/)
+  AI 코딩 도구에 대해 개발자들이 흔히 잘못 이해하는 12가지 패턴을 정리한 글.
+- [제품의 시대는 끝나고, 두뇌의 시대가 온다](https://mrmarket.bearblog.dev/products-are-out-brains-are-in-new/)
+  소프트웨어 제품 시대가 저물고 AI 기반 지식 노동(두뇌)이 새로운 가치 원천이 되는 시대 전망.
+- [오픈소스 소프트웨어에서 오픈소스 전략으로](https://p3institute.substack.com/p/from-open-source-software-to-open)
+  단순 코드 공개를 넘어 오픈소스를 전략적 비즈니스 모델로 활용하는 흐름을 분석한 글.
+- [소프트웨어가 헤드리스로 가는가?](https://www.a16z.news/p/is-software-losing-its-head)
+  AI 에이전트의 등장으로 UI(헤드)가 사라지고 소프트웨어가 API·에이전트 중심으로 재편되는지 논의.
+- [agentmemory — AI 코딩 에이전트용 영구 메모리 시스템](https://github.com/rohitg00/agentmemory)
+  AI 코딩 에이전트가 대화 간 컨텍스트를 기억할 수 있도록 영구 메모리를 제공하는 오픈소스 라이브러리.
 
 ---
 ## 📅 이전 날짜
