@@ -6,37 +6,37 @@
 
 ## 🔥 GitHub Trending (Python)
 
-- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official): Anthropic 공식 Claude 플러그인 고품질 디렉토리
-- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링을 처음부터 배우고 구축하는 실습 가이드
-- [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal): 현대적인 터미널 기반 금융 데이터 분석 애플리케이션
-- [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): AI 에이전트를 위한 754개 구조화된 사이버보안 스킬
-- [odoo/odoo](https://github.com/odoo/odoo): 비즈니스 성장을 위한 오픈소스 ERP/CRM 앱 모음
+- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official): Anthropic이 관리하는 고품질 Claude 코드 플러그인의 공식 디렉토리
+- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링을 배우고, 구축하며, 배포하는 종합 학습 자료
+- [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal): 고급 시장 분석, 투자 조사, 경제 데이터 도구를 제공하는 현대식 금융 애플리케이션
+- [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): 5개 프레임워크에 매핑된 754개 구조화된 사이버보안 기술로 AI 에이전트 강화
+- [odoo/odoo](https://github.com/odoo/odoo): 비즈니스 성장을 위한 오픈소스 애플리케이션 제품군
 
 ## 📄 Hugging Face Papers
 
-- [DelTA: 강화학습에서 식별적 토큰 크레딧 할당](https://huggingface.co/papers/2605.21467)
-  강화학습 기반 LLM 훈련에서 토큰별 기여도를 더 정확히 측정하는 방법
-- [TransitLM: 지도 없는 대중교통 경로 탐색 데이터셋 및 벤치마크](https://huggingface.co/papers/2605.22355)
-  지도 없이 대중교통 경로를 탐색하는 LLM 학습용 대규모 데이터셋
-- [Perception or Prejudice: MLLM이 첫인상 편견을 넘어설 수 있을까?](https://huggingface.co/papers/2605.22109)
-  다중모달 LLM이 외모 기반 편견 없이 공정한 판단을 할 수 있는지 평가
-- [π-Bench: 장기 개인 비서 에이전트의 선제적 능력 평가](https://huggingface.co/papers/2605.14678)
-  장기 개인 비서 에이전트의 선제적 작업 수행 능력 평가 벤치마크
-- [풀 어텐션의 귀환: 희소 모델에 풀 어텐션 전이하기](https://huggingface.co/papers/2605.16928)
-  풀 어텐션 능력을 희소 어텐션 모델에 효과적으로 전이하는 방법
+- [DelTA: 강화학습에서의 차별적 토큰 신용 할당](https://huggingface.co/papers/2605.21467)
+  검증 가능한 보상으로부터 강화학습에서 토큰 레벨의 신용 할당을 개선하는 차별적 접근 방식 제안
+- [TransitLM: 지도 없는 대중교통 경로 생성을 위한 대규모 데이터셋 및 벤치마크](https://huggingface.co/papers/2605.22355)
+  지도 없이 대중교통 경로를 생성하기 위한 대규모 데이터셋과 벤치마크 제시
+- [인식 또는 편견: MLLMs가 성격의 첫인상을 넘어갈 수 있는가?](https://huggingface.co/papers/2605.22109)
+  멀티모달 대규모 언어 모델이 성격 판단에서 첫인상 편견을 극복할 수 있는지 조사
+- [π-Bench: 장기 워크플로우에서 능동적 개인 보조 에이전트 평가](https://huggingface.co/papers/2605.14678)
+  장기 워크플로우 환경에서 능동적 개인 보조 에이전트의 성능을 평가하기 위한 벤치마크 제공
+- [Full Attention Strikes Back: 수백 개의 학습 단계 내에서 완전 어텐션을 스파스 어텐션으로 전이](https://huggingface.co/papers/2605.16928)
+  완전 어텐션 메커니즘을 스파스 어텐션으로 효율적으로 전이하는 방법을 제시, 최소한의 학습 단계로 성능 손실 최소화
 
 ## 🦉 GeekNews
 
+- [LLM 아키텍처의 최근 동향: KV 공유, mHC, 그리고 압축 어텐션](https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures)
+  최근 공개 LLM들이 장문 컨텍스트 효율성에 집중하며 KV 캐시 크기와 메모리 트래픽을 줄이기 위한 아키텍처 최적화 방법을 다룸
+- [Zero - 에이전트를 위한 프로그래밍 언어](https://zerolang.ai/)
+  Vercel Labs의 실험적 프로그래밍 언어로, 에이전트가 주 사용자인 환경을 가정해 처음부터 재설계됨
+- [AI 보조 코딩에 대해 틀리는 열두 가지 방식](https://third-bit.com/2026/05/20/twelve-ways-to-be-wrong/)
+  AI 보조 코딩의 가치를 단순 지표로 환원하기 어려우며, 평가 방식에 따라 결론이 왜곡될 수 있음을 설명
+- [제품의 시대는 끝나고, 두뇌의 시대가 온다](https://mrmarket.bearblog.dev/products-are-out-brains-are-in-new/)
+  소프트웨어의 한계 생산비용이 0에 수렴하면서 구매 동기가 변화하고, 직접 구현 대신 시간과 유지보수 의지 부족이 구매 이유가 됨
 - [AI와 함께 일하며 복리처럼 쌓아 성장하는 법](https://eugeneyan.com/writing/working-with-ai/)
-  AI를 협업 파트너로 활용해 복리처럼 성장하는 실전 전략
-- [Datatype - 텍스트를 차트로 변환하는 가변 폰트](https://github.com/franktisellano/datatype)
-  텍스트 문자를 데이터 시각화 차트로 변환하는 오픈소스 가변 폰트
-- [whichllm - 내 하드웨어에서 실제로 돌아가고 최고 성능을 내는 로컬 LLM 찾기](https://github.com/Andyyyy64/whichllm)
-  사용자 하드웨어에 맞춰 최고 성능의 로컬 LLM을 찾아주는 도구
-- [SideQuick - 사이드 프로젝트를 끝까지 완주하게 돕는 도구](https://www.sidequick.co/)
-  사이드 프로젝트를 포기하지 않고 끝내도록 돕는 생산성 도구
-- [AI-native 조직 (잭 도시 트위터 창업자)](https://www.youtube.com/watch?v=TlpFc7x8SHo)
-  잭 도시의 위계 조직에서 AI 인텔리전스 조직으로의 전환 철학
+  AI 협업의 다섯 가지 원칙(컨텍스트, 취향, 검증, 위임, 피드백)을 체계적으로 정리한 실무 가이드
 
 ---
 ## 📅 이전 날짜
