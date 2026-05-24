@@ -4,106 +4,106 @@
     {
       "name": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "처음부터 배우는 AI 엔지니어링 — 실전 AI 개발 및 배포 전략을 다루는 종합 학습 자료",
-      "description_en": "A comprehensive learning resource focused on practical AI development, covering implementation and deployment strategies from scratch."
+      "description": "처음부터 AI 시스템을 학습·구축·배포하는 실습 교육 자료",
+      "description_en": "Educational resource for learning, building, and deploying AI systems with practical implementation guidance"
     },
     {
       "name": "anthropics/claude-plugins-official",
       "url": "https://github.com/anthropics/claude-plugins-official",
-      "description": "Anthropic 공식 Claude Code 플러그인 디렉토리 — 고품질 플러그인 모음",
-      "description_en": "Official, Anthropic-managed directory of high-quality Claude Code Plugins."
+      "description": "Anthropic이 공식 유지관리하는 Claude 고품질 플러그인 모음",
+      "description_en": "Curated collection of high-quality plugins for Claude, maintained by Anthropic for enhanced functionality"
     },
     {
       "name": "anthropics/knowledge-work-plugins",
       "url": "https://github.com/anthropics/knowledge-work-plugins",
-      "description": "지식 근로자를 위한 Claude Code 오픈소스 플러그인 모음",
-      "description_en": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Code."
+      "description": "지식 근로자를 위한 Claude 통합 오픈소스 생산성 플러그인",
+      "description_en": "Open source plugins designed to assist knowledge workers with Claude integration and productivity"
     },
     {
       "name": "Alishahryar1/free-claude-code",
       "url": "https://github.com/Alishahryar1/free-claude-code",
-      "description": "터미널, VSCode 익스텐션, 디스코드에서 Claude Code를 무료로 사용하는 방법 (음성 지원 포함)",
-      "description_en": "Use Claude Code for free in the terminal, VSCode extension, or Discord with voice support."
+      "description": "터미널·VSCode·Discord에서 음성 지원 포함 Claude 코딩 기능 무료 사용",
+      "description_en": "Tool enabling free access to Claude's code capabilities across terminal, VSCode, Discord with voice support"
     },
     {
       "name": "shiyu-coder/Kronos",
       "url": "https://github.com/shiyu-coder/Kronos",
-      "description": "금융 시장 언어를 위한 파운데이션 모델 Kronos",
-      "description_en": "Kronos: A Foundation Model for the Language of Financial Markets."
+      "description": "금융시장 언어 패턴 이해·예측에 특화된 파운데이션 모델",
+      "description_en": "Foundation model specialized in understanding and predicting financial market language patterns"
     }
   ],
   "huggingface": [
     {
-      "title": "최소주의 시각-관성 주행거리 측정법",
-      "title_en": "Minimalist Visual Inertial Odometry",
-      "url": "https://huggingface.co/papers/2605.19990",
-      "summary": "단 4개의 광다이오드와 IMU만으로 차동 구동 로봇의 정확한 평면 주행 경로를 추정하는 최소주의 접근법",
-      "summary_en": "Minimalist planar odometry using only four photodiodes and an IMU for differential-drive robots, trained via physics-based simulation."
+      "title": "DelTA: 검증 가능한 보상 기반 강화학습을 위한 판별적 토큰 기여 할당",
+      "title_en": "DelTA: Discriminative Token Credit Assignment for Reinforcement Learning from Verifiable Rewards",
+      "url": "https://huggingface.co/papers/2605.21467",
+      "summary": "검증 가능한 보상으로부터 학습 시 개별 토큰의 기여도를 적절히 할당하는 강화학습 방법론",
+      "summary_en": "A reinforcement learning approach using discriminative token credit assignment to improve learning from verifiable rewards"
     },
     {
-      "title": "FashionLens: 태스크 적응 학습을 통한 다목적 패션 이미지 검색",
-      "title_en": "FashionLens: Toward Versatile Fashion Image Retrieval via Task-Adaptive Learning",
-      "url": "https://huggingface.co/papers/2605.22552",
-      "summary": "단일 모델로 여러 패션 검색 유형에 유연하게 대응하는 태스크 적응형 학습 프레임워크",
-      "summary_en": "Task-adaptive learning framework enabling a single model to handle multiple fashion retrieval scenarios flexibly."
+      "title": "TransitLM: 지도 없는 대중교통 경로 생성 대규모 데이터셋 및 벤치마크",
+      "title_en": "TransitLM: A Large-Scale Dataset and Benchmark for Map-Free Transit Route Generation",
+      "url": "https://huggingface.co/papers/2605.22355",
+      "summary": "지도 없이 대중교통 경로를 생성하는 실용적 시스템을 위한 대규모 데이터셋과 벤치마크 도입",
+      "summary_en": "Introduces a large-scale dataset and benchmark for generating transit routes without relying on maps"
     },
     {
-      "title": "CT 신체 구성 분할에서 클래스 불균형 문제를 위한 샘플링과 학습 예산 분리",
-      "title_en": "Disentangling Sampling from Training Budget in Class-Imbalanced CT Body Composition Segmentation",
-      "url": "https://huggingface.co/papers/2605.20405",
-      "summary": "CT 영상 신체 구성 분할 시 샘플링 전략과 학습 예산 할당을 분리해 불균형 문제 해결",
-      "summary_en": "Decoupling sampling strategy from training budget to address class imbalance in CT body composition segmentation."
+      "title": "Perception or Prejudice: 멀티모달 LLM의 첫인상 너머 성격 인식 능력 평가",
+      "title_en": "Perception or Prejudice: Can MLLMs Go Beyond First Impressions of Personality?",
+      "url": "https://huggingface.co/papers/2605.22109",
+      "summary": "멀티모달 대형 언어모델이 표면적 첫인상을 넘어 성격 특성을 정확히 평가할 수 있는지 연구",
+      "summary_en": "Investigates whether multimodal large language models can accurately assess personality traits beyond initial superficial impressions"
     },
     {
-      "title": "SAM 3D Animal: 야생 이미지에서의 프롬프터블 동물 3D 재구성",
-      "title_en": "SAM 3D Animal: Promptable Animal 3D Reconstruction from Images in the Wild",
-      "url": "https://huggingface.co/papers/2605.07604",
-      "summary": "단일 이미지에서 여러 동물을 동시에 3D 재구성하는 최초의 프롬프터블 프레임워크, Herd3D 데이터셋 공개",
-      "summary_en": "First promptable framework for multi-animal 3D reconstruction from a single image, with new Herd3D dataset."
+      "title": "π-Bench: 장기 워크플로우에서 능동적 개인비서 에이전트 평가 벤치마크",
+      "title_en": "π-Bench: Evaluating Proactive Personal Assistant Agents in Long-Horizon Workflows",
+      "url": "https://huggingface.co/papers/2605.14678",
+      "summary": "복잡한 다단계 작업에서 능동적 개인비서 에이전트 성능을 평가하는 체계적 메트릭 제시",
+      "summary_en": "Presents a benchmark for evaluating proactive personal assistant agents in complex, multi-step long-horizon tasks"
     },
     {
-      "title": "Lean Refactor: 에이전트 전략 탐색을 통한 다목적 제어 가능 증명 최적화",
-      "title_en": "Lean Refactor: Multi-Objective Controllable Proof Optimization via Agentic Strategy Search",
-      "url": "https://huggingface.co/papers/2605.20244",
-      "summary": "Lean 정리 증명기에서 장황한 증명을 리팩토링하는 LLM 불가지론적 프레임워크, 70% 이상 토큰 압축 달성",
-      "summary_en": "Retrieval-augmented agentic framework for refactoring verbose Lean proofs, achieving 70%+ token compression."
+      "title": "Full Attention Strikes Back: 100스텝 이내 전체 어텐션을 희소 어텐션으로 전환",
+      "title_en": "Full Attention Strikes Back: Transferring Full Attention into Sparse within Hundred Training Steps",
+      "url": "https://huggingface.co/papers/2605.16928",
+      "summary": "최소한의 학습 단계 내에서 전체 어텐션을 희소 어텐션으로 효율적으로 변환하는 방법 제시",
+      "summary_en": "Demonstrates efficient conversion of full attention to sparse attention within minimal training steps"
     }
   ],
   "geeknews": [
     {
       "title": "microsoft/mimalloc — 고성능 범용 메모리 할당자",
-      "title_en": "microsoft/mimalloc — High-Performance General-Purpose Memory Allocator",
+      "title_en": "microsoft/mimalloc — High-performance General-purpose Memory Allocator",
       "url": "https://github.com/microsoft/mimalloc",
-      "summary": "jemalloc, tcmalloc 대비 우수한 성능의 malloc 드롭인 대체제, 코드 수정 없이 기존 프로그램에 적용 가능",
-      "summary_en": "Drop-in malloc replacement with superior performance over jemalloc/tcmalloc, no source code changes needed."
+      "summary": "기존 프로그램에 코드 수정 없이 적용 가능한 드롭인 교체 할당자로, jemalloc·tcmalloc보다 빠르고 메모리도 덜 소비",
+      "summary_en": "Drop-in replacement allocator faster than jemalloc and tcmalloc while using less memory"
     },
     {
       "title": "직접 만들지 말라",
       "title_en": "Do Not Roll Your Own",
       "url": "https://susam.net/do-not-roll-your-own.html",
-      "summary": "암호화·보안 분야에서 직접 구현을 피하고 검증된 라이브러리를 사용해야 하는 이유",
-      "summary_en": "Why developers should avoid rolling their own implementations in cryptography and security, favoring battle-tested libraries."
+      "summary": "암호화뿐 아니라 웹 UI에도 적용되는 원칙으로, 브라우저가 이미 제공하는 기능을 불필요하게 대체하지 않아야 함",
+      "summary_en": "Principle extending beyond cryptography to web UI: avoid replacing browser-provided functionality unnecessarily"
     },
     {
       "title": "Zero — 에이전트를 위한 프로그래밍 언어",
-      "title_en": "Zero — A Programming Language for AI Agents",
+      "title_en": "Zero — Programming Language for Agents",
       "url": "https://zerolang.ai/",
-      "summary": "Vercel Labs의 실험적 언어로 에이전트 중심 환경을 위해 처음부터 재설계, AI가 즉시 학습·검사 가능",
-      "summary_en": "Experimental language from Vercel Labs redesigned for agent-centric environments, enabling immediate AI code inspection."
+      "summary": "Vercel Labs에서 에이전트를 주 사용자로 가정해 설계한 실험적 언어로, 즉석 학습과 코드 검증 기능 제공",
+      "summary_en": "Experimental language by Vercel Labs designed with agents as primary users, offering real-time learning and code inspection"
     },
     {
-      "title": "LLM 아키텍처의 최근 동향: KV 공유, mHC, 압축 어텐션",
-      "title_en": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
-      "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
-      "summary": "오픈웨이트 LLM의 KV 캐시 축소·메모리 최적화·어텐션 비용 최소화를 통한 긴 컨텍스트 효율성 향상",
-      "summary_en": "Architectural innovations in open-weight LLMs for long-context efficiency via KV cache reduction and attention compression."
+      "title": "AI는 기존 기술 역량에 곱셈 효과를 준다",
+      "title_en": "AI as a Multiplier of Existing Technical Capabilities",
+      "url": "https://www.joshwcomeau.com/email/wham-launch-005-elephant-2-p/",
+      "summary": "AI 모델은 개발자를 대체하기보다 기존 역량을 증폭하는 도구에 가까움",
+      "summary_en": "AI models function as capability amplifiers rather than developer replacements"
     },
     {
-      "title": "AI 보조 코딩에 대해 틀리는 열두 가지 방식",
-      "title_en": "Twelve Ways to Be Wrong About AI-Assisted Coding",
-      "url": "https://third-bit.com/2026/05/20/twelve-ways-to-be-wrong/",
-      "summary": "AI 보조 코딩에 대한 개발자들의 흔한 오해와 잘못된 믿음 12가지를 짚어주는 글 (GeekNews 29점)",
-      "summary_en": "Article identifying twelve common misconceptions developers hold about AI-assisted coding, 29 points on GeekNews."
+      "title": "agentmemory — AI 코딩 에이전트용 영구 메모리 시스템",
+      "title_en": "agentmemory — Persistent Memory System for AI Coding Agents",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "summary": "AI 에이전트의 세션 간 망각 문제를 해결하며, 도구 사용을 자동 캡처·압축해 다음 세션에 컨텍스트 주입",
+      "summary_en": "Addresses memory loss between sessions by auto-capturing tool usage for context injection in next session"
     }
   ]
 }
