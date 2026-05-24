@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-05-24
+> 마지막 업데이트: 2026-05-25
 
-# AI 뉴스 — 2026-05-24
+# AI 뉴스 — 2026-05-25
 
 ## 🔥 GitHub Trending (Python)
 
-- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official): Anthropic이 관리하는 고품질 Claude 코드 플러그인의 공식 디렉토리
-- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링을 배우고, 구축하며, 배포하는 종합 학습 자료
-- [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal): 고급 시장 분석, 투자 조사, 경제 데이터 도구를 제공하는 현대식 금융 애플리케이션
-- [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): 5개 프레임워크에 매핑된 754개 구조화된 사이버보안 기술로 AI 에이전트 강화
-- [odoo/odoo](https://github.com/odoo/odoo): 비즈니스 성장을 위한 오픈소스 애플리케이션 제품군
+- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): 처음부터 배우는 AI 엔지니어링 — 실전 AI 개발 및 배포 전략을 다루는 종합 학습 자료
+- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official): Anthropic 공식 Claude Code 플러그인 디렉토리 — 고품질 플러그인 모음
+- [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins): 지식 근로자를 위한 Claude Code 오픈소스 플러그인 모음
+- [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code): 터미널, VSCode 익스텐션, 디스코드에서 Claude Code를 무료로 사용하는 방법 (음성 지원 포함)
+- [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos): 금융 시장 언어를 위한 파운데이션 모델 Kronos
 
 ## 📄 Hugging Face Papers
 
-- [DelTA: 강화학습에서의 차별적 토큰 신용 할당](https://huggingface.co/papers/2605.21467)
-  검증 가능한 보상으로부터 강화학습에서 토큰 레벨의 신용 할당을 개선하는 차별적 접근 방식 제안
-- [TransitLM: 지도 없는 대중교통 경로 생성을 위한 대규모 데이터셋 및 벤치마크](https://huggingface.co/papers/2605.22355)
-  지도 없이 대중교통 경로를 생성하기 위한 대규모 데이터셋과 벤치마크 제시
-- [인식 또는 편견: MLLMs가 성격의 첫인상을 넘어갈 수 있는가?](https://huggingface.co/papers/2605.22109)
-  멀티모달 대규모 언어 모델이 성격 판단에서 첫인상 편견을 극복할 수 있는지 조사
-- [π-Bench: 장기 워크플로우에서 능동적 개인 보조 에이전트 평가](https://huggingface.co/papers/2605.14678)
-  장기 워크플로우 환경에서 능동적 개인 보조 에이전트의 성능을 평가하기 위한 벤치마크 제공
-- [Full Attention Strikes Back: 수백 개의 학습 단계 내에서 완전 어텐션을 스파스 어텐션으로 전이](https://huggingface.co/papers/2605.16928)
-  완전 어텐션 메커니즘을 스파스 어텐션으로 효율적으로 전이하는 방법을 제시, 최소한의 학습 단계로 성능 손실 최소화
+- [최소주의 시각-관성 주행거리 측정법](https://huggingface.co/papers/2605.19990)
+  단 4개의 광다이오드와 IMU만으로 차동 구동 로봇의 정확한 평면 주행 경로를 추정하는 최소주의 접근법
+- [FashionLens: 태스크 적응 학습을 통한 다목적 패션 이미지 검색](https://huggingface.co/papers/2605.22552)
+  단일 모델로 여러 패션 검색 유형에 유연하게 대응하는 태스크 적응형 학습 프레임워크
+- [CT 신체 구성 분할에서 클래스 불균형 문제를 위한 샘플링과 학습 예산 분리](https://huggingface.co/papers/2605.20405)
+  CT 영상 신체 구성 분할 시 샘플링 전략과 학습 예산 할당을 분리해 불균형 문제 해결
+- [SAM 3D Animal: 야생 이미지에서의 프롬프터블 동물 3D 재구성](https://huggingface.co/papers/2605.07604)
+  단일 이미지에서 여러 동물을 동시에 3D 재구성하는 최초의 프롬프터블 프레임워크, Herd3D 데이터셋 공개
+- [Lean Refactor: 에이전트 전략 탐색을 통한 다목적 제어 가능 증명 최적화](https://huggingface.co/papers/2605.20244)
+  Lean 정리 증명기에서 장황한 증명을 리팩토링하는 LLM 불가지론적 프레임워크, 70% 이상 토큰 압축 달성
 
 ## 🦉 GeekNews
 
-- [LLM 아키텍처의 최근 동향: KV 공유, mHC, 그리고 압축 어텐션](https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures)
-  최근 공개 LLM들이 장문 컨텍스트 효율성에 집중하며 KV 캐시 크기와 메모리 트래픽을 줄이기 위한 아키텍처 최적화 방법을 다룸
-- [Zero - 에이전트를 위한 프로그래밍 언어](https://zerolang.ai/)
-  Vercel Labs의 실험적 프로그래밍 언어로, 에이전트가 주 사용자인 환경을 가정해 처음부터 재설계됨
+- [microsoft/mimalloc — 고성능 범용 메모리 할당자](https://github.com/microsoft/mimalloc)
+  jemalloc, tcmalloc 대비 우수한 성능의 malloc 드롭인 대체제, 코드 수정 없이 기존 프로그램에 적용 가능
+- [직접 만들지 말라](https://susam.net/do-not-roll-your-own.html)
+  암호화·보안 분야에서 직접 구현을 피하고 검증된 라이브러리를 사용해야 하는 이유
+- [Zero — 에이전트를 위한 프로그래밍 언어](https://zerolang.ai/)
+  Vercel Labs의 실험적 언어로 에이전트 중심 환경을 위해 처음부터 재설계, AI가 즉시 학습·검사 가능
+- [LLM 아키텍처의 최근 동향: KV 공유, mHC, 압축 어텐션](https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures)
+  오픈웨이트 LLM의 KV 캐시 축소·메모리 최적화·어텐션 비용 최소화를 통한 긴 컨텍스트 효율성 향상
 - [AI 보조 코딩에 대해 틀리는 열두 가지 방식](https://third-bit.com/2026/05/20/twelve-ways-to-be-wrong/)
-  AI 보조 코딩의 가치를 단순 지표로 환원하기 어려우며, 평가 방식에 따라 결론이 왜곡될 수 있음을 설명
-- [제품의 시대는 끝나고, 두뇌의 시대가 온다](https://mrmarket.bearblog.dev/products-are-out-brains-are-in-new/)
-  소프트웨어의 한계 생산비용이 0에 수렴하면서 구매 동기가 변화하고, 직접 구현 대신 시간과 유지보수 의지 부족이 구매 이유가 됨
-- [AI와 함께 일하며 복리처럼 쌓아 성장하는 법](https://eugeneyan.com/writing/working-with-ai/)
-  AI 협업의 다섯 가지 원칙(컨텍스트, 취향, 검증, 위임, 피드백)을 체계적으로 정리한 실무 가이드
+  AI 보조 코딩에 대한 개발자들의 흔한 오해와 잘못된 믿음 12가지를 짚어주는 글 (GeekNews 29점)
 
 ---
 ## 📅 이전 날짜
 
+- [2026-05-24](data/2026-05-24.md)
 - [2026-05-23](data/2026-05-23.md)
 - [2026-05-22](data/2026-05-22.md)
 - [2026-05-21](data/2026-05-21.md)
@@ -69,7 +70,3 @@
 - [2026-04-28](data/2026-04-28.md)
 - [2026-04-27](data/2026-04-27.md)
 - [2026-04-26](data/2026-04-26.md)
-- [2026-04-25](data/2026-04-25.md)
-- [2026-04-24](data/2026-04-24.md)
-- [2026-04-23](data/2026-04-23.md)
-- [2026-04-22](data/2026-04-22.md)
