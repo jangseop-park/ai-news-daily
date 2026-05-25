@@ -4,106 +4,106 @@
     {
       "name": "anthropics/knowledge-work-plugins",
       "url": "https://github.com/anthropics/knowledge-work-plugins",
-      "description": "지식 근로자를 위한 Claude Code 오픈소스 플러그인 모음",
-      "description_en": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Code"
+      "description": "지식 노동자를 위한 Claude 플러그인 오픈소스 모음",
+      "description_en": "Open source repository of plugins primarily intended for knowledge workers to use in Claude"
     },
     {
       "name": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "AI 엔지니어링을 처음부터 배우고 구현하고 배포하는 학습 자료",
+      "description": "AI 엔지니어링 처음부터 배우고 만들고 배포하기",
       "description_en": "Learn it. Build it. Ship it for others."
     },
     {
       "name": "mukul975/Anthropic-Cybersecurity-Skills",
       "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "description": "AI 에이전트를 위한 754개의 구조화된 사이버보안 스킬 (MITRE ATT&CK 등 5개 프레임워크 매핑)",
-      "description_en": "754 structured cybersecurity skills for AI agents mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF"
+      "description": "MITRE ATT&CK, NIST 등 프레임워크에 매핑된 사이버보안 기술 모음",
+      "description_en": "Comprehensive cybersecurity skills mapped to frameworks including MITRE ATT&CK and NIST, compatible with multiple AI platforms"
     },
     {
       "name": "Fincept-Corporation/FinceptTerminal",
       "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
-      "description": "고급 시장 분석, 투자 리서치, 경제 데이터 도구를 제공하는 현대적 금융 애플리케이션",
+      "description": "고급 시장 분석 및 투자 조사 도구를 제공하는 현대적 금융 앱",
       "description_en": "Modern finance application offering advanced market analytics, investment research, and economic data tools"
     },
     {
       "name": "paperless-ngx/paperless-ngx",
       "url": "https://github.com/paperless-ngx/paperless-ngx",
-      "description": "커뮤니티 지원 문서 관리 시스템 — 스캔, 색인, 아카이브 기능 포함",
-      "description_en": "Community-supported supercharged document management system: scan, index and archive all your documents"
+      "description": "문서 스캔·색인·보관을 위한 커뮤니티 기반 문서 관리 시스템",
+      "description_en": "A community-supported supercharged document management system: scan, index and archive all your documents"
     }
   ],
   "huggingface": [
     {
-      "title": "SkillOpt: 자기 진화형 에이전트 스킬을 위한 실행 전략",
+      "title": "SkillOpt: 자기 진화 에이전트 스킬을 위한 실행 전략",
       "title_en": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
       "url": "https://huggingface.co/papers/2605.23904",
-      "summary": "AI 에이전트가 스스로 스킬을 최적화하고 발전시키는 실행 전략 제안 (Microsoft Research)",
-      "summary_en": "Proposes executive strategies for AI agents to self-optimize and evolve their skills, from Microsoft Research"
+      "summary": "Microsoft Research가 자율 에이전트의 스킬을 최적화·진화시키는 실행 전략을 제안한 논문",
+      "summary_en": "Microsoft Research paper on optimizing and evolving agent skills through executive strategies for improved autonomous agent performance"
     },
     {
-      "title": "확산 트랜스포머에서 레이어 간 정보 라우팅 재고",
+      "title": "Diffusion Transformer의 레이어 간 정보 라우팅 재고",
       "title_en": "Rethinking Cross-Layer Information Routing in Diffusion Transformers",
       "url": "https://huggingface.co/papers/2605.20708",
-      "summary": "확산 트랜스포머 모델에서 레이어 간 정보 흐름 방식을 분석하고 통신 구조 개선을 제안",
-      "summary_en": "Analyzes information flow across layers in diffusion transformers and proposes cross-layer communication improvements"
+      "summary": "Diffusion Transformer에서 레이어 간 정보 흐름 최적화로 모델 효율성과 생성 품질을 향상시키는 연구",
+      "summary_en": "Research on optimizing information flow across layers in diffusion transformers, improving model efficiency and generation quality"
     },
     {
-      "title": "Lens: 기반 텍스트-이미지 모델의 학습 효율성 재고",
+      "title": "Lens: 기초 텍스트-이미지 모델의 학습 효율성 재고",
       "title_en": "Lens: Rethinking Training Efficiency for Foundational Text-to-Image Models",
       "url": "https://huggingface.co/papers/2605.21573",
-      "summary": "기반 텍스트-이미지 생성 모델의 학습 효율을 분석하고 개선하는 방법론 제시 (Microsoft)",
-      "summary_en": "Analyzes and improves training efficiency for foundational text-to-image generation models (Microsoft)"
+      "summary": "Microsoft가 기초 텍스트-이미지 생성 모델의 학습 효율성 개선 방안을 제시한 논문",
+      "summary_en": "Microsoft paper addressing training efficiency improvements for foundational text-to-image generation models"
     },
     {
       "title": "SciAtlas: 자동화된 과학 연구를 위한 대규모 지식 그래프",
       "title_en": "SciAtlas: A Large-Scale Knowledge Graph for Automated Scientific Research",
       "url": "https://huggingface.co/papers/2605.22878",
-      "summary": "자동화된 과학 연구 및 지식 발견을 지원하는 대규모 지식 그래프 (UCL)",
-      "summary_en": "Large-scale knowledge graph designed to support automated scientific research and knowledge discovery (UCL)"
+      "summary": "UCL이 자동화된 과학 연구를 지원하는 포괄적 지식 그래프 구축 방법을 제시한 연구",
+      "summary_en": "University College London research on building a comprehensive knowledge graph to support automated scientific research and discovery"
     },
     {
       "title": "StepAudio 2.5 기술 보고서",
       "title_en": "StepAudio 2.5 Technical Report",
       "url": "https://huggingface.co/papers/2605.23463",
-      "summary": "오디오 모델 StepAudio 2.5 기술 보고서 — 최신 오디오 생성 및 처리 성능 개선 내용",
-      "summary_en": "Technical report on StepAudio 2.5 detailing improvements in audio generation and processing"
+      "summary": "101명 이상의 저자가 참여한 다기관 협력 오디오 처리 시스템 StepAudio 2.5 기술 보고서",
+      "summary_en": "Technical report on StepAudio 2.5, an audio processing system with contributions from 101+ authors across multiple institutions"
     }
   ],
   "geeknews": [
     {
       "title": "Codex 활용 사례 모음 대폭 확장",
-      "title_en": "Codex Use Cases Significantly Expanded",
+      "title_en": "Codex Use Cases Greatly Expanded",
       "url": "https://developers.openai.com/codex/use-cases",
-      "summary": "OpenAI가 Codex 활용 사례를 12개에서 52개로 확장, 엔지니어링·디자인 영역까지 적용",
-      "summary_en": "OpenAI expanded Codex use cases from 12 to 52 examples, extending into engineering and design"
+      "summary": "OpenAI가 Codex 활용 사례 페이지를 12개에서 52개로 확장, 단순 코딩을 넘어 엔지니어링·디자인 영역까지 적용 범위 확대",
+      "summary_en": "OpenAI expanded its Codex use cases page from 12 to 52 examples, extending beyond simple coding into engineering and design domains"
     },
     {
-      "title": "microsoft/mimalloc — 고성능 범용 메모리 할당자",
-      "title_en": "microsoft/mimalloc — High-Performance General-Purpose Memory Allocator",
+      "title": "microsoft/mimalloc - 고성능 범용 메모리 할당자",
+      "title_en": "Microsoft mimalloc - High-Performance Memory Allocator",
       "url": "https://github.com/microsoft/mimalloc",
-      "summary": "jemalloc, tcmalloc을 능가하는 드롭인 방식의 고성능 메모리 할당자 (Microsoft 오픈소스)",
-      "summary_en": "High-performance drop-in memory allocator from Microsoft, outperforming jemalloc and tcmalloc"
+      "summary": "코드 수정 없이 사용 가능한 malloc 대체제로 jemalloc, tcmalloc 대비 더 빠른 성능과 더 적은 메모리 사용량 제공",
+      "summary_en": "A drop-in malloc replacement offering faster performance than jemalloc and tcmalloc while using less memory"
     },
     {
-      "title": "직접 만들지 말라 — 암호화를 넘어 웹 UI까지",
-      "title_en": "Do Not Roll Your Own — Beyond Cryptography to Web UI",
+      "title": "직접 만들지 말라",
+      "title_en": "Do Not Roll Your Own",
       "url": "https://susam.net/do-not-roll-your-own.html",
-      "summary": "불필요한 재구현을 지양하라는 원칙이 암호화뿐 아니라 웹 UI 개발에도 동일하게 적용됨",
-      "summary_en": "The principle of avoiding unnecessary reimplementation applies equally to web UI development, not just cryptography"
+      "summary": "암호학을 넘어 웹 UI 설계에도 적용되는 원칙: 브라우저 기본 기능을 불필요하게 재구현하지 말 것",
+      "summary_en": "The principle extends beyond cryptography to web UI design, cautioning against unnecessarily replacing stable browser-provided functionality"
     },
     {
       "title": "AI는 기존 기술 역량에 곱셈 효과를 준다",
-      "title_en": "AI Acts as a Multiplier on Existing Technical Skills",
+      "title_en": "AI Multiplies Existing Technical Capabilities",
       "url": "https://www.joshwcomeau.com/email/wham-launch-005-elephant-2-p/",
-      "summary": "AI는 개발자를 대체하는 게 아니라 생산성을 증폭시키며, 기존 역량이 높을수록 효과가 배가됨",
-      "summary_en": "AI amplifies productivity rather than replacing developers; the effect multiplies with existing technical capabilities"
+      "summary": "LLM은 개발자 스킬을 대체하지 않고 증폭시키며, 기존 역량이 높을수록 AI 활용 효과도 더 크다",
+      "summary_en": "LLM models augment developer skills rather than replacing them, functioning as amplification tools for existing technical competencies"
     },
     {
-      "title": "Flue — 샌드박스 에이전트 프레임워크",
-      "title_en": "Flue — Sandboxed Agent Framework",
+      "title": "Flue - 샌드박스 에이전트 프레임워크",
+      "title_en": "Flue - Sandbox Agent Framework",
       "url": "https://flueframework.com/",
-      "summary": "Claude Code, Codex 등 코딩 에이전트를 위한 TypeScript 기반 헤드리스 샌드박스 프레임워크",
-      "summary_en": "TypeScript-based headless sandbox framework for coding agents like Claude Code and Codex"
+      "summary": "Claude Code 같은 코딩 에이전트 경험을 완전히 헤드리스·프로그래머블 방식으로 재구현한 TypeScript 기반 에이전트 하네스",
+      "summary_en": "A TypeScript-based agent harness framework that reimagines coding agent experiences in fully headless and programmable formats"
     }
   ]
 }
