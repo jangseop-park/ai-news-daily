@@ -4,92 +4,92 @@
     {
       "name": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "AI 시스템을 처음부터 학습, 구축, 배포하기 위한 교육 리소스",
-      "description_en": "Educational resource for learning, building, and deploying AI systems from scratch"
+      "description": "AI 엔지니어링을 처음부터 배우고 구축하여 배포하는 실습형 학습 레포",
+      "description_en": "Learn it. Build it. Ship it for others."
     },
     {
       "name": "anthropics/knowledge-work-plugins",
       "url": "https://github.com/anthropics/knowledge-work-plugins",
-      "description": "지식 근로자가 Claude Code에서 활용할 수 있도록 설계된 오픈소스 플러그인 모음",
-      "description_en": "Open source repository of plugins designed for knowledge workers to use in Claude Code"
+      "description": "지식 작업자가 Claude와 함께 사용할 수 있는 오픈소스 플러그인 모음",
+      "description_en": "Open source collection of plugins designed for knowledge workers to use with Claude"
     },
     {
       "name": "mukul975/Anthropic-Cybersecurity-Skills",
       "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "description": "MITRE ATT&CK, NIST 등 주요 프레임워크에 매핑된 구조화된 사이버보안 스킬 체계",
-      "description_en": "Structured cybersecurity skills framework mapped to MITRE ATT&CK, NIST, and other standards"
-    },
-    {
-      "name": "microsoft/agent-governance-toolkit",
-      "url": "https://github.com/microsoft/agent-governance-toolkit",
-      "description": "정책 시행, 제로트러스트 인증, 샌드박싱을 포함하는 AI 에이전트 거버넌스 프레임워크",
-      "description_en": "AI agent governance framework covering policy enforcement, zero-trust identity, and sandboxing"
+      "description": "AI 에이전트를 위한 754개의 구조화된 사이버보안 스킬 · 5개 프레임워크 매핑",
+      "description_en": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks"
     },
     {
       "name": "st-tech/ppf-contact-solver",
       "url": "https://github.com/st-tech/ppf-contact-solver",
-      "description": "쉘, 솔리드, 로드를 포함하는 물리 기반 시뮬레이션용 접촉 솔버",
-      "description_en": "Contact solver for physics-based simulations involving shells, solids, and rods"
+      "description": "셸, 솔리드, 막대를 포함한 물리 기반 시뮬레이션을 위한 접촉 솔버",
+      "description_en": "A contact solver for physics-based simulations involving shells, solids and rods"
+    },
+    {
+      "name": "microsoft/agent-governance-toolkit",
+      "url": "https://github.com/microsoft/agent-governance-toolkit",
+      "description": "자율 AI 에이전트를 위한 정책 집행, 제로트러스트 ID, 실행 샌드박싱 툴킷",
+      "description_en": "Toolkit providing policy enforcement, zero-trust identity, and execution sandboxing for autonomous AI agents"
     }
   ],
   "huggingface": [
     {
-      "title": "TriSplat: 시뮬레이션 준비가 된 피드포워드 3D 장면 재구성",
-      "title_en": "TriSplat: Simulation-Ready Feed-Forward 3D Scene Reconstruction",
-      "url": "https://huggingface.co/papers/2605.26115",
-      "summary": "시뮬레이션 환경에 최적화된 피드포워드 방식의 3D 장면 재구성 — 반복 최적화 없이 실시간 적용 가능",
-      "summary_en": "Feed-forward 3D scene reconstruction optimized for simulation environments without iterative optimization"
-    },
-    {
-      "title": "WBench: 인터랙티브 비디오 월드 모델 평가를 위한 멀티턴 벤치마크",
-      "title_en": "WBench: A Comprehensive Multi-turn Benchmark for Interactive Video World Model Evaluation",
-      "url": "https://huggingface.co/papers/2605.25874",
-      "summary": "멀티턴 인터랙션 환경에서 비디오 월드 모델의 예측 및 이해 능력을 체계적으로 평가하는 벤치마크",
-      "summary_en": "Benchmark for evaluating interactive video world models across multiple interaction turns"
-    },
-    {
-      "title": "DVAO: 다중 보상 강화학습을 위한 동적 분산 적응 이점 최적화",
+      "title": "DVAO: 다중 보상 강화학습을 위한 동적 분산 적응형 이점 최적화",
       "title_en": "DVAO: Dynamic Variance-adaptive Advantage Optimization for Multi-reward Reinforcement Learning",
       "url": "https://huggingface.co/papers/2605.25604",
-      "summary": "다중 보상 신호를 동적으로 분산 조정해 상충하는 보상 목표 간 균형 문제를 해결하는 강화학습 방법론",
-      "summary_en": "RL method dynamically adapting variance in advantage optimization to handle multiple conflicting reward signals"
+      "summary": "다중 보상 신호가 있는 환경에서 학습 안정성과 수렴을 개선하는 동적 분산 적응형 강화학습 기법",
+      "summary_en": "A reinforcement learning approach that implements dynamic variance-adaptive advantage optimization for scenarios involving multiple reward signals, improving learning stability and convergence."
+    },
+    {
+      "title": "WBench: 인터랙티브 비디오 월드 모델 평가를 위한 포괄적 멀티턴 벤치마크",
+      "title_en": "WBench: A Comprehensive Multi-turn Benchmark for Interactive Video World Model Evaluation",
+      "url": "https://huggingface.co/papers/2605.25874",
+      "summary": "멀티턴 상호작용을 통해 인터랙티브 비디오 월드 모델을 평가하는 종합 벤치마크",
+      "summary_en": "A comprehensive benchmark designed to evaluate interactive video world models through multi-turn interactions, enabling better assessment of video generation and understanding capabilities."
     },
     {
       "title": "Macaron-A2UI: 개인 에이전트를 위한 생성형 UI 모델",
       "title_en": "Macaron-A2UI: A Model for Generative UI in Personal Agents",
       "url": "https://huggingface.co/papers/2605.24830",
-      "summary": "태스크 요구에 따라 UI 요소를 동적으로 생성하는 개인 에이전트용 생성형 모델",
-      "summary_en": "Generative model enabling personal agents to dynamically create appropriate UI elements based on task requirements"
+      "summary": "개인 에이전트 시스템에서 작업 요구사항에 따라 동적으로 UI를 생성하는 생성형 모델",
+      "summary_en": "Presents a generative model for creating user interfaces in personal agent systems, enabling dynamic UI generation based on task requirements."
     },
     {
-      "title": "Foundation Protocol: 에이전트 사회를 위한 조율 레이어",
+      "title": "Foundation Protocol: 에이전트 사회를 위한 조정 계층",
       "title_en": "Foundation Protocol: A Coordination Layer for Agentic Society",
       "url": "https://huggingface.co/papers/2605.23218",
-      "summary": "여러 자율 에이전트가 공유 환경에서 효과적으로 협력하도록 하는 표준화된 조율 프레임워크",
-      "summary_en": "Standardized coordination framework enabling multiple autonomous agents to cooperate effectively in shared environments"
+      "summary": "복잡한 다중 에이전트 환경에서 여러 AI 에이전트가 효과적으로 협력할 수 있게 하는 조정 프로토콜 제안",
+      "summary_en": "Proposes a coordination protocol designed to enable multiple AI agents to work together effectively in complex multi-agent environments."
+    },
+    {
+      "title": "TriSplat: 시뮬레이션 준비 피드포워드 3D 장면 재구성",
+      "title_en": "TriSplat: Simulation-Ready Feed-Forward 3D Scene Reconstruction",
+      "url": "https://huggingface.co/papers/2605.26115",
+      "summary": "시뮬레이션 환경에 최적화된 빠르고 효율적인 피드포워드 3D 장면 재구성 방법",
+      "summary_en": "A feed-forward 3D scene reconstruction method optimized for simulation environments, enabling fast and efficient scene understanding."
     }
   ],
   "geeknews": [
     {
-      "title": "OpenAI Codex 사용 사례 대폭 확장 (12개 → 52개)",
-      "title_en": "Codex Use Cases Expanded Significantly (12 → 52)",
-      "url": "https://developers.openai.com/codex/use-cases",
-      "summary": "OpenAI가 Codex 사용 사례를 12개에서 52개로 확장 — 엔지니어링·디자인 전 도메인 아우름",
-      "summary_en": "OpenAI expanded Codex use cases from 12 to 52, covering engineering and design domains beyond basic coding"
-    },
-    {
-      "title": "AI로 코드를 더 느리지만 더 잘 작성하기",
+      "title": "AI를 사용해 더 나은 코드를 더 천천히 작성하기",
       "title_en": "Using AI to Write Better Code More Slowly",
       "url": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/",
-      "summary": "빠른 코드 생성보다 상세한 PR 리뷰를 통해 코드 품질을 높이는 AI 활용 방식 제안",
-      "summary_en": "Advocates quality-first AI usage via detailed PR reviews over rapid generation of low-quality code"
+      "summary": "LLM 에이전트가 빠른 저품질 생성을 넘어 깊이 있는 코드 리뷰와 품질 개선을 지원하는 방법 탐구",
+      "summary_en": "Explores how LLM agents can support deep code reviews and quality improvements, moving beyond rapid low-quality generation."
     },
     {
-      "title": "CodeGraph — AI 코딩 에이전트를 위한 코드 지식 그래프",
-      "title_en": "CodeGraph — Knowledge Graph for AI Coding Agents",
+      "title": "Codex, 활용 사례 모음 대폭 확장",
+      "title_en": "Codex: Expanded Collection of Use Cases",
+      "url": "https://developers.openai.com/codex/use-cases",
+      "summary": "OpenAI가 Codex 활용 사례를 12개에서 52개로 확장, 기본 코딩 지원을 넘어 엔지니어링과 디자인 분야까지",
+      "summary_en": "OpenAI expanded Codex use cases from 12 to 52 examples, demonstrating applications across engineering and design beyond basic coding assistance."
+    },
+    {
+      "title": "CodeGraph - AI 코딩 에이전트를 위한 코드 지식 그래프",
+      "title_en": "CodeGraph - Code Knowledge Graph for AI Coding Agents",
       "url": "https://github.com/colbymchenry/codegraph",
-      "summary": "에이전트 코드 탐색을 가속화하는 시맨틱 지식 그래프 — 비용 35% 절감, 토큰 59% 감소",
-      "summary_en": "Semantic code knowledge graph accelerating AI agent code exploration — 35% cost and 59% token reduction"
+      "summary": "Claude, Codex, Cursor의 코드 탐색을 가속화하는 의미론적 지식 그래프 도구 — 비용 35% 감소, 토큰 59% 절감",
+      "summary_en": "Semantic knowledge graph tool accelerating code exploration for Claude, Codex, and Cursor with 35% cost reduction and 59% fewer tokens."
     }
   ]
 }
