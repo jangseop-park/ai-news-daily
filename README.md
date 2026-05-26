@@ -6,33 +6,33 @@
 
 ## 🔥 GitHub Trending (Python)
 
-- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 시스템을 처음부터 학습, 구축, 배포하기 위한 교육 리소스
-- [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins): 지식 근로자가 Claude Code에서 활용할 수 있도록 설계된 오픈소스 플러그인 모음
-- [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): MITRE ATT&CK, NIST 등 주요 프레임워크에 매핑된 구조화된 사이버보안 스킬 체계
-- [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit): 정책 시행, 제로트러스트 인증, 샌드박싱을 포함하는 AI 에이전트 거버넌스 프레임워크
-- [st-tech/ppf-contact-solver](https://github.com/st-tech/ppf-contact-solver): 쉘, 솔리드, 로드를 포함하는 물리 기반 시뮬레이션용 접촉 솔버
+- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링을 처음부터 배우고 구축하여 배포하는 실습형 학습 레포
+- [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins): 지식 작업자가 Claude와 함께 사용할 수 있는 오픈소스 플러그인 모음
+- [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): AI 에이전트를 위한 754개의 구조화된 사이버보안 스킬 · 5개 프레임워크 매핑
+- [st-tech/ppf-contact-solver](https://github.com/st-tech/ppf-contact-solver): 셸, 솔리드, 막대를 포함한 물리 기반 시뮬레이션을 위한 접촉 솔버
+- [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit): 자율 AI 에이전트를 위한 정책 집행, 제로트러스트 ID, 실행 샌드박싱 툴킷
 
 ## 📄 Hugging Face Papers
 
-- [TriSplat: 시뮬레이션 준비가 된 피드포워드 3D 장면 재구성](https://huggingface.co/papers/2605.26115)
-  시뮬레이션 환경에 최적화된 피드포워드 방식의 3D 장면 재구성 — 반복 최적화 없이 실시간 적용 가능
-- [WBench: 인터랙티브 비디오 월드 모델 평가를 위한 멀티턴 벤치마크](https://huggingface.co/papers/2605.25874)
-  멀티턴 인터랙션 환경에서 비디오 월드 모델의 예측 및 이해 능력을 체계적으로 평가하는 벤치마크
-- [DVAO: 다중 보상 강화학습을 위한 동적 분산 적응 이점 최적화](https://huggingface.co/papers/2605.25604)
-  다중 보상 신호를 동적으로 분산 조정해 상충하는 보상 목표 간 균형 문제를 해결하는 강화학습 방법론
+- [DVAO: 다중 보상 강화학습을 위한 동적 분산 적응형 이점 최적화](https://huggingface.co/papers/2605.25604)
+  다중 보상 신호가 있는 환경에서 학습 안정성과 수렴을 개선하는 동적 분산 적응형 강화학습 기법
+- [WBench: 인터랙티브 비디오 월드 모델 평가를 위한 포괄적 멀티턴 벤치마크](https://huggingface.co/papers/2605.25874)
+  멀티턴 상호작용을 통해 인터랙티브 비디오 월드 모델을 평가하는 종합 벤치마크
 - [Macaron-A2UI: 개인 에이전트를 위한 생성형 UI 모델](https://huggingface.co/papers/2605.24830)
-  태스크 요구에 따라 UI 요소를 동적으로 생성하는 개인 에이전트용 생성형 모델
-- [Foundation Protocol: 에이전트 사회를 위한 조율 레이어](https://huggingface.co/papers/2605.23218)
-  여러 자율 에이전트가 공유 환경에서 효과적으로 협력하도록 하는 표준화된 조율 프레임워크
+  개인 에이전트 시스템에서 작업 요구사항에 따라 동적으로 UI를 생성하는 생성형 모델
+- [Foundation Protocol: 에이전트 사회를 위한 조정 계층](https://huggingface.co/papers/2605.23218)
+  복잡한 다중 에이전트 환경에서 여러 AI 에이전트가 효과적으로 협력할 수 있게 하는 조정 프로토콜 제안
+- [TriSplat: 시뮬레이션 준비 피드포워드 3D 장면 재구성](https://huggingface.co/papers/2605.26115)
+  시뮬레이션 환경에 최적화된 빠르고 효율적인 피드포워드 3D 장면 재구성 방법
 
 ## 🦉 GeekNews
 
-- [OpenAI Codex 사용 사례 대폭 확장 (12개 → 52개)](https://developers.openai.com/codex/use-cases)
-  OpenAI가 Codex 사용 사례를 12개에서 52개로 확장 — 엔지니어링·디자인 전 도메인 아우름
-- [AI로 코드를 더 느리지만 더 잘 작성하기](https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/)
-  빠른 코드 생성보다 상세한 PR 리뷰를 통해 코드 품질을 높이는 AI 활용 방식 제안
-- [CodeGraph — AI 코딩 에이전트를 위한 코드 지식 그래프](https://github.com/colbymchenry/codegraph)
-  에이전트 코드 탐색을 가속화하는 시맨틱 지식 그래프 — 비용 35% 절감, 토큰 59% 감소
+- [AI를 사용해 더 나은 코드를 더 천천히 작성하기](https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/)
+  LLM 에이전트가 빠른 저품질 생성을 넘어 깊이 있는 코드 리뷰와 품질 개선을 지원하는 방법 탐구
+- [Codex, 활용 사례 모음 대폭 확장](https://developers.openai.com/codex/use-cases)
+  OpenAI가 Codex 활용 사례를 12개에서 52개로 확장, 기본 코딩 지원을 넘어 엔지니어링과 디자인 분야까지
+- [CodeGraph - AI 코딩 에이전트를 위한 코드 지식 그래프](https://github.com/colbymchenry/codegraph)
+  Claude, Codex, Cursor의 코드 탐색을 가속화하는 의미론적 지식 그래프 도구 — 비용 35% 감소, 토큰 59% 절감
 
 ---
 ## 📅 이전 날짜
