@@ -1,0 +1,109 @@
+{
+  "date": "2026-05-28",
+  "github_trending": [
+    {
+      "name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "AI 대형 언어 모델을 활용해 클릭 한 번으로 고화질 쇼트 비디오를 자동 생성하는 도구",
+      "description_en": "Generate high-quality short videos with one click using AI large language models"
+    },
+    {
+      "name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "지식 근로자를 위한 Claude 연동 오픈소스 플러그인 모음 — 시각적 워크플로우 및 MCP 네이티브 지원",
+      "description_en": "Open source plugins for knowledge workers to integrate with Claude, featuring visual workflow and MCP native support"
+    },
+    {
+      "name": "p-e-w/heretic",
+      "url": "https://github.com/p-e-w/heretic",
+      "description": "언어 모델의 검열을 완전 자동으로 제거하는 도구",
+      "description_en": "Fully automatic censorship removal for language models"
+    },
+    {
+      "name": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "금융 시장 언어를 위한 파운데이션 모델 — Kronos",
+      "description_en": "Kronos: A foundation model for the language of financial markets"
+    },
+    {
+      "name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "MITRE ATT&CK, NIST CSF 2.0 등 5대 표준에 매핑된 AI 에이전트용 사이버보안 스킬 프레임워크",
+      "description_en": "Cybersecurity skills framework mapped to five major standards for AI agents"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "LocateAnything: 병렬 박스 디코딩을 활용한 빠르고 고품질 비전-언어 그라운딩",
+      "title_en": "LocateAnything: Fast and High-Quality Vision-Language Grounding with Parallel Box Decoding",
+      "url": "https://huggingface.co/papers/2605.27365",
+      "summary": "NVIDIA가 제안한 비전-언어 그라운딩 방법 — 병렬 박스 디코딩으로 이미지 내 객체를 빠르고 정확하게 위치 지정",
+      "summary_en": "NVIDIA paper using parallel box decoding for fast and accurate vision-language object localization"
+    },
+    {
+      "title": "EvalVerse: 전문 영화적 비디오 생성을 위한 벤치마킹 프레임워크",
+      "title_en": "EvalVerse: Pipeline-Aware and Expert-Calibrated Benchmarking for Professional Cinematic Video Generation",
+      "url": "https://huggingface.co/papers/2605.23271",
+      "summary": "Tencent가 발표한 전문 영화 품질 비디오 생성 평가 프레임워크 — 파이프라인 인식·전문가 보정 결합",
+      "summary_en": "Tencent benchmarking framework for cinematic video generation combining pipeline awareness and expert calibration"
+    },
+    {
+      "title": "SpatialBench: 공간 파운데이션 모델은 만능 플레이어인가?",
+      "title_en": "SpatialBench: Is Your Spatial Foundation Model an All-Round Player?",
+      "url": "https://huggingface.co/papers/2605.27367",
+      "summary": "공간 파운데이션 모델이 다양한 공간 이해·추론 작업을 수행하는 능력을 종합 평가하는 벤치마크",
+      "summary_en": "Benchmark comprehensively evaluating spatial foundation models across diverse spatial understanding and reasoning tasks"
+    },
+    {
+      "title": "MobileGym: 모바일 GUI 에이전트 연구를 위한 검증 가능한 고병렬 시뮬레이션 플랫폼",
+      "title_en": "MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research",
+      "url": "https://huggingface.co/papers/2605.26114",
+      "summary": "모바일 GUI 에이전트 개발 및 테스트를 위한 검증 가능하고 고도로 병렬화된 시뮬레이션 플랫폼",
+      "summary_en": "Simulation platform for mobile GUI agent research with verifiable metrics and highly parallel execution"
+    },
+    {
+      "title": "강건한 다중 뷰 3D 재구성을 위한 기하학 인식 표현 디노이징",
+      "title_en": "Geometry-Aware Representation Denoising for Robust Multi-view 3D Reconstruction",
+      "url": "https://huggingface.co/papers/2605.26230",
+      "summary": "KAIST AI 논문 — 기하학 인식 디노이징 기법으로 다중 시점 3D 재구성 정확도·강건성 향상",
+      "summary_en": "KAIST AI paper improving multi-view 3D reconstruction accuracy and robustness via geometry-aware denoising"
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "Codex 활용 사례 대폭 확장 (12개 → 52개)",
+      "title_en": "Codex Use Cases Significantly Expanded (12 → 52)",
+      "url": "https://developers.openai.com/codex/use-cases",
+      "summary": "OpenAI가 Codex 활용 사례를 12개에서 52개로 확장 — 엔지니어링·디자인 전 도메인 아우름",
+      "summary_en": "OpenAI expanded Codex use cases from 12 to 52, covering engineering and design domains"
+    },
+    {
+      "title": "AI로 코드를 더 느리지만 더 잘 작성하기",
+      "title_en": "Using AI to Write Better Code More Slowly",
+      "url": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/",
+      "summary": "LLM 에이전트를 빠른 코드 생성이 아닌 깊이 있는 PR 리뷰에 활용해 코드 품질을 높이는 접근법",
+      "summary_en": "Using LLM agents for deep PR reviews rather than rapid code generation to prioritize quality"
+    },
+    {
+      "title": "Claude는 당신의 아키텍트가 아니다",
+      "title_en": "Claude Is Not Your Architect",
+      "url": "https://www.hollandtech.net/claude-is-not-your-architect/",
+      "summary": "AI 코딩 도구에 아키텍처 결정을 맡기는 것의 위험성 — 소프트웨어 설계 책임은 개발자에게 있다",
+      "summary_en": "Warning against delegating architectural decisions to AI tools; software design responsibility must remain with developers"
+    },
+    {
+      "title": "CodeGraph — AI 코딩 에이전트를 위한 코드 지식 그래프",
+      "title_en": "CodeGraph: Code Knowledge Graph for AI Coding Agents",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "summary": "코드베이스 구조를 지식 그래프로 표현해 AI 코딩 에이전트가 코드를 더 잘 이해하도록 돕는 오픈소스 도구",
+      "summary_en": "Open source tool representing codebase structure as a knowledge graph to help AI agents navigate code"
+    },
+    {
+      "title": "OpenHuman — 개인용 AI 슈퍼 인텔리전스",
+      "title_en": "OpenHuman: Personal AI Super Intelligence",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "summary": "개인 사용자를 위한 AI 슈퍼 인텔리전스를 목표로 하는 오픈소스 프로젝트",
+      "summary_en": "Open source project aiming to deliver personal AI super intelligence for individual users"
+    }
+  ]
+}
