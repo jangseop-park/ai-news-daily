@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-05-28
+> 마지막 업데이트: 2026-05-29
 
-# AI 뉴스 — 2026-05-28
+# AI 뉴스 — 2026-05-29
 
 ## 🔥 GitHub Trending (Python)
 
-- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo): AI 대형 언어 모델을 활용하여 한 번의 클릭으로 고화질 단편 영상을 생성합니다.
-- [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins): 지식 노동자들이 Claude.ai에서 사용할 수 있도록 설계된 플러그인 오픈소스 저장소.
-- [p-e-w/heretic](https://github.com/p-e-w/heretic): 언어 모델의 검열을 완전 자동으로 제거합니다.
-- [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos): Kronos: 금융 시장의 언어를 위한 파운데이션 모델
-- [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): AI 에이전트를 위한 754개의 구조화된 사이버보안 기술 목록 — MITRE ATT&CK 등 5개 프레임워크 매핑
+- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo): AI 대형 언어모델을 활용해 한 번의 클릭으로 고화질 단편 영상을 생성하는 도구
+- [microsoft/markitdown](https://github.com/microsoft/markitdown): 파일 및 오피스 문서를 마크다운 형식으로 변환하는 파이썬 유틸리티
+- [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai): LLM 친화적인 오픈소스 웹 크롤러 및 스크래퍼
+- [anthropics/skills](https://github.com/anthropics/skills): AI 에이전트를 위한 실행 가능한 기술(스킬) 모음 공개 저장소
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): 사용자와 함께 성장하고 적응하도록 설계된 지능형 에이전트 플랫폼
 
 ## 📄 Hugging Face Papers
 
-- [LocateAnything: 병렬 박스 디코딩을 이용한 빠르고 고품질의 비전-언어 그라운딩](https://huggingface.co/papers/2605.27365)
-  NVIDIA 연구진이 제안한 비전-언어 그라운딩 방법으로, 병렬 박스 디코딩을 통해 자연어로 설명된 객체를 이미지 내에서 빠르고 정확하게 위치 파악.
-- [EvalVerse: 전문 영상 생성 모델을 위한 파이프라인 인식·전문가 보정 벤치마크](https://huggingface.co/papers/2605.23271)
-  Tencent 연구팀이 제안한 영화적 영상 생성 모델 평가 프레임워크. 파이프라인 구조와 전문가 판단을 반영한 지표로 종합 평가.
-- [SpatialBench: 공간 파운데이션 모델은 만능 선수인가?](https://huggingface.co/papers/2605.27367)
-  다양한 공간 추론 과제에 걸쳐 공간 파운데이션 모델을 평가하는 벤치마크. 모델의 범용성을 종합적으로 측정.
-- [MobileGym: 모바일 GUI 에이전트 연구를 위한 검증 가능하고 고병렬성의 시뮬레이션 플랫폼](https://huggingface.co/papers/2605.26114)
-  모바일 GUI 에이전트의 검증 가능한 병렬 테스트를 가능하게 하는 시뮬레이션 플랫폼. 대규모 효율적 평가 지원.
-- [강건한 다중 뷰 3D 재구성을 위한 기하 인식 표현 디노이징](https://huggingface.co/papers/2605.26230)
-  KAIST AI 연구팀이 제안한 다중 뷰 3D 재구성 방법으로 기하학적 제약을 표현 처리에 통합해 노이즈에 강건한 3D 재구성 달성.
+- [감마-월드: 두 플레이어를 넘어선 생성형 멀티에이전트 월드 모델링](https://huggingface.co/papers/2605.28816)
+  두 명 이상의 플레이어가 참여하는 멀티에이전트 환경에서 생성형 월드 모델링을 수행하는 방법론 (NVIDIA)
+- [ProRL: 정류된 정책 그래디언트 추정을 통한 프로액티브 추천 강화학습](https://huggingface.co/papers/2605.28293)
+  정류된 정책 그래디언트 추정 기법으로 추천 시스템 강화학습 효율을 높이는 방법 (복단대)
+- [멀티모달 에이전틱 추론을 위한 에이전트 탐색적 정책 최적화](https://huggingface.co/papers/2605.28774)
+  멀티모달 환경에서 에이전트의 탐색적 정책 최적화로 복잡한 추론 능력 향상 (NVIDIA)
+- [픽셀에서 단어로: 대규모 네이티브 원-비전 모델을 향하여](https://huggingface.co/papers/2605.28820)
+  픽셀 입력을 직접 텍스트 출력으로 변환하는 원-비전 모델을 대규모로 개발하는 방법론
+- [양방향 진화 탐색을 통한 자기개선 언어 모델](https://huggingface.co/papers/2605.28814)
+  양방향 진화 탐색 기법으로 언어 모델이 스스로를 반복적으로 개선하는 방법 (하버드)
 
 ## 🦉 GeekNews
 
-- [AI를 사용해 더 나은 코드를 더 천천히 작성하기](https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/)
-  AI 코딩을 '빠른 대량 생산'이 아닌 '깊이 있는 검토를 통한 고품질 코드 작성'으로 재정의. Claude, Codex, Cursor Bugbot 병행 활용 PR 교차 검토 워크플로우 제안.
-- [Claude는 당신의 아키텍트가 아니다. 그런 척하게 두지 말라](https://www.hollandtech.net/claude-is-not-your-architect/)
-  AI를 시스템 아키텍트로 활용하는 것에 대한 경고. AI는 진정한 아키텍처 판단이 아닌 패턴 매칭된 응답을 생성할 뿐이며, 인간이 설계 담당해야 한다고 주장.
-- [OpenHuman - 개인용 AI 슈퍼 인텔리전스](https://github.com/tinyhumansai/openhuman)
-  일상에 통합되는 오픈소스 AI 에이전트. Google Meet 참여 데스크탑 마스코트, 수 주 기억 유지, 118개+ OAuth 연동, 로컬 우선 지식베이스, Ollama 로컬 AI 지원.
-- [CodeGraph - AI 코딩 에이전트를 위한 코드 지식 그래프](https://github.com/colbymchenry/codegraph)
-  Claude Code, Codex, Cursor 등 AI 에이전트의 코드 탐색 가속화. 35% 비용 절감, 59% 토큰 감소, 49% 속도 향상. 19개 언어 지원, SQLite 기반 로컬 실행.
-- [Figma 디자인 에이전트 공개](https://www.figma.com/blog/the-figma-agent-is-here/)
-  Figma 네이티브 디자인 에이전트 공개. 디자인 시스템 컴포넌트·토큰 이해, 병렬 프롬프팅으로 동시 아이디어 탐색, 반복 작업 자동화. Professional 이상 플랜 베타 제공.
+- [좋아하는 개발자 도구는 무엇인가요?](https://lobste.rs/s/2jdvxa/what_are_some_your_favourite_developer)
+  Helix, Emacs, Neovim, Sublime Text, Zed, JetBrains 등 개발자 에디터 선호도 커뮤니티 토론
+- [기술 CEO들이 AI 과대망상에 빠지고 있다](https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis/)
+  프로토타입 수준 경험만으로 AI가 실제 업무를 전면 대체할 수 있다고 과신하는 CEO들을 비판
+- [외주 인력 + 로컬 AI 조합이 프론티어 랩보다 경제적이 될 것](https://www.signalbloom.ai/posts/outsourcing-plus-localai-will-soon-become-more-economical-vs-frontier-labs/)
+  AI API 비용 상승으로 저비용 엔지니어 + DeepSeek 같은 오픈소스 모델 조합이 경제적 대안으로 부상
+- [AI로 코드를 더 느리지만 더 잘 작성하기](https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/)
+  AI를 빠른 대량 생성이 아닌 PR 심층 리뷰를 통한 고품질 코드 개선 도구로 활용하는 접근법
+- [CodeGraph — AI 코딩 에이전트를 위한 코드 지식 그래프](https://github.com/colbymchenry/codegraph)
+  사전 인덱싱된 시맨틱 코드 그래프로 AI 코딩 에이전트 성능 개선 — 비용 35%, 토큰 59% 절감
 
 ---
 ## 📅 이전 날짜
 
+- [2026-05-28](data/2026-05-28.md)
 - [2026-05-27](data/2026-05-27.md)
 - [2026-05-26](data/2026-05-26.md)
 - [2026-05-25](data/2026-05-25.md)
@@ -69,4 +70,3 @@
 - [2026-05-02](data/2026-05-02.md)
 - [2026-05-01](data/2026-05-01.md)
 - [2026-04-30](data/2026-04-30.md)
-- [2026-04-29](data/2026-04-29.md)
