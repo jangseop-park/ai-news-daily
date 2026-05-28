@@ -1,0 +1,109 @@
+{
+  "date": "2026-05-29",
+  "github_trending": [
+    {
+      "name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "AI 대형 언어모델을 활용해 한 번의 클릭으로 고화질 단편 영상을 생성하는 도구",
+      "description_en": "Tool for generating high-definition short videos with a single click using AI large language models"
+    },
+    {
+      "name": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "파일 및 오피스 문서를 마크다운 형식으로 변환하는 파이썬 유틸리티",
+      "description_en": "Python utility that transforms various file formats and office documents into Markdown"
+    },
+    {
+      "name": "unclecode/crawl4ai",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "description": "LLM 친화적인 오픈소스 웹 크롤러 및 스크래퍼",
+      "description_en": "Open-source web crawler and scraper designed to be compatible with large language models"
+    },
+    {
+      "name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "AI 에이전트를 위한 실행 가능한 기술(스킬) 모음 공개 저장소",
+      "description_en": "Public repository containing executable agent skills for AI applications"
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "사용자와 함께 성장하고 적응하도록 설계된 지능형 에이전트 플랫폼",
+      "description_en": "An intelligent agent platform designed to evolve and adapt with user interactions"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "감마-월드: 두 플레이어를 넘어선 생성형 멀티에이전트 월드 모델링",
+      "title_en": "Gamma-World: Generative Multi-Agent World Modeling Beyond Two Players",
+      "url": "https://huggingface.co/papers/2605.28816",
+      "summary": "두 명 이상의 플레이어가 참여하는 멀티에이전트 환경에서 생성형 월드 모델링을 수행하는 방법론 (NVIDIA)",
+      "summary_en": "Generative multi-agent world modeling extending beyond two-player scenarios to multi-agent environments (NVIDIA)"
+    },
+    {
+      "title": "ProRL: 정류된 정책 그래디언트 추정을 통한 프로액티브 추천 강화학습",
+      "title_en": "ProRL: Effective Reinforcement Learning for Proactive Recommendation via Rectified Policy Gradient Estimation",
+      "url": "https://huggingface.co/papers/2605.28293",
+      "summary": "정류된 정책 그래디언트 추정 기법으로 추천 시스템 강화학습 효율을 높이는 방법 (복단대)",
+      "summary_en": "Rectified policy gradient estimation to improve RL efficiency in proactive recommendation systems (Fudan)"
+    },
+    {
+      "title": "멀티모달 에이전틱 추론을 위한 에이전트 탐색적 정책 최적화",
+      "title_en": "Agent Explorative Policy Optimization for Multimodal Agentic Reasoning",
+      "url": "https://huggingface.co/papers/2605.28774",
+      "summary": "멀티모달 환경에서 에이전트의 탐색적 정책 최적화로 복잡한 추론 능력 향상 (NVIDIA)",
+      "summary_en": "Explorative policy optimization to enhance complex reasoning in multimodal agentic environments (NVIDIA)"
+    },
+    {
+      "title": "픽셀에서 단어로: 대규모 네이티브 원-비전 모델을 향하여",
+      "title_en": "From Pixels to Words: Towards Native One-Vision Models at Scale",
+      "url": "https://huggingface.co/papers/2605.28820",
+      "summary": "픽셀 입력을 직접 텍스트 출력으로 변환하는 원-비전 모델을 대규모로 개발하는 방법론",
+      "summary_en": "Methodologies for developing native one-vision models at scale enabling direct pixel-to-text conversion"
+    },
+    {
+      "title": "양방향 진화 탐색을 통한 자기개선 언어 모델",
+      "title_en": "Self-Improving Language Models with Bidirectional Evolutionary Search",
+      "url": "https://huggingface.co/papers/2605.28814",
+      "summary": "양방향 진화 탐색 기법으로 언어 모델이 스스로를 반복적으로 개선하는 방법 (하버드)",
+      "summary_en": "Bidirectional evolutionary search enabling language models to iteratively self-improve (Harvard)"
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "좋아하는 개발자 도구는 무엇인가요?",
+      "title_en": "What are some of your favourite developer tools?",
+      "url": "https://lobste.rs/s/2jdvxa/what_are_some_your_favourite_developer",
+      "summary": "Helix, Emacs, Neovim, Sublime Text, Zed, JetBrains 등 개발자 에디터 선호도 커뮤니티 토론",
+      "summary_en": "Community discussion on developer editor preferences: Helix, Emacs, Neovim, Sublime Text, Zed, JetBrains"
+    },
+    {
+      "title": "기술 CEO들이 AI 과대망상에 빠지고 있다",
+      "title_en": "Tech CEOs are apparently suffering from AI psychosis",
+      "url": "https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis/",
+      "summary": "프로토타입 수준 경험만으로 AI가 실제 업무를 전면 대체할 수 있다고 과신하는 CEO들을 비판",
+      "summary_en": "Critique of CEO overconfidence in AI based on limited prototype experiences for full business replacement"
+    },
+    {
+      "title": "외주 인력 + 로컬 AI 조합이 프론티어 랩보다 경제적이 될 것",
+      "title_en": "Outsourcing plus LocalAI will soon become more economical vs frontier labs",
+      "url": "https://www.signalbloom.ai/posts/outsourcing-plus-localai-will-soon-become-more-economical-vs-frontier-labs/",
+      "summary": "AI API 비용 상승으로 저비용 엔지니어 + DeepSeek 같은 오픈소스 모델 조합이 경제적 대안으로 부상",
+      "summary_en": "Rising AI API costs make offshore engineers combined with open-source models like DeepSeek a viable economic alternative"
+    },
+    {
+      "title": "AI로 코드를 더 느리지만 더 잘 작성하기",
+      "title_en": "Using AI to write better code more slowly",
+      "url": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/",
+      "summary": "AI를 빠른 대량 생성이 아닌 PR 심층 리뷰를 통한 고품질 코드 개선 도구로 활용하는 접근법",
+      "summary_en": "Using AI for thorough PR review and incremental quality improvement rather than rapid bulk code generation"
+    },
+    {
+      "title": "CodeGraph — AI 코딩 에이전트를 위한 코드 지식 그래프",
+      "title_en": "CodeGraph — Code knowledge graph for AI coding agents",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "summary": "사전 인덱싱된 시맨틱 코드 그래프로 AI 코딩 에이전트 성능 개선 — 비용 35%, 토큰 59% 절감",
+      "summary_en": "Pre-indexed semantic code graph improving AI coding agent performance with 35% cost and 59% token reduction"
+    }
+  ]
+}
