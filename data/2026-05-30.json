@@ -1,0 +1,84 @@
+{
+  "date": "2026-05-30",
+  "github_trending": [
+    {
+      "rank": 1,
+      "name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    {
+      "rank": 2,
+      "name": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown"
+    },
+    {
+      "rank": 3,
+      "name": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code"
+    },
+    {
+      "rank": 4,
+      "name": "galilai-group/stable-worldmodel",
+      "url": "https://github.com/galilai-group/stable-worldmodel"
+    },
+    {
+      "rank": 5,
+      "name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills"
+    }
+  ],
+  "huggingface": [
+    {
+      "rank": 1,
+      "title": "AgentDoG 1.5: A Lightweight and Scalable Alignment Framework for AI Agent Safety and Security",
+      "url": "https://huggingface.co/papers/2605.29801"
+    },
+    {
+      "rank": 2,
+      "title": "Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments",
+      "url": "https://huggingface.co/papers/2605.30280"
+    },
+    {
+      "rank": 3,
+      "title": "OmniRetrieval: Unified Retrieval across Heterogeneous Knowledge Sources",
+      "url": "https://huggingface.co/papers/2605.29250"
+    },
+    {
+      "rank": 4,
+      "title": "CollectionLoRA: Collecting 50 Effects in 1 LoRA via Multi-Teacher On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2605.29250"
+    },
+    {
+      "rank": 5,
+      "title": "minWM: A Full-Stack Open-Source Framework for Real-Time Interactive Video World Models",
+      "url": "https://huggingface.co/papers/2605.25378"
+    }
+  ],
+  "geeknews": [
+    {
+      "rank": 1,
+      "title": "CodeBoarding - 코드베이스용 인터랙티브 아키텍처 다이어그램",
+      "url": "https://github.com/CodeBoarding/CodeBoarding"
+    },
+    {
+      "rank": 2,
+      "title": "좋아하는 개발자 도구는 무엇인가요?",
+      "url": "https://lobste.rs/s/2jdvxa/what_are_some_your_favourite_developer"
+    },
+    {
+      "rank": 3,
+      "title": "네이버, AI 브리핑 인용수를 창작자 보상 기준으로 공식화",
+      "url": "https://mate.naver.com/"
+    },
+    {
+      "rank": 4,
+      "title": "하루 쉬어도 될까요?",
+      "url": "https://mlsu.io/posts/day-off/"
+    },
+    {
+      "rank": 5,
+      "title": "기술 CEO들은 AI 정신증을 겪고 있는 듯하다",
+      "url": "https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis/"
+    }
+  ]
+}
