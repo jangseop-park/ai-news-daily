@@ -1,30 +1,71 @@
-# AI News Daily
+# 📰 AI 뉴스 데일리
 
-매일 아침 자동으로 수집되는 AI 관련 뉴스 브리핑입니다.
+> 마지막 업데이트: 2026-05-31
 
-## 최신 브리핑: 2026-05-30
+# AI 뉴스 — 2026-05-31
 
-### 🔥 GitHub Trending Python
-1. [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
-2. [microsoft/markitdown](https://github.com/microsoft/markitdown)
-3. [anthropics/claude-code](https://github.com/anthropics/claude-code)
-4. [galilai-group/stable-worldmodel](https://github.com/galilai-group/stable-worldmodel)
-5. [anthropics/skills](https://github.com/anthropics/skills)
+## 🔥 GitHub Trending (Python)
 
-### 🤗 HuggingFace Papers
-1. [AgentDoG 1.5: A Lightweight and Scalable Alignment Framework for AI Agent Safety and Security](https://huggingface.co/papers/2605.29801)
-2. [Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments](https://huggingface.co/papers/2605.30280)
-3. [OmniRetrieval: Unified Retrieval across Heterogeneous Knowledge Sources](https://huggingface.co/papers/2605.29250)
-4. [CollectionLoRA: Collecting 50 Effects in 1 LoRA via Multi-Teacher On-Policy Distillation](https://huggingface.co/papers/2605.29250)
-5. [minWM: A Full-Stack Open-Source Framework for Real-Time Interactive Video World Models](https://huggingface.co/papers/2605.25378)
+- [microsoft/markitdown](https://github.com/microsoft/markitdown): 파일과 오피스 문서를 마크다운으로 변환하는 파이썬 도구
+- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo): AI 대형언어모델을 활용하여 한 번의 클릭으로 짧은 동영상 생성
+- [anthropics/claude-code](https://github.com/anthropics/claude-code): 터미널에서 작동하며 코드베이스를 이해하고 더 빠른 코딩을 지원하는 에이전트 도구
+- [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM): 다국어 음성 생성, 창의적인 음성 설계 및 클로닝을 위한 토크나이저 프리 TTS
+- [galilai-group/stable-worldmodel](https://github.com/galilai-group/stable-worldmodel): 재현 가능한 세계 모델 연구 및 평가를 위한 플랫폼
 
-### 📰 GeekNews TOP
-1. [CodeBoarding - 코드베이스용 인터랙티브 아키텍처 다이어그램](https://github.com/CodeBoarding/CodeBoarding)
-2. [좋아하는 개발자 도구는 무엇인가요?](https://lobste.rs/s/2jdvxa/what_are_some_your_favourite_developer)
-3. [네이버, AI 브리핑 인용수를 창작자 보상 기준으로 공식화](https://mate.naver.com/)
-4. [하루 쉬어도 될까요?](https://mlsu.io/posts/day-off/)
-5. [기술 CEO들은 AI 정신증을 겪고 있는 듯하다](https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis/)
+## 📄 Hugging Face Papers
 
-## 전체 브리핑 목록
+- [AgentDoG 1.5: AI 에이전트 안전 및 보안을 위한 경량 확장 가능한 정렬 프레임워크](https://huggingface.co/papers/2605.29801)
+  경량 정렬 메커니즘을 통해 AI 에이전트의 안전성과 보안을 보장하는 확장 가능한 프레임워크.
+- [Qwen-VLA: 작업·환경·로봇 구현 전반에 걸친 시각-언어-행동 모델링 통합](https://huggingface.co/papers/2605.30280)
+  다양한 작업과 로봇 유형 전반에 걸쳐 시각 인식, 언어 이해, 로봇 행동을 통합하는 모델.
+- [OmniRetrieval: 이질적 지식 소스 전반에 걸친 통합 검색](https://huggingface.co/papers/2605.29250)
+  단일 프레임워크로 여러 유형의 이질적 지식 소스 전반에 걸쳐 효율적으로 검색하는 통합 시스템.
+- [CollectionLoRA: 다중 교사 온폴리시 증류를 통해 1개의 LoRA에 50가지 효과 수집](https://huggingface.co/papers/2605.25378)
+  다중 교사 증류를 사용하여 여러 모델 효과를 단일 LoRA 어댑터로 압축하는 효율적인 커스터마이제이션 방법.
+- [minWM: 실시간 대화형 비디오 월드 모델을 위한 전체 스택 오픈소스 프레임워크](https://huggingface.co/papers/2605.30263)
+  실시간 대화형 비디오 월드 모델을 구축하고 배포하기 위한 전체 스택 구현의 오픈소스 프레임워크.
 
-최근 30일 데이터: [index.json](index.json)
+## 🦉 GeekNews
+
+- [Shopify, 재고 예약 시스템을 Redis에서 MySQL로 교체](https://shopify.engineering/scaling-inventory-reservations)
+  재고 예약 시스템의 중복 판매 방지 핵심 인프라를 Redis에서 MySQL로 전환한 사례.
+- [CodeBoarding - 코드베이스용 인터랙티브 아키텍처 다이어그램](https://github.com/CodeBoarding/CodeBoarding)
+  정적 분석과 LLM 추론을 결합해 코드베이스의 고수준 아키텍처를 자동으로 시각화하는 오픈소스 도구.
+- [좋아하는 개발자 도구는 무엇인가요?](https://lobste.rs/s/2jdvxa/what_are_some_your_favourite_developer)
+  Helix, Emacs, Neovim, Sublime Text, Zed, JetBrains IDE 등 에디터 도구들의 장단점 커뮤니티 토론.
+- [기술 CEO들은 AI 정신증을 겪고 있는 듯하다](https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis/)
+  프로토타입 경험만으로 AI 에이전트가 실제 업무를 완전히 대체할 것으로 성급히 믿는 CEO들의 현상 분석.
+- [Codex, 활용 사례 모음 대폭 확장](https://developers.openai.com/codex/use-cases)
+  OpenAI가 Codex 활용 사례를 12개에서 52개로 확장, 단순 코딩 보조를 넘어 엔지니어링·디자인 활용까지 포함.
+
+---
+## 📅 이전 날짜
+- [2026-05-30](data/2026-05-30.md)
+- [2026-05-29](data/2026-05-29.md)
+- [2026-05-28](data/2026-05-28.md)
+- [2026-05-27](data/2026-05-27.md)
+- [2026-05-26](data/2026-05-26.md)
+- [2026-05-25](data/2026-05-25.md)
+- [2026-05-24](data/2026-05-24.md)
+- [2026-05-23](data/2026-05-23.md)
+- [2026-05-22](data/2026-05-22.md)
+- [2026-05-21](data/2026-05-21.md)
+- [2026-05-20](data/2026-05-20.md)
+- [2026-05-19](data/2026-05-19.md)
+- [2026-05-18](data/2026-05-18.md)
+- [2026-05-17](data/2026-05-17.md)
+- [2026-05-16](data/2026-05-16.md)
+- [2026-05-15](data/2026-05-15.md)
+- [2026-05-14](data/2026-05-14.md)
+- [2026-05-13](data/2026-05-13.md)
+- [2026-05-12](data/2026-05-12.md)
+- [2026-05-11](data/2026-05-11.md)
+- [2026-05-10](data/2026-05-10.md)
+- [2026-05-09](data/2026-05-09.md)
+- [2026-05-08](data/2026-05-08.md)
+- [2026-05-07](data/2026-05-07.md)
+- [2026-05-06](data/2026-05-06.md)
+- [2026-05-05](data/2026-05-05.md)
+- [2026-05-04](data/2026-05-04.md)
+- [2026-05-03](data/2026-05-03.md)
+- [2026-05-02](data/2026-05-02.md)
