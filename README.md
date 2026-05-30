@@ -6,40 +6,41 @@
 
 ## 🔥 GitHub Trending (Python)
 
-- [microsoft/markitdown](https://github.com/microsoft/markitdown): 파일과 오피스 문서를 마크다운으로 변환하는 파이썬 도구
-- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo): AI 대형언어모델을 활용하여 한 번의 클릭으로 짧은 동영상 생성
-- [anthropics/claude-code](https://github.com/anthropics/claude-code): 터미널에서 작동하며 코드베이스를 이해하고 더 빠른 코딩을 지원하는 에이전트 도구
-- [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM): 다국어 음성 생성, 창의적인 음성 설계 및 클로닝을 위한 토크나이저 프리 TTS
-- [galilai-group/stable-worldmodel](https://github.com/galilai-group/stable-worldmodel): 재현 가능한 세계 모델 연구 및 평가를 위한 플랫폼
+- [microsoft/markitdown](https://github.com/microsoft/markitdown): 다양한 파일 형식과 오피스 문서를 Markdown으로 변환하는 Python 유틸리티
+- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo): AI 언어 모델을 활용해 고화질 단편 영상을 빠르게 생성하는 자동화 도구
+- [anthropics/claude-code](https://github.com/anthropics/claude-code): 코드베이스를 이해하고 자연어 명령으로 개발을 가속화하는 터미널 기반 에이전트 코딩 어시스턴트
+- [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM): 음성 커스터마이징과 클로닝을 지원하는 토크나이저 없는 다국어 텍스트-투-스피치 시스템
+- [galilai-group/stable-worldmodel](https://github.com/galilai-group/stable-worldmodel): 재현 가능한 월드 모델 실험과 체계적 성능 평가를 지원하는 인프라 플랫폼
 
 ## 📄 Hugging Face Papers
 
-- [AgentDoG 1.5: AI 에이전트 안전 및 보안을 위한 경량 확장 가능한 정렬 프레임워크](https://huggingface.co/papers/2605.29801)
-  경량 정렬 메커니즘을 통해 AI 에이전트의 안전성과 보안을 보장하는 확장 가능한 프레임워크.
-- [Qwen-VLA: 작업·환경·로봇 구현 전반에 걸친 시각-언어-행동 모델링 통합](https://huggingface.co/papers/2605.30280)
-  다양한 작업과 로봇 유형 전반에 걸쳐 시각 인식, 언어 이해, 로봇 행동을 통합하는 모델.
-- [OmniRetrieval: 이질적 지식 소스 전반에 걸친 통합 검색](https://huggingface.co/papers/2605.29250)
-  단일 프레임워크로 여러 유형의 이질적 지식 소스 전반에 걸쳐 효율적으로 검색하는 통합 시스템.
-- [CollectionLoRA: 다중 교사 온폴리시 증류를 통해 1개의 LoRA에 50가지 효과 수집](https://huggingface.co/papers/2605.25378)
-  다중 교사 증류를 사용하여 여러 모델 효과를 단일 LoRA 어댑터로 압축하는 효율적인 커스터마이제이션 방법.
-- [minWM: 실시간 대화형 비디오 월드 모델을 위한 전체 스택 오픈소스 프레임워크](https://huggingface.co/papers/2605.30263)
-  실시간 대화형 비디오 월드 모델을 구축하고 배포하기 위한 전체 스택 구현의 오픈소스 프레임워크.
+- [AgentDoG 1.5: AI 에이전트 안전성을 위한 경량 정렬 프레임워크](https://huggingface.co/papers/2605.29801)
+  AI 에이전트의 안전성과 보안을 보장하기 위한 경량 정렬 프레임워크 제안. 효과적인 에이전트 행동 제어를 유지하면서 확장 가능성을 목표로 함.
+- [Qwen-VLA: 태스크·환경·로봇 구현을 아우르는 통합 비전-언어-액션 모델링](https://huggingface.co/papers/2605.30280)
+  다양한 태스크, 환경, 로봇 구현에서 작동 가능한 통합 비전-언어-액션 모델 소개. 로봇공학에서 인식과 행동을 연결하는 접근법.
+- [OmniRetrieval: 이기종 지식 소스 전반에 걸친 통합 검색](https://huggingface.co/papers/2605.29250)
+  다양한 이기종 지식 소스에서 검색 가능한 통합 검색 시스템 제안. 다양한 데이터 유형과 형식에 걸쳐 포괄적인 정보 검색을 제공.
+- [CollectionLoRA: 멀티티처 온폴리시 증류를 통한 1개 LoRA에 50가지 효과 담기](https://huggingface.co/papers/2605.25378)
+  멀티티처 온폴리시 증류를 통해 여러 효과를 단일 LoRA 어댑터에 압축하는 기술. 다양한 모델 변형에 걸쳐 효율적인 파라미터 공유 가능.
+- [minWM: 실시간 인터랙티브 비디오 월드 모델을 위한 풀스택 오픈소스 프레임워크](https://huggingface.co/papers/2605.30263)
+  실시간 인터랙티브 비디오 월드 모델 구축 및 배포를 위한 오픈소스 프레임워크. 비디오 예측 및 이해 태스크를 위한 완전한 스택 제공.
 
 ## 🦉 GeekNews
 
 - [Shopify, 재고 예약 시스템을 Redis에서 MySQL로 교체](https://shopify.engineering/scaling-inventory-reservations)
-  재고 예약 시스템의 중복 판매 방지 핵심 인프라를 Redis에서 MySQL로 전환한 사례.
+  Shopify가 초과 판매 방지를 위한 핵심 인프라를 Redis에서 MySQL로 이전하여 체크아웃 중 중복 제품 판매 처리의 확장성 개선.
 - [CodeBoarding - 코드베이스용 인터랙티브 아키텍처 다이어그램](https://github.com/CodeBoarding/CodeBoarding)
-  정적 분석과 LLM 추론을 결합해 코드베이스의 고수준 아키텍처를 자동으로 시각화하는 오픈소스 도구.
-- [좋아하는 개발자 도구는 무엇인가요?](https://lobste.rs/s/2jdvxa/what_are_some_your_favourite_developer)
-  Helix, Emacs, Neovim, Sublime Text, Zed, JetBrains IDE 등 에디터 도구들의 장단점 커뮤니티 토론.
+  정적 분석과 LLM 추론을 결합해 코드베이스의 고수준 아키텍처 맵을 자동 생성하는 오픈소스 도구.
 - [기술 CEO들은 AI 정신증을 겪고 있는 듯하다](https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis/)
-  프로토타입 경험만으로 AI 에이전트가 실제 업무를 완전히 대체할 것으로 성급히 믿는 CEO들의 현상 분석.
-- [Codex, 활용 사례 모음 대폭 확장](https://developers.openai.com/codex/use-cases)
-  OpenAI가 Codex 활용 사례를 12개에서 52개로 확장, 단순 코딩 보조를 넘어 엔지니어링·디자인 활용까지 포함.
+  일부 경영진이 프로토타입을 기반으로 AI 역량을 과대평가하고, 에이전트가 실제 직원 업무를 대체할 수 있다고 성급하게 믿는 현상 분석.
+- [OpenHuman - 개인용 AI 슈퍼 인텔리전스](https://github.com/tinyhumansai/openhuman)
+  일상적인 통합을 위해 설계된 오픈소스 에이전트 기반 어시스턴트. 최소한의 설정으로 데스크톱 경험 제공.
+- [좋아하는 개발자 도구는 무엇인가요?](https://lobste.rs/s/2jdvxa/what_are_some_your_favourite_developer)
+  Helix, Emacs, Neovim, Sublime Text, Zed, JetBrains IDE 등 인기 개발 편집기의 트레이드오프를 비교하는 커뮤니티 토론.
 
 ---
 ## 📅 이전 날짜
+
 - [2026-05-30](data/2026-05-30.md)
 - [2026-05-29](data/2026-05-29.md)
 - [2026-05-28](data/2026-05-28.md)
