@@ -4,106 +4,106 @@
     {
       "name": "microsoft/markitdown",
       "url": "https://github.com/microsoft/markitdown",
-      "description": "파일과 오피스 문서를 마크다운으로 변환하는 파이썬 도구",
-      "description_en": "Python tool for converting files and office documents to Markdown."
+      "description": "다양한 파일 형식과 오피스 문서를 Markdown으로 변환하는 Python 유틸리티",
+      "description_en": "A Python utility for transforming various file formats and office documents into Markdown syntax"
     },
     {
       "name": "harry0703/MoneyPrinterTurbo",
       "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "description": "AI 대형언어모델을 활용하여 한 번의 클릭으로 짧은 동영상 생성",
-      "description_en": "Generate short videos with one click using AI LLM."
+      "description": "AI 언어 모델을 활용해 고화질 단편 영상을 빠르게 생성하는 자동화 도구",
+      "description_en": "An automation tool leveraging AI language models to generate high-definition short videos quickly"
     },
     {
       "name": "anthropics/claude-code",
       "url": "https://github.com/anthropics/claude-code",
-      "description": "터미널에서 작동하며 코드베이스를 이해하고 더 빠른 코딩을 지원하는 에이전트 도구",
-      "description_en": "Agentic coding tool that lives in your terminal, understands codebases, and helps code faster."
+      "description": "코드베이스를 이해하고 자연어 명령으로 개발을 가속화하는 터미널 기반 에이전트 코딩 어시스턴트",
+      "description_en": "A terminal-based agentic coding assistant that comprehends codebases and accelerates development through natural language commands"
     },
     {
       "name": "OpenBMB/VoxCPM",
       "url": "https://github.com/OpenBMB/VoxCPM",
-      "description": "다국어 음성 생성, 창의적인 음성 설계 및 클로닝을 위한 토크나이저 프리 TTS",
-      "description_en": "Tokenizer-Free TTS for multilingual speech generation with creative voice design and cloning."
+      "description": "음성 커스터마이징과 클로닝을 지원하는 토크나이저 없는 다국어 텍스트-투-스피치 시스템",
+      "description_en": "A tokenizer-free text-to-speech system supporting multilingual speech generation with voice customization and cloning"
     },
     {
       "name": "galilai-group/stable-worldmodel",
       "url": "https://github.com/galilai-group/stable-worldmodel",
-      "description": "재현 가능한 세계 모델 연구 및 평가를 위한 플랫폼",
-      "description_en": "A platform for reproducible world model research and evaluation."
+      "description": "재현 가능한 월드 모델 실험과 체계적 성능 평가를 지원하는 인프라 플랫폼",
+      "description_en": "An infrastructure platform enabling reproducible world model experimentation and systematic performance evaluation"
     }
   ],
   "huggingface": [
     {
-      "title": "AgentDoG 1.5: AI 에이전트 안전 및 보안을 위한 경량 확장 가능한 정렬 프레임워크",
+      "title": "AgentDoG 1.5: AI 에이전트 안전성을 위한 경량 정렬 프레임워크",
       "title_en": "AgentDoG 1.5: A Lightweight and Scalable Alignment Framework for AI Agent Safety and Security",
       "url": "https://huggingface.co/papers/2605.29801",
-      "summary": "경량 정렬 메커니즘을 통해 AI 에이전트의 안전성과 보안을 보장하는 확장 가능한 프레임워크.",
-      "summary_en": "A framework for ensuring AI agent safety and security through lightweight alignment mechanisms that can scale effectively."
+      "summary": "AI 에이전트의 안전성과 보안을 보장하기 위한 경량 정렬 프레임워크 제안. 효과적인 에이전트 행동 제어를 유지하면서 확장 가능성을 목표로 함.",
+      "summary_en": "Presents a lightweight alignment framework designed for ensuring safety and security in AI agents. The framework aims to be scalable while maintaining effective control over agent behavior."
     },
     {
-      "title": "Qwen-VLA: 작업·환경·로봇 구현 전반에 걸친 시각-언어-행동 모델링 통합",
+      "title": "Qwen-VLA: 태스크·환경·로봇 구현을 아우르는 통합 비전-언어-액션 모델링",
       "title_en": "Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments",
       "url": "https://huggingface.co/papers/2605.30280",
-      "summary": "다양한 작업과 로봇 유형 전반에 걸쳐 시각 인식, 언어 이해, 로봇 행동을 통합하는 모델.",
-      "summary_en": "A unified vision-language-action model integrating visual perception, language understanding, and robotic action."
+      "summary": "다양한 태스크, 환경, 로봇 구현에서 작동 가능한 통합 비전-언어-액션 모델 소개. 로봇공학에서 인식과 행동을 연결하는 접근법.",
+      "summary_en": "Introduces a unified vision-language-action model that can operate across different tasks, environments, and various robot embodiments."
     },
     {
-      "title": "OmniRetrieval: 이질적 지식 소스 전반에 걸친 통합 검색",
+      "title": "OmniRetrieval: 이기종 지식 소스 전반에 걸친 통합 검색",
       "title_en": "OmniRetrieval: Unified Retrieval across Heterogeneous Knowledge Sources",
       "url": "https://huggingface.co/papers/2605.29250",
-      "summary": "단일 프레임워크로 여러 유형의 이질적 지식 소스 전반에 걸쳐 효율적으로 검색하는 통합 시스템.",
-      "summary_en": "Unified retrieval system that efficiently searches across multiple types of heterogeneous knowledge sources."
+      "summary": "다양한 이기종 지식 소스에서 검색 가능한 통합 검색 시스템 제안. 다양한 데이터 유형과 형식에 걸쳐 포괄적인 정보 검색을 제공.",
+      "summary_en": "Proposes a unified retrieval system capable of searching across diverse and heterogeneous knowledge sources."
     },
     {
-      "title": "CollectionLoRA: 다중 교사 온폴리시 증류를 통해 1개의 LoRA에 50가지 효과 수집",
+      "title": "CollectionLoRA: 멀티티처 온폴리시 증류를 통한 1개 LoRA에 50가지 효과 담기",
       "title_en": "CollectionLoRA: Collecting 50 Effects in 1 LoRA via Multi-Teacher On-Policy Distillation",
       "url": "https://huggingface.co/papers/2605.25378",
-      "summary": "다중 교사 증류를 사용하여 여러 모델 효과를 단일 LoRA 어댑터로 압축하는 효율적인 커스터마이제이션 방법.",
-      "summary_en": "Method to compress multiple model effects into a single LoRA adapter using multi-teacher distillation."
+      "summary": "멀티티처 온폴리시 증류를 통해 여러 효과를 단일 LoRA 어댑터에 압축하는 기술. 다양한 모델 변형에 걸쳐 효율적인 파라미터 공유 가능.",
+      "summary_en": "Demonstrates a technique to compress multiple effects into a single LoRA adapter through multi-teacher on-policy distillation."
     },
     {
-      "title": "minWM: 실시간 대화형 비디오 월드 모델을 위한 전체 스택 오픈소스 프레임워크",
+      "title": "minWM: 실시간 인터랙티브 비디오 월드 모델을 위한 풀스택 오픈소스 프레임워크",
       "title_en": "minWM: A Full-Stack Open-Source Framework for Real-Time Interactive Video World Models",
       "url": "https://huggingface.co/papers/2605.30263",
-      "summary": "실시간 대화형 비디오 월드 모델을 구축하고 배포하기 위한 전체 스택 구현의 오픈소스 프레임워크.",
-      "summary_en": "Open-source framework for building and deploying real-time interactive video world models."
+      "summary": "실시간 인터랙티브 비디오 월드 모델 구축 및 배포를 위한 오픈소스 프레임워크. 비디오 예측 및 이해 태스크를 위한 완전한 스택 제공.",
+      "summary_en": "Presents an open-source framework for building and deploying real-time interactive video world models."
     }
   ],
   "geeknews": [
     {
       "title": "Shopify, 재고 예약 시스템을 Redis에서 MySQL로 교체",
-      "title_en": "Shopify Replaces Redis with MySQL for Inventory Reservation System",
+      "title_en": "Shopify Replaces Inventory Reservation System from Redis to MySQL",
       "url": "https://shopify.engineering/scaling-inventory-reservations",
-      "summary": "재고 예약 시스템의 중복 판매 방지 핵심 인프라를 Redis에서 MySQL로 전환한 사례.",
-      "summary_en": "Core infrastructure preventing duplicate sales transitions from Redis to MySQL."
+      "summary": "Shopify가 초과 판매 방지를 위한 핵심 인프라를 Redis에서 MySQL로 이전하여 체크아웃 중 중복 제품 판매 처리의 확장성 개선.",
+      "summary_en": "Shopify migrated its core infrastructure for preventing overselling from Redis to MySQL, enabling better scalability."
     },
     {
       "title": "CodeBoarding - 코드베이스용 인터랙티브 아키텍처 다이어그램",
-      "title_en": "CodeBoarding - Interactive Architecture Diagrams for Codebase",
+      "title_en": "CodeBoarding - Interactive Architecture Diagrams for Codebases",
       "url": "https://github.com/CodeBoarding/CodeBoarding",
-      "summary": "정적 분석과 LLM 추론을 결합해 코드베이스의 고수준 아키텍처를 자동으로 시각화하는 오픈소스 도구.",
-      "summary_en": "Open-source tool combining static analysis and LLM inference to auto-visualize high-level architecture."
+      "summary": "정적 분석과 LLM 추론을 결합해 코드베이스의 고수준 아키텍처 맵을 자동 생성하는 오픈소스 도구.",
+      "summary_en": "Open source tool combining static analysis and LLM reasoning to automatically generate high-level architecture maps of codebases."
+    },
+    {
+      "title": "기술 CEO들은 AI 정신증을 겪고 있는 듯하다",
+      "title_en": "Tech CEOs Are Apparently Suffering from AI Psychosis",
+      "url": "https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis/",
+      "summary": "일부 경영진이 프로토타입을 기반으로 AI 역량을 과대평가하고, 에이전트가 실제 직원 업무를 대체할 수 있다고 성급하게 믿는 현상 분석.",
+      "summary_en": "Analysis of how some executives overestimate AI capabilities based on prototypes, prematurely believing agents can replace workforce tasks."
+    },
+    {
+      "title": "OpenHuman - 개인용 AI 슈퍼 인텔리전스",
+      "title_en": "OpenHuman - Personal AI Super Intelligence",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "summary": "일상적인 통합을 위해 설계된 오픈소스 에이전트 기반 어시스턴트. 최소한의 설정으로 데스크톱 경험 제공.",
+      "summary_en": "Open source agent-based assistant designed for seamless daily integration, offering desktop experience with minimal setup."
     },
     {
       "title": "좋아하는 개발자 도구는 무엇인가요?",
       "title_en": "What Are Your Favorite Developer Tools?",
       "url": "https://lobste.rs/s/2jdvxa/what_are_some_your_favourite_developer",
-      "summary": "Helix, Emacs, Neovim, Sublime Text, Zed, JetBrains IDE 등 에디터 도구들의 장단점 커뮤니티 토론.",
-      "summary_en": "Community discussion on editor tools including Helix, Emacs, Neovim, Sublime Text, Zed, JetBrains."
-    },
-    {
-      "title": "기술 CEO들은 AI 정신증을 겪고 있는 듯하다",
-      "title_en": "Tech CEOs Apparently Suffering from AI Psychosis",
-      "url": "https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis/",
-      "summary": "프로토타입 경험만으로 AI 에이전트가 실제 업무를 완전히 대체할 것으로 성급히 믿는 CEO들의 현상 분석.",
-      "summary_en": "Analysis of executives prematurely believing AI agents can fully replace real tasks based on prototypes."
-    },
-    {
-      "title": "Codex, 활용 사례 모음 대폭 확장",
-      "title_en": "Codex Expands Use Cases Collection Significantly",
-      "url": "https://developers.openai.com/codex/use-cases",
-      "summary": "OpenAI가 Codex 활용 사례를 12개에서 52개로 확장, 단순 코딩 보조를 넘어 엔지니어링·디자인 활용까지 포함.",
-      "summary_en": "OpenAI expands Codex use cases from 12 to 52, extending beyond coding to engineering and design."
+      "summary": "Helix, Emacs, Neovim, Sublime Text, Zed, JetBrains IDE 등 인기 개발 편집기의 트레이드오프를 비교하는 커뮤니티 토론.",
+      "summary_en": "Community discussion comparing popular development editors including Helix, Emacs, Neovim, Sublime Text, Zed, and JetBrains IDEs."
     }
   ]
 }
