@@ -6,40 +6,41 @@
 
 ## 🔥 GitHub Trending (Python)
 
-- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo): AI 대형 언어 모델을 활용하여 한 번의 클릭으로 고화질 단편 비디오를 생성합니다.
-- [microsoft/markitdown](https://github.com/microsoft/markitdown): 파일 및 오피스 문서를 마크다운으로 변환하는 파이썬 도구입니다.
-- [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling): 단일 요청부터 대규모 크롤링까지 모든 것을 처리하는 적응형 웹 스크래핑 프레임워크입니다.
-- [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui): 웹이나 휴대폰에서 Hermes Agent를 사용하는 최고의 방법입니다.
-- [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM): 다국어 음성 생성, 창의적인 음성 설계 및 실감나는 복제를 위한 토크나이저 없는 TTS입니다.
+- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo): AI로 명령 한 줄에 고화질 숏폼 영상을 자동 생성하는 도구
+- [microsoft/markitdown](https://github.com/microsoft/markitdown): Office 문서를 포함한 다양한 파일 형식을 마크다운으로 변환하는 Python 유틸리티
+- [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling): 단일 요청부터 대규모 크롤링까지 지원하는 적응형 웹 스크래핑 프레임워크
+- [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui): 브라우저와 모바일에서 Hermes 에이전트에 최적으로 접근할 수 있는 웹 UI
+- [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM): 창의적 음성 디자인과 고충실도 음성 복제가 가능한 다국어 TTS 시스템
 
 ## 📄 Hugging Face Papers
 
-- [AgentDoG 1.5: AI 에이전트 안전성과 보안을 위한 경량 및 확장 가능한 정렬 프레임워크](https://huggingface.co/papers/2605.29801)
-  상하이 AI Lab에서 개발한 정렬 방법을 통해 AI 에이전트의 안전성과 보안을 보장하는 경량 프레임워크입니다.
-- [Qwen-VLA: 작업, 환경 및 로봇 구현에 걸친 시각-언어-행동 모델링의 통합](https://huggingface.co/papers/2605.30280)
-  다양한 환경과 로봇 구현에서 복수의 로봇 작업을 처리하는 Qwen의 통합 시각-언어-행동 모델입니다.
-- [OmniRetrieval: 이질적 지식 소스에 걸친 통합 검색](https://huggingface.co/papers/2605.29250)
-  KAIST AI의 다양한 유형의 지식 소스에 걸쳐 검색을 통합하는 통합 검색 프레임워크입니다.
-- [CollectionLoRA: 다중 교사 정책상 증류를 통해 1개의 LoRA에 50가지 효과 수집](https://huggingface.co/papers/2605.25378)
-  다중 교사 정책상 증류 기법을 사용하여 여러 효과를 단일 LoRA 어댑터로 통합하는 방법입니다.
-- [minWM: 실시간 대화형 비디오 월드 모델을 위한 풀스택 오픈소스 프레임워크](https://huggingface.co/papers/2605.30263)
-  풀스택 구현으로 실시간 대화형 비디오 월드 모델을 구축하기 위한 오픈소스 프레임워크입니다.
+- [AgentDoG 1.5: AI 에이전트 안전·보안을 위한 경량·확장형 정렬 프레임워크](https://huggingface.co/papers/2605.29801)
+  실용적 배포에 적합한 효율적 방법으로 에이전트 시스템의 정렬 문제를 해결하는 경량·확장형 프레임워크를 제안.
+- [Qwen-VLA: 다양한 임무·환경·로봇 구현체를 통합하는 비전-언어-행동 모델](https://huggingface.co/papers/2605.30280)
+  다양한 로봇 임무와 구현체를 아우르며 시각 정보 이해와 행동 실행을 통합하는 비전-언어-행동 모델.
+- [OmniRetrieval: 이종 지식 소스를 아우르는 통합 검색 시스템](https://huggingface.co/papers/2605.29250)
+  다양한 유형의 지식 소스를 동시에 검색할 수 있는 통합 검색 시스템으로, 복잡한 다중 소스 시나리오에서 정보 검색을 단순화.
+- [CollectionLoRA: 멀티 티처 온-폴리시 증류로 50개 효과를 1개의 LoRA에 통합](https://huggingface.co/papers/2605.25378)
+  멀티 티처 증류로 여러 효과 모델을 단일 LoRA에 통합해 다양한 기능을 유지하면서 효율적인 모델 압축 달성.
+- [minWM: 실시간 인터랙티브 비디오 월드 모델을 위한 풀스택 오픈소스 프레임워크](https://huggingface.co/papers/2605.30263)
+  미래 비디오 프레임을 동적으로 생성·예측하는 실시간 인터랙티브 비디오 월드 모델의 완전한 구현 스택을 오픈소스로 제공.
 
 ## 🦉 GeekNews
 
-- [지루한 기술을 선택하라, Revisited (2025)](https://www.brethorsting.com/blog/2025/07/choose-boring-technology%2C-revisited)
-  검증 가능한 기술 스택에 집중하는 원칙이 AI 코딩 도구 시대에 더욱 중요해지고 있으며, 기업의 제한된 혁신 토큰 활용이 핵심.
-- [Shopify, 재고 예약 시스템을 Redis에서 MySQL로 교체](https://shopify.engineering/scaling-inventory-reservations)
-  재고 이중 판매 방지 핵심 인프라를 Redis에서 MySQL로 전환한 Shopify의 사례.
-- [좋아하는 개발자 도구는 무엇인가요?](https://lobste.rs/s/2jdvxa/what_are_some_your_favourite_developer)
-  Helix, Emacs, Neovim, Sublime Text, Zed, JetBrains IDE가 반복 언급되며 각 도구의 트레이드오프 논의.
-- [CodeBoarding - 코드베이스용 인터랙티브 아키텍처 다이어그램](https://github.com/CodeBoarding/CodeBoarding)
-  정적 분석과 LLM 추론을 결합해 코드베이스 고수준 아키텍처를 자동으로 시각화하는 오픈소스 도구.
-- [기술 CEO들은 AI 정신증을 겪고 있는 듯하다](https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis/)
-  프로토타입 경험만으로 에이전트가 실제 업무를 대체한다 믿는 CEO들의 과대망상 현상 분석.
+- [좋아하는 개발자 도구는 무엇인가요?](https://news.hada.io/topic?id=29937)
+  Helix, Emacs, Neovim 등 인기 개발 도구에 대한 커뮤니티 토론. 각 도구의 장단점을 명확하게 비교.
+- [CodeBoarding - 코드베이스용 인터랙티브 아키텍처 다이어그램](https://news.hada.io/topic?id=29976)
+  코드베이스를 시각적 아키텍처 다이어그램으로 인터랙티브하게 탐색할 수 있는 도구.
+- [Shopify, 재고 예약 시스템을 Redis에서 MySQL로 교체](https://news.hada.io/topic?id=30006)
+  결제 처리 중 초과 판매를 방지하는 핵심 인프라를 Redis에서 MySQL로 마이그레이션한 Shopify의 사례.
+- [지루한 기술을 선택하라, Revisited (2025)](https://news.hada.io/topic?id=30036)
+  AI 코딩 시대에 '지루한 기술 선택' 원칙의 중요성이 더욱 커지고 있다는 분석.
+- [Postgres에서 내구성 워크플로 구축하기](https://news.hada.io/topic?id=29999)
+  Postgres를 활용해 장애에 강한 내구성 있는 워크플로를 구축하는 방법을 설명.
 
 ---
 ## 📅 이전 날짜
+
 - [2026-05-31](data/2026-05-31.md)
 - [2026-05-30](data/2026-05-30.md)
 - [2026-05-29](data/2026-05-29.md)
