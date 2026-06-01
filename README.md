@@ -6,40 +6,41 @@
 
 ## 🔥 GitHub Trending (Python)
 
-- [microsoft/markitdown](https://github.com/microsoft/markitdown): 파일 및 오피스 문서를 마크다운으로 변환하는 파이썬 도구
-- [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui): 웹 또는 휴대폰에서 Hermes Agent를 사용하는 최고의 방법
-- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo): AI 대형언어모델을 활용하여 한 번의 클릭으로 짧은 동영상 생성
-- [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling): 단일 요청부터 대규모 크롤링까지 모든 것을 처리하는 적응형 웹 스크래핑 프레임워크
-- [p-e-w/heretic](https://github.com/p-e-w/heretic): 언어 모델을 위한 완전 자동화된 검열 제거 도구
+- [microsoft/markitdown](https://github.com/microsoft/markitdown): 파일 및 Office 문서를 Markdown 형식으로 변환하는 Python 도구
+- [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui): Hermes Agent 플랫폼에 접근하는 웹·모바일 인터페이스
+- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo): AI 언어 모델을 활용해 고화질 숏폼 영상을 자동 생성하는 도구
+- [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling): 단일 페이지부터 대규모 크롤링까지 지원하는 적응형 웹 스크래핑 프레임워크
+- [p-e-w/heretic](https://github.com/p-e-w/heretic): 언어 모델의 콘텐츠 제한을 자동으로 제거하는 도구
 
 ## 📄 Hugging Face Papers
 
-- [GrepSeek: 직접 말뭉치 상호작용을 위한 검색 에이전트 훈련](https://huggingface.co/papers/2605.29307)
-  대규모 텍스트 말뭉치와 효율적으로 상호작용하고 쿼리할 수 있도록 검색 에이전트를 훈련하는 방법을 제시.
-- [COLLEAGUE.SKILL: 전문가 지식 증류를 통한 자동화된 AI 스킬 생성](https://huggingface.co/papers/2605.31264)
-  전문가 모델의 지식을 증류하여 AI 스킬을 자동으로 생성하는 프레임워크.
-- [온-폴리시 증류를 위한 신뢰 영역 행동 혼합](https://huggingface.co/papers/2605.31159)
-  온-폴리시 증류를 위한 신뢰 영역 기반 행동 혼합 방법으로 모델 최적화 안정성을 향상.
-- [병목 없는 통합 멀티모달 모델을 위한 표현 강제](https://huggingface.co/papers/2605.31604)
-  통합 멀티모달 모델에서 병목 현상을 제거하기 위한 표현 강제 기법 제안.
-- [SwanVoice: 독백과 대화 모두를 위한 표현력 있는 장형 제로샷 음성 합성](https://huggingface.co/papers/2605.30993)
-  독백과 대화 시나리오 모두에서 표현력 있는 장형 음성을 생성하는 제로샷 음성 합성 시스템.
+- [GrepSeek: 직접 코퍼스 상호작용을 위한 검색 에이전트 학습](https://huggingface.co/papers/2605.29307)
+  UMass Amherst의 연구로, 검색 에이전트가 텍스트 코퍼스와 직접 상호작용하도록 학습시켜 정보 검색 능력을 개선하는 방법론 제안
+- [COLLEAGUE.SKILL: 전문가 지식 증류를 통한 AI 스킬 자동 생성](https://huggingface.co/papers/2605.31264)
+  Shanghai AI Lab의 연구로, 전문가 지식을 증류해 AI 스킬을 자동 생성함으로써 보다 효율적인 스킬 습득을 가능하게 함
+- [온-폴리시 증류를 위한 Trust-Region 행동 블렌딩](https://huggingface.co/papers/2605.31159)
+  온-폴리시 증류 과정에서 행동을 블렌딩하기 위한 Trust-Region 방법론으로 모델 간 지식 전이를 개선
+- [병목 없는 통합 멀티모달 모델을 위한 Representation Forcing](https://huggingface.co/papers/2605.31604)
+  ByteDance Seed의 연구로, Representation Forcing을 통해 멀티모달 모델의 병목을 제거하고 더 효율적인 통합 처리를 실현
+- [SwanVoice: 독백과 대화 모두를 위한 표현력 있는 장문 제로샷 음성 합성](https://huggingface.co/papers/2605.30993)
+  ByteDance의 연구로, 학습 데이터 없이 독백과 대화 모두에서 표현력 있는 장문 음성을 합성하는 제로샷 기술
 
 ## 🦉 GeekNews
 
 - [LLM 시대의 엔지니어링](https://x.com/yairwein/status/2060058912351732137)
-  Reindeer에서 1년 반간 LLM 시대에 제품과 개발 조직을 구축하는 방법을 고민한 내용 정리.
-- [Files SDK - 모든 blob 스토리지를 위한 단일 API](https://files-sdk.dev/)
-  S3, R2, GCS, Azure 등 29종의 객체/blob 스토리지를 40개 이상의 어댑터로 하나의 통합 SDK로 처리.
+  LLM 시대에 제품과 개발 조직을 구축하는 방식에 대한 1년 반의 경험과 인사이트 정리
 - [AI 이후의 소프트웨어: 하네스 시대의 개막](https://tomtunguz.com/harnessing-ai/)
-  고정된 워크플로우의 SaaS가 지능을 갖춘 AI로 대체되는 소프트웨어 시대의 변화 분석.
+  기존 SaaS의 고정 워크플로우가 지능형 AI로 대체되며 소프트웨어의 새 패러다임이 시작됨
 - [지루한 기술을 선택하라, Revisited (2025)](https://www.brethorsting.com/blog/2025/07/choose-boring-technology%2C-revisited)
-  AI 코딩 도구 시대에 검증된 기술 스택에 집중하는 원칙이 더욱 중요해짐을 설명.
-- [도메인 전문성은 언제나 진짜 해자였다](https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/)
-  소프트웨어의 어려움은 코드 입력보다 현실 규칙을 이해해 도메인 모델을 만드는 데 있음을 강조.
+  AI 코딩 도구 시대에도 검증된 기술 스택의 중요성과 제한된 혁신 토큰의 현명한 사용을 강조
+- [Shopify, 재고 예약 시스템을 Redis에서 MySQL로 교체](https://shopify.engineering/scaling-inventory-reservations)
+  오버셀 방지를 위한 핵심 인프라가 Redis에서 MySQL로 전환됨
+- [AI 이후의 소프트웨어: 하네스 시대의 개막](https://lobste.rs/s/2jdvxa/what_are_some_your_favourite_developer)
+  개발자들이 선호하는 에디터와 도구들의 트레이드오프를 비교하는 커뮤니티 논의
 
 ---
 ## 📅 이전 날짜
+
 - [2026-06-01](data/2026-06-01.md)
 - [2026-05-31](data/2026-05-31.md)
 - [2026-05-30](data/2026-05-30.md)
