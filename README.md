@@ -1,46 +1,46 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-06-02
+> 마지막 업데이트: 2026-06-03
 
-# AI 뉴스 — 2026-06-02
+# AI 뉴스 — 2026-06-03
 
 ## 🔥 GitHub Trending (Python)
 
-- [microsoft/markitdown](https://github.com/microsoft/markitdown): 파일 및 Office 문서를 Markdown 형식으로 변환하는 Python 도구
-- [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui): Hermes Agent 플랫폼에 접근하는 웹·모바일 인터페이스
-- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo): AI 언어 모델을 활용해 고화질 숏폼 영상을 자동 생성하는 도구
-- [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling): 단일 페이지부터 대규모 크롤링까지 지원하는 적응형 웹 스크래핑 프레임워크
-- [p-e-w/heretic](https://github.com/p-e-w/heretic): 언어 모델의 콘텐츠 제한을 자동으로 제거하는 도구
+- [chopratejas/headroom](https://github.com/chopratejas/headroom): LLM 도달 전에 도구 출력, 로그, 파일 및 RAG 청크를 압축. 60-95% 적은 토큰, 동일한 답변. 라이브러리·프록시·MCP 서버.
+- [microsoft/markitdown](https://github.com/microsoft/markitdown): 파일 및 오피스 문서를 Markdown으로 변환하는 Python 도구.
+- [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling): 단일 요청부터 전체 규모 크롤링까지 처리하는 적응형 웹 스크래핑 프레임워크.
+- [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui): 웹 또는 휴대전화에서 Hermes Agent를 사용하는 최고의 방법.
+- [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM): 다국어 음성 생성, 창의적인 음성 설계 및 리얼한 클로닝을 위한 토크나이저 없는 TTS.
 
 ## 📄 Hugging Face Papers
 
-- [GrepSeek: 직접 코퍼스 상호작용을 위한 검색 에이전트 학습](https://huggingface.co/papers/2605.29307)
-  UMass Amherst의 연구로, 검색 에이전트가 텍스트 코퍼스와 직접 상호작용하도록 학습시켜 정보 검색 능력을 개선하는 방법론 제안
-- [COLLEAGUE.SKILL: 전문가 지식 증류를 통한 AI 스킬 자동 생성](https://huggingface.co/papers/2605.31264)
-  Shanghai AI Lab의 연구로, 전문가 지식을 증류해 AI 스킬을 자동 생성함으로써 보다 효율적인 스킬 습득을 가능하게 함
-- [온-폴리시 증류를 위한 Trust-Region 행동 블렌딩](https://huggingface.co/papers/2605.31159)
-  온-폴리시 증류 과정에서 행동을 블렌딩하기 위한 Trust-Region 방법론으로 모델 간 지식 전이를 개선
-- [병목 없는 통합 멀티모달 모델을 위한 Representation Forcing](https://huggingface.co/papers/2605.31604)
-  ByteDance Seed의 연구로, Representation Forcing을 통해 멀티모달 모델의 병목을 제거하고 더 효율적인 통합 처리를 실현
-- [SwanVoice: 독백과 대화 모두를 위한 표현력 있는 장문 제로샷 음성 합성](https://huggingface.co/papers/2605.30993)
-  ByteDance의 연구로, 학습 데이터 없이 독백과 대화 모두에서 표현력 있는 장문 음성을 합성하는 제로샷 기술
+- [Crafter: 다양한 입력으로부터 편집 가능한 과학 도형 생성을 위한 멀티 에이전트 프레임워크](https://huggingface.co/papers/2605.30611)
+  다양한 입력 형식으로부터 과학 도형을 생성하고 편집할 수 있는 멀티 에이전트 시스템.
+- [PEFT의 스케일링에 대하여: 조 단위 매개변수를 가진 백만 개의 개인 모델을 향하여](https://huggingface.co/papers/2606.02437)
+  매개변수 효율적 미세 조정(PEFT)을 확장하여 조 단위 기본 모델에서 수백만 개의 개인화 모델을 생성하는 방법 탐구.
+- [TASTE의 문제: 에이전트 벤치마크의 범위와 난이도 개선](https://huggingface.co/papers/2605.28556)
+  에이전트 벤치마크의 다양성과 난이도를 향상시키기 위한 TASTE 방법론 제안.
+- [K-BrowseComp: 한국 맥락에 기반한 웹 브라우징 에이전트 벤치마크](https://huggingface.co/papers/2606.02404)
+  한국어 및 문화적 맥락을 위해 특별히 설계된 웹 브라우징 에이전트 평가 벤치마크.
+- [Harness-1: 상태 외부화 하네스를 사용한 검색 에이전트의 강화 학습](https://huggingface.co/papers/2606.02373)
+  상태 외부화 하네스를 사용하여 검색 에이전트의 성능과 안정성을 향상시키는 강화 학습 프레임워크.
 
 ## 🦉 GeekNews
 
 - [LLM 시대의 엔지니어링](https://x.com/yairwein/status/2060058912351732137)
-  LLM 시대에 제품과 개발 조직을 구축하는 방식에 대한 1년 반의 경험과 인사이트 정리
-- [AI 이후의 소프트웨어: 하네스 시대의 개막](https://tomtunguz.com/harnessing-ai/)
-  기존 SaaS의 고정 워크플로우가 지능형 AI로 대체되며 소프트웨어의 새 패러다임이 시작됨
+  Reindeer 1년 반 경험 기반, LLM 시대 제품·개발 조직 구축법 정리. 휴먼 컨텍스트가 핵심.
+- [AI 시대의 기술 면접](https://www.dein.fr/posts/2026-05-28-interviewing-in-the-age-of-ai)
+  AI 도구가 코드 영역까지 침투한 시대에 면접에서 AI 사용 배제, 기초 역량 평가 중심으로 전환해야 함을 주장.
 - [지루한 기술을 선택하라, Revisited (2025)](https://www.brethorsting.com/blog/2025/07/choose-boring-technology%2C-revisited)
-  AI 코딩 도구 시대에도 검증된 기술 스택의 중요성과 제한된 혁신 토큰의 현명한 사용을 강조
-- [Shopify, 재고 예약 시스템을 Redis에서 MySQL로 교체](https://shopify.engineering/scaling-inventory-reservations)
-  오버셀 방지를 위한 핵심 인프라가 Redis에서 MySQL로 전환됨
-- [AI 이후의 소프트웨어: 하네스 시대의 개막](https://lobste.rs/s/2jdvxa/what_are_some_your_favourite_developer)
-  개발자들이 선호하는 에디터와 도구들의 트레이드오프를 비교하는 커뮤니티 논의
+  검증된 기술 스택에 집중하는 원칙이 AI 코딩 도구 시대에 더욱 중요해짐.
+- [도메인 전문성은 언제나 진짜 해자였다](https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/)
+  소프트웨어의 핵심은 코드보다 현실 규칙을 이해한 도메인 모델 구축이며, 에이전트 시대에도 불변.
+- [MiniMax-M3 데뷔: GPT-5.5와 Gemini 3.1 Pro를 5-10% 비용으로 능가](https://venturebeat.com/technology/minimax-m3-debuts-eclipsing-gpt-5-5-and-gemini-3-1-pro-on-key-benchmark-performance-for-just-5-10-of-the-cost)
+  중국 AI 스타트업 MiniMax가 주요 벤치마크에서 미국 상용 모델을 5-10% 비용으로 능가함을 입증.
 
 ---
 ## 📅 이전 날짜
-
+- [2026-06-02](data/2026-06-02.md)
 - [2026-06-01](data/2026-06-01.md)
 - [2026-05-31](data/2026-05-31.md)
 - [2026-05-30](data/2026-05-30.md)
@@ -69,4 +69,3 @@
 - [2026-05-07](data/2026-05-07.md)
 - [2026-05-06](data/2026-05-06.md)
 - [2026-05-05](data/2026-05-05.md)
-- [2026-05-04](data/2026-05-04.md)
