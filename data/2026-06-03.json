@@ -1,0 +1,109 @@
+{
+  "date": "2026-06-03",
+  "github_trending": [
+    {
+      "name": "chopratejas/headroom",
+      "url": "https://github.com/chopratejas/headroom",
+      "description": "LLM 도달 전에 도구 출력, 로그, 파일 및 RAG 청크를 압축. 60-95% 적은 토큰, 동일한 답변. 라이브러리·프록시·MCP 서버.",
+      "description_en": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers."
+    },
+    {
+      "name": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "파일 및 오피스 문서를 Markdown으로 변환하는 Python 도구.",
+      "description_en": "Python tool for converting files and office documents to Markdown."
+    },
+    {
+      "name": "D4Vinci/Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "description": "단일 요청부터 전체 규모 크롤링까지 처리하는 적응형 웹 스크래핑 프레임워크.",
+      "description_en": "An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl."
+    },
+    {
+      "name": "nesquena/hermes-webui",
+      "url": "https://github.com/nesquena/hermes-webui",
+      "description": "웹 또는 휴대전화에서 Hermes Agent를 사용하는 최고의 방법.",
+      "description_en": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone."
+    },
+    {
+      "name": "OpenBMB/VoxCPM",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "description": "다국어 음성 생성, 창의적인 음성 설계 및 리얼한 클로닝을 위한 토크나이저 없는 TTS.",
+      "description_en": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "Crafter: 다양한 입력으로부터 편집 가능한 과학 도형 생성을 위한 멀티 에이전트 프레임워크",
+      "title_en": "Crafter: A Multi-Agent Harness for Editable Scientific Figure Generation from Diverse Inputs",
+      "url": "https://huggingface.co/papers/2605.30611",
+      "summary": "다양한 입력 형식으로부터 과학 도형을 생성하고 편집할 수 있는 멀티 에이전트 시스템.",
+      "summary_en": "Multi-agent system for generating and editing scientific figures from various input formats."
+    },
+    {
+      "title": "PEFT의 스케일링에 대하여: 조 단위 매개변수를 가진 백만 개의 개인 모델을 향하여",
+      "title_en": "On the Scaling of PEFT: Towards Million Personal Models of Trillion Parameters",
+      "url": "https://huggingface.co/papers/2606.02437",
+      "summary": "매개변수 효율적 미세 조정(PEFT)을 확장하여 조 단위 기본 모델에서 수백만 개의 개인화 모델을 생성하는 방법 탐구.",
+      "summary_en": "Explores PEFT scaling to create millions of personalized models from trillion-parameter base models."
+    },
+    {
+      "title": "TASTE의 문제: 에이전트 벤치마크의 범위와 난이도 개선",
+      "title_en": "A Matter of TASTE: Improving Coverage and Difficulty of Agent Benchmarks",
+      "url": "https://huggingface.co/papers/2605.28556",
+      "summary": "에이전트 벤치마크의 다양성과 난이도를 향상시키기 위한 TASTE 방법론 제안.",
+      "summary_en": "Proposes TASTE methodology to enhance agent benchmark diversity and difficulty for better AI agent evaluation."
+    },
+    {
+      "title": "K-BrowseComp: 한국 맥락에 기반한 웹 브라우징 에이전트 벤치마크",
+      "title_en": "K-BrowseComp: A Web Browsing Agent Benchmark Grounded in Korean Contexts",
+      "url": "https://huggingface.co/papers/2606.02404",
+      "summary": "한국어 및 문화적 맥락을 위해 특별히 설계된 웹 브라우징 에이전트 평가 벤치마크.",
+      "summary_en": "Benchmark for evaluating web browsing agents specifically designed for Korean language and cultural contexts."
+    },
+    {
+      "title": "Harness-1: 상태 외부화 하네스를 사용한 검색 에이전트의 강화 학습",
+      "title_en": "Harness-1: Reinforcement Learning for Search Agents with State-Externalizing Harnesses",
+      "url": "https://huggingface.co/papers/2606.02373",
+      "summary": "상태 외부화 하네스를 사용하여 검색 에이전트의 성능과 안정성을 향상시키는 강화 학습 프레임워크.",
+      "summary_en": "RL framework for search agents using state-externalizing harnesses to improve agent performance and reliability."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "LLM 시대의 엔지니어링",
+      "title_en": "Engineering in the LLM Era",
+      "url": "https://x.com/yairwein/status/2060058912351732137",
+      "summary": "Reindeer 1년 반 경험 기반, LLM 시대 제품·개발 조직 구축법 정리. 휴먼 컨텍스트가 핵심.",
+      "summary_en": "18-month Reindeer insights on building products and dev teams in the LLM era; human context is paramount."
+    },
+    {
+      "title": "AI 시대의 기술 면접",
+      "title_en": "Technical Interviews in the Age of AI",
+      "url": "https://www.dein.fr/posts/2026-05-28-interviewing-in-the-age-of-ai",
+      "summary": "AI 도구가 코드 영역까지 침투한 시대에 면접에서 AI 사용 배제, 기초 역량 평가 중심으로 전환해야 함을 주장.",
+      "summary_en": "Argues for excluding AI tools from interviews and focusing on fundamental competencies in the age of AI code generation."
+    },
+    {
+      "title": "지루한 기술을 선택하라, Revisited (2025)",
+      "title_en": "Choose Boring Technology, Revisited (2025)",
+      "url": "https://www.brethorsting.com/blog/2025/07/choose-boring-technology%2C-revisited",
+      "summary": "검증된 기술 스택에 집중하는 원칙이 AI 코딩 도구 시대에 더욱 중요해짐.",
+      "summary_en": "The 'Choose Boring Technology' principle becomes more vital in the AI coding era; use limited innovation tokens wisely."
+    },
+    {
+      "title": "도메인 전문성은 언제나 진짜 해자였다",
+      "title_en": "Domain Expertise Has Always Been the Real Moat",
+      "url": "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/",
+      "summary": "소프트웨어의 핵심은 코드보다 현실 규칙을 이해한 도메인 모델 구축이며, 에이전트 시대에도 불변.",
+      "summary_en": "Software's core challenge is domain model building from real-world rules, not code; this remains true in the agent era."
+    },
+    {
+      "title": "MiniMax-M3 데뷔: GPT-5.5와 Gemini 3.1 Pro를 5-10% 비용으로 능가",
+      "title_en": "MiniMax-M3 Debuts: Outperforms GPT-5.5 and Gemini 3.1 Pro at 5-10% Cost",
+      "url": "https://venturebeat.com/technology/minimax-m3-debuts-eclipsing-gpt-5-5-and-gemini-3-1-pro-on-key-benchmark-performance-for-just-5-10-of-the-cost",
+      "summary": "중국 AI 스타트업 MiniMax가 주요 벤치마크에서 미국 상용 모델을 5-10% 비용으로 능가함을 입증.",
+      "summary_en": "Chinese AI startup MiniMax demonstrates superior benchmark performance at 5-10% of US commercial model costs."
+    }
+  ]
+}
