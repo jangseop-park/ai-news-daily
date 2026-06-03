@@ -6,40 +6,39 @@
 
 ## 🔥 GitHub Trending (Python)
 
-- [chopratejas/headroom](https://github.com/chopratejas/headroom): LLM 도달 전 도구 출력·로그·파일·RAG 청크를 압축. 60-95% 적은 토큰, 동일한 답변. 라이브러리·프록시·MCP 서버.
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): 사용자와 함께 성장하는 에이전트
-- [microsoft/markitdown](https://github.com/microsoft/markitdown): 파일 및 오피스 문서를 마크다운으로 변환하는 파이썬 도구
-- [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui): 웹이나 휴대폰에서 Hermes Agent를 사용하는 최고의 방법인 웹 UI
+- [chopratejas/headroom](https://github.com/chopratejas/headroom): LLM에 도달하기 전에 도구 출력, 로그, 파일, RAG 청크를 압축하여 60~95% 토큰 절약
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): 사용자의 필요와 역량에 맞춰 성장하도록 설계된 에이전트 프레임워크
+- [microsoft/markitdown](https://github.com/microsoft/markitdown): 파일 및 오피스 문서를 Markdown으로 변환하는 Python 도구
+- [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui): Hermes Agent 프레임워크에 접근하기 위한 웹 및 모바일 인터페이스
 - [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling): 단일 요청부터 대규모 크롤링까지 모든 것을 처리하는 적응형 웹 스크래핑 프레임워크
 
 ## 📄 Hugging Face Papers
 
-- [OCC-RAG: 충실한 질문 답변을 위한 최적 인지 핵심](https://huggingface.co/papers/2606.00683)
-  검색 증강 생성 프레임워크에서 최적 인지 핵심 아키텍처를 통해 질문 답변 시스템을 개선하는 방법.
-- [활성화에서 인과성으로: 인간 뇌의 인과 시각 표현 발견](https://huggingface.co/papers/2605.23895)
-  활성화 분석을 통해 인간 뇌의 인과 시각 표현을 발견하는 MIT 연구.
-- [신뢰 영역 온-정책 증류](https://huggingface.co/papers/2606.01249)
-  신뢰 영역 방법을 사용하여 강화 학습 모델 증류를 개선하는 삼성 연구.
-- [Humanoid-GPT: 제로샷 모션 추적을 위한 데이터 및 구조 확장](https://huggingface.co/papers/2606.03985)
-  제로샷 일반화를 위해 GPT 스케일링을 활용하는 대규모 인간 모션 추적 접근 방식.
-- [KVarN: 분산 정규화 KV-캐시 양자화로 추론 작업의 오류 누적 완화](https://huggingface.co/papers/2606.03458)
-  언어 모델 추론 작업의 오류 누적을 줄이기 위해 KV-캐시 양자화를 최적화하는 화웨이 연구.
+- [OCC-RAG: 신뢰할 수 있는 질문 답변을 위한 최적 인지 코어](https://huggingface.co/papers/2606.00683)
+  검색 증강 생성(RAG)에서 정확도와 신뢰성을 높이기 위한 최적 인지 코어 메커니즘 방법론
+- [활성화에서 인과관계로: 인간 뇌의 인과적 시각 표현 발견](https://huggingface.co/papers/2605.23895)
+  MIT 연구, 신경 활성화 패턴과 인과 관계를 분석해 인간 뇌의 인과적 시각 표현을 발견하는 방법 연구
+- [트러스트 리전 온-폴리시 증류](https://huggingface.co/papers/2606.01249)
+  Samsung Research의 강화학습 기법, 트러스트 리전 방법을 온-폴리시 증류에 적용해 모델 압축 및 전이 성능 향상
+- [Humanoid-GPT: 제로샷 모션 트래킹을 위한 데이터 및 구조 확장](https://huggingface.co/papers/2606.03985)
+  휴머노이드 모델링과 언어 모델을 결합해 데이터 확장 및 구조적 설계를 통한 제로샷 모션 트래킹 구현
+- [KVarN: 분산 정규화 KV 캐시 양자화로 추론 오류 누적 완화](https://huggingface.co/papers/2606.03458)
+  Huawei의 언어 모델 KV 캐시에 분산 정규화 양자화를 적용해 추론 작업에서 오류 누적 문제 해결
 
 ## 🦉 GeekNews
 
 - [누구나 만들 수 있게 되면, 정말 중요한 것은 뭘까?](https://www.figma.com/blog/what-matters-when-anyone-can-build)
-  AI 시대에 속도는 더 이상 차별화 요소가 아니며, 방향과 완성도가 진정한 경쟁력이 된다는 분석.
+  AI 민주화로 경쟁 우위가 속도에서 방향성과 장인정신으로 이동, 상상과 실행 사이의 격차가 핵심이 됨
 - [OpenAI, Codex에서 웹사이트를 만들어 배포하는 Sites 플러그인 공개](https://developers.openai.com/codex/sites)
-  프롬프트만으로 웹사이트·웹 앱·게임을 생성하고 배포 가능한 OpenAI의 새로운 플러그인.
-- [LLM 시대의 엔지니어링](https://x.com/yairwein/status/2060058912351732137)
-  LLM 시대에 제품과 개발 조직을 어떻게 구축할 것인가에 대한 실무 경험 정리.
-- [AI 이후의 소프트웨어: 하네스(Harness) 시대의 개막](https://tomtunguz.com/harnessing-ai/)
-  고정된 워크플로우 SaaS가 AI 기반 지능형 시스템으로 대체되는 변화 분석.
-- [지루한 기술을 선택하라, Revisited (2025)](https://www.brethorsting.com/blog/2025/07/choose-boring-technology%2C-revisited)
-  AI 코딩 도구 시대에도 검증된 기술 스택에 집중하는 원칙의 중요성 강조.
+  프롬프트만으로 웹사이트, 웹앱, 게임을 만들고 배포할 수 있는 플러그인. 별도 배포 워크플로우 불필요
+- [geo-seo-claude - Claude Code용 GEO 우선 SEO 스킬](https://github.com/zubair-trabzada/geo-seo-claude)
+  ChatGPT, Claude, Perplexity, Google 등 AI 검색엔진과 기존 SEO를 동시에 최적화하는 도구
+- [Files SDK - 모든 blob 스토리지를 위한 단일 API](https://files-sdk.dev/)
+  S3, R2, GCS, Azure 등 29개 오브젝트/블롭 스토리지 서비스를 40개 이상의 어댑터로 지원하는 통합 SDK
 
 ---
 ## 📅 이전 날짜
+
 - [2026-06-03](data/2026-06-03.md)
 - [2026-06-02](data/2026-06-02.md)
 - [2026-06-01](data/2026-06-01.md)
