@@ -6,40 +6,41 @@
 
 ## 🔥 GitHub Trending (Python)
 
-- [chopratejas/headroom](https://github.com/chopratejas/headroom): LLM에 도달하기 전에 도구 출력·로그·파일·RAG 청크를 압축. 60-95% 적은 토큰, 동일한 답변. 라이브러리·프록시·MCP 서버.
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): 당신과 함께 성장하는 에이전트
-- [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR): 모든 PDF·이미지 문서를 AI용 구조화된 데이터로 변환. 이미지/PDF와 LLM 간 격차를 해소하는 강력한 OCR 툴킷. 100개 이상 언어 지원.
-- [github/spec-kit](https://github.com/github/spec-kit): Spec 기반 개발을 시작하는 데 도움이 되는 툴킷
-- [Open-LLM-VTuber/Open-LLM-VTuber](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber): 음성 상호작용·음성 중단·Live2D 캐릭터를 사용하여 모든 LLM과 대화. 모든 플랫폼에서 로컬 실행.
+- [chopratejas/headroom](https://github.com/chopratejas/headroom): LLM에 전달되기 전 도구 출력, 로그, 파일, RAG 청크를 압축해 토큰을 60~95% 절감하면서도 동일한 답변 품질 유지
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): 사용자 요구에 맞게 유연하게 성장하는 적응형 에이전트 프레임워크
+- [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR): 100개 이상 언어를 지원하며 PDF·이미지 문서를 AI용 구조화 데이터로 변환하는 OCR 프레임워크
+- [github/spec-kit](https://github.com/github/spec-kit): 스펙 기반 개발 방법론을 시작할 수 있도록 돕는 개발자 도구킷
+- [Open-LLM-VTuber/Open-LLM-VTuber](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber): Live2D 얼굴 애니메이션을 지원하며 여러 플랫폼에서 LLM과 핸즈프리 음성 대화 가능
 
 ## 📄 Hugging Face Papers
 
-- [오디오 상호작용 모델](https://huggingface.co/papers/2606.05121)
-  싱가포르 국립대학교에서 개발한 오디오 입력 처리 및 응답에 고급 기능을 갖춘 오디오 상호작용 모델.
-- [Cosmos 3: 물리적 AI를 위한 전방향 세계 모델](https://huggingface.co/papers/2606.02800)
-  NVIDIA의 전방향 세계 모델로 물리적 AI 애플리케이션을 위해 여러 모달리티를 결합, 로봇과 에이전트가 물리 세계를 이해하도록 지원.
-- [심층 연구 에이전트는 어디서 잘못되는가? 에이전트 궤적의 구간 수준 오류 위치 파악](https://huggingface.co/papers/2606.02060)
-  에이전트 궤적에서 구간 수준의 오류를 식별하고 위치를 파악, 연구 중심 AI 에이전트의 디버깅 개선 연구.
+- [오디오 인터랙션 모델](https://huggingface.co/papers/2606.05121)
+  싱가포르 국립대학교의 오디오 인터랙션 모델링 연구 논문으로 35개의 추천을 받음
+- [Cosmos 3: 물리적 AI를 위한 옴니모달 월드 모델](https://huggingface.co/papers/2606.02800)
+  NVIDIA가 발표한 물리적 AI 애플리케이션을 위한 옴니모달 월드 모델로 8,770개 추천을 받은 최다 인기 논문
+- [심층 연구 에이전트는 어디서 틀리는가? 에이전트 궤적의 스팬 수준 오류 위치 파악](https://huggingface.co/papers/2606.02060)
+  NJU-LINK Lab의 연구로 심층 연구 에이전트 궤적에서 스팬 수준의 오류 위치를 파악하는 방법 탐구
 - [루브릭 기반 강화학습에서 보상 해킹 재현·분석·탐지](https://huggingface.co/papers/2606.04923)
-  루브릭 기반 RL 시스템의 보상 해킹 종합 연구, 에이전트가 의도치 않은 방식으로 보상 함수를 악용하는 것을 탐지·방지.
-- [OVO-S-Bench: 멀티모달 LLM의 스트리밍 공간 지능을 위한 계층적 벤치마크](https://huggingface.co/papers/2606.03890)
-  계층적 작업 구조를 갖춘 멀티모달 LLM의 스트리밍 공간 지능 능력 평가 벤치마크.
+  루브릭 기반 강화학습 시스템의 보상 해킹 현상을 재현·분석하고 탐지 방법을 제시한 연구
+- [OVO-S-Bench: 멀티모달 LLM의 스트리밍 공간 지능 계층적 벤치마크](https://huggingface.co/papers/2606.03890)
+  스트리밍 멀티모달 LLM의 공간 지능 역량을 평가하기 위한 InternLM 팀의 계층적 벤치마크
 
 ## 🦉 GeekNews
 
-- [아니오, 인공지능은 의식이 없어요 – 테드 창](https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/)
-  생성형 AI의 유창한 문장 생성 능력을 의식·도덕적 주체성과 혼동하면 챗봇 사용 책임 소재를 잘못 파악하게 된다.
-- [누구나 만들 수 있게 되면, 정말 중요한 것은 뭘까?](https://www.figma.com/blog/what-matters-when-anyone-can-build)
-  AI로 누구나 제품을 만들 수 있게 되면서 속도는 차별화 요소가 아니며, 방향과 완성도가 중요해진다.
-- [Agent Executor - Google의 분산 에이전트 런타임 오픈소스](https://agentexecutor.io/)
-  신뢰성·안전성·커스터마이징·효율성을 목표로 설계된 분산 에이전트 런타임으로 에이전트 루프를 조율.
+- [아니오, AI는 의식이 없습니다](https://theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/)
+  생성형 AI의 유창한 문장 생성 능력을 의식으로 혼동하면 책임 소재를 엉뚱한 곳에 돌리는 오류 발생
+- [누구나 만들 수 있게 되면, 정말 중요한 것은?](https://figma.com/blog/what-matters-when-anyone-can-build)
+  AI로 제품 제작이 민주화되면서 속도보다 방향과 완성도가 차별화 요소로 부상
+- [OpenAI, Codex에서 웹사이트 배포하는 Sites 플러그인 공개](https://developers.openai.com/codex/sites)
+  프롬프트만으로 웹사이트와 앱을 배포 가능한 도구 출시, 수동 배포 워크플로 불필요
+- [LLM 시대의 엔지니어링](https://x.com/yairwein/status/2060058912351732137)
+  AI 시대 제품 개발에서 휴먼 컨텍스트가 가장 중요한 요소로 부각
 - [Elixir v1.20: 이제 점진적 타입 언어](https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/)
-  타입 추론과 점진적 타입 검사가 모든 Elixir 프로그램에 적용되어 어노테이션 없이도 오류를 감지.
-- [OpenAI, Codex에서 웹사이트를 만들어 배포하는 Sites 플러그인 공개](https://developers.openai.com/codex/sites)
-  프롬프트만으로 웹사이트·웹 앱·게임을 생성하고 배포할 수 있는 OpenAI의 신규 플러그인 공개.
+  타입 추론으로 불필요한 어노테이션 없이 코드 오류를 사전에 감지 가능
 
 ---
 ## 📅 이전 날짜
+
 - [2026-06-04](data/2026-06-04.md)
 - [2026-06-03](data/2026-06-03.md)
 - [2026-06-02](data/2026-06-02.md)
