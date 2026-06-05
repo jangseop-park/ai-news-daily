@@ -4,106 +4,106 @@
     {
       "name": "NousResearch/hermes-agent",
       "url": "https://github.com/NousResearch/hermes-agent",
-      "description": "당신과 함께 성장하는 에이전트",
+      "description": "함께 성장하는 AI 에이전트 프레임워크",
       "description_en": "The agent that grows with you"
     },
     {
       "name": "chopratejas/headroom",
       "url": "https://github.com/chopratejas/headroom",
-      "description": "LLM 도달 전 도구 출력·로그·파일·RAG 청크를 압축. 60-95% 적은 토큰, 동일한 답변.",
-      "description_en": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens."
+      "description": "LLM에 전달하기 전 도구 출력·로그·파일·RAG 청크를 압축. 60-95% 토큰 절감, 동일한 답변 품질. 라이브러리·프록시·MCP 서버 지원",
+      "description_en": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server."
     },
     {
       "name": "Panniantong/Agent-Reach",
       "url": "https://github.com/Panniantong/Agent-Reach",
-      "description": "AI 에이전트에 전체 인터넷 접근 능력 제공. Twitter·Reddit·YouTube·GitHub 등 검색, API 비용 없음.",
-      "description_en": "Give AI agents eyes to see the internet. Read & search Twitter, Reddit, YouTube, GitHub — zero API fees."
+      "description": "AI 에이전트에게 인터넷 전체를 볼 수 있는 눈을 제공. Twitter·Reddit·YouTube·GitHub·Bilibili·XiaoHongShu 읽기·검색, CLI 하나로, API 비용 없이",
+      "description_en": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees."
     },
     {
       "name": "666ghj/MiroFish",
       "url": "https://github.com/666ghj/MiroFish",
-      "description": "간단하고 보편적인 군집 지능 엔진으로 모든 것을 예측합니다.",
-      "description_en": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything"
+      "description": "간단하고 범용적인 집단지성 엔진으로 무엇이든 예측. 군집 알고리즘 기반",
+      "description_en": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything."
     },
     {
       "name": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "description": "레딧·X·유튜브·HN·폴리마켓 및 웹 전체에서 주제를 연구하는 AI 에이전트 스킬",
-      "description_en": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web"
+      "description": "Reddit·X·YouTube·HN·Polymarket·웹에서 30일간 어떤 주제든 리서치하고 종합 요약을 생성하는 AI 에이전트 스킬",
+      "description_en": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
     }
   ],
   "huggingface": [
     {
-      "title": "Code2LoRA: 소프트웨어 진화 환경에서 코드 언어 모델을 위한 하이퍼네트워크 생성 어댑터",
+      "title": "코드 언어 모델의 소프트웨어 진화를 위한 하이퍼네트워크 생성 어댑터 Code2LoRA",
       "title_en": "Code2LoRA: Hypernetwork-Generated Adapters for Code Language Models under Software Evolution",
       "url": "https://huggingface.co/papers/2606.06492",
-      "summary": "소프트웨어 진화와 변화하는 코드 패턴에 적응하는 코드 언어 모델을 위한 하이퍼네트워크 기반 LoRA 어댑터 생성 방법.",
-      "summary_en": "Using hypernetworks to generate LoRA adapters for code language models that adapt to software evolution."
+      "summary": "소프트웨어가 진화할 때 코드 LLM을 효율적으로 적응시키기 위한 하이퍼네트워크 기반 LoRA 어댑터 자동 생성 방법론 제안",
+      "summary_en": "Proposes hypernetwork-generated LoRA adapters for efficiently adapting code language models as software evolves"
     },
     {
-      "title": "ArcANE: 역할 연기 언어 에이전트가 올바른 시간에 캐릭터를 유지하는가?",
+      "title": "역할극 언어 에이전트가 적절한 시점에 캐릭터를 유지하는가: ArcANE",
       "title_en": "ArcANE: Do Role-Playing Language Agents Stay in Character at the Right Time?",
       "url": "https://huggingface.co/papers/2606.05553",
-      "summary": "역할 연기 언어 에이전트의 일관된 캐릭터 행동 유지 여부와 상호작용 시나리오에서의 타이밍 평가.",
-      "summary_en": "Evaluating whether role-playing agents maintain consistent character behavior and timing in interactive scenarios."
+      "summary": "LLM 기반 역할극 에이전트가 상황에 따라 캐릭터를 적절히 유지하는지 평가하는 벤치마크 연구",
+      "summary_en": "Benchmark evaluating whether LLM role-playing agents maintain character appropriately in different situations"
     },
     {
-      "title": "TIDE: 템플릿 기반 반복을 통한 사전 예방적 다중 문제 발견",
+      "title": "TIDE: 템플릿 기반 반복을 통한 다중 문제 능동 발견",
       "title_en": "TIDE: Proactive Multi-Problem Discovery via Template-Guided Iteration",
       "url": "https://huggingface.co/papers/2606.04743",
-      "summary": "템플릿 기반 반복으로 여러 문제를 사전 예방적으로 발견하는 TIDE 프레임워크.",
-      "summary_en": "TIDE framework for proactively discovering multiple problems using template-guided iteration."
+      "summary": "템플릿 가이드 반복을 통해 LLM이 여러 문제를 능동적으로 발견하고 해결하는 프레임워크",
+      "summary_en": "Framework for LLMs to proactively discover and address multiple problems via template-guided iteration"
     },
     {
-      "title": "AdaPlanBench: 세계와 사용자 제약 하에서 LLM 에이전트의 적응형 계획 평가",
-      "title_en": "AdaPlanBench: Evaluating Adaptive Planning in LLM Agents under World and User Constraints",
+      "title": "AdaPlanBench: 세계 및 사용자 제약 하에서 LLM 에이전트의 적응적 계획 평가",
+      "title_en": "AdaPlanBench: Evaluating Adaptive Planning in Large Language Model Agents under World and User Constraints",
       "url": "https://huggingface.co/papers/2606.05622",
-      "summary": "다양한 제약과 사용자 요구 하에서 LLM 에이전트의 적응형 계획 수립 능력을 평가하는 벤치마크.",
-      "summary_en": "Benchmark for evaluating LLM agents' adaptive planning under various world constraints and user requirements."
+      "summary": "동적으로 변화하는 세계 상태와 사용자 제약 조건 하에서 LLM 에이전트의 적응 계획 능력을 평가하는 벤치마크",
+      "summary_en": "Benchmark for evaluating adaptive planning abilities of LLM agents under dynamic world states and user constraints"
     },
     {
       "title": "VideoKR: 지식 및 추론 집약적 비디오 이해를 향하여",
       "title_en": "VideoKR: Towards Knowledge- and Reasoning-Intensive Video Understanding",
       "url": "https://huggingface.co/papers/2606.05259",
-      "summary": "지식 통합과 추론 능력을 강조하여 비디오 콘텐츠의 깊이 있는 의미 이해를 달성하는 방법 제안.",
-      "summary_en": "Approach for video understanding emphasizing knowledge integration and reasoning for deeper semantic comprehension."
+      "summary": "외부 지식과 복잡한 추론이 필요한 비디오 이해 능력을 평가하는 새로운 벤치마크 VideoKR 제안",
+      "summary_en": "Proposes VideoKR benchmark for evaluating video understanding requiring external knowledge and complex reasoning"
     }
   ],
   "geeknews": [
     {
+      "title": "아니오, 인공지능은 의식이 없어요 – 테드 창",
+      "title_en": "No, Artificial Intelligence Is Not Conscious – Ted Chiang",
+      "url": "https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/",
+      "summary": "공상과학 작가 테드 창이 현재의 AI 시스템이 의식을 가지고 있다는 주장에 대해 철학적·과학적으로 반박하는 글",
+      "summary_en": "Sci-fi author Ted Chiang philosophically and scientifically refutes claims that current AI systems possess consciousness"
+    },
+    {
       "title": "AI-네이티브 스타트업을 만드는 방법",
-      "title_en": "How to Build AI-Native Startups",
+      "title_en": "How to build an AI-native startup",
       "url": "https://x.com/cyberfund/status/2058950286324986294",
-      "summary": "AI가 반복 업무를 야간에 처리하는 동안 창업자는 제품 개선에 집중하는 새로운 운영 모델 제시.",
-      "summary_en": "New model where AI handles repetitive tasks overnight while founders focus on product improvement."
-    },
-    {
-      "title": "AI가 스스로를 만들 때: 재귀적 자기 개선을 향한 우리의 진전",
-      "title_en": "When AI Builds Itself: Progress Toward Recursive Self-Improvement",
-      "url": "https://www.anthropic.com/institute/recursive-self-improvement",
-      "summary": "AI 개발에서 인간의 구현·실험 작업이 AI 시스템으로 점진적으로 넘어가며 개발 속도 향상.",
-      "summary_en": "Human implementation tasks in AI development increasingly transfer to AI systems, accelerating pace."
-    },
-    {
-      "title": "누구나 만들 수 있게 되면, 정말 중요한 것은 뭘까?",
-      "title_en": "What Really Matters When Everyone Can Build",
-      "url": "https://www.figma.com/blog/what-matters-when-anyone-can-build",
-      "summary": "AI로 누구나 제품을 만들 수 있게 되면서 속도보다 방향과 완성도가 핵심 경쟁력이 된다.",
-      "summary_en": "As AI enables anyone to build, direction and craft become more important than speed."
+      "summary": "AI가 반복 업무를 야간에 처리하는 동안 창업자는 제품 개선에 집중하는 새로운 운영 모델. 진짜 변화는 시간 사용이 아니라 회사가 학습·반복하는 방식에 있다",
+      "summary_en": "New operating model where AI handles repetitive tasks overnight while founders focus on product improvement. The real change is in how the company learns and iterates"
     },
     {
       "title": "Trees - 파일 트리 렌더링 라이브러리 오픈소스",
       "title_en": "Trees - Open Source File Tree Rendering Library",
       "url": "https://trees.software/",
-      "summary": "VSCode 파일 창과 유사한 구조를 그려주는 라이브러리. 높은 커스터마이징과 성능 제공.",
-      "summary_en": "Library rendering file structures similar to VSCode with high customization and performance."
+      "summary": "파일 시스템 트리를 다양한 포맷으로 렌더링하는 오픈소스 라이브러리",
+      "summary_en": "Open source library for rendering file system trees in various formats"
     },
     {
-      "title": "LLM 시대의 엔지니어링",
-      "title_en": "Engineering in the LLM Era",
-      "url": "https://x.com/yairwein/status/2060058912351732137",
-      "summary": "1년 반의 경험으로 LLM 시대 제품과 개발 조직 구축법 정리. 휴먼 컨텍스트의 중요성 강조.",
-      "summary_en": "18 months of experience building products and dev teams in the LLM era; human context is key."
+      "title": "AI가 스스로를 만들 때: 재귀적 자기 개선을 향한 우리의 진전",
+      "title_en": "When AI Makes Itself: Our Progress Toward Recursive Self-Improvement",
+      "url": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "summary": "Anthropic이 AI의 재귀적 자기 개선 가능성과 안전성에 대한 연구 진전 상황을 공유",
+      "summary_en": "Anthropic shares research progress on the possibility and safety of recursive self-improvement in AI systems"
+    },
+    {
+      "title": "Agent Executor - Google의 분산 에이전트 런타임 오픈소스",
+      "title_en": "Agent Executor - Google's Open Source Distributed Agent Runtime",
+      "url": "https://agentexecutor.io/",
+      "summary": "Google이 공개한 분산 환경에서 AI 에이전트를 실행하기 위한 런타임 플랫폼",
+      "summary_en": "Runtime platform released by Google for executing AI agents in distributed environments"
     }
   ]
 }
