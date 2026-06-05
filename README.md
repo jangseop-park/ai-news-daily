@@ -6,40 +6,41 @@
 
 ## 🔥 GitHub Trending (Python)
 
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): 당신과 함께 성장하는 에이전트
-- [chopratejas/headroom](https://github.com/chopratejas/headroom): LLM 도달 전 도구 출력·로그·파일·RAG 청크를 압축. 60-95% 적은 토큰, 동일한 답변.
-- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): AI 에이전트에 전체 인터넷 접근 능력 제공. Twitter·Reddit·YouTube·GitHub 등 검색, API 비용 없음.
-- [666ghj/MiroFish](https://github.com/666ghj/MiroFish): 간단하고 보편적인 군집 지능 엔진으로 모든 것을 예측합니다.
-- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill): 레딧·X·유튜브·HN·폴리마켓 및 웹 전체에서 주제를 연구하는 AI 에이전트 스킬
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): 함께 성장하는 AI 에이전트 프레임워크
+- [chopratejas/headroom](https://github.com/chopratejas/headroom): LLM에 전달하기 전 도구 출력·로그·파일·RAG 청크를 압축. 60-95% 토큰 절감, 동일한 답변 품질. 라이브러리·프록시·MCP 서버 지원
+- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): AI 에이전트에게 인터넷 전체를 볼 수 있는 눈을 제공. Twitter·Reddit·YouTube·GitHub·Bilibili·XiaoHongShu 읽기·검색, CLI 하나로, API 비용 없이
+- [666ghj/MiroFish](https://github.com/666ghj/MiroFish): 간단하고 범용적인 집단지성 엔진으로 무엇이든 예측. 군집 알고리즘 기반
+- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill): Reddit·X·YouTube·HN·Polymarket·웹에서 30일간 어떤 주제든 리서치하고 종합 요약을 생성하는 AI 에이전트 스킬
 
 ## 📄 Hugging Face Papers
 
-- [Code2LoRA: 소프트웨어 진화 환경에서 코드 언어 모델을 위한 하이퍼네트워크 생성 어댑터](https://huggingface.co/papers/2606.06492)
-  소프트웨어 진화와 변화하는 코드 패턴에 적응하는 코드 언어 모델을 위한 하이퍼네트워크 기반 LoRA 어댑터 생성 방법.
-- [ArcANE: 역할 연기 언어 에이전트가 올바른 시간에 캐릭터를 유지하는가?](https://huggingface.co/papers/2606.05553)
-  역할 연기 언어 에이전트의 일관된 캐릭터 행동 유지 여부와 상호작용 시나리오에서의 타이밍 평가.
-- [TIDE: 템플릿 기반 반복을 통한 사전 예방적 다중 문제 발견](https://huggingface.co/papers/2606.04743)
-  템플릿 기반 반복으로 여러 문제를 사전 예방적으로 발견하는 TIDE 프레임워크.
-- [AdaPlanBench: 세계와 사용자 제약 하에서 LLM 에이전트의 적응형 계획 평가](https://huggingface.co/papers/2606.05622)
-  다양한 제약과 사용자 요구 하에서 LLM 에이전트의 적응형 계획 수립 능력을 평가하는 벤치마크.
+- [코드 언어 모델의 소프트웨어 진화를 위한 하이퍼네트워크 생성 어댑터 Code2LoRA](https://huggingface.co/papers/2606.06492)
+  소프트웨어가 진화할 때 코드 LLM을 효율적으로 적응시키기 위한 하이퍼네트워크 기반 LoRA 어댑터 자동 생성 방법론 제안
+- [역할극 언어 에이전트가 적절한 시점에 캐릭터를 유지하는가: ArcANE](https://huggingface.co/papers/2606.05553)
+  LLM 기반 역할극 에이전트가 상황에 따라 캐릭터를 적절히 유지하는지 평가하는 벤치마크 연구
+- [TIDE: 템플릿 기반 반복을 통한 다중 문제 능동 발견](https://huggingface.co/papers/2606.04743)
+  템플릿 가이드 반복을 통해 LLM이 여러 문제를 능동적으로 발견하고 해결하는 프레임워크
+- [AdaPlanBench: 세계 및 사용자 제약 하에서 LLM 에이전트의 적응적 계획 평가](https://huggingface.co/papers/2606.05622)
+  동적으로 변화하는 세계 상태와 사용자 제약 조건 하에서 LLM 에이전트의 적응 계획 능력을 평가하는 벤치마크
 - [VideoKR: 지식 및 추론 집약적 비디오 이해를 향하여](https://huggingface.co/papers/2606.05259)
-  지식 통합과 추론 능력을 강조하여 비디오 콘텐츠의 깊이 있는 의미 이해를 달성하는 방법 제안.
+  외부 지식과 복잡한 추론이 필요한 비디오 이해 능력을 평가하는 새로운 벤치마크 VideoKR 제안
 
 ## 🦉 GeekNews
 
+- [아니오, 인공지능은 의식이 없어요 – 테드 창](https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/)
+  공상과학 작가 테드 창이 현재의 AI 시스템이 의식을 가지고 있다는 주장에 대해 철학적·과학적으로 반박하는 글
 - [AI-네이티브 스타트업을 만드는 방법](https://x.com/cyberfund/status/2058950286324986294)
-  AI가 반복 업무를 야간에 처리하는 동안 창업자는 제품 개선에 집중하는 새로운 운영 모델 제시.
-- [AI가 스스로를 만들 때: 재귀적 자기 개선을 향한 우리의 진전](https://www.anthropic.com/institute/recursive-self-improvement)
-  AI 개발에서 인간의 구현·실험 작업이 AI 시스템으로 점진적으로 넘어가며 개발 속도 향상.
-- [누구나 만들 수 있게 되면, 정말 중요한 것은 뭘까?](https://www.figma.com/blog/what-matters-when-anyone-can-build)
-  AI로 누구나 제품을 만들 수 있게 되면서 속도보다 방향과 완성도가 핵심 경쟁력이 된다.
+  AI가 반복 업무를 야간에 처리하는 동안 창업자는 제품 개선에 집중하는 새로운 운영 모델. 진짜 변화는 시간 사용이 아니라 회사가 학습·반복하는 방식에 있다
 - [Trees - 파일 트리 렌더링 라이브러리 오픈소스](https://trees.software/)
-  VSCode 파일 창과 유사한 구조를 그려주는 라이브러리. 높은 커스터마이징과 성능 제공.
-- [LLM 시대의 엔지니어링](https://x.com/yairwein/status/2060058912351732137)
-  1년 반의 경험으로 LLM 시대 제품과 개발 조직 구축법 정리. 휴먼 컨텍스트의 중요성 강조.
+  파일 시스템 트리를 다양한 포맷으로 렌더링하는 오픈소스 라이브러리
+- [AI가 스스로를 만들 때: 재귀적 자기 개선을 향한 우리의 진전](https://www.anthropic.com/institute/recursive-self-improvement)
+  Anthropic이 AI의 재귀적 자기 개선 가능성과 안전성에 대한 연구 진전 상황을 공유
+- [Agent Executor - Google의 분산 에이전트 런타임 오픈소스](https://agentexecutor.io/)
+  Google이 공개한 분산 환경에서 AI 에이전트를 실행하기 위한 런타임 플랫폼
 
 ---
 ## 📅 이전 날짜
+
 - [2026-06-05](data/2026-06-05.md)
 - [2026-06-04](data/2026-06-04.md)
 - [2026-06-03](data/2026-06-03.md)
