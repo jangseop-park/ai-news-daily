@@ -1,46 +1,46 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-06-05
+> 마지막 업데이트: 2026-06-06
 
-# AI 뉴스 — 2026-06-05
+# AI 뉴스 — 2026-06-06
 
 ## 🔥 GitHub Trending (Python)
 
-- [chopratejas/headroom](https://github.com/chopratejas/headroom): LLM에 전달되기 전 도구 출력, 로그, 파일, RAG 청크를 압축해 토큰을 60~95% 절감하면서도 동일한 답변 품질 유지
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): 사용자 요구에 맞게 유연하게 성장하는 적응형 에이전트 프레임워크
-- [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR): 100개 이상 언어를 지원하며 PDF·이미지 문서를 AI용 구조화 데이터로 변환하는 OCR 프레임워크
-- [github/spec-kit](https://github.com/github/spec-kit): 스펙 기반 개발 방법론을 시작할 수 있도록 돕는 개발자 도구킷
-- [Open-LLM-VTuber/Open-LLM-VTuber](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber): Live2D 얼굴 애니메이션을 지원하며 여러 플랫폼에서 LLM과 핸즈프리 음성 대화 가능
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): 당신과 함께 성장하는 에이전트
+- [chopratejas/headroom](https://github.com/chopratejas/headroom): LLM 도달 전 도구 출력·로그·파일·RAG 청크를 압축. 60-95% 적은 토큰, 동일한 답변.
+- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): AI 에이전트에 전체 인터넷 접근 능력 제공. Twitter·Reddit·YouTube·GitHub 등 검색, API 비용 없음.
+- [666ghj/MiroFish](https://github.com/666ghj/MiroFish): 간단하고 보편적인 군집 지능 엔진으로 모든 것을 예측합니다.
+- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill): 레딧·X·유튜브·HN·폴리마켓 및 웹 전체에서 주제를 연구하는 AI 에이전트 스킬
 
 ## 📄 Hugging Face Papers
 
-- [오디오 인터랙션 모델](https://huggingface.co/papers/2606.05121)
-  싱가포르 국립대학교의 오디오 인터랙션 모델링 연구 논문으로 35개의 추천을 받음
-- [Cosmos 3: 물리적 AI를 위한 옴니모달 월드 모델](https://huggingface.co/papers/2606.02800)
-  NVIDIA가 발표한 물리적 AI 애플리케이션을 위한 옴니모달 월드 모델로 8,770개 추천을 받은 최다 인기 논문
-- [심층 연구 에이전트는 어디서 틀리는가? 에이전트 궤적의 스팬 수준 오류 위치 파악](https://huggingface.co/papers/2606.02060)
-  NJU-LINK Lab의 연구로 심층 연구 에이전트 궤적에서 스팬 수준의 오류 위치를 파악하는 방법 탐구
-- [루브릭 기반 강화학습에서 보상 해킹 재현·분석·탐지](https://huggingface.co/papers/2606.04923)
-  루브릭 기반 강화학습 시스템의 보상 해킹 현상을 재현·분석하고 탐지 방법을 제시한 연구
-- [OVO-S-Bench: 멀티모달 LLM의 스트리밍 공간 지능 계층적 벤치마크](https://huggingface.co/papers/2606.03890)
-  스트리밍 멀티모달 LLM의 공간 지능 역량을 평가하기 위한 InternLM 팀의 계층적 벤치마크
+- [Code2LoRA: 소프트웨어 진화 환경에서 코드 언어 모델을 위한 하이퍼네트워크 생성 어댑터](https://huggingface.co/papers/2606.06492)
+  소프트웨어 진화와 변화하는 코드 패턴에 적응하는 코드 언어 모델을 위한 하이퍼네트워크 기반 LoRA 어댑터 생성 방법.
+- [ArcANE: 역할 연기 언어 에이전트가 올바른 시간에 캐릭터를 유지하는가?](https://huggingface.co/papers/2606.05553)
+  역할 연기 언어 에이전트의 일관된 캐릭터 행동 유지 여부와 상호작용 시나리오에서의 타이밍 평가.
+- [TIDE: 템플릿 기반 반복을 통한 사전 예방적 다중 문제 발견](https://huggingface.co/papers/2606.04743)
+  템플릿 기반 반복으로 여러 문제를 사전 예방적으로 발견하는 TIDE 프레임워크.
+- [AdaPlanBench: 세계와 사용자 제약 하에서 LLM 에이전트의 적응형 계획 평가](https://huggingface.co/papers/2606.05622)
+  다양한 제약과 사용자 요구 하에서 LLM 에이전트의 적응형 계획 수립 능력을 평가하는 벤치마크.
+- [VideoKR: 지식 및 추론 집약적 비디오 이해를 향하여](https://huggingface.co/papers/2606.05259)
+  지식 통합과 추론 능력을 강조하여 비디오 콘텐츠의 깊이 있는 의미 이해를 달성하는 방법 제안.
 
 ## 🦉 GeekNews
 
-- [아니오, AI는 의식이 없습니다](https://theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/)
-  생성형 AI의 유창한 문장 생성 능력을 의식으로 혼동하면 책임 소재를 엉뚱한 곳에 돌리는 오류 발생
-- [누구나 만들 수 있게 되면, 정말 중요한 것은?](https://figma.com/blog/what-matters-when-anyone-can-build)
-  AI로 제품 제작이 민주화되면서 속도보다 방향과 완성도가 차별화 요소로 부상
-- [OpenAI, Codex에서 웹사이트 배포하는 Sites 플러그인 공개](https://developers.openai.com/codex/sites)
-  프롬프트만으로 웹사이트와 앱을 배포 가능한 도구 출시, 수동 배포 워크플로 불필요
+- [AI-네이티브 스타트업을 만드는 방법](https://x.com/cyberfund/status/2058950286324986294)
+  AI가 반복 업무를 야간에 처리하는 동안 창업자는 제품 개선에 집중하는 새로운 운영 모델 제시.
+- [AI가 스스로를 만들 때: 재귀적 자기 개선을 향한 우리의 진전](https://www.anthropic.com/institute/recursive-self-improvement)
+  AI 개발에서 인간의 구현·실험 작업이 AI 시스템으로 점진적으로 넘어가며 개발 속도 향상.
+- [누구나 만들 수 있게 되면, 정말 중요한 것은 뭘까?](https://www.figma.com/blog/what-matters-when-anyone-can-build)
+  AI로 누구나 제품을 만들 수 있게 되면서 속도보다 방향과 완성도가 핵심 경쟁력이 된다.
+- [Trees - 파일 트리 렌더링 라이브러리 오픈소스](https://trees.software/)
+  VSCode 파일 창과 유사한 구조를 그려주는 라이브러리. 높은 커스터마이징과 성능 제공.
 - [LLM 시대의 엔지니어링](https://x.com/yairwein/status/2060058912351732137)
-  AI 시대 제품 개발에서 휴먼 컨텍스트가 가장 중요한 요소로 부각
-- [Elixir v1.20: 이제 점진적 타입 언어](https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/)
-  타입 추론으로 불필요한 어노테이션 없이 코드 오류를 사전에 감지 가능
+  1년 반의 경험으로 LLM 시대 제품과 개발 조직 구축법 정리. 휴먼 컨텍스트의 중요성 강조.
 
 ---
 ## 📅 이전 날짜
-
+- [2026-06-05](data/2026-06-05.md)
 - [2026-06-04](data/2026-06-04.md)
 - [2026-06-03](data/2026-06-03.md)
 - [2026-06-02](data/2026-06-02.md)
@@ -69,4 +69,3 @@
 - [2026-05-10](data/2026-05-10.md)
 - [2026-05-09](data/2026-05-09.md)
 - [2026-05-08](data/2026-05-08.md)
-- [2026-05-07](data/2026-05-07.md)
