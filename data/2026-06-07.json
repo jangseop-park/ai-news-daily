@@ -1,0 +1,109 @@
+{
+  "date": "2026-06-07",
+  "github_trending": [
+    {
+      "name": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "Reddit, X, YouTube, HN, Polymarket 등 다양한 플랫폼에서 어떤 주제든 조사해 종합 요약을 제공하는 AI 에이전트 스킬",
+      "description_en": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
+    },
+    {
+      "name": "MemPalace/mempalace",
+      "url": "https://github.com/MemPalace/mempalace",
+      "description": "벤치마크 기준 최고 성능의 오픈소스 AI 메모리 시스템 (무료)",
+      "description_en": "The best-benchmarked open-source AI memory system. Free."
+    },
+    {
+      "name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "AI 에이전트가 Twitter, Reddit, YouTube, GitHub, Bilibili, 샤오홍슈 등을 하나의 CLI로 API 비용 없이 탐색할 수 있는 도구",
+      "description_en": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees."
+    },
+    {
+      "name": "openai/whisper",
+      "url": "https://github.com/openai/whisper",
+      "description": "대규모 약지도 학습을 통한 강력한 음성 인식 모델",
+      "description_en": "Robust Speech Recognition via Large-Scale Weak Supervision"
+    },
+    {
+      "name": "PaddlePaddle/PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "description": "PDF와 이미지 문서를 LLM이 활용 가능한 구조화된 데이터로 변환하는 강력하고 경량화된 OCR 툴킷",
+      "description_en": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit bridging images/PDFs and LLMs."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "Code2LoRA: 소프트웨어 진화에 따른 코드 언어 모델 어댑터 하이퍼네트워크 생성",
+      "title_en": "Code2LoRA: Hypernetwork-Generated Adapters for Code Language Models under Software Evolution",
+      "url": "https://huggingface.co/papers/2606.06492",
+      "summary": "하이퍼네트워크를 활용해 소프트웨어 변화에 적응하는 코드 언어 모델용 효율적인 어댑터를 생성하는 방법론 제시 (University of Waterloo)",
+      "summary_en": "Presents a method for generating efficient adapters for code language models that adapt to software evolution using hypernetworks."
+    },
+    {
+      "title": "ArcANE: 역할극 언어 에이전트는 적절한 순간에 캐릭터를 유지하는가?",
+      "title_en": "ArcANE: Do Role-Playing Language Agents Stay in Character at the Right Time?",
+      "url": "https://huggingface.co/papers/2606.05553",
+      "summary": "역할극 언어 에이전트가 상호작용 중 적절히 캐릭터 일관성을 유지하는지 연구 (서울대학교)",
+      "summary_en": "Investigates whether role-playing language agents maintain character consistency appropriately during interactions."
+    },
+    {
+      "title": "TIDE: 템플릿 기반 반복을 통한 능동적 다중 문제 발견",
+      "title_en": "TIDE: Proactive Multi-Problem Discovery via Template-Guided Iteration",
+      "url": "https://huggingface.co/papers/2606.04743",
+      "summary": "템플릿 기반 반복으로 여러 문제를 능동적으로 발견하는 접근법 제안 (KAIST AI)",
+      "summary_en": "Proposes a proactive approach to discovering multiple problems using template-guided iteration."
+    },
+    {
+      "title": "AdaPlanBench: 세계·사용자 제약 하에서의 LLM 에이전트 적응 계획 평가 벤치마크",
+      "title_en": "AdaPlanBench: Evaluating Adaptive Planning in LLM Agents under World and User Constraints",
+      "url": "https://huggingface.co/papers/2606.05622",
+      "summary": "다양한 세계·사용자 제약 하에 LLM 에이전트의 계획 적응 능력을 평가하는 벤치마크 소개 (UIUC)",
+      "summary_en": "Introduces a benchmark for evaluating how well LLM agents adapt their planning under various world and user constraints."
+    },
+    {
+      "title": "VideoKR: 지식·추론 집약적 비디오 이해를 향하여",
+      "title_en": "VideoKR: Towards Knowledge- and Reasoning-Intensive Video Understanding",
+      "url": "https://huggingface.co/papers/2606.05259",
+      "summary": "지식과 추론 능력을 모두 요구하는 비디오 이해 과제 연구 (Yale University)",
+      "summary_en": "Addresses video understanding that requires both knowledge and reasoning capabilities."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "누구나 만들 수 있게 되면, 정말 중요한 것은 뭘까?",
+      "title_en": "What Matters When Anyone Can Build?",
+      "url": "https://www.figma.com/blog/what-matters-when-anyone-can-build",
+      "summary": "AI가 누구나 제품을 만들 수 있게 하면서 속도는 더 이상 차별점이 안 되며, 방향성과 완성도—상상과 실행을 잇는 능력—가 진정한 경쟁 우위가 됨",
+      "summary_en": "When AI enables everyone to build, speed no longer differentiates. Direction and craft become the true competitive advantages."
+    },
+    {
+      "title": "AI-네이티브 스타트업을 만드는 방법",
+      "title_en": "How to Build an AI-Native Startup",
+      "url": "https://x.com/cyberfund/status/2058950286324986294",
+      "summary": "AI가 반복적인 야간 작업을 처리하고 창업자는 제품 개선에 집중하는 새로운 운영 모델, 시간 최적화보다 학습과 반복을 강조",
+      "summary_en": "A new operational model where AI handles repetitive overnight tasks while founders focus on product improvement, emphasizing learning and iteration."
+    },
+    {
+      "title": "한국의 온라인 커뮤니티, 이제 모든 이미지를 AI 검열 도구로 스캔해야 함",
+      "title_en": "South Korean Online Communities Will Need to Scan Every Image with AI Censorship Tools",
+      "url": "https://discuss.privacyguides.net/t/south-korean-online-communities-will-need-to-scan-every-images-with-ai-detection-systems/38341",
+      "summary": "한국 전기통신법 개정으로 온라인 커뮤니티 운영자는 사용자 업로드 이미지·영상을 AI 탐지 시스템으로 전수 검사해야 함",
+      "summary_en": "South Korea's telecommunications law now requires online community operators to scan all user-uploaded images and videos with AI detection systems."
+    },
+    {
+      "title": "C++ 다큐멘터리: 세계에서 가장 중요한 프로그래밍 언어",
+      "title_en": "C++ Documentary: The World's Most Critical Programming Language",
+      "url": "https://herbsutter.com/2026/06/04/c-the-documentary-released-today/",
+      "summary": "Bell Labs 기원부터 현재 표준화 작업까지 C++ 40년 역사를 다룬 다큐멘터리 공개",
+      "summary_en": "A documentary chronicling C++ history spanning 40 years, from Bell Labs origins through global adoption and current standardization."
+    },
+    {
+      "title": "코드는 더 싸졌다",
+      "title_en": "Code Is Cheap",
+      "url": "https://htmx.org/essays/code-is-cheap/",
+      "summary": "AI 코딩 도구가 확산되며 코드 작성 비용은 급락했지만, 생성된 코드를 이해하는 비용은 점점 높아지고 복잡해지고 있음",
+      "summary_en": "As AI coding tools proliferate, the cost of writing code drops dramatically, yet comprehending generated code becomes increasingly expensive."
+    }
+  ]
+}
