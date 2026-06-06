@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-06-06
+> 마지막 업데이트: 2026-06-07
 
-# AI 뉴스 — 2026-06-06
+# AI 뉴스 — 2026-06-07
 
 ## 🔥 GitHub Trending (Python)
 
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): 함께 성장하는 AI 에이전트 프레임워크
-- [chopratejas/headroom](https://github.com/chopratejas/headroom): LLM에 전달하기 전 도구 출력·로그·파일·RAG 청크를 압축. 60-95% 토큰 절감, 동일한 답변 품질. 라이브러리·프록시·MCP 서버 지원
-- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): AI 에이전트에게 인터넷 전체를 볼 수 있는 눈을 제공. Twitter·Reddit·YouTube·GitHub·Bilibili·XiaoHongShu 읽기·검색, CLI 하나로, API 비용 없이
-- [666ghj/MiroFish](https://github.com/666ghj/MiroFish): 간단하고 범용적인 집단지성 엔진으로 무엇이든 예측. 군집 알고리즘 기반
-- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill): Reddit·X·YouTube·HN·Polymarket·웹에서 30일간 어떤 주제든 리서치하고 종합 요약을 생성하는 AI 에이전트 스킬
+- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill): Reddit, X, YouTube, HN, Polymarket 등 다양한 플랫폼에서 어떤 주제든 조사해 종합 요약을 제공하는 AI 에이전트 스킬
+- [MemPalace/mempalace](https://github.com/MemPalace/mempalace): 벤치마크 기준 최고 성능의 오픈소스 AI 메모리 시스템 (무료)
+- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): AI 에이전트가 Twitter, Reddit, YouTube, GitHub, Bilibili, 샤오홍슈 등을 하나의 CLI로 API 비용 없이 탐색할 수 있는 도구
+- [openai/whisper](https://github.com/openai/whisper): 대규모 약지도 학습을 통한 강력한 음성 인식 모델
+- [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR): PDF와 이미지 문서를 LLM이 활용 가능한 구조화된 데이터로 변환하는 강력하고 경량화된 OCR 툴킷
 
 ## 📄 Hugging Face Papers
 
-- [코드 언어 모델의 소프트웨어 진화를 위한 하이퍼네트워크 생성 어댑터 Code2LoRA](https://huggingface.co/papers/2606.06492)
-  소프트웨어가 진화할 때 코드 LLM을 효율적으로 적응시키기 위한 하이퍼네트워크 기반 LoRA 어댑터 자동 생성 방법론 제안
-- [역할극 언어 에이전트가 적절한 시점에 캐릭터를 유지하는가: ArcANE](https://huggingface.co/papers/2606.05553)
-  LLM 기반 역할극 에이전트가 상황에 따라 캐릭터를 적절히 유지하는지 평가하는 벤치마크 연구
-- [TIDE: 템플릿 기반 반복을 통한 다중 문제 능동 발견](https://huggingface.co/papers/2606.04743)
-  템플릿 가이드 반복을 통해 LLM이 여러 문제를 능동적으로 발견하고 해결하는 프레임워크
-- [AdaPlanBench: 세계 및 사용자 제약 하에서 LLM 에이전트의 적응적 계획 평가](https://huggingface.co/papers/2606.05622)
-  동적으로 변화하는 세계 상태와 사용자 제약 조건 하에서 LLM 에이전트의 적응 계획 능력을 평가하는 벤치마크
-- [VideoKR: 지식 및 추론 집약적 비디오 이해를 향하여](https://huggingface.co/papers/2606.05259)
-  외부 지식과 복잡한 추론이 필요한 비디오 이해 능력을 평가하는 새로운 벤치마크 VideoKR 제안
+- [Code2LoRA: 소프트웨어 진화에 따른 코드 언어 모델 어댑터 하이퍼네트워크 생성](https://huggingface.co/papers/2606.06492)
+  하이퍼네트워크를 활용해 소프트웨어 변화에 적응하는 코드 언어 모델용 효율적인 어댑터를 생성하는 방법론 제시 (University of Waterloo)
+- [ArcANE: 역할극 언어 에이전트는 적절한 순간에 캐릭터를 유지하는가?](https://huggingface.co/papers/2606.05553)
+  역할극 언어 에이전트가 상호작용 중 적절히 캐릭터 일관성을 유지하는지 연구 (서울대학교)
+- [TIDE: 템플릿 기반 반복을 통한 능동적 다중 문제 발견](https://huggingface.co/papers/2606.04743)
+  템플릿 기반 반복으로 여러 문제를 능동적으로 발견하는 접근법 제안 (KAIST AI)
+- [AdaPlanBench: 세계·사용자 제약 하에서의 LLM 에이전트 적응 계획 평가 벤치마크](https://huggingface.co/papers/2606.05622)
+  다양한 세계·사용자 제약 하에 LLM 에이전트의 계획 적응 능력을 평가하는 벤치마크 소개 (UIUC)
+- [VideoKR: 지식·추론 집약적 비디오 이해를 향하여](https://huggingface.co/papers/2606.05259)
+  지식과 추론 능력을 모두 요구하는 비디오 이해 과제 연구 (Yale University)
 
 ## 🦉 GeekNews
 
-- [아니오, 인공지능은 의식이 없어요 – 테드 창](https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/)
-  공상과학 작가 테드 창이 현재의 AI 시스템이 의식을 가지고 있다는 주장에 대해 철학적·과학적으로 반박하는 글
+- [누구나 만들 수 있게 되면, 정말 중요한 것은 뭘까?](https://www.figma.com/blog/what-matters-when-anyone-can-build)
+  AI가 누구나 제품을 만들 수 있게 하면서 속도는 더 이상 차별점이 안 되며, 방향성과 완성도—상상과 실행을 잇는 능력—가 진정한 경쟁 우위가 됨
 - [AI-네이티브 스타트업을 만드는 방법](https://x.com/cyberfund/status/2058950286324986294)
-  AI가 반복 업무를 야간에 처리하는 동안 창업자는 제품 개선에 집중하는 새로운 운영 모델. 진짜 변화는 시간 사용이 아니라 회사가 학습·반복하는 방식에 있다
-- [Trees - 파일 트리 렌더링 라이브러리 오픈소스](https://trees.software/)
-  파일 시스템 트리를 다양한 포맷으로 렌더링하는 오픈소스 라이브러리
-- [AI가 스스로를 만들 때: 재귀적 자기 개선을 향한 우리의 진전](https://www.anthropic.com/institute/recursive-self-improvement)
-  Anthropic이 AI의 재귀적 자기 개선 가능성과 안전성에 대한 연구 진전 상황을 공유
-- [Agent Executor - Google의 분산 에이전트 런타임 오픈소스](https://agentexecutor.io/)
-  Google이 공개한 분산 환경에서 AI 에이전트를 실행하기 위한 런타임 플랫폼
+  AI가 반복적인 야간 작업을 처리하고 창업자는 제품 개선에 집중하는 새로운 운영 모델, 시간 최적화보다 학습과 반복을 강조
+- [한국의 온라인 커뮤니티, 이제 모든 이미지를 AI 검열 도구로 스캔해야 함](https://discuss.privacyguides.net/t/south-korean-online-communities-will-need-to-scan-every-images-with-ai-detection-systems/38341)
+  한국 전기통신법 개정으로 온라인 커뮤니티 운영자는 사용자 업로드 이미지·영상을 AI 탐지 시스템으로 전수 검사해야 함
+- [C++ 다큐멘터리: 세계에서 가장 중요한 프로그래밍 언어](https://herbsutter.com/2026/06/04/c-the-documentary-released-today/)
+  Bell Labs 기원부터 현재 표준화 작업까지 C++ 40년 역사를 다룬 다큐멘터리 공개
+- [코드는 더 싸졌다](https://htmx.org/essays/code-is-cheap/)
+  AI 코딩 도구가 확산되며 코드 작성 비용은 급락했지만, 생성된 코드를 이해하는 비용은 점점 높아지고 복잡해지고 있음
 
 ---
 ## 📅 이전 날짜
 
+- [2026-06-06](data/2026-06-06.md)
 - [2026-06-05](data/2026-06-05.md)
 - [2026-06-04](data/2026-06-04.md)
 - [2026-06-03](data/2026-06-03.md)
@@ -69,4 +70,3 @@
 - [2026-05-11](data/2026-05-11.md)
 - [2026-05-10](data/2026-05-10.md)
 - [2026-05-09](data/2026-05-09.md)
-- [2026-05-08](data/2026-05-08.md)
