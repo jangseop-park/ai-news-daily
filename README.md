@@ -6,37 +6,37 @@
 
 ## 🔥 GitHub Trending (Python)
 
-- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill): Reddit, X, YouTube, HN, Polymarket 및 웹 전반에 걸쳐 어떤 주제든 조사하고 근거 있는 요약을 합성하는 AI 에이전트 스킬
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): 당신과 함께 성장하는 에이전트
-- [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec): TurboQuant 기반으로 Rust로 작성되고 Python 바인딩을 제공하는 벡터 인덱스
-- [HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack): 위치 또는 휴대폰 번호를 추적하는 유용한 도구
-- [roboflow/supervision](https://github.com/roboflow/supervision): 재사용 가능한 컴퓨터 비전 툴 모음
+- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill): Reddit, X, YouTube, HN, Polymarket, 웹 등 다양한 소스에서 주제를 조사하고 요약을 생성하는 AI 에이전트 스킬
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): 사용자와 함께 성장하는 AI 에이전트 프레임워크
+- [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec): TurboQuant 기반의 벡터 인덱스, Rust로 작성되고 Python 바인딩 제공
+- [HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack): 위치 또는 전화번호 추적 도구
+- [roboflow/supervision](https://github.com/roboflow/supervision): 재사용 가능한 컴퓨터 비전 도구 모음
 
 ## 📄 Hugging Face Papers
 
-- [Code2LoRA: 소프트웨어 진화에 따른 코드 언어 모델용 하이퍼네트워크 생성 어댑터](https://huggingface.co/papers/2606.06492)
-  코드베이스 변화에 따라 모델 성능을 유지하기 위해 하이퍼네트워크를 활용해 코드 언어 모델용 어댑터를 자동 생성하는 방법을 제안한다.
-- [ArcANE: 롤플레잉 언어 에이전트는 적절한 시점에 캐릭터를 유지하는가?](https://huggingface.co/papers/2606.05553)
-  LLM 기반 에이전트가 상호작용 중 적절한 시점에 일관된 캐릭터 행동을 유지하는지 조사하며, 역할극 에이전트의 캐릭터 일관성 문제를 다룬다.
-- [TIDE: 템플릿 기반 반복을 통한 능동적 다중 문제 발견](https://huggingface.co/papers/2606.04743)
-  템플릿 가이드 반복을 통해 여러 문제를 능동적으로 발견하는 접근법을 제안하며, 보다 포괄적인 문제 식별 및 해결을 가능하게 한다.
-- [AdaPlanBench: 세계 및 사용자 제약 하에서 LLM 에이전트의 적응적 계획 수립 평가](https://huggingface.co/papers/2606.05622)
-  환경과 사용자 제약 조건 모두에서 LLM 에이전트가 계획 전략을 얼마나 잘 적응하는지 평가하는 벤치마크를 소개한다.
-- [VideoKR: 지식 및 추론 집약적 비디오 이해를 향하여](https://huggingface.co/papers/2606.05259)
-  단순한 시각 인식을 넘어 복잡한 추론이 필요한 심층 지식 기반 비디오 이해를 위한 방법론과 벤치마크를 개발한다.
+- [Code2LoRA: 소프트웨어 진화를 위한 하이퍼네트워크 기반 코드 언어 모델 어댑터 생성](https://huggingface.co/papers/2606.06492)
+  소프트웨어 변화에 대응하기 위해 하이퍼네트워크를 활용한 코드 언어 모델의 어댑터 자동 생성 방법론을 제안
+- [ArcANE: 롤플레잉 언어 에이전트의 캐릭터 일관성 유지 평가](https://huggingface.co/papers/2606.05553)
+  롤플레잉 언어 에이전트가 상호작용 중 적절한 시점에 캐릭터 일관성을 유지하는지 평가하는 연구 (서울대)
+- [TIDE: 템플릿 기반 반복을 통한 다중 문제 능동 발견](https://huggingface.co/papers/2606.04743)
+  템플릿 기반 반복 기법으로 여러 문제를 능동적으로 발견하는 방법 제안 (KAIST AI)
+- [AdaPlanBench: 세계 및 사용자 제약 하에서 LLM 에이전트의 적응적 계획 평가](https://huggingface.co/papers/2606.05622)
+  다양한 환경 및 사용자 제약 하에서 LLM 에이전트의 계획 적응력을 평가하는 벤치마크 (UIUC)
+- [VideoKR: 지식 및 추론 집약적 비디오 이해](https://huggingface.co/papers/2606.05259)
+  지식과 추론 능력을 강조하는 비디오 이해 방법론 제안 (Yale University)
 
 ## 🦉 GeekNews
 
-- [OpenLogi - Rust 기반 Logitech Options+ 오픈소스 대체제](https://github.com/AprilNEA/OpenLogi)
-  HID++ 프로토콜로 공식 앱이나 클라우드 연결 없이 Logitech 마우스 설정을 제어하는 오픈소스 도구.
-- [fork() + exec()을 넘어서: Linux 스폰 템플릿](https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/)
-  동일한 바이너리를 반복 실행하는 앱의 프로세스 생성을 가속화하기 위해 실행 파일 정보를 커널 수준에서 캐싱하는 방법.
-- [AI 네이티브 스타트업 개발 모델](https://x.com/cyberfund/status/2058950286324986294)
-  AI가 야간에 반복 작업을 처리하고, 창업자는 제품 개선과 조직 학습에 집중하는 운영 방식.
-- [누구나 만들 수 있을 때 중요한 것은 무엇인가](https://www.figma.com/blog/what-matters-when-anyone-can-build)
-  AI가 제품 창작을 민주화함에 따라, 경쟁 우위가 속도에서 방향성과 실행 품질로 이동하고 있음을 논한다.
-- [코드는 이제 더 저렴해졌다](https://htmx.org/essays/code-is-cheap/)
-  AI 코딩 도구가 개발 비용을 낮췄지만, 역설적으로 생성된 코드를 이해하고 유지보수하는 비용은 증가했음을 분석한다.
+- [한국의 포럼/커뮤니티, 모든 이미지를 AI 검열 도구로 검사해야 함](https://discuss.privacyguides.net/t/south-korean-online-communities-will-need-to-scan-every-images-with-ai-censorship-tools/38341)
+  새 전기통신사업법으로 한국 커뮤니티 플랫폼이 모든 이미지를 AI 기반 검열 도구로 검사해야 하는 의무 부과
+- [C++: 다큐멘터리 — 세계에서 가장 중대한 프로그래밍 언어](https://herbsutter.com/2026/06/04/c-the-documentary-released-today/)
+  Bell Labs에서 시작해 전 세계로 확산된 C++의 40년 역사를 다룬 다큐멘터리 공개
+- [OpenLogi — Rust로 작성된 Logitech Options+ 오픈소스 대체](https://github.com/AprilNEA/OpenLogi)
+  HID++ 프로토콜을 사용해 공식 소프트웨어 없이 Logitech 마우스 기능을 제어하는 오픈소스 도구
+- [느린 터미널에 쓰기엔 인생은 너무 짧다](https://mijndertstuij.nl/posts/life-is-too-short-for-a-slow-terminal/)
+  터미널 응답성이 일상 생산성에 미치는 영향 탐구 — 사소한 지연이 누적되면 큰 비효율로 이어짐
+- [fork() + exec()를 넘어서](https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/)
+  Linux 커널의 'spawn templates'로 반복 실행 애플리케이션의 프로세스 시작 속도를 개선하는 방법
 
 ---
 ## 📅 이전 날짜
