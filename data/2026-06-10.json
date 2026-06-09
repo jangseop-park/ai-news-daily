@@ -1,0 +1,109 @@
+{
+  "date": "2026-06-10",
+  "github_trending": [
+    {
+      "name": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "Reddit, X, YouTube, HN, Polymarket 및 웹을 통해 모든 주제를 조사하고 근거 있는 요약을 합성하는 AI 에이전트 스킬",
+      "description_en": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
+    },
+    {
+      "name": "RyanCodrai/turbovec",
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "description": "TurboQuant 위에 구축된 벡터 인덱스로, Rust로 작성되고 Python 바인딩을 제공",
+      "description_en": "A vector index built on TurboQuant, written in Rust with Python bindings"
+    },
+    {
+      "name": "roboflow/supervision",
+      "url": "https://github.com/roboflow/supervision",
+      "description": "재사용 가능한 컴퓨터 비전 도구 모음",
+      "description_en": "We write your reusable computer vision tools."
+    },
+    {
+      "name": "Andyyyy64/whichllm",
+      "url": "https://github.com/Andyyyy64/whichllm",
+      "description": "내 하드웨어에서 실제로 실행되고 가장 성능이 좋은 로컬 LLM을 찾아주는 도구. 실제 최신 벤치마크 기반 순위 제공",
+      "description_en": "Find the local LLM that actually runs and performs best on your hardware. Ranked by real benchmarks, not parameter count."
+    },
+    {
+      "name": "maziyarpanahi/openmed",
+      "url": "https://github.com/maziyarpanahi/openmed",
+      "description": "오픈소스 헬스케어 AI",
+      "description_en": "open-source healthcare ai"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "SWE-Explore: 코딩 에이전트의 저장소 탐색 능력 벤치마킹",
+      "title_en": "SWE-Explore: Benchmarking How Coding Agents Explore Repositories",
+      "url": "https://huggingface.co/papers/2606.07297",
+      "summary": "코딩 에이전트가 소프트웨어 저장소를 탐색하고 코드베이스를 이해하는 능력을 평가하는 새로운 벤치마크.",
+      "summary_en": "A benchmark evaluating how coding agents explore and navigate software repositories, assessing their capability to understand codebases."
+    },
+    {
+      "title": "온-폴리시 증류의 기하학적 구조에 대하여",
+      "title_en": "On the Geometry of On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2606.07082",
+      "summary": "온-폴리시 증류 기법 이면에 있는 기하학적 특성과 원리를 탐구하는 연구.",
+      "summary_en": "Examines the geometric properties and principles underlying on-policy distillation techniques in machine learning."
+    },
+    {
+      "title": "LatentSkill: LLM 에이전트를 위한 컨텍스트 내 텍스트 스킬을 가중치 내 잠재 스킬로 전환",
+      "title_en": "LatentSkill: From In-Context Textual Skills to In-Weight Latent Skills for LLM Agents",
+      "url": "https://huggingface.co/papers/2606.06087",
+      "summary": "컨텍스트로 제공된 텍스트 스킬을 LLM 에이전트의 가중치에 인코딩된 잠재 스킬로 변환해 일반화 성능을 향상시키는 방법.",
+      "summary_en": "Converts textual skills provided in-context to latent skills encoded in LLM agent weights, improving generalization and performance."
+    },
+    {
+      "title": "에이전트의 최후 시험",
+      "title_en": "Agents' Last Exam",
+      "url": "https://huggingface.co/papers/2606.05405",
+      "summary": "UC 버클리에서 발표한 AI 에이전트의 능력을 종합적으로 평가하는 새로운 벤치마크 및 평가 프레임워크.",
+      "summary_en": "A UC Berkeley research paper presenting a comprehensive evaluation framework and benchmark for assessing AI agent capabilities."
+    },
+    {
+      "title": "비디오 월드 모델을 위한 잠재 공간 메모리",
+      "title_en": "Latent Spatial Memory for Video World Models",
+      "url": "https://huggingface.co/papers/2606.09828",
+      "summary": "비디오 생성 및 이해 능력 향상을 위해 잠재 공간 메모리 메커니즘을 비디오 월드 모델에 통합하는 방법을 제안.",
+      "summary_en": "Incorporates latent spatial memory mechanisms into video world models to improve video generation and understanding capabilities."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "AI는 둔화되고 있다",
+      "title_en": "AI is Slowing Down",
+      "url": "https://www.wheresyoured.at/ai-is-slowing-down/",
+      "summary": "2030년까지 데이터센터 투자를 정당화하려면 연간 2조 달러 이상의 AI 컴퓨팅 매출이 필요하며, 현재 성장 궤적의 지속 가능성에 의문이 제기됨.",
+      "summary_en": "AI infrastructure requires over $2T in annual compute revenue by 2030 to justify datacenter investments, raising sustainability questions about current growth trajectories."
+    },
+    {
+      "title": "장인과 빌더: AI 시대에 가장 가치 있는 개발자",
+      "title_en": "Artisans and Builders: The Most Valuable Developers in the AI Era",
+      "url": "https://stackoverflow.blog/2026/05/28/artisans-and-builders/",
+      "summary": "AI 코딩 도구가 개발을 민주화함에 따라 수작업 코드 전문성의 가치가 재조명되며 숙련된 장인 개발자들이 차별화되고 있음.",
+      "summary_en": "As AI coding tools democratize development, handcrafted code expertise gains renewed value with skilled artisan developers differentiating themselves."
+    },
+    {
+      "title": "S급 데모 팁",
+      "title_en": "S-tier Demo Tips",
+      "url": "https://newsletter.posthog.com/p/how-to-demo",
+      "summary": "효과적인 데모는 프로젝트 출시와 스타트업 성공을 결정짓는 핵심이지만 많은 개발자들이 이 스킬을 소홀히 함.",
+      "summary_en": "Effective demos determine project launches and startup success, yet developers often neglect demonstration skills despite their critical importance."
+    },
+    {
+      "title": "취향이 새로운 10배 개발자다",
+      "title_en": "Taste is the New 10x",
+      "url": "https://parul.substack.com/p/taste-is-the-new-10x",
+      "summary": "AI가 반복 작업을 처리하면서, 디자인 감각과 미적 판단력이 뛰어난 제품을 구분하는 핵심 역량으로 부상함.",
+      "summary_en": "With AI handling routine tasks, design sensibility and aesthetic judgment now separate exceptional products from ordinary ones."
+    },
+    {
+      "title": "루프 엔지니어링 - Addy Osmani",
+      "title_en": "Loop Engineering - Addy Osmani",
+      "url": "https://x.com/addyosmani/status/2064127981161959567",
+      "summary": "AI 코딩 에이전트의 다음 진화는 완전 자율이 아닌, 개발자가 에이전틱 시스템을 지도하는 인간 감독 루프 방식.",
+      "summary_en": "The next evolution in AI coding agents involves human-supervised loops where developers guide agentic systems rather than fully autonomous code generation."
+    }
+  ]
+}
