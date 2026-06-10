@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-06-10
+> 마지막 업데이트: 2026-06-11
 
-# AI 뉴스 — 2026-06-10
+# AI 뉴스 — 2026-06-11
 
 ## 🔥 GitHub Trending (Python)
 
-- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill): Reddit, X, YouTube, HN, Polymarket 및 웹을 통해 주제를 연구하고 정보 기반의 요약을 생성하는 AI 에이전트 스킬
-- [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec): TurboQuant 기반의 벡터 인덱스로, Rust로 작성되고 Python 바인딩이 제공되는 고효율 유사도 검색 도구
-- [roboflow/supervision](https://github.com/roboflow/supervision): 비전 애플리케이션 구축을 위한 재사용 가능한 컴퓨터 비전 도구 라이브러리
-- [Andyyyy64/whichllm](https://github.com/Andyyyy64/whichllm): 매개변수 수가 아닌 실제 벤치마크를 기반으로 하드웨어에 최적인 로컬 LLM을 찾아주는 도구
-- [maziyarpanahi/openmed](https://github.com/maziyarpanahi/openmed): 의료 애플리케이션 및 연구를 위한 오픈소스 헬스케어 AI 플랫폼
+- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill): Reddit, X, YouTube, HN, Polymarket, 웹 등 다양한 소스에서 주제를 조사하고 근거 있는 요약을 합성하는 AI 에이전트 스킬
+- [soxoj/maigret](https://github.com/soxoj/maigret): 3000개 이상의 사이트에서 사용자 이름으로 특정 인물에 대한 정보를 수집하는 도구
+- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo): AI 대형 언어 모델을 활용해 클릭 한 번으로 고화질 숏폼 영상을 자동 생성하는 도구
+- [maziyarpanahi/openmed](https://github.com/maziyarpanahi/openmed): 오픈소스 헬스케어 AI 플랫폼
+- [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto): 기본 개념부터 고급 에이전트까지, 즉시 활용 가능한 템플릿을 포함한 Claude Code 시각적 예제 가이드
 
 ## 📄 Hugging Face Papers
 
-- [SWE-Explore: 코딩 에이전트의 저장소 탐색 벤치마크](https://huggingface.co/papers/2606.07297)
-  코딩 에이전트가 소프트웨어 저장소를 탐색하는 방식을 평가하는 벤치마크를 제시하며, 저장소 네비게이션 전략과 탐색 효율성을 측정합니다.
-- [온-폴리시 증류의 기하학적 분석](https://huggingface.co/papers/2606.07082)
-  강화학습에서 온-폴리시 증류의 기하학적 성질을 분석하여 정책 지식 전달 메커니즘에 대한 이론적 통찰을 제공합니다.
-- [LatentSkill: 텍스트 스킬을 LLM 잠재 스킬로 변환](https://huggingface.co/papers/2606.06087)
-  LLM 에이전트의 인-컨텍스트 텍스트 스킬을 인-웨이트 잠재 스킬로 변환하는 방법을 제안하여 다양한 스킬 학습 및 적용 능력을 향상시킵니다.
-- [에이전트 최후의 시험](https://huggingface.co/papers/2606.05405)
-  UC 버클리 연구팀이 도전적인 시험 형식 작업으로 AI 에이전트의 능력과 한계를 평가하는 포괄적인 프레임워크를 제시합니다.
-- [비디오 월드 모델을 위한 잠재 공간 메모리](https://huggingface.co/papers/2606.09828)
-  Microsoft Research가 비디오 월드 모델을 위한 잠재 공간 메모리 메커니즘을 도입하여 비디오 이해에서 향상된 시간적·공간적 추론을 가능하게 합니다.
+- [ABot-Earth 0.5: 생성형 3D 지구 모델](https://huggingface.co/papers/2606.09967)
+  알리바바 AMAP CV 연구소가 개발한 생성형 3D 지구 모델로, 지구의 지리 및 지형을 3차원으로 표현하고 모델링하는 데 초점을 맞춘 연구.
+- [Kwai Keye-VL-2.0 기술 보고서](https://huggingface.co/papers/2606.10651)
+  시각과 텍스트 정보를 함께 이해하고 처리하는 멀티모달 AI 능력을 향상시킨 Kwai Keye의 비전-언어 모델 최신 버전 기술 보고서.
+- [Role-Agent: 이중 역할 진화를 통한 LLM 에이전트 부트스트래핑](https://huggingface.co/papers/2606.10917)
+  역할 기반 이중 진화 접근법을 통해 LLM 에이전트가 복잡한 작업을 더 잘 수행할 수 있도록 능력을 향상시키는 방법을 제안.
+- [회고적 하네스 최적화: 궤적 롤아웃 자기 선호도를 통한 LLM 에이전트 개선](https://huggingface.co/papers/2606.05922)
+  과거 작업 궤적을 분석하고 자기 선호 메커니즘을 활용해 LLM 에이전트의 성능을 최적화하는 기법.
+- [SearchSwarm: 장기 심층 연구를 위한 에이전틱 LLM의 위임 지능](https://huggingface.co/papers/2606.09730)
+  LLM 기반 에이전트가 작업을 효과적으로 위임하고 장기적인 심층 연구를 수행할 수 있도록 하는 SearchSwarm 프레임워크.
 
 ## 🦉 GeekNews
 
-- [AI가 둔화하고 있다](https://www.wheresyoured.at/ai-is-slowing-down/)
-  생성형 AI 인프라가 데이터센터 투자를 정당화하려면 2030년까지 연간 2조 달러를 초과하는 AI 컴퓨트 매출이 필요하다는 분석
-- [AI 시대에 가장 가치 있는 개발자는 장인이면서 빌더인 사람](https://stackoverflow.blog/2026/05/28/artisans-and-builders/)
-  AI 코딩 도구 확산으로 누구나 빌더가 될 수 있게 되면서, 손으로 코드를 짜는 장인의 가치가 재조명되고 있습니다.
-- [S-tier 데모를 만드는 팁들](https://newsletter.posthog.com/p/how-to-demo)
-  데모는 프로젝트 출시와 스타트업 투자 성패의 결정적 요소이지만 개발자 대부분은 제작보다 발표를 선호합니다.
-- [취향(Taste)이 새로운 10x다](https://parul.substack.com/p/taste-is-the-new-10x)
-  AI 도구가 앱 스캐폴딩을 처리하면서 실행의 하한선이 높아진 상황에서 진정한 차별화는 미적 판단력에 있습니다.
-- [Linear는 어떻게 이렇게 빠른가? 기술적 분석](https://performance.dev/how-is-linear-so-fast-a-technical-breakdown)
-  Linear는 브라우저 내 데이터베이스와 로컬 우선 동기화로 이슈 업데이트가 밀리초 단위로 UI에 반영됩니다.
+- [취향을 갖춘 30배 AI 엔지니어가 되는 법](https://pakodas.substack.com/p/how-to-be-a-30x-ai-engineer-with-a-taste)
+  AI가 대규모로 코드를 생성하는 시대에 '무엇을 만들지 판단하는 능력'인 취향이 속도와 지식을 능가하는 핵심 역량이 됨.
+- [루프 엔지니어링: 에이전트를 프롬프팅하는 시스템 설계](https://addyo.substack.com/p/loop-engineering)
+  코딩 에이전트에게 매 턴 직접 프롬프트 입력 방식에서, 에이전트 프롬프팅을 자율적으로 관리하는 시스템 설계로의 전환 설명.
+- [Anthropic, Claude Fable 5 / Mythos 5 출시](https://www.anthropic.com/news/claude-fable-5-mythos-5)
+  며칠에 걸친 장기 비동기 작업을 위해 설계된 5세대 프론티어 모델 발표. Fable 5는 안전성을 강화한 공개용 버전.
+- [취향이 새로운 10배 능력이다](https://parul.substack.com/p/taste-is-the-new-10x)
+  AI가 스캐폴딩, 스타일링 같은 일상적인 작업을 처리하게 되면서, 분별력과 창의적 비전이 개발자의 진정한 경쟁 우위가 됨.
+- [S급 데모를 만드는 팁](https://newsletter.posthog.com/p/how-to-demo)
+  스타트업 성공과 투자 유치에서 제품 데모의 중요성을 강조하며 설득력 있는 시연을 만드는 전략을 제공.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-06-10](data/2026-06-10.md)
 - [2026-06-09](data/2026-06-09.md)
 - [2026-06-08](data/2026-06-08.md)
 - [2026-06-07](data/2026-06-07.md)
@@ -69,4 +70,3 @@
 - [2026-05-15](data/2026-05-15.md)
 - [2026-05-14](data/2026-05-14.md)
 - [2026-05-13](data/2026-05-13.md)
-- [2026-05-12](data/2026-05-12.md)
