@@ -1,0 +1,109 @@
+{
+  "date": "2026-06-11",
+  "github_trending": [
+    {
+      "name": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "Reddit, X, YouTube, HN, Polymarket, 웹 등 다양한 소스에서 주제를 조사하고 근거 있는 요약을 합성하는 AI 에이전트 스킬",
+      "description_en": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
+    },
+    {
+      "name": "soxoj/maigret",
+      "url": "https://github.com/soxoj/maigret",
+      "description": "3000개 이상의 사이트에서 사용자 이름으로 특정 인물에 대한 정보를 수집하는 도구",
+      "description_en": "Collect a dossier on a person by username from 3000+ sites"
+    },
+    {
+      "name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "AI 대형 언어 모델을 활용해 클릭 한 번으로 고화질 숏폼 영상을 자동 생성하는 도구",
+      "description_en": "Generate short videos with one click using AI LLM"
+    },
+    {
+      "name": "maziyarpanahi/openmed",
+      "url": "https://github.com/maziyarpanahi/openmed",
+      "description": "오픈소스 헬스케어 AI 플랫폼",
+      "description_en": "Open-source healthcare AI"
+    },
+    {
+      "name": "luongnv89/claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "description": "기본 개념부터 고급 에이전트까지, 즉시 활용 가능한 템플릿을 포함한 Claude Code 시각적 예제 가이드",
+      "description_en": "A visual, example-driven guide to Claude Code from basic concepts to advanced agents, with copy-paste templates."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "ABot-Earth 0.5: 생성형 3D 지구 모델",
+      "title_en": "ABot-Earth 0.5: Generative 3D Earth Model",
+      "url": "https://huggingface.co/papers/2606.09967",
+      "summary": "알리바바 AMAP CV 연구소가 개발한 생성형 3D 지구 모델로, 지구의 지리 및 지형을 3차원으로 표현하고 모델링하는 데 초점을 맞춘 연구.",
+      "summary_en": "A generative 3D Earth model by Alibaba AMAP CV Lab focused on three-dimensional representations and modeling of Earth's geography and terrain."
+    },
+    {
+      "title": "Kwai Keye-VL-2.0 기술 보고서",
+      "title_en": "Kwai Keye-VL-2.0 Technical Report",
+      "url": "https://huggingface.co/papers/2606.10651",
+      "summary": "시각과 텍스트 정보를 함께 이해하고 처리하는 멀티모달 AI 능력을 향상시킨 Kwai Keye의 비전-언어 모델 최신 버전 기술 보고서.",
+      "summary_en": "Technical report on Kwai Keye-VL-2.0, a vision-language model advancing multimodal AI capabilities for understanding and processing visual and textual information."
+    },
+    {
+      "title": "Role-Agent: 이중 역할 진화를 통한 LLM 에이전트 부트스트래핑",
+      "title_en": "Role-Agent: Bootstrapping LLM Agents via Dual-Role Evolution",
+      "url": "https://huggingface.co/papers/2606.10917",
+      "summary": "역할 기반 이중 진화 접근법을 통해 LLM 에이전트가 복잡한 작업을 더 잘 수행할 수 있도록 능력을 향상시키는 방법을 제안.",
+      "summary_en": "Proposes a dual-role evolution approach to improve LLM agents' ability to perform complex tasks through role-based bootstrapping."
+    },
+    {
+      "title": "회고적 하네스 최적화: 궤적 롤아웃 자기 선호도를 통한 LLM 에이전트 개선",
+      "title_en": "Retrospective Harness Optimization: Improving LLM Agents via Self-Preference over Trajectory Rollouts",
+      "url": "https://huggingface.co/papers/2606.05922",
+      "summary": "과거 작업 궤적을 분석하고 자기 선호 메커니즘을 활용해 LLM 에이전트의 성능을 최적화하는 기법.",
+      "summary_en": "Optimizes LLM agents by analyzing past trajectories and applying self-preference mechanisms to improve task performance."
+    },
+    {
+      "title": "SearchSwarm: 장기 심층 연구를 위한 에이전틱 LLM의 위임 지능",
+      "title_en": "SearchSwarm: Towards Delegation Intelligence in Agentic LLMs for Long-Horizon Deep Research",
+      "url": "https://huggingface.co/papers/2606.09730",
+      "summary": "LLM 기반 에이전트가 작업을 효과적으로 위임하고 장기적인 심층 연구를 수행할 수 있도록 하는 SearchSwarm 프레임워크.",
+      "summary_en": "SearchSwarm framework enabling LLM-based agents to delegate tasks and conduct long-horizon deep research effectively."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "취향을 갖춘 30배 AI 엔지니어가 되는 법",
+      "title_en": "How to Be a 30x AI Engineer with Taste",
+      "url": "https://pakodas.substack.com/p/how-to-be-a-30x-ai-engineer-with-a-taste",
+      "summary": "AI가 대규모로 코드를 생성하는 시대에 '무엇을 만들지 판단하는 능력'인 취향이 속도와 지식을 능가하는 핵심 역량이 됨.",
+      "summary_en": "In the age of AI-generated code at scale, 'taste'—the ability to judge what to build—surpasses speed and knowledge as the key engineering competency."
+    },
+    {
+      "title": "루프 엔지니어링: 에이전트를 프롬프팅하는 시스템 설계",
+      "title_en": "Loop Engineering: Designing Systems to Prompt Agents",
+      "url": "https://addyo.substack.com/p/loop-engineering",
+      "summary": "코딩 에이전트에게 매 턴 직접 프롬프트 입력 방식에서, 에이전트 프롬프팅을 자율적으로 관리하는 시스템 설계로의 전환 설명.",
+      "summary_en": "Shift from directly prompting coding agents each turn toward designing systems that autonomously manage agent prompting."
+    },
+    {
+      "title": "Anthropic, Claude Fable 5 / Mythos 5 출시",
+      "title_en": "Anthropic Releases Claude Fable 5 / Mythos 5",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "summary": "며칠에 걸친 장기 비동기 작업을 위해 설계된 5세대 프론티어 모델 발표. Fable 5는 안전성을 강화한 공개용 버전.",
+      "summary_en": "Fifth-generation frontier models designed for extended, asynchronous tasks spanning days; Fable 5 is the safer public-facing version."
+    },
+    {
+      "title": "취향이 새로운 10배 능력이다",
+      "title_en": "Taste is the New 10x",
+      "url": "https://parul.substack.com/p/taste-is-the-new-10x",
+      "summary": "AI가 스캐폴딩, 스타일링 같은 일상적인 작업을 처리하게 되면서, 분별력과 창의적 비전이 개발자의 진정한 경쟁 우위가 됨.",
+      "summary_en": "As AI handles routine tasks like scaffolding and styling, discernment and creative vision become the genuine competitive advantage for developers."
+    },
+    {
+      "title": "S급 데모를 만드는 팁",
+      "title_en": "S-tier Demo Tips",
+      "url": "https://newsletter.posthog.com/p/how-to-demo",
+      "summary": "스타트업 성공과 투자 유치에서 제품 데모의 중요성을 강조하며 설득력 있는 시연을 만드는 전략을 제공.",
+      "summary_en": "Strategies for compelling product demonstrations, highlighting their critical role in startup success and funding."
+    }
+  ]
+}
