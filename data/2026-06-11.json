@@ -4,32 +4,32 @@
     {
       "name": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "description": "Reddit, X, YouTube, HN, Polymarket, 웹 등 다양한 소스에서 주제를 조사하고 근거 있는 요약을 합성하는 AI 에이전트 스킬",
+      "description": "Reddit, X, YouTube, HN, Polymarket, 웹 등에서 특정 주제를 조사하고 근거 기반 요약을 생성하는 AI 에이전트 스킬",
       "description_en": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
     },
     {
       "name": "soxoj/maigret",
       "url": "https://github.com/soxoj/maigret",
-      "description": "3000개 이상의 사이트에서 사용자 이름으로 특정 인물에 대한 정보를 수집하는 도구",
+      "description": "3000개 이상의 사이트에서 사용자명을 기반으로 특정 인물에 대한 정보를 수집하는 도구",
       "description_en": "Collect a dossier on a person by username from 3000+ sites"
     },
     {
       "name": "harry0703/MoneyPrinterTurbo",
       "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "description": "AI 대형 언어 모델을 활용해 클릭 한 번으로 고화질 숏폼 영상을 자동 생성하는 도구",
-      "description_en": "Generate short videos with one click using AI LLM"
+      "description": "AI 대형 언어 모델을 활용하여 클릭 한 번으로 고화질 단편 영상을 자동 생성하는 도구",
+      "description_en": "Generate short high-definition videos with one click using AI LLM"
     },
     {
       "name": "maziyarpanahi/openmed",
       "url": "https://github.com/maziyarpanahi/openmed",
-      "description": "오픈소스 헬스케어 AI 플랫폼",
+      "description": "오픈소스 의료 AI 플랫폼",
       "description_en": "Open-source healthcare AI"
     },
     {
       "name": "luongnv89/claude-howto",
       "url": "https://github.com/luongnv89/claude-howto",
-      "description": "기본 개념부터 고급 에이전트까지, 즉시 활용 가능한 템플릿을 포함한 Claude Code 시각적 예제 가이드",
-      "description_en": "A visual, example-driven guide to Claude Code from basic concepts to advanced agents, with copy-paste templates."
+      "description": "기본 개념부터 고급 에이전트까지, 바로 사용 가능한 템플릿과 함께 Claude Code를 시각적·예시 중심으로 안내하는 가이드",
+      "description_en": "A visual, example-driven guide to Claude Code from basic concepts to advanced agents, with copy-paste templates"
     }
   ],
   "huggingface": [
@@ -37,36 +37,36 @@
       "title": "ABot-Earth 0.5: 생성형 3D 지구 모델",
       "title_en": "ABot-Earth 0.5: Generative 3D Earth Model",
       "url": "https://huggingface.co/papers/2606.09967",
-      "summary": "알리바바 AMAP CV 연구소가 개발한 생성형 3D 지구 모델로, 지구의 지리 및 지형을 3차원으로 표현하고 모델링하는 데 초점을 맞춘 연구.",
-      "summary_en": "A generative 3D Earth model by Alibaba AMAP CV Lab focused on three-dimensional representations and modeling of Earth's geography and terrain."
+      "summary": "위성 이미지만으로 광대한 3D 도시 환경을 생성하는 프레임워크. 3D Gaussian Splatting 기반으로 1㎢당 10분 이내 합성, 190개국 300개 이상 도시 커버.",
+      "summary_en": "A generative 3D framework by Alibaba AMAP that synthesizes vast 3D environments from satellite imagery using 3DGS, covering 300+ cities across 190+ countries."
     },
     {
       "title": "Kwai Keye-VL-2.0 기술 보고서",
       "title_en": "Kwai Keye-VL-2.0 Technical Report",
       "url": "https://huggingface.co/papers/2606.10651",
-      "summary": "시각과 텍스트 정보를 함께 이해하고 처리하는 멀티모달 AI 능력을 향상시킨 Kwai Keye의 비전-언어 모델 최신 버전 기술 보고서.",
-      "summary_en": "Technical report on Kwai Keye-VL-2.0, a vision-language model advancing multimodal AI capabilities for understanding and processing visual and textual information."
+      "summary": "장시간 동영상 이해와 에이전트 지능을 위한 오픈소스 MoE 멀티모달 모델. 256K 컨텍스트 처리, 동급 모델 대비 최고 수준 벤치마크 달성.",
+      "summary_en": "Open-source MoE multimodal model for long-video understanding and agentic intelligence, featuring 256K context and state-of-the-art benchmark performance."
     },
     {
       "title": "Role-Agent: 이중 역할 진화를 통한 LLM 에이전트 부트스트래핑",
       "title_en": "Role-Agent: Bootstrapping LLM Agents via Dual-Role Evolution",
       "url": "https://huggingface.co/papers/2606.10917",
-      "summary": "역할 기반 이중 진화 접근법을 통해 LLM 에이전트가 복잡한 작업을 더 잘 수행할 수 있도록 능력을 향상시키는 방법을 제안.",
-      "summary_en": "Proposes a dual-role evolution approach to improve LLM agents' ability to perform complex tasks through role-based bootstrapping."
+      "summary": "단일 LLM이 에이전트와 환경 역할을 동시 수행하는 부트스트랩 공진화 프레임워크. 여러 벤치마크에서 평균 4% 이상 성능 향상.",
+      "summary_en": "Framework where a single LLM acts as both agent and environment, enabling bootstrapped co-evolution. Achieves 4%+ performance gains across multiple benchmarks."
     },
     {
-      "title": "회고적 하네스 최적화: 궤적 롤아웃 자기 선호도를 통한 LLM 에이전트 개선",
+      "title": "Retrospective Harness Optimization: 에이전트 하네스 자기최적화",
       "title_en": "Retrospective Harness Optimization: Improving LLM Agents via Self-Preference over Trajectory Rollouts",
       "url": "https://huggingface.co/papers/2606.05922",
-      "summary": "과거 작업 궤적을 분석하고 자기 선호 메커니즘을 활용해 LLM 에이전트의 성능을 최적화하는 기법.",
-      "summary_en": "Optimizes LLM agents by analyzing past trajectories and applying self-preference mechanisms to improve task performance."
+      "summary": "외부 레이블 없이 과거 궤적만으로 에이전트 하네스를 최적화하는 자기지도 방법. SWE-Bench Pro 통과율 59%→78%로 향상.",
+      "summary_en": "Self-supervised method that optimizes the agent harness using only past trajectories, improving SWE-Bench Pro pass rate from 59% to 78%."
     },
     {
-      "title": "SearchSwarm: 장기 심층 연구를 위한 에이전틱 LLM의 위임 지능",
+      "title": "SearchSwarm: 장기 심층 연구를 위한 에이전트 위임 지능",
       "title_en": "SearchSwarm: Towards Delegation Intelligence in Agentic LLMs for Long-Horizon Deep Research",
       "url": "https://huggingface.co/papers/2606.09730",
-      "summary": "LLM 기반 에이전트가 작업을 효과적으로 위임하고 장기적인 심층 연구를 수행할 수 있도록 하는 SearchSwarm 프레임워크.",
-      "summary_en": "SearchSwarm framework enabling LLM-based agents to delegate tasks and conduct long-horizon deep research effectively."
+      "summary": "메인 에이전트가 태스크를 분해해 서브에이전트에 위임하는 위임 지능 패러다임. 장기 심층 연구 벤치마크에서 경쟁력 있는 성능 달성.",
+      "summary_en": "Delegation intelligence paradigm where a main agent decomposes and delegates tasks to subagents, achieving competitive performance on deep research benchmarks."
     }
   ],
   "geeknews": [
@@ -74,36 +74,29 @@
       "title": "취향을 갖춘 30배 AI 엔지니어가 되는 법",
       "title_en": "How to Be a 30x AI Engineer with Taste",
       "url": "https://pakodas.substack.com/p/how-to-be-a-30x-ai-engineer-with-a-taste",
-      "summary": "AI가 대규모로 코드를 생성하는 시대에 '무엇을 만들지 판단하는 능력'인 취향이 속도와 지식을 능가하는 핵심 역량이 됨.",
-      "summary_en": "In the age of AI-generated code at scale, 'taste'—the ability to judge what to build—surpasses speed and knowledge as the key engineering competency."
+      "summary": "AI 도구를 넘어 '취향'—좋은 결과를 판별하는 감각—을 갖춘 엔지니어가 30배 생산성을 달성할 수 있다는 주장.",
+      "summary_en": "Argues that AI engineers with 'taste'—the ability to judge good outputs—can achieve 30x productivity gains beyond simply using AI tools."
     },
     {
-      "title": "루프 엔지니어링: 에이전트를 프롬프팅하는 시스템 설계",
-      "title_en": "Loop Engineering: Designing Systems to Prompt Agents",
+      "title": "루프 엔지니어링 — 에이전트를 프롬프트하는 시스템 설계하기",
+      "title_en": "Loop Engineering: Designing Systems That Prompt Agents",
       "url": "https://addyo.substack.com/p/loop-engineering",
-      "summary": "코딩 에이전트에게 매 턴 직접 프롬프트 입력 방식에서, 에이전트 프롬프팅을 자율적으로 관리하는 시스템 설계로의 전환 설명.",
-      "summary_en": "Shift from directly prompting coding agents each turn toward designing systems that autonomously manage agent prompting."
+      "summary": "에이전트가 반복적으로 작동하도록 둘러싼 시스템 전체를 설계하는 '루프 엔지니어링' 개념 소개. 피드백 루프, 상태 관리, 에이전트 조율 방식을 다룸.",
+      "summary_en": "Introduces 'loop engineering'—designing full systems around AI agents for effective feedback loops, covering state management and agent orchestration."
     },
     {
-      "title": "Anthropic, Claude Fable 5 / Mythos 5 출시",
-      "title_en": "Anthropic Releases Claude Fable 5 / Mythos 5",
-      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-      "summary": "며칠에 걸친 장기 비동기 작업을 위해 설계된 5세대 프론티어 모델 발표. Fable 5는 안전성을 강화한 공개용 버전.",
-      "summary_en": "Fifth-generation frontier models designed for extended, asynchronous tasks spanning days; Fable 5 is the safer public-facing version."
+      "title": "대한민국 정부(GPKI), Firefox 루트 인증서 저장소 재등록 시도",
+      "title_en": "South Korean Government (GPKI) Attempting to Re-enter Firefox Root Certificate Store",
+      "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1845081",
+      "summary": "대한민국 정부 공개키 인프라(GPKI)가 Firefox 루트 인증서 저장소 재포함을 시도 중. 과거 신뢰 이슈로 커뮤니티 논쟁 진행 중.",
+      "summary_en": "South Korea's GPKI is attempting to re-enter Firefox's root certificate store, generating debate due to past trust concerns."
     },
     {
-      "title": "취향이 새로운 10배 능력이다",
-      "title_en": "Taste is the New 10x",
-      "url": "https://parul.substack.com/p/taste-is-the-new-10x",
-      "summary": "AI가 스캐폴딩, 스타일링 같은 일상적인 작업을 처리하게 되면서, 분별력과 창의적 비전이 개발자의 진정한 경쟁 우위가 됨.",
-      "summary_en": "As AI handles routine tasks like scaffolding and styling, discernment and creative vision become the genuine competitive advantage for developers."
-    },
-    {
-      "title": "S급 데모를 만드는 팁",
-      "title_en": "S-tier Demo Tips",
-      "url": "https://newsletter.posthog.com/p/how-to-demo",
-      "summary": "스타트업 성공과 투자 유치에서 제품 데모의 중요성을 강조하며 설득력 있는 시연을 만드는 전략을 제공.",
-      "summary_en": "Strategies for compelling product demonstrations, highlighting their critical role in startup success and funding."
+      "title": "Slumber — 터미널 기반 HTTP/REST 클라이언트",
+      "title_en": "Slumber — Terminal-Based HTTP/REST Client",
+      "url": "https://github.com/LucasPickering/slumber",
+      "summary": "Postman 대신 터미널에서 사용하는 TUI 기반 HTTP/REST 클라이언트. 설정 파일로 요청 관리, 버전 관리 통합 용이.",
+      "summary_en": "TUI-based HTTP/REST client as a terminal-native alternative to Postman/Insomnia, with config file-based request management for easy version control."
     }
   ]
 }
