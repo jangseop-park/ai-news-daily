@@ -6,37 +6,37 @@
 
 ## 🔥 GitHub Trending (Python)
 
-- [maziyarpanahi/openmed](https://github.com/maziyarpanahi/openmed): 오픈소스 헬스케어 AI 프레임워크
-- [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector): AI 에이전트 스킬의 취약점, 악성 패턴, 보안 위험을 식별하는 보안 스캐너
-- [soxoj/maigret](https://github.com/soxoj/maigret): 3000개 이상의 사이트에서 사용자명으로 인물 정보를 수집하는 도구
-- [hexo-ai/sia](https://github.com/hexo-ai/sia): 벤치마크 태스크에서 AI 시스템 성능을 자율적으로 향상시키는 자기개선 AI 프레임워크
-- [francescopace/espectre](https://github.com/francescopace/espectre): Wi-Fi CSI(채널 상태 정보) 분석 기반 동작 감지 시스템, Home Assistant 연동 지원
+- [openmed](https://github.com/maziyarpanahi/openmed): 오픈소스 의료 AI 플랫폼
+- [SkillSpector](https://github.com/NVIDIA/SkillSpector): AI 에이전트 스킬의 취약점과 악의적 패턴을 식별하는 보안 스캐너
+- [maigret](https://github.com/soxoj/maigret): 3000개 이상의 웹사이트에서 공개 프로필 데이터를 수집하는 사용자명 조사 도구
+- [sia](https://github.com/hexo-ai/sia): 벤치마크 작업 성능을 자율적으로 향상시키도록 설계된 자기 개선 AI 프레임워크
+- [espectre](https://github.com/francescopace/espectre): Wi-Fi 스펙트럼 분석을 활용한 동작 감지 시스템과 Home Assistant 통합
 
 ## 📄 Hugging Face Papers
 
-- [매니폴드 거듭제곱 반복법으로 Mixture-of-Experts 라우터 재설계](https://huggingface.co/papers/2606.12397)
-  매니폴드 기반 거듭제곱 반복법으로 MoE 라우팅 메커니즘을 개선해 대규모 신경망의 효율과 성능을 향상시키는 접근법.
-- [가설 트리 정제를 통한 범용 자율 연구 AI를 향하여](https://huggingface.co/papers/2606.11926)
-  AI 시스템이 가설 트리를 반복 정제하며 자율적으로 과학 연구를 수행하도록 하는 기법을 제안.
-- [LLM을 위한 에이전트 환경 엔지니어링: 환경 모델링·합성·평가·응용 서베이](https://huggingface.co/papers/2606.12191)
-  LLM 에이전트가 동작하는 환경 설계·평가 방법을 포괄적으로 조사하며 모델링 접근법과 실용적 응용을 다룬다.
-- [Claw-SWE-Bench: 코딩 태스크에서 에이전트 하네스 평가 벤치마크](https://huggingface.co/papers/2606.12344)
-  소프트웨어 엔지니어링 태스크에서 AI 에이전트 프레임워크를 평가하기 위한 표준화된 벤치마크.
-- [점수 분포로 추론을 내재화하여 스칼라 보상을 넘어서](https://huggingface.co/papers/2606.09076)
-  단일 값 보상 대신 확률 분포를 활용해 강화학습 시스템에 더욱 풍부한 피드백 표현을 제공하는 방법.
+- [Mixture-of-Experts 라우터를 매니폴드 파워 반복으로 재설계](https://huggingface.co/papers/2606.12397)
+  매니폴드 기반 파워 반복 기법을 통한 mixture-of-experts 아키텍처의 라우팅 메커니즘 개선 연구
+- [가설-트리 개선을 통한 일반화된 자율 연구](https://huggingface.co/papers/2606.11926)
+  반복적 가설 개선을 통해 과학 연구를 수행할 수 있는 자율 AI 시스템 개발 방법 탐구
+- [대형 언어 모델을 위한 에이전트 환경 엔지니어링 조사](https://huggingface.co/papers/2606.12191)
+  대형 언어 모델이 지능형 에이전트로 작동할 수 있는 환경 설계 및 구현 방법에 대한 포괄적 조사
+- [Claw-SWE-Bench: 코딩 작업에서 AI 에이전트 하네스 평가 벤치마크](https://huggingface.co/papers/2606.12344)
+  소프트웨어 엔지니어링 작업에서 AI 에이전트 성능을 평가하기 위한 벤치마크 평가 프레임워크
+- [스칼라 리워드를 넘어 추론을 점수 분포로 내재화](https://huggingface.co/papers/2606.09076)
+  단일 스칼라 보상값을 넘어 더 정교한 점수 표현으로 강화 학습을 향상시키는 방법 제안
 
 ## 🦉 GeekNews
 
-- [Supermemory - AI 메모리 & 컨텍스트 엔진](https://github.com/supermemoryai/supermemory)
-  대화에서 사실을 자동 추출하고 사용자 프로필을 구축하는 오픈소스 메모리 레이어. 여러 인터랙션에 걸쳐 컨텍스트 한계를 극복한다.
-- ['린 스타트업' 저자 에릭 리스: 부패하지 않는 회사 만들기 AMA](https://news.ycombinator.com/item?id=48477135)
-  에릭 리스가 스타트업·대기업·정부 등 15년 경험을 바탕으로 지속 가능하고 윤리적인 회사를 만드는 방법을 논의한다.
-- [Claude Fable 5 / Mythos 5 - Anthropic 5세대 프론티어 모델](https://www.anthropic.com/news/claude-fable-5-mythos-5)
-  며칠에 걸친 장기 비동기 태스크를 위해 설계된 Anthropic 최신 모델. Mythos급 성능에 엔터프라이즈 수준의 안전 기능 결합.
-- [30배 생산성의 AI 엔지니어가 되는 법 (안목 포함)](https://pakodas.substack.com/p/how-to-be-a-30x-ai-engineer-with-a-taste)
-  AI가 코드를 생성하는 시대에 공학적 판단력과 심미적 안목이 핵심 차별화 요소가 됨을 탐구.
-- [루프 엔지니어링 - 에이전트를 프롬프팅하는 시스템 설계](https://addyo.substack.com/p/loop-engineering)
-  에이전트에 직접 프롬프트하는 방식에서 프롬프팅을 자율 관리하는 메타 시스템 설계로의 패러다임 전환을 소개.
+- [Supermemory - AI를 위한 메모리 & 컨텍스트 엔진](https://github.com/supermemoryai/supermemory)
+  대화에서 자동으로 사실을 추출하고 사용자 프로필을 구축하는 메모리 계층으로, AI의 상호작용 간 정보 보유 불능 문제 해결
+- [린 스타트업 저자 Eric Ries AMA - 신작 Incorruptible 출판](https://news.ycombinator.com/item?id=48477135)
+  린 스타트업 저술 후 15년간 기업, 스타트업, NGO, 정부를 거친 경험에 대한 대화
+- [Fable 5로 루프 설계하기](https://x.com/RLanceMartin/status/2064397389189071163)
+  자가 수정 루프 및 메모리 시스템을 포함한 주요 기법을 통해 Anthropic의 Claude Fable 5 활용 가이드
+- [소프트웨어 해커톤의 종말, 하드웨어 해커톤의 부흥](https://blog.oscars.dev/posts/rip-software-hackathons-long-live-the-hardware-hackathon/)
+  Raspberry Pi와 로터리 전화를 연결한 48시간 해커톤 프로젝트로 양방향 오디오 및 AI 기능을 갖춘 서버 통합 구현
+- [오픈소스 코딩 에이전트 비교: 실제 작업 성능 분석](https://news.hada.io/)
+  다양한 오픈소스 AI 코딩 에이전트들의 실제 소프트웨어 개발 작업 수행 성능을 비교 분석한 연구
 
 ---
 ## 📅 이전 날짜
