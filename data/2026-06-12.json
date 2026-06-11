@@ -2,108 +2,108 @@
   "date": "2026-06-12",
   "github_trending": [
     {
-      "name": "maziyarpanahi/openmed",
+      "name": "openmed",
       "url": "https://github.com/maziyarpanahi/openmed",
-      "description": "오픈소스 헬스케어 AI 프레임워크",
-      "description_en": "Open-source healthcare AI"
+      "description": "오픈소스 의료 AI 플랫폼",
+      "description_en": "Open-source healthcare AI platform"
     },
     {
-      "name": "NVIDIA/SkillSpector",
+      "name": "SkillSpector",
       "url": "https://github.com/NVIDIA/SkillSpector",
-      "description": "AI 에이전트 스킬의 취약점, 악성 패턴, 보안 위험을 식별하는 보안 스캐너",
-      "description_en": "Security scanner for AI agent skills that identifies vulnerabilities, malicious patterns, and security risks"
+      "description": "AI 에이전트 스킬의 취약점과 악의적 패턴을 식별하는 보안 스캐너",
+      "description_en": "Security scanner for AI agent skills that identifies vulnerabilities and malicious patterns"
     },
     {
-      "name": "soxoj/maigret",
+      "name": "maigret",
       "url": "https://github.com/soxoj/maigret",
-      "description": "3000개 이상의 사이트에서 사용자명으로 인물 정보를 수집하는 도구",
-      "description_en": "Collect a dossier on a person by username from 3000+ sites"
+      "description": "3000개 이상의 웹사이트에서 공개 프로필 데이터를 수집하는 사용자명 조사 도구",
+      "description_en": "Username investigation tool that aggregates public profile data from 3000+ websites"
     },
     {
-      "name": "hexo-ai/sia",
+      "name": "sia",
       "url": "https://github.com/hexo-ai/sia",
-      "description": "벤치마크 태스크에서 AI 시스템 성능을 자율적으로 향상시키는 자기개선 AI 프레임워크",
-      "description_en": "A Self Improving AI framework designed to autonomously enhance performance of any AI system on benchmark tasks"
+      "description": "벤치마크 작업 성능을 자율적으로 향상시키도록 설계된 자기 개선 AI 프레임워크",
+      "description_en": "Self-improving AI framework designed to autonomously enhance performance on benchmark tasks"
     },
     {
-      "name": "francescopace/espectre",
+      "name": "espectre",
       "url": "https://github.com/francescopace/espectre",
-      "description": "Wi-Fi CSI(채널 상태 정보) 분석 기반 동작 감지 시스템, Home Assistant 연동 지원",
-      "description_en": "Motion detection system based on Wi-Fi spectrum analysis (CSI), with Home Assistant integration"
+      "description": "Wi-Fi 스펙트럼 분석을 활용한 동작 감지 시스템과 Home Assistant 통합",
+      "description_en": "Motion detection system leveraging Wi-Fi spectrum analysis with Home Assistant integration"
     }
   ],
   "huggingface": [
     {
-      "title": "매니폴드 거듭제곱 반복법으로 Mixture-of-Experts 라우터 재설계",
+      "title": "Mixture-of-Experts 라우터를 매니폴드 파워 반복으로 재설계",
       "title_en": "Redesign Mixture-of-Experts Routers with Manifold Power Iteration",
       "url": "https://huggingface.co/papers/2606.12397",
-      "summary": "매니폴드 기반 거듭제곱 반복법으로 MoE 라우팅 메커니즘을 개선해 대규모 신경망의 효율과 성능을 향상시키는 접근법.",
-      "summary_en": "Improves MoE routing through manifold-based power iteration to enhance efficiency and performance in large-scale neural networks."
+      "summary": "매니폴드 기반 파워 반복 기법을 통한 mixture-of-experts 아키텍처의 라우팅 메커니즘 개선 연구",
+      "summary_en": "Research focused on improving the routing mechanisms in mixture-of-experts architectures through novel manifold-based power iteration techniques"
     },
     {
-      "title": "가설 트리 정제를 통한 범용 자율 연구 AI를 향하여",
+      "title": "가설-트리 개선을 통한 일반화된 자율 연구",
       "title_en": "Toward Generalist Autonomous Research via Hypothesis-Tree Refinement",
       "url": "https://huggingface.co/papers/2606.11926",
-      "summary": "AI 시스템이 가설 트리를 반복 정제하며 자율적으로 과학 연구를 수행하도록 하는 기법을 제안.",
-      "summary_en": "Proposes techniques enabling AI to autonomously conduct scientific research by iteratively refining hypothesis trees."
+      "summary": "반복적 가설 개선을 통해 과학 연구를 수행할 수 있는 자율 AI 시스템 개발 방법 탐구",
+      "summary_en": "Work exploring methods for developing autonomous AI systems capable of conducting scientific research through iterative hypothesis refinement"
     },
     {
-      "title": "LLM을 위한 에이전트 환경 엔지니어링: 환경 모델링·합성·평가·응용 서베이",
-      "title_en": "Agentic Environment Engineering for LLMs: A Survey of Environment Modeling, Synthesis, Evaluation, and Application",
+      "title": "대형 언어 모델을 위한 에이전트 환경 엔지니어링 조사",
+      "title_en": "Agentic Environment Engineering for Large Language Models: A Survey",
       "url": "https://huggingface.co/papers/2606.12191",
-      "summary": "LLM 에이전트가 동작하는 환경 설계·평가 방법을 포괄적으로 조사하며 모델링 접근법과 실용적 응용을 다룬다.",
-      "summary_en": "Comprehensive survey of methods for designing and evaluating environments for LLM agents, covering modeling approaches and practical applications."
+      "summary": "대형 언어 모델이 지능형 에이전트로 작동할 수 있는 환경 설계 및 구현 방법에 대한 포괄적 조사",
+      "summary_en": "Comprehensive survey examining how to design and implement environments where large language models can operate as intelligent agents"
     },
     {
-      "title": "Claw-SWE-Bench: 코딩 태스크에서 에이전트 하네스 평가 벤치마크",
-      "title_en": "Claw-SWE-Bench: A Benchmark for Evaluating Agent Harnesses on Coding Tasks",
+      "title": "Claw-SWE-Bench: 코딩 작업에서 AI 에이전트 하네스 평가 벤치마크",
+      "title_en": "Claw-SWE-Bench: A Benchmark for Evaluating OpenClaw-style Agent Harnesses on Coding Tasks",
       "url": "https://huggingface.co/papers/2606.12344",
-      "summary": "소프트웨어 엔지니어링 태스크에서 AI 에이전트 프레임워크를 평가하기 위한 표준화된 벤치마크.",
-      "summary_en": "Standardized benchmark for assessing AI agent frameworks on software engineering tasks."
+      "summary": "소프트웨어 엔지니어링 작업에서 AI 에이전트 성능을 평가하기 위한 벤치마크 평가 프레임워크",
+      "summary_en": "Benchmark evaluation framework for assessing AI agent performance on software engineering tasks"
     },
     {
-      "title": "점수 분포로 추론을 내재화하여 스칼라 보상을 넘어서",
+      "title": "스칼라 리워드를 넘어 추론을 점수 분포로 내재화",
       "title_en": "Beyond Scalar Rewards by Internalizing Reasoning into Score Distributions",
       "url": "https://huggingface.co/papers/2606.09076",
-      "summary": "단일 값 보상 대신 확률 분포를 활용해 강화학습 시스템에 더욱 풍부한 피드백 표현을 제공하는 방법.",
-      "summary_en": "Uses probability distributions instead of scalar rewards to enable richer feedback representations in reinforcement learning."
+      "summary": "단일 스칼라 보상값을 넘어 더 정교한 점수 표현으로 강화 학습을 향상시키는 방법 제안",
+      "summary_en": "Research proposing methods to enhance reinforcement learning by moving beyond single scalar reward values to more sophisticated score representations"
     }
   ],
   "geeknews": [
     {
-      "title": "Supermemory - AI 메모리 & 컨텍스트 엔진",
-      "title_en": "Supermemory - AI Memory & Context Engine",
+      "title": "Supermemory - AI를 위한 메모리 & 컨텍스트 엔진",
+      "title_en": "Supermemory - Memory & Context Engine for AI",
       "url": "https://github.com/supermemoryai/supermemory",
-      "summary": "대화에서 사실을 자동 추출하고 사용자 프로필을 구축하는 오픈소스 메모리 레이어. 여러 인터랙션에 걸쳐 컨텍스트 한계를 극복한다.",
-      "summary_en": "Open-source memory layer that automatically extracts facts and builds user profiles, enabling AI to retain context across interactions."
+      "summary": "대화에서 자동으로 사실을 추출하고 사용자 프로필을 구축하는 메모리 계층으로, AI의 상호작용 간 정보 보유 불능 문제 해결",
+      "summary_en": "Memory layer that automatically extracts facts from conversations and builds user profiles, addressing AI inability to retain information across interactions"
     },
     {
-      "title": "'린 스타트업' 저자 에릭 리스: 부패하지 않는 회사 만들기 AMA",
-      "title_en": "The Lean Startup Author Eric Ries on Building Incorruptible Companies - AMA",
+      "title": "린 스타트업 저자 Eric Ries AMA - 신작 Incorruptible 출판",
+      "title_en": "AMA with Eric Ries, Author of The Lean Startup and Incorruptible",
       "url": "https://news.ycombinator.com/item?id=48477135",
-      "summary": "에릭 리스가 스타트업·대기업·정부 등 15년 경험을 바탕으로 지속 가능하고 윤리적인 회사를 만드는 방법을 논의한다.",
-      "summary_en": "Eric Ries discusses lessons from 15 years across startups, enterprises, and government on building sustainable and ethically-grounded companies."
+      "summary": "린 스타트업 저술 후 15년간 기업, 스타트업, NGO, 정부를 거친 경험에 대한 대화",
+      "summary_en": "AMA discussing 15 years of experience across corporations, startups, NGOs, and government after writing The Lean Startup"
     },
     {
-      "title": "Claude Fable 5 / Mythos 5 - Anthropic 5세대 프론티어 모델",
-      "title_en": "Claude Fable 5/Mythos 5 - Anthropic's Fifth Generation Frontier Model",
-      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-      "summary": "며칠에 걸친 장기 비동기 태스크를 위해 설계된 Anthropic 최신 모델. Mythos급 성능에 엔터프라이즈 수준의 안전 기능 결합.",
-      "summary_en": "Anthropic's latest models for extended asynchronous tasks spanning days, combining Mythos-class capabilities with enterprise safety."
+      "title": "Fable 5로 루프 설계하기",
+      "title_en": "Designing Loops with Anthropic's Fable 5",
+      "url": "https://x.com/RLanceMartin/status/2064397389189071163",
+      "summary": "자가 수정 루프 및 메모리 시스템을 포함한 주요 기법을 통해 Anthropic의 Claude Fable 5 활용 가이드",
+      "summary_en": "Guide on leveraging Anthropic's Claude Fable 5 through key techniques including self-correction loops and memory systems"
     },
     {
-      "title": "30배 생산성의 AI 엔지니어가 되는 법 (안목 포함)",
-      "title_en": "How to Be a 30x AI Engineer with Taste",
-      "url": "https://pakodas.substack.com/p/how-to-be-a-30x-ai-engineer-with-a-taste",
-      "summary": "AI가 코드를 생성하는 시대에 공학적 판단력과 심미적 안목이 핵심 차별화 요소가 됨을 탐구.",
-      "summary_en": "Explores how engineering judgment and aesthetic taste become key differentiators in an era of AI-generated code."
+      "title": "소프트웨어 해커톤의 종말, 하드웨어 해커톤의 부흥",
+      "title_en": "The End of Software Hackathons, Rise of Hardware Hackathons",
+      "url": "https://blog.oscars.dev/posts/rip-software-hackathons-long-live-the-hardware-hackathon/",
+      "summary": "Raspberry Pi와 로터리 전화를 연결한 48시간 해커톤 프로젝트로 양방향 오디오 및 AI 기능을 갖춘 서버 통합 구현",
+      "summary_en": "48-hour hackathon project connecting a rotary phone with Raspberry Pi, implementing bidirectional audio and server integration with AI capabilities"
     },
     {
-      "title": "루프 엔지니어링 - 에이전트를 프롬프팅하는 시스템 설계",
-      "title_en": "Loop Engineering - Designing Systems That Prompt Agents",
-      "url": "https://addyo.substack.com/p/loop-engineering",
-      "summary": "에이전트에 직접 프롬프트하는 방식에서 프롬프팅을 자율 관리하는 메타 시스템 설계로의 패러다임 전환을 소개.",
-      "summary_en": "Shift from directly prompting agents each turn toward designing meta-systems that autonomously manage agent prompting."
+      "title": "오픈소스 코딩 에이전트 비교: 실제 작업 성능 분석",
+      "title_en": "Comparing Open-Source Coding Agents: Real Task Performance Analysis",
+      "url": "https://news.hada.io/",
+      "summary": "다양한 오픈소스 AI 코딩 에이전트들의 실제 소프트웨어 개발 작업 수행 성능을 비교 분석한 연구",
+      "summary_en": "Comparative analysis of various open-source AI coding agents performance on real software development tasks"
     }
   ]
 }
