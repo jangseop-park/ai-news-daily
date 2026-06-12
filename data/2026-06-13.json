@@ -1,0 +1,109 @@
+{
+  "date": "2026-06-13",
+  "github_trending": [
+    {
+      "name": "music-assistant/server",
+      "url": "https://github.com/music-assistant/server",
+      "description": "스트리밍 서비스와 다양한 스피커를 연결하는 오픈소스 미디어 라이브러리 매니저",
+      "description_en": "Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers."
+    },
+    {
+      "name": "maziyarpanahi/openmed",
+      "url": "https://github.com/maziyarpanahi/openmed",
+      "description": "오픈소스 헬스케어 AI 플랫폼",
+      "description_en": "Open-source healthcare AI platform."
+    },
+    {
+      "name": "LMCache/LMCache",
+      "url": "https://github.com/LMCache/LMCache",
+      "description": "가장 빠른 KV Cache 레이어로 LLM 성능을 극대화하는 캐싱 솔루션",
+      "description_en": "LMCache: Supercharge Your LLM with the Fastest KV Cache Layer."
+    },
+    {
+      "name": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "description": "AI 에이전트 스킬의 취약점, 악성 패턴, 보안 위험을 탐지하는 보안 스캐너",
+      "description_en": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks."
+    },
+    {
+      "name": "FareedKhan-dev/train-llm-from-scratch",
+      "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
+      "description": "데이터 다운로드부터 텍스트 생성까지 LLM을 처음부터 학습시키는 단계별 가이드",
+      "description_en": "A straightforward method for training your LLM, from downloading data to generating text."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "EvoArena: 동적 환경에서 강건한 LLM 에이전트를 위한 메모리 진화 추적",
+      "title_en": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
+      "url": "https://huggingface.co/papers/2606.13681",
+      "summary": "변화하는 환경에서 LLM 에이전트가 메모리 표현을 유지·갱신하는 방법을 연구하여 강건성을 향상시킨다.",
+      "summary_en": "Addresses how language model agents can maintain and update their memory representations when operating in changing environments to improve robustness."
+    },
+    {
+      "title": "SpatialClaw: 에이전트형 공간 추론을 위한 액션 인터페이스 재설계",
+      "title_en": "SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning",
+      "url": "https://huggingface.co/papers/2606.13673",
+      "summary": "에이전트의 공간 추론과 의사결정을 강화하는 새로운 액션 인터페이스 시스템을 제안한다.",
+      "summary_en": "Proposes a reimagined action interface system that enhances how agents perform spatial reasoning and decision-making tasks."
+    },
+    {
+      "title": "MiniMax Sparse Attention",
+      "title_en": "MiniMax Sparse Attention",
+      "url": "https://huggingface.co/papers/2606.13392",
+      "summary": "Transformer 기반 모델의 효율성과 성능을 개선하기 위한 Sparse Attention 메커니즘을 소개한다.",
+      "summary_en": "Introduces a sparse attention mechanism designed to improve efficiency and performance in transformer-based models."
+    },
+    {
+      "title": "InterleaveThinker: 에이전트의 인터리브 생성 방식 강화",
+      "title_en": "InterleaveThinker: Reinforcing Agentic Interleaved Generation",
+      "url": "https://huggingface.co/papers/2606.13679",
+      "summary": "에이전트가 인터리브된 추론 패턴으로 응답을 생성하는 방법을 개발하여 인지 능력을 강화한다.",
+      "summary_en": "Develops methods for agents to generate responses through interleaved reasoning patterns, strengthening their cognitive capabilities."
+    },
+    {
+      "title": "Robust-U1: MLLM이 손상된 시각 콘텐츠를 스스로 복원할 수 있는가?",
+      "title_en": "Robust-U1: Can MLLMs Self-Recover Corrupted Visual Content for Robust Understanding?",
+      "url": "https://huggingface.co/papers/2606.08063",
+      "summary": "Multimodal LLM이 손상되거나 열화된 시각 입력을 복원하고 이해할 수 있는지 연구한다.",
+      "summary_en": "Investigates whether multimodal large language models can recover and understand degraded or corrupted visual inputs effectively."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "직장에서 아무것도 하지 않기",
+      "title_en": "Doing Nothing at Work",
+      "url": "https://www.seangoedecke.com/doing-nothing-at-work/",
+      "summary": "소프트웨어 엔지니어의 임팩트는 코드 양이 아니라 적시에 고가치 작업을 수행하는 데서 나오며, 의도적인 휴식도 중요한 업무 전략이다.",
+      "summary_en": "Software engineers' impact depends on high-value work at the right time rather than hours or code volume, with intentional breaks being an important strategy."
+    },
+    {
+      "title": "AI가 소프트웨어 엔지니어를 대체하지 않은 이유, 그리고 앞으로도 대체하지 못할 이유",
+      "title_en": "Why AI Hasn't Replaced Software Engineers and Won't",
+      "url": "https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers",
+      "summary": "AI 코딩 도구의 급속한 도입에도 불구하고 대규모 해고는 발생하지 않았으며, AI 주도 일자리 감소 예측이 빗나간 이유를 분석한다.",
+      "summary_en": "Despite rapid AI adoption in software engineering, mass layoffs haven't materialized, contradicting predictions about AI-driven job displacement."
+    },
+    {
+      "title": "취향(taste)을 갖춘 30배 AI 엔지니어가 되는 법",
+      "title_en": "How to Be a 30x AI Engineer with Taste",
+      "url": "https://pakodas.substack.com/p/how-to-be-a-30x-ai-engineer-with-a-taste",
+      "summary": "AI 코드 생성 시대에는 속도나 지식보다 무엇을 만들지 판단하는 안목(taste)이 엔지니어의 핵심 역량이 된다.",
+      "summary_en": "In an era of AI code generation, discerning judgment about what to build matters more than speed, knowledge, or experience."
+    },
+    {
+      "title": "계속할까, 그만둘까? 좌절한 창업자를 위한 실전 가이드",
+      "title_en": "Should I Stay or Should I Go? A Field Guide for Discouraged Founders",
+      "url": "https://www.thisisgoingtobebig.com/blog/2026/6/8/should-i-stay-or-should-i-go-now-a-field-guide-for-discouraged-founders",
+      "summary": "어려움을 겪는 창업자가 일시적 좌절과 실질적 실패 신호를 구분해 올바른 결정을 내릴 수 있도록 돕는 실용적 가이드.",
+      "summary_en": "Helps struggling founders distinguish genuine failure signals from temporary frustration to make informed decisions about continuing or quitting."
+    },
+    {
+      "title": "루프 엔지니어링 - 에이전트를 프롬프트하는 시스템 설계하기",
+      "title_en": "Loop Engineering: Designing Systems That Prompt Agents",
+      "url": "https://addyo.substack.com/p/loop-engineering",
+      "summary": "현대 AI 에이전트 워크플로우는 매 턴마다 직접 프롬프트하는 방식에서 반복 루프에 걸쳐 에이전트를 자동으로 프롬프트하는 시스템 설계로 전환되고 있다.",
+      "summary_en": "Modern AI agent workflows shift from direct prompting each turn to designing systems that prompt agents automatically across iterative loops."
+    }
+  ]
+}
