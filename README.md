@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-06-12
+> 마지막 업데이트: 2026-06-13
 
-# AI 뉴스 — 2026-06-12
+# AI 뉴스 — 2026-06-13
 
 ## 🔥 GitHub Trending (Python)
 
-- [openmed](https://github.com/maziyarpanahi/openmed): 오픈소스 의료 AI 플랫폼
-- [SkillSpector](https://github.com/NVIDIA/SkillSpector): AI 에이전트 스킬의 취약점과 악의적 패턴을 식별하는 보안 스캐너
-- [maigret](https://github.com/soxoj/maigret): 3000개 이상의 웹사이트에서 공개 프로필 데이터를 수집하는 사용자명 조사 도구
-- [sia](https://github.com/hexo-ai/sia): 벤치마크 작업 성능을 자율적으로 향상시키도록 설계된 자기 개선 AI 프레임워크
-- [espectre](https://github.com/francescopace/espectre): Wi-Fi 스펙트럼 분석을 활용한 동작 감지 시스템과 Home Assistant 통합
+- [music-assistant/server](https://github.com/music-assistant/server): 스트리밍 서비스와 다양한 스피커를 연결하는 오픈소스 미디어 라이브러리 매니저
+- [maziyarpanahi/openmed](https://github.com/maziyarpanahi/openmed): 오픈소스 헬스케어 AI 플랫폼
+- [LMCache/LMCache](https://github.com/LMCache/LMCache): 가장 빠른 KV Cache 레이어로 LLM 성능을 극대화하는 캐싱 솔루션
+- [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector): AI 에이전트 스킬의 취약점, 악성 패턴, 보안 위험을 탐지하는 보안 스캐너
+- [FareedKhan-dev/train-llm-from-scratch](https://github.com/FareedKhan-dev/train-llm-from-scratch): 데이터 다운로드부터 텍스트 생성까지 LLM을 처음부터 학습시키는 단계별 가이드
 
 ## 📄 Hugging Face Papers
 
-- [Mixture-of-Experts 라우터를 매니폴드 파워 반복으로 재설계](https://huggingface.co/papers/2606.12397)
-  매니폴드 기반 파워 반복 기법을 통한 mixture-of-experts 아키텍처의 라우팅 메커니즘 개선 연구
-- [가설-트리 개선을 통한 일반화된 자율 연구](https://huggingface.co/papers/2606.11926)
-  반복적 가설 개선을 통해 과학 연구를 수행할 수 있는 자율 AI 시스템 개발 방법 탐구
-- [대형 언어 모델을 위한 에이전트 환경 엔지니어링 조사](https://huggingface.co/papers/2606.12191)
-  대형 언어 모델이 지능형 에이전트로 작동할 수 있는 환경 설계 및 구현 방법에 대한 포괄적 조사
-- [Claw-SWE-Bench: 코딩 작업에서 AI 에이전트 하네스 평가 벤치마크](https://huggingface.co/papers/2606.12344)
-  소프트웨어 엔지니어링 작업에서 AI 에이전트 성능을 평가하기 위한 벤치마크 평가 프레임워크
-- [스칼라 리워드를 넘어 추론을 점수 분포로 내재화](https://huggingface.co/papers/2606.09076)
-  단일 스칼라 보상값을 넘어 더 정교한 점수 표현으로 강화 학습을 향상시키는 방법 제안
+- [EvoArena: 동적 환경에서 강건한 LLM 에이전트를 위한 메모리 진화 추적](https://huggingface.co/papers/2606.13681)
+  변화하는 환경에서 LLM 에이전트가 메모리 표현을 유지·갱신하는 방법을 연구하여 강건성을 향상시킨다.
+- [SpatialClaw: 에이전트형 공간 추론을 위한 액션 인터페이스 재설계](https://huggingface.co/papers/2606.13673)
+  에이전트의 공간 추론과 의사결정을 강화하는 새로운 액션 인터페이스 시스템을 제안한다.
+- [MiniMax Sparse Attention](https://huggingface.co/papers/2606.13392)
+  Transformer 기반 모델의 효율성과 성능을 개선하기 위한 Sparse Attention 메커니즘을 소개한다.
+- [InterleaveThinker: 에이전트의 인터리브 생성 방식 강화](https://huggingface.co/papers/2606.13679)
+  에이전트가 인터리브된 추론 패턴으로 응답을 생성하는 방법을 개발하여 인지 능력을 강화한다.
+- [Robust-U1: MLLM이 손상된 시각 콘텐츠를 스스로 복원할 수 있는가?](https://huggingface.co/papers/2606.08063)
+  Multimodal LLM이 손상되거나 열화된 시각 입력을 복원하고 이해할 수 있는지 연구한다.
 
 ## 🦉 GeekNews
 
-- [Supermemory - AI를 위한 메모리 & 컨텍스트 엔진](https://github.com/supermemoryai/supermemory)
-  대화에서 자동으로 사실을 추출하고 사용자 프로필을 구축하는 메모리 계층으로, AI의 상호작용 간 정보 보유 불능 문제 해결
-- [린 스타트업 저자 Eric Ries AMA - 신작 Incorruptible 출판](https://news.ycombinator.com/item?id=48477135)
-  린 스타트업 저술 후 15년간 기업, 스타트업, NGO, 정부를 거친 경험에 대한 대화
-- [Fable 5로 루프 설계하기](https://x.com/RLanceMartin/status/2064397389189071163)
-  자가 수정 루프 및 메모리 시스템을 포함한 주요 기법을 통해 Anthropic의 Claude Fable 5 활용 가이드
-- [소프트웨어 해커톤의 종말, 하드웨어 해커톤의 부흥](https://blog.oscars.dev/posts/rip-software-hackathons-long-live-the-hardware-hackathon/)
-  Raspberry Pi와 로터리 전화를 연결한 48시간 해커톤 프로젝트로 양방향 오디오 및 AI 기능을 갖춘 서버 통합 구현
-- [오픈소스 코딩 에이전트 비교: 실제 작업 성능 분석](https://news.hada.io/)
-  다양한 오픈소스 AI 코딩 에이전트들의 실제 소프트웨어 개발 작업 수행 성능을 비교 분석한 연구
+- [직장에서 아무것도 하지 않기](https://www.seangoedecke.com/doing-nothing-at-work/)
+  소프트웨어 엔지니어의 임팩트는 코드 양이 아니라 적시에 고가치 작업을 수행하는 데서 나오며, 의도적인 휴식도 중요한 업무 전략이다.
+- [AI가 소프트웨어 엔지니어를 대체하지 않은 이유, 그리고 앞으로도 대체하지 못할 이유](https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers)
+  AI 코딩 도구의 급속한 도입에도 불구하고 대규모 해고는 발생하지 않았으며, AI 주도 일자리 감소 예측이 빗나간 이유를 분석한다.
+- [취향(taste)을 갖춘 30배 AI 엔지니어가 되는 법](https://pakodas.substack.com/p/how-to-be-a-30x-ai-engineer-with-a-taste)
+  AI 코드 생성 시대에는 속도나 지식보다 무엇을 만들지 판단하는 안목(taste)이 엔지니어의 핵심 역량이 된다.
+- [계속할까, 그만둘까? 좌절한 창업자를 위한 실전 가이드](https://www.thisisgoingtobebig.com/blog/2026/6/8/should-i-stay-or-should-i-go-now-a-field-guide-for-discouraged-founders)
+  어려움을 겪는 창업자가 일시적 좌절과 실질적 실패 신호를 구분해 올바른 결정을 내릴 수 있도록 돕는 실용적 가이드.
+- [루프 엔지니어링 - 에이전트를 프롬프트하는 시스템 설계하기](https://addyo.substack.com/p/loop-engineering)
+  현대 AI 에이전트 워크플로우는 매 턴마다 직접 프롬프트하는 방식에서 반복 루프에 걸쳐 에이전트를 자동으로 프롬프트하는 시스템 설계로 전환되고 있다.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-06-12](data/2026-06-12.md)
 - [2026-06-11](data/2026-06-11.md)
 - [2026-06-10](data/2026-06-10.md)
 - [2026-06-09](data/2026-06-09.md)
@@ -69,4 +70,3 @@
 - [2026-05-17](data/2026-05-17.md)
 - [2026-05-16](data/2026-05-16.md)
 - [2026-05-15](data/2026-05-15.md)
-- [2026-05-14](data/2026-05-14.md)
