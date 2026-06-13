@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-06-13
+> 마지막 업데이트: 2026-06-14
 
-# AI 뉴스 — 2026-06-13
+# AI 뉴스 — 2026-06-14
 
 ## 🔥 GitHub Trending (Python)
 
-- [music-assistant/server](https://github.com/music-assistant/server): 스트리밍 서비스와 스마트 스피커를 연결하는 무료 오픈소스 미디어 라이브러리 매니저
-- [maziyarpanahi/openmed](https://github.com/maziyarpanahi/openmed): 오픈소스 헬스케어 AI 솔루션을 제공하는 의료 특화 인공지능 이니셔티브
-- [LMCache/LMCache](https://github.com/LMCache/LMCache): 가장 빠른 KV 캐시 레이어로 LLM 성능을 극대화하는 최적화 도구
-- [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector): AI 에이전트 스킬에서 취약점, 악성 패턴 및 위험을 식별하는 보안 분석 도구
-- [FareedKhan-dev/train-llm-from-scratch](https://github.com/FareedKhan-dev/train-llm-from-scratch): 데이터 다운로드부터 텍스트 생성까지 LLM을 처음부터 학습하는 종합 가이드
+- [music-assistant/server](https://github.com/music-assistant/server): 스트리밍 서비스와 스마트 스피커를 연결하는 무료 오픈소스 미디어 라이브러리 매니저. Raspberry Pi나 NAS 같은 상시 구동 기기에서 실행하도록 설계됨.
+- [LMCache/LMCache](https://github.com/LMCache/LMCache): LLM의 KV 캐시를 최적화하여 추론 속도와 효율성을 높이는 성능 가속 레이어.
+- [andrewyng/aisuite](https://github.com/andrewyng/aisuite): 단일 API로 여러 생성형 AI 제공업체(OpenAI, Anthropic 등)에 통합 접근할 수 있는 인터페이스 라이브러리.
+- [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector): AI 에이전트의 기능 내 취약점, 악성 패턴, 보안 위협을 탐지하는 보안 분석 도구.
+- [hexo-ai/sia](https://github.com/hexo-ai/sia): AI 시스템이 벤치마크 태스크에서 자율적으로 성능을 개선할 수 있도록 하는 자기 향상 AI 프레임워크.
 
 ## 📄 Hugging Face Papers
 
-- [EvoArena: 동적 환경에서 강인한 LLM 에이전트를 위한 메모리 진화 추적](https://huggingface.co/papers/2606.13681)
-  동적 환경에서 LLM 에이전트의 메모리 진화를 추적하여 강인성을 향상시키는 벤치마크 프레임워크 제안
-- [SpatialClaw: 에이전틱 공간 추론을 위한 액션 인터페이스 재고](https://huggingface.co/papers/2606.13673)
-  에이전틱 공간 추론 태스크에서 더 효과적인 액션 인터페이스 설계를 위한 새로운 접근법 제안
-- [MiniMax Sparse Attention](https://huggingface.co/papers/2606.13392)
-  트랜스포머 모델의 계산 효율을 높이는 희소 어텐션 메커니즘 연구
-- [InterleaveThinker: 에이전틱 인터리브 생성 강화](https://huggingface.co/papers/2606.13679)
-  에이전틱 시스템에서 추론과 행동을 인터리브 방식으로 생성하는 강화 학습 기법
-- [Robust-U1: MLLM이 강인한 이해를 위해 손상된 시각 콘텐츠를 자가 복원할 수 있는가?](https://huggingface.co/papers/2606.08063)
-  다중모달 LLM이 손상된 시각 입력을 스스로 복원하여 강인한 이해를 달성하는 능력 연구
+- [EvoArena: 동적 환경에서 강건한 LLM 에이전트를 위한 메모리 진화 추적](https://huggingface.co/papers/2606.13681)
+  MIT 연구로, 변화하는 환경에서 LLM 에이전트가 메모리 시스템을 유지·진화시켜 더 안정적으로 작동하는 방법을 탐구함.
+- [MiniMax 희소 어텐션](https://huggingface.co/papers/2606.13392)
+  트랜스포머 모델의 연산 비용을 줄이면서 성능을 유지하는 효율적인 어텐션 메커니즘 제안.
+- [WeaveBench: 하이브리드 인터페이스를 갖춘 컴퓨터 사용 에이전트를 위한 장기 실세계 벤치마크](https://huggingface.co/papers/2606.09426)
+  Microsoft 연구진이 다양한 인터페이스 조합 환경에서 장기 작업 시퀀스를 수행하는 컴퓨터 사용 AI 에이전트 평가를 위한 벤치마크를 소개함.
+- [SpatialClaw: 에이전틱 공간 추론을 위한 행동 인터페이스 재설계](https://huggingface.co/papers/2606.13673)
+  NVIDIA가 AI 에이전트의 공간 관계 이해 및 추론 능력을 높이기 위해 재설계된 행동 인터페이스를 제안함.
+- [InterleaveThinker: 에이전틱 교차 생성 강화](https://huggingface.co/papers/2606.13679)
+  사고(thinking)와 행동(acting)을 교차 생성하는 기법으로 에이전트 성능을 향상시키는 연구.
 
 ## 🦉 GeekNews
 
-- [AI 시대의 취향 경제학 부상](https://pakodas.substack.com/p/how-to-be-a-30x-ai-engineer-with-a-taste)
-  AI 도구를 단순히 사용하는 것이 아니라 '취향'을 통해 30배 생산성을 발휘하는 AI 엔지니어가 되는 방법
-- [직장에서 아무것도 하지 않기](https://www.seangoedecke.com/doing-nothing-at-work/)
-  바쁨보다 진짜 가치를 창출하는 일에 집중하는 것이 왜 중요한지에 대한 인사이트
-- [생산적인 개인이 생산적인 회사를 만들지는 않는다](https://x.com/gsivulka/status/2031797989908627849)
-  개인 생산성과 조직 생산성의 차이, 그리고 팀 성과를 높이는 진짜 방법에 대한 논의
-- [Fable 5를 활용한 Loop 엔지니어링](https://x.com/RLanceMartin/status/2064397389189071163)
-  Fable 5 모델을 활용한 루프 기반 AI 에이전트 엔지니어링 접근법 소개
-- [Eric Ries AMA: '린 스타트업' 저자가 'Incorruptible'에 대해 논하다](https://news.ycombinator.com/item?id=48477135)
-  린 스타트업 저자 Eric Ries가 새 책 'Incorruptible'과 스타트업 원칙에 대해 직접 답변한 AMA
+- [Cate - 무한 줌이 가능한 코딩용 캔버스 IDE](https://github.com/0-AI-UG/cate)
+  에디터, 터미널, 브라우저, 문서, AI 에이전트를 탭/윈도우 제약 없이 캔버스 위에 자유롭게 배치할 수 있는 데스크톱 IDE.
+- [Anthropic, 미국 정부 지시로 Fable 5·Mythos 5 모델 전면 차단](https://www.cnbc.com/amp/2026/06/12/anthropic-disables-access-to-fable-5-and-mythos-5-to-comply-with-government-directive.html)
+  Anthropic이 국가 안보를 이유로 한 미국 정부의 수출 통제 지침을 준수하기 위해 최신 AI 모델 접근을 전면 차단함.
+- [AI가 소프트웨어 엔지니어를 대체하지 않은 이유, 그리고 앞으로도 대체하지 못할 이유](https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers)
+  AI 자동화로 인한 대규모 해고가 발생하지 않은 이유를 분석하며, 소프트웨어 엔지니어링에서 AI가 인간을 완전히 대체할 수 없는 구조적 이유를 설명함.
+- [루프 엔지니어링 - 에이전트를 프롬프트하는 시스템을 설계하기](https://addyo.substack.com/p/loop-engineering)
+  매 단계마다 수동 프롬프트가 필요하지 않도록 AI 에이전트가 자기 수정 피드백 루프를 통해 작동하는 시스템을 설계하는 방법론을 소개함.
+- [LOSLES - 금액 자체를 결제 식별자로 사용하는 자동 결제 시스템](https://github.com/ai1023dev)
+  거래 금액 자체를 결제 식별자로 활용하고 은행 이체 감지와 결합한 오픈소스 자동 결제 처리 시스템.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-06-13](data/2026-06-13.md)
 - [2026-06-12](data/2026-06-12.md)
 - [2026-06-11](data/2026-06-11.md)
 - [2026-06-10](data/2026-06-10.md)
@@ -69,4 +70,3 @@
 - [2026-05-18](data/2026-05-18.md)
 - [2026-05-17](data/2026-05-17.md)
 - [2026-05-16](data/2026-05-16.md)
-- [2026-05-15](data/2026-05-15.md)
