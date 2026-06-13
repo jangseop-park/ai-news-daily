@@ -4,32 +4,32 @@
     {
       "name": "music-assistant/server",
       "url": "https://github.com/music-assistant/server",
-      "description": "스트리밍 서비스와 스마트 스피커를 연결하는 무료 오픈소스 미디어 라이브러리 매니저. Raspberry Pi나 NAS 같은 상시 구동 기기에서 실행하도록 설계됨.",
-      "description_en": "A free, open-source media library manager connecting to streaming services and smart speakers, designed to run on always-on devices like Raspberry Pi or NAS systems."
+      "description": "음악 스트리밍 서비스와 다양한 스피커를 연결하는 무료 오픈소스 미디어 라이브러리 관리자",
+      "description_en": "Free, open-source media library manager connecting streaming services and speakers"
     },
     {
       "name": "LMCache/LMCache",
       "url": "https://github.com/LMCache/LMCache",
-      "description": "LLM의 KV 캐시를 최적화하여 추론 속도와 효율성을 높이는 성능 가속 레이어.",
-      "description_en": "A performance optimization layer for large language models, delivering the fastest KV cache to enhance LLM efficiency and speed."
+      "description": "대규모 언어 모델의 성능을 향상시키는 고속 KV 캐시 레이어",
+      "description_en": "Supercharge LLM with the fastest KV cache layer technology"
     },
     {
       "name": "andrewyng/aisuite",
       "url": "https://github.com/andrewyng/aisuite",
-      "description": "단일 API로 여러 생성형 AI 제공업체(OpenAI, Anthropic 등)에 통합 접근할 수 있는 인터페이스 라이브러리.",
-      "description_en": "Provides a unified interface for accessing multiple generative AI providers through a single, simplified API."
+      "description": "여러 생성형 AI 제공자에 대한 단순하고 통일된 인터페이스",
+      "description_en": "Unified interface to multiple generative AI providers in one system"
     },
     {
       "name": "NVIDIA/SkillSpector",
       "url": "https://github.com/NVIDIA/SkillSpector",
-      "description": "AI 에이전트의 기능 내 취약점, 악성 패턴, 보안 위협을 탐지하는 보안 분석 도구.",
-      "description_en": "A security analysis tool that detects vulnerabilities, malicious patterns, and security risks within AI agent capabilities."
+      "description": "AI 에이전트 스킬의 취약점과 악의적 패턴을 감지하는 보안 스캐너",
+      "description_en": "Security scanner detecting vulnerabilities and malicious patterns in AI skills"
     },
     {
       "name": "hexo-ai/sia",
       "url": "https://github.com/hexo-ai/sia",
-      "description": "AI 시스템이 벤치마크 태스크에서 자율적으로 성능을 개선할 수 있도록 하는 자기 향상 AI 프레임워크.",
-      "description_en": "A self-improving AI framework enabling autonomous performance enhancement for AI systems and agents on benchmark tasks."
+      "description": "벤치마크 작업에서 AI 시스템 성능을 자율적으로 개선하는 자체 개선 AI 프레임워크",
+      "description_en": "Self-improving AI framework autonomously enhancing system performance on benchmarks"
     }
   ],
   "huggingface": [
@@ -37,73 +37,73 @@
       "title": "EvoArena: 동적 환경에서 강건한 LLM 에이전트를 위한 메모리 진화 추적",
       "title_en": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
       "url": "https://huggingface.co/papers/2606.13681",
-      "summary": "MIT 연구로, 변화하는 환경에서 LLM 에이전트가 메모리 시스템을 유지·진화시켜 더 안정적으로 작동하는 방법을 탐구함.",
-      "summary_en": "MIT research exploring how LLM agents can maintain and evolve their memory systems to operate more reliably in dynamic environments."
+      "summary": "동적 환경에서 메모리 진화를 추적하여 LLM 에이전트의 강건성을 개선하고 더 나은 의사결정을 가능하게 합니다.",
+      "summary_en": "Research from MIT on improving LLM agent robustness by tracking how memory evolves in changing environments."
     },
     {
       "title": "MiniMax 희소 어텐션",
       "title_en": "MiniMax Sparse Attention",
       "url": "https://huggingface.co/papers/2606.13392",
-      "summary": "트랜스포머 모델의 연산 비용을 줄이면서 성능을 유지하는 효율적인 어텐션 메커니즘 제안.",
-      "summary_en": "An efficient attention mechanism designed to reduce computational overhead in transformer models while maintaining performance quality."
+      "summary": "트랜스포머 모델의 계산 효율성을 높이기 위한 희소 어텐션 메커니즘 구현 방법입니다.",
+      "summary_en": "MiniMax's method for implementing sparse attention mechanisms to enhance computational efficiency in transformer models."
     },
     {
-      "title": "WeaveBench: 하이브리드 인터페이스를 갖춘 컴퓨터 사용 에이전트를 위한 장기 실세계 벤치마크",
+      "title": "WeaveBench: 하이브리드 인터페이스가 있는 컴퓨터 사용 에이전트를 위한 장기 실제 벤치마크",
       "title_en": "WeaveBench: A Long-Horizon, Real-World Benchmark for Computer-Use Agents with Hybrid Interfaces",
       "url": "https://huggingface.co/papers/2606.09426",
-      "summary": "Microsoft 연구진이 다양한 인터페이스 조합 환경에서 장기 작업 시퀀스를 수행하는 컴퓨터 사용 AI 에이전트 평가를 위한 벤치마크를 소개함.",
-      "summary_en": "Microsoft researchers introduce a benchmark for evaluating AI agents that interact with computer interfaces over extended task sequences, combining multiple interface types."
+      "summary": "여러 인터페이스 유형을 포함한 복잡한 실제 컴퓨터 상호작용 작업에서 AI 에이전트를 평가하는 Microsoft의 벤치마크입니다.",
+      "summary_en": "Microsoft's benchmark evaluating AI agents on complex, real-world computer interaction tasks involving multiple interface types."
     },
     {
-      "title": "SpatialClaw: 에이전틱 공간 추론을 위한 행동 인터페이스 재설계",
+      "title": "SpatialClaw: 에이전트 공간 추론을 위한 액션 인터페이스 재고찰",
       "title_en": "SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning",
       "url": "https://huggingface.co/papers/2606.13673",
-      "summary": "NVIDIA가 AI 에이전트의 공간 관계 이해 및 추론 능력을 높이기 위해 재설계된 행동 인터페이스를 제안함.",
-      "summary_en": "NVIDIA proposes a redesigned action interface enabling AI agents to better understand and reason about spatial relationships in their environments."
+      "summary": "에이전트가 공간 환경에 대해 추론하고 탐색하는 방식을 개선하기 위해 액션 인터페이스를 재설계한 NVIDIA의 접근법입니다.",
+      "summary_en": "NVIDIA's approach redesigning action interfaces to improve how agents reason about and navigate spatial environments."
     },
     {
-      "title": "InterleaveThinker: 에이전틱 교차 생성 강화",
+      "title": "InterleaveThinker: 에이전트 인터리빙 생성 강화",
       "title_en": "InterleaveThinker: Reinforcing Agentic Interleaved Generation",
       "url": "https://huggingface.co/papers/2606.13679",
-      "summary": "사고(thinking)와 행동(acting)을 교차 생성하는 기법으로 에이전트 성능을 향상시키는 연구.",
-      "summary_en": "Enhances agent performance by introducing interleaved generation techniques that allow models to alternate between thinking and acting more dynamically."
+      "summary": "추론과 액션 계획을 개선하는 인터리빙 생성 패턴을 통해 에이전트 능력을 강화하는 방법입니다.",
+      "summary_en": "Method for strengthening agent capabilities through interleaved generation patterns that improve reasoning and action planning."
     }
   ],
   "geeknews": [
     {
-      "title": "Cate - 무한 줌이 가능한 코딩용 캔버스 IDE",
-      "title_en": "Cate - Infinite-Zoom Canvas IDE for Coding",
-      "url": "https://github.com/0-AI-UG/cate",
-      "summary": "에디터, 터미널, 브라우저, 문서, AI 에이전트를 탭/윈도우 제약 없이 캔버스 위에 자유롭게 배치할 수 있는 데스크톱 IDE.",
-      "summary_en": "A desktop IDE featuring an infinite canvas where developers can freely arrange editors, terminals, browsers, documents, and AI agents without traditional window or tab constraints."
+      "title": "취향(taste)을 갖춘 30배 AI 엔지니어가 되는 법",
+      "title_en": "How to Be a 30x AI Engineer with Taste",
+      "url": "https://pakodas.substack.com/p/how-to-be-a-30x-ai-engineer-with-a-taste",
+      "summary": "AI가 코드를 대량 생성하는 시대에 엔지니어의 가치를 가르는 핵심은 속도나 지식이 아니라 '취향', 즉 무엇을 만들지 판단하는 평가 능력.",
+      "summary_en": "In an era of AI-generated code, the key differentiator for engineers is taste—the ability to judge what to build—rather than speed or knowledge."
     },
     {
-      "title": "Anthropic, 미국 정부 지시로 Fable 5·Mythos 5 모델 전면 차단",
-      "title_en": "Anthropic Disables Fable 5 and Mythos 5 Models Under U.S. Government Directive",
-      "url": "https://www.cnbc.com/amp/2026/06/12/anthropic-disables-access-to-fable-5-and-mythos-5-to-comply-with-government-directive.html",
-      "summary": "Anthropic이 국가 안보를 이유로 한 미국 정부의 수출 통제 지침을 준수하기 위해 최신 AI 모델 접근을 전면 차단함.",
-      "summary_en": "Anthropic disabled access to its latest AI models in compliance with U.S. government export control directives citing national security concerns."
+      "title": "AI 시대, 가장 가치 있는 개발자는 장인이면서 빌더인 사람이 될 것",
+      "title_en": "In the AI Era, The Most Valuable Developers Will Be Artisans and Builders",
+      "url": "https://stackoverflow.blog/2026/05/28/artisans-and-builders/",
+      "summary": "AI 코딩 도구의 확산으로 누구나 빌더가 될 수 있게 되면서, 손으로 코드를 짜는 장인의 가치가 재조명되는 중.",
+      "summary_en": "As AI coding tools become widespread, enabling anyone to be a builder, the value of craftspeople who write code manually is being re-examined."
     },
     {
-      "title": "AI가 소프트웨어 엔지니어를 대체하지 않은 이유, 그리고 앞으로도 대체하지 못할 이유",
-      "title_en": "Why AI Hasn't Replaced Software Engineers, and Why It Won't",
-      "url": "https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers",
-      "summary": "AI 자동화로 인한 대규모 해고가 발생하지 않은 이유를 분석하며, 소프트웨어 엔지니어링에서 AI가 인간을 완전히 대체할 수 없는 구조적 이유를 설명함.",
-      "summary_en": "Analysis explaining why widespread AI adoption in software engineering hasn't triggered mass layoffs, and the structural reasons AI cannot fully replace software engineers."
+      "title": "직장에서 아무것도 하지 않기",
+      "title_en": "Doing Nothing at Work",
+      "url": "https://www.seangoedecke.com/doing-nothing-at-work/",
+      "summary": "소프트웨어 엔지니어의 성과는 더 많은 시간·코드보다 적절한 시점의 고임팩트 작업에 좌우되며, 평소엔 하루 업무의 약 20%를 컴퓨터 작업에 투자.",
+      "summary_en": "Engineer performance depends on high-impact work at the right time rather than hours or code volume."
     },
     {
       "title": "루프 엔지니어링 - 에이전트를 프롬프트하는 시스템을 설계하기",
-      "title_en": "Loop Engineering - Designing Systems That Prompt Agents",
+      "title_en": "Loop Engineering—Designing Systems to Prompt Agents",
       "url": "https://addyo.substack.com/p/loop-engineering",
-      "summary": "매 단계마다 수동 프롬프트가 필요하지 않도록 AI 에이전트가 자기 수정 피드백 루프를 통해 작동하는 시스템을 설계하는 방법론을 소개함.",
-      "summary_en": "Describes a systematic approach to designing feedback loops that enable AI agents to self-correct rather than requiring manual prompting at each iteration."
+      "summary": "코딩 에이전트에게 매 턴마다 직접 프롬프트하는 방식을 끝내고, 에이전트를 대신 프롬프트하는 시스템을 설계하는 새로운 작업 방식으로의 전환.",
+      "summary_en": "A shift from directly prompting coding agents each turn to designing systems that prompt agents on their behalf."
     },
     {
-      "title": "LOSLES - 금액 자체를 결제 식별자로 사용하는 자동 결제 시스템",
-      "title_en": "LOSLES - Automatic Payment System Using Transaction Amount as Payment Identifier",
-      "url": "https://github.com/ai1023dev",
-      "summary": "거래 금액 자체를 결제 식별자로 활용하고 은행 이체 감지와 결합한 오픈소스 자동 결제 처리 시스템.",
-      "summary_en": "An open-source payment processing system that uses transaction amounts themselves as payment identifiers, combined with bank transfer detection."
+      "title": "생산적인 개인이 생산적인 기업을 만들지는 않는다",
+      "title_en": "Productive Individuals Don't Make Productive Companies",
+      "url": "https://x.com/gsivulka/status/2031797989908627849",
+      "summary": "AI가 개인 생산성을 10배 끌어올렸지만 그에 비례해 가치가 10배 오른 기업은 없는데, 늘어난 생산성이 어디로 갔는지에 대한 질문.",
+      "summary_en": "While AI has boosted individual productivity tenfold, company value hasn't increased proportionally."
     }
   ]
 }
