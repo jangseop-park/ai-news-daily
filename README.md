@@ -6,37 +6,37 @@
 
 ## 🔥 GitHub Trending (Python)
 
-- [pytest-dev/pytest](https://github.com/pytest-dev/pytest): 소규모 테스트 작성부터 복잡한 기능 테스트까지 지원하는 파이썬 테스트 프레임워크
-- [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector): AI 에이전트 스킬의 취약점, 악성 패턴, 잠재적 보안 위험을 탐지하는 보안 스캐너
-- [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos): 금융 시장의 언어를 위한 파운데이션 모델
-- [music-assistant/server](https://github.com/music-assistant/server): 스트리밍 서비스와 다양한 스피커를 연결하는 무료 오픈소스 미디어 라이브러리 매니저
+- [pytest-dev/pytest](https://github.com/pytest-dev/pytest): 소규모 테스트 작성부터 복잡한 기능 테스트까지 지원하는 Python 테스트 프레임워크
+- [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector): AI 에이전트 스킬의 취약점, 악성 패턴, 보안 위험을 탐지하는 보안 스캐너
+- [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos): 금융 시장 언어를 위한 기반 모델 Kronos
+- [music-assistant/server](https://github.com/music-assistant/server): 스트리밍 서비스와 스피커를 연결하는 오픈소스 미디어 라이브러리 매니저
 - [Free-TV/IPTV](https://github.com/Free-TV/IPTV): 무료 TV 채널을 위한 M3U 플레이리스트
 
 ## 📄 Hugging Face Papers
 
 - [EvoArena: 동적 환경에서 강건한 LLM 에이전트를 위한 메모리 진화 추적](https://huggingface.co/papers/2606.13681)
-  MIT 연구진이 변화하는 환경에서 언어 모델 에이전트가 메모리 시스템을 진화시켜 강건한 성능을 유지하는 방법을 탐구한 논문.
+  MIT 연구팀이 변화하는 환경에서 언어 모델 에이전트의 메모리 시스템 진화 방법을 탐구하며, 동적 환경에서의 강건성 문제를 다룸.
 - [MiniMax 희소 어텐션](https://huggingface.co/papers/2606.13392)
-  MiniMax가 제안한 희소 어텐션 메커니즘으로 대형 언어 모델의 연산 효율성을 향상시키는 기법.
-- [WeaveBench: 하이브리드 인터페이스를 갖춘 컴퓨터 사용 에이전트를 위한 장기 실세계 벤치마크](https://huggingface.co/papers/2606.09426)
-  Microsoft가 개발한 벤치마크로, 다양한 인터페이스 유형에서 장기 작업을 수행하는 AI 에이전트를 평가하기 위해 설계됨.
-- [SpatialClaw: 에이전틱 공간 추론을 위한 행동 인터페이스 재고](https://huggingface.co/papers/2606.13673)
-  NVIDIA 연구진이 개선된 행동 인터페이스 설계를 통해 에이전트가 공간 환경과 상호작용하는 방식을 재고한 연구.
-- [InterleaveThinker: 에이전틱 인터리브 생성 강화](https://huggingface.co/papers/2606.13679)
-  강화학습과 인터리브 생성 프로세스를 결합하여 에이전트 성능을 향상시키는 접근법.
+  MiniMax가 신경망 아키텍처의 효율성을 향상시키는 희소 어텐션 메커니즘을 제안, 성능 유지하면서 계산 비용 절감.
+- [WeaveBench: 하이브리드 인터페이스를 가진 컴퓨터 사용 에이전트를 위한 장기 과제 벤치마크](https://huggingface.co/papers/2606.09426)
+  Microsoft의 벤치마크로, 그래픽 및 텍스트 인터페이스를 모두 포함한 장기 과제에서 컴퓨터 사용 에이전트를 평가.
+- [SpatialClaw: 에이전트 공간 추론을 위한 액션 인터페이스 재고](https://huggingface.co/papers/2606.13673)
+  NVIDIA 연구팀이 에이전트의 공간 과제 인터페이스 방식을 재검토하고, 물리적 환경과 객체 위치에 대한 추론 향상을 위한 개선된 액션 표현을 제안.
+- [InterleaveThinker: 에이전트의 인터리브 생성 강화](https://huggingface.co/papers/2606.13679)
+  인터리브 생성 프로세스를 구현해 에이전트가 교대 패턴으로 추론하고 출력을 생성하여 의사결정을 향상시키는 연구.
 
 ## 🦉 GeekNews
 
+- [S-tier 데모를 만드는 팁들](https://newsletter.posthog.com/p/how-to-demo)
+  스타트업의 성패와 투자 결정을 좌우하는 데모 제작 방법론을 다룹니다. 대부분의 개발자가 간과하는 데모 역량 향상의 중요성을 강조합니다.
+- [취향(taste)을 갖춘 30배 AI 엔지니어가 되는 법](https://pakodas.substack.com/p/how-to-be-a-30x-ai-engineer-with-a-taste)
+  AI 시대에 엔지니어의 진정한 가치는 속도나 지식이 아닌 '취향'에서 나온다고 주장합니다. 무엇을 만들지 판단하는 안목이 핵심 역량이 됨을 설명합니다.
 - [직장에서 아무것도 하지 않기](https://www.seangoedecke.com/doing-nothing-at-work/)
-  소프트웨어 엔지니어의 성과는 근무 시간이나 코드 양보다 '적시에 수행하는 고임팩트 작업'에 달려 있으며, 하루 약 20%만 컴퓨터 앞에서 생산적으로 일한다는 주장.
-- [AI가 소프트웨어 엔지니어를 대체하지 않은 이유](https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers)
-  AI의 급속한 도입에도 불구하고 소프트웨어 엔지니어의 대규모 대체는 발생하지 않았으며, 대량 해고를 지지하는 현재 증거는 없다는 분석.
-- [취향을 갖춘 30배 AI 엔지니어가 되는 법](https://pakodas.substack.com/p/how-to-be-a-30x-ai-engineer-with-a-taste)
-  AI가 대규모로 코드를 생성함에 따라 엔지니어의 경쟁 우위가 속도·지식·경험에서 무엇을 만들지 판단하는 '취향'으로 이동한다는 관점.
-- [루프 엔지니어링 - 에이전트를 프롬프트하는 시스템 설계하기](https://addyo.substack.com/p/loop-engineering)
-  매 턴마다 코딩 에이전트에 직접 프롬프트를 입력하는 방식에서 에이전트가 자율적으로 프롬프트를 처리하는 시스템을 설계하는 방식으로의 전환.
-- [Supermemory - AI를 위한 메모리 & 컨텍스트 엔진](https://github.com/supermemoryai/supermemory)
-  AI가 대화 간 정보를 유지하지 못하는 문제를 해결하기 위해 사실을 자동 추출하고 사용자 프로필을 구축하는 AI 메모리 레이어.
+  소프트웨어 엔지니어의 성과는 시간이 아닌 적절한 시점의 고임팩트 작업에 좌우된다는 관점을 제시합니다.
+- [루프 엔지니어링 - 에이전트를 프롬프트하는 시스템을 설계하기](https://addyo.substack.com/p/loop-engineering)
+  코딩 에이전트 활용 방식을 매 턴 직접 프롬프트에서 시스템 중심으로 전환하는 새로운 워크플로우를 제안합니다.
+- ['The Lean Startup' 저자 Eric Ries – 무엇이든 물어보세요](https://news.ycombinator.com/item?id=48477135)
+  린 스타트업 저자가 신간 'Incorruptible'을 발표하고 조직 운영 경험을 바탕으로 질의응답을 진행합니다.
 
 ---
 ## 📅 이전 날짜
