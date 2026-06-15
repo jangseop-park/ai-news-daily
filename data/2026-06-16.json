@@ -4,106 +4,106 @@
     {
       "name": "Panniantong/Agent-Reach",
       "url": "https://github.com/Panniantong/Agent-Reach",
-      "description": "AI 에이전트가 트위터, 레딧, 유튜브, 깃허브, 빌리빌리 등 인터넷 전체를 탐색할 수 있게 해주는 CLI 도구. API 비용 없이 사용 가능.",
-      "description_en": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili — one CLI, zero API fees."
+      "description": "AI 에이전트에게 인터넷 전체를 보는 눈을 달아줍니다. Twitter, Reddit, YouTube, GitHub 등을 API 비용 없이 검색/열람.",
+      "description_en": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili and more — one CLI, zero API fees."
     },
     {
       "name": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "AI 엔지니어링 기초를 처음부터 배우고, 직접 만들고, 배포하는 과정을 담은 종합 가이드.",
-      "description_en": "A comprehensive guide to learning AI engineering fundamentals from scratch — learn it, build it, ship it."
+      "description": "AI 엔지니어링을 처음부터 배우고, 만들고, 배포하는 실전 가이드.",
+      "description_en": "Comprehensive guide to learn AI engineering from scratch: build and ship production-ready AI systems."
     },
     {
       "name": "music-assistant/server",
       "url": "https://github.com/music-assistant/server",
-      "description": "스트리밍 서비스와 연결되는 무료 오픈소스 미디어 라이브러리 매니저. 항상 켜져 있는 장치에서 다양한 스피커를 지원.",
-      "description_en": "Free, open-source media library manager that connects to streaming services and supports various connected speakers, designed for always-on devices."
+      "description": "스트리밍 서비스와 스피커를 연결하는 미디어 라이브러리 매니저. Raspberry Pi/NAS에서 상시 구동.",
+      "description_en": "Media library manager that connects streaming services and speakers, runs on always-on devices like Raspberry Pi or NAS."
     },
     {
       "name": "Free-TV/IPTV",
       "url": "https://github.com/Free-TV/IPTV",
-      "description": "무료 TV 채널을 위한 M3U 플레이리스트 모음.",
-      "description_en": "A curated M3U playlist collection for free TV channels."
+      "description": "무료 TV 채널 M3U 플레이리스트 모음.",
+      "description_en": "M3U playlist collection for free TV channels worldwide."
     },
     {
       "name": "NVIDIA/SkillSpector",
       "url": "https://github.com/NVIDIA/SkillSpector",
       "description": "AI 에이전트 스킬의 취약점, 악성 패턴, 보안 위험을 탐지하는 보안 스캐너.",
-      "description_en": "Security scanner for AI agent skills that detects vulnerabilities, malicious patterns, and security risks."
+      "description_en": "Security scanner for AI agent skills — detects vulnerabilities, malicious patterns, and security risks."
     }
   ],
   "huggingface": [
     {
-      "title": "OmniDirector: 교차 쌍 데이터 없이 범용 멀티샷 카메라 복제",
+      "title": "OmniDirector: 교차 쌍 데이터 없이 다중 샷 카메라 클로닝",
       "title_en": "OmniDirector: General Multi-Shot Camera Cloning without Cross-Paired Data",
       "url": "https://huggingface.co/papers/2606.13432",
-      "summary": "Kling 팀의 연구로, 쌍을 이루는 학습 데이터 없이도 멀티샷 영상 생성에서 카메라 움직임을 복제하는 기술을 제안.",
-      "summary_en": "Kling Team's work enabling multi-shot video generation with camera cloning without requiring cross-paired training data."
+      "summary": "페어링된 학습 데이터 없이 영상 생성에서 카메라 모션을 복제하는 범용 다중 샷 카메라 클로닝 방법을 제안.",
+      "summary_en": "Addresses camera motion cloning in video generation without requiring paired training data across different shooting scenarios."
     },
     {
-      "title": "APPO: 에이전트 절차적 정책 최적화",
+      "title": "APPO: 에이전틱 절차적 정책 최적화",
       "title_en": "APPO: Agentic Procedural Policy Optimization",
       "url": "https://huggingface.co/papers/2606.12384",
-      "summary": "에이전트 시스템의 절차적 정책을 최적화하여 의사결정 과정을 개선하는 방법론 연구.",
-      "summary_en": "A research paper on optimizing procedural policies for agentic systems to improve agent decision-making processes."
+      "summary": "에이전틱 시스템에서 절차적 접근으로 정책을 최적화하는 새로운 방법론 제시.",
+      "summary_en": "Presents a method for optimizing policies in agentic systems through procedural approaches for better generalization."
     },
     {
-      "title": "메모리는 검색되는 것이 아니라 재구성된다: LLM 에이전트를 위한 그래프 메모리",
+      "title": "메모리는 검색이 아닌 재구성된다: LLM 에이전트를 위한 그래프 메모리",
       "title_en": "Memory is Reconstructed, Not Retrieved: Graph Memory for LLM Agents",
       "url": "https://huggingface.co/papers/2606.06036",
-      "summary": "NUS 연구팀이 LLM 에이전트의 메모리를 단순 검색이 아닌 재구성 방식으로 접근하는 그래프 기반 메모리 구조 제안.",
-      "summary_en": "NUS proposes that LLM agents build memory through reconstruction rather than retrieval, using graph-based memory structures."
+      "summary": "언어 모델 에이전트를 위한 그래프 기반 메모리 메커니즘으로, 단순 검색 대신 재구성 방식을 강조.",
+      "summary_en": "Proposes graph-based memory mechanisms for LLM agents, emphasizing memory reconstruction over simple retrieval."
     },
     {
-      "title": "챗봇에서 디지털 동료로: 지속적 자율 AI로의 패러다임 전환",
+      "title": "챗봇에서 디지털 동료로: 지속적 자율 AI의 패러다임 전환",
       "title_en": "From Chatbot to Digital Colleague: The Paradigm Shift Toward Persistent Autonomous AI",
       "url": "https://huggingface.co/papers/2606.14502",
-      "summary": "단순 대화 봇에서 지속적으로 자율 협업이 가능한 AI 에이전트로의 진화를 분석한 논문.",
-      "summary_en": "Examines the evolution of AI from conversational chatbots to persistent autonomous agents capable of sustained collaboration."
+      "summary": "AI 시스템이 대화형 챗봇에서 전문 환경의 지속적 자율 에이전트로 진화하는 방향을 탐구.",
+      "summary_en": "Explores the evolution of AI systems from conversational chatbots to persistent autonomous agents in professional contexts."
     },
     {
       "title": "Orchestra-o1: 옴니모달 에이전트 오케스트레이션",
       "title_en": "Orchestra-o1: Omnimodal Agent Orchestration",
       "url": "https://huggingface.co/papers/2606.13707",
-      "summary": "홍콩중문대 연구팀이 다양한 입출력 모달리티에 걸쳐 멀티모달 에이전트를 조율하는 복잡한 작업 실행 프레임워크 제안.",
-      "summary_en": "CUHK research on coordinating multimodal agents for complex task execution across different input/output modalities."
+      "summary": "다양한 입력 유형과 태스크를 동시에 처리하기 위한 멀티모달 AI 에이전트 조율 방법 소개.",
+      "summary_en": "Introduces methods for coordinating multimodal AI agents to handle diverse input types and tasks simultaneously."
     }
   ],
   "geeknews": [
     {
       "title": "10억 달러를 버는 방법",
-      "title_en": "How to Make $1 Billion",
+      "title_en": "How to Get Rich",
       "url": "https://paulgraham.com/earn.html",
-      "summary": "YC 공동창업자 폴 그레이엄이 스타트업 창업자들이 사용자가 사랑하는 제품을 통해 부를 쌓는 방법을 설명.",
-      "summary_en": "YC co-founder Paul Graham discusses how startup founders build wealth through products users love."
+      "summary": "YC 창업자 Paul Graham이 사용자가 사랑하는 제품과 지속적 성장을 통해 스타트업 창업자들이 부를 쌓는 방법을 설명.",
+      "summary_en": "Paul Graham discusses how startup founders build wealth through products users love and sustained growth."
     },
     {
       "title": "에이전트 코딩에 로컬 LLM 활용하기",
-      "title_en": "Using Local LLMs for Agentic Coding",
+      "title_en": "Local LLMs for Agentic Coding",
       "url": "https://blog.alexewerlof.com/p/local-llms-for-agentic-coding",
-      "summary": "클라우드 모델 비용이 증가함에 따라 코딩 작업에 로컬 언어 모델을 활용하는 방법을 탐구.",
-      "summary_en": "Explores using local language models for agentic coding as cloud model costs continue to rise."
+      "summary": "클라우드 모델 비용이 오르는 상황에서 로컬 언어 모델을 코딩 작업에 활용하는 방법을 안내.",
+      "summary_en": "Guide to using local language models for coding work as cloud model costs rise, avoiding expensive API fees."
     },
     {
       "title": "Claude Code 창시자, 소프트웨어 엔지니어의 종말을 말하다",
-      "title_en": "Claude Code Creator Talks About the End of Software Engineers",
-      "url": "https://www.youtube.com/watch?v=PZ9u6DR8qOU",
-      "summary": "Claude Code와 같은 에이전트 코딩 도구가 단순 코드 생성을 넘어 제품 개발 방식 자체를 재편하고 있다는 인터뷰.",
-      "summary_en": "Interview on how agentic coding tools like Claude Code reshape product development beyond just code generation."
+      "title_en": "Claude Code Creator on the End of Software Engineers",
+      "url": "https://youtube.com/watch?v=PZ9u6DR8qOU",
+      "summary": "에이전틱 코딩 도구가 코드 작성보다 제품 개발과 워크플로 재구성을 통해 더 큰 임팩트를 만든다고 주장.",
+      "summary_en": "Agentic coding tools create greater impact through product development and workflow restructuring than code writing alone."
     },
     {
-      "title": "re_gent - AI 코딩 에이전트를 위한 버전 관리",
-      "title_en": "re_gent - Version Control for AI Coding Agents",
-      "url": "https://github.com/regent-vcs/re_gent",
-      "summary": "AI 코딩 에이전트의 작업을 추적하고 각 코드 라인을 생성한 프롬프트를 역추적할 수 있는 버전 관리 도구.",
-      "summary_en": "A version control tool for AI coding agents that tracks operations and traces which prompts generated each line of code."
+      "title": "이 Fable 사안에 드리운 거대한 그림자",
+      "title_en": "The Massive Shadow Over This AI Issue",
+      "url": "https://12gramsofcarbon.com/p/tech-things-there-is-a-massive-shadow",
+      "summary": "미국 정부의 수출 통제 지침 이후 고급 AI 모델의 갑작스러운 접근 제한이 국제 사용자에게 미치는 영향 분석.",
+      "summary_en": "Advanced AI models faced sudden access restrictions following U.S. government export control directives affecting international users."
     },
     {
-      "title": "소프트웨어는 죽는 게 아니라 진화 중이다",
-      "title_en": "Software is Evolving, Not Dead",
-      "url": "https://www.signalfire.com/blog/software-is-evolving-not-dead",
-      "summary": "AI가 생성하는 코드가 저렴해지면서 기존 기능 중심 소프트웨어의 경쟁 우위가 약화되고 있다는 분석.",
-      "summary_en": "As AI-generated code becomes cheaper, traditional competitive advantages for feature-rich software are diminishing significantly."
+      "title": "직장에서 아무것도 하지 않기",
+      "title_en": "Doing Nothing at Work",
+      "url": "https://seangoedecke.com/doing-nothing-at-work/",
+      "summary": "엔지니어의 성과는 단순 근무시간이 아닌 고영향 작업의 타이밍에 달려 있으며, 실제 코딩에는 하루의 20%만 소요된다고 분석.",
+      "summary_en": "Engineer performance depends on high-impact work timing rather than hours logged, with only ~20% of time spent actively coding."
     }
   ]
 }
