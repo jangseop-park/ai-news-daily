@@ -6,37 +6,37 @@
 
 ## 🔥 GitHub Trending (Python)
 
-- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): AI 에이전트가 트위터, 레딧, 유튜브, 깃허브, 빌리빌리 등 인터넷 전체를 탐색할 수 있게 해주는 CLI 도구. API 비용 없이 사용 가능.
-- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링 기초를 처음부터 배우고, 직접 만들고, 배포하는 과정을 담은 종합 가이드.
-- [music-assistant/server](https://github.com/music-assistant/server): 스트리밍 서비스와 연결되는 무료 오픈소스 미디어 라이브러리 매니저. 항상 켜져 있는 장치에서 다양한 스피커를 지원.
-- [Free-TV/IPTV](https://github.com/Free-TV/IPTV): 무료 TV 채널을 위한 M3U 플레이리스트 모음.
+- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): AI 에이전트에게 인터넷 전체를 보는 눈을 달아줍니다. Twitter, Reddit, YouTube, GitHub 등을 API 비용 없이 검색/열람.
+- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링을 처음부터 배우고, 만들고, 배포하는 실전 가이드.
+- [music-assistant/server](https://github.com/music-assistant/server): 스트리밍 서비스와 스피커를 연결하는 미디어 라이브러리 매니저. Raspberry Pi/NAS에서 상시 구동.
+- [Free-TV/IPTV](https://github.com/Free-TV/IPTV): 무료 TV 채널 M3U 플레이리스트 모음.
 - [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector): AI 에이전트 스킬의 취약점, 악성 패턴, 보안 위험을 탐지하는 보안 스캐너.
 
 ## 📄 Hugging Face Papers
 
-- [OmniDirector: 교차 쌍 데이터 없이 범용 멀티샷 카메라 복제](https://huggingface.co/papers/2606.13432)
-  Kling 팀의 연구로, 쌍을 이루는 학습 데이터 없이도 멀티샷 영상 생성에서 카메라 움직임을 복제하는 기술을 제안.
-- [APPO: 에이전트 절차적 정책 최적화](https://huggingface.co/papers/2606.12384)
-  에이전트 시스템의 절차적 정책을 최적화하여 의사결정 과정을 개선하는 방법론 연구.
-- [메모리는 검색되는 것이 아니라 재구성된다: LLM 에이전트를 위한 그래프 메모리](https://huggingface.co/papers/2606.06036)
-  NUS 연구팀이 LLM 에이전트의 메모리를 단순 검색이 아닌 재구성 방식으로 접근하는 그래프 기반 메모리 구조 제안.
-- [챗봇에서 디지털 동료로: 지속적 자율 AI로의 패러다임 전환](https://huggingface.co/papers/2606.14502)
-  단순 대화 봇에서 지속적으로 자율 협업이 가능한 AI 에이전트로의 진화를 분석한 논문.
+- [OmniDirector: 교차 쌍 데이터 없이 다중 샷 카메라 클로닝](https://huggingface.co/papers/2606.13432)
+  페어링된 학습 데이터 없이 영상 생성에서 카메라 모션을 복제하는 범용 다중 샷 카메라 클로닝 방법을 제안.
+- [APPO: 에이전틱 절차적 정책 최적화](https://huggingface.co/papers/2606.12384)
+  에이전틱 시스템에서 절차적 접근으로 정책을 최적화하는 새로운 방법론 제시.
+- [메모리는 검색이 아닌 재구성된다: LLM 에이전트를 위한 그래프 메모리](https://huggingface.co/papers/2606.06036)
+  언어 모델 에이전트를 위한 그래프 기반 메모리 메커니즘으로, 단순 검색 대신 재구성 방식을 강조.
+- [챗봇에서 디지털 동료로: 지속적 자율 AI의 패러다임 전환](https://huggingface.co/papers/2606.14502)
+  AI 시스템이 대화형 챗봇에서 전문 환경의 지속적 자율 에이전트로 진화하는 방향을 탐구.
 - [Orchestra-o1: 옴니모달 에이전트 오케스트레이션](https://huggingface.co/papers/2606.13707)
-  홍콩중문대 연구팀이 다양한 입출력 모달리티에 걸쳐 멀티모달 에이전트를 조율하는 복잡한 작업 실행 프레임워크 제안.
+  다양한 입력 유형과 태스크를 동시에 처리하기 위한 멀티모달 AI 에이전트 조율 방법 소개.
 
 ## 🦉 GeekNews
 
 - [10억 달러를 버는 방법](https://paulgraham.com/earn.html)
-  YC 공동창업자 폴 그레이엄이 스타트업 창업자들이 사용자가 사랑하는 제품을 통해 부를 쌓는 방법을 설명.
+  YC 창업자 Paul Graham이 사용자가 사랑하는 제품과 지속적 성장을 통해 스타트업 창업자들이 부를 쌓는 방법을 설명.
 - [에이전트 코딩에 로컬 LLM 활용하기](https://blog.alexewerlof.com/p/local-llms-for-agentic-coding)
-  클라우드 모델 비용이 증가함에 따라 코딩 작업에 로컬 언어 모델을 활용하는 방법을 탐구.
-- [Claude Code 창시자, 소프트웨어 엔지니어의 종말을 말하다](https://www.youtube.com/watch?v=PZ9u6DR8qOU)
-  Claude Code와 같은 에이전트 코딩 도구가 단순 코드 생성을 넘어 제품 개발 방식 자체를 재편하고 있다는 인터뷰.
-- [re_gent - AI 코딩 에이전트를 위한 버전 관리](https://github.com/regent-vcs/re_gent)
-  AI 코딩 에이전트의 작업을 추적하고 각 코드 라인을 생성한 프롬프트를 역추적할 수 있는 버전 관리 도구.
-- [소프트웨어는 죽는 게 아니라 진화 중이다](https://www.signalfire.com/blog/software-is-evolving-not-dead)
-  AI가 생성하는 코드가 저렴해지면서 기존 기능 중심 소프트웨어의 경쟁 우위가 약화되고 있다는 분석.
+  클라우드 모델 비용이 오르는 상황에서 로컬 언어 모델을 코딩 작업에 활용하는 방법을 안내.
+- [Claude Code 창시자, 소프트웨어 엔지니어의 종말을 말하다](https://youtube.com/watch?v=PZ9u6DR8qOU)
+  에이전틱 코딩 도구가 코드 작성보다 제품 개발과 워크플로 재구성을 통해 더 큰 임팩트를 만든다고 주장.
+- [이 Fable 사안에 드리운 거대한 그림자](https://12gramsofcarbon.com/p/tech-things-there-is-a-massive-shadow)
+  미국 정부의 수출 통제 지침 이후 고급 AI 모델의 갑작스러운 접근 제한이 국제 사용자에게 미치는 영향 분석.
+- [직장에서 아무것도 하지 않기](https://seangoedecke.com/doing-nothing-at-work/)
+  엔지니어의 성과는 단순 근무시간이 아닌 고영향 작업의 타이밍에 달려 있으며, 실제 코딩에는 하루의 20%만 소요된다고 분석.
 
 ---
 ## 📅 이전 날짜
