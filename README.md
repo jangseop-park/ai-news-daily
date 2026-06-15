@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-06-15
+> 마지막 업데이트: 2026-06-16
 
-# AI 뉴스 — 2026-06-15
+# AI 뉴스 — 2026-06-16
 
 ## 🔥 GitHub Trending (Python)
 
-- [pytest-dev/pytest](https://github.com/pytest-dev/pytest): 소규모 테스트 작성부터 복잡한 기능 테스트까지 지원하는 Python 테스트 프레임워크
-- [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector): AI 에이전트 스킬의 취약점, 악성 패턴, 보안 위험을 탐지하는 보안 스캐너
-- [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos): 금융 시장 언어를 위한 기반 모델 Kronos
-- [music-assistant/server](https://github.com/music-assistant/server): 스트리밍 서비스와 스피커를 연결하는 오픈소스 미디어 라이브러리 매니저
-- [Free-TV/IPTV](https://github.com/Free-TV/IPTV): 무료 TV 채널을 위한 M3U 플레이리스트
+- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): AI 에이전트가 트위터, 레딧, 유튜브, 깃허브, 빌리빌리 등 인터넷 전체를 탐색할 수 있게 해주는 CLI 도구. API 비용 없이 사용 가능.
+- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링 기초를 처음부터 배우고, 직접 만들고, 배포하는 과정을 담은 종합 가이드.
+- [music-assistant/server](https://github.com/music-assistant/server): 스트리밍 서비스와 연결되는 무료 오픈소스 미디어 라이브러리 매니저. 항상 켜져 있는 장치에서 다양한 스피커를 지원.
+- [Free-TV/IPTV](https://github.com/Free-TV/IPTV): 무료 TV 채널을 위한 M3U 플레이리스트 모음.
+- [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector): AI 에이전트 스킬의 취약점, 악성 패턴, 보안 위험을 탐지하는 보안 스캐너.
 
 ## 📄 Hugging Face Papers
 
-- [EvoArena: 동적 환경에서 강건한 LLM 에이전트를 위한 메모리 진화 추적](https://huggingface.co/papers/2606.13681)
-  MIT 연구팀이 변화하는 환경에서 언어 모델 에이전트의 메모리 시스템 진화 방법을 탐구하며, 동적 환경에서의 강건성 문제를 다룸.
-- [MiniMax 희소 어텐션](https://huggingface.co/papers/2606.13392)
-  MiniMax가 신경망 아키텍처의 효율성을 향상시키는 희소 어텐션 메커니즘을 제안, 성능 유지하면서 계산 비용 절감.
-- [WeaveBench: 하이브리드 인터페이스를 가진 컴퓨터 사용 에이전트를 위한 장기 과제 벤치마크](https://huggingface.co/papers/2606.09426)
-  Microsoft의 벤치마크로, 그래픽 및 텍스트 인터페이스를 모두 포함한 장기 과제에서 컴퓨터 사용 에이전트를 평가.
-- [SpatialClaw: 에이전트 공간 추론을 위한 액션 인터페이스 재고](https://huggingface.co/papers/2606.13673)
-  NVIDIA 연구팀이 에이전트의 공간 과제 인터페이스 방식을 재검토하고, 물리적 환경과 객체 위치에 대한 추론 향상을 위한 개선된 액션 표현을 제안.
-- [InterleaveThinker: 에이전트의 인터리브 생성 강화](https://huggingface.co/papers/2606.13679)
-  인터리브 생성 프로세스를 구현해 에이전트가 교대 패턴으로 추론하고 출력을 생성하여 의사결정을 향상시키는 연구.
+- [OmniDirector: 교차 쌍 데이터 없이 범용 멀티샷 카메라 복제](https://huggingface.co/papers/2606.13432)
+  Kling 팀의 연구로, 쌍을 이루는 학습 데이터 없이도 멀티샷 영상 생성에서 카메라 움직임을 복제하는 기술을 제안.
+- [APPO: 에이전트 절차적 정책 최적화](https://huggingface.co/papers/2606.12384)
+  에이전트 시스템의 절차적 정책을 최적화하여 의사결정 과정을 개선하는 방법론 연구.
+- [메모리는 검색되는 것이 아니라 재구성된다: LLM 에이전트를 위한 그래프 메모리](https://huggingface.co/papers/2606.06036)
+  NUS 연구팀이 LLM 에이전트의 메모리를 단순 검색이 아닌 재구성 방식으로 접근하는 그래프 기반 메모리 구조 제안.
+- [챗봇에서 디지털 동료로: 지속적 자율 AI로의 패러다임 전환](https://huggingface.co/papers/2606.14502)
+  단순 대화 봇에서 지속적으로 자율 협업이 가능한 AI 에이전트로의 진화를 분석한 논문.
+- [Orchestra-o1: 옴니모달 에이전트 오케스트레이션](https://huggingface.co/papers/2606.13707)
+  홍콩중문대 연구팀이 다양한 입출력 모달리티에 걸쳐 멀티모달 에이전트를 조율하는 복잡한 작업 실행 프레임워크 제안.
 
 ## 🦉 GeekNews
 
-- [S-tier 데모를 만드는 팁들](https://newsletter.posthog.com/p/how-to-demo)
-  스타트업의 성패와 투자 결정을 좌우하는 데모 제작 방법론을 다룹니다. 대부분의 개발자가 간과하는 데모 역량 향상의 중요성을 강조합니다.
-- [취향(taste)을 갖춘 30배 AI 엔지니어가 되는 법](https://pakodas.substack.com/p/how-to-be-a-30x-ai-engineer-with-a-taste)
-  AI 시대에 엔지니어의 진정한 가치는 속도나 지식이 아닌 '취향'에서 나온다고 주장합니다. 무엇을 만들지 판단하는 안목이 핵심 역량이 됨을 설명합니다.
-- [직장에서 아무것도 하지 않기](https://www.seangoedecke.com/doing-nothing-at-work/)
-  소프트웨어 엔지니어의 성과는 시간이 아닌 적절한 시점의 고임팩트 작업에 좌우된다는 관점을 제시합니다.
-- [루프 엔지니어링 - 에이전트를 프롬프트하는 시스템을 설계하기](https://addyo.substack.com/p/loop-engineering)
-  코딩 에이전트 활용 방식을 매 턴 직접 프롬프트에서 시스템 중심으로 전환하는 새로운 워크플로우를 제안합니다.
-- ['The Lean Startup' 저자 Eric Ries – 무엇이든 물어보세요](https://news.ycombinator.com/item?id=48477135)
-  린 스타트업 저자가 신간 'Incorruptible'을 발표하고 조직 운영 경험을 바탕으로 질의응답을 진행합니다.
+- [10억 달러를 버는 방법](https://paulgraham.com/earn.html)
+  YC 공동창업자 폴 그레이엄이 스타트업 창업자들이 사용자가 사랑하는 제품을 통해 부를 쌓는 방법을 설명.
+- [에이전트 코딩에 로컬 LLM 활용하기](https://blog.alexewerlof.com/p/local-llms-for-agentic-coding)
+  클라우드 모델 비용이 증가함에 따라 코딩 작업에 로컬 언어 모델을 활용하는 방법을 탐구.
+- [Claude Code 창시자, 소프트웨어 엔지니어의 종말을 말하다](https://www.youtube.com/watch?v=PZ9u6DR8qOU)
+  Claude Code와 같은 에이전트 코딩 도구가 단순 코드 생성을 넘어 제품 개발 방식 자체를 재편하고 있다는 인터뷰.
+- [re_gent - AI 코딩 에이전트를 위한 버전 관리](https://github.com/regent-vcs/re_gent)
+  AI 코딩 에이전트의 작업을 추적하고 각 코드 라인을 생성한 프롬프트를 역추적할 수 있는 버전 관리 도구.
+- [소프트웨어는 죽는 게 아니라 진화 중이다](https://www.signalfire.com/blog/software-is-evolving-not-dead)
+  AI가 생성하는 코드가 저렴해지면서 기존 기능 중심 소프트웨어의 경쟁 우위가 약화되고 있다는 분석.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-06-15](data/2026-06-15.md)
 - [2026-06-14](data/2026-06-14.md)
 - [2026-06-13](data/2026-06-13.md)
 - [2026-06-12](data/2026-06-12.md)
@@ -69,4 +70,3 @@
 - [2026-05-20](data/2026-05-20.md)
 - [2026-05-19](data/2026-05-19.md)
 - [2026-05-18](data/2026-05-18.md)
-- [2026-05-17](data/2026-05-17.md)
