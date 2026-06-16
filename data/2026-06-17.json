@@ -1,0 +1,109 @@
+{
+  "date": "2026-06-17",
+  "github_trending": [
+    {
+      "name": "music-assistant/server",
+      "url": "https://github.com/music-assistant/server",
+      "description": "스트리밍 서비스와 연결된 스피커를 통합하는 무료 오픈소스 미디어 라이브러리 관리자 서버 컴포넌트",
+      "description_en": "A free, open-source media library manager that integrates streaming services and connected speakers, with a core server component for always-on devices."
+    },
+    {
+      "name": "OpenBMB/VoxCPM",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "description": "토크나이저 없는 다국어 음성 생성, 창의적 음성 커스터마이징 및 보이스 클로닝을 지원하는 고급 TTS 시스템",
+      "description_en": "An advanced text-to-speech system offering tokenizer-free multilingual speech generation with creative voice customization and voice cloning capabilities."
+    },
+    {
+      "name": "Free-TV/IPTV",
+      "url": "https://github.com/Free-TV/IPTV",
+      "description": "무료 TV 채널 시청을 위한 M3U 플레이리스트 모음",
+      "description_en": "A compilation of M3U playlists providing access to free television channels."
+    },
+    {
+      "name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "API 비용 없이 AI 에이전트가 트위터, 레딧, 유튜브 등 주요 인터넷 플랫폼을 탐색·검색할 수 있는 CLI 도구",
+      "description_en": "A CLI tool enabling AI agents to browse and search major internet platforms including Twitter, Reddit, YouTube, and others without requiring API fees."
+    },
+    {
+      "name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "AI 프로젝트를 처음부터 학습하고 구축하며 배포하는 데 초점을 맞춘 교육 리소스",
+      "description_en": "An educational resource focused on learning, building, and deploying AI projects from scratch."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "JoyAI-VL-Interaction: 실시간 비전-언어 상호작용 인텔리전스",
+      "title_en": "JoyAI-VL-Interaction: Real-Time Vision-Language Interaction Intelligence",
+      "url": "https://huggingface.co/papers/2606.14777",
+      "summary": "실시간으로 비전과 언어를 결합한 상호작용 AI 시스템에 관한 연구.",
+      "summary_en": "Research on a real-time AI system that combines vision and language for interactive intelligence."
+    },
+    {
+      "title": "데이터 저널리스트 에이전트: 데이터를 검증 가능한 멀티모달 스토리로 변환",
+      "title_en": "Data Journalist Agent: Transforming Data into Verifiable Multimodal Stories",
+      "url": "https://huggingface.co/papers/2606.11176",
+      "summary": "데이터를 사실 검증 가능한 멀티모달 스토리로 자동 변환하는 AI 에이전트 연구.",
+      "summary_en": "Research on an AI agent that automatically transforms data into verifiable multimodal stories."
+    },
+    {
+      "title": "로봇 정책 학습을 위한 기하학적 액션 모델",
+      "title_en": "Geometric Action Model for Robot Policy Learning",
+      "url": "https://huggingface.co/papers/2606.17046",
+      "summary": "기하학적 표현을 활용하여 로봇의 정책 학습 성능을 향상시키는 모델 제안.",
+      "summary_en": "A model that leverages geometric representations to improve robot policy learning performance."
+    },
+    {
+      "title": "DreamX-World 1.0: 범용 인터랙티브 월드 모델",
+      "title_en": "DreamX-World 1.0: A General-Purpose Interactive World Model",
+      "url": "https://huggingface.co/papers/2606.16993",
+      "summary": "다양한 환경에서 상호작용 가능한 범용 세계 모델 DreamX-World 1.0 소개.",
+      "summary_en": "Introduction of DreamX-World 1.0, a general-purpose interactive world model applicable across diverse environments."
+    },
+    {
+      "title": "FastContext: 코딩 에이전트를 위한 효율적인 레포지토리 탐색기 학습",
+      "title_en": "FastContext: Training Efficient Repository Explorer for Coding Agents",
+      "url": "https://huggingface.co/papers/2606.14066",
+      "summary": "코딩 에이전트가 대형 코드 레포지토리를 빠르고 효율적으로 탐색하도록 학습시키는 방법 연구.",
+      "summary_en": "Research on training coding agents to efficiently explore large code repositories."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "내 홈랩 AI 개발 플랫폼",
+      "title_en": "My Home Lab AI Development Platform",
+      "url": "https://news.hada.io/topic?id=21006",
+      "summary": "개인 홈랩 환경에서 AI 개발 플랫폼을 구축한 경험과 구성 방법 소개.",
+      "summary_en": "Introduction to building and configuring an AI development platform in a personal home lab environment."
+    },
+    {
+      "title": "OpenRouter Fusion API",
+      "title_en": "OpenRouter Fusion API",
+      "url": "https://openrouter.ai/openrouter/fusion",
+      "summary": "여러 AI 모델을 융합하여 더 나은 응답을 생성하는 OpenRouter의 Fusion API 공개.",
+      "summary_en": "OpenRouter releases its Fusion API that combines multiple AI models to generate better responses."
+    },
+    {
+      "title": "에이전트 코딩에 로컬 LLM 활용하기",
+      "title_en": "Using Local LLMs for Agentic Coding",
+      "url": "https://blog.alexewerlof.com/p/local-llms-for-agentic-coding",
+      "summary": "API 비용 없이 로컬 LLM을 에이전트 코딩 워크플로우에 적용하는 방법과 실제 경험 공유.",
+      "summary_en": "Sharing methods and practical experience of applying local LLMs to agentic coding workflows without API costs."
+    },
+    {
+      "title": "일상적인 코딩에서 Claude/GPT를 로컬 모델로 대체한 사람이 있나요?",
+      "title_en": "Ask HN: Anyone Replaced Claude/GPT with Local Models in Daily Coding?",
+      "url": "https://news.ycombinator.com/item?id=48542100",
+      "summary": "일상적인 개발 작업에서 클라우드 AI 모델 대신 로컬 모델로 전환한 경험에 대한 커뮤니티 토론.",
+      "summary_en": "Community discussion on experiences switching from cloud AI models to local models for everyday development tasks."
+    },
+    {
+      "title": "Claude Code 창시자, 소프트웨어 엔지니어의 종말을 말하다",
+      "title_en": "Claude Code Creator on the End of Software Engineering",
+      "url": "https://www.youtube.com/watch?v=PZ9u6DR8qOU",
+      "summary": "Claude Code를 만든 인물이 AI로 인한 소프트웨어 엔지니어링의 미래 변화에 대해 논한 영상.",
+      "summary_en": "Video in which the creator of Claude Code discusses the future transformation of software engineering due to AI."
+    }
+  ]
+}
