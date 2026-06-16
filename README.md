@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-06-16
+> 마지막 업데이트: 2026-06-17
 
-# AI 뉴스 — 2026-06-16
+# AI 뉴스 — 2026-06-17
 
 ## 🔥 GitHub Trending (Python)
 
-- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): AI 에이전트에게 인터넷 전체를 보는 눈을 달아줍니다. Twitter, Reddit, YouTube, GitHub 등을 API 비용 없이 검색/열람.
-- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링을 처음부터 배우고, 만들고, 배포하는 실전 가이드.
-- [music-assistant/server](https://github.com/music-assistant/server): 스트리밍 서비스와 스피커를 연결하는 미디어 라이브러리 매니저. Raspberry Pi/NAS에서 상시 구동.
-- [Free-TV/IPTV](https://github.com/Free-TV/IPTV): 무료 TV 채널 M3U 플레이리스트 모음.
-- [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector): AI 에이전트 스킬의 취약점, 악성 패턴, 보안 위험을 탐지하는 보안 스캐너.
+- [music-assistant/server](https://github.com/music-assistant/server): 스트리밍 서비스와 연결된 스피커를 통합하는 무료 오픈소스 미디어 라이브러리 관리자 서버 컴포넌트
+- [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM): 토크나이저 없는 다국어 음성 생성, 창의적 음성 커스터마이징 및 보이스 클로닝을 지원하는 고급 TTS 시스템
+- [Free-TV/IPTV](https://github.com/Free-TV/IPTV): 무료 TV 채널 시청을 위한 M3U 플레이리스트 모음
+- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): API 비용 없이 AI 에이전트가 트위터, 레딧, 유튜브 등 주요 인터넷 플랫폼을 탐색·검색할 수 있는 CLI 도구
+- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 프로젝트를 처음부터 학습하고 구축하며 배포하는 데 초점을 맞춘 교육 리소스
 
 ## 📄 Hugging Face Papers
 
-- [OmniDirector: 교차 쌍 데이터 없이 다중 샷 카메라 클로닝](https://huggingface.co/papers/2606.13432)
-  페어링된 학습 데이터 없이 영상 생성에서 카메라 모션을 복제하는 범용 다중 샷 카메라 클로닝 방법을 제안.
-- [APPO: 에이전틱 절차적 정책 최적화](https://huggingface.co/papers/2606.12384)
-  에이전틱 시스템에서 절차적 접근으로 정책을 최적화하는 새로운 방법론 제시.
-- [메모리는 검색이 아닌 재구성된다: LLM 에이전트를 위한 그래프 메모리](https://huggingface.co/papers/2606.06036)
-  언어 모델 에이전트를 위한 그래프 기반 메모리 메커니즘으로, 단순 검색 대신 재구성 방식을 강조.
-- [챗봇에서 디지털 동료로: 지속적 자율 AI의 패러다임 전환](https://huggingface.co/papers/2606.14502)
-  AI 시스템이 대화형 챗봇에서 전문 환경의 지속적 자율 에이전트로 진화하는 방향을 탐구.
-- [Orchestra-o1: 옴니모달 에이전트 오케스트레이션](https://huggingface.co/papers/2606.13707)
-  다양한 입력 유형과 태스크를 동시에 처리하기 위한 멀티모달 AI 에이전트 조율 방법 소개.
+- [JoyAI-VL-Interaction: 실시간 비전-언어 상호작용 인텔리전스](https://huggingface.co/papers/2606.14777)
+  실시간으로 비전과 언어를 결합한 상호작용 AI 시스템에 관한 연구.
+- [데이터 저널리스트 에이전트: 데이터를 검증 가능한 멀티모달 스토리로 변환](https://huggingface.co/papers/2606.11176)
+  데이터를 사실 검증 가능한 멀티모달 스토리로 자동 변환하는 AI 에이전트 연구.
+- [로봇 정책 학습을 위한 기하학적 액션 모델](https://huggingface.co/papers/2606.17046)
+  기하학적 표현을 활용하여 로봇의 정책 학습 성능을 향상시키는 모델 제안.
+- [DreamX-World 1.0: 범용 인터랙티브 월드 모델](https://huggingface.co/papers/2606.16993)
+  다양한 환경에서 상호작용 가능한 범용 세계 모델 DreamX-World 1.0 소개.
+- [FastContext: 코딩 에이전트를 위한 효율적인 레포지토리 탐색기 학습](https://huggingface.co/papers/2606.14066)
+  코딩 에이전트가 대형 코드 레포지토리를 빠르고 효율적으로 탐색하도록 학습시키는 방법 연구.
 
 ## 🦉 GeekNews
 
-- [10억 달러를 버는 방법](https://paulgraham.com/earn.html)
-  YC 창업자 Paul Graham이 사용자가 사랑하는 제품과 지속적 성장을 통해 스타트업 창업자들이 부를 쌓는 방법을 설명.
+- [내 홈랩 AI 개발 플랫폼](https://news.hada.io/topic?id=21006)
+  개인 홈랩 환경에서 AI 개발 플랫폼을 구축한 경험과 구성 방법 소개.
+- [OpenRouter Fusion API](https://openrouter.ai/openrouter/fusion)
+  여러 AI 모델을 융합하여 더 나은 응답을 생성하는 OpenRouter의 Fusion API 공개.
 - [에이전트 코딩에 로컬 LLM 활용하기](https://blog.alexewerlof.com/p/local-llms-for-agentic-coding)
-  클라우드 모델 비용이 오르는 상황에서 로컬 언어 모델을 코딩 작업에 활용하는 방법을 안내.
-- [Claude Code 창시자, 소프트웨어 엔지니어의 종말을 말하다](https://youtube.com/watch?v=PZ9u6DR8qOU)
-  에이전틱 코딩 도구가 코드 작성보다 제품 개발과 워크플로 재구성을 통해 더 큰 임팩트를 만든다고 주장.
-- [이 Fable 사안에 드리운 거대한 그림자](https://12gramsofcarbon.com/p/tech-things-there-is-a-massive-shadow)
-  미국 정부의 수출 통제 지침 이후 고급 AI 모델의 갑작스러운 접근 제한이 국제 사용자에게 미치는 영향 분석.
-- [직장에서 아무것도 하지 않기](https://seangoedecke.com/doing-nothing-at-work/)
-  엔지니어의 성과는 단순 근무시간이 아닌 고영향 작업의 타이밍에 달려 있으며, 실제 코딩에는 하루의 20%만 소요된다고 분석.
+  API 비용 없이 로컬 LLM을 에이전트 코딩 워크플로우에 적용하는 방법과 실제 경험 공유.
+- [일상적인 코딩에서 Claude/GPT를 로컬 모델로 대체한 사람이 있나요?](https://news.ycombinator.com/item?id=48542100)
+  일상적인 개발 작업에서 클라우드 AI 모델 대신 로컬 모델로 전환한 경험에 대한 커뮤니티 토론.
+- [Claude Code 창시자, 소프트웨어 엔지니어의 종말을 말하다](https://www.youtube.com/watch?v=PZ9u6DR8qOU)
+  Claude Code를 만든 인물이 AI로 인한 소프트웨어 엔지니어링의 미래 변화에 대해 논한 영상.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-06-16](data/2026-06-16.md)
 - [2026-06-15](data/2026-06-15.md)
 - [2026-06-14](data/2026-06-14.md)
 - [2026-06-13](data/2026-06-13.md)
@@ -69,4 +70,3 @@
 - [2026-05-21](data/2026-05-21.md)
 - [2026-05-20](data/2026-05-20.md)
 - [2026-05-19](data/2026-05-19.md)
-- [2026-05-18](data/2026-05-18.md)
