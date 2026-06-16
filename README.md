@@ -6,37 +6,37 @@
 
 ## 🔥 GitHub Trending (Python)
 
-- [music-assistant/server](https://github.com/music-assistant/server): 스트리밍 서비스와 연결된 스피커를 통합하는 무료 오픈소스 미디어 라이브러리 관리자 서버 컴포넌트
-- [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM): 토크나이저 없는 다국어 음성 생성, 창의적 음성 커스터마이징 및 보이스 클로닝을 지원하는 고급 TTS 시스템
-- [Free-TV/IPTV](https://github.com/Free-TV/IPTV): 무료 TV 채널 시청을 위한 M3U 플레이리스트 모음
-- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): API 비용 없이 AI 에이전트가 트위터, 레딧, 유튜브 등 주요 인터넷 플랫폼을 탐색·검색할 수 있는 CLI 도구
-- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 프로젝트를 처음부터 학습하고 구축하며 배포하는 데 초점을 맞춘 교육 리소스
+- [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM): VoxCPM2 — 다국어 음성 생성, 창의적 보이스 디자인, 실사 클로닝을 위한 토크나이저 없는 TTS 모델
+- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): AI 에이전트에 인터넷 전체 시야 제공 — Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu 검색 (API 비용 없음)
+- [andrewyng/aisuite](https://github.com/andrewyng/aisuite): 여러 생성형 AI 제공업체를 단일 인터페이스로 통합하는 Python 라이브러리 (앤드류 응 제작)
+- [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents): 《처음부터 만드는 지능형 에이전트》 — AI 에이전트 원리와 실습 중국어 튜토리얼
+- [karpathy/autoresearch](https://github.com/karpathy/autoresearch): 단일 GPU에서 nanochat 학습을 자동으로 실행하는 AI 리서치 에이전트 (Andrej Karpathy 제작)
 
 ## 📄 Hugging Face Papers
 
-- [JoyAI-VL-Interaction: 실시간 비전-언어 상호작용 인텔리전스](https://huggingface.co/papers/2606.14777)
-  실시간으로 비전과 언어를 결합한 상호작용 AI 시스템에 관한 연구.
-- [데이터 저널리스트 에이전트: 데이터를 검증 가능한 멀티모달 스토리로 변환](https://huggingface.co/papers/2606.11176)
-  데이터를 사실 검증 가능한 멀티모달 스토리로 자동 변환하는 AI 에이전트 연구.
-- [로봇 정책 학습을 위한 기하학적 액션 모델](https://huggingface.co/papers/2606.17046)
-  기하학적 표현을 활용하여 로봇의 정책 학습 성능을 향상시키는 모델 제안.
-- [DreamX-World 1.0: 범용 인터랙티브 월드 모델](https://huggingface.co/papers/2606.16993)
-  다양한 환경에서 상호작용 가능한 범용 세계 모델 DreamX-World 1.0 소개.
-- [FastContext: 코딩 에이전트를 위한 효율적인 레포지토리 탐색기 학습](https://huggingface.co/papers/2606.14066)
-  코딩 에이전트가 대형 코드 레포지토리를 빠르고 효율적으로 탐색하도록 학습시키는 방법 연구.
+- [JoyAI-VL-Interaction: 실시간 비전-언어 인터랙션 인텔리전스](https://huggingface.co/papers/2606.14777)
+  실시간으로 이미지/영상을 이해하고 대화할 수 있는 비전-언어 모델 인터랙션 연구
+- [Geometric Action Model: 로봇 정책 학습을 위한 기하학적 행동 모델](https://huggingface.co/papers/2606.11176)
+  기하학적 구조를 활용해 로봇의 동작 정책을 더 효율적으로 학습하는 모델 제안
+- [DreamX-World 1.0: 범용 인터랙티브 월드 모델](https://huggingface.co/papers/2606.17046)
+  다양한 환경에서 인터랙티브하게 동작하는 범용 월드 모델 — 게임, 시뮬레이션, 로봇 제어 등에 활용 가능
+- [FastContext: 코딩 에이전트를 위한 효율적인 레포지토리 탐색기 학습](https://huggingface.co/papers/2606.16993)
+  코딩 에이전트가 대규모 코드베이스를 빠르게 탐색할 수 있도록 효율적인 컨텍스트 탐색기를 학습하는 방법
+- [VibeThinker-3B: 소형 언어 모델에서 검증 가능한 추론의 한계 탐구](https://huggingface.co/papers/2606.14066)
+  3B 파라미터 소형 언어 모델에서 수학 등 검증 가능한 추론 능력의 경계를 탐구하는 연구
 
 ## 🦉 GeekNews
 
-- [내 홈랩 AI 개발 플랫폼](https://news.hada.io/topic?id=21006)
-  개인 홈랩 환경에서 AI 개발 플랫폼을 구축한 경험과 구성 방법 소개.
-- [OpenRouter Fusion API](https://openrouter.ai/openrouter/fusion)
-  여러 AI 모델을 융합하여 더 나은 응답을 생성하는 OpenRouter의 Fusion API 공개.
-- [에이전트 코딩에 로컬 LLM 활용하기](https://blog.alexewerlof.com/p/local-llms-for-agentic-coding)
-  API 비용 없이 로컬 LLM을 에이전트 코딩 워크플로우에 적용하는 방법과 실제 경험 공유.
-- [일상적인 코딩에서 Claude/GPT를 로컬 모델로 대체한 사람이 있나요?](https://news.ycombinator.com/item?id=48542100)
-  일상적인 개발 작업에서 클라우드 AI 모델 대신 로컬 모델로 전환한 경험에 대한 커뮤니티 토론.
-- [Claude Code 창시자, 소프트웨어 엔지니어의 종말을 말하다](https://www.youtube.com/watch?v=PZ9u6DR8qOU)
-  Claude Code를 만든 인물이 AI로 인한 소프트웨어 엔지니어링의 미래 변화에 대해 논한 영상.
+- [에이전트 코딩에 로컬 LLM 활용하기](https://news.hada.io/topic?id=30547)
+  클라우드 플래그십 모델의 가격 급등 속에서 비용 부담 없이 코딩 에이전트 작업을 이어갈 수 있는 로컬 모델 활용 전략 정리
+- [10억 달러를 버는 방법 (폴 그레이엄)](https://news.hada.io/topic?id=30493)
+  YC 공동창업자 폴 그레이엄이 Oxford Union 강연을 바탕으로 쓴 글 — 스타트업 창업자의 부는 사용자가 사랑하는 제품과 지속되는 성장에서 비롯된다
+- [너드들에게 도대체 무슨 일이 일어난 걸까?](https://news.hada.io/topic?id=30524)
+  테크 업계가 40년간 쌓아온 신뢰가 지난 10여 년간 관심(attention) 경제로 청산되며 변질되는 과정을 분석한 글
+- [Claude Code 창시자, 소프트웨어 엔지니어의 종말을 말하다](https://news.hada.io/topic?id=30492)
+  Claude Code는 코드 작성보다 제품을 만들고 업무 흐름을 재구성하는 더 큰 변화를 일으킴. AI 에이전트가 SWE 역할을 대체하는 미래를 전망
+- [Kage - 웹사이트에서 JavaScript를 제거하고 오프라인 보관하는 도구](https://news.hada.io/topic?id=30497)
+  헤드리스 크롬으로 최종 렌더링된 DOM을 스냅샷하고 JavaScript를 제거, CSS·이미지·폰트를 로컬에 내려받아 완전한 오프라인 보관본 생성
 
 ---
 ## 📅 이전 날짜
