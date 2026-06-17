@@ -6,37 +6,37 @@
 
 ## 🔥 GitHub Trending (Python)
 
-- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): API 비용 없이 AI 에이전트가 Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu 등 다양한 플랫폼 콘텐츠에 접근·검색할 수 있는 CLI 도구
-- [google-research/timesfm](https://github.com/google-research/timesfm): Google이 개발한 시계열 예측용 사전학습 기초 모델로, 향상된 예측 능력 제공
-- [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage): 12개 파이프라인과 500개 이상의 에이전트 스킬을 갖춘 오픈소스 AI 기반 자동화 영상 제작 시스템
-- [alexzhang13/rlm](https://github.com/alexzhang13/rlm): 다양한 샌드박스 환경에서 재귀 언어 모델을 지원하는 플러그앤플레이 추론 라이브러리
-- [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM): 크리에이티브 디자인과 실제 음성 클로닝 기능을 갖춘 고급 다국어 TTS 시스템
+- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): AI 에이전트에게 인터넷 전체를 볼 수 있는 눈을 제공. Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu를 하나의 CLI로, API 비용 없이 읽고 검색.
+- [google-research/timesfm](https://github.com/google-research/timesfm): Google Research가 개발한 시계열 예측용 사전학습 파운데이션 모델(TimesFM).
+- [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage): 세계 최초 오픈소스 에이전틱 영상 제작 시스템. 12개 파이프라인, 52개 도구, 500개 이상의 에이전트 스킬 제공.
+- [alexzhang13/rlm](https://github.com/alexzhang13/rlm): 재귀적 언어 모델(RLM)을 위한 범용 플러그앤플레이 추론 라이브러리. 다양한 샌드박스 지원.
+- [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM): 다국어 음성 생성, 창의적 음성 디자인, 실감나는 클로닝을 위한 토크나이저 없는 TTS 모델 VoxCPM2.
 
 ## 📄 Hugging Face Papers
 
-- [LoopCoder-v2: 효율적 테스트타임 계산을 위한 단일 루프 접근법](https://huggingface.co/papers/2606.18023)
-  루프 기반 실행 패턴을 최적화해 테스트 타임 계산 효율을 높이는 방법론. 다중 반복 없이 효율적인 추론 가능.
-- [근접발달영역 정책 최적화: 그래디언트가 아닌 프롬프트의 교사](https://huggingface.co/papers/2606.18216)
-  NVIDIA의 새 강화학습 기법으로, 그래디언트 업데이트 대신 프롬프트 엔지니어링으로 교사 가이던스를 통합해 정책 최적화 효율 향상.
-- [ACE-Ego-0: VLA 사전학습을 위한 인간·로봇 자아중심 데이터 통합](https://huggingface.co/papers/2606.17200)
-  인간과 로봇의 자아중심 데이터셋을 통합해 Vision-Language-Action 모델 학습 기반을 마련, 구현 AI 역량 강화.
-- [GameCraft-Bench: AI 에이전트가 실제 게임 엔진에서 플레이 가능한 게임을 만들 수 있는가](https://huggingface.co/papers/2606.17861)
-  AI 에이전트가 실제 게임 엔진에서 완전한 플레이어블 게임을 자율적으로 개발할 수 있는지 평가하는 벤치마크.
-- [LectūraAgents: 적응형 개인화 AI 학습을 위한 멀티에이전트 프레임워크](https://huggingface.co/papers/2606.16428)
-  적응형 학습 기법과 구현 교수법으로 개인화된 교육 경험을 제공하는 멀티에이전트 시스템.
+- [LoopCoder-v2: 효율적인 테스트 타임 연산 스케일링을 위한 단일 루프 방식](https://huggingface.co/papers/2606.18023)
+  테스트 시 연산 스케일링을 효율화하기 위해 단순화된 단일 루프 메커니즘을 제안한 연구.
+- [Zone of Proximal Policy Optimization: 그래디언트가 아닌 프롬프트 속 교사](https://huggingface.co/papers/2606.18216)
+  NVIDIA 연구팀이 제안한 그래디언트 기반 학습 대신 프롬프트 기반 지도를 활용하는 새로운 정책 최적화 방식.
+- [ACE-Ego-0: VLA 사전학습을 위한 자기중심 인간·로봇 데이터 통합](https://huggingface.co/papers/2606.17200)
+  CUHK 연구팀이 인간과 로봇의 자기중심 시점 데이터를 결합해 비전-언어-행동 모델 사전학습을 개선한 연구.
+- [GameCraft-Bench: 에이전트가 실제 게임 엔진에서 플레이 가능한 게임을 만들 수 있는가?](https://huggingface.co/papers/2606.17861)
+  AI 에이전트가 상용 게임 엔진에서 완전히 작동하는 게임을 처음부터 끝까지 제작할 수 있는지 평가하는 벤치마크.
+- [LectūraAgents: 적응형 개인화 AI 학습 및 구현 교수를 위한 멀티에이전트 프레임워크](https://huggingface.co/papers/2606.16428)
+  구현 교수 기능을 갖춘 맞춤형 교육 경험을 제공하도록 설계된 멀티에이전트 시스템.
 
 ## 🦉 GeekNews
 
-- [Claude Code 수석 디자이너가 AI로 빌드하는 방법](https://www.youtube.com/watch?v=hKeDfupbA4U)
-  Claude Code를 제품 개발에 실제로 적용하는 방법 시연. Excalidraw에 자동완성 기능을 추가하며 실전 워크플로우 공개.
+- [Claude Code 수석 디자이너의 AI 활용 빌딩 이야기](https://www.youtube.com/watch?v=hKeDfupbA4U)
+  Claude Code를 실제 제품 개발에 활용하는 실용적 워크플로를 시연하며, Excalidraw에 자동완성 기능을 추가하는 과정을 보여줌.
 - [에이전틱 코드 리뷰](https://addyo.substack.com/p/agentic-code-review)
-  AI 코딩 에이전트 발전으로 엔지니어링 핵심이 코드 작성에서 신뢰성 판단으로 이동. 코드 리뷰가 최중요 역할로 부상.
+  코딩 에이전트의 성능 향상으로 인해 코드 작성보다 AI 생성 코드의 신뢰성 평가가 새로운 엔지니어링 과제로 부상했음을 분석.
+- [에이전틱 코딩을 위한 로컬 모델 활용](https://blog.alexewerlof.com/p/local-llms-for-agentic-coding)
+  클라우드 모델 비용 상승에 따라 로컬 LLM을 코딩 작업에 활용하는 방법을 탐구하며 비용 효율적인 대안을 제시.
 - [OpenRouter Fusion API](https://openrouter.ai/openrouter/fusion)
-  여러 모델의 결과 종합이 개별 모델 성능 초과 가능. 단일 프롬프트를 여러 전문가 모델이 병렬 처리.
-- [취업 면접이 Kubernetes에 대해 알려준 것](https://notnotp.com/notes/what-job-interviews-taught-me-about-kubernetes/)
-  소규모 회사에서도 Kubernetes는 기술 확장성보다 배포 통일·조직 운영 문제 해결 기준으로 채택됨.
-- [로컬 모델 실행이 이제 좋아졌다](https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/)
-  M2 Mac에서 로컬 LLM이 개발 질문, 코드 작업, 문서 확인에 실용적으로 사용 가능할 정도로 성능 향상.
+  여러 전문 모델의 결과를 병렬로 합성하여 단일 프롬프트에서 개별 모델의 성능을 초과하는 API.
+- [SpaceX, Cursor 개발사 Anysphere를 600억 달러에 인수](https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/)
+  SpaceX가 AI 코딩 도구 Cursor 개발사 Anysphere를 전량 주식 거래 방식으로 인수하며 엔터프라이즈 AI 도구 시장에 진출.
 
 ---
 ## 📅 이전 날짜
