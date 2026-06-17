@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-06-17
+> 마지막 업데이트: 2026-06-18
 
-# AI 뉴스 — 2026-06-17
+# AI 뉴스 — 2026-06-18
 
 ## 🔥 GitHub Trending (Python)
 
-- [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM): VoxCPM2 — 다국어 음성 생성, 창의적 보이스 디자인, 실사 클로닝을 위한 토크나이저 없는 TTS 모델
-- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): AI 에이전트에 인터넷 전체 시야 제공 — Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu 검색 (API 비용 없음)
-- [andrewyng/aisuite](https://github.com/andrewyng/aisuite): 여러 생성형 AI 제공업체를 단일 인터페이스로 통합하는 Python 라이브러리 (앤드류 응 제작)
-- [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents): 《처음부터 만드는 지능형 에이전트》 — AI 에이전트 원리와 실습 중국어 튜토리얼
-- [karpathy/autoresearch](https://github.com/karpathy/autoresearch): 단일 GPU에서 nanochat 학습을 자동으로 실행하는 AI 리서치 에이전트 (Andrej Karpathy 제작)
+- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): API 비용 없이 AI 에이전트가 Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu 등 다양한 플랫폼 콘텐츠에 접근·검색할 수 있는 CLI 도구
+- [google-research/timesfm](https://github.com/google-research/timesfm): Google이 개발한 시계열 예측용 사전학습 기초 모델로, 향상된 예측 능력 제공
+- [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage): 12개 파이프라인과 500개 이상의 에이전트 스킬을 갖춘 오픈소스 AI 기반 자동화 영상 제작 시스템
+- [alexzhang13/rlm](https://github.com/alexzhang13/rlm): 다양한 샌드박스 환경에서 재귀 언어 모델을 지원하는 플러그앤플레이 추론 라이브러리
+- [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM): 크리에이티브 디자인과 실제 음성 클로닝 기능을 갖춘 고급 다국어 TTS 시스템
 
 ## 📄 Hugging Face Papers
 
-- [JoyAI-VL-Interaction: 실시간 비전-언어 인터랙션 인텔리전스](https://huggingface.co/papers/2606.14777)
-  실시간으로 이미지/영상을 이해하고 대화할 수 있는 비전-언어 모델 인터랙션 연구
-- [Geometric Action Model: 로봇 정책 학습을 위한 기하학적 행동 모델](https://huggingface.co/papers/2606.11176)
-  기하학적 구조를 활용해 로봇의 동작 정책을 더 효율적으로 학습하는 모델 제안
-- [DreamX-World 1.0: 범용 인터랙티브 월드 모델](https://huggingface.co/papers/2606.17046)
-  다양한 환경에서 인터랙티브하게 동작하는 범용 월드 모델 — 게임, 시뮬레이션, 로봇 제어 등에 활용 가능
-- [FastContext: 코딩 에이전트를 위한 효율적인 레포지토리 탐색기 학습](https://huggingface.co/papers/2606.16993)
-  코딩 에이전트가 대규모 코드베이스를 빠르게 탐색할 수 있도록 효율적인 컨텍스트 탐색기를 학습하는 방법
-- [VibeThinker-3B: 소형 언어 모델에서 검증 가능한 추론의 한계 탐구](https://huggingface.co/papers/2606.14066)
-  3B 파라미터 소형 언어 모델에서 수학 등 검증 가능한 추론 능력의 경계를 탐구하는 연구
+- [LoopCoder-v2: 효율적 테스트타임 계산을 위한 단일 루프 접근법](https://huggingface.co/papers/2606.18023)
+  루프 기반 실행 패턴을 최적화해 테스트 타임 계산 효율을 높이는 방법론. 다중 반복 없이 효율적인 추론 가능.
+- [근접발달영역 정책 최적화: 그래디언트가 아닌 프롬프트의 교사](https://huggingface.co/papers/2606.18216)
+  NVIDIA의 새 강화학습 기법으로, 그래디언트 업데이트 대신 프롬프트 엔지니어링으로 교사 가이던스를 통합해 정책 최적화 효율 향상.
+- [ACE-Ego-0: VLA 사전학습을 위한 인간·로봇 자아중심 데이터 통합](https://huggingface.co/papers/2606.17200)
+  인간과 로봇의 자아중심 데이터셋을 통합해 Vision-Language-Action 모델 학습 기반을 마련, 구현 AI 역량 강화.
+- [GameCraft-Bench: AI 에이전트가 실제 게임 엔진에서 플레이 가능한 게임을 만들 수 있는가](https://huggingface.co/papers/2606.17861)
+  AI 에이전트가 실제 게임 엔진에서 완전한 플레이어블 게임을 자율적으로 개발할 수 있는지 평가하는 벤치마크.
+- [LectūraAgents: 적응형 개인화 AI 학습을 위한 멀티에이전트 프레임워크](https://huggingface.co/papers/2606.16428)
+  적응형 학습 기법과 구현 교수법으로 개인화된 교육 경험을 제공하는 멀티에이전트 시스템.
 
 ## 🦉 GeekNews
 
-- [에이전트 코딩에 로컬 LLM 활용하기](https://news.hada.io/topic?id=30547)
-  클라우드 플래그십 모델의 가격 급등 속에서 비용 부담 없이 코딩 에이전트 작업을 이어갈 수 있는 로컬 모델 활용 전략 정리
-- [10억 달러를 버는 방법 (폴 그레이엄)](https://news.hada.io/topic?id=30493)
-  YC 공동창업자 폴 그레이엄이 Oxford Union 강연을 바탕으로 쓴 글 — 스타트업 창업자의 부는 사용자가 사랑하는 제품과 지속되는 성장에서 비롯된다
-- [너드들에게 도대체 무슨 일이 일어난 걸까?](https://news.hada.io/topic?id=30524)
-  테크 업계가 40년간 쌓아온 신뢰가 지난 10여 년간 관심(attention) 경제로 청산되며 변질되는 과정을 분석한 글
-- [Claude Code 창시자, 소프트웨어 엔지니어의 종말을 말하다](https://news.hada.io/topic?id=30492)
-  Claude Code는 코드 작성보다 제품을 만들고 업무 흐름을 재구성하는 더 큰 변화를 일으킴. AI 에이전트가 SWE 역할을 대체하는 미래를 전망
-- [Kage - 웹사이트에서 JavaScript를 제거하고 오프라인 보관하는 도구](https://news.hada.io/topic?id=30497)
-  헤드리스 크롬으로 최종 렌더링된 DOM을 스냅샷하고 JavaScript를 제거, CSS·이미지·폰트를 로컬에 내려받아 완전한 오프라인 보관본 생성
+- [Claude Code 수석 디자이너가 AI로 빌드하는 방법](https://www.youtube.com/watch?v=hKeDfupbA4U)
+  Claude Code를 제품 개발에 실제로 적용하는 방법 시연. Excalidraw에 자동완성 기능을 추가하며 실전 워크플로우 공개.
+- [에이전틱 코드 리뷰](https://addyo.substack.com/p/agentic-code-review)
+  AI 코딩 에이전트 발전으로 엔지니어링 핵심이 코드 작성에서 신뢰성 판단으로 이동. 코드 리뷰가 최중요 역할로 부상.
+- [OpenRouter Fusion API](https://openrouter.ai/openrouter/fusion)
+  여러 모델의 결과 종합이 개별 모델 성능 초과 가능. 단일 프롬프트를 여러 전문가 모델이 병렬 처리.
+- [취업 면접이 Kubernetes에 대해 알려준 것](https://notnotp.com/notes/what-job-interviews-taught-me-about-kubernetes/)
+  소규모 회사에서도 Kubernetes는 기술 확장성보다 배포 통일·조직 운영 문제 해결 기준으로 채택됨.
+- [로컬 모델 실행이 이제 좋아졌다](https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/)
+  M2 Mac에서 로컬 LLM이 개발 질문, 코드 작업, 문서 확인에 실용적으로 사용 가능할 정도로 성능 향상.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-06-17](data/2026-06-17.md)
 - [2026-06-16](data/2026-06-16.md)
 - [2026-06-15](data/2026-06-15.md)
 - [2026-06-14](data/2026-06-14.md)
@@ -69,4 +70,3 @@
 - [2026-05-22](data/2026-05-22.md)
 - [2026-05-21](data/2026-05-21.md)
 - [2026-05-20](data/2026-05-20.md)
-- [2026-05-19](data/2026-05-19.md)
