@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-06-18
+> 마지막 업데이트: 2026-06-19
 
-# AI 뉴스 — 2026-06-18
+# AI 뉴스 — 2026-06-19
 
 ## 🔥 GitHub Trending (Python)
 
-- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): AI 에이전트에게 인터넷 전체를 볼 수 있는 눈을 제공. Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu를 하나의 CLI로, API 비용 없이 읽고 검색.
-- [google-research/timesfm](https://github.com/google-research/timesfm): Google Research가 개발한 시계열 예측용 사전학습 파운데이션 모델(TimesFM).
-- [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage): 세계 최초 오픈소스 에이전틱 영상 제작 시스템. 12개 파이프라인, 52개 도구, 500개 이상의 에이전트 스킬 제공.
-- [alexzhang13/rlm](https://github.com/alexzhang13/rlm): 재귀적 언어 모델(RLM)을 위한 범용 플러그앤플레이 추론 라이브러리. 다양한 샌드박스 지원.
-- [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM): 다국어 음성 생성, 창의적 음성 디자인, 실감나는 클로닝을 위한 토크나이저 없는 TTS 모델 VoxCPM2.
+- [google-research/timesfm](https://github.com/google-research/timesfm): Google Research가 개발한 시계열 예측용 사전학습 파운데이션 모델(TimesFM)
+- [yifanfeng97/Hyper-Extract](https://github.com/yifanfeng97/Hyper-Extract): LLM을 활용해 비정형 텍스트를 그래프·하이퍼그래프·시공간 구조 등 정형 지식으로 변환하는 도구
+- [Lightricks/LTX-2](https://github.com/Lightricks/LTX-2): LTX-2 오디오-비디오 생성 모델의 공식 Python 추론 및 LoRA 트레이너 패키지
+- [LibreTranslate/LibreTranslate](https://github.com/LibreTranslate/LibreTranslate): 셀프호스팅·오프라인 지원이 가능한 무료 오픈소스 기계 번역 API
+- [anthropics/financial-services](https://github.com/anthropics/financial-services): Anthropic의 금융 서비스 분야 AI 활용 애플리케이션 예제 및 레퍼런스 구현 모음
 
 ## 📄 Hugging Face Papers
 
-- [LoopCoder-v2: 효율적인 테스트 타임 연산 스케일링을 위한 단일 루프 방식](https://huggingface.co/papers/2606.18023)
-  테스트 시 연산 스케일링을 효율화하기 위해 단순화된 단일 루프 메커니즘을 제안한 연구.
-- [Zone of Proximal Policy Optimization: 그래디언트가 아닌 프롬프트 속 교사](https://huggingface.co/papers/2606.18216)
-  NVIDIA 연구팀이 제안한 그래디언트 기반 학습 대신 프롬프트 기반 지도를 활용하는 새로운 정책 최적화 방식.
-- [ACE-Ego-0: VLA 사전학습을 위한 자기중심 인간·로봇 데이터 통합](https://huggingface.co/papers/2606.17200)
-  CUHK 연구팀이 인간과 로봇의 자기중심 시점 데이터를 결합해 비전-언어-행동 모델 사전학습을 개선한 연구.
-- [GameCraft-Bench: 에이전트가 실제 게임 엔진에서 플레이 가능한 게임을 만들 수 있는가?](https://huggingface.co/papers/2606.17861)
-  AI 에이전트가 상용 게임 엔진에서 완전히 작동하는 게임을 처음부터 끝까지 제작할 수 있는지 평가하는 벤치마크.
-- [LectūraAgents: 적응형 개인화 AI 학습 및 구현 교수를 위한 멀티에이전트 프레임워크](https://huggingface.co/papers/2606.16428)
-  구현 교수 기능을 갖춘 맞춤형 교육 경험을 제공하도록 설계된 멀티에이전트 시스템.
+- [현재 관측을 넘어서: 제어 가능한 비-마르코프 게임에서 멀티모달 LLM 평가](https://huggingface.co/papers/2606.19338)
+  과거 히스토리가 중요한 비-마르코프 게임 환경에서 멀티모달 LLM의 성능을 평가한 연구로, 모델이 비-마르코프 시나리오에서 문맥을 얼마나 잘 유지하는지 측정한다.
+- [MolmoMotion: 언어 지시를 통한 3D 포인트 궤적 예측](https://huggingface.co/papers/2606.18558)
+  자연어 지시를 활용해 3D 공간의 포인트 궤적을 예측하는 방법을 제안하며, 비전과 언어 이해를 결합해 공간적 환경에서의 궤적 예측을 가능하게 한다.
+- [Kairos: 물리적 AI를 위한 네이티브 월드 모델 스택](https://huggingface.co/papers/2606.16533)
+  물리적 AI 응용을 위해 특별히 설계된 통합 월드 모델 프레임워크로, 물리적 역학의 이해와 예측을 위한 네이티브 지원을 제공한다.
+- [Guava: 구현된 조작을 위한 효과적이고 범용적인 하네스](https://huggingface.co/papers/2606.18363)
+  로봇 조작 태스크를 위한 통합 프레임워크를 도입하며, 다양한 구현된 제어 과제를 처리하기 위한 범용적 접근 방식을 제공한다.
+- [보상은 이미 데이터 안에 있었다: 판별자 가이드 RL로 플로우 매칭 교정](https://huggingface.co/papers/2606.19162)
+  판별자 가이드와 강화학습을 활용해 플로우 매칭 모델을 개선하는 방법으로, 기존 데이터를 활용해 모델 성능을 향상시키는 접근 방식이다.
 
 ## 🦉 GeekNews
 
+- [에이전트 코딩에 로컬 LLM 활용하기](https://blog.alexewerlof.com/p/local-llms-for-agentic-coding)
+  클라우드 AI 가격 급등을 계기로 Gemma 4 같은 오픈소스 모델을 LM Studio와 IDE 확장에 연결해 로컬 에이전트 코딩을 구현하는 방법을 다룬다.
+- [머신러닝 취업 면접 — 완벽 가이드](https://silviasapora.github.io/blog/ml-interviews.html)
+  PhD 졸업 후 주요 ML 랩 리서치 사이언티스트 직군 면접을 통과한 저자의 경험을 바탕으로 LeetCode·ML 기초·코딩 구현·행동 면접 준비까지 망라한 종합 가이드.
 - [Claude Code 수석 디자이너의 AI 활용 빌딩 이야기](https://www.youtube.com/watch?v=hKeDfupbA4U)
-  Claude Code를 실제 제품 개발에 활용하는 실용적 워크플로를 시연하며, Excalidraw에 자동완성 기능을 추가하는 과정을 보여줌.
-- [에이전틱 코드 리뷰](https://addyo.substack.com/p/agentic-code-review)
-  코딩 에이전트의 성능 향상으로 인해 코드 작성보다 AI 생성 코드의 신뢰성 평가가 새로운 엔지니어링 과제로 부상했음을 분석.
-- [에이전틱 코딩을 위한 로컬 모델 활용](https://blog.alexewerlof.com/p/local-llms-for-agentic-coding)
-  클라우드 모델 비용 상승에 따라 로컬 LLM을 코딩 작업에 활용하는 방법을 탐구하며 비용 효율적인 대안을 제시.
-- [OpenRouter Fusion API](https://openrouter.ai/openrouter/fusion)
-  여러 전문 모델의 결과를 병렬로 합성하여 단일 프롬프트에서 개별 모델의 성능을 초과하는 API.
-- [SpaceX, Cursor 개발사 Anysphere를 600억 달러에 인수](https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/)
-  SpaceX가 AI 코딩 도구 Cursor 개발사 Anysphere를 전량 주식 거래 방식으로 인수하며 엔터프라이즈 AI 도구 시장에 진출.
+  Claude Code의 수석 디자이너가 AI 도구를 활용해 실제로 개발하는 방식과 인사이트를 공유하는 영상으로, AI 보조 개발의 실전 노하우를 다룬다.
+- [독립 블로그를 위한 Hacker News, Bubbles](https://bubbles.town/)
+  5000개 이상의 개인·독립 블로그를 한 피드로 모아 투표와 최신성으로 순위를 매기는 커뮤니티 플랫폼.
+- [Epic Games, 오픈소스 버전 관리 시스템 Lore 발표](https://lore.org/)
+  Epic Games가 공개한 오픈소스 버전 관리 시스템으로, 대용량 바이너리 에셋이 혼합된 대규모 프로젝트에 최적화되어 있으며 콘텐츠 주소 지정 스토리지와 Merkle 트리로 효율적인 중복 제거를 지원한다.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-06-18](data/2026-06-18.md)
 - [2026-06-17](data/2026-06-17.md)
 - [2026-06-16](data/2026-06-16.md)
 - [2026-06-15](data/2026-06-15.md)
@@ -69,4 +70,3 @@
 - [2026-05-23](data/2026-05-23.md)
 - [2026-05-22](data/2026-05-22.md)
 - [2026-05-21](data/2026-05-21.md)
-- [2026-05-20](data/2026-05-20.md)
