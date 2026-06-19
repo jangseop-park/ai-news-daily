@@ -4,32 +4,32 @@
     {
       "name": "google-research/timesfm",
       "url": "https://github.com/google-research/timesfm",
-      "description": "Google Research가 개발한 시계열 예측 파운데이션 모델로, 시간적 데이터 시퀀스를 예측하기 위해 사전 학습된 모델입니다.",
-      "description_en": "A pretrained time-series foundation model developed by Google Research for forecasting temporal data sequences."
+      "description": "Google Research가 개발한 사전 학습된 시계열 파운데이션 모델로, 시계열 예측에 활용됩니다.",
+      "description_en": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting."
     },
     {
       "name": "chopratejas/headroom",
       "url": "https://github.com/chopratejas/headroom",
-      "description": "LLM 입력의 토큰 사용량을 60~95% 줄이면서도 응답 품질을 유지하는 압축 유틸리티입니다.",
-      "description_en": "A compression utility that reduces token usage in LLM inputs by 60-95% while maintaining response quality through output optimization."
+      "description": "도구 출력, 로그, 파일, RAG 청크를 LLM에 전달하기 전에 압축하여 60~95% 토큰을 절감하는 라이브러리/프록시/MCP 서버.",
+      "description_en": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server."
     },
     {
       "name": "calesthio/OpenMontage",
       "url": "https://github.com/calesthio/OpenMontage",
-      "description": "광범위한 파이프라인 및 도구 통합을 통해 영상 제작 워크플로우를 지원하는 오픈소스 에이전틱 시스템입니다.",
-      "description_en": "An open-source agentic system enabling video production workflows with extensive pipeline and tool integration capabilities."
+      "description": "세계 최초 오픈소스 에이전틱 동영상 제작 시스템. 12개 파이프라인, 52개 도구, 500개 이상의 에이전트 스킬로 AI 코딩 어시스턴트를 영상 제작 스튜디오로 전환합니다.",
+      "description_en": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio."
     },
     {
       "name": "Lightricks/LTX-2",
       "url": "https://github.com/Lightricks/LTX-2",
-      "description": "오디오와 비디오 합성을 모두 지원하는 생성 모델 LTX-2의 공식 구현 패키지로, 학습 유틸리티를 포함합니다.",
-      "description_en": "Official implementation package for LTX-2, a generative model supporting both audio and video synthesis with training utilities."
+      "description": "LTX-2 오디오-비디오 생성 모델의 공식 Python 추론 및 LoRA 트레이너 패키지.",
+      "description_en": "Official Python inference and LoRA trainer package for the LTX-2 audio-video generative model."
     },
     {
       "name": "K-Dense-AI/scientific-agent-skills",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "description": "AI 에이전트를 과학 데이터베이스 및 도메인별 도구에 접근 가능한 연구 보조 도구로 전환하는 종합 스킬 라이브러리입니다.",
-      "description_en": "A comprehensive skills library transforming AI agents into research assistants with access to scientific databases and domain-specific tools."
+      "description": "생물학, 화학, 의학, 신약 개발 분야의 100개 이상 과학 데이터베이스 접근 및 140개 이상의 즉시 활용 가능한 기능을 갖춘 과학 연구용 에이전트 스킬 라이브러리.",
+      "description_en": "Agent skills library for scientific research with 140+ ready-to-use capabilities and access to 100+ scientific databases for biology, chemistry, medicine, and drug discovery."
     }
   ],
   "huggingface": [
@@ -37,73 +37,73 @@
       "title": "Moebius: 10B급 성능을 갖춘 0.2B 경량 이미지 인페인팅 프레임워크",
       "title_en": "Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance",
       "url": "https://huggingface.co/papers/2606.19195",
-      "summary": "2억 개의 파라미터만으로 100억 파라미터급 모델과 견줄 수 있는 성능을 달성한 경량 이미지 인페인팅 모델입니다.",
-      "summary_en": "A lightweight image inpainting model with only 0.2 billion parameters that achieves performance comparable to much larger 10-billion parameter models."
+      "summary": "단 2억 개의 파라미터만으로 100억 파라미터 규모 모델과 동등한 성능을 달성하는 초경량 이미지 인페인팅 모델을 제안합니다.",
+      "summary_en": "A compact image inpainting model that achieves performance comparable to much larger 10-billion parameter systems while using only 200 million parameters."
     },
     {
-      "title": "DragMesh-2: 관절형 객체와의 물리적으로 타당한 정교한 손-물체 상호작용",
+      "title": "DragMesh-2: 관절형 객체와의 물리적으로 타당한 정교한 손-객체 상호작용",
       "title_en": "DragMesh-2: Physically Plausible Dexterous Hand-Object Interaction with Articulated Objects",
       "url": "https://huggingface.co/papers/2606.15133",
-      "summary": "북경대학교 연구진이 개발한 관절형 객체와의 현실적인 손-물체 상호작용 시뮬레이션 시스템으로, 물리적 타당성을 보장합니다.",
-      "summary_en": "A system developed by Peking University for simulating realistic hand-object interactions with articulated objects, ensuring physical plausibility in dexterous manipulation scenarios."
+      "summary": "베이징대학교 연구로, 움직이는 구성 요소를 가진 관절형 객체와의 현실적인 손-객체 상호작용을 물리적 제약을 준수하며 시뮬레이션하는 방법을 다룹니다.",
+      "summary_en": "From Peking University, addressing simulating realistic hand-object interactions with moving components while ensuring physical constraints are maintained."
     },
     {
       "title": "유희적 에이전틱 로봇 학습",
       "title_en": "Playful Agentic Robot Learning",
       "url": "https://huggingface.co/papers/2606.19419",
-      "summary": "UC 버클리 연구진이 로봇이 유희적 상호작용과 탐색을 통해 학습하는 방법을 탐구한 연구로, 자기 주도적 실험을 통해 기술을 개발하는 에이전틱 접근법을 제시합니다.",
-      "summary_en": "UC Berkeley's research exploring how robots can learn through playful interactions and exploration, with an agentic approach enabling robots to develop skills through self-directed experimentation."
+      "summary": "UC 버클리의 연구로, 로봇이 놀이 기반 상호작용을 통해 학습하고 에이전틱 원칙을 적용하여 자율 학습 성능을 향상시키는 방법을 탐구합니다.",
+      "summary_en": "UC Berkeley research on enabling robots to learn through play-based interactions, incorporating agentic principles for improved autonomous learning outcomes."
     },
     {
-      "title": "S-Agent: 공간 도구 사용이 공간 지능을 위한 추론을 이끌어냄",
+      "title": "S-Agent: 공간 도구 사용이 공간 지능을 위한 추론을 이끌어낸다",
       "title_en": "S-Agent: Spatial Tool-Use Elicits Reasoning for Spatial Intelligence",
       "url": "https://huggingface.co/papers/2606.20515",
-      "summary": "공간 도구 사용 과제가 공간 지능의 추론 능력을 어떻게 향상시킬 수 있는지 보여주는 연구로, 에이전트가 환경과의 상호작용을 통해 더 나은 공간 이해를 발달시킵니다.",
-      "summary_en": "Demonstrates how spatial tool-use tasks can enhance reasoning capabilities for spatial intelligence, with an agent developing better spatial understanding through environmental interaction."
+      "summary": "공간 도구와의 상호작용이 AI 에이전트의 추론 능력과 공간 이해력을 어떻게 향상시키는지를 보여주는 연구입니다.",
+      "summary_en": "Work demonstrating how spatial tool interactions can enhance reasoning capabilities and spatial understanding in artificial agents."
     },
     {
       "title": "Multi-LCB: LiveCodeBench를 여러 프로그래밍 언어로 확장",
       "title_en": "Multi-LCB: Extending LiveCodeBench to Multiple Programming Languages",
       "url": "https://huggingface.co/papers/2606.20517",
-      "summary": "LiveCodeBench 평가 프레임워크를 다양한 프로그래밍 언어로 확장하여 언어 모델의 코드 생성 능력을 폭넓게 평가할 수 있게 합니다.",
-      "summary_en": "Extends the LiveCodeBench evaluation framework to support multiple programming languages, enabling broader assessment of language model code generation capabilities."
+      "summary": "언어 모델의 코드 생성 능력을 더 포괄적으로 평가하기 위해 LiveCodeBench 벤치마크를 다양한 프로그래밍 언어로 확장한 연구입니다.",
+      "summary_en": "An expansion of the LiveCodeBench benchmark across diverse programming languages to more comprehensively evaluate language model code generation abilities."
     }
   ],
   "geeknews": [
     {
-      "title": "Git에서 파일을 무시하는 방법은 .gitignore만이 아님",
-      "title_en": "Beyond .gitignore: Multiple Ways to Ignore Files in Git",
-      "url": "https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git/",
-      "summary": "Git에서 파일 무시 규칙을 적용하는 세 가지 계층적 방법: 저장소 수준의 .gitignore, 프로젝트별 .git/info/exclude, 사용자 전체 ~/.config/git/ignore 설정.",
-      "summary_en": "Explores three hierarchical levels for Git file ignore rules: repository-level .gitignore, project-specific .git/info/exclude, and user-wide ~/.config/git/ignore configuration."
-    },
-    {
-      "title": "머신러닝 취업 면접 — 완벽 가이드",
-      "title_en": "Machine Learning Interview Guide: Comprehensive Handbook",
+      "title": "머신러닝 취업 면접 - 완벽 가이드",
+      "title_en": "Machine Learning Job Interviews - Complete Guide",
       "url": "https://silviasapora.github.io/blog/ml-interviews.html",
-      "summary": "DeepMind, Meta 등 AI 조직의 연구원 포지션 경험을 바탕으로 ML 취업 전 과정을 다루는 실용적인 면접 준비 가이드.",
-      "summary_en": "Practical interview preparation guide covering the entire ML job search process, with insights from researcher positions at DeepMind, Meta, and other AI organizations."
+      "summary": "DeepMind, Meta 등 주요 기관 지원자들의 경험을 담은 실용적인 ML 커리어 가이드로, 면접 전 과정을 다룹니다.",
+      "summary_en": "Practical guide covering the entire ML career process, featuring experiences from candidates at DeepMind, Meta, and other leading organizations."
     },
     {
-      "title": "독립 블로그를 위한 Hacker News, Bubbles",
-      "title_en": "Bubbles: A Hacker News for Independent Blogs",
-      "url": "https://bubbles.town/",
-      "summary": "5,000개 이상의 개인 및 독립 블로그를 단일 프론트페이지에 집약하여 투표와 랭킹으로 양질의 콘텐츠를 발견할 수 있게 하는 플랫폼.",
-      "summary_en": "Aggregates over 5,000 independent and personal blogs on a single frontpage, using voting and ranking mechanisms to help readers discover quality content from individual creators."
+      "title": "Git에서 파일을 무시하는 방법은 .gitignore만이 아님",
+      "title_en": "Ignoring Files in Git Is Not Just About .gitignore",
+      "url": "https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git/",
+      "summary": "Git에서 파일을 무시하는 세 가지 수준의 규칙(.gitignore, .git/info/exclude, 글로벌 설정)을 공유 범위에 따라 설명합니다.",
+      "summary_en": "Explores three levels of Git file-ignore rules based on sharing scope: .gitignore, .git/info/exclude, and global configuration options."
+    },
+    {
+      "title": "구글 Open Knowledge Format 공개 - AI 에이전트를 위한 지식 공유 표준",
+      "title_en": "Google Releases Open Knowledge Format - Knowledge Sharing Standard for AI Agents",
+      "url": "https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing",
+      "summary": "여러 AI 에이전트가 번역 없이 위키를 활용할 수 있도록 하는 벤더 중립적 규격으로, LLM 시스템의 지식 공유를 표준화합니다.",
+      "summary_en": "Vendor-neutral specification enabling multiple AI agents to consume wikis without translation, standardizing knowledge sharing for LLM systems."
     },
     {
       "title": "창업자 플레이북: AI-native 스타트업 만들기",
       "title_en": "Founder's Playbook: Building AI-Native Startups",
       "url": "https://claude.com/blog/the-founders-playbook",
-      "summary": "아이디어 검증부터 스케일업까지 AI를 활용하는 방법을 담은 실용적인 창업자 가이드로, 프레임워크, 연습 문제, 바로 사용 가능한 프롬프트를 포함합니다.",
-      "summary_en": "A practical guide for entrepreneurs to leverage AI from idea validation through scaling, including frameworks, exercises, and ready-to-use prompts."
+      "summary": "창업자들이 검증 단계부터 스케일링까지 AI를 활용하는 방법을 실용적인 프레임워크와 프롬프트를 포함해 포괄적으로 안내하는 스타트업 가이드.",
+      "summary_en": "Comprehensive startup framework demonstrating how founders leverage AI from validation through scaling, including practical frameworks and prompts."
     },
     {
-      "title": "Claude Code 수석 디자이너의 AI 활용 빌딩 이야기",
-      "title_en": "How Claude Code's Lead Designer Builds with AI",
-      "url": "https://www.youtube.com/watch?v=hKeDfupbA4U",
-      "summary": "Claude Code를 활용한 실제 제품 개발 워크플로우를 보여주는 영상으로, Excalidraw 자동완성 기능 구현 실습 내용을 담고 있습니다.",
-      "summary_en": "Video demonstrating real-world product development workflows using Claude Code, featuring hands-on implementation of autocomplete functionality in Excalidraw."
+      "title": "SQLite 창시자 리처드 힙과 함께하는 Turso, AI, 그리고 26년간의 코드 이야기",
+      "title_en": "Turso, AI, and 26 Years of Code with SQLite Creator Richard Hipp",
+      "url": "https://www.youtube.com/watch?v=x8_ZZhRL3YU&t=1733s",
+      "summary": "SQLite 창시자 리처드 힙이 성공 원칙으로 커스텀 도구 개발, 외부 기여 최소화, 엄격한 테스트 기준 유지를 소개하는 인터뷰.",
+      "summary_en": "Interview revealing SQLite creator's success principles: building custom tools, minimizing external contributions, and maintaining rigorous testing standards."
     }
   ]
 }
