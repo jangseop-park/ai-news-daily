@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-06-22
+> 마지막 업데이트: 2026-06-23
 
-# AI 뉴스 — 2026-06-22
+# AI 뉴스 — 2026-06-23
 
 ## 🔥 GitHub Trending (Python)
 
-- [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage): 세계 최초 오픈소스 에이전틱 영상 제작 시스템. 12개 파이프라인, 52개 도구, 500개 이상의 에이전트 스킬로 AI 코딩 어시스턴트를 영상 제작 스튜디오로 변환
-- [chopratejas/headroom](https://github.com/chopratejas/headroom): LLM에 전달되기 전 도구 출력, 로그, 파일, RAG 청크를 압축. 토큰 60-95% 감소, 동일한 답변 품질 유지. 라이브러리, 프록시, MCP 서버 제공
-- [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis): LLM 기반 다중 시장 주식 지능형 분석 시스템: 다중 소스 시세, 실시간 뉴스, 의사결정 대시보드 및 자동 알림, 무료 스케줄 실행 지원
-- [bytedance/deer-flow](https://github.com/bytedance/deer-flow): ByteDance의 오픈소스 장기 목표 SuperAgent 프레임워크. 샌드박스, 메모리, 도구, 스킬, 서브에이전트, 메시지 게이트웨이로 수분~수시간 걸리는 다양한 작업 처리
-- [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): AI 에이전트용 754개 구조화된 사이버보안 스킬. MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS 등 5개 프레임워크 매핑, Claude Code·GitHub Copilot·Cursor 등 20개 이상 플랫폼 호환
+- [OpenMontage](https://github.com/calesthio/OpenMontage): 세계 최초의 오픈소스 에이전트 비디오 제작 시스템으로, 12개의 파이프라인과 52개의 도구를 제공합니다.
+- [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): 6개의 보안 프레임워크에 매핑된 817개의 구조화된 사이버보안 기술 모음입니다.
+- [deer-flow](https://github.com/bytedance/deer-flow): 샌드박스, 메모리, 도구를 활용하여 수분에서 수시간이 걸리는 복잡한 작업을 처리하는 장기 AI 에이전트입니다.
+- [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis): 다중 시장 데이터, 실시간 뉴스, 자동 알림 기능을 갖춘 LLM 기반 주식 분석 시스템입니다.
+- [skills](https://github.com/NVIDIA/skills): NVIDIA에서 공개한 AI 에이전트용 다양한 기술 라이브러리 모음입니다.
 
 ## 📄 Hugging Face Papers
 
-- [Moebius: 0.2B 경량 이미지 인페인팅 프레임워크](https://huggingface.co/papers/2606.19195)
-  0.2B 파라미터로 10B급 성능을 달성하는 경량 이미지 인페인팅(손상 복원) 프레임워크. 효율적인 아키텍처로 고품질 이미지 복원 가능
-- [DragMesh-2: 관절형 물체와의 물리적으로 그럴듯한 손-물체 상호작용](https://huggingface.co/papers/2606.15133)
-  관절이 있는 물체를 다루는 정교한 손-물체 상호작용의 물리적으로 그럴듯한 시뮬레이션 방법론 제시
-- [Multi-LCB: LiveCodeBench를 다중 프로그래밍 언어로 확장](https://huggingface.co/papers/2606.20517)
-  코드 생성 능력 평가 벤치마크인 LiveCodeBench를 Python 외 다양한 프로그래밍 언어로 확장한 멀티 언어 코딩 벤치마크
-- [Playful Agentic Robot Learning: 놀이를 통한 에이전틱 로봇 학습](https://huggingface.co/papers/2606.19419)
-  로봇이 놀이 형태의 탐색적 상호작용을 통해 에이전틱 방식으로 학습하는 새로운 접근법 제시
-- [S-Agent: 공간 지능을 위한 공간 도구 활용 추론](https://huggingface.co/papers/2606.20515)
-  공간적 도구 활용이 AI 에이전트의 공간 지능과 추론 능력을 향상시키는 방법을 제시한 연구
+- [PerceptionDLM: 병렬 영역 인식을 위한 멀티모달 확산 언어 모델](https://huggingface.co/papers/2606.19534)
+  ByteDance에서 제출한 논문으로, 멀티모달 확산 언어 모델을 사용하여 병렬 영역 인식을 수행하는 기술을 제시합니다.
+- [MemSlides: 개인화된 슬라이드 생성을 위한 계층적 메모리 기반 에이전트 프레임워크](https://huggingface.co/papers/2606.17162)
+  다중 턴 로컬 수정을 지원하는 계층적 메모리 구조를 활용하여 개인화된 프레젠테이션 슬라이드를 자동 생성하는 에이전트 기반 프레임워크입니다.
+- [GateMem: 멀티-프린시플 공유 메모리 에이전트의 메모리 관리 벤치마킹](https://huggingface.co/papers/2606.18829)
+  여러 주체가 공유 메모리를 사용하는 에이전트 시스템에서 메모리 관리 및 통제 메커니즘을 평가하기 위한 벤치마크입니다.
+- [SproutRAG: 점진적 임베딩을 이용한 주의 기반 트리 탐색으로 장문서 검색 증강](https://huggingface.co/papers/2606.18381)
+  장문서에 대한 검색 증강 생성을 개선하기 위해 주의 기반 트리 탐색과 점진적 임베딩 기법을 결합한 방식입니다.
+- [MCompassRAG: 의미론적 나침반으로서의 주제 메타데이터를 통한 문단 수준 검색](https://huggingface.co/papers/2606.18508)
+  주제 메타데이터를 활용하여 의미론적 방향성을 제공함으로써 문단 수준의 검색 정확도를 향상시키는 방법론입니다.
 
 ## 🦉 GeekNews
 
-- [open-code-review — 알리바바의 AI 코드 리뷰 도구](https://github.com/alibaba/open-code-review)
-  알리바바 내부에서 2년간 수만 명의 개발자가 수백만 건의 코드 결함을 식별한 AI 코드 리뷰 어시스턴트를 오픈소스로 공개
-- [AI 시대에 K-공문서(HWP)를 못 여는 진짜 이유, 그리고 해법 논의](https://igf.or.kr/4095)
-  AI로 표준 명세만 있으면 호환 앱을 만들 수 있는 시대에도 한컴오피스 HWP 공문서를 못 여는 근본적 이유와 해법을 논의
-- [AI가 우리의 능력을 망치고 있는가? 초기 연구 결과는 부정적](https://www.nature.com/articles/d41586-026-01947-1)
-  업무 현장에서 AI 도구 의존이 커지면서 의료·컴퓨터과학 등 숙련이 중요한 분야에서 사람이 쌓은 역량이 약해질 수 있다는 초기 근거 등장(Nature)
-- [머신러닝 연구의 선(Zen)과 예술](https://blog.jxmo.io/p/zen-and-the-art-of-machine-learning)
-  세계적 수준의 AI 연구는 재능만으로 이어지지 않으며, 읽기와 만들기를 반복하면서 오래 버티는 기질이 성과를 가름한다는 통찰
-- [ClickHouse 오픈소스 10주년](https://clickhouse.com/blog/open-source-10)
-  2016년 6월 15일 공개된 ClickHouse가 10년 동안 2,000명 이상이 기여하며 오픈소스 분석 데이터베이스의 대표 프로젝트로 성장한 역정 회고
+- [ponytail - AI 에이전트를 가장 게으른 시니어 개발자처럼 생각하게 만들기](https://github.com/DietrichGebert/ponytail)
+  AI 에이전트가 경험 많은 개발자처럼 효율적이고 실용적인 접근 방식을 취하도록 설계한 프로젝트입니다.
+- [잘못된 추상화보다 중복을 선호하라 (2016)](https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction)
+  성급한 공통화보다 코드 중복이 장기 유지보수 비용 측면에서 더 효율적일 수 있다는 소프트웨어 설계 원칙을 설명합니다.
+- [open-code-review — Alibaba의 AI 코드 리뷰 도구](https://github.com/alibaba/open-code-review)
+  알리바바가 내부 사용 도구를 오픈소스로 공개했으며, 수만 명의 개발자가 수백만 건의 코드 결함을 식별하는 데 사용했습니다.
+- [AI 시대의 프로그래머: 코드 생성에서 비결정성 통제로의 역할 전환](https://velog.io/@teo/we-programmer)
+  AI가 코드 작성을 자동화하면서 개발자의 역할이 직접 구현에서 설계·검증·통제로 변화하고 있습니다.
+- [Git에서 파일을 무시하는 방법은 .gitignore만이 아님](https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git/)
+  Git의 파일 무시 규칙은 저장소 수준, 로컬 수준, 시스템 수준의 세 가지 방식으로 구분되어 있습니다.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-06-22](data/2026-06-22.md)
 - [2026-06-21](data/2026-06-21.md)
 - [2026-06-20](data/2026-06-20.md)
 - [2026-06-19](data/2026-06-19.md)
@@ -69,5 +70,3 @@
 - [2026-05-27](data/2026-05-27.md)
 - [2026-05-26](data/2026-05-26.md)
 - [2026-05-25](data/2026-05-25.md)
-- [2026-05-24](data/2026-05-24.md)
-- [2026-05-23](data/2026-05-23.md)
