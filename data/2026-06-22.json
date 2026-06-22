@@ -1,0 +1,109 @@
+{
+  "date": "2026-06-22",
+  "github_trending": [
+    {
+      "name": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "description": "세계 최초 오픈소스 에이전틱 영상 제작 시스템. 12개 파이프라인, 52개 도구, 500개 이상의 에이전트 스킬로 AI 코딩 어시스턴트를 영상 제작 스튜디오로 변환",
+      "description_en": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio."
+    },
+    {
+      "name": "chopratejas/headroom",
+      "url": "https://github.com/chopratejas/headroom",
+      "description": "LLM에 전달되기 전 도구 출력, 로그, 파일, RAG 청크를 압축. 토큰 60-95% 감소, 동일한 답변 품질 유지. 라이브러리, 프록시, MCP 서버 제공",
+      "description_en": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server."
+    },
+    {
+      "name": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 기반 다중 시장 주식 지능형 분석 시스템: 다중 소스 시세, 실시간 뉴스, 의사결정 대시보드 및 자동 알림, 무료 스케줄 실행 지원",
+      "description_en": "LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs."
+    },
+    {
+      "name": "bytedance/deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "description": "ByteDance의 오픈소스 장기 목표 SuperAgent 프레임워크. 샌드박스, 메모리, 도구, 스킬, 서브에이전트, 메시지 게이트웨이로 수분~수시간 걸리는 다양한 작업 처리",
+      "description_en": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With sandboxes, memories, tools, skill, subagents and message gateway, handles different levels of tasks."
+    },
+    {
+      "name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "AI 에이전트용 754개 구조화된 사이버보안 스킬. MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS 등 5개 프레임워크 매핑, Claude Code·GitHub Copilot·Cursor 등 20개 이상 플랫폼 호환",
+      "description_en": "754 structured cybersecurity skills for AI agents, mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF. Works with Claude Code, GitHub Copilot, Cursor and 20+ platforms."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "Moebius: 0.2B 경량 이미지 인페인팅 프레임워크",
+      "title_en": "Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance",
+      "url": "https://huggingface.co/papers/2606.19195",
+      "summary": "0.2B 파라미터로 10B급 성능을 달성하는 경량 이미지 인페인팅(손상 복원) 프레임워크. 효율적인 아키텍처로 고품질 이미지 복원 가능",
+      "summary_en": "A lightweight image inpainting framework achieving 10B-level performance with only 0.2B parameters through an efficient architecture design."
+    },
+    {
+      "title": "DragMesh-2: 관절형 물체와의 물리적으로 그럴듯한 손-물체 상호작용",
+      "title_en": "DragMesh-2: Physically Plausible Dexterous Hand-Object Interaction with Articulated Objects",
+      "url": "https://huggingface.co/papers/2606.15133",
+      "summary": "관절이 있는 물체를 다루는 정교한 손-물체 상호작용의 물리적으로 그럴듯한 시뮬레이션 방법론 제시",
+      "summary_en": "Presents a method for physically plausible dexterous hand-object interaction simulation with articulated objects."
+    },
+    {
+      "title": "Multi-LCB: LiveCodeBench를 다중 프로그래밍 언어로 확장",
+      "title_en": "Multi-LCB: Extending LiveCodeBench to Multiple Programming Languages",
+      "url": "https://huggingface.co/papers/2606.20517",
+      "summary": "코드 생성 능력 평가 벤치마크인 LiveCodeBench를 Python 외 다양한 프로그래밍 언어로 확장한 멀티 언어 코딩 벤치마크",
+      "summary_en": "Extends the LiveCodeBench code generation benchmark to multiple programming languages beyond Python for comprehensive multilingual coding evaluation."
+    },
+    {
+      "title": "Playful Agentic Robot Learning: 놀이를 통한 에이전틱 로봇 학습",
+      "title_en": "Playful Agentic Robot Learning",
+      "url": "https://huggingface.co/papers/2606.19419",
+      "summary": "로봇이 놀이 형태의 탐색적 상호작용을 통해 에이전틱 방식으로 학습하는 새로운 접근법 제시",
+      "summary_en": "Proposes a novel approach where robots learn agentically through playful exploratory interactions."
+    },
+    {
+      "title": "S-Agent: 공간 지능을 위한 공간 도구 활용 추론",
+      "title_en": "S-Agent: Spatial Tool-Use Elicits Reasoning for Spatial Intelligence",
+      "url": "https://huggingface.co/papers/2606.20515",
+      "summary": "공간적 도구 활용이 AI 에이전트의 공간 지능과 추론 능력을 향상시키는 방법을 제시한 연구",
+      "summary_en": "Research showing how spatial tool-use elicits and enhances spatial reasoning and intelligence capabilities in AI agents."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "open-code-review — 알리바바의 AI 코드 리뷰 도구",
+      "title_en": "open-code-review — Alibaba's AI Code Review Tool",
+      "url": "https://github.com/alibaba/open-code-review",
+      "summary": "알리바바 내부에서 2년간 수만 명의 개발자가 수백만 건의 코드 결함을 식별한 AI 코드 리뷰 어시스턴트를 오픈소스로 공개",
+      "summary_en": "Alibaba open-sources their internal AI code review assistant used by tens of thousands of developers to identify millions of code defects over 2 years."
+    },
+    {
+      "title": "AI 시대에 K-공문서(HWP)를 못 여는 진짜 이유, 그리고 해법 논의",
+      "title_en": "The Real Reason HWP Korean Documents Can't Be Opened in the AI Era",
+      "url": "https://igf.or.kr/4095",
+      "summary": "AI로 표준 명세만 있으면 호환 앱을 만들 수 있는 시대에도 한컴오피스 HWP 공문서를 못 여는 근본적 이유와 해법을 논의",
+      "summary_en": "Discussion on why Korean government HWP documents remain inaccessible despite AI capabilities, and potential solutions to this long-standing compatibility problem."
+    },
+    {
+      "title": "AI가 우리의 능력을 망치고 있는가? 초기 연구 결과는 부정적",
+      "title_en": "Is AI Ruining Our Abilities? Early Research Findings Are Negative",
+      "url": "https://www.nature.com/articles/d41586-026-01947-1",
+      "summary": "업무 현장에서 AI 도구 의존이 커지면서 의료·컴퓨터과학 등 숙련이 중요한 분야에서 사람이 쌓은 역량이 약해질 수 있다는 초기 근거 등장(Nature)",
+      "summary_en": "Nature reports early evidence that growing AI tool dependency in workplaces may weaken human skills and capabilities in fields where expertise matters, like medicine and computer science."
+    },
+    {
+      "title": "머신러닝 연구의 선(Zen)과 예술",
+      "title_en": "Zen and the Art of Machine Learning Research",
+      "url": "https://blog.jxmo.io/p/zen-and-the-art-of-machine-learning",
+      "summary": "세계적 수준의 AI 연구는 재능만으로 이어지지 않으며, 읽기와 만들기를 반복하면서 오래 버티는 기질이 성과를 가름한다는 통찰",
+      "summary_en": "World-class AI research requires not just talent but the temperament to persist through repeated cycles of reading and building over the long term."
+    },
+    {
+      "title": "ClickHouse 오픈소스 10주년",
+      "title_en": "ClickHouse Open Source 10th Anniversary",
+      "url": "https://clickhouse.com/blog/open-source-10",
+      "summary": "2016년 6월 15일 공개된 ClickHouse가 10년 동안 2,000명 이상이 기여하며 오픈소스 분석 데이터베이스의 대표 프로젝트로 성장한 역정 회고",
+      "summary_en": "ClickHouse celebrates 10 years since its June 15, 2016 open-source release, having grown to 2,000+ contributors and becoming the leading open-source analytical database."
+    }
+  ]
+}
