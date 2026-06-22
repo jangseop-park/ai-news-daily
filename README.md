@@ -6,37 +6,37 @@
 
 ## 🔥 GitHub Trending (Python)
 
-- [OpenMontage](https://github.com/calesthio/OpenMontage): 세계 최초의 오픈소스 에이전트 비디오 제작 시스템으로, 12개의 파이프라인과 52개의 도구를 제공합니다.
-- [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): 6개의 보안 프레임워크에 매핑된 817개의 구조화된 사이버보안 기술 모음입니다.
-- [deer-flow](https://github.com/bytedance/deer-flow): 샌드박스, 메모리, 도구를 활용하여 수분에서 수시간이 걸리는 복잡한 작업을 처리하는 장기 AI 에이전트입니다.
-- [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis): 다중 시장 데이터, 실시간 뉴스, 자동 알림 기능을 갖춘 LLM 기반 주식 분석 시스템입니다.
-- [skills](https://github.com/NVIDIA/skills): NVIDIA에서 공개한 AI 에이전트용 다양한 기술 라이브러리 모음입니다.
+- [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage): 세계 최초 오픈소스 에이전트 기반 비디오 프로덕션 시스템. 12개 파이프라인, 52개 툴, 500+ 에이전트 스킬로 AI 코딩 도구를 영상 제작 스튜디오로 변환.
+- [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): AI 에이전트용 817개 구조화된 사이버보안 스킬. MITRE ATT&CK, NIST 등 6개 프레임워크 매핑. Claude Code, GitHub Copilot 등 20+ 플랫폼 지원.
+- [bytedance/deer-flow](https://github.com/bytedance/deer-flow): 오픈소스 장기 실행 SuperAgent 하네스. 샌드박스, 메모리, 툴, 스킬, 서브에이전트 활용으로 수분~수시간 걸리는 다양한 레벨 태스크 처리.
+- [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis): LLM 기반 멀티마켓 주식 분석 시스템. 다중 소스 시세, 실시간 뉴스, 의사결정 대시보드, 자동 알림, 무비용 스케줄 실행 지원.
+- [NVIDIA/skills](https://github.com/NVIDIA/skills): NVIDIA가 공개한 AI 에이전트 스킬 모음. 다양한 도메인의 에이전트 능력을 표준화된 형식으로 제공.
 
 ## 📄 Hugging Face Papers
 
-- [PerceptionDLM: 병렬 영역 인식을 위한 멀티모달 확산 언어 모델](https://huggingface.co/papers/2606.19534)
-  ByteDance에서 제출한 논문으로, 멀티모달 확산 언어 모델을 사용하여 병렬 영역 인식을 수행하는 기술을 제시합니다.
-- [MemSlides: 개인화된 슬라이드 생성을 위한 계층적 메모리 기반 에이전트 프레임워크](https://huggingface.co/papers/2606.17162)
-  다중 턴 로컬 수정을 지원하는 계층적 메모리 구조를 활용하여 개인화된 프레젠테이션 슬라이드를 자동 생성하는 에이전트 기반 프레임워크입니다.
-- [GateMem: 멀티-프린시플 공유 메모리 에이전트의 메모리 관리 벤치마킹](https://huggingface.co/papers/2606.18829)
-  여러 주체가 공유 메모리를 사용하는 에이전트 시스템에서 메모리 관리 및 통제 메커니즘을 평가하기 위한 벤치마크입니다.
-- [SproutRAG: 점진적 임베딩을 이용한 주의 기반 트리 탐색으로 장문서 검색 증강](https://huggingface.co/papers/2606.18381)
-  장문서에 대한 검색 증강 생성을 개선하기 위해 주의 기반 트리 탐색과 점진적 임베딩 기법을 결합한 방식입니다.
-- [MCompassRAG: 의미론적 나침반으로서의 주제 메타데이터를 통한 문단 수준 검색](https://huggingface.co/papers/2606.18508)
-  주제 메타데이터를 활용하여 의미론적 방향성을 제공함으로써 문단 수준의 검색 정확도를 향상시키는 방법론입니다.
+- [PerceptionDLM: 멀티모달 확산 언어 모델을 활용한 병렬 영역 인식](https://huggingface.co/papers/2606.19534)
+  멀티모달 확산 언어 모델에서 이미지의 여러 영역을 병렬로 인식하는 새로운 프레임워크 PerceptionDLM을 제안.
+- [MemSlides: 다회전 로컬 수정을 통한 개인화 슬라이드 생성 계층적 메모리 에이전트](https://huggingface.co/papers/2606.17162)
+  계층적 메모리 구조를 활용해 개인 맞춤형 슬라이드를 생성하고 다회전 로컬 수정을 지원하는 에이전트 프레임워크.
+- [GateMem: 다중 주체 공유 메모리 에이전트의 메모리 거버넌스 벤치마킹](https://huggingface.co/papers/2606.18829)
+  여러 주체가 메모리를 공유하는 에이전트 환경에서 메모리 거버넌스를 체계적으로 평가하는 벤치마크 GateMem 제시.
+- [다회전 반사적 마스킹으로 마스크 확산 모델의 추론 능력 끌어내기](https://huggingface.co/papers/2606.16700)
+  마스크 확산 모델에서 다회전 반사적 마스킹 기법을 통해 추론 능력을 향상시키는 방법을 제안.
+- [SproutRAG: 장문서 RAG를 위한 어텐션 기반 트리 탐색과 점진적 임베딩](https://huggingface.co/papers/2606.18381)
+  어텐션 가이드 트리 탐색과 점진적 임베딩으로 긴 문서에서의 RAG 성능을 획기적으로 개선하는 SproutRAG 제안.
 
 ## 🦉 GeekNews
 
-- [ponytail - AI 에이전트를 가장 게으른 시니어 개발자처럼 생각하게 만들기](https://github.com/DietrichGebert/ponytail)
-  AI 에이전트가 경험 많은 개발자처럼 효율적이고 실용적인 접근 방식을 취하도록 설계한 프로젝트입니다.
-- [잘못된 추상화보다 중복을 선호하라 (2016)](https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction)
-  성급한 공통화보다 코드 중복이 장기 유지보수 비용 측면에서 더 효율적일 수 있다는 소프트웨어 설계 원칙을 설명합니다.
-- [open-code-review — Alibaba의 AI 코드 리뷰 도구](https://github.com/alibaba/open-code-review)
-  알리바바가 내부 사용 도구를 오픈소스로 공개했으며, 수만 명의 개발자가 수백만 건의 코드 결함을 식별하는 데 사용했습니다.
-- [AI 시대의 프로그래머: 코드 생성에서 비결정성 통제로의 역할 전환](https://velog.io/@teo/we-programmer)
-  AI가 코드 작성을 자동화하면서 개발자의 역할이 직접 구현에서 설계·검증·통제로 변화하고 있습니다.
 - [Git에서 파일을 무시하는 방법은 .gitignore만이 아님](https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git/)
-  Git의 파일 무시 규칙은 저장소 수준, 로컬 수준, 시스템 수준의 세 가지 방식으로 구분되어 있습니다.
+  .gitignore 외에도 .git/info/exclude, 전역 gitignore, sparse-checkout 등 다양한 파일 무시 방법 소개. (49점)
+- [ponytail - AI 에이전트를 가장 게으른 시니어 개발자처럼 생각하게 만들기](https://github.com/DietrichGebert/ponytail)
+  AI 에이전트가 '최고의 코드는 작성하지 않은 코드'라는 원칙으로 동작하도록 유도하는 도구. (43점)
+- [open-code-review — Alibaba의 AI 코드 리뷰 도구](https://github.com/alibaba/open-code-review)
+  Alibaba가 공개한 오픈소스 AI 코드 리뷰 자동화 도구. PR 리뷰, 버그 탐지, 코드 품질 분석 지원. (39점)
+- [구글 Open Knowledge Format 공개 - AI 에이전트를 위한 지식 공유 표준](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing)
+  구글이 AI 에이전트 간 지식을 표준화된 방식으로 공유하기 위한 Open Knowledge Format을 공개. (34점)
+- [AI 시대에 K-공문서(HWP)를 못 여는 진짜 이유, 그리고 해법을 논의합니다](https://igf.or.kr/4095)
+  AI 시대에 한국 공문서 표준 HWP 포맷이 장벽이 되는 이유와 개방형 포맷으로의 전환 필요성 논의. (20점)
 
 ---
 ## 📅 이전 날짜
