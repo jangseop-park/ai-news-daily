@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-06-20
+> 마지막 업데이트: 2026-06-22
 
-# AI 뉴스 — 2026-06-20
+# AI 뉴스 — 2026-06-22
 
 ## 🔥 GitHub Trending (Python)
 
-- [google-research/timesfm](https://github.com/google-research/timesfm): Google Research가 개발한 사전 학습된 시계열 파운데이션 모델로, 시계열 예측에 활용됩니다.
-- [chopratejas/headroom](https://github.com/chopratejas/headroom): 도구 출력, 로그, 파일, RAG 청크를 LLM에 전달하기 전에 압축하여 60~95% 토큰을 절감하는 라이브러리/프록시/MCP 서버.
-- [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage): 세계 최초 오픈소스 에이전틱 동영상 제작 시스템. 12개 파이프라인, 52개 도구, 500개 이상의 에이전트 스킬로 AI 코딩 어시스턴트를 영상 제작 스튜디오로 전환합니다.
-- [Lightricks/LTX-2](https://github.com/Lightricks/LTX-2): LTX-2 오디오-비디오 생성 모델의 공식 Python 추론 및 LoRA 트레이너 패키지.
-- [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills): 생물학, 화학, 의학, 신약 개발 분야의 100개 이상 과학 데이터베이스 접근 및 140개 이상의 즉시 활용 가능한 기능을 갖춘 과학 연구용 에이전트 스킬 라이브러리.
+- [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage): 세계 최초 오픈소스 에이전틱 영상 제작 시스템. 12개 파이프라인, 52개 도구, 500개 이상의 에이전트 스킬로 AI 코딩 어시스턴트를 영상 제작 스튜디오로 변환
+- [chopratejas/headroom](https://github.com/chopratejas/headroom): LLM에 전달되기 전 도구 출력, 로그, 파일, RAG 청크를 압축. 토큰 60-95% 감소, 동일한 답변 품질 유지. 라이브러리, 프록시, MCP 서버 제공
+- [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis): LLM 기반 다중 시장 주식 지능형 분석 시스템: 다중 소스 시세, 실시간 뉴스, 의사결정 대시보드 및 자동 알림, 무료 스케줄 실행 지원
+- [bytedance/deer-flow](https://github.com/bytedance/deer-flow): ByteDance의 오픈소스 장기 목표 SuperAgent 프레임워크. 샌드박스, 메모리, 도구, 스킬, 서브에이전트, 메시지 게이트웨이로 수분~수시간 걸리는 다양한 작업 처리
+- [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): AI 에이전트용 754개 구조화된 사이버보안 스킬. MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS 등 5개 프레임워크 매핑, Claude Code·GitHub Copilot·Cursor 등 20개 이상 플랫폼 호환
 
 ## 📄 Hugging Face Papers
 
-- [Moebius: 10B급 성능을 갖춘 0.2B 경량 이미지 인페인팅 프레임워크](https://huggingface.co/papers/2606.19195)
-  단 2억 개의 파라미터만으로 100억 파라미터 규모 모델과 동등한 성능을 달성하는 초경량 이미지 인페인팅 모델을 제안합니다.
-- [DragMesh-2: 관절형 객체와의 물리적으로 타당한 정교한 손-객체 상호작용](https://huggingface.co/papers/2606.15133)
-  베이징대학교 연구로, 움직이는 구성 요소를 가진 관절형 객체와의 현실적인 손-객체 상호작용을 물리적 제약을 준수하며 시뮬레이션하는 방법을 다룹니다.
-- [유희적 에이전틱 로봇 학습](https://huggingface.co/papers/2606.19419)
-  UC 버클리의 연구로, 로봇이 놀이 기반 상호작용을 통해 학습하고 에이전틱 원칙을 적용하여 자율 학습 성능을 향상시키는 방법을 탐구합니다.
-- [S-Agent: 공간 도구 사용이 공간 지능을 위한 추론을 이끌어낸다](https://huggingface.co/papers/2606.20515)
-  공간 도구와의 상호작용이 AI 에이전트의 추론 능력과 공간 이해력을 어떻게 향상시키는지를 보여주는 연구입니다.
-- [Multi-LCB: LiveCodeBench를 여러 프로그래밍 언어로 확장](https://huggingface.co/papers/2606.20517)
-  언어 모델의 코드 생성 능력을 더 포괄적으로 평가하기 위해 LiveCodeBench 벤치마크를 다양한 프로그래밍 언어로 확장한 연구입니다.
+- [Moebius: 0.2B 경량 이미지 인페인팅 프레임워크](https://huggingface.co/papers/2606.19195)
+  0.2B 파라미터로 10B급 성능을 달성하는 경량 이미지 인페인팅(손상 복원) 프레임워크. 효율적인 아키텍처로 고품질 이미지 복원 가능
+- [DragMesh-2: 관절형 물체와의 물리적으로 그럴듯한 손-물체 상호작용](https://huggingface.co/papers/2606.15133)
+  관절이 있는 물체를 다루는 정교한 손-물체 상호작용의 물리적으로 그럴듯한 시뮬레이션 방법론 제시
+- [Multi-LCB: LiveCodeBench를 다중 프로그래밍 언어로 확장](https://huggingface.co/papers/2606.20517)
+  코드 생성 능력 평가 벤치마크인 LiveCodeBench를 Python 외 다양한 프로그래밍 언어로 확장한 멀티 언어 코딩 벤치마크
+- [Playful Agentic Robot Learning: 놀이를 통한 에이전틱 로봇 학습](https://huggingface.co/papers/2606.19419)
+  로봇이 놀이 형태의 탐색적 상호작용을 통해 에이전틱 방식으로 학습하는 새로운 접근법 제시
+- [S-Agent: 공간 지능을 위한 공간 도구 활용 추론](https://huggingface.co/papers/2606.20515)
+  공간적 도구 활용이 AI 에이전트의 공간 지능과 추론 능력을 향상시키는 방법을 제시한 연구
 
 ## 🦉 GeekNews
 
-- [머신러닝 취업 면접 - 완벽 가이드](https://silviasapora.github.io/blog/ml-interviews.html)
-  DeepMind, Meta 등 주요 기관 지원자들의 경험을 담은 실용적인 ML 커리어 가이드로, 면접 전 과정을 다룹니다.
-- [Git에서 파일을 무시하는 방법은 .gitignore만이 아님](https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git/)
-  Git에서 파일을 무시하는 세 가지 수준의 규칙(.gitignore, .git/info/exclude, 글로벌 설정)을 공유 범위에 따라 설명합니다.
-- [구글 Open Knowledge Format 공개 - AI 에이전트를 위한 지식 공유 표준](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing)
-  여러 AI 에이전트가 번역 없이 위키를 활용할 수 있도록 하는 벤더 중립적 규격으로, LLM 시스템의 지식 공유를 표준화합니다.
-- [창업자 플레이북: AI-native 스타트업 만들기](https://claude.com/blog/the-founders-playbook)
-  창업자들이 검증 단계부터 스케일링까지 AI를 활용하는 방법을 실용적인 프레임워크와 프롬프트를 포함해 포괄적으로 안내하는 스타트업 가이드.
-- [SQLite 창시자 리처드 힙과 함께하는 Turso, AI, 그리고 26년간의 코드 이야기](https://www.youtube.com/watch?v=x8_ZZhRL3YU&t=1733s)
-  SQLite 창시자 리처드 힙이 성공 원칙으로 커스텀 도구 개발, 외부 기여 최소화, 엄격한 테스트 기준 유지를 소개하는 인터뷰.
+- [open-code-review — 알리바바의 AI 코드 리뷰 도구](https://github.com/alibaba/open-code-review)
+  알리바바 내부에서 2년간 수만 명의 개발자가 수백만 건의 코드 결함을 식별한 AI 코드 리뷰 어시스턴트를 오픈소스로 공개
+- [AI 시대에 K-공문서(HWP)를 못 여는 진짜 이유, 그리고 해법 논의](https://igf.or.kr/4095)
+  AI로 표준 명세만 있으면 호환 앱을 만들 수 있는 시대에도 한컴오피스 HWP 공문서를 못 여는 근본적 이유와 해법을 논의
+- [AI가 우리의 능력을 망치고 있는가? 초기 연구 결과는 부정적](https://www.nature.com/articles/d41586-026-01947-1)
+  업무 현장에서 AI 도구 의존이 커지면서 의료·컴퓨터과학 등 숙련이 중요한 분야에서 사람이 쌓은 역량이 약해질 수 있다는 초기 근거 등장(Nature)
+- [머신러닝 연구의 선(Zen)과 예술](https://blog.jxmo.io/p/zen-and-the-art-of-machine-learning)
+  세계적 수준의 AI 연구는 재능만으로 이어지지 않으며, 읽기와 만들기를 반복하면서 오래 버티는 기질이 성과를 가름한다는 통찰
+- [ClickHouse 오픈소스 10주년](https://clickhouse.com/blog/open-source-10)
+  2016년 6월 15일 공개된 ClickHouse가 10년 동안 2,000명 이상이 기여하며 오픈소스 분석 데이터베이스의 대표 프로젝트로 성장한 역정 회고
 
 ---
 ## 📅 이전 날짜
 
+- [2026-06-20](data/2026-06-20.md)
 - [2026-06-19](data/2026-06-19.md)
 - [2026-06-18](data/2026-06-18.md)
 - [2026-06-17](data/2026-06-17.md)
@@ -69,4 +70,3 @@
 - [2026-05-25](data/2026-05-25.md)
 - [2026-05-24](data/2026-05-24.md)
 - [2026-05-23](data/2026-05-23.md)
-- [2026-05-22](data/2026-05-22.md)
