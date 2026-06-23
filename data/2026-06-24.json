@@ -1,0 +1,109 @@
+{
+  "date": "2026-06-24",
+  "github_trending": [
+    {
+      "name": "OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "description": "세계 최초의 오픈소스 에이전틱 비디오 프로덕션 시스템. 12개 파이프라인, 52개 도구, 500개 이상의 에이전트 스킬.",
+      "description_en": "World's first open-source agentic video production system with 12 pipelines, 52 tools, and 500+ agent skills."
+    },
+    {
+      "name": "daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 기반 다중 시장 주식 지능형 분석 시스템으로 멀티소스 시세, 실시간 뉴스, 결정 대시보드 및 자동 알림 지원.",
+      "description_en": "LLM-powered multi-market stock analysis system featuring multi-source data, real-time news, decision dashboards, and automated notifications."
+    },
+    {
+      "name": "Anthropic-Cybersecurity-Skills",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "817개의 구조화된 사이버보안 스킬로 6개 프레임워크에 매핑되며 29개 보안 도메인을 포함.",
+      "description_en": "817 structured cybersecurity skills mapped to 6 frameworks including MITRE ATT&CK and NIST standards across 29 security domains."
+    },
+    {
+      "name": "deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "description": "연구, 코딩, 창작을 수행하는 오픈소스 장기 범위 슈퍼에이전트 프레임워크로 샌드박스와 메모리 지원.",
+      "description_en": "Open-source long-horizon SuperAgent framework that handles research, coding, and creative tasks with sandbox and memory support."
+    },
+    {
+      "name": "claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Anthropic에서 관리하는 고품질 Claude 코드 플러그인의 공식 디렉토리.",
+      "description_en": "Official, Anthropic-managed directory of high-quality Claude Code Plugins."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "PlanBench-XL: 대규모 도구 생태계에서 LLM 도구 사용 에이전트의 장기 계획 평가",
+      "title_en": "PlanBench-XL: Evaluating Long-Horizon Planning of LLM Tool-Use Agents in Large-Scale Tool Ecosystems",
+      "url": "https://huggingface.co/papers/2606.22388",
+      "summary": "대규모 도구 환경에서 LLM 에이전트의 장기 계획 능력을 평가하는 벤치마크를 제시합니다.",
+      "summary_en": "Presents a benchmark for assessing long-horizon planning capabilities of language model agents within extensive tool ecosystems."
+    },
+    {
+      "title": "OpenRath: 에이전트 시스템을 위한 세션 중심 런타임 상태",
+      "title_en": "OpenRath: Session-Centered Runtime State for Agent Systems",
+      "url": "https://huggingface.co/papers/2606.19409",
+      "summary": "에이전트 시스템의 세션 기반 런타임 상태 관리 프레임워크를 제안합니다.",
+      "summary_en": "Proposes a session-based runtime state management framework for agent systems."
+    },
+    {
+      "title": "DataClaw0: 원본 스트림에서 멀티모달 데이터의 에이전틱 맞춤형 처리",
+      "title_en": "DataClaw0: Agentic Tailoring Multimodal Data from Raw Streams",
+      "url": "https://huggingface.co/papers/2606.21337",
+      "summary": "원본 데이터 스트림에서 멀티모달 정보를 에이전트 기반으로 처리하는 방법을 소개합니다.",
+      "summary_en": "Introduces agent-based processing of multimodal information extracted from raw data streams."
+    },
+    {
+      "title": "EnterpriseClawBench: 실제 업무 세션의 에이전트 성능 벤치마킹",
+      "title_en": "EnterpriseClawBench: Benchmarking Agents from Real Workplace Sessions",
+      "url": "https://huggingface.co/papers/2606.23654",
+      "summary": "실제 업무 환경 데이터를 기반으로 에이전트 성능을 평가하는 벤치마크입니다.",
+      "summary_en": "A benchmark evaluating agent performance using data from authentic enterprise work environments."
+    },
+    {
+      "title": "Grouped Query Experts: GQA 자기주의의 전문가 혼합",
+      "title_en": "Grouped Query Experts: Mixture-of-Experts on GQA Self-Attention",
+      "url": "https://huggingface.co/papers/2606.20945",
+      "summary": "GQA 자기주의 메커니즘에 전문가 혼합 방식을 적용하는 기법을 제안합니다.",
+      "summary_en": "Proposes applying mixture-of-experts approach to GQA self-attention mechanisms."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "구글을 AI로 해킹해서 7억원 벌기",
+      "title_en": "Hacking Google with AI to Earn $700,000",
+      "url": "https://brutecat.com/articles/hacking-google-with-ai/",
+      "summary": "보안 연구자가 AI를 활용해 Google API를 자동으로 테스트하여 3개월간 50만 달러의 버그 바운티를 획득한 사례",
+      "summary_en": "Security researcher used AI to automatically test Google APIs, earning $500k in bug bounties over 3 months"
+    },
+    {
+      "title": "ponytail - AI 에이전트를 가장 게으른 시니어 개발자처럼 생각하게 만들기",
+      "title_en": "Ponytail - Making AI Agents Think Like Lazy Senior Developers",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "summary": "최소한의 코드 작성으로 최대의 효율을 추구하는 경험 많은 개발자의 사고방식을 AI 에이전트에 구현",
+      "summary_en": "Implementing experienced developer's philosophy of achieving maximum efficiency with minimal code into AI agents"
+    },
+    {
+      "title": "open-code-review — Alibaba의 AI 코드 리뷰 도구",
+      "title_en": "Open-Code-Review - Alibaba's AI Code Review Tool",
+      "url": "https://github.com/alibaba/open-code-review",
+      "summary": "알리바바가 2년간 수만 명의 개발자로부터 수백만 건의 결함을 식별한 AI 코드 리뷰 어시스턴트를 오픈소스로 공개",
+      "summary_en": "Alibaba releases internally-developed AI code review assistant that identified millions of defects across countless developers"
+    },
+    {
+      "title": "Git에서 파일을 무시하는 방법은 .gitignore만이 아님",
+      "title_en": "Ignoring Files in Git Beyond .gitignore",
+      "url": "https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git/",
+      "summary": "Git 파일 무시 규칙의 세 수준(저장소, 로컬, 전역)을 설명하고 각각의 용도와 차이점을 소개",
+      "summary_en": "Explains three levels of Git file ignoring rules: repository, local, and global configurations"
+    },
+    {
+      "title": "AI 시대의 프로그래머: 코드 생성에서 비결정성 통제로의 역할 전환",
+      "title_en": "Programmers in AI Era: Shifting from Code Generation to Non-Determinism Control",
+      "url": "https://velog.io/@teo/we-programmer",
+      "summary": "AI가 코드 작성을 자동화하면서 개발자의 핵심 역할이 구현에서 설계, 검증, 통제로 변화하고 있음을 분석",
+      "summary_en": "Analyzes how AI automation is shifting developer roles from implementation to design, verification, and control"
+    }
+  ]
+}
