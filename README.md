@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-06-23
+> 마지막 업데이트: 2026-06-24
 
-# AI 뉴스 — 2026-06-23
+# AI 뉴스 — 2026-06-24
 
 ## 🔥 GitHub Trending (Python)
 
-- [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage): 세계 최초 오픈소스 에이전트 기반 비디오 프로덕션 시스템. 12개 파이프라인, 52개 툴, 500+ 에이전트 스킬로 AI 코딩 도구를 영상 제작 스튜디오로 변환.
-- [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): AI 에이전트용 817개 구조화된 사이버보안 스킬. MITRE ATT&CK, NIST 등 6개 프레임워크 매핑. Claude Code, GitHub Copilot 등 20+ 플랫폼 지원.
-- [bytedance/deer-flow](https://github.com/bytedance/deer-flow): 오픈소스 장기 실행 SuperAgent 하네스. 샌드박스, 메모리, 툴, 스킬, 서브에이전트 활용으로 수분~수시간 걸리는 다양한 레벨 태스크 처리.
-- [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis): LLM 기반 멀티마켓 주식 분석 시스템. 다중 소스 시세, 실시간 뉴스, 의사결정 대시보드, 자동 알림, 무비용 스케줄 실행 지원.
-- [NVIDIA/skills](https://github.com/NVIDIA/skills): NVIDIA가 공개한 AI 에이전트 스킬 모음. 다양한 도메인의 에이전트 능력을 표준화된 형식으로 제공.
+- [OpenMontage](https://github.com/calesthio/OpenMontage): 세계 최초의 오픈소스 에이전틱 비디오 프로덕션 시스템. 12개 파이프라인, 52개 도구, 500개 이상의 에이전트 스킬.
+- [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis): LLM 기반 다중 시장 주식 지능형 분석 시스템으로 멀티소스 시세, 실시간 뉴스, 결정 대시보드 및 자동 알림 지원.
+- [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): 817개의 구조화된 사이버보안 스킬로 6개 프레임워크에 매핑되며 29개 보안 도메인을 포함.
+- [deer-flow](https://github.com/bytedance/deer-flow): 연구, 코딩, 창작을 수행하는 오픈소스 장기 범위 슈퍼에이전트 프레임워크로 샌드박스와 메모리 지원.
+- [claude-plugins-official](https://github.com/anthropics/claude-plugins-official): Anthropic에서 관리하는 고품질 Claude 코드 플러그인의 공식 디렉토리.
 
 ## 📄 Hugging Face Papers
 
-- [PerceptionDLM: 멀티모달 확산 언어 모델을 활용한 병렬 영역 인식](https://huggingface.co/papers/2606.19534)
-  멀티모달 확산 언어 모델에서 이미지의 여러 영역을 병렬로 인식하는 새로운 프레임워크 PerceptionDLM을 제안.
-- [MemSlides: 다회전 로컬 수정을 통한 개인화 슬라이드 생성 계층적 메모리 에이전트](https://huggingface.co/papers/2606.17162)
-  계층적 메모리 구조를 활용해 개인 맞춤형 슬라이드를 생성하고 다회전 로컬 수정을 지원하는 에이전트 프레임워크.
-- [GateMem: 다중 주체 공유 메모리 에이전트의 메모리 거버넌스 벤치마킹](https://huggingface.co/papers/2606.18829)
-  여러 주체가 메모리를 공유하는 에이전트 환경에서 메모리 거버넌스를 체계적으로 평가하는 벤치마크 GateMem 제시.
-- [다회전 반사적 마스킹으로 마스크 확산 모델의 추론 능력 끌어내기](https://huggingface.co/papers/2606.16700)
-  마스크 확산 모델에서 다회전 반사적 마스킹 기법을 통해 추론 능력을 향상시키는 방법을 제안.
-- [SproutRAG: 장문서 RAG를 위한 어텐션 기반 트리 탐색과 점진적 임베딩](https://huggingface.co/papers/2606.18381)
-  어텐션 가이드 트리 탐색과 점진적 임베딩으로 긴 문서에서의 RAG 성능을 획기적으로 개선하는 SproutRAG 제안.
+- [PlanBench-XL: 대규모 도구 생태계에서 LLM 도구 사용 에이전트의 장기 계획 평가](https://huggingface.co/papers/2606.22388)
+  대규모 도구 환경에서 LLM 에이전트의 장기 계획 능력을 평가하는 벤치마크를 제시합니다.
+- [OpenRath: 에이전트 시스템을 위한 세션 중심 런타임 상태](https://huggingface.co/papers/2606.19409)
+  에이전트 시스템의 세션 기반 런타임 상태 관리 프레임워크를 제안합니다.
+- [DataClaw0: 원본 스트림에서 멀티모달 데이터의 에이전틱 맞춤형 처리](https://huggingface.co/papers/2606.21337)
+  원본 데이터 스트림에서 멀티모달 정보를 에이전트 기반으로 처리하는 방법을 소개합니다.
+- [EnterpriseClawBench: 실제 업무 세션의 에이전트 성능 벤치마킹](https://huggingface.co/papers/2606.23654)
+  실제 업무 환경 데이터를 기반으로 에이전트 성능을 평가하는 벤치마크입니다.
+- [Grouped Query Experts: GQA 자기주의의 전문가 혼합](https://huggingface.co/papers/2606.20945)
+  GQA 자기주의 메커니즘에 전문가 혼합 방식을 적용하는 기법을 제안합니다.
 
 ## 🦉 GeekNews
 
-- [Git에서 파일을 무시하는 방법은 .gitignore만이 아님](https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git/)
-  .gitignore 외에도 .git/info/exclude, 전역 gitignore, sparse-checkout 등 다양한 파일 무시 방법 소개. (49점)
+- [구글을 AI로 해킹해서 7억원 벌기](https://brutecat.com/articles/hacking-google-with-ai/)
+  보안 연구자가 AI를 활용해 Google API를 자동으로 테스트하여 3개월간 50만 달러의 버그 바운티를 획득한 사례
 - [ponytail - AI 에이전트를 가장 게으른 시니어 개발자처럼 생각하게 만들기](https://github.com/DietrichGebert/ponytail)
-  AI 에이전트가 '최고의 코드는 작성하지 않은 코드'라는 원칙으로 동작하도록 유도하는 도구. (43점)
+  최소한의 코드 작성으로 최대의 효율을 추구하는 경험 많은 개발자의 사고방식을 AI 에이전트에 구현
 - [open-code-review — Alibaba의 AI 코드 리뷰 도구](https://github.com/alibaba/open-code-review)
-  Alibaba가 공개한 오픈소스 AI 코드 리뷰 자동화 도구. PR 리뷰, 버그 탐지, 코드 품질 분석 지원. (39점)
-- [구글 Open Knowledge Format 공개 - AI 에이전트를 위한 지식 공유 표준](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing)
-  구글이 AI 에이전트 간 지식을 표준화된 방식으로 공유하기 위한 Open Knowledge Format을 공개. (34점)
-- [AI 시대에 K-공문서(HWP)를 못 여는 진짜 이유, 그리고 해법을 논의합니다](https://igf.or.kr/4095)
-  AI 시대에 한국 공문서 표준 HWP 포맷이 장벽이 되는 이유와 개방형 포맷으로의 전환 필요성 논의. (20점)
+  알리바바가 2년간 수만 명의 개발자로부터 수백만 건의 결함을 식별한 AI 코드 리뷰 어시스턴트를 오픈소스로 공개
+- [Git에서 파일을 무시하는 방법은 .gitignore만이 아님](https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git/)
+  Git 파일 무시 규칙의 세 수준(저장소, 로컬, 전역)을 설명하고 각각의 용도와 차이점을 소개
+- [AI 시대의 프로그래머: 코드 생성에서 비결정성 통제로의 역할 전환](https://velog.io/@teo/we-programmer)
+  AI가 코드 작성을 자동화하면서 개발자의 핵심 역할이 구현에서 설계, 검증, 통제로 변화하고 있음을 분석
 
 ---
 ## 📅 이전 날짜
 
+- [2026-06-23](data/2026-06-23.md)
 - [2026-06-22](data/2026-06-22.md)
 - [2026-06-21](data/2026-06-21.md)
 - [2026-06-20](data/2026-06-20.md)
@@ -69,4 +70,3 @@
 - [2026-05-28](data/2026-05-28.md)
 - [2026-05-27](data/2026-05-27.md)
 - [2026-05-26](data/2026-05-26.md)
-- [2026-05-25](data/2026-05-25.md)
