@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-06-24
+> 마지막 업데이트: 2026-06-25
 
-# AI 뉴스 — 2026-06-24
+# AI 뉴스 — 2026-06-25
 
 ## 🔥 GitHub Trending (Python)
 
-- [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage): 세계 최초의 오픈소스 에이전트 기반 비디오 제작 시스템. 12개의 파이프라인, 52개의 도구, 500개 이상의 에이전트 스킬을 제공합니다.
-- [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis): LLM 기반 멀티마켓 주식 분석 시스템. 다중 소스 시장 데이터, 실시간 뉴스, 의사결정 대시보드, 자동 알림, 무료 예약 실행을 지원합니다.
-- [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): AI 에이전트를 위한 817개의 구조화된 사이버보안 스킬로, MITRE ATT&CK와 NIST CSF 2.0을 포함한 6개 프레임워크에 매핑되어 있습니다.
-- [bytedance/deer-flow](https://github.com/bytedance/deer-flow): 샌드박스, 메모리, 도구, 메시지 게이트웨이를 활용해 연구, 코딩, 창작을 수행하는 오픈소스 장기 실행 SuperAgent 하니스입니다.
-- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official): Anthropic이 관리하는 고품질 Claude Code 플러그인 공식 디렉터리입니다.
+- [OpenMontage](https://github.com/calesthio/OpenMontage): 세계 최초의 오픈소스 에이전트 기반 비디오 제작 시스템. 12개 파이프라인, 52개 도구, 500+ 에이전트 스킬을 제공.
+- [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis): LLM 기반 다중 시장 주식 지능형 분석 시스템으로 실시간 뉴스, 의사결정 대시보드, 자동 알림 지원.
+- [hiring-agent](https://github.com/interviewstreet/hiring-agent): 이력서를 평가하고 점수를 매기는 AI 에이전트 시스템.
+- [hermes-agent](https://github.com/NousResearch/hermes-agent): 사용자와 함께 성장하는 Nous Research의 에이전트 시스템.
+- [deer-flow](https://github.com/bytedance/deer-flow): 오픈소스 장기 작업 슈퍼에이전트로 샌드박스, 메모리, 도구, 스킬을 활용하여 분~시간 단위 작업 처리.
 
 ## 📄 Hugging Face Papers
 
-- [PlanBench-XL: 대규모 도구 생태계에서 LLM 도구 사용 에이전트의 장기 계획 능력 평가](https://huggingface.co/papers/2606.22388)
-  광범위한 도구 생태계에서 언어 모델 에이전트가 계획 작업을 어떻게 수행하는지 평가하는 벤치마크를 제시합니다. (일리노이대 어바나-샴페인)
-- [OpenRath: 에이전트 시스템을 위한 세션 중심 런타임 상태 관리](https://huggingface.co/papers/2606.19409)
-  에이전트 기반 시스템에서 사용자 세션을 중심으로 런타임 상태 관리를 구성하는 프레임워크를 소개합니다.
-- [DataClaw0: 원시 스트림에서 멀티모달 데이터를 에이전트 방식으로 맞춤 가공하기](https://huggingface.co/papers/2606.21337)
-  에이전트 방식을 사용해 원시 데이터 스트림을 맞춤형 멀티모달 데이터셋으로 처리하는 시스템을 설명합니다.
-- [EnterpriseClawBench: 실제 업무 세션 기반 에이전트 벤치마킹](https://huggingface.co/papers/2606.23654)
-  실제 업무 상호작용 데이터를 활용해 에이전트의 성능을 평가하는 벤치마크입니다. (Frontis AI)
-- [Grouped Query Experts: GQA 셀프 어텐션에 적용한 Mixture-of-Experts](https://huggingface.co/papers/2606.20945)
-  Mixture-of-Experts 아키텍처와 grouped query attention 메커니즘을 결합하는 방법을 탐구합니다. (FrontiersMind)
+- [Qwen-AgentWorld: 언어 세계 모델을 통한 일반 에이전트](https://huggingface.co/papers/2606.24597)
+  일반적인 에이전트를 위한 언어 기반 세계 모델을 제시합니다. 다양한 작업에서 에이전트의 성능을 향상시키는 방법론을 탐구합니다.
+- [NatureBench: 코딩 에이전트가 Nature 논문의 최신 성과를 따라갈 수 있을까?](https://huggingface.co/papers/2606.24530)
+  고급 학술 논문의 코드 구현에 대한 에이전트의 능력을 벤치마킹하며 현재 AI의 한계를 평가합니다.
+- [MobileForge: 계층적 피드백 유도 정책 최적화를 통한 모바일 GUI 에이전트의 주석 없는 적응](https://huggingface.co/papers/2606.19930)
+  모바일 GUI 에이전트 학습에서 수동 주석 작업을 제거하고 계층적 피드백으로 정책 최적화를 수행합니다.
+- [MemGUI-Agent: 사전 예방적 문맥 관리를 갖춘 장기 모바일 GUI 에이전트](https://huggingface.co/papers/2606.19926)
+  장시간 모바일 작업 수행을 위한 사전 예방적 문맥 관리 기능이 통합된 에이전트를 개발합니다.
+- [AOHP: 개인화되고 효율적이며 안전한 상호작용을 위한 오픈소스 OS 수준 에이전트 프레임워크](https://huggingface.co/papers/2606.23449)
+  운영체제 수준에서 작동하며 개인화, 효율성, 보안을 균형있게 지원하는 개방형 에이전트 프레임워크를 제시합니다.
 
 ## 🦉 GeekNews
 
-- [구글을 AI로 해킹해서 7억원 벌기](https://news.hada.io/topic?id=30741)
-  한 보안 연구자가 AI를 활용해 Google API를 체계적으로 테스트하여 3개월 만에 약 50만 달러의 버그 바운티를 획득했습니다.
-- [ponytail - AI 에이전트를 가장 게으른 시니어 개발자처럼 생각하게 만들기](https://news.hada.io/topic?id=30701)
-  스마트한 지름길과 축적된 지식을 통해 불필요한 작업을 피하는 시니어 개발자처럼 AI 에이전트가 사고하도록 유도하는 오픈소스 프로젝트입니다.
-- [bigset - 세상의 모든 데이터를 가지고 있다면?](https://news.hada.io/topic?id=30747)
-  자연어 쿼리로부터 구조화된 데이터셋을 생성하고 자동으로 갱신해주는 오픈소스 도구입니다.
-- [에이전틱 테스팅 - E2E 테스트 스택에서 에이전트의 역할](https://news.hada.io/topic?id=30744)
-  Slack 엔지니어링 팀이 200개 이상의 에이전트 기반 종단간(E2E) 테스트를 기존의 결정론적 방식과 비교 검증했습니다.
-- [AI 시대의 프로그래머](https://news.hada.io/topic?id=30711)
-  개발자의 역할이 직접 구현에서 벗어나 설계, 검증, 그리고 비결정론적 AI 출력을 제어하는 방향으로 이동하고 있습니다.
+- [구글을 AI로 해킹해서 7억원 벌기](https://brutecat.com/articles/hacking-google-with-ai/)
+  AI를 활용해 Google API를 자동 테스트하여 3개월 만에 50만 달러 버그 바운티를 획득한 보안 연구 사례
+- [ponytail - AI 에이전트를 가장 게으른 시니어 개발자처럼 생각하게 만들기](https://github.com/DietrichGebert/ponytail)
+  최고의 코드는 작성하지 않은 코드라는 철학으로 AI 에이전트를 설계하는 혁신적 접근
+- [open-code-review — Alibaba의 AI 코드 리뷰 도구](https://github.com/alibaba/open-code-review)
+  알리바바가 2년간 내부 사용하며 수백만 건 결함 식별한 AI 코드 리뷰 어시스턴트 오픈소스 공개
+- [AI 시대의 프로그래머: 코드 생성에서 비결정성 통제로의 역할 전환](https://velog.io/@teo/we-programmer)
+  AI가 코드 작성을 자동화하면서 개발자의 역할이 구현에서 설계·검증·통제로 변화하는 양상 분석
+- [잘못된 추상화보다 중복을 선호하라 (2016)](https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction)
+  성급한 공통화보다 코드 중복이 장기 유지보수 비용 면에서 더 효율적임을 주장하는 소프트웨어 설계 원칙
 
 ---
 ## 📅 이전 날짜
 
+- [2026-06-24](data/2026-06-24.md)
 - [2026-06-23](data/2026-06-23.md)
 - [2026-06-22](data/2026-06-22.md)
 - [2026-06-21](data/2026-06-21.md)
@@ -69,4 +70,3 @@
 - [2026-05-29](data/2026-05-29.md)
 - [2026-05-28](data/2026-05-28.md)
 - [2026-05-27](data/2026-05-27.md)
-- [2026-05-26](data/2026-05-26.md)
