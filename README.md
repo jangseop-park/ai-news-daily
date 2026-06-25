@@ -6,37 +6,37 @@
 
 ## 🔥 GitHub Trending (Python)
 
-- [OpenMontage](https://github.com/calesthio/OpenMontage): 세계 최초의 오픈소스 에이전틱 비디오 제작 시스템. 12개 파이프라인, 52개 도구, 500+ 에이전트 스킬 제공.
-- [ai-berkshire](https://github.com/xbtlin/ai-berkshire): Claude Code 기반의 AI 시대 가치투자 연구 프레임워크로, 네 거장의 투자 방법론과 다중 에이전트 분석을 결합.
-- [MinerU](https://github.com/opendatalab/MinerU): PDF와 오피스 문서를 LLM에 최적화된 마크다운/JSON 형식으로 변환하는 도구.
-- [MediaCrawler](https://github.com/NanmiCoder/MediaCrawler): 샤오홍슈, 틱톡, 빌리빌리, 웨이보 등 중국 소셜 미디어 플랫폼 포스트·댓글 통합 크롤러.
-- [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis): LLM 기반 다중 시장 주식 분석 시스템으로 실시간 뉴스, 결정 대시보드, 자동 알림 제공.
+- [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage): 세계 최초 오픈소스 에이전트 기반 영상 제작 시스템. 12개 파이프라인, 52개 도구, 500개 이상의 에이전트 스킬 제공.
+- [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire): Claude Code 기반 가치투자 리서치 프레임워크. 4명 투자 대가의 방법론과 멀티에이전트 적대적 분석을 결합.
+- [aws/agent-toolkit-for-aws](https://github.com/aws/agent-toolkit-for-aws): AWS가 공식 지원하는 MCP 서버·스킬·플러그인으로 AI 에이전트의 AWS 기반 구축을 돕는 툴킷.
+- [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): MITRE ATT&CK, NIST CSF 2.0 등 6개 프레임워크에 매핑된 817개의 구조화된 AI 에이전트용 사이버보안 스킬.
+- [opendatalab/MinerU](https://github.com/opendatalab/MinerU): PDF·오피스 문서 등 복잡한 문서를 LLM이 바로 활용 가능한 마크다운/JSON으로 변환하는 도구.
 
 ## 📄 Hugging Face Papers
 
-- [에이전트 네이티브 메모리 시스템을 위한 준비 현황](https://huggingface.co/papers/2606.24775)
-  상해 교통대학 연구팀이 에이전트 기반 AI 시스템의 메모리 아키텍처 준비 상태를 분석합니다.
-- [도메인셔틀: 자유형식 오픈 도메인 주제 기반 텍스트-투-비디오 생성](https://huggingface.co/papers/2606.26058)
-  텍스트 설명으로부터 주제 중심의 비디오를 오픈 도메인에서 생성하는 새로운 방법론을 제시합니다.
-- [완-스트리머 v0.1: 엔드-투-엔드 실시간 인터랙티브 파운데이션 모델](https://huggingface.co/papers/2606.25041)
-  Wan-AI에서 개발한 실시간 상호작용을 지원하는 파운데이션 모델 시스템입니다.
-- [셔터뮤즈: 멀티모달 대규모 언어 모델을 이용한 촬영 시점 사진 촬영 지침](https://huggingface.co/papers/2606.25763)
-  StepFun에서 개발한 멀티모달 언어 모델을 활용한 실시간 사진 촬영 보조 시스템입니다.
-- [개선된 대규모 언어 확산 모델](https://huggingface.co/papers/2606.25331)
-  ByteDance Seed에서 제시한 대규모 언어 모델의 확산 기반 개선 방법론입니다.
+- [에이전트 네이티브 메모리 시스템, 우리는 준비됐는가?](https://huggingface.co/papers/2606.24775)
+  AI 에이전트를 위한 전용 메모리 시스템의 현주소와 과제를 점검하며, 기존 RAG 방식을 넘어선 에이전트 중심 메모리 아키텍처의 필요성을 논의한다.
+- [DomainShuttle: 자유형 오픈도메인 주체 기반 텍스트-비디오 생성](https://huggingface.co/papers/2606.26058)
+  특정 주체(subject)를 유지하면서 도메인 제약 없이 자유롭게 텍스트로부터 영상을 생성하는 새로운 프레임워크를 제안한다.
+- [Wan-Streamer v0.1: 엔드투엔드 실시간 인터랙티브 파운데이션 모델](https://huggingface.co/papers/2606.25041)
+  실시간 상호작용이 가능한 엔드투엔드 인터랙티브 파운데이션 모델로, 스트리밍 영상 생성 등 즉각적 응답이 필요한 작업을 지원한다.
+- [ShutterMuse: MLLM 기반 촬영 시점 사진 가이던스](https://huggingface.co/papers/2606.25763)
+  멀티모달 LLM을 활용해 사진 촬영 순간에 구도·설정 등을 실시간으로 안내하는 시스템을 제시한다.
+- [향상된 대규모 언어 확산 모델](https://huggingface.co/papers/2606.25331)
+  자기회귀 방식이 아닌 확산(diffusion) 기반 대규모 언어 모델의 성능을 개선하는 기법을 제안한다.
 
 ## 🦉 GeekNews
 
+- [ponytail - AI 에이전트를 가장 게으른 시니어 개발자처럼 생각하게 만들기](https://github.com/DietrichGebert/ponytail)
+  '최고의 코드는 작성하지 않은 코드'라는 원칙으로 AI 에이전트가 불필요한 코드를 줄이도록 유도하는 도구.
+- [open-code-review - Alibaba의 AI 코드 리뷰 도구](https://github.com/alibaba/open-code-review)
+  수만 명의 개발자가 수백만 건의 코드 결함을 식별하는 데 사용한 Alibaba의 AI 코드 리뷰 도구가 오픈소스로 공개됐다.
 - [구글을 AI로 해킹해서 7억원 벌기](https://brutecat.com/articles/hacking-google-with-ai/)
-  AI를 활용해 Google API를 자동 테스트하여 3개월 내 50만 달러의 버그 바운티를 획득한 보안 연구 사례.
+  AI를 활용한 보안 연구로 3개월 만에 약 50만 달러의 버그 바운티를 달성한 사례를 소개한다.
 - [AI시대, 나의 전문성을 재설계하는 법](https://drive.google.com/file/d/19rY4idXdBoFyqqzu0ImZe45C31ETb7rC/view)
-  회사의 AI 전환 여정이 5단계를 거치며, 각 단계에서의 도전과 극복 방법을 다룬 발표자료.
-- [Code as Agent Harness — 코드를 에이전트의 실행 기반으로 보는 102페이지 서베이](https://code-as-harness.github.io/code-as-harness-webpage/)
-  UIUC, Meta, Stanford 합작 논문으로 코드가 LLM의 단순 생성물이 아닌 에이전트의 핵심 기반이라는 관점을 제시.
-- [Bunny DNS 무료 전환](https://bunny.net/blog/were-making-bunny-dns-free/)
-  글로벌 CDN 서비스 Bunny가 DNS를 무료로 제공하여 플랫폼의 기본 기능으로 전환.
-- [Anthropic, Claude Tag 공개 — Slack에서 Claude를 팀원처럼](https://www.anthropic.com/news/introducing-claude-tag)
-  Slack에서 Claude를 팀원처럼 활용하며 채널 내 작업을 위임할 수 있는 새로운 협업 기능.
+  기업의 AX(AI 전환) 여정이 대체로 비슷한 5단계를 거친다는 분석과 함께 개인 전문성 재설계 방법을 다룬다.
+- [AI 시대의 프로그래머: 코드 생성에서 비결정성 통제로의 역할 전환](https://velog.io/@teo/we-programmer)
+  개발자의 역할이 단순 구현에서 설계·검증·통제로 이동하고 있다는 관점을 제시한다.
 
 ---
 ## 📅 이전 날짜
