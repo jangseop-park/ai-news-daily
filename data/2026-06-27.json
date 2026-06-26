@@ -1,0 +1,109 @@
+{
+  "date": "2026-06-27",
+  "github_trending": [
+    {
+      "name": "openpilot",
+      "url": "https://github.com/commaai/openpilot",
+      "description": "로봇공학용 운영 체제. 300개 이상의 자동차에서 운전 보조 시스템을 업그레이드합니다.",
+      "description_en": "An operating system for robotics that upgrades driver assistance systems on 300+ supported vehicles."
+    },
+    {
+      "name": "MinerU",
+      "url": "https://github.com/opendatalab/MinerU",
+      "description": "PDF와 오피스 문서를 에이전트 워크플로우용 LLM 준비 마크다운/JSON으로 변환하는 도구.",
+      "description_en": "Transforms complex documents like PDFs and Office files into LLM-ready markdown/JSON for agentic workflows."
+    },
+    {
+      "name": "ai-berkshire",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "description": "Claude Code 기반의 가치투자 연구 프레임워크로, 4명의 거장 방법론과 다중 에이전트 병렬 분석을 결합.",
+      "description_en": "A value investing research framework built on Claude Code featuring 4 masters' methodologies and multi-agent analysis."
+    },
+    {
+      "name": "OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "description": "세계 최초의 오픈소스 에이전틱 비디오 제작 시스템. 12개 파이프라인과 500+ 에이전트 스킬 제공.",
+      "description_en": "World's first open-source agentic video production system with 12 pipelines and 500+ agent skills."
+    },
+    {
+      "name": "agent-toolkit-for-aws",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "description": "AI 에이전트가 AWS에서 구축하도록 지원하는 공식 AWS MCP 서버, 스킬 및 플러그인.",
+      "description_en": "Official AWS-supported MCP servers, skills, and plugins helping AI agents build on AWS."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "DanceOPD: 온-폴리시 생성 필드 증류",
+      "title_en": "DanceOPD: On-Policy Generative Field Distillation",
+      "url": "https://huggingface.co/papers/2606.27377",
+      "summary": "ByteDance Seed에서 제안한 온-폴리시 생성 필드 증류 기법으로, 생성 모델의 효율적인 학습을 위한 새로운 접근 방식.",
+      "summary_en": "ByteDance Seed's novel on-policy generative field distillation technique for efficient generative model training."
+    },
+    {
+      "title": "ViQ: 텍스트-정렬 시각 양자화 표현",
+      "title_en": "ViQ: Text-Aligned Visual Quantized Representations at Any Resolution",
+      "url": "https://huggingface.co/papers/2606.27313",
+      "summary": "Tencent Hunyuan에서 개발한 임의의 해상도에서 텍스트와 정렬된 시각 표현을 양자화하는 방법.",
+      "summary_en": "Tencent Hunyuan's approach to creating text-aligned visual quantized representations at arbitrary resolutions."
+    },
+    {
+      "title": "OPID: 에이전트 강화학습을 위한 온-폴리시 스킬 증류",
+      "title_en": "OPID: On-Policy Skill Distillation for Agentic Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2606.26790",
+      "summary": "에이전트 강화학습에서 온-폴리시 방식으로 스킬을 효율적으로 증류하는 기법을 제시합니다.",
+      "summary_en": "A technique for distilling skills in RL agents using on-policy methods to improve performance."
+    },
+    {
+      "title": "Qwen-Image-Agent: 실제 이미지 생성의 컨텍스트 격차 해소",
+      "title_en": "Qwen-Image-Agent: Bridging the Context Gap in Real-World Image Generation",
+      "url": "https://huggingface.co/papers/2606.26907",
+      "summary": "Qwen 팀이 개발한 실제 이미지 생성에서의 컨텍스트 격차를 해결하는 에이전트 시스템.",
+      "summary_en": "Qwen's agent system that addresses contextual limitations in real-world image generation tasks."
+    },
+    {
+      "title": "검증 지평: 코딩 에이전트 보상에 대한 만능 해결책은 없다",
+      "title_en": "The Verification Horizon: No Silver Bullet for Coding Agent Rewards",
+      "url": "https://huggingface.co/papers/2606.26300",
+      "summary": "Qwen에서 발표한 코딩 에이전트의 보상 함수 설계에 단순 해결책이 없음을 보여주는 연구.",
+      "summary_en": "Qwen's research demonstrating that effective reward function design for coding agents requires nuanced approaches."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "AI시대, 나의 전문성을 재설계하는 법 [구글 슬라이드, 165P]",
+      "title_en": "Redesigning Your Expertise in the AI Era [Google Slides, 165P]",
+      "url": "https://drive.google.com/file/d/19rY4idXdBoFyqqzu0ImZe45C31ETb7rC/view",
+      "summary": "데이터오븐 하용호님의 발표자료로, 회사의 AI 전환 여정이 거치는 5단계 프로세스를 분석합니다.",
+      "summary_en": "A presentation analyzing the five-stage process companies experience during their AI transformation journey."
+    },
+    {
+      "title": "ponytail - AI 에이전트를 가장 게으른 시니어 개발자처럼 생각하게 만들기",
+      "title_en": "ponytail - Making AI Agents Think Like the Laziest Senior Developer",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "summary": "\"최고의 코드는 작성하지 않은 코드\"라는 철학으로 AI 에이전트의 효율적 작업 방식을 구현.",
+      "summary_en": "Implementing the philosophy that the best code is the code you don't write, to optimize AI agent efficiency."
+    },
+    {
+      "title": "구글을 AI로 해킹해서 7억원 벌기",
+      "title_en": "Hacking Google with AI to Earn $500K",
+      "url": "https://brutecat.com/articles/hacking-google-with-ai/",
+      "summary": "AI를 활용한 자동 버그 발견으로 3개월간 50만 달러의 버그 바운티를 획득한 보안 연구 사례.",
+      "summary_en": "Security researcher earned $500K in bug bounties within 3 months using AI to automatically discover vulnerabilities."
+    },
+    {
+      "title": "Code as Agent Harness — 코드를 에이전트의 실행 기반으로 보는 102페이지 서베이",
+      "title_en": "Code as Agent Harness — 102-Page Survey on Code as Agent Foundation",
+      "url": "https://code-as-harness.github.io/code-as-harness-webpage/",
+      "summary": "UIUC, Meta, Stanford 합작 논문으로 코드가 LLM의 결과물이 아닌 에이전트의 핵심 기반임을 주장.",
+      "summary_en": "Collaborative research proposing that code serves as the fundamental harness for AI agents, not merely generated output."
+    },
+    {
+      "title": "Anthropic, Claude Tag 공개 — Slack에서 Claude를 팀원처럼",
+      "title_en": "Anthropic Introduces Claude Tag for Slack",
+      "url": "https://www.anthropic.com/news/introducing-claude-tag",
+      "summary": "Slack에 팀원처럼 합류하여 채널 내에서 작업 위임이 가능한 새로운 Claude 협업 기능.",
+      "summary_en": "New feature allowing Claude to join Slack channels as a team member with task delegation capabilities."
+    }
+  ]
+}
