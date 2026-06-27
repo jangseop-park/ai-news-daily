@@ -1,0 +1,109 @@
+{
+  "date": "2026-06-28",
+  "github_trending": [
+    {
+      "name": "cognee",
+      "url": "https://github.com/topoteretes/cognee",
+      "description": "AI 에이전트용 오픈소스 메모리 플랫폼. 자체 호스팅 지식 그래프 엔진으로 세션 간 지속적 장기 기억 제공",
+      "description_en": "Open-source AI memory platform providing persistent long-term memory across sessions with self-hosted knowledge graph engine"
+    },
+    {
+      "name": "ai-berkshire",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "description": "Claude Code 기반의 가치투자 연구 프레임워크. 버핏, 멍거 등 4대 거장 방법론과 멀티에이전트 병렬 분석",
+      "description_en": "Value investing research framework built on Claude Code, incorporating methodologies from four investment masters with multi-agent parallel analysis"
+    },
+    {
+      "name": "ppt-master",
+      "url": "https://github.com/hugohe3/ppt-master",
+      "description": "AI가 모든 문서로부터 편집 가능한 파워포인트를 생성. 네이티브 도형, 애니메이션, 음성 해설 지원",
+      "description_en": "AI-powered tool generating editable PowerPoint presentations from documents with native shapes, animations, and voiced narration"
+    },
+    {
+      "name": "MediaCrawler",
+      "url": "https://github.com/NanmiCoder/MediaCrawler",
+      "description": "소셜 미디어 크롤러. 샤오홍슈, 틱톡, 쿠아이숑, 빌리빌리, 웨이보, 바이두, 지후 플랫폼 지원",
+      "description_en": "Social media crawler supporting content and comment extraction from Xiaohongshu, TikTok, Kuaishou, Bilibili, Weibo, Baidu Tieba, and Zhihu"
+    },
+    {
+      "name": "openpilot",
+      "url": "https://github.com/commaai/openpilot",
+      "description": "로보틱스용 운영체제. 300개 이상의 차량 운전자 보조 시스템 업그레이드",
+      "description_en": "Operating system for robotics that upgrades driver assistance systems across 300+ supported vehicle models"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "DanceOPD: 온-정책 생성 필드 증류",
+      "title_en": "DanceOPD: On-Policy Generative Field Distillation",
+      "url": "https://huggingface.co/papers/2606.27377",
+      "summary": "ByteDance Seed에서 제안한 온-정책 학습을 통한 생성 필드 증류 기법.",
+      "summary_en": "Research from ByteDance Seed addressing generative field distillation via on-policy learning methodologies."
+    },
+    {
+      "title": "문맥 내 세계 모델링을 통한 로봇 제어",
+      "title_en": "In-Context World Modeling for Robotic Control",
+      "url": "https://huggingface.co/papers/2606.26025",
+      "summary": "문맥 내 학습으로 로봇 제어 세계 모델을 구성하는 OpenMOSS 팀 연구.",
+      "summary_en": "OpenMOSS team's work on world modeling for robotic control through in-context learning."
+    },
+    {
+      "title": "OPID: 에이전트 강화학습을 위한 온-정책 스킬 증류",
+      "title_en": "OPID: On-Policy Skill Distillation for Agentic Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2606.26790",
+      "summary": "에이전트 강화학습에서 온-정책 방식으로 스킬을 증류하는 기법을 제안.",
+      "summary_en": "Proposes on-policy skill distillation techniques for agentic reinforcement learning systems."
+    },
+    {
+      "title": "Qwen-Image-Agent: 실제 이미지 생성에서 문맥 간격 극복",
+      "title_en": "Qwen-Image-Agent: Bridging the Context Gap in Real-World Image Generation",
+      "url": "https://huggingface.co/papers/2606.26907",
+      "summary": "Qwen 팀의 연구로 현실적 이미지 생성 작업의 문맥 간격 문제 해결.",
+      "summary_en": "Qwen's research addressing context gap challenges in practical image generation tasks."
+    },
+    {
+      "title": "검증 지평: 코딩 에이전트 보상에 대한 은탄환은 없다",
+      "title_en": "The Verification Horizon: No Silver Bullet for Coding Agent Rewards",
+      "url": "https://huggingface.co/papers/2606.26300",
+      "summary": "코딩 에이전트 보상 시스템의 단일 해결책 부재를 분석한 Qwen 논문.",
+      "summary_en": "Qwen's analysis demonstrating that single comprehensive solutions for coding agent reward structures are insufficient."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "AI시대, 나의 전문성을 재설계하는 법",
+      "title_en": "Redesigning Your Expertise in the AI Era",
+      "url": "https://drive.google.com/file/d/19rY4idXdBoFyqqzu0ImZe45C31ETb7rC/view",
+      "summary": "회사의 AI 전환 여정이 환호에서 의구심까지 5단계를 거친다는 분석 발표자료.",
+      "summary_en": "Presentation analyzing five distinct phases companies undergo during AI transformation."
+    },
+    {
+      "title": "새로운 HTTP QUERY 메소드",
+      "title_en": "New HTTP QUERY Method Explained",
+      "url": "https://kreya.app/blog/new-http-query-method-explained/",
+      "summary": "RFC 10008로 정의된 HTTP QUERY 메소드가 기존 GET/POST 한계를 극복하는 방법.",
+      "summary_en": "Explores how RFC 10008 HTTP QUERY method addresses RESTful API search handling limitations."
+    },
+    {
+      "title": "ponytail - AI 에이전트를 가장 게으른 시니어 개발자처럼",
+      "title_en": "Ponytail: Making AI Agents Think Like Lazy Senior Developers",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "summary": "최고의 코드는 작성하지 않은 코드라는 철학으로 AI 에이전트를 설계한 프로젝트.",
+      "summary_en": "AI agent design project built around the principle that the best code is code never written."
+    },
+    {
+      "title": "Code as Agent Harness — 코드를 에이전트의 실행 기반으로",
+      "title_en": "Code as Agent Harness: A 102-Page Survey",
+      "url": "https://code-as-harness.github.io/code-as-harness-webpage/",
+      "summary": "UIUC, Meta, Stanford 협력 논문으로, 코드가 LLM 결과물이 아닌 에이전트 실행 기반임을 주장.",
+      "summary_en": "Collaborative research arguing code should be viewed as an execution harness for agents rather than LLM output."
+    },
+    {
+      "title": "AI로 구글 해킹해서 7억원 벌기",
+      "title_en": "Earning $500K by Hacking Google with AI",
+      "url": "https://brutecat.com/articles/hacking-google-with-ai/",
+      "summary": "AI로 Google API 취약점을 자동 발견, 3개월 만에 50만 달러 버그 바운티 획득 사례.",
+      "summary_en": "Security research case using AI to systematically find Google API vulnerabilities, earning $500K in bug bounties."
+    }
+  ]
+}
