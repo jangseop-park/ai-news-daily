@@ -1,46 +1,31 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-06-28
-
-# AI 뉴스 — 2026-06-28
+> 마지막 업데이트: 2026-06-29
 
 ## 🔥 GitHub Trending (Python)
-
-- [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire): Claude Code를 활용한 가치투자 리서치 프레임워크. 4명의 투자 대가 방법론을 결합하고 멀티 에이전트 병렬 분석을 지원한다.
-- [commaai/openpilot](https://github.com/commaai/openpilot): 300개 이상의 차량 모델에서 운전자 보조 시스템을 강화하는 로보틱스 운영체제.
-- [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master): 문서로부터 편집 가능한 파워포인트를 생성하는 AI 도구. 네이티브 도형·애니메이션·음성 내레이션 발표자 노트를 지원한다.
-- [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler): 샤오훙수·더우인·콰이쇼우·빌리빌리·웨이보 등 중국 주요 SNS의 게시물·댓글·영상을 수집하는 웹 크롤러.
-- [topoteretes/cognee](https://github.com/topoteretes/cognee): 자체 호스팅 지식 그래프 엔진으로 에이전트에 세션 간 장기 기억을 제공하는 오픈소스 AI 메모리 플랫폼.
+- [ai-berkshire](https://github.com/xbtlin/ai-berkshire): An AI-era value investing research framework leveraging Claude Code with multi-agent parallel analysis
+- [MinerU](https://github.com/opendatalab/MinerU): Transforms complex documents like PDFs into LLM-ready markdown/JSON for agentic workflows
+- [lingbot-map](https://github.com/Robbyant/lingbot-map): A feed-forward 3D foundation model for reconstructing scenes from streaming data
+- [openpilot](https://github.com/commaai/openpilot): An operating system for robotics that upgrades driver assistance systems on 300+ supported vehicles
+- [cupy](https://github.com/cupy/cupy): NumPy and SciPy implementations optimized for GPU acceleration via CUDA
 
 ## 📄 Hugging Face Papers
-
-- [DanceOPD: 온-폴리시 생성 필드 증류](https://huggingface.co/papers/2606.27377)
-  ByteDance Seed가 온-폴리시 학습 기법으로 생성 필드를 증류하는 방법을 제시한다.
-- [로봇 제어를 위한 인-컨텍스트 월드 모델링](https://huggingface.co/papers/2606.26025)
-  월드 모델을 인-컨텍스트로 적응시켜 로봇 제어 성능을 높이는 방법을 탐구한다.
-- [OPID: 에이전트 강화학습을 위한 온-폴리시 스킬 증류](https://huggingface.co/papers/2606.26790)
-  온-폴리시 학습 방식으로 강화학습 에이전트의 스킬 증류 문제를 다룬다.
-- [Qwen-Image-Agent: 실제 이미지 생성의 컨텍스트 격차 해소](https://huggingface.co/papers/2606.26907)
-  Qwen이 실제 이미지 생성에서 맥락적 일관성을 유지하는 과제를 다룬다.
-- [검증 지평선: 코딩 에이전트 보상에 만능 해법은 없다](https://huggingface.co/papers/2606.26300)
-  Qwen이 코딩 에이전트의 보상 설계에 존재하는 근본적 한계를 분석한다.
+- [DanceOPD: On-Policy Generative Field Distillation](https://huggingface.co/papers/2606.27377): A method for distilling generative models using on-policy learning approaches to improve efficiency.
+- [In-Context World Modeling for Robotic Control](https://huggingface.co/papers/2606.26025): Develops world models that learn robotic control policies through in-context adaptation mechanisms.
+- [OPID: On-Policy Skill Distillation for Agentic Reinforcement Learning](https://huggingface.co/papers/2606.26790): Proposes skill distillation techniques for training agentic systems using on-policy reinforcement learning.
+- [Qwen-Image-Agent: Bridging the Context Gap in Real-World Image Generation](https://huggingface.co/papers/2606.26907): Addresses contextual limitations in image generation systems through agent-based approaches.
+- [The Verification Horizon: No Silver Bullet for Coding Agent Rewards](https://huggingface.co/papers/2606.26300): Analyzes limitations in reward structures for coding agents, showing no universal solution exists.
 
 ## 🦉 GeekNews
-
-- [AI시대, 나의 전문성을 재설계하는 법](https://drive.google.com/file/d/19rY4idXdBoFyqqzu0ImZe45C31ETb7rC/view)
-  기업이 AI 전환을 거치는 다섯 단계와 그 과정에서 개인의 전문성을 재설계하는 방법을 다룬 발표 자료.
-- [새로운 HTTP QUERY 메소드](https://news.hada.io/topic?id=30846)
-  복잡한 검색 작업에서 GET·POST의 한계를 보완하기 위해 도입된 새 HTTP QUERY 메소드(RFC) 소개.
-- [37signals의 의사결정 가이드](https://news.hada.io/topic?id=30872)
-  조직을 사람과 의사결정의 집합으로 정의하고, 의사결정 방식이 사업 운영을 좌우한다고 강조한다.
-- [대부분의 스타트업은 번(burn) 문제가 아니라 의사결정 문제를 안고 있다](https://news.hada.io/topic?id=30835)
-  실패한 431개 VC 투자 스타트업 분석 결과, 자금 고갈은 더 깊은 의사결정 문제의 증상일 뿐이라고 분석한다.
-- [ponytail - AI 에이전트를 가장 게으른 시니어 개발자처럼 생각하게 만들기](https://news.hada.io/topic?id=30701)
-  최소한의 코드를 짜고 불필요한 복잡성을 피하는 숙련된 개발자처럼 AI 에이전트를 동작시키는 프로젝트.
+- [Fintech Engineering Handbook](https://w.pitula.me/fintech-engineering-handbook/): A handbook covering system design principles for financial data handling and monetary representation methods.
+- [Peeking Inside Reddit's Anti-Spam Systems](https://lyra.horse/blog/2026/06/reddit-spam-internals/): Analysis of Reddit's spam removal mechanisms revealed through a temporary system error.
+- [Paca - Open Source Project Management for Human-AI Collaboration](https://github.com/Paca-AI/paca): A self-hosted project management platform with AI agents as core components.
+- [Redesigning Your Expertise in the AI Era](https://drive.google.com/file/d/19rY4idXdBoFyqqzu0ImZe45C31ETb7rC/view): A presentation examining five stages of corporate AI transformation and strategies for professional reinvention.
+- [The New HTTP QUERY Method](https://kreya.app/blog/new-http-query-method-explained/): Explanation of the RFC 10008 HTTP QUERY method that addresses limitations of GET and POST for complex API searches.
 
 ---
 ## 📅 이전 날짜
-
+- [2026-06-28](data/2026-06-28.md)
 - [2026-06-27](data/2026-06-27.md)
 - [2026-06-26](data/2026-06-26.md)
 - [2026-06-25](data/2026-06-25.md)
@@ -69,5 +54,3 @@
 - [2026-06-02](data/2026-06-02.md)
 - [2026-06-01](data/2026-06-01.md)
 - [2026-05-31](data/2026-05-31.md)
-- [2026-05-30](data/2026-05-30.md)
-- [2026-05-29](data/2026-05-29.md)
