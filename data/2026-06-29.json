@@ -1,0 +1,109 @@
+{
+  "date": "2026-06-29",
+  "github_trending": [
+    {
+      "name": "ai-berkshire",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "description": "Claude Code 기반의 가치투자 연구 프레임워크. 네 거장의 투자 방법론과 멀티 에이전트 분석 통합",
+      "description_en": "An AI-era value investing research framework leveraging Claude Code with multi-agent parallel analysis"
+    },
+    {
+      "name": "MinerU",
+      "url": "https://github.com/opendatalab/MinerU",
+      "description": "PDF 및 Office 문서 같은 복잡한 파일을 AI 워크플로우를 위해 마크다운/JSON으로 변환",
+      "description_en": "Transforms complex documents like PDFs into LLM-ready markdown/JSON for agentic workflows"
+    },
+    {
+      "name": "lingbot-map",
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "description": "스트리밍 데이터로부터 장면을 재구성하기 위한 피드포워드 3D 기초 모델",
+      "description_en": "A feed-forward 3D foundation model for reconstructing scenes from streaming data"
+    },
+    {
+      "name": "openpilot",
+      "url": "https://github.com/commaai/openpilot",
+      "description": "로보틱스용 운영체제. 300개 이상 차량의 운전자 보조 시스템 업그레이드",
+      "description_en": "An operating system for robotics that upgrades driver assistance systems on 300+ supported vehicles"
+    },
+    {
+      "name": "cupy",
+      "url": "https://github.com/cupy/cupy",
+      "description": "GPU용 NumPy 및 SciPy 라이브러리 — CUDA 가속 배열 연산",
+      "description_en": "NumPy and SciPy implementations optimized for GPU acceleration via CUDA"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "DanceOPD: 정책 기반 생성 필드 증류",
+      "title_en": "DanceOPD: On-Policy Generative Field Distillation",
+      "url": "https://huggingface.co/papers/2606.27377",
+      "summary": "정책 기반 학습을 활용하여 생성 모델의 효율성을 개선하는 증류 방법을 제시합니다.",
+      "summary_en": "A method for distilling generative models using on-policy learning approaches to improve efficiency."
+    },
+    {
+      "title": "로봇 제어를 위한 문맥 내 세계 모델링",
+      "title_en": "In-Context World Modeling for Robotic Control",
+      "url": "https://huggingface.co/papers/2606.26025",
+      "summary": "문맥 내 적응 메커니즘을 통해 로봇 제어 정책을 학습하는 세계 모델을 개발합니다.",
+      "summary_en": "Develops world models that learn robotic control policies through in-context adaptation mechanisms."
+    },
+    {
+      "title": "OPID: 에이전트 강화학습을 위한 정책 기반 기술 증류",
+      "title_en": "OPID: On-Policy Skill Distillation for Agentic Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2606.26790",
+      "summary": "정책 기반 강화학습을 사용하여 에이전트 시스템을 훈련하기 위한 기술 증류 기법을 제안합니다.",
+      "summary_en": "Proposes skill distillation techniques for training agentic systems using on-policy reinforcement learning."
+    },
+    {
+      "title": "Qwen-Image-Agent: 실제 이미지 생성의 문맥 격차 해소",
+      "title_en": "Qwen-Image-Agent: Bridging the Context Gap in Real-World Image Generation",
+      "url": "https://huggingface.co/papers/2606.26907",
+      "summary": "에이전트 기반 접근법을 통해 이미지 생성 시스템의 문맥적 제약을 개선합니다.",
+      "summary_en": "Addresses contextual limitations in image generation systems through agent-based approaches."
+    },
+    {
+      "title": "검증 지평: 코딩 에이전트 보상의 만능 해결책 없음",
+      "title_en": "The Verification Horizon: No Silver Bullet for Coding Agent Rewards",
+      "url": "https://huggingface.co/papers/2606.26300",
+      "summary": "코딩 에이전트의 보상 구조 제약을 분석하여 보편적 해결책이 없음을 보여줍니다.",
+      "summary_en": "Analyzes limitations in reward structures for coding agents, showing no universal solution exists."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "핀테크 엔지니어링 핸드북",
+      "title_en": "Fintech Engineering Handbook",
+      "url": "https://w.pitula.me/fintech-engineering-handbook/",
+      "summary": "금융 데이터 처리 시스템 설계 원칙과 금액 표현 방식을 다룬 가이드.",
+      "summary_en": "A handbook covering system design principles for financial data handling and monetary representation methods."
+    },
+    {
+      "title": "Reddit 안티스팸 내부를 엿보다",
+      "title_en": "Peeking Inside Reddit's Anti-Spam Systems",
+      "url": "https://lyra.horse/blog/2026/06/reddit-spam-internals/",
+      "summary": "Reddit의 일시적 오류로 노출된 사이트 전체 스팸 제거 메커니즘과 내부 정책 분석.",
+      "summary_en": "Analysis of Reddit's spam removal mechanisms revealed through a temporary system error."
+    },
+    {
+      "title": "Paca — 인간과 AI 에이전트 협업 오픈소스 프로젝트 관리 도구",
+      "title_en": "Paca - Open Source Project Management for Human-AI Collaboration",
+      "url": "https://github.com/Paca-AI/paca",
+      "summary": "AI 에이전트가 핵심 구성 요소로 통합된 셀프 호스팅 프로젝트 관리 플랫폼.",
+      "summary_en": "A self-hosted project management platform with AI agents as core components."
+    },
+    {
+      "title": "AI시대, 나의 전문성을 재설계하는 법",
+      "title_en": "Redesigning Your Expertise in the AI Era",
+      "url": "https://drive.google.com/file/d/19rY4idXdBoFyqqzu0ImZe45C31ETb7rC/view",
+      "summary": "기업의 AI 전환 5단계 과정과 전문성 재구성 전략을 다룬 165페이지 슬라이드.",
+      "summary_en": "A presentation examining five stages of corporate AI transformation and strategies for professional reinvention."
+    },
+    {
+      "title": "새로운 HTTP QUERY 메소드",
+      "title_en": "The New HTTP QUERY Method",
+      "url": "https://kreya.app/blog/new-http-query-method-explained/",
+      "summary": "RFC 10008로 정의된 새 HTTP QUERY 메소드가 복잡한 API 검색 요청 처리의 한계를 해결하는 방법.",
+      "summary_en": "Explanation of the RFC 10008 HTTP QUERY method that addresses limitations of GET and POST for complex API searches."
+    }
+  ]
+}
