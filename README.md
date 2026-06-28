@@ -2,29 +2,45 @@
 
 > 마지막 업데이트: 2026-06-29
 
+# AI 뉴스 — 2026-06-29
+
 ## 🔥 GitHub Trending (Python)
-- [ai-berkshire](https://github.com/xbtlin/ai-berkshire): An AI-era value investing research framework leveraging Claude Code with multi-agent parallel analysis
-- [MinerU](https://github.com/opendatalab/MinerU): Transforms complex documents like PDFs into LLM-ready markdown/JSON for agentic workflows
-- [lingbot-map](https://github.com/Robbyant/lingbot-map): A feed-forward 3D foundation model for reconstructing scenes from streaming data
-- [openpilot](https://github.com/commaai/openpilot): An operating system for robotics that upgrades driver assistance systems on 300+ supported vehicles
-- [cupy](https://github.com/cupy/cupy): NumPy and SciPy implementations optimized for GPU acceleration via CUDA
+
+- [commaai/openpilot](https://github.com/commaai/openpilot): 로보틱스를 위한 오픈소스 운영체제. 300종 이상의 차량에서 운전자 보조 시스템을 업그레이드한다.
+- [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire): Claude Code/Codex 기반의 AI 시대 가치투자 연구 프레임워크. 버핏·멍거 등 4대 거장 방법론과 멀티 에이전트 분석을 결합했다.
+- [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map): 스트리밍 데이터로부터 장면을 복원하는 피드포워드 3D 파운데이션 모델.
+- [cupy/cupy](https://github.com/cupy/cupy): GPU를 위한 NumPy & SciPy 호환 라이브러리.
+- [opendatalab/MinerU](https://github.com/opendatalab/MinerU): PDF·오피스 문서 등 복잡한 문서를 LLM이 바로 쓸 수 있는 마크다운/JSON으로 변환한다.
 
 ## 📄 Hugging Face Papers
-- [DanceOPD: On-Policy Generative Field Distillation](https://huggingface.co/papers/2606.27377): A method for distilling generative models using on-policy learning approaches to improve efficiency.
-- [In-Context World Modeling for Robotic Control](https://huggingface.co/papers/2606.26025): Develops world models that learn robotic control policies through in-context adaptation mechanisms.
-- [OPID: On-Policy Skill Distillation for Agentic Reinforcement Learning](https://huggingface.co/papers/2606.26790): Proposes skill distillation techniques for training agentic systems using on-policy reinforcement learning.
-- [Qwen-Image-Agent: Bridging the Context Gap in Real-World Image Generation](https://huggingface.co/papers/2606.26907): Addresses contextual limitations in image generation systems through agent-based approaches.
-- [The Verification Horizon: No Silver Bullet for Coding Agent Rewards](https://huggingface.co/papers/2606.26300): Analyzes limitations in reward structures for coding agents, showing no universal solution exists.
+
+- [ABACUS: 이미지 개수 이해와 생성을 잇는 통합 파운데이션 모델](https://huggingface.co/papers/2606.23835)
+  객체·군중·지시표현 카운팅과 개수에 충실한 이미지 생성을 벤치마크별 추가 학습 없이 처리하는 통합 비전-언어 모델. 3B 파라미터 모델에 밀도 인식 적응형 줌 등 세 가지 기법을 더했다.
+- [사후학습의 간과된 공짜 점심: LLM 에이전트를 위한 진행 우위](https://huggingface.co/papers/2606.26080)
+  에이전트 환경에서 단계별 보상 모델 구축은 매우 어렵다. 저자들은 RL 사후학습이 이미 그 재료를 제공함을 보이며, 별도 주석 없이 진행 우위 신호를 끌어낸다.
+- [긴 추론을 위한 정보 인식 KV 캐시 압축](https://huggingface.co/papers/2606.26875)
+  추론 능력 향상으로 KV 캐시가 커지는 문제를, 어텐션 가중치만이 아니라 정보이론적 신호까지 활용해 토큰 중요도를 추정하는 방식으로 압축한다.
+- [EO-WM: 확률적 지구관측 예측을 위한 물리 기반 월드 모델](https://huggingface.co/papers/2606.27277)
+  위성 관측으로 미래 지표 변화를 예측하는 문제를 날씨를 조건 신호로 둔 부분관측 월드모델 문제로 보고, 물리 정보를 결합해 불확실성을 다룬다.
+- [LISA: 시각 조건 제어 생성을 위한 우도 점수 정렬](https://huggingface.co/papers/2606.27192)
+  사이드 네트워크로 시각 조건을 인코딩해 고정된 본 네트워크에 융합하는 이중 분기 방식을 재검토하고, 사이드 분기의 역할과 학습 효율을 분석한다.
 
 ## 🦉 GeekNews
-- [Fintech Engineering Handbook](https://w.pitula.me/fintech-engineering-handbook/): A handbook covering system design principles for financial data handling and monetary representation methods.
-- [Peeking Inside Reddit's Anti-Spam Systems](https://lyra.horse/blog/2026/06/reddit-spam-internals/): Analysis of Reddit's spam removal mechanisms revealed through a temporary system error.
-- [Paca - Open Source Project Management for Human-AI Collaboration](https://github.com/Paca-AI/paca): A self-hosted project management platform with AI agents as core components.
-- [Redesigning Your Expertise in the AI Era](https://drive.google.com/file/d/19rY4idXdBoFyqqzu0ImZe45C31ETb7rC/view): A presentation examining five stages of corporate AI transformation and strategies for professional reinvention.
-- [The New HTTP QUERY Method](https://kreya.app/blog/new-http-query-method-explained/): Explanation of the RFC 10008 HTTP QUERY method that addresses limitations of GET and POST for complex API searches.
+
+- [Paca - 인간과 AI 에이전트 협업을 위한 오픈소스 프로젝트 관리 도구](https://news.hada.io/topic?id=30899)
+  사람과 AI 에이전트가 함께 일하도록 설계된 오픈소스 프로젝트 관리 도구.
+- [구형 하드웨어에서 Linux로 PC 되살리기: 2026 가이드](https://news.hada.io/topic?id=30872)
+  오래된 PC를 리눅스로 다시 쓸 만하게 살려내는 2026년판 실전 가이드.
+- [Reddit 안티스팸 내부를 엿보다](https://news.hada.io/topic?id=30892)
+  Reddit이 스팸을 어떻게 탐지·차단하는지 내부 동작을 들여다본 글.
+- [AI가 RFIC 설계의 '흑마술'을 배우다](https://news.hada.io/topic?id=30863)
+  숙련 엔지니어의 직관에 의존하던 RF 집적회로 설계를 AI가 학습해 자동화하려는 시도를 다룬다.
+- [NetTools - 가입·추적 없는 무료 네트워크/보안/개발 도구 45종](https://news.hada.io/topic?id=30906)
+  가입·광고·추적 없이 쓰는 네트워크·보안·개발용 무료 온라인 도구 45종 모음.
 
 ---
 ## 📅 이전 날짜
+
 - [2026-06-28](data/2026-06-28.md)
 - [2026-06-27](data/2026-06-27.md)
 - [2026-06-26](data/2026-06-26.md)
