@@ -2,108 +2,108 @@
   "date": "2026-06-29",
   "github_trending": [
     {
-      "name": "ai-berkshire",
-      "url": "https://github.com/xbtlin/ai-berkshire",
-      "description": "Claude Code 기반의 가치투자 연구 프레임워크. 네 거장의 투자 방법론과 멀티 에이전트 분석 통합",
-      "description_en": "An AI-era value investing research framework leveraging Claude Code with multi-agent parallel analysis"
-    },
-    {
-      "name": "MinerU",
-      "url": "https://github.com/opendatalab/MinerU",
-      "description": "PDF 및 Office 문서 같은 복잡한 파일을 AI 워크플로우를 위해 마크다운/JSON으로 변환",
-      "description_en": "Transforms complex documents like PDFs into LLM-ready markdown/JSON for agentic workflows"
-    },
-    {
-      "name": "lingbot-map",
-      "url": "https://github.com/Robbyant/lingbot-map",
-      "description": "스트리밍 데이터로부터 장면을 재구성하기 위한 피드포워드 3D 기초 모델",
-      "description_en": "A feed-forward 3D foundation model for reconstructing scenes from streaming data"
-    },
-    {
-      "name": "openpilot",
+      "name": "commaai/openpilot",
       "url": "https://github.com/commaai/openpilot",
-      "description": "로보틱스용 운영체제. 300개 이상 차량의 운전자 보조 시스템 업그레이드",
-      "description_en": "An operating system for robotics that upgrades driver assistance systems on 300+ supported vehicles"
+      "description": "로보틱스를 위한 오픈소스 운영체제. 300종 이상의 차량에서 운전자 보조 시스템을 업그레이드한다.",
+      "description_en": "An operating system for robotics; upgrades the driver assistance system on 300+ supported cars."
     },
     {
-      "name": "cupy",
+      "name": "xbtlin/ai-berkshire",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "description": "Claude Code/Codex 기반의 AI 시대 가치투자 연구 프레임워크. 버핏·멍거 등 4대 거장 방법론과 멀티 에이전트 분석을 결합했다.",
+      "description_en": "AI-era value investing research framework built for Claude Code/Codex; combines 4 masters' methodologies with multi-agent adversarial analysis."
+    },
+    {
+      "name": "Robbyant/lingbot-map",
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "description": "스트리밍 데이터로부터 장면을 복원하는 피드포워드 3D 파운데이션 모델.",
+      "description_en": "A feed-forward 3D foundation model for reconstructing scenes from streaming data."
+    },
+    {
+      "name": "cupy/cupy",
       "url": "https://github.com/cupy/cupy",
-      "description": "GPU용 NumPy 및 SciPy 라이브러리 — CUDA 가속 배열 연산",
-      "description_en": "NumPy and SciPy implementations optimized for GPU acceleration via CUDA"
+      "description": "GPU를 위한 NumPy & SciPy 호환 라이브러리.",
+      "description_en": "NumPy & SciPy for GPU."
+    },
+    {
+      "name": "opendatalab/MinerU",
+      "url": "https://github.com/opendatalab/MinerU",
+      "description": "PDF·오피스 문서 등 복잡한 문서를 LLM이 바로 쓸 수 있는 마크다운/JSON으로 변환한다.",
+      "description_en": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for agentic workflows."
     }
   ],
   "huggingface": [
     {
-      "title": "DanceOPD: 정책 기반 생성 필드 증류",
-      "title_en": "DanceOPD: On-Policy Generative Field Distillation",
-      "url": "https://huggingface.co/papers/2606.27377",
-      "summary": "정책 기반 학습을 활용하여 생성 모델의 효율성을 개선하는 증류 방법을 제시합니다.",
-      "summary_en": "A method for distilling generative models using on-policy learning approaches to improve efficiency."
+      "title": "ABACUS: 이미지 개수 이해와 생성을 잇는 통합 파운데이션 모델",
+      "title_en": "ABACUS: Adapting Unified Foundation Model for Bridging Image Count Understanding and Generation",
+      "url": "https://huggingface.co/papers/2606.23835",
+      "summary": "객체·군중·지시표현 카운팅과 개수에 충실한 이미지 생성을 벤치마크별 추가 학습 없이 처리하는 통합 비전-언어 모델. 3B 파라미터 모델에 밀도 인식 적응형 줌 등 세 가지 기법을 더했다.",
+      "summary_en": "A unified vision-language model handling object/crowd/referring-expression counting and count-faithful generation without benchmark-specific training, built on a 3B foundation model with density-aware adaptive zooming."
     },
     {
-      "title": "로봇 제어를 위한 문맥 내 세계 모델링",
-      "title_en": "In-Context World Modeling for Robotic Control",
-      "url": "https://huggingface.co/papers/2606.26025",
-      "summary": "문맥 내 적응 메커니즘을 통해 로봇 제어 정책을 학습하는 세계 모델을 개발합니다.",
-      "summary_en": "Develops world models that learn robotic control policies through in-context adaptation mechanisms."
+      "title": "사후학습의 간과된 공짜 점심: LLM 에이전트를 위한 진행 우위",
+      "title_en": "Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents",
+      "url": "https://huggingface.co/papers/2606.26080",
+      "summary": "에이전트 환경에서 단계별 보상 모델 구축은 매우 어렵다. 저자들은 RL 사후학습이 이미 그 재료를 제공함을 보이며, 별도 주석 없이 진행 우위 신호를 끌어낸다.",
+      "summary_en": "Building step-level process reward models for agents is hard; the authors show RL post-training already provides the ingredients, extracting a 'progress advantage' signal without extra annotation."
     },
     {
-      "title": "OPID: 에이전트 강화학습을 위한 정책 기반 기술 증류",
-      "title_en": "OPID: On-Policy Skill Distillation for Agentic Reinforcement Learning",
-      "url": "https://huggingface.co/papers/2606.26790",
-      "summary": "정책 기반 강화학습을 사용하여 에이전트 시스템을 훈련하기 위한 기술 증류 기법을 제안합니다.",
-      "summary_en": "Proposes skill distillation techniques for training agentic systems using on-policy reinforcement learning."
+      "title": "긴 추론을 위한 정보 인식 KV 캐시 압축",
+      "title_en": "Information-Aware KV Cache Compression for Long Reasoning",
+      "url": "https://huggingface.co/papers/2606.26875",
+      "summary": "추론 능력 향상으로 KV 캐시가 커지는 문제를, 어텐션 가중치만이 아니라 정보이론적 신호까지 활용해 토큰 중요도를 추정하는 방식으로 압축한다.",
+      "summary_en": "Compresses the growing KV cache for long reasoning by estimating token importance with complementary information-theoretic signals, not attention weights alone."
     },
     {
-      "title": "Qwen-Image-Agent: 실제 이미지 생성의 문맥 격차 해소",
-      "title_en": "Qwen-Image-Agent: Bridging the Context Gap in Real-World Image Generation",
-      "url": "https://huggingface.co/papers/2606.26907",
-      "summary": "에이전트 기반 접근법을 통해 이미지 생성 시스템의 문맥적 제약을 개선합니다.",
-      "summary_en": "Addresses contextual limitations in image generation systems through agent-based approaches."
+      "title": "EO-WM: 확률적 지구관측 예측을 위한 물리 기반 월드 모델",
+      "title_en": "EO-WM: A Physically Informed World Model for Probabilistic Earth Observation Forecasting",
+      "url": "https://huggingface.co/papers/2606.27277",
+      "summary": "위성 관측으로 미래 지표 변화를 예측하는 문제를 날씨를 조건 신호로 둔 부분관측 월드모델 문제로 보고, 물리 정보를 결합해 불확실성을 다룬다.",
+      "summary_en": "Frames satellite-based Earth-surface forecasting as a weather-conditioned, partially-observed world-modeling problem, incorporating physical priors to handle uncertainty."
     },
     {
-      "title": "검증 지평: 코딩 에이전트 보상의 만능 해결책 없음",
-      "title_en": "The Verification Horizon: No Silver Bullet for Coding Agent Rewards",
-      "url": "https://huggingface.co/papers/2606.26300",
-      "summary": "코딩 에이전트의 보상 구조 제약을 분석하여 보편적 해결책이 없음을 보여줍니다.",
-      "summary_en": "Analyzes limitations in reward structures for coding agents, showing no universal solution exists."
+      "title": "LISA: 시각 조건 제어 생성을 위한 우도 점수 정렬",
+      "title_en": "LISA: Likelihood Score Alignment for Visual-condition Controllable Generation",
+      "url": "https://huggingface.co/papers/2606.27192",
+      "summary": "사이드 네트워크로 시각 조건을 인코딩해 고정된 본 네트워크에 융합하는 이중 분기 방식을 재검토하고, 사이드 분기의 역할과 학습 효율을 분석한다.",
+      "summary_en": "Revisits the dual-branch paradigm that encodes visual conditions in a side network fused into a frozen main net, analyzing the side branch's role and training efficiency."
     }
   ],
   "geeknews": [
     {
-      "title": "핀테크 엔지니어링 핸드북",
-      "title_en": "Fintech Engineering Handbook",
-      "url": "https://w.pitula.me/fintech-engineering-handbook/",
-      "summary": "금융 데이터 처리 시스템 설계 원칙과 금액 표현 방식을 다룬 가이드.",
-      "summary_en": "A handbook covering system design principles for financial data handling and monetary representation methods."
+      "title": "Paca - 인간과 AI 에이전트 협업을 위한 오픈소스 프로젝트 관리 도구",
+      "title_en": "Paca - open-source project management tool for human-AI agent collaboration",
+      "url": "https://news.hada.io/topic?id=30899",
+      "summary": "사람과 AI 에이전트가 함께 일하도록 설계된 오픈소스 프로젝트 관리 도구.",
+      "summary_en": "An open-source project management tool designed for humans and AI agents to collaborate."
+    },
+    {
+      "title": "구형 하드웨어에서 Linux로 PC 되살리기: 2026 가이드",
+      "title_en": "Reviving old hardware with Linux: a 2026 guide",
+      "url": "https://news.hada.io/topic?id=30872",
+      "summary": "오래된 PC를 리눅스로 다시 쓸 만하게 살려내는 2026년판 실전 가이드.",
+      "summary_en": "A 2026 practical guide to bringing aging PCs back to life with Linux."
     },
     {
       "title": "Reddit 안티스팸 내부를 엿보다",
-      "title_en": "Peeking Inside Reddit's Anti-Spam Systems",
-      "url": "https://lyra.horse/blog/2026/06/reddit-spam-internals/",
-      "summary": "Reddit의 일시적 오류로 노출된 사이트 전체 스팸 제거 메커니즘과 내부 정책 분석.",
-      "summary_en": "Analysis of Reddit's spam removal mechanisms revealed through a temporary system error."
+      "title_en": "A peek inside Reddit's anti-spam systems",
+      "url": "https://news.hada.io/topic?id=30892",
+      "summary": "Reddit이 스팸을 어떻게 탐지·차단하는지 내부 동작을 들여다본 글.",
+      "summary_en": "A look into how Reddit detects and blocks spam under the hood."
     },
     {
-      "title": "Paca — 인간과 AI 에이전트 협업 오픈소스 프로젝트 관리 도구",
-      "title_en": "Paca - Open Source Project Management for Human-AI Collaboration",
-      "url": "https://github.com/Paca-AI/paca",
-      "summary": "AI 에이전트가 핵심 구성 요소로 통합된 셀프 호스팅 프로젝트 관리 플랫폼.",
-      "summary_en": "A self-hosted project management platform with AI agents as core components."
+      "title": "AI가 RFIC 설계의 '흑마술'을 배우다",
+      "title_en": "AI learns the 'black magic' of RFIC design",
+      "url": "https://news.hada.io/topic?id=30863",
+      "summary": "숙련 엔지니어의 직관에 의존하던 RF 집적회로 설계를 AI가 학습해 자동화하려는 시도를 다룬다.",
+      "summary_en": "AI is learning to automate radio-frequency IC design, long reliant on expert intuition."
     },
     {
-      "title": "AI시대, 나의 전문성을 재설계하는 법",
-      "title_en": "Redesigning Your Expertise in the AI Era",
-      "url": "https://drive.google.com/file/d/19rY4idXdBoFyqqzu0ImZe45C31ETb7rC/view",
-      "summary": "기업의 AI 전환 5단계 과정과 전문성 재구성 전략을 다룬 165페이지 슬라이드.",
-      "summary_en": "A presentation examining five stages of corporate AI transformation and strategies for professional reinvention."
-    },
-    {
-      "title": "새로운 HTTP QUERY 메소드",
-      "title_en": "The New HTTP QUERY Method",
-      "url": "https://kreya.app/blog/new-http-query-method-explained/",
-      "summary": "RFC 10008로 정의된 새 HTTP QUERY 메소드가 복잡한 API 검색 요청 처리의 한계를 해결하는 방법.",
-      "summary_en": "Explanation of the RFC 10008 HTTP QUERY method that addresses limitations of GET and POST for complex API searches."
+      "title": "NetTools - 가입·추적 없는 무료 네트워크/보안/개발 도구 45종",
+      "title_en": "NetTools - 45 free network/security/dev tools, no signup or tracking",
+      "url": "https://news.hada.io/topic?id=30906",
+      "summary": "가입·광고·추적 없이 쓰는 네트워크·보안·개발용 무료 온라인 도구 45종 모음.",
+      "summary_en": "A collection of 45 free online network/security/dev tools with no signup, ads, or tracking."
     }
   ]
 }
