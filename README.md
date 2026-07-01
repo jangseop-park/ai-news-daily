@@ -2,29 +2,45 @@
 
 > 마지막 업데이트: 2026-07-01
 
+# AI 뉴스 — 2026-07-01
+
 ## 🔥 GitHub Trending (Python)
-- [strix](https://github.com/usestrix/strix): Open-source AI penetration testing tool to find and fix your app's vulnerabilities
-- [video-use](https://github.com/browser-use/video-use): Edit videos with coding agents
-- [ai-berkshire](https://github.com/xbtlin/ai-berkshire): AI-era value investing research framework built for Claude Code with multi-agent analysis
-- [cupp](https://github.com/Mebus/cupp): Common User Passwords Profiler (CUPP)
-- [agents-cli](https://github.com/google/agents-cli): CLI and skills for creating, evaluating, and deploying AI agents on Google Cloud
+
+- [usestrix/strix](https://github.com/usestrix/strix): 앱의 취약점을 찾아 고쳐주는 오픈소스 AI 침투 테스트(모의해킹) 도구.
+- [browser-use/video-use](https://github.com/browser-use/video-use): 코딩 에이전트로 영상을 편집하는 도구.
+- [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire): Claude Code/Codex 기반의 AI 시대 가치투자 연구 프레임워크. 버핏·멍거·段永平·리루 4대 거장 방법론과 멀티 에이전트 병렬 분석을 결합.
+- [google/agents-cli](https://github.com/google/agents-cli): 어떤 코딩 어시스턴트든 Google Cloud에서 AI 에이전트를 만들고 평가·배포하는 전문가로 만들어주는 CLI와 스킬 모음.
+- [roboflow/supervision](https://github.com/roboflow/supervision): 재사용 가능한 컴퓨터 비전 도구 모음 라이브러리.
 
 ## 📄 Hugging Face Papers
-- [Orca: The World is in Your Mind](https://huggingface.co/papers/2606.30534): A large-scale collaborative research effort by 57 authors exploring world representations within the mind.
-- [BlockPilot: Instance-Adaptive Policy Learning for Diffusion-based Speculative Decoding](https://huggingface.co/papers/2606.31315): A method enabling instance-adaptive policy learning within diffusion-based speculative decoding systems.
-- [Dockerless: Environment-Free Program Verifier for Coding Agents](https://huggingface.co/papers/2606.28436): ByteDance's tool enabling program verification for coding agents without requiring containerized environments.
-- [DOPD: Dual On-policy Distillation](https://huggingface.co/papers/2606.30626): A technique utilizing dual on-policy distillation to optimize language model performance.
-- [Evolution Fine-Tuning: Learning to Discover Across 371 Optimization Tasks](https://huggingface.co/papers/2606.29082): Research from Minnesota NLP exploring fine-tuning approaches that learn discovery capabilities across 371 optimization tasks.
+
+- [Orca: 세계는 당신의 마음 속에 있다](https://huggingface.co/papers/2606.30534)
+  에이전트가 내부 월드 모델(마음 속 세계 표상)을 활용해 환경을 추론·계획하도록 하는 연구.
+- [BlockPilot: 확산 기반 추측 디코딩을 위한 인스턴스 적응형 정책 학습](https://huggingface.co/papers/2606.31315)
+  확산(diffusion) 기반 추측 디코딩의 속도를 높이기 위해 입력별로 적응하는 정책 학습 기법 제안.
+- [Dockerless: 코딩 에이전트를 위한 환경 없는 프로그램 검증기](https://huggingface.co/papers/2606.28436)
+  Docker 등 실행 환경 구성 없이 코딩 에이전트의 프로그램을 검증하는 방법.
+- [DOPD: 듀얼 온폴리시 증류](https://huggingface.co/papers/2606.30626)
+  두 개의 온폴리시 증류(distillation) 신호를 결합해 모델 학습 효율과 성능을 높이는 기법.
+- [Evolution Fine-Tuning: 371개 최적화 과제를 넘나드는 발견 학습](https://huggingface.co/papers/2606.29082)
+  371개의 다양한 최적화 과제에서 새로운 해법을 발견하도록 진화적 방식으로 파인튜닝하는 연구.
 
 ## 🦉 GeekNews
-- [Foldkit - A Frontend Framework for Correctness](https://foldkit.dev/): A TypeScript frontend framework built on Effect that provides architectural solutions beyond just rendering.
-- [What Happens When You Run a GPU Kernel](https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/): Detailed exploration of stages from compilation to GPU execution, including driver calls, warp scheduling, and memory hierarchies.
-- [Lost Confidence](https://longform.asmartbear.com/confidence/): Confidence-based prioritization frameworks like RICE are unreliable for unknown futures; better decision-making approaches needed.
-- [Memora: A Scalable Memory System for Long-Term Tasks](https://github.com/microsoft/Memora): Microsoft's memory framework enabling AI agents to automatically extract and store information from conversations and documents.
-- [Revised Rules of Engineering Leadership](https://lethain.com/revised-rules-of-engineering-leadership/): Five verified engineering leadership principles derived from real projects in AI-driven and high-growth environments.
+
+- [Claude Sonnet 5 공개](https://news.hada.io/topic?id=30992)
+  Anthropic이 차세대 중형 모델 Claude Sonnet 5를 공개했다는 소식.
+- [Atlassian의 DESIGN.md 공개 - 이식 가능한 디자인 컨텍스트 실전 테스트](https://news.hada.io/topic?id=30990)
+  Atlassian이 AI 코딩 도구 간에 옮겨 쓸 수 있는 디자인 컨텍스트 문서 DESIGN.md를 공개하고 실전 검증한 사례.
+- [pi-subagents - Pi를 위한 서브에이전트](https://news.hada.io/topic?id=30989)
+  Pi 환경에서 작업을 분담하는 서브에이전트를 구성하는 오픈소스 프로젝트.
+- [개정된 엔지니어링 리더십 규칙](https://news.hada.io/topic?id=30994)
+  현장 경험을 바탕으로 갱신한 엔지니어링 리더십 원칙을 정리한 글.
+- [Postgres 19의 새로운 점: 베타 릴리스 심층 분석](https://news.hada.io/topic?id=30982)
+  PostgreSQL 19 베타의 주요 신기능과 변경점을 심층 분석한 글.
 
 ---
 ## 📅 이전 날짜
+
 - [2026-06-29](data/2026-06-29.md)
 - [2026-06-28](data/2026-06-28.md)
 - [2026-06-27](data/2026-06-27.md)
