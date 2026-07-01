@@ -2,29 +2,45 @@
 
 > 마지막 업데이트: 2026-07-02
 
+# AI 뉴스 — 2026-07-02
+
 ## 🔥 GitHub Trending (Python)
-- [strix](https://github.com/usestrix/strix): Open-source AI penetration testing tool to find and fix your app's vulnerabilities
-- [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading): Your Personal Trading Agent
-- [olmocr](https://github.com/allenai/olmocr): Toolkit for linearizing PDFs for LLM datasets/training
-- [cupp](https://github.com/Mebus/cupp): Common User Passwords Profiler (CUPP)
-- [video-use](https://github.com/browser-use/video-use): Edit videos with coding agents
+
+- [usestrix/strix](https://github.com/usestrix/strix): 앱의 취약점을 찾아 수정하는 오픈소스 AI 침투 테스트(펜테스트) 도구.
+- [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading): 자연어 지시만으로 매매를 돕는 개인용 AI 트레이딩 에이전트.
+- [allenai/olmocr](https://github.com/allenai/olmocr): LLM 데이터셋 구축·학습을 위해 PDF를 선형 텍스트로 변환하는 툴킷.
+- [Mebus/cupp](https://github.com/Mebus/cupp): 대상 정보를 바탕으로 비밀번호 후보를 생성하는 일반 사용자 비밀번호 프로파일러(CUPP).
+- [Unclecheng-li/VulnClaw](https://github.com/Unclecheng-li/VulnClaw): AI 에이전트 + MCP 툴체인 + 침투 스킬 오케스트레이션으로, 자연어 입력만으로 정보 수집→취약점 발견→취약점 이용→보고서 생성의 전 과정을 자동화.
 
 ## 📄 Hugging Face Papers
-- [Orca: The World is in Your Mind](https://huggingface.co/papers/2606.30534): A large-scale multimodal model demonstrating capabilities across various visual understanding and reasoning tasks.
-- [Dockerless: Environment-Free Program Verifier for Coding Agents](https://huggingface.co/papers/2606.28436): Proposes a containerless program verification approach for coding agents to improve deployment efficiency.
-- [DOPD: Dual On-policy Distillation](https://huggingface.co/papers/2606.30626): Introduces a dual on-policy distillation method achieving both improved model performance and efficiency.
-- [BlockPilot: Instance-Adaptive Policy Learning for Diffusion-based Speculative Decoding](https://huggingface.co/papers/2606.31315): Presents an instance-adaptive policy learning approach for diffusion-based speculative decoding.
-- [Does VLA Even Know the Basics? Measuring Commonsense and World Knowledge Retention in Vision-Language-Action Models](https://huggingface.co/papers/2606.19297): Evaluates how well vision-language-action models retain commonsense and world knowledge through systematic benchmarking.
+
+- [Orca: 세상은 당신의 마음 속에 있다](https://huggingface.co/papers/2606.30534)
+  멀티모달 데이터로 '다음 상태 예측' 모델링을 통해 통합된 세계 잠재 공간을 학습하는 범용 월드 파운데이션 모델. 동결된 백본만으로도 다양한 다운스트림 작업에서 동급 특화 모델을 능가함.
+- [Dockerless: 코딩 에이전트를 위한 환경 없는 프로그램 검증기](https://huggingface.co/papers/2606.28436)
+  코드를 실행하지 않고 에이전트 방식으로 패치 정확도를 평가하는 검증기. Docker 등 환경 구축 비용 없이 SFT·RL 후처리 파이프라인을 가능하게 하며 최강 오픈소스 검증기를 14.3 AUC 앞섬.
+- [DOPD: 이중 온-폴리시 증류](https://huggingface.co/papers/2606.30626)
+  온-폴리시 증류의 '특권 착시' 문제를, 토큰별 감독을 교사·학생 정책 사이에서 어드밴티지 격차에 따라 동적으로 라우팅해 완화. LLM과 VLM 모두에서 기존 방식을 일관되게 능가.
+- [BlockPilot: 확산 기반 스펙큘레이티브 디코딩을 위한 인스턴스 적응 정책 학습](https://huggingface.co/papers/2606.31315)
+  샘플마다 최적 블록 크기가 다르다는 점에 착안해, 프리필 표현으로부터 최적 블록 크기를 예측하는 경량 정책. Qwen3-4B에서 4.20배 속도 향상을 달성한 플러그앤플레이 기법.
+- [VLA는 기본을 알까? 비전-언어-행동 모델의 상식·세계 지식 보존 측정](https://huggingface.co/papers/2606.19297)
+  VLA 모델이 로봇 데이터 파인튜닝 후 상식·지식을 얼마나 유지하는지 '행동으로 답하기(Act2Answer)' 프로토콜로 평가. VLA가 단순 개념엔 강하나 복잡한 의미 범주에서 원본 VLM보다 큰 격차를 보임.
 
 ## 🦉 GeekNews
-- [What Happens When You Run a GPU Kernel](https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/): Details the internal processes from compilation through GPU execution including driver calls, command queuing, and warp scheduling.
-- [Foldkit - A Frontend Framework for Correctness](https://foldkit.dev/): A TypeScript framework built on Effect using Elm architecture, addressing both rendering and architectural concerns comprehensively.
-- [Revised Rules of Engineering Leadership](https://lethain.com/revised-rules-of-engineering-leadership/): Presents five validated engineering leadership principles tested in AI tool transitions and hypergrowth environments.
-- [Atlassian's DESIGN.md: Lessons from Testing Portable Design Context](https://www.atlassian.com/blog/ai-at-work/atlassians-design-md-is-here-what-we-learned-testing-portable-design-context-in-practice): A portable Markdown format addressing AI-generated UI degradation by preserving design system essentials across implementations.
-- [Lost Confidence](https://longform.asmartbear.com/confidence/): Argues that confidence-based prioritization frameworks like RICE often miss the mark and proposes better decision methods.
+
+- [개정된 엔지니어링 리더십 규칙](https://news.hada.io/topic?id=30994)
+  AI 도구 전환과 급성장(하이퍼그로스) 환경에서 지난 1년간 검증해 재정립한 엔지니어링 리더십 5대 규칙과 실제 프로젝트 사례.
+- [Atlassian의 DESIGN.md 공개 — 이식 가능한 디자인 컨텍스트의 교훈](https://news.hada.io/topic?id=30990)
+  AI가 생성하는 UI가 브랜드 정체성 없이 일반화되는 'slop' 문제를 해결하기 위해, 디자인 시스템 핵심 요소를 담는 이식 가능한 Markdown 포맷을 제안.
+- [우리는 작동 방식을 아는 마지막 세대](https://news.hada.io/topic?id=30981)
+  autoexec.bat·부팅 디스크·사운드 카드 인터럽트 등 기계의 조건을 직접 배워야 했던 1990년대와 달리, 추상화가 두터워진 지금 세대는 내부 작동을 모른 채 컴퓨팅을 쓴다는 성찰.
+- [CUDA 커널을 실행하면 내부에서 벌어지는 일](https://news.hada.io/topic?id=30953)
+  단순한 벡터 덧셈 CUDA 프로그램조차 결과를 얻기까지 컴파일 파이프라인, 드라이버 호출, GPU 명령 큐, 워프 스케줄링, 메모리 계층을 거치는 전 과정을 해부.
+- [Memora: 장기 작업을 위한 확장형 메모리 시스템](https://news.hada.io/topic?id=30956)
+  AI 에이전트가 대화·문서에서 필요한 정보를 자동 추출해 장기적으로 저장·검색할 수 있게 지원하는 메모리 프레임워크.
 
 ---
 ## 📅 이전 날짜
+
 - [2026-07-01](data/2026-07-01.md)
 - [2026-06-29](data/2026-06-29.md)
 - [2026-06-28](data/2026-06-28.md)
