@@ -1,0 +1,109 @@
+{
+  "date": "2026-07-01",
+  "github_trending": [
+    {
+      "name": "strix",
+      "url": "https://github.com/usestrix/strix",
+      "description": "앱의 취약점을 찾고 수정하는 오픈소스 AI 침투 테스트 도구",
+      "description_en": "Open-source AI penetration testing tool to find and fix your app's vulnerabilities"
+    },
+    {
+      "name": "video-use",
+      "url": "https://github.com/browser-use/video-use",
+      "description": "코딩 에이전트를 사용하여 비디오 편집",
+      "description_en": "Edit videos with coding agents"
+    },
+    {
+      "name": "ai-berkshire",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "description": "Claude Code 기반의 가치 투자 연구 프레임워크이며 다중 에이전트 분석 지원",
+      "description_en": "AI-era value investing research framework built for Claude Code with multi-agent analysis"
+    },
+    {
+      "name": "cupp",
+      "url": "https://github.com/Mebus/cupp",
+      "description": "일반적인 사용자 비밀번호 프로필러",
+      "description_en": "Common User Passwords Profiler (CUPP)"
+    },
+    {
+      "name": "agents-cli",
+      "url": "https://github.com/google/agents-cli",
+      "description": "Google Cloud에서 AI 에이전트 생성, 평가 및 배포를 위한 CLI",
+      "description_en": "CLI and skills for creating, evaluating, and deploying AI agents on Google Cloud"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "오르카: 세계는 당신의 마음속에",
+      "title_en": "Orca: The World is in Your Mind",
+      "url": "https://huggingface.co/papers/2606.30534",
+      "summary": "57명의 저자가 참여한 대규모 연구로, 마음속의 세계 표현을 탐구합니다.",
+      "summary_en": "A large-scale collaborative research effort by 57 authors exploring world representations within the mind."
+    },
+    {
+      "title": "블록파일럿: 확산 기반 추측 디코딩을 위한 인스턴스 적응형 정책 학습",
+      "title_en": "BlockPilot: Instance-Adaptive Policy Learning for Diffusion-based Speculative Decoding",
+      "url": "https://huggingface.co/papers/2606.31315",
+      "summary": "확산 모델 기반 추측 디코딩에서 인스턴스별 적응형 정책 학습을 수행하는 방법입니다.",
+      "summary_en": "A method enabling instance-adaptive policy learning within diffusion-based speculative decoding systems."
+    },
+    {
+      "title": "도커리스: 코딩 에이전트를 위한 환경 프리 프로그램 검증기",
+      "title_en": "Dockerless: Environment-Free Program Verifier for Coding Agents",
+      "url": "https://huggingface.co/papers/2606.28436",
+      "summary": "ByteDance에서 개발한 도구로, 컨테이너 환경 없이 코딩 에이전트를 위한 프로그램을 검증합니다.",
+      "summary_en": "ByteDance's tool enabling program verification for coding agents without requiring containerized environments."
+    },
+    {
+      "title": "DOPD: 이중 온-폴리시 증류",
+      "title_en": "DOPD: Dual On-policy Distillation",
+      "url": "https://huggingface.co/papers/2606.30626",
+      "summary": "이중 온-폴리시 증류 기법을 통해 언어 모델 성능을 최적화합니다.",
+      "summary_en": "A technique utilizing dual on-policy distillation to optimize language model performance."
+    },
+    {
+      "title": "진화 미세조정: 371개 최적화 작업에서 발견하는 법 학습",
+      "title_en": "Evolution Fine-Tuning: Learning to Discover Across 371 Optimization Tasks",
+      "url": "https://huggingface.co/papers/2606.29082",
+      "summary": "미네소타 NLP 팀의 연구로, 371개 최적화 작업 전반에서 발견 능력을 학습하는 미세조정 방법입니다.",
+      "summary_en": "Research from Minnesota NLP exploring fine-tuning approaches that learn discovery capabilities across 371 optimization tasks."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "Foldkit - 정확성을 위한 프론트엔드 프레임워크",
+      "title_en": "Foldkit - A Frontend Framework for Correctness",
+      "url": "https://foldkit.dev/",
+      "summary": "Effect 위에 구축된 TypeScript 프론트엔드 프레임워크로, 렌더링 외에 아키텍처 자체를 제공합니다.",
+      "summary_en": "A TypeScript frontend framework built on Effect that provides architectural solutions beyond just rendering."
+    },
+    {
+      "title": "CUDA 커널을 실행하면 내부에서 벌어지는 일",
+      "title_en": "What Happens When You Run a GPU Kernel",
+      "url": "https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/",
+      "summary": "벡터 덧셈 CUDA 프로그램이 결과를 얻기까지 컴파일, 드라이버 호출, 워프 스케줄링 등 과정을 상세히 설명합니다.",
+      "summary_en": "Detailed exploration of stages from compilation to GPU execution, including driver calls, warp scheduling, and memory hierarchies."
+    },
+    {
+      "title": "잃어버린 확신",
+      "title_en": "Lost Confidence",
+      "url": "https://longform.asmartbear.com/confidence/",
+      "summary": "RICE 같은 확신 기반 우선순위 프레임워크는 미래를 예측할 수 없으므로 더 나은 의사결정 방법이 필요합니다.",
+      "summary_en": "Confidence-based prioritization frameworks like RICE are unreliable for unknown futures; better decision-making approaches needed."
+    },
+    {
+      "title": "Memora: 장기 작업을 위한 확장형 AI 메모리 시스템",
+      "title_en": "Memora: A Scalable Memory System for Long-Term Tasks",
+      "url": "https://github.com/microsoft/Memora",
+      "summary": "Microsoft의 AI 에이전트용 메모리 프레임워크로, 대화와 문서에서 정보를 자동 추출해 장기 저장합니다.",
+      "summary_en": "Microsoft's memory framework enabling AI agents to automatically extract and store information from conversations and documents."
+    },
+    {
+      "title": "개정된 엔지니어링 리더십 규칙",
+      "title_en": "Revised Rules of Engineering Leadership",
+      "url": "https://lethain.com/revised-rules-of-engineering-leadership/",
+      "summary": "AI 도구 전환과 빠른 성장 환경에서 검증한 엔지니어링 리더십 5대 규칙과 실제 프로젝트 사례를 제시합니다.",
+      "summary_en": "Five verified engineering leadership principles derived from real projects in AI-driven and high-growth environments."
+    }
+  ]
+}
