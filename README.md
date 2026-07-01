@@ -1,46 +1,31 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-06-29
-
-# AI 뉴스 — 2026-06-29
+> 마지막 업데이트: 2026-07-01
 
 ## 🔥 GitHub Trending (Python)
-
-- [commaai/openpilot](https://github.com/commaai/openpilot): 로보틱스를 위한 오픈소스 운영체제. 300종 이상의 차량에서 운전자 보조 시스템을 업그레이드한다.
-- [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire): Claude Code/Codex 기반의 AI 시대 가치투자 연구 프레임워크. 버핏·멍거 등 4대 거장 방법론과 멀티 에이전트 분석을 결합했다.
-- [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map): 스트리밍 데이터로부터 장면을 복원하는 피드포워드 3D 파운데이션 모델.
-- [cupy/cupy](https://github.com/cupy/cupy): GPU를 위한 NumPy & SciPy 호환 라이브러리.
-- [opendatalab/MinerU](https://github.com/opendatalab/MinerU): PDF·오피스 문서 등 복잡한 문서를 LLM이 바로 쓸 수 있는 마크다운/JSON으로 변환한다.
+- [strix](https://github.com/usestrix/strix): Open-source AI penetration testing tool to find and fix your app's vulnerabilities
+- [video-use](https://github.com/browser-use/video-use): Edit videos with coding agents
+- [ai-berkshire](https://github.com/xbtlin/ai-berkshire): AI-era value investing research framework built for Claude Code with multi-agent analysis
+- [cupp](https://github.com/Mebus/cupp): Common User Passwords Profiler (CUPP)
+- [agents-cli](https://github.com/google/agents-cli): CLI and skills for creating, evaluating, and deploying AI agents on Google Cloud
 
 ## 📄 Hugging Face Papers
-
-- [ABACUS: 이미지 개수 이해와 생성을 잇는 통합 파운데이션 모델](https://huggingface.co/papers/2606.23835)
-  객체·군중·지시표현 카운팅과 개수에 충실한 이미지 생성을 벤치마크별 추가 학습 없이 처리하는 통합 비전-언어 모델. 3B 파라미터 모델에 밀도 인식 적응형 줌 등 세 가지 기법을 더했다.
-- [사후학습의 간과된 공짜 점심: LLM 에이전트를 위한 진행 우위](https://huggingface.co/papers/2606.26080)
-  에이전트 환경에서 단계별 보상 모델 구축은 매우 어렵다. 저자들은 RL 사후학습이 이미 그 재료를 제공함을 보이며, 별도 주석 없이 진행 우위 신호를 끌어낸다.
-- [긴 추론을 위한 정보 인식 KV 캐시 압축](https://huggingface.co/papers/2606.26875)
-  추론 능력 향상으로 KV 캐시가 커지는 문제를, 어텐션 가중치만이 아니라 정보이론적 신호까지 활용해 토큰 중요도를 추정하는 방식으로 압축한다.
-- [EO-WM: 확률적 지구관측 예측을 위한 물리 기반 월드 모델](https://huggingface.co/papers/2606.27277)
-  위성 관측으로 미래 지표 변화를 예측하는 문제를 날씨를 조건 신호로 둔 부분관측 월드모델 문제로 보고, 물리 정보를 결합해 불확실성을 다룬다.
-- [LISA: 시각 조건 제어 생성을 위한 우도 점수 정렬](https://huggingface.co/papers/2606.27192)
-  사이드 네트워크로 시각 조건을 인코딩해 고정된 본 네트워크에 융합하는 이중 분기 방식을 재검토하고, 사이드 분기의 역할과 학습 효율을 분석한다.
+- [Orca: The World is in Your Mind](https://huggingface.co/papers/2606.30534): A large-scale collaborative research effort by 57 authors exploring world representations within the mind.
+- [BlockPilot: Instance-Adaptive Policy Learning for Diffusion-based Speculative Decoding](https://huggingface.co/papers/2606.31315): A method enabling instance-adaptive policy learning within diffusion-based speculative decoding systems.
+- [Dockerless: Environment-Free Program Verifier for Coding Agents](https://huggingface.co/papers/2606.28436): ByteDance's tool enabling program verification for coding agents without requiring containerized environments.
+- [DOPD: Dual On-policy Distillation](https://huggingface.co/papers/2606.30626): A technique utilizing dual on-policy distillation to optimize language model performance.
+- [Evolution Fine-Tuning: Learning to Discover Across 371 Optimization Tasks](https://huggingface.co/papers/2606.29082): Research from Minnesota NLP exploring fine-tuning approaches that learn discovery capabilities across 371 optimization tasks.
 
 ## 🦉 GeekNews
-
-- [Paca - 인간과 AI 에이전트 협업을 위한 오픈소스 프로젝트 관리 도구](https://news.hada.io/topic?id=30899)
-  사람과 AI 에이전트가 함께 일하도록 설계된 오픈소스 프로젝트 관리 도구.
-- [구형 하드웨어에서 Linux로 PC 되살리기: 2026 가이드](https://news.hada.io/topic?id=30872)
-  오래된 PC를 리눅스로 다시 쓸 만하게 살려내는 2026년판 실전 가이드.
-- [Reddit 안티스팸 내부를 엿보다](https://news.hada.io/topic?id=30892)
-  Reddit이 스팸을 어떻게 탐지·차단하는지 내부 동작을 들여다본 글.
-- [AI가 RFIC 설계의 '흑마술'을 배우다](https://news.hada.io/topic?id=30863)
-  숙련 엔지니어의 직관에 의존하던 RF 집적회로 설계를 AI가 학습해 자동화하려는 시도를 다룬다.
-- [NetTools - 가입·추적 없는 무료 네트워크/보안/개발 도구 45종](https://news.hada.io/topic?id=30906)
-  가입·광고·추적 없이 쓰는 네트워크·보안·개발용 무료 온라인 도구 45종 모음.
+- [Foldkit - A Frontend Framework for Correctness](https://foldkit.dev/): A TypeScript frontend framework built on Effect that provides architectural solutions beyond just rendering.
+- [What Happens When You Run a GPU Kernel](https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/): Detailed exploration of stages from compilation to GPU execution, including driver calls, warp scheduling, and memory hierarchies.
+- [Lost Confidence](https://longform.asmartbear.com/confidence/): Confidence-based prioritization frameworks like RICE are unreliable for unknown futures; better decision-making approaches needed.
+- [Memora: A Scalable Memory System for Long-Term Tasks](https://github.com/microsoft/Memora): Microsoft's memory framework enabling AI agents to automatically extract and store information from conversations and documents.
+- [Revised Rules of Engineering Leadership](https://lethain.com/revised-rules-of-engineering-leadership/): Five verified engineering leadership principles derived from real projects in AI-driven and high-growth environments.
 
 ---
 ## 📅 이전 날짜
-
+- [2026-06-29](data/2026-06-29.md)
 - [2026-06-28](data/2026-06-28.md)
 - [2026-06-27](data/2026-06-27.md)
 - [2026-06-26](data/2026-06-26.md)
@@ -69,4 +54,3 @@
 - [2026-06-03](data/2026-06-03.md)
 - [2026-06-02](data/2026-06-02.md)
 - [2026-06-01](data/2026-06-01.md)
-- [2026-05-31](data/2026-05-31.md)
