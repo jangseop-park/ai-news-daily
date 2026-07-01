@@ -1,46 +1,31 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-07-01
-
-# AI 뉴스 — 2026-07-01
+> 마지막 업데이트: 2026-07-02
 
 ## 🔥 GitHub Trending (Python)
-
-- [usestrix/strix](https://github.com/usestrix/strix): 앱의 취약점을 찾아 고쳐주는 오픈소스 AI 침투 테스트(모의해킹) 도구.
-- [browser-use/video-use](https://github.com/browser-use/video-use): 코딩 에이전트로 영상을 편집하는 도구.
-- [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire): Claude Code/Codex 기반의 AI 시대 가치투자 연구 프레임워크. 버핏·멍거·段永平·리루 4대 거장 방법론과 멀티 에이전트 병렬 분석을 결합.
-- [google/agents-cli](https://github.com/google/agents-cli): 어떤 코딩 어시스턴트든 Google Cloud에서 AI 에이전트를 만들고 평가·배포하는 전문가로 만들어주는 CLI와 스킬 모음.
-- [roboflow/supervision](https://github.com/roboflow/supervision): 재사용 가능한 컴퓨터 비전 도구 모음 라이브러리.
+- [strix](https://github.com/usestrix/strix): Open-source AI penetration testing tool to find and fix your app's vulnerabilities
+- [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading): Your Personal Trading Agent
+- [olmocr](https://github.com/allenai/olmocr): Toolkit for linearizing PDFs for LLM datasets/training
+- [cupp](https://github.com/Mebus/cupp): Common User Passwords Profiler (CUPP)
+- [video-use](https://github.com/browser-use/video-use): Edit videos with coding agents
 
 ## 📄 Hugging Face Papers
-
-- [Orca: 세계는 당신의 마음 속에 있다](https://huggingface.co/papers/2606.30534)
-  에이전트가 내부 월드 모델(마음 속 세계 표상)을 활용해 환경을 추론·계획하도록 하는 연구.
-- [BlockPilot: 확산 기반 추측 디코딩을 위한 인스턴스 적응형 정책 학습](https://huggingface.co/papers/2606.31315)
-  확산(diffusion) 기반 추측 디코딩의 속도를 높이기 위해 입력별로 적응하는 정책 학습 기법 제안.
-- [Dockerless: 코딩 에이전트를 위한 환경 없는 프로그램 검증기](https://huggingface.co/papers/2606.28436)
-  Docker 등 실행 환경 구성 없이 코딩 에이전트의 프로그램을 검증하는 방법.
-- [DOPD: 듀얼 온폴리시 증류](https://huggingface.co/papers/2606.30626)
-  두 개의 온폴리시 증류(distillation) 신호를 결합해 모델 학습 효율과 성능을 높이는 기법.
-- [Evolution Fine-Tuning: 371개 최적화 과제를 넘나드는 발견 학습](https://huggingface.co/papers/2606.29082)
-  371개의 다양한 최적화 과제에서 새로운 해법을 발견하도록 진화적 방식으로 파인튜닝하는 연구.
+- [Orca: The World is in Your Mind](https://huggingface.co/papers/2606.30534): A large-scale multimodal model demonstrating capabilities across various visual understanding and reasoning tasks.
+- [Dockerless: Environment-Free Program Verifier for Coding Agents](https://huggingface.co/papers/2606.28436): Proposes a containerless program verification approach for coding agents to improve deployment efficiency.
+- [DOPD: Dual On-policy Distillation](https://huggingface.co/papers/2606.30626): Introduces a dual on-policy distillation method achieving both improved model performance and efficiency.
+- [BlockPilot: Instance-Adaptive Policy Learning for Diffusion-based Speculative Decoding](https://huggingface.co/papers/2606.31315): Presents an instance-adaptive policy learning approach for diffusion-based speculative decoding.
+- [Does VLA Even Know the Basics? Measuring Commonsense and World Knowledge Retention in Vision-Language-Action Models](https://huggingface.co/papers/2606.19297): Evaluates how well vision-language-action models retain commonsense and world knowledge through systematic benchmarking.
 
 ## 🦉 GeekNews
-
-- [Claude Sonnet 5 공개](https://news.hada.io/topic?id=30992)
-  Anthropic이 차세대 중형 모델 Claude Sonnet 5를 공개했다는 소식.
-- [Atlassian의 DESIGN.md 공개 - 이식 가능한 디자인 컨텍스트 실전 테스트](https://news.hada.io/topic?id=30990)
-  Atlassian이 AI 코딩 도구 간에 옮겨 쓸 수 있는 디자인 컨텍스트 문서 DESIGN.md를 공개하고 실전 검증한 사례.
-- [pi-subagents - Pi를 위한 서브에이전트](https://news.hada.io/topic?id=30989)
-  Pi 환경에서 작업을 분담하는 서브에이전트를 구성하는 오픈소스 프로젝트.
-- [개정된 엔지니어링 리더십 규칙](https://news.hada.io/topic?id=30994)
-  현장 경험을 바탕으로 갱신한 엔지니어링 리더십 원칙을 정리한 글.
-- [Postgres 19의 새로운 점: 베타 릴리스 심층 분석](https://news.hada.io/topic?id=30982)
-  PostgreSQL 19 베타의 주요 신기능과 변경점을 심층 분석한 글.
+- [What Happens When You Run a GPU Kernel](https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/): Details the internal processes from compilation through GPU execution including driver calls, command queuing, and warp scheduling.
+- [Foldkit - A Frontend Framework for Correctness](https://foldkit.dev/): A TypeScript framework built on Effect using Elm architecture, addressing both rendering and architectural concerns comprehensively.
+- [Revised Rules of Engineering Leadership](https://lethain.com/revised-rules-of-engineering-leadership/): Presents five validated engineering leadership principles tested in AI tool transitions and hypergrowth environments.
+- [Atlassian's DESIGN.md: Lessons from Testing Portable Design Context](https://www.atlassian.com/blog/ai-at-work/atlassians-design-md-is-here-what-we-learned-testing-portable-design-context-in-practice): A portable Markdown format addressing AI-generated UI degradation by preserving design system essentials across implementations.
+- [Lost Confidence](https://longform.asmartbear.com/confidence/): Argues that confidence-based prioritization frameworks like RICE often miss the mark and proposes better decision methods.
 
 ---
 ## 📅 이전 날짜
-
+- [2026-07-01](data/2026-07-01.md)
 - [2026-06-29](data/2026-06-29.md)
 - [2026-06-28](data/2026-06-28.md)
 - [2026-06-27](data/2026-06-27.md)
@@ -69,4 +54,3 @@
 - [2026-06-04](data/2026-06-04.md)
 - [2026-06-03](data/2026-06-03.md)
 - [2026-06-02](data/2026-06-02.md)
-- [2026-06-01](data/2026-06-01.md)
