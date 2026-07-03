@@ -1,0 +1,109 @@
+{
+  "date": "2026-07-03",
+  "github_trending": [
+    {
+      "name": "strix",
+      "url": "https://github.com/usestrix/strix",
+      "description": "앱의 취약점을 찾고 수정하기 위한 오픈소스 AI 침투 테스트 도구",
+      "description_en": "Open-source AI penetration testing tool to find and fix your app's vulnerabilities"
+    },
+    {
+      "name": "video-use",
+      "url": "https://github.com/browser-use/video-use",
+      "description": "코딩 에이전트로 비디오를 편집하는 도구",
+      "description_en": "Edit videos with coding agents"
+    },
+    {
+      "name": "Vibe-Trading",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "description": "개인 AI 트레이딩 에이전트",
+      "description_en": "Your Personal Trading Agent"
+    },
+    {
+      "name": "agentskills",
+      "url": "https://github.com/agentskills/agentskills",
+      "description": "에이전트 스킬에 대한 명세 및 문서",
+      "description_en": "Specification and documentation for Agent Skills"
+    },
+    {
+      "name": "langflow",
+      "url": "https://github.com/langflow-ai/langflow",
+      "description": "AI 기반 에이전트와 워크플로우를 구축하고 배포하기 위한 플랫폼",
+      "description_en": "Powerful tool for building and deploying AI-powered agents and workflows"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "PerceptionRubrics: 인간 지각에 맞춘 다중모달 평가 보정",
+      "title_en": "PerceptionRubrics: Calibrating Multimodal Evaluation to Human Perception",
+      "url": "https://huggingface.co/papers/2606.28322",
+      "summary": "다중모달 평가 메트릭을 인간의 지각과 일치시키기 위한 평가 기준을 개발하는 연구입니다.",
+      "summary_en": "Develops evaluation rubrics for multimodal systems that better align with human perception and assessment standards."
+    },
+    {
+      "title": "ELDR: PD-분산형 MoE 서빙을 위한 전문가-지역성 인식 디코드 라우팅",
+      "title_en": "ELDR: Expert-Locality-Aware Decode Routing for PD-Disaggregated MoE Serving",
+      "url": "https://huggingface.co/papers/2607.00466",
+      "summary": "분산형 혼합 전문가 시스템에서 지역성을 고려한 효율적인 라우팅 기법을 제시합니다.",
+      "summary_en": "Proposes an expert routing technique considering locality awareness for efficient serving of disaggregated mixture-of-experts models."
+    },
+    {
+      "title": "TurboServe: 스트리밍 비디오 생성을 효율적이고 경제적으로 제공",
+      "title_en": "TurboServe: Serving Streaming Video Generation Efficiently and Economically",
+      "url": "https://huggingface.co/papers/2606.19271",
+      "summary": "실시간 비디오 생성 모델을 저비용으로 서빙하기 위한 최적화 방법을 제안합니다.",
+      "summary_en": "Presents optimization techniques for efficiently and economically serving streaming video generation systems."
+    },
+    {
+      "title": "MemSyco-Bench: 에이전트 메모리의 아첨성 벤치마킹",
+      "title_en": "MemSyco-Bench: Benchmarking Sycophancy in Agent Memory",
+      "url": "https://huggingface.co/papers/2607.01071",
+      "summary": "AI 에이전트의 메모리 시스템에서 사용자에게 지나치게 동조하는 현상을 측정하는 벤치마크입니다.",
+      "summary_en": "A benchmark for measuring tendencies where AI agents excessively agree with user preferences in their memory systems."
+    },
+    {
+      "title": "비대칭 상호 변분 학습을 통한 다중모달 연속 추론",
+      "title_en": "Multimodal Continuous Reasoning via Asymmetric Mutual Variational Learning",
+      "url": "https://huggingface.co/papers/2607.00461",
+      "summary": "비대칭적 상호작용을 활용하여 다중모달 정보에서 연속적인 추론을 수행하는 방법입니다.",
+      "summary_en": "Develops a method for multimodal continuous reasoning using asymmetric mutual interactions between different modalities."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "개정된 엔지니어링 리더십 규칙",
+      "title_en": "Revised Rules of Engineering Leadership",
+      "url": "https://lethain.com/revised-rules-of-engineering-leadership/",
+      "summary": "AI 도구 전환과 빠른 성장 환경에서 재정립한 엔지니어링 리더십 5대 규칙을 실제 프로젝트 사례와 함께 제시합니다.",
+      "summary_en": "Five engineering leadership principles validated in AI tool transitions and hypergrowth environments."
+    },
+    {
+      "title": "CUDA 커널을 실행하면 내부에서 벌어지는 일",
+      "title_en": "What Happens When You Run a GPU Kernel",
+      "url": "https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/",
+      "summary": "벡터 덧셈 CUDA 프로그램이 결과를 얻기까지 컴파일, 드라이버, GPU 명령 큐, 메모리 계층 과정을 상세히 설명합니다.",
+      "summary_en": "Explains the intricate processes from compilation through GPU execution including driver calls, command queuing, and warp scheduling."
+    },
+    {
+      "title": "Foldkit — 정확성을 위한 프론트엔드 프레임워크",
+      "title_en": "Foldkit - Frontend Framework for Correctness",
+      "url": "https://foldkit.dev/",
+      "summary": "Effect 기반으로 구축된 TypeScript 프레임워크로, 아키텍처 수준의 정확성을 보장합니다.",
+      "summary_en": "A TypeScript frontend framework built on Effect with architecture-level correctness guarantees beyond rendering concerns."
+    },
+    {
+      "title": "Atlassian의 DESIGN.md 공개",
+      "title_en": "Atlassian's DESIGN.md: Portable Design Context",
+      "url": "https://www.atlassian.com/blog/ai-at-work/atlassians-design-md-is-here-what-we-learned-testing-portable-design-context-in-practice",
+      "summary": "AI 생성 UI의 브랜드 정체성 문제 해결을 위한 이식 가능한 Markdown 포맷을 소개합니다.",
+      "summary_en": "Introduces a portable Markdown format to address how AI-generated UIs lose brand identity."
+    },
+    {
+      "title": "우리는 작동 방식을 아는 마지막 세대",
+      "title_en": "We Are the Last Generation to Know How It Works",
+      "url": "https://unix.foo/posts/last-people-who-know-how-it-works/",
+      "summary": "1990년대 컴퓨터 사용자가 직접 하드웨어를 다루던 시절을 회상하며 기술 추상화의 심화 과정을 탐구합니다.",
+      "summary_en": "Reflects on how 1990s users had to learn hardware configurations directly, exploring technology's increasing abstraction layers."
+    }
+  ]
+}
