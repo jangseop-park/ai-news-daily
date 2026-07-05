@@ -1,42 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-07-05
+> 마지막 업데이트: 2026-07-06
 
-# AI 뉴스 — 2026-07-05
+# AI 뉴스 — 2026-07-06
 
 ## 🔥 GitHub Trending (Python)
 
-- [usestrix/strix](https://github.com/usestrix/strix): 앱의 취약점을 찾아 수정해주는 오픈소스 AI 침투 테스트(펜테스팅) 도구.
-- [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book): 하버드의 '머신러닝 시스템' 교재 오픈소스 저장소.
-- [rommapp/romm](https://github.com/rommapp/romm): 아름답고 강력한 셀프호스팅 롬(ROM) 관리·플레이 도구.
-- [agentskills/agentskills](https://github.com/agentskills/agentskills): Agent Skills 사양과 문서를 정리한 저장소.
-- [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills): 엔지니어링·마케팅·PM·비즈니스 등 330개 이상의 Claude Code 스킬·에이전트 역량 모음.
+- [claude-skills](https://github.com/alirezarezvani/claude-skills): Claude Code, Codex, Gemini CLI, Cursor 및 8개 이상의 코딩 에이전트용 337개 스킬 & 플러그인
+- [romm](https://github.com/rommapp/romm): 아름답고 강력한 자체 호스팅 롬 관리자 및 플레이어
+- [cs249r_book](https://github.com/harvard-edge/cs249r_book): 머신러닝 시스템 교과서
+- [strix](https://github.com/usestrix/strix): 앱의 취약점을 찾아 수정하는 오픈소스 AI 침투 테스트 도구
+- [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code): Claude Code 스킬, 에이전트, 개발자 도구 등 엄선된 리소스 모음
 
 ## 📄 Hugging Face Papers
 
-- [Program-as-Weights: 퍼지 함수를 위한 프로그래밍 패러다임](https://huggingface.co/papers/2607.02512)
-  신경망 가중치를 '프로그램'처럼 다뤄, 명확히 정의하기 어려운 퍼지(모호한) 함수를 표현·학습하는 새로운 프로그래밍 패러다임을 제안한다.
-- [AgenticSTS: 장기 과제 LLM 에이전트를 위한 제한 메모리 테스트베드](https://huggingface.co/papers/2607.02255)
-  메모리가 제한된 조건에서 장기 과제를 수행하는 LLM 에이전트의 능력을 평가하기 위한 벤치마크·테스트베드를 제시한다.
-- [EvoPolicyGym: 상호작용 환경에서 자율 정책 진화 평가](https://huggingface.co/papers/2607.02440)
-  에이전트가 상호작용 환경에서 스스로 정책(policy)을 진화·개선하는 능력을 측정하는 평가 환경을 제안한다.
-- [하이브리드 어텐션 모델로의 모핑(Morphing)](https://huggingface.co/papers/2606.30562)
-  기존 트랜스포머를 재학습 부담 없이 하이브리드 어텐션 구조로 점진적으로 변환(morph)하는 기법을 제시한다.
-- [Multi-Resolution Flow Matching: 단계적 샘플링을 통한 학습 불필요 확산 가속](https://huggingface.co/papers/2607.01642)
-  다중 해상도 플로우 매칭과 단계적 샘플링으로 별도 학습 없이 확산 모델(diffusion) 생성 속도를 높이는 방법을 제안한다.
+- [Program-as-Weights: A Programming Paradigm for Fuzzy Functions](https://huggingface.co/papers/2607.02512)
+  퍼지 함수를 가중치로 표현하는 새로운 프로그래밍 패러다임을 제안합니다.
+- [AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents](https://huggingface.co/papers/2607.02255)
+  장시간 작업에서 제한된 메모리 환경에서 LLM 에이전트를 평가하는 벤치마크를 제시합니다.
+- [EvoPolicyGym: Evaluating Autonomous Policy Evolution in Interactive Environments](https://huggingface.co/papers/2607.02440)
+  상호작용 환경에서 정책이 자동으로 진화하는 과정을 평가하는 프레임워크를 제공합니다.
+- [Morphing into Hybrid Attention Models](https://huggingface.co/papers/2606.30562)
+  전통적 어텐션과 다른 메커니즘을 결합한 하이브리드 어텐션 모델을 개발합니다.
+- [Multi-Resolution Flow Matching: Training-Free Diffusion Acceleration via Staged Sampling](https://huggingface.co/papers/2607.01642)
+  추가 학습 없이 단계적 샘플링으로 확산 모델의 생성 속도를 향상시킵니다.
 
 ## 🦉 GeekNews
 
-- [루프 엔지니어링의 기술](https://www.langchain.com/blog/the-art-of-loop-engineering)
-  LangChain이 에이전트의 핵심인 '루프(loop)' 설계 방법을 다룬 글. 언제 반복하고 멈출지, 컨텍스트를 어떻게 관리할지 등 에이전트 루프 설계 원칙을 정리한다.
-- [코드 리뷰의 핵심 목적: 유지보수 어려운 코드 찾기](https://mathstodon.xyz/@mjd/115096720350507897)
-  코드 리뷰의 가장 중요한 목적은 버그 찾기보다 '유지보수하기 어려운 코드'를 걸러내는 것이라는 관점을 제시한다.
-- [그래픽스 프로그래머가 되려면 무엇을 배워야 할까](https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/)
-  그래픽스 프로그래머가 되기 위해 익혀야 할 수학·렌더링·GPU 등 학습 로드맵을 정리한 글.
+- [논쟁 대부분은 아이디어가 아니라 자아에 관한 것](https://wangcong.org/2026-06-30-why-i-stopped-arguing-with-people.html)
+  기술적 정확성으로 이긴 논쟁은 결국 인간관계를 손상시키며, 소통의 효과와 한계를 보여줍니다.
+- [개정된 엔지니어링 리더십 규칙](https://lethain.com/revised-rules-of-engineering-leadership/)
+  AI 도구와 급속 성장 환경에서 검증된 엔지니어링 리더십 5대 규칙과 실제 사례들을 제시합니다.
+- [루프 엔지니어링의 미학](https://www.langchain.com/blog/the-art-of-loop-engineering)
+  에이전트를 안정적으로 활용하려면 우수한 모델 외에도 작업에 맞게 설계된 하네스가 필수적입니다.
+- [코드 리뷰의 주된 목적은 유지보수하기 어려운 코드를 찾는 것](https://mathstodon.xyz/@mjd/115096720350507897)
+  코드 리뷰는 버그 발견보다 나중에 관리하기 어려운 코드를 미리 드러내는 과정입니다.
+- [AI와 함께한 모험](https://www.scattered-thoughts.net/writing/artificial-adventures/)
+  개인 프로젝트에서 AI는 코드 리뷰와 스크립트에는 유용하지만, 자율 개발 작업에서는 판단 품질 문제가 있습니다.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-07-05](data/2026-07-05.md)
 - [2026-07-03](data/2026-07-03.md)
 - [2026-07-02](data/2026-07-02.md)
 - [2026-07-01](data/2026-07-01.md)
@@ -65,5 +70,3 @@
 - [2026-06-07](data/2026-06-07.md)
 - [2026-06-06](data/2026-06-06.md)
 - [2026-06-05](data/2026-06-05.md)
-- [2026-06-04](data/2026-06-04.md)
-- [2026-06-03](data/2026-06-03.md)
