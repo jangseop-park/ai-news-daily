@@ -2,108 +2,108 @@
   "date": "2026-07-06",
   "github_trending": [
     {
-      "name": "claude-skills",
+      "name": "alirezarezvani/claude-skills",
       "url": "https://github.com/alirezarezvani/claude-skills",
-      "description": "Claude Code, Codex, Gemini CLI, Cursor 및 8개 이상의 코딩 에이전트용 337개 스킬 & 플러그인",
-      "description_en": "337 Claude Code skills & agent skills & plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents"
+      "description": "Claude Code, Codex, Gemini CLI, Cursor 등 12개 이상 코딩 에이전트용 스킬·에이전트·플러그인 모음(30+ 에이전트, 70+ 커맨드, 330+ 스킬)",
+      "description_en": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills) for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents"
     },
     {
-      "name": "romm",
+      "name": "rommapp/romm",
       "url": "https://github.com/rommapp/romm",
-      "description": "아름답고 강력한 자체 호스팅 롬 관리자 및 플레이어",
-      "description_en": "A beautiful, powerful, self-hosted rom manager and player"
+      "description": "아름답고 강력한 셀프호스팅 롬(ROM) 관리·플레이어 도구",
+      "description_en": "A beautiful, powerful, self-hosted rom manager and player."
     },
     {
-      "name": "cs249r_book",
+      "name": "harvard-edge/cs249r_book",
       "url": "https://github.com/harvard-edge/cs249r_book",
-      "description": "머신러닝 시스템 교과서",
+      "description": "하버드의 '머신러닝 시스템(Machine Learning Systems)' 오픈 교재",
       "description_en": "Machine Learning Systems"
     },
     {
-      "name": "strix",
+      "name": "usestrix/strix",
       "url": "https://github.com/usestrix/strix",
-      "description": "앱의 취약점을 찾아 수정하는 오픈소스 AI 침투 테스트 도구",
-      "description_en": "Open-source AI penetration testing tool to find and fix your app's vulnerabilities"
+      "description": "앱의 취약점을 찾아 고쳐주는 오픈소스 AI 침투 테스트 도구",
+      "description_en": "Open-source AI penetration testing tool to find and fix your app's vulnerabilities."
     },
     {
-      "name": "awesome-claude-code",
+      "name": "hesreallyhim/awesome-claude-code",
       "url": "https://github.com/hesreallyhim/awesome-claude-code",
-      "description": "Claude Code 스킬, 에이전트, 개발자 도구 등 엄선된 리소스 모음",
-      "description_en": "Hand-picked collection of finest resources for Claude Code with top tier skills and developer tooling"
+      "description": "코딩 에이전트 Claude Code를 위한 엄선된 리소스 모음집",
+      "description_en": "A hand-picked collection of the finest resources for Claude Code, the coding companion from Anthropic."
     }
   ],
   "huggingface": [
     {
-      "title": "프로그램-가중치: 퍼지 함수를 위한 프로그래밍 패러다임",
+      "title": "Program-as-Weights: 퍼지 함수를 위한 프로그래밍 패러다임",
       "title_en": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
       "url": "https://huggingface.co/papers/2607.02512",
-      "summary": "퍼지 함수를 가중치로 표현하는 새로운 프로그래밍 패러다임을 제안합니다.",
-      "summary_en": "Proposes a novel programming paradigm that represents fuzzy functions through weights rather than traditional code."
+      "summary": "프로그램 자체를 가중치처럼 다뤄 모호한(fuzzy) 함수를 표현하는 새로운 프로그래밍 패러다임을 제안한다.",
+      "summary_en": "Proposes a new programming paradigm that treats programs as weights to express fuzzy functions."
     },
     {
-      "title": "AgenticSTS: 장기간 LLM 에이전트를 위한 제한된 메모리 테스트베드",
+      "title": "AgenticSTS: 장기 과제 LLM 에이전트를 위한 제한 메모리 테스트베드",
       "title_en": "AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents",
       "url": "https://huggingface.co/papers/2607.02255",
-      "summary": "장시간 작업에서 제한된 메모리 환경에서 LLM 에이전트를 평가하는 벤치마크를 제시합니다.",
-      "summary_en": "Introduces a benchmark for evaluating language model agents operating under memory constraints over extended tasks."
+      "summary": "제한된 메모리 환경에서 장기 과제를 수행하는 LLM 에이전트를 평가하기 위한 테스트베드를 제시한다.",
+      "summary_en": "Introduces a bounded-memory testbed to evaluate LLM agents on long-horizon tasks."
     },
     {
-      "title": "EvoPolicyGym: 상호작용 환경에서 자율 정책 진화 평가",
+      "title": "EvoPolicyGym: 상호작용 환경에서의 자율 정책 진화 평가",
       "title_en": "EvoPolicyGym: Evaluating Autonomous Policy Evolution in Interactive Environments",
       "url": "https://huggingface.co/papers/2607.02440",
-      "summary": "상호작용 환경에서 정책이 자동으로 진화하는 과정을 평가하는 프레임워크를 제공합니다.",
-      "summary_en": "Provides an evaluation framework for assessing how policies autonomously evolve within interactive environments."
+      "summary": "상호작용형 환경에서 에이전트 정책이 자율적으로 진화하는 과정을 평가하는 벤치마크를 제안한다.",
+      "summary_en": "Proposes a benchmark for evaluating autonomous policy evolution of agents in interactive environments."
     },
     {
-      "title": "하이브리드 어텐션 모델로 변형",
+      "title": "하이브리드 어텐션 모델로의 모핑",
       "title_en": "Morphing into Hybrid Attention Models",
       "url": "https://huggingface.co/papers/2606.30562",
-      "summary": "전통적 어텐션과 다른 메커니즘을 결합한 하이브리드 어텐션 모델을 개발합니다.",
-      "summary_en": "Develops hybrid attention models that combine traditional attention mechanisms with alternative approaches."
+      "summary": "기존 모델을 하이브리드 어텐션 구조로 변환(morphing)하는 기법을 다룬다.",
+      "summary_en": "Presents techniques to morph existing models into hybrid attention architectures."
     },
     {
-      "title": "다중해상도 흐름 매칭: 단계적 샘플링을 통한 학습 없는 확산 가속",
+      "title": "Multi-Resolution Flow Matching: 단계적 샘플링을 통한 학습 없는 확산 가속",
       "title_en": "Multi-Resolution Flow Matching: Training-Free Diffusion Acceleration via Staged Sampling",
       "url": "https://huggingface.co/papers/2607.01642",
-      "summary": "추가 학습 없이 단계적 샘플링으로 확산 모델의 생성 속도를 향상시킵니다.",
-      "summary_en": "Accelerates diffusion model generation through staged sampling without requiring additional training."
+      "summary": "단계적 샘플링을 활용해 추가 학습 없이 확산 모델 생성을 가속하는 다중 해상도 플로우 매칭 기법을 제안한다.",
+      "summary_en": "Proposes multi-resolution flow matching to accelerate diffusion generation without extra training via staged sampling."
     }
   ],
   "geeknews": [
     {
-      "title": "논쟁 대부분은 아이디어가 아니라 자아에 관한 것",
-      "title_en": "Most Arguments Are About Ego, Not Ideas",
-      "url": "https://wangcong.org/2026-06-30-why-i-stopped-arguing-with-people.html",
-      "summary": "기술적 정확성으로 이긴 논쟁은 결국 인간관계를 손상시키며, 소통의 효과와 한계를 보여줍니다.",
-      "summary_en": "Being technically correct in disputes often damages relationships, revealing the limits of argumentative approaches."
-    },
-    {
-      "title": "개정된 엔지니어링 리더십 규칙",
-      "title_en": "Revised Rules of Engineering Leadership",
-      "url": "https://lethain.com/revised-rules-of-engineering-leadership/",
-      "summary": "AI 도구와 급속 성장 환경에서 검증된 엔지니어링 리더십 5대 규칙과 실제 사례들을 제시합니다.",
-      "summary_en": "Five core engineering leadership principles validated in AI-driven and hypergrowth environments, supported by real project examples."
-    },
-    {
       "title": "루프 엔지니어링의 미학",
       "title_en": "The Art of Loop Engineering",
-      "url": "https://www.langchain.com/blog/the-art-of-loop-engineering",
-      "summary": "에이전트를 안정적으로 활용하려면 우수한 모델 외에도 작업에 맞게 설계된 하네스가 필수적입니다.",
-      "summary_en": "Building reliable agents requires more than strong models; custom-designed harnesses tailored to specific tasks are essential."
+      "url": "https://news.hada.io/topic?id=31106",
+      "summary": "좋은 모델만으로는 부족하며, 에이전트를 안정적이고 유용하게 쓰려면 반복(loop) 설계가 핵심이라는 내용.",
+      "summary_en": "A good model alone isn't enough; loop design is key to making agents reliably useful."
+    },
+    {
+      "title": "논쟁 대부분은 아이디어가 아니라 자아에 관한 것",
+      "title_en": "Most Arguments Are About Ego, Not Ideas",
+      "url": "https://news.hada.io/topic?id=31029",
+      "summary": "기술적 정확성만 앞세우면 인간관계를 해칠 수 있다는, 논쟁의 본질에 대한 통찰.",
+      "summary_en": "Insight that pushing technical correctness can damage relationships—most arguments are about ego."
+    },
+    {
+      "title": "무언가를 배워보는 게 좋을지도 모름",
+      "title_en": "Maybe You Should Learn Something",
+      "url": "https://news.hada.io/topic?id=31129",
+      "summary": "성인도 새로운 실용 기술과 취미를 충분히 배울 수 있다는 점을 강조한다.",
+      "summary_en": "Emphasizes that adults can absolutely learn new practical skills and hobbies."
     },
     {
       "title": "코드 리뷰의 주된 목적은 유지보수하기 어려운 코드를 찾는 것",
-      "title_en": "Code Review's Main Purpose Is Finding Unmaintainable Code",
-      "url": "https://mathstodon.xyz/@mjd/115096720350507897",
-      "summary": "코드 리뷰는 버그 발견보다 나중에 관리하기 어려운 코드를 미리 드러내는 과정입니다.",
-      "summary_en": "Code review serves to expose code that will be difficult to maintain later, more so than catching bugs."
+      "title_en": "Code Review Is Mainly About Finding Hard-to-Maintain Code",
+      "url": "https://news.hada.io/topic?id=31067",
+      "summary": "코드 리뷰는 버그보다 나중에 유지보수가 어려워질 코드를 미리 발견하는 과정이라는 관점.",
+      "summary_en": "Argues code review's main purpose is surfacing code that will be hard to maintain later."
     },
     {
-      "title": "AI와 함께한 모험",
-      "title_en": "Artificial Adventures",
-      "url": "https://www.scattered-thoughts.net/writing/artificial-adventures/",
-      "summary": "개인 프로젝트에서 AI는 코드 리뷰와 스크립트에는 유용하지만, 자율 개발 작업에서는 판단 품질 문제가 있습니다.",
-      "summary_en": "AI proves consistently useful for code review and scripting in personal projects but struggles with judgment quality in autonomous development."
+      "title": "ClickHouse가 Observability 전쟁에서 앞서가는 이유",
+      "title_en": "Why ClickHouse Is Winning the Observability War",
+      "url": "https://news.hada.io/topic?id=31101",
+      "summary": "대규모 로그 처리의 복잡성을 잘 해결해 ClickHouse가 옵저버빌리티 분야에서 앞서고 있다는 분석.",
+      "summary_en": "Analyzes how ClickHouse leads in observability by tackling large-scale log processing complexity."
     }
   ]
 }
