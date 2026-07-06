@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-07-06
+> 마지막 업데이트: 2026-07-07
 
-# AI 뉴스 — 2026-07-06
+# AI 뉴스 — 2026-07-07
 
 ## 🔥 GitHub Trending (Python)
 
-- [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills): Claude Code, Codex, Gemini CLI, Cursor 등 12개 이상 코딩 에이전트용 스킬·에이전트·플러그인 모음(30+ 에이전트, 70+ 커맨드, 330+ 스킬)
-- [rommapp/romm](https://github.com/rommapp/romm): 아름답고 강력한 셀프호스팅 롬(ROM) 관리·플레이어 도구
-- [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book): 하버드의 '머신러닝 시스템(Machine Learning Systems)' 오픈 교재
-- [usestrix/strix](https://github.com/usestrix/strix): 앱의 취약점을 찾아 고쳐주는 오픈소스 AI 침투 테스트 도구
-- [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code): 코딩 에이전트 Claude Code를 위한 엄선된 리소스 모음집
+- [claude-skills](https://github.com/alirezarezvani/claude-skills): Claude Code, Codex, Gemini CLI, Cursor 및 8개 이상의 코딩 에이전트용 345개 스킬 & 플러그인
+- [last30days-skill](https://github.com/mvanhorn/last30days-skill): Reddit, X, YouTube, HN, Polymarket 등 다양한 소스에서 주제를 연구하는 AI 에이전트 스킬
+- [claude-video](https://github.com/bradautomates/claude-video): Claude에 비디오 시청 능력을 부여하는 도구 — 다운로드, 프레임 추출, 음성 전사 포함
+- [TradingAgents](https://github.com/TauricResearch/TradingAgents): 금융 거래를 위한 다중 에이전트 LLM 프레임워크
+- [free-llm-api-resources](https://github.com/cheahjs/free-llm-api-resources): API를 통해 접근 가능한 무료 LLM 추론 리소스 목록
 
 ## 📄 Hugging Face Papers
 
-- [Program-as-Weights: 퍼지 함수를 위한 프로그래밍 패러다임](https://huggingface.co/papers/2607.02512)
-  프로그램 자체를 가중치처럼 다뤄 모호한(fuzzy) 함수를 표현하는 새로운 프로그래밍 패러다임을 제안한다.
-- [AgenticSTS: 장기 과제 LLM 에이전트를 위한 제한 메모리 테스트베드](https://huggingface.co/papers/2607.02255)
-  제한된 메모리 환경에서 장기 과제를 수행하는 LLM 에이전트를 평가하기 위한 테스트베드를 제시한다.
-- [EvoPolicyGym: 상호작용 환경에서의 자율 정책 진화 평가](https://huggingface.co/papers/2607.02440)
-  상호작용형 환경에서 에이전트 정책이 자율적으로 진화하는 과정을 평가하는 벤치마크를 제안한다.
-- [하이브리드 어텐션 모델로의 모핑](https://huggingface.co/papers/2606.30562)
-  기존 모델을 하이브리드 어텐션 구조로 변환(morphing)하는 기법을 다룬다.
-- [Multi-Resolution Flow Matching: 단계적 샘플링을 통한 학습 없는 확산 가속](https://huggingface.co/papers/2607.01642)
-  단계적 샘플링을 활용해 추가 학습 없이 확산 모델 생성을 가속하는 다중 해상도 플로우 매칭 기법을 제안한다.
+- [The Mirage of Optimizing Training Policies: Monotonic Inference Policies as the Real Objective for LLM Reinforcement Learning](https://huggingface.co/papers/2606.29526)
+  LLM 강화학습에서 훈련 정책 최적화보다 단조 추론 정책이 진정한 목표임을 주장합니다.
+- [Embodied.cpp: A Portable Inference Runtime of Embodied AI Models on Heterogeneous Robots](https://huggingface.co/papers/2607.02501)
+  다양한 로봇 플랫폼에서 구체화된 AI 모델을 효율적으로 실행하는 휴대용 런타임을 제시합니다.
+- [OrbitQuant: Data-Agnostic Quantization for Image and Video Diffusion Transformers](https://huggingface.co/papers/2607.02461)
+  데이터 없이 이미지·비디오 확산 트랜스포머를 효율적으로 양자화하는 방법을 제안합니다.
+- [VLA-Corrector: Lightweight Detect-and-Correct Inference for Adaptive Action Horizon](https://huggingface.co/papers/2607.01804)
+  동작 범위에 적응하는 경량 검출-보정 추론 방식을 제시합니다.
+- [DataComp-VLM: Improved Open Datasets for Vision-Language Models](https://huggingface.co/papers/2606.28551)
+  시각-언어 모델 성능 향상을 위한 개선된 공개 데이터셋을 제공합니다.
 
 ## 🦉 GeekNews
 
-- [루프 엔지니어링의 미학](https://news.hada.io/topic?id=31106)
-  좋은 모델만으로는 부족하며, 에이전트를 안정적이고 유용하게 쓰려면 반복(loop) 설계가 핵심이라는 내용.
-- [논쟁 대부분은 아이디어가 아니라 자아에 관한 것](https://news.hada.io/topic?id=31029)
-  기술적 정확성만 앞세우면 인간관계를 해칠 수 있다는, 논쟁의 본질에 대한 통찰.
-- [무언가를 배워보는 게 좋을지도 모름](https://news.hada.io/topic?id=31129)
-  성인도 새로운 실용 기술과 취미를 충분히 배울 수 있다는 점을 강조한다.
-- [코드 리뷰의 주된 목적은 유지보수하기 어려운 코드를 찾는 것](https://news.hada.io/topic?id=31067)
-  코드 리뷰는 버그보다 나중에 유지보수가 어려워질 코드를 미리 발견하는 과정이라는 관점.
-- [ClickHouse가 Observability 전쟁에서 앞서가는 이유](https://news.hada.io/topic?id=31101)
-  대규모 로그 처리의 복잡성을 잘 해결해 ClickHouse가 옵저버빌리티 분야에서 앞서고 있다는 분석.
+- [논쟁 대부분은 아이디어가 아니라 자아에 관한 것](https://wangcong.org/2026-06-30-why-i-stopped-arguing-with-people.html)
+  기술적 정확성을 앞세운 논쟁은 '맞았지만 사람을 잃는' 결과로 이어지며 효용성이 제한적이다.
+- [루프 엔지니어링의 미학](https://www.langchain.com/blog/the-art-of-loop-engineering)
+  안정적인 AI 에이전트 구현에는 좋은 모델뿐 아니라 작업에 맞게 설계된 하네스가 필수적이다.
+- [코드 리뷰의 주된 목적은 유지보수하기 어려운 코드를 찾는 것](https://mathstodon.xyz/@mjd/115096720350507897)
+  코드 리뷰는 버그 발견보다 나중에 유지보수하기 어려운 코드를 미리 드러내는 과정에 더 가깝다.
+- [덜한 것이 더 낫다, 대체로](https://jakub.kr/writing/less-is-more)
+  AI로 빠르게 만들 수 있는 시대에 양보다 의도와 세심함으로 만든 제품이 더 오래 살아남는다.
+- [AI 코딩 시대의 개발자 역할 변화: 코딩 실행자에서 맥락·검증·제품화 설계자로](https://velog.io/@teo/ai-era-developer-role)
+  AI가 코드 작성을 담당하면서 개발자의 역할은 문제 정의와 검증, 제품화 설계로 진화하고 있다.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-07-06](data/2026-07-06.md)
 - [2026-07-05](data/2026-07-05.md)
 - [2026-07-03](data/2026-07-03.md)
 - [2026-07-02](data/2026-07-02.md)
@@ -69,4 +70,3 @@
 - [2026-06-08](data/2026-06-08.md)
 - [2026-06-07](data/2026-06-07.md)
 - [2026-06-06](data/2026-06-06.md)
-- [2026-06-05](data/2026-06-05.md)
