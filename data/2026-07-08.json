@@ -2,108 +2,108 @@
   "date": "2026-07-08",
   "github_trending": [
     {
-      "name": "claude-video",
+      "name": "bradautomates/claude-video",
       "url": "https://github.com/bradautomates/claude-video",
-      "description": "Claude에게 모든 비디오를 볼 수 있는 기능을 부여하는 도구 — 다운로드, 프레임 추출, 전사 포함",
-      "description_en": "Give Claude the ability to watch any video. Downloads, extracts frames, transcribes, and hands it all to Claude."
+      "description": "Claude가 영상을 볼 수 있게 해주는 도구. /watch 명령으로 영상을 다운로드하고 프레임 추출·전사한 뒤 Claude에 전달합니다.",
+      "description_en": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, and hands it all to Claude."
     },
     {
-      "name": "pocket-tts",
+      "name": "kyutai-labs/pocket-tts",
       "url": "https://github.com/kyutai-labs/pocket-tts",
-      "description": "CPU와 포켓에 맞는 경량 텍스트-음성 변환 시스템",
-      "description_en": "A TTS that fits in your CPU (and pocket)"
+      "description": "CPU(주머니)에 들어갈 만큼 가벼운 음성 합성(TTS) 모델.",
+      "description_en": "A TTS that fits in your CPU (and pocket)."
     },
     {
-      "name": "awesome-claude-code",
+      "name": "hesreallyhim/awesome-claude-code",
       "url": "https://github.com/hesreallyhim/awesome-claude-code",
-      "description": "Claude Code 에이전트를 위한 엄선된 자원과 도구 모음",
-      "description_en": "A hand-picked collection of the finest resources for Claude Code"
+      "description": "Claude Code 에이전트를 위한 개발 도구·스킬·플러그인 등을 모은 큐레이션 리소스 모음집.",
+      "description_en": "Curated collection of resources for Claude Code agents — developer tooling, skills, and plugins."
     },
     {
-      "name": "last30days-skill",
+      "name": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "description": "Reddit, X, YouTube 등 다양한 플랫폼에서 주제를 조사하고 통합 요약하는 AI 에이전트 스킬",
-      "description_en": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web"
+      "description": "Reddit·X·YouTube·HN·Polymarket·웹에서 특정 주제를 조사해 근거 기반 요약을 만들어주는 AI 에이전트 스킬.",
+      "description_en": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web, then synthesizes a grounded summary."
     },
     {
-      "name": "hermes-agent",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "description": "당신과 함께 성장하는 지능형 에이전트",
-      "description_en": "The agent that grows with you"
+      "name": "langbot-app/LangBot",
+      "url": "https://github.com/langbot-app/LangBot",
+      "description": "Discord·Slack·Telegram·WeChat 등을 지원하는 프로덕션급 에이전트형 메신저 봇 구축 플랫폼.",
+      "description_en": "Production-grade platform for building agentic IM bots (Discord, Slack, Telegram, WeChat)."
     }
   ],
   "huggingface": [
     {
-      "title": "OmniOpt: 현대 최적화기의 분류, 기하학 및 벤치마킹",
+      "title": "OmniOpt: 최신 옵티마이저의 분류·기하학·벤치마킹",
       "title_en": "OmniOpt: Taxonomy, Geometry, and Benchmarking of Modern Optimizers",
       "url": "https://huggingface.co/papers/2607.04033",
-      "summary": "현대 최적화 알고리즘들의 체계적인 분류 체계와 기하학적 특성을 제시하고 종합적인 벤치마킹을 수행합니다.",
-      "summary_en": "Presents a systematic taxonomy of modern optimization algorithms with geometric characterization and comprehensive benchmarking."
+      "summary": "현대 딥러닝 옵티마이저들을 체계적으로 분류하고 기하학적 관점에서 분석하며 통합 벤치마크로 비교한 연구.",
+      "summary_en": "A systematic taxonomy, geometric analysis, and unified benchmark comparing modern deep-learning optimizers."
     },
     {
-      "title": "UI-MOPD: GUI 에이전트 연속 학습을 위한 다중 플랫폼 정책 내 증류",
+      "title": "UI-MOPD: 지속적 GUI 에이전트 학습을 위한 멀티플랫폼 온폴리시 증류",
       "title_en": "UI-MOPD: Multi-Platform On-Policy Distillation for Continual GUI Agent Learning",
       "url": "https://huggingface.co/papers/2607.04425",
-      "summary": "다양한 GUI 플랫폼에서 작동하는 지속적인 에이전트 학습을 위한 정책 기반 증류 방법을 제안합니다.",
-      "summary_en": "Proposes an on-policy distillation approach for continual GUI agent learning across multiple platforms."
+      "summary": "여러 플랫폼에 걸쳐 GUI 에이전트를 지속적으로 학습시키기 위한 온폴리시 지식 증류 기법을 제안.",
+      "summary_en": "Proposes on-policy distillation to continually train GUI agents across multiple platforms."
     },
     {
-      "title": "ResearchStudio-Reel: 논문에서 포스터·비디오·블로그까지 자동화",
+      "title": "ResearchStudio-Reel: 논문에서 포스터·영상·블로그까지 연구의 마지막 단계 자동화",
       "title_en": "ResearchStudio-Reel: Automate the Last Mile of Research from Paper to Poster, Video, and Blog",
       "url": "https://huggingface.co/papers/2607.04438",
-      "summary": "연구 논문을 포스터, 비디오 및 블로그 콘텐츠로 자동 변환하여 연구 결과 공유를 간소화합니다.",
-      "summary_en": "Automates converting research papers into posters, videos, and blog content to streamline research dissemination."
+      "summary": "논문을 포스터·영상·블로그 등 다양한 산출물로 자동 변환해 연구 확산의 마지막 단계를 자동화하는 시스템.",
+      "summary_en": "A system that automatically turns papers into posters, videos, and blogs, automating the last mile of research dissemination."
     },
     {
-      "title": "PixWorld: 픽셀 공간에서 3D 장면 생성 및 재구성 통합",
+      "title": "PixWorld: 픽셀 공간에서 3D 장면 생성과 복원의 통합",
       "title_en": "PixWorld: Unifying 3D Scene Generation and Reconstruction in Pixel Space",
       "url": "https://huggingface.co/papers/2607.05373",
-      "summary": "픽셀 기반 표현을 사용하여 3D 장면 생성과 재구성을 통합한 새로운 방법을 제시합니다.",
-      "summary_en": "Presents a unified approach for 3D scene generation and reconstruction using pixel-space representations."
+      "summary": "픽셀 공간에서 3D 장면 생성과 복원을 하나의 프레임워크로 통합한 접근법.",
+      "summary_en": "An approach unifying 3D scene generation and reconstruction within a single pixel-space framework."
     },
     {
-      "title": "ResearchStudio-Idea: ML 컨퍼런스 결과로부터의 근거 기반 연구 아이디어 생성",
+      "title": "ResearchStudio-Idea: ML 학회 결과 기반 근거 있는 연구 아이디어 발상 스킬 모음",
       "title_en": "ResearchStudio-Idea: An Evidence-Grounded Research-Ideation Skill Suite from ML Conference Outcomes",
       "url": "https://huggingface.co/papers/2607.04439",
-      "summary": "머신러닝 컨퍼런스 성과를 분석하여 새로운 연구 아이디어 생성을 지원하는 도구입니다.",
-      "summary_en": "Supports new research idea generation by analyzing ML conference outcomes with evidence-grounded methods."
+      "summary": "ML 학회의 실제 결과를 근거로 연구 아이디어를 발상하도록 돕는 증거 기반 스킬 모음.",
+      "summary_en": "An evidence-grounded skill suite that helps ideate research grounded in real ML conference outcomes."
     }
   ],
   "geeknews": [
     {
       "title": "오픈소스 애플리케이션의 구조와 설계 지식 공유",
-      "title_en": "Architecture of Open Source Applications",
+      "title_en": "The Architecture of Open Source Applications",
       "url": "https://aosabook.org/en/",
-      "summary": "개발자들이 직접 설명한 오픈소스 애플리케이션의 내부 구조와 설계 의사결정에 관한 책과 자료를 소개합니다.",
-      "summary_en": "Books and resources where developers explain the internal architecture and design decisions of open source applications."
+      "summary": "유명 오픈소스 애플리케이션들의 구조와 설계 결정을 저자들이 직접 설명하는 무료 도서 프로젝트.",
+      "summary_en": "A free book project where authors explain the architecture and design decisions of well-known open source applications."
     },
     {
-      "title": "Astryx — Meta가 공개한 오픈소스 디자인 시스템",
+      "title": "Astryx - Meta가 공개한 오픈소스 디자인 시스템",
       "title_en": "Astryx - Meta's Open Source Design System",
       "url": "https://astryx.atmeta.com/",
-      "summary": "React와 StyleX 기반으로 160개 이상의 컴포넌트를 제공하며 완전한 커스터마이징과 접근성을 지원합니다.",
-      "summary_en": "Meta's design system built on React and StyleX featuring 160+ components with full customization and accessibility support."
-    },
-    {
-      "title": "AI 코딩 시대의 개발자 역할 변화: 코딩 실행자에서 맥락·검증·제품화 설계자로",
-      "title_en": "Developer Role Evolution in the AI Coding Era",
-      "url": "https://velog.io/@teo/ai-era-developer-role",
-      "summary": "AI가 코드를 직접 작성·수정·테스트하면서 개발자의 역할은 문제 정의와 검증, 제품화 중심으로 변화합니다.",
-      "summary_en": "As AI handles code generation and testing, developers shift toward problem definition, validation, and product design responsibilities."
+      "summary": "Meta가 공개한 오픈소스 디자인 시스템으로, 일관된 UI 구성 요소와 가이드라인을 제공.",
+      "summary_en": "An open source design system released by Meta, providing consistent UI components and guidelines."
     },
     {
       "title": "루프 엔지니어링의 미학",
       "title_en": "The Art of Loop Engineering",
       "url": "https://www.langchain.com/blog/the-art-of-loop-engineering",
-      "summary": "안정적인 AI 에이전트 구현에는 좋은 모델뿐 아니라 작업에 맞게 설계된 하네스가 필수적입니다.",
-      "summary_en": "Reliable agent deployment requires well-designed feedback loops and harnesses tailored to specific tasks, not just capable models."
+      "summary": "LangChain이 소개하는, AI 에이전트의 반복(루프) 실행을 효과적으로 설계하는 방법론.",
+      "summary_en": "LangChain's take on how to effectively design the iteration loops that power AI agents."
     },
     {
-      "title": "논쟁 대부분은 아이디어가 아니라 자아에 관한 것",
-      "title_en": "Most Arguments Are About Ego, Not Ideas",
-      "url": "https://wangcong.org/2026-06-30-why-i-stopped-arguing-with-people.html",
-      "summary": "기술적 정확성을 앞세운 논쟁은 \"맞았지만 사람을 잃는\" 결과를 초래하며 효용에 한계가 있습니다.",
-      "summary_en": "Technical correctness in arguments often wins the point but damages relationships, revealing debates center on ego rather than ideas."
+      "title": "코드 리뷰의 주된 목적은 유지보수하기 어려운 코드를 찾는 것",
+      "title_en": "The Main Purpose of Code Review Is Finding Hard-to-Maintain Code",
+      "url": "https://mathstodon.xyz/@mjd/115096720350507897",
+      "summary": "코드 리뷰의 핵심 가치는 버그 발견보다 유지보수하기 어려운 코드를 찾아내는 데 있다는 주장.",
+      "summary_en": "Argues that the core value of code review lies in spotting hard-to-maintain code rather than just finding bugs."
+    },
+    {
+      "title": "AI 코딩 시대의 개발자 역할 변화",
+      "title_en": "How the Developer's Role Changes in the AI Coding Era",
+      "url": "https://velog.io/@teo/ai-era-developer-role",
+      "summary": "AI 코딩 도구가 보편화되면서 개발자의 역할이 어떻게 바뀌고 있는지 짚어보는 글.",
+      "summary_en": "A reflection on how developers' roles are shifting as AI coding tools become mainstream."
     }
   ]
 }
