@@ -6,37 +6,37 @@
 
 ## 🔥 GitHub Trending (Python)
 
-- [last30days-skill](https://github.com/mvanhorn/last30days-skill): Reddit, X, YouTube, HN, Polymarket 등에서 주제를 조사하고 종합 요약을 생성하는 AI 에이전트 스킬
-- [claude-video](https://github.com/bradautomates/claude-video): Claude에게 모든 비디오를 보는 능력을 제공 — 다운로드, 프레임 추출, 자막 생성 포함
-- [pocket-tts](https://github.com/kyutai-labs/pocket-tts): CPU에 맞는 경량 텍스트-음성 변환 솔루션
-- [minimind](https://github.com/jingyaogong/minimind): 단 2시간 만에 64M 파라미터 소형 언어 모델을 처음부터 학습하기
-- [SkillOpt](https://github.com/microsoft/SkillOpt): 궤적 기반 편집·검증으로 고정된 LLM 에이전트를 위한 재사용 가능한 자연어 스킬을 학습하는 최적화 도구
+- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill): Reddit, X, YouTube, HN, Polymarket, 웹 등 여러 소스에서 주제를 조사한 뒤 근거 기반 요약을 생성하는 AI 에이전트 스킬
+- [bradautomates/claude-video](https://github.com/bradautomates/claude-video): Claude에게 영상 시청 능력을 부여하는 도구. /watch로 영상을 다운로드하고 프레임을 추출·전사해 Claude에게 전달함
+- [kyutai-labs/pocket-tts](https://github.com/kyutai-labs/pocket-tts): CPU(그리고 주머니)에도 들어갈 만큼 가벼운 TTS 모델
+- [jingyaogong/minimind](https://github.com/jingyaogong/minimind): 2시간 만에 처음부터 6400만 파라미터 소형 LLM을 학습시키는 프로젝트
+- [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt): 고정된 LLM 에이전트를 위한 재사용 가능한 자연어 스킬을 궤적 기반 편집·검증 게이트 업데이트로 학습시키는 텍스트 공간 최적화 도구
 
 ## 📄 Hugging Face Papers
 
-- [RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation](https://huggingface.co/papers/2607.06559)
-  로봇 조작 작업을 위해 시간적 역학을 포함한 4차원 세계 모델을 구축하는 연구입니다.
-- [AlayaWorld: Long-Horizon and Playable Video World Generation](https://huggingface.co/papers/2607.06291)
-  장시간 일관성 있는 비디오를 생성하면서 사용자가 상호작용할 수 있는 가상 환경을 만드는 기술입니다.
-- [Hierarchical Sparse Attention Done Right: Toward Infinite Context Modeling](https://huggingface.co/papers/2607.02980)
-  희소 주의 메커니즘을 개선하여 무제한 길이의 문맥을 효율적으로 처리하는 방법을 제시합니다.
-- [Vision as Unified Multimodal Generation](https://huggingface.co/papers/2607.06560)
-  시각 생성을 통합된 멀티모달 프레임워크로 처리하여 다양한 시각 작업을 단일 모델로 수행합니다.
-- [Gemma 4 Technical Report](https://huggingface.co/papers/2607.02770)
-  Google의 최신 언어 모델 Gemma 4의 아키텍처, 학습 방법, 성능 평가를 기술적으로 설명합니다.
+- [RynnWorld-4D: 로봇 조작을 위한 4D 임바디드 월드 모델](https://huggingface.co/papers/2607.06559)
+  로봇 조작 작업을 위해 시간축을 포함한 4D 임바디드 월드 모델을 제안하여 물리적 상호작용을 예측·계획한다.
+- [AlayaWorld: 장기 지평·플레이 가능한 비디오 월드 생성](https://huggingface.co/papers/2607.06291)
+  장시간에 걸쳐 일관성을 유지하며 사용자가 상호작용해 조작할 수 있는 플레이 가능한 비디오 월드를 생성하는 모델을 제시한다.
+- [RynnWorld-Teleop: 디지털 원격조작을 위한 행동 조건부 월드 모델](https://huggingface.co/papers/2607.06558)
+  행동을 조건으로 하는 월드 모델을 통해 디지털 원격조작 환경에서 미래 상태를 예측하고 조작을 지원한다.
+- [제대로 된 계층적 희소 어텐션: 무한 문맥 모델링을 향하여](https://huggingface.co/papers/2607.02980)
+  계층적 희소 어텐션 기법을 개선하여 사실상 무한에 가까운 문맥 길이를 효율적으로 처리하는 방법을 제안한다.
+- [통합 멀티모달 생성으로서의 비전](https://huggingface.co/papers/2607.06560)
+  비전 작업을 통합된 멀티모달 생성 프레임워크로 재정의하여 다양한 시각 과제를 하나의 생성 모델로 처리한다.
 
 ## 🦉 GeekNews
 
-- [30 Papers — 일리야 서츠케버 추천 AI 핵심 논문 목록 요약](https://30papers.com/)
-  일리야 서츠케버가 존 카맥에게 추천한 AI 핵심 논문들을 초보자가 따라가기 쉽게 정리한 학습 자료 모음입니다.
-- [Ternlight — 브라우저(WASM)에서 실행되는 7MB 임베딩 모델](https://ternlight-demo.vercel.app/)
-  서버 호출 없이 브라우저에서 직접 텍스트 임베딩과 의미 검색을 수행하는 경량 모델입니다.
-- [루프 엔지니어링의 미학](https://www.langchain.com/blog/the-art-of-loop-engineering)
-  AI 에이전트를 안정적으로 운영하려면 좋은 모델만으로는 부족하며, 작업에 맞게 설계된 하네스가 필요합니다.
-- [AI 코딩 시대의 개발자 역할 변화: 코딩 실행자에서 맥락·검증·제품화 설계자로](https://velog.io/@teo/ai-era-developer-role)
-  AI가 코드 작성을 담당하면서 개발자 역할이 단순 구현에서 문제 정의, 검증, 제품화 설계로 변화하고 있습니다.
-- [루프 시작하기](https://x.com/ClaudeDevs/status/2074208949205881033)
-  코딩 에이전트 운영 방식을 개별 지시에서 반복 작업 사이클로 전환하는 새로운 패턴을 소개합니다.
+- [30 Papers - 일리야 서츠케버가 추천한 AI 핵심 논문 목록](https://news.hada.io/topic?id=31224)
+  일리야 서츠케버가 존 카맥에게 추천했다고 알려진 AI 핵심 논문 모음으로, 입문자가 딥러닝의 기초를 다지기에 좋은 큐레이션이다.
+- [Astryx - Meta가 공개한 오픈소스 디자인 시스템](https://news.hada.io/topic?id=31190)
+  React와 StyleX 기반으로 160개 이상의 커스터마이즈 가능한 컴포넌트와 접근성 기능을 제공하는 Meta의 오픈소스 디자인 시스템이다.
+- [오픈소스 애플리케이션의 구조와 설계 지식 공유](https://news.hada.io/topic?id=31194)
+  실제 오픈소스 애플리케이션들의 아키텍처와 설계 결정을 문서화해 대규모 소프트웨어 구조를 배우도록 돕는 자료다.
+- [에이전트 루프 패턴](https://news.hada.io/topic?id=31225)
+  개별 프롬프트 지시에서 벗어나 중단 조건이 충족될 때까지 작업 사이클을 반복하는 방식으로 Claude 등 에이전트를 설계하는 패턴을 다룬다.
+- [Ternlight - 7MB 브라우저 임베딩 모델](https://news.hada.io/topic?id=31218)
+  WASM을 통해 서버 호출이나 GPU 없이 브라우저 내에서 시맨틱 검색을 실행할 수 있는 7MB 크기의 경량 임베딩 모델이다.
 
 ---
 ## 📅 이전 날짜
