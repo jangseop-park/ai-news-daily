@@ -1,47 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-07-08
+> 마지막 업데이트: 2026-07-09
 
-# AI 뉴스 — 2026-07-08
+# AI 뉴스 — 2026-07-09
 
 ## 🔥 GitHub Trending (Python)
 
-- [claude-video](https://github.com/bradautomates/claude-video): Claude에게 모든 비디오를 볼 수 있는 기능을 부여하는 도구 — 다운로드, 프레임 추출, 전사 포함
-- [pocket-tts](https://github.com/kyutai-labs/pocket-tts): CPU와 포켓에 맞는 경량 텍스트-음성 변환 시스템
-- [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code): Claude Code 에이전트를 위한 엄선된 자원과 도구 모음
-- [last30days-skill](https://github.com/mvanhorn/last30days-skill): Reddit, X, YouTube 등 다양한 플랫폼에서 주제를 조사하고 통합 요약하는 AI 에이전트 스킬
-- [hermes-agent](https://github.com/NousResearch/hermes-agent): 당신과 함께 성장하는 지능형 에이전트
+- [last30days-skill](https://github.com/mvanhorn/last30days-skill): Reddit, X, YouTube, HN, Polymarket 등에서 주제를 조사하고 종합 요약을 생성하는 AI 에이전트 스킬
+- [claude-video](https://github.com/bradautomates/claude-video): Claude에게 모든 비디오를 보는 능력을 제공 — 다운로드, 프레임 추출, 자막 생성 포함
+- [pocket-tts](https://github.com/kyutai-labs/pocket-tts): CPU에 맞는 경량 텍스트-음성 변환 솔루션
+- [minimind](https://github.com/jingyaogong/minimind): 단 2시간 만에 64M 파라미터 소형 언어 모델을 처음부터 학습하기
+- [SkillOpt](https://github.com/microsoft/SkillOpt): 궤적 기반 편집·검증으로 고정된 LLM 에이전트를 위한 재사용 가능한 자연어 스킬을 학습하는 최적화 도구
 
 ## 📄 Hugging Face Papers
 
-- [OmniOpt: Taxonomy, Geometry, and Benchmarking of Modern Optimizers](https://huggingface.co/papers/2607.04033)
-  현대 최적화 알고리즘들의 체계적인 분류 체계와 기하학적 특성을 제시하고 종합적인 벤치마킹을 수행합니다.
-- [UI-MOPD: Multi-Platform On-Policy Distillation for Continual GUI Agent Learning](https://huggingface.co/papers/2607.04425)
-  다양한 GUI 플랫폼에서 작동하는 지속적인 에이전트 학습을 위한 정책 기반 증류 방법을 제안합니다.
-- [ResearchStudio-Reel: Automate the Last Mile of Research from Paper to Poster, Video, and Blog](https://huggingface.co/papers/2607.04438)
-  연구 논문을 포스터, 비디오 및 블로그 콘텐츠로 자동 변환하여 연구 결과 공유를 간소화합니다.
-- [PixWorld: Unifying 3D Scene Generation and Reconstruction in Pixel Space](https://huggingface.co/papers/2607.05373)
-  픽셀 기반 표현을 사용하여 3D 장면 생성과 재구성을 통합한 새로운 방법을 제시합니다.
-- [ResearchStudio-Idea: An Evidence-Grounded Research-Ideation Skill Suite from ML Conference Outcomes](https://huggingface.co/papers/2607.04439)
-  머신러닝 컨퍼런스 성과를 분석하여 새로운 연구 아이디어 생성을 지원하는 도구입니다.
+- [RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation](https://huggingface.co/papers/2607.06559)
+  로봇 조작 작업을 위해 시간적 역학을 포함한 4차원 세계 모델을 구축하는 연구입니다.
+- [AlayaWorld: Long-Horizon and Playable Video World Generation](https://huggingface.co/papers/2607.06291)
+  장시간 일관성 있는 비디오를 생성하면서 사용자가 상호작용할 수 있는 가상 환경을 만드는 기술입니다.
+- [Hierarchical Sparse Attention Done Right: Toward Infinite Context Modeling](https://huggingface.co/papers/2607.02980)
+  희소 주의 메커니즘을 개선하여 무제한 길이의 문맥을 효율적으로 처리하는 방법을 제시합니다.
+- [Vision as Unified Multimodal Generation](https://huggingface.co/papers/2607.06560)
+  시각 생성을 통합된 멀티모달 프레임워크로 처리하여 다양한 시각 작업을 단일 모델로 수행합니다.
+- [Gemma 4 Technical Report](https://huggingface.co/papers/2607.02770)
+  Google의 최신 언어 모델 Gemma 4의 아키텍처, 학습 방법, 성능 평가를 기술적으로 설명합니다.
 
 ## 🦉 GeekNews
 
-- [오픈소스 애플리케이션의 구조와 설계 지식 공유](https://aosabook.org/en/)
-  개발자들이 직접 설명한 오픈소스 애플리케이션의 내부 구조와 설계 의사결정에 관한 책과 자료를 소개합니다.
-- [Astryx — Meta가 공개한 오픈소스 디자인 시스템](https://astryx.atmeta.com/)
-  React와 StyleX 기반으로 160개 이상의 컴포넌트를 제공하며 완전한 커스터마이징과 접근성을 지원합니다.
-- [AI 코딩 시대의 개발자 역할 변화: 코딩 실행자에서 맥락·검증·제품화 설계자로](https://velog.io/@teo/ai-era-developer-role)
-  AI가 코드를 직접 작성·수정·테스트하면서 개발자의 역할은 문제 정의와 검증, 제품화 중심으로 변화합니다.
+- [30 Papers — 일리야 서츠케버 추천 AI 핵심 논문 목록 요약](https://30papers.com/)
+  일리야 서츠케버가 존 카맥에게 추천한 AI 핵심 논문들을 초보자가 따라가기 쉽게 정리한 학습 자료 모음입니다.
+- [Ternlight — 브라우저(WASM)에서 실행되는 7MB 임베딩 모델](https://ternlight-demo.vercel.app/)
+  서버 호출 없이 브라우저에서 직접 텍스트 임베딩과 의미 검색을 수행하는 경량 모델입니다.
 - [루프 엔지니어링의 미학](https://www.langchain.com/blog/the-art-of-loop-engineering)
-  안정적인 AI 에이전트 구현에는 좋은 모델뿐 아니라 작업에 맞게 설계된 하네스가 필수적입니다.
-- [논쟁 대부분은 아이디어가 아니라 자아에 관한 것](https://wangcong.org/2026-06-30-why-i-stopped-arguing-with-people.html)
-  기술적 정확성을 앞세운 논쟁은 "맞았지만 사람을 잃는" 결과를 초래하며 효용에 한계가 있습니다.
-
+  AI 에이전트를 안정적으로 운영하려면 좋은 모델만으로는 부족하며, 작업에 맞게 설계된 하네스가 필요합니다.
+- [AI 코딩 시대의 개발자 역할 변화: 코딩 실행자에서 맥락·검증·제품화 설계자로](https://velog.io/@teo/ai-era-developer-role)
+  AI가 코드 작성을 담당하면서 개발자 역할이 단순 구현에서 문제 정의, 검증, 제품화 설계로 변화하고 있습니다.
+- [루프 시작하기](https://x.com/ClaudeDevs/status/2074208949205881033)
+  코딩 에이전트 운영 방식을 개별 지시에서 반복 작업 사이클로 전환하는 새로운 패턴을 소개합니다.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-07-08](data/2026-07-08.md)
 - [2026-07-07](data/2026-07-07.md)
 - [2026-07-06](data/2026-07-06.md)
 - [2026-07-05](data/2026-07-05.md)
@@ -70,4 +70,3 @@
 - [2026-06-10](data/2026-06-10.md)
 - [2026-06-09](data/2026-06-09.md)
 - [2026-06-08](data/2026-06-08.md)
-- [2026-06-07](data/2026-06-07.md)
