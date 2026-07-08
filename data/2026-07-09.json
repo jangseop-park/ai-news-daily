@@ -1,0 +1,109 @@
+{
+  "date": "2026-07-09",
+  "github_trending": [
+    {
+      "name": "last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "Reddit, X, YouTube, HN, Polymarket 등에서 주제를 조사하고 종합 요약을 생성하는 AI 에이전트 스킬",
+      "description_en": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web"
+    },
+    {
+      "name": "claude-video",
+      "url": "https://github.com/bradautomates/claude-video",
+      "description": "Claude에게 모든 비디오를 보는 능력을 제공 — 다운로드, 프레임 추출, 자막 생성 포함",
+      "description_en": "Give Claude the ability to watch any video. Downloads, extracts frames, transcribes, hands it all to Claude."
+    },
+    {
+      "name": "pocket-tts",
+      "url": "https://github.com/kyutai-labs/pocket-tts",
+      "description": "CPU에 맞는 경량 텍스트-음성 변환 솔루션",
+      "description_en": "A TTS that fits in your CPU (and pocket)"
+    },
+    {
+      "name": "minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "description": "단 2시간 만에 64M 파라미터 소형 언어 모델을 처음부터 학습하기",
+      "description_en": "Train a 64M-parameter LLM from scratch in just 2 hours!"
+    },
+    {
+      "name": "SkillOpt",
+      "url": "https://github.com/microsoft/SkillOpt",
+      "description": "궤적 기반 편집·검증으로 고정된 LLM 에이전트를 위한 재사용 가능한 자연어 스킬을 학습하는 최적화 도구",
+      "description_en": "Text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "RynnWorld-4D: 로봇 조작을 위한 4D 체화된 세계 모델",
+      "title_en": "RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation",
+      "url": "https://huggingface.co/papers/2607.06559",
+      "summary": "로봇 조작 작업을 위해 시간적 역학을 포함한 4차원 세계 모델을 구축하는 연구입니다.",
+      "summary_en": "Proposes 4D embodied world models for robotic manipulation that incorporate temporal dynamics and spatial representations."
+    },
+    {
+      "title": "AlayaWorld: 장기 지평선 플레이 가능한 비디오 세계 생성",
+      "title_en": "AlayaWorld: Long-Horizon and Playable Video World Generation",
+      "url": "https://huggingface.co/papers/2607.06291",
+      "summary": "장시간 일관성 있는 비디오를 생성하면서 사용자가 상호작용할 수 있는 가상 환경을 만드는 기술입니다.",
+      "summary_en": "Generates long-horizon video worlds that remain temporally consistent while enabling interactive user engagement."
+    },
+    {
+      "title": "계층적 희소 주의: 무한 문맥 모델링을 향하여",
+      "title_en": "Hierarchical Sparse Attention Done Right: Toward Infinite Context Modeling",
+      "url": "https://huggingface.co/papers/2607.02980",
+      "summary": "희소 주의 메커니즘을 개선하여 무제한 길이의 문맥을 효율적으로 처리하는 방법을 제시합니다.",
+      "summary_en": "Improves hierarchical sparse attention mechanisms to efficiently handle unbounded-length contexts in language models."
+    },
+    {
+      "title": "통합 멀티모달 생성으로서의 비전",
+      "title_en": "Vision as Unified Multimodal Generation",
+      "url": "https://huggingface.co/papers/2607.06560",
+      "summary": "시각 생성을 통합된 멀티모달 프레임워크로 처리하여 다양한 시각 작업을 단일 모델로 수행합니다.",
+      "summary_en": "Treats vision generation as a unified multimodal task, enabling diverse visual outputs within a single model architecture."
+    },
+    {
+      "title": "Gemma 4 기술 보고서",
+      "title_en": "Gemma 4 Technical Report",
+      "url": "https://huggingface.co/papers/2607.02770",
+      "summary": "Google의 최신 언어 모델 Gemma 4의 아키텍처, 학습 방법, 성능 평가를 기술적으로 설명합니다.",
+      "summary_en": "Documents the architecture, training methodology, and performance characteristics of Google's Gemma 4 language model."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "30 Papers — 일리야 서츠케버 추천 AI 핵심 논문 목록 요약",
+      "title_en": "30 Papers - Ilya Sutskever's Recommended AI Essential Papers",
+      "url": "https://30papers.com/",
+      "summary": "일리야 서츠케버가 존 카맥에게 추천한 AI 핵심 논문들을 초보자가 따라가기 쉽게 정리한 학습 자료 모음입니다.",
+      "summary_en": "A curated collection of essential ML papers recommended by Ilya Sutskever, organized for beginners to follow step by step."
+    },
+    {
+      "title": "Ternlight — 브라우저(WASM)에서 실행되는 7MB 임베딩 모델",
+      "title_en": "Ternlight - 7MB Embedding Model Running in Browser (WASM)",
+      "url": "https://ternlight-demo.vercel.app/",
+      "summary": "서버 호출 없이 브라우저에서 직접 텍스트 임베딩과 의미 검색을 수행하는 경량 모델입니다.",
+      "summary_en": "Enables semantic search and text embedding directly in the browser without server calls, using CPU only."
+    },
+    {
+      "title": "루프 엔지니어링의 미학",
+      "title_en": "The Art of Loop Engineering",
+      "url": "https://www.langchain.com/blog/the-art-of-loop-engineering",
+      "summary": "AI 에이전트를 안정적으로 운영하려면 좋은 모델만으로는 부족하며, 작업에 맞게 설계된 하네스가 필요합니다.",
+      "summary_en": "Argues that reliable agent operation requires well-designed task-specific frameworks beyond just quality models."
+    },
+    {
+      "title": "AI 코딩 시대의 개발자 역할 변화: 코딩 실행자에서 맥락·검증·제품화 설계자로",
+      "title_en": "Developer Role Evolution in the AI Coding Era: From Executor to Architect",
+      "url": "https://velog.io/@teo/ai-era-developer-role",
+      "summary": "AI가 코드 작성을 담당하면서 개발자 역할이 단순 구현에서 문제 정의, 검증, 제품화 설계로 변화하고 있습니다.",
+      "summary_en": "As AI handles code execution, developers shift toward context definition, validation, and product design roles."
+    },
+    {
+      "title": "루프 시작하기",
+      "title_en": "Getting Started with Loops",
+      "url": "https://x.com/ClaudeDevs/status/2074208949205881033",
+      "summary": "코딩 에이전트 운영 방식을 개별 지시에서 반복 작업 사이클로 전환하는 새로운 패턴을 소개합니다.",
+      "summary_en": "Introduces a new pattern for transitioning agent operation from individual prompts to repeating task cycles."
+    }
+  ]
+}
