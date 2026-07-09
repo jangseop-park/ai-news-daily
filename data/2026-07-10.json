@@ -2,108 +2,108 @@
   "date": "2026-07-10",
   "github_trending": [
     {
-      "name": "crawl4ai",
+      "name": "unclecode/crawl4ai",
       "url": "https://github.com/unclecode/crawl4ai",
-      "description": "LLM 친화적인 오픈소스 웹 크롤러 및 스크래퍼",
-      "description_en": "Open-source LLM Friendly Web Crawler & Scraper"
+      "description": "LLM에 친화적인 오픈소스 웹 크롤러 및 스크레이퍼로, AI 파이프라인에 바로 넣을 수 있는 구조화된 데이터를 추출함",
+      "description_en": "Open-source LLM-friendly web crawler & scraper that extracts structured data ready for AI pipelines"
     },
     {
-      "name": "claude-video",
+      "name": "bradautomates/claude-video",
       "url": "https://github.com/bradautomates/claude-video",
-      "description": "Claude에게 비디오 시청 능력 부여 — 프레임 추출 및 자동 음성 인식 포함",
-      "description_en": "Give Claude the ability to watch any video with frame extraction and transcription"
+      "description": "Claude가 영상을 볼 수 있게 해주는 도구. /watch로 영상을 내려받아 프레임 추출·자막 변환 후 Claude에 전달함",
+      "description_en": "Gives Claude the ability to watch any video — downloads, extracts frames, transcribes, and hands it all to Claude"
     },
     {
-      "name": "pocket-tts",
+      "name": "kyutai-labs/pocket-tts",
       "url": "https://github.com/kyutai-labs/pocket-tts",
-      "description": "CPU에 적합한 경량 음성 합성 시스템",
-      "description_en": "A TTS that fits in your CPU"
+      "description": "GPU 없이 CPU만으로 동작하는 초경량 TTS(음성합성) 모델. 주머니에 들어갈 만큼 작음",
+      "description_en": "A TTS model small enough to fit in your CPU (and pocket), running without a GPU"
     },
     {
-      "name": "SkillOpt",
+      "name": "microsoft/SkillOpt",
       "url": "https://github.com/microsoft/SkillOpt",
-      "description": "LLM 에이전트를 위한 텍스트 공간 최적화 도구 — 재사용 가능한 자연언어 스킬 학습",
-      "description_en": "Text-space optimizer that trains reusable natural-language skills for frozen LLM agents"
+      "description": "Microsoft의 텍스트 공간 최적화 도구. 고정된 LLM 에이전트를 위해 재사용 가능한 자연어 스킬을 학습시키고 검증 기반으로 업데이트함",
+      "description_en": "A text-space optimizer that trains reusable natural-language skills for frozen LLM agents via validation-gated updates"
     },
     {
-      "name": "Y2A-Auto",
+      "name": "fqscfqj/Y2A-Auto",
       "url": "https://github.com/fqscfqj/Y2A-Auto",
-      "description": "유튜브 콘텐츠를 AcFun·bilibili로 자동 이전 — AI 번역 및 자막 생성 지원",
-      "description_en": "YouTube to AcFun and bilibili automation tool supporting AI translation and subtitle generation"
+      "description": "유튜브 영상을 AcFun·bilibili로 자동 옮기는 도구. AI 번역, 자막 생성, 콘텐츠 검수, 스마트 모니터링을 지원함",
+      "description_en": "A tool that auto-transfers YouTube videos to AcFun and bilibili with AI translation, subtitle generation, moderation, and monitoring"
     }
   ],
   "huggingface": [
     {
-      "title": "정확하고 학제적이며 투명한 구조-특성 이해를 위한 딥 네이티브 구조 추론",
-      "title_en": "Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning",
-      "url": "https://huggingface.co/papers/2607.07708",
-      "summary": "심층 구조 추론을 활용하여 물질의 성질을 정확하고 투명하게 이해하는 학제적 접근 방법을 제시합니다.",
-      "summary_en": "Proposes an interdisciplinary approach leveraging deep structural reasoning for accurate and transparent understanding of material properties."
+      "title": "AgentLens: 코딩 에이전트 평가를 위한 프로덕션 검증 기반 궤적 리뷰",
+      "title_en": "AgentLens: Production-Assessed Trajectory Reviews for Coding Agent Evaluation",
+      "url": "https://huggingface.co/papers/2607.06624",
+      "summary": "실제 프로덕션 환경에서 검증된 실행 궤적을 활용해 코딩 에이전트의 성능을 평가하는 프레임워크를 제안함",
+      "summary_en": "Proposes a framework that evaluates coding agents using trajectory reviews assessed in real production settings"
     },
     {
-      "title": "로봇 조작을 위한 시각-언어-행동 모델의 이중 잠재 메모리",
-      "title_en": "Dual Latent Memory in Vision-Language-Action Models for Robotic Manipulation",
-      "url": "https://huggingface.co/papers/2607.07608",
-      "summary": "이중 잠재 메모리 메커니즘을 통해 로봇 조작 작업의 성능을 향상시키는 시각-언어-행동 모델을 개발합니다.",
-      "summary_en": "Develops vision-language-action models with dual latent memory mechanisms to enhance robotic manipulation task performance."
+      "title": "유방암 분류를 위한 대형 비전 모델의 토큰 기반 이중 관점 융합 및 적응",
+      "title_en": "Token-Based Dual-view Fusion and Adaptation of Large Vision Models for Breast Cancer Classification",
+      "url": "https://huggingface.co/papers/2607.06309",
+      "summary": "대형 비전 모델을 유방암 분류에 적응시키기 위해 토큰 단위의 이중 관점 융합 기법을 제안함",
+      "summary_en": "Introduces token-based dual-view fusion to adapt large vision models for breast cancer classification"
     },
     {
-      "title": "구체화된 지능을 위한 혼합 전문가 비디오 사전학습의 확장",
-      "title_en": "Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence",
-      "url": "https://huggingface.co/papers/2607.07675",
-      "summary": "혼합 전문가 아키텍처를 사용하여 비디오 사전학습을 확장하여 구체화된 지능 시스템의 성능을 개선합니다.",
-      "summary_en": "Scales video pretraining using mixture-of-experts architecture to improve embodied intelligence system performance."
+      "title": "RoboTALES: 과제 정렬 시뮬레이션 미래를 통한 추론 유도 로봇 정책 학습",
+      "title_en": "RoboTALES: Learning Reasoning-Guided Robot Policies via Task-Aligned Simulated Futures",
+      "url": "https://huggingface.co/papers/2607.06018",
+      "summary": "과제에 정렬된 시뮬레이션 미래를 활용해 추론에 기반한 로봇 제어 정책을 학습하는 방법을 다룸",
+      "summary_en": "Learns reasoning-guided robot control policies using task-aligned simulated future rollouts"
     },
     {
-      "title": "다양한 상호작용을 가능하게 하는 무한 세계",
-      "title_en": "Infinite Worlds with Versatile Interactions",
-      "url": "https://huggingface.co/papers/2607.07534",
-      "summary": "무한한 가상 환경에서 다양한 상호작용을 지원하는 새로운 프레임워크를 제안합니다.",
-      "summary_en": "Proposes a novel framework enabling diverse interactions within infinite virtual environments."
+      "title": "상상된 롤아웃은 운동학적일 뿐 동역학적이지 않다: 장기 월드모델 실패의 진단",
+      "title_en": "Imagined Rollouts are Kinematic, Not Dynamic: A Diagnosis of Long-Horizon World-Model Failure",
+      "url": "https://huggingface.co/papers/2607.05966",
+      "summary": "월드모델이 장기 예측에서 실패하는 원인을 분석하며, 상상된 롤아웃이 동역학이 아닌 운동학에 그친다는 점을 진단함",
+      "summary_en": "Diagnoses long-horizon world-model failure, showing imagined rollouts capture only kinematics, not dynamics"
     },
     {
-      "title": "에이전트 강화학습을 위한 단일 롤아웃 비동기 최적화",
-      "title_en": "Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning",
-      "url": "https://huggingface.co/papers/2607.07508",
-      "summary": "단일 샘플링으로 에이전트 강화학습을 효율적으로 최적화하는 새로운 비동기 방법을 제시합니다.",
-      "summary_en": "Introduces an asynchronous optimization method for efficient agentic reinforcement learning with single-rollout sampling."
+      "title": "LLM에게 저자원 언어 가르치기: Pharo 코드 자동완성 성능 향상",
+      "title_en": "Teaching LLMs a Low-Resource Language: Enhancing Code Completion in Pharo",
+      "url": "https://huggingface.co/papers/2607.04939",
+      "summary": "저자원 프로그래밍 언어인 Pharo에 대한 LLM의 코드 자동완성 능력을 향상시키는 방법을 연구함",
+      "summary_en": "Studies methods to improve LLM code completion for the low-resource programming language Pharo"
     }
   ],
   "geeknews": [
     {
-      "title": "30 Papers — 일리야 서츠케버 추천 AI 핵심 논문 목록 요약",
-      "title_en": "30 Papers - Ilya Sutskever's Essential AI Research Papers",
-      "url": "https://30papers.com/",
-      "summary": "일리야 서츠케버가 존 카맥에게 추천한 AI 핵심 논문들을 초보자가 따라가기 쉽게 정리한 사이트입니다.",
-      "summary_en": "A curated collection of essential AI research papers recommended by Ilya Sutskever, organized for beginner accessibility."
+      "title": "30 Papers - 일리야 서츠케버 추천 AI 핵심 논문 목록 요약",
+      "title_en": "30 Papers - Summary of Ilya Sutskever's Recommended Core AI Papers",
+      "url": "https://news.hada.io/topic?id=31224",
+      "summary": "일리야 서츠케버가 존 카맥에게 추천했다고 알려진 AI 핵심 논문 목록을 초보자가 따라가기 쉽게 정리한 사이트",
+      "summary_en": "A site organizing the list of core AI papers Ilya Sutskever reportedly recommended to John Carmack, made beginner-friendly"
     },
     {
-      "title": "무언가를 배워보는 게 좋을지도 모름",
-      "title_en": "Learning Something New Might Be Good",
-      "url": "https://www.marginalia.nu/log/a_135_learn/",
-      "summary": "성인도 픽셀 아트, 타이핑, 3D 모델링, 음악 등 새로운 기술을 배울 수 있으며, 이는 개인적 성장을 가져옵니다.",
-      "summary_en": "Adults can learn new skills like pixel art, typing, 3D modeling, and music, contributing to personal growth and fulfillment."
+      "title": "루프 시작하기 (에이전트 루프 운영 패턴)",
+      "title_en": "Getting Started with Loops (Agent Loop Operation Pattern)",
+      "url": "https://news.hada.io/topic?id=31225",
+      "summary": "매 프롬프트를 지시하는 대신 정지 조건이 충족될 때까지 작업 사이클을 반복하는 코딩 에이전트 운영 패턴으로의 전환을 소개함",
+      "summary_en": "Introduces shifting to an agent pattern that repeats work cycles until a stop condition is met, rather than prompting each step"
     },
     {
-      "title": "루프 시작하기",
-      "title_en": "Getting Started with Loops",
-      "url": "https://x.com/ClaudeDevs/status/2074208949205881033",
-      "summary": "코딩 에이전트를 매 프롬프트마다 지시하는 대신, 정지 조건까지 반복하는 에이전트 운영 패턴으로 전환합니다.",
-      "summary_en": "Transitioning coding agent operation from per-prompt instructions to repeating work cycles until stopping conditions are met."
+      "title": "Chatto, 이제 오픈소스로 공개되어 셀프 호스팅 가능",
+      "title_en": "Chatto Is Now Open Source and Self-Hostable",
+      "url": "https://news.hada.io/topic?id=31253",
+      "summary": "Slack·Teams·Discord 같은 그룹 채팅 앱을 더 컴팩트하고 빠르게 만든 Chatto가 오픈소스로 공개되어 실행 파일만으로 셀프 호스팅 가능",
+      "summary_en": "Chatto, a more compact and faster alternative to Slack/Teams/Discord group chat, is now open source and self-hostable via a single binary"
     },
     {
-      "title": "Astryx — Meta가 공개한 오픈소스 디자인 시스템",
-      "title_en": "Astryx - Meta's Open Source Design System",
-      "url": "https://astryx.atmeta.com/",
-      "summary": "React와 StyleX 기반으로 160개 이상의 컴포넌트를 제공하며, 완전한 커스터마이징과 AI 에이전트 대응을 특징으로 합니다.",
-      "summary_en": "React and StyleX-based design system offering 160+ components with full customization and AI agent support."
+      "title": "TrueType QR Code 폰트 - 폰트만으로 QR코드 만들기",
+      "title_en": "TrueType QR Code Font - Generate QR Codes with Just a Font",
+      "url": "https://news.hada.io/topic?id=31247",
+      "summary": "대괄호로 감싼 텍스트를 QR 코드로 바꿔주는 TrueType/OpenType 폰트로, 이미지 생성 없이 문서 안에 QR 코드를 넣을 수 있음",
+      "summary_en": "A TrueType/OpenType font that turns bracketed text into QR codes, embedding them in documents without generating images"
     },
     {
-      "title": "Ternlight — 브라우저(WASM)에서 실행되는 7MB 임베딩 모델",
-      "title_en": "Ternlight - 7MB Embedding Model Running in Browser (WASM)",
-      "url": "https://ternlight-demo.vercel.app/",
-      "summary": "서버 호출 없이 브라우저에서 의미 검색을 수행하는 경량 임베딩 모델로, CPU만으로 동작합니다.",
-      "summary_en": "A lightweight embedding model enabling semantic search directly in the browser without server calls, running on CPU alone."
+      "title": "Oracle Always Free 백엔드 구축 기록: 용량 부족, PAYG 전환, 과금 차단",
+      "title_en": "Building a Backend on Oracle Always Free: Capacity Limits, PAYG Switch, Billing Guards",
+      "url": "https://news.hada.io/topic?id=31237",
+      "summary": "개인 프로젝트 백엔드를 월 0원으로 상시 운영하기 위한 과정을 2026년 7월 기준으로 재조사하고 실제 겪은 문제와 해법을 정리함",
+      "summary_en": "Documents running a personal backend on Oracle Always Free at zero monthly cost, with re-researched July 2026 findings and real issues faced"
     }
   ]
 }
