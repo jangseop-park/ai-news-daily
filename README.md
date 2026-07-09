@@ -6,37 +6,37 @@
 
 ## 🔥 GitHub Trending (Python)
 
-- [crawl4ai](https://github.com/unclecode/crawl4ai): LLM 친화적인 오픈소스 웹 크롤러 및 스크래퍼
-- [claude-video](https://github.com/bradautomates/claude-video): Claude에게 비디오 시청 능력 부여 — 프레임 추출 및 자동 음성 인식 포함
-- [pocket-tts](https://github.com/kyutai-labs/pocket-tts): CPU에 적합한 경량 음성 합성 시스템
-- [SkillOpt](https://github.com/microsoft/SkillOpt): LLM 에이전트를 위한 텍스트 공간 최적화 도구 — 재사용 가능한 자연언어 스킬 학습
-- [Y2A-Auto](https://github.com/fqscfqj/Y2A-Auto): 유튜브 콘텐츠를 AcFun·bilibili로 자동 이전 — AI 번역 및 자막 생성 지원
+- [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai): LLM에 친화적인 오픈소스 웹 크롤러 및 스크레이퍼로, AI 파이프라인에 바로 넣을 수 있는 구조화된 데이터를 추출함
+- [bradautomates/claude-video](https://github.com/bradautomates/claude-video): Claude가 영상을 볼 수 있게 해주는 도구. /watch로 영상을 내려받아 프레임 추출·자막 변환 후 Claude에 전달함
+- [kyutai-labs/pocket-tts](https://github.com/kyutai-labs/pocket-tts): GPU 없이 CPU만으로 동작하는 초경량 TTS(음성합성) 모델. 주머니에 들어갈 만큼 작음
+- [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt): Microsoft의 텍스트 공간 최적화 도구. 고정된 LLM 에이전트를 위해 재사용 가능한 자연어 스킬을 학습시키고 검증 기반으로 업데이트함
+- [fqscfqj/Y2A-Auto](https://github.com/fqscfqj/Y2A-Auto): 유튜브 영상을 AcFun·bilibili로 자동 옮기는 도구. AI 번역, 자막 생성, 콘텐츠 검수, 스마트 모니터링을 지원함
 
 ## 📄 Hugging Face Papers
 
-- [Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning](https://huggingface.co/papers/2607.07708)
-  심층 구조 추론을 활용하여 물질의 성질을 정확하고 투명하게 이해하는 학제적 접근 방법을 제시합니다.
-- [Dual Latent Memory in Vision-Language-Action Models for Robotic Manipulation](https://huggingface.co/papers/2607.07608)
-  이중 잠재 메모리 메커니즘을 통해 로봇 조작 작업의 성능을 향상시키는 시각-언어-행동 모델을 개발합니다.
-- [Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence](https://huggingface.co/papers/2607.07675)
-  혼합 전문가 아키텍처를 사용하여 비디오 사전학습을 확장하여 구체화된 지능 시스템의 성능을 개선합니다.
-- [Infinite Worlds with Versatile Interactions](https://huggingface.co/papers/2607.07534)
-  무한한 가상 환경에서 다양한 상호작용을 지원하는 새로운 프레임워크를 제안합니다.
-- [Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning](https://huggingface.co/papers/2607.07508)
-  단일 샘플링으로 에이전트 강화학습을 효율적으로 최적화하는 새로운 비동기 방법을 제시합니다.
+- [AgentLens: 코딩 에이전트 평가를 위한 프로덕션 검증 기반 궤적 리뷰](https://huggingface.co/papers/2607.06624)
+  실제 프로덕션 환경에서 검증된 실행 궤적을 활용해 코딩 에이전트의 성능을 평가하는 프레임워크를 제안함
+- [유방암 분류를 위한 대형 비전 모델의 토큰 기반 이중 관점 융합 및 적응](https://huggingface.co/papers/2607.06309)
+  대형 비전 모델을 유방암 분류에 적응시키기 위해 토큰 단위의 이중 관점 융합 기법을 제안함
+- [RoboTALES: 과제 정렬 시뮬레이션 미래를 통한 추론 유도 로봇 정책 학습](https://huggingface.co/papers/2607.06018)
+  과제에 정렬된 시뮬레이션 미래를 활용해 추론에 기반한 로봇 제어 정책을 학습하는 방법을 다룸
+- [상상된 롤아웃은 운동학적일 뿐 동역학적이지 않다: 장기 월드모델 실패의 진단](https://huggingface.co/papers/2607.05966)
+  월드모델이 장기 예측에서 실패하는 원인을 분석하며, 상상된 롤아웃이 동역학이 아닌 운동학에 그친다는 점을 진단함
+- [LLM에게 저자원 언어 가르치기: Pharo 코드 자동완성 성능 향상](https://huggingface.co/papers/2607.04939)
+  저자원 프로그래밍 언어인 Pharo에 대한 LLM의 코드 자동완성 능력을 향상시키는 방법을 연구함
 
 ## 🦉 GeekNews
 
-- [30 Papers — 일리야 서츠케버 추천 AI 핵심 논문 목록 요약](https://30papers.com/)
-  일리야 서츠케버가 존 카맥에게 추천한 AI 핵심 논문들을 초보자가 따라가기 쉽게 정리한 사이트입니다.
-- [무언가를 배워보는 게 좋을지도 모름](https://www.marginalia.nu/log/a_135_learn/)
-  성인도 픽셀 아트, 타이핑, 3D 모델링, 음악 등 새로운 기술을 배울 수 있으며, 이는 개인적 성장을 가져옵니다.
-- [루프 시작하기](https://x.com/ClaudeDevs/status/2074208949205881033)
-  코딩 에이전트를 매 프롬프트마다 지시하는 대신, 정지 조건까지 반복하는 에이전트 운영 패턴으로 전환합니다.
-- [Astryx — Meta가 공개한 오픈소스 디자인 시스템](https://astryx.atmeta.com/)
-  React와 StyleX 기반으로 160개 이상의 컴포넌트를 제공하며, 완전한 커스터마이징과 AI 에이전트 대응을 특징으로 합니다.
-- [Ternlight — 브라우저(WASM)에서 실행되는 7MB 임베딩 모델](https://ternlight-demo.vercel.app/)
-  서버 호출 없이 브라우저에서 의미 검색을 수행하는 경량 임베딩 모델로, CPU만으로 동작합니다.
+- [30 Papers - 일리야 서츠케버 추천 AI 핵심 논문 목록 요약](https://news.hada.io/topic?id=31224)
+  일리야 서츠케버가 존 카맥에게 추천했다고 알려진 AI 핵심 논문 목록을 초보자가 따라가기 쉽게 정리한 사이트
+- [루프 시작하기 (에이전트 루프 운영 패턴)](https://news.hada.io/topic?id=31225)
+  매 프롬프트를 지시하는 대신 정지 조건이 충족될 때까지 작업 사이클을 반복하는 코딩 에이전트 운영 패턴으로의 전환을 소개함
+- [Chatto, 이제 오픈소스로 공개되어 셀프 호스팅 가능](https://news.hada.io/topic?id=31253)
+  Slack·Teams·Discord 같은 그룹 채팅 앱을 더 컴팩트하고 빠르게 만든 Chatto가 오픈소스로 공개되어 실행 파일만으로 셀프 호스팅 가능
+- [TrueType QR Code 폰트 - 폰트만으로 QR코드 만들기](https://news.hada.io/topic?id=31247)
+  대괄호로 감싼 텍스트를 QR 코드로 바꿔주는 TrueType/OpenType 폰트로, 이미지 생성 없이 문서 안에 QR 코드를 넣을 수 있음
+- [Oracle Always Free 백엔드 구축 기록: 용량 부족, PAYG 전환, 과금 차단](https://news.hada.io/topic?id=31237)
+  개인 프로젝트 백엔드를 월 0원으로 상시 운영하기 위한 과정을 2026년 7월 기준으로 재조사하고 실제 겪은 문제와 해법을 정리함
 
 ---
 ## 📅 이전 날짜
