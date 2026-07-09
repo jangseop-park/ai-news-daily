@@ -1,0 +1,109 @@
+{
+  "date": "2026-07-10",
+  "github_trending": [
+    {
+      "name": "crawl4ai",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "description": "LLM 친화적인 오픈소스 웹 크롤러 및 스크래퍼",
+      "description_en": "Open-source LLM Friendly Web Crawler & Scraper"
+    },
+    {
+      "name": "claude-video",
+      "url": "https://github.com/bradautomates/claude-video",
+      "description": "Claude에게 비디오 시청 능력 부여 — 프레임 추출 및 자동 음성 인식 포함",
+      "description_en": "Give Claude the ability to watch any video with frame extraction and transcription"
+    },
+    {
+      "name": "pocket-tts",
+      "url": "https://github.com/kyutai-labs/pocket-tts",
+      "description": "CPU에 적합한 경량 음성 합성 시스템",
+      "description_en": "A TTS that fits in your CPU"
+    },
+    {
+      "name": "SkillOpt",
+      "url": "https://github.com/microsoft/SkillOpt",
+      "description": "LLM 에이전트를 위한 텍스트 공간 최적화 도구 — 재사용 가능한 자연언어 스킬 학습",
+      "description_en": "Text-space optimizer that trains reusable natural-language skills for frozen LLM agents"
+    },
+    {
+      "name": "Y2A-Auto",
+      "url": "https://github.com/fqscfqj/Y2A-Auto",
+      "description": "유튜브 콘텐츠를 AcFun·bilibili로 자동 이전 — AI 번역 및 자막 생성 지원",
+      "description_en": "YouTube to AcFun and bilibili automation tool supporting AI translation and subtitle generation"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "정확하고 학제적이며 투명한 구조-특성 이해를 위한 딥 네이티브 구조 추론",
+      "title_en": "Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning",
+      "url": "https://huggingface.co/papers/2607.07708",
+      "summary": "심층 구조 추론을 활용하여 물질의 성질을 정확하고 투명하게 이해하는 학제적 접근 방법을 제시합니다.",
+      "summary_en": "Proposes an interdisciplinary approach leveraging deep structural reasoning for accurate and transparent understanding of material properties."
+    },
+    {
+      "title": "로봇 조작을 위한 시각-언어-행동 모델의 이중 잠재 메모리",
+      "title_en": "Dual Latent Memory in Vision-Language-Action Models for Robotic Manipulation",
+      "url": "https://huggingface.co/papers/2607.07608",
+      "summary": "이중 잠재 메모리 메커니즘을 통해 로봇 조작 작업의 성능을 향상시키는 시각-언어-행동 모델을 개발합니다.",
+      "summary_en": "Develops vision-language-action models with dual latent memory mechanisms to enhance robotic manipulation task performance."
+    },
+    {
+      "title": "구체화된 지능을 위한 혼합 전문가 비디오 사전학습의 확장",
+      "title_en": "Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence",
+      "url": "https://huggingface.co/papers/2607.07675",
+      "summary": "혼합 전문가 아키텍처를 사용하여 비디오 사전학습을 확장하여 구체화된 지능 시스템의 성능을 개선합니다.",
+      "summary_en": "Scales video pretraining using mixture-of-experts architecture to improve embodied intelligence system performance."
+    },
+    {
+      "title": "다양한 상호작용을 가능하게 하는 무한 세계",
+      "title_en": "Infinite Worlds with Versatile Interactions",
+      "url": "https://huggingface.co/papers/2607.07534",
+      "summary": "무한한 가상 환경에서 다양한 상호작용을 지원하는 새로운 프레임워크를 제안합니다.",
+      "summary_en": "Proposes a novel framework enabling diverse interactions within infinite virtual environments."
+    },
+    {
+      "title": "에이전트 강화학습을 위한 단일 롤아웃 비동기 최적화",
+      "title_en": "Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2607.07508",
+      "summary": "단일 샘플링으로 에이전트 강화학습을 효율적으로 최적화하는 새로운 비동기 방법을 제시합니다.",
+      "summary_en": "Introduces an asynchronous optimization method for efficient agentic reinforcement learning with single-rollout sampling."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "30 Papers — 일리야 서츠케버 추천 AI 핵심 논문 목록 요약",
+      "title_en": "30 Papers - Ilya Sutskever's Essential AI Research Papers",
+      "url": "https://30papers.com/",
+      "summary": "일리야 서츠케버가 존 카맥에게 추천한 AI 핵심 논문들을 초보자가 따라가기 쉽게 정리한 사이트입니다.",
+      "summary_en": "A curated collection of essential AI research papers recommended by Ilya Sutskever, organized for beginner accessibility."
+    },
+    {
+      "title": "무언가를 배워보는 게 좋을지도 모름",
+      "title_en": "Learning Something New Might Be Good",
+      "url": "https://www.marginalia.nu/log/a_135_learn/",
+      "summary": "성인도 픽셀 아트, 타이핑, 3D 모델링, 음악 등 새로운 기술을 배울 수 있으며, 이는 개인적 성장을 가져옵니다.",
+      "summary_en": "Adults can learn new skills like pixel art, typing, 3D modeling, and music, contributing to personal growth and fulfillment."
+    },
+    {
+      "title": "루프 시작하기",
+      "title_en": "Getting Started with Loops",
+      "url": "https://x.com/ClaudeDevs/status/2074208949205881033",
+      "summary": "코딩 에이전트를 매 프롬프트마다 지시하는 대신, 정지 조건까지 반복하는 에이전트 운영 패턴으로 전환합니다.",
+      "summary_en": "Transitioning coding agent operation from per-prompt instructions to repeating work cycles until stopping conditions are met."
+    },
+    {
+      "title": "Astryx — Meta가 공개한 오픈소스 디자인 시스템",
+      "title_en": "Astryx - Meta's Open Source Design System",
+      "url": "https://astryx.atmeta.com/",
+      "summary": "React와 StyleX 기반으로 160개 이상의 컴포넌트를 제공하며, 완전한 커스터마이징과 AI 에이전트 대응을 특징으로 합니다.",
+      "summary_en": "React and StyleX-based design system offering 160+ components with full customization and AI agent support."
+    },
+    {
+      "title": "Ternlight — 브라우저(WASM)에서 실행되는 7MB 임베딩 모델",
+      "title_en": "Ternlight - 7MB Embedding Model Running in Browser (WASM)",
+      "url": "https://ternlight-demo.vercel.app/",
+      "summary": "서버 호출 없이 브라우저에서 의미 검색을 수행하는 경량 임베딩 모델로, CPU만으로 동작합니다.",
+      "summary_en": "A lightweight embedding model enabling semantic search directly in the browser without server calls, running on CPU alone."
+    }
+  ]
+}
