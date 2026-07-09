@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-07-09
+> 마지막 업데이트: 2026-07-10
 
-# AI 뉴스 — 2026-07-09
+# AI 뉴스 — 2026-07-10
 
 ## 🔥 GitHub Trending (Python)
 
-- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill): Reddit, X, YouTube, HN, Polymarket, 웹 등 여러 소스에서 주제를 조사한 뒤 근거 기반 요약을 생성하는 AI 에이전트 스킬
-- [bradautomates/claude-video](https://github.com/bradautomates/claude-video): Claude에게 영상 시청 능력을 부여하는 도구. /watch로 영상을 다운로드하고 프레임을 추출·전사해 Claude에게 전달함
-- [kyutai-labs/pocket-tts](https://github.com/kyutai-labs/pocket-tts): CPU(그리고 주머니)에도 들어갈 만큼 가벼운 TTS 모델
-- [jingyaogong/minimind](https://github.com/jingyaogong/minimind): 2시간 만에 처음부터 6400만 파라미터 소형 LLM을 학습시키는 프로젝트
-- [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt): 고정된 LLM 에이전트를 위한 재사용 가능한 자연어 스킬을 궤적 기반 편집·검증 게이트 업데이트로 학습시키는 텍스트 공간 최적화 도구
+- [crawl4ai](https://github.com/unclecode/crawl4ai): LLM 친화적인 오픈소스 웹 크롤러 및 스크래퍼
+- [claude-video](https://github.com/bradautomates/claude-video): Claude에게 비디오 시청 능력 부여 — 프레임 추출 및 자동 음성 인식 포함
+- [pocket-tts](https://github.com/kyutai-labs/pocket-tts): CPU에 적합한 경량 음성 합성 시스템
+- [SkillOpt](https://github.com/microsoft/SkillOpt): LLM 에이전트를 위한 텍스트 공간 최적화 도구 — 재사용 가능한 자연언어 스킬 학습
+- [Y2A-Auto](https://github.com/fqscfqj/Y2A-Auto): 유튜브 콘텐츠를 AcFun·bilibili로 자동 이전 — AI 번역 및 자막 생성 지원
 
 ## 📄 Hugging Face Papers
 
-- [RynnWorld-4D: 로봇 조작을 위한 4D 임바디드 월드 모델](https://huggingface.co/papers/2607.06559)
-  로봇 조작 작업을 위해 시간축을 포함한 4D 임바디드 월드 모델을 제안하여 물리적 상호작용을 예측·계획한다.
-- [AlayaWorld: 장기 지평·플레이 가능한 비디오 월드 생성](https://huggingface.co/papers/2607.06291)
-  장시간에 걸쳐 일관성을 유지하며 사용자가 상호작용해 조작할 수 있는 플레이 가능한 비디오 월드를 생성하는 모델을 제시한다.
-- [RynnWorld-Teleop: 디지털 원격조작을 위한 행동 조건부 월드 모델](https://huggingface.co/papers/2607.06558)
-  행동을 조건으로 하는 월드 모델을 통해 디지털 원격조작 환경에서 미래 상태를 예측하고 조작을 지원한다.
-- [제대로 된 계층적 희소 어텐션: 무한 문맥 모델링을 향하여](https://huggingface.co/papers/2607.02980)
-  계층적 희소 어텐션 기법을 개선하여 사실상 무한에 가까운 문맥 길이를 효율적으로 처리하는 방법을 제안한다.
-- [통합 멀티모달 생성으로서의 비전](https://huggingface.co/papers/2607.06560)
-  비전 작업을 통합된 멀티모달 생성 프레임워크로 재정의하여 다양한 시각 과제를 하나의 생성 모델로 처리한다.
+- [Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning](https://huggingface.co/papers/2607.07708)
+  심층 구조 추론을 활용하여 물질의 성질을 정확하고 투명하게 이해하는 학제적 접근 방법을 제시합니다.
+- [Dual Latent Memory in Vision-Language-Action Models for Robotic Manipulation](https://huggingface.co/papers/2607.07608)
+  이중 잠재 메모리 메커니즘을 통해 로봇 조작 작업의 성능을 향상시키는 시각-언어-행동 모델을 개발합니다.
+- [Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence](https://huggingface.co/papers/2607.07675)
+  혼합 전문가 아키텍처를 사용하여 비디오 사전학습을 확장하여 구체화된 지능 시스템의 성능을 개선합니다.
+- [Infinite Worlds with Versatile Interactions](https://huggingface.co/papers/2607.07534)
+  무한한 가상 환경에서 다양한 상호작용을 지원하는 새로운 프레임워크를 제안합니다.
+- [Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning](https://huggingface.co/papers/2607.07508)
+  단일 샘플링으로 에이전트 강화학습을 효율적으로 최적화하는 새로운 비동기 방법을 제시합니다.
 
 ## 🦉 GeekNews
 
-- [30 Papers - 일리야 서츠케버가 추천한 AI 핵심 논문 목록](https://news.hada.io/topic?id=31224)
-  일리야 서츠케버가 존 카맥에게 추천했다고 알려진 AI 핵심 논문 모음으로, 입문자가 딥러닝의 기초를 다지기에 좋은 큐레이션이다.
-- [Astryx - Meta가 공개한 오픈소스 디자인 시스템](https://news.hada.io/topic?id=31190)
-  React와 StyleX 기반으로 160개 이상의 커스터마이즈 가능한 컴포넌트와 접근성 기능을 제공하는 Meta의 오픈소스 디자인 시스템이다.
-- [오픈소스 애플리케이션의 구조와 설계 지식 공유](https://news.hada.io/topic?id=31194)
-  실제 오픈소스 애플리케이션들의 아키텍처와 설계 결정을 문서화해 대규모 소프트웨어 구조를 배우도록 돕는 자료다.
-- [에이전트 루프 패턴](https://news.hada.io/topic?id=31225)
-  개별 프롬프트 지시에서 벗어나 중단 조건이 충족될 때까지 작업 사이클을 반복하는 방식으로 Claude 등 에이전트를 설계하는 패턴을 다룬다.
-- [Ternlight - 7MB 브라우저 임베딩 모델](https://news.hada.io/topic?id=31218)
-  WASM을 통해 서버 호출이나 GPU 없이 브라우저 내에서 시맨틱 검색을 실행할 수 있는 7MB 크기의 경량 임베딩 모델이다.
+- [30 Papers — 일리야 서츠케버 추천 AI 핵심 논문 목록 요약](https://30papers.com/)
+  일리야 서츠케버가 존 카맥에게 추천한 AI 핵심 논문들을 초보자가 따라가기 쉽게 정리한 사이트입니다.
+- [무언가를 배워보는 게 좋을지도 모름](https://www.marginalia.nu/log/a_135_learn/)
+  성인도 픽셀 아트, 타이핑, 3D 모델링, 음악 등 새로운 기술을 배울 수 있으며, 이는 개인적 성장을 가져옵니다.
+- [루프 시작하기](https://x.com/ClaudeDevs/status/2074208949205881033)
+  코딩 에이전트를 매 프롬프트마다 지시하는 대신, 정지 조건까지 반복하는 에이전트 운영 패턴으로 전환합니다.
+- [Astryx — Meta가 공개한 오픈소스 디자인 시스템](https://astryx.atmeta.com/)
+  React와 StyleX 기반으로 160개 이상의 컴포넌트를 제공하며, 완전한 커스터마이징과 AI 에이전트 대응을 특징으로 합니다.
+- [Ternlight — 브라우저(WASM)에서 실행되는 7MB 임베딩 모델](https://ternlight-demo.vercel.app/)
+  서버 호출 없이 브라우저에서 의미 검색을 수행하는 경량 임베딩 모델로, CPU만으로 동작합니다.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-07-09](data/2026-07-09.md)
 - [2026-07-08](data/2026-07-08.md)
 - [2026-07-07](data/2026-07-07.md)
 - [2026-07-06](data/2026-07-06.md)
@@ -69,4 +70,3 @@
 - [2026-06-11](data/2026-06-11.md)
 - [2026-06-10](data/2026-06-10.md)
 - [2026-06-09](data/2026-06-09.md)
-- [2026-06-08](data/2026-06-08.md)
