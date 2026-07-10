@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-07-10
+> 마지막 업데이트: 2026-07-11
 
-# AI 뉴스 — 2026-07-10
+# AI 뉴스 — 2026-07-11
 
 ## 🔥 GitHub Trending (Python)
 
-- [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai): LLM에 친화적인 오픈소스 웹 크롤러 및 스크레이퍼로, AI 파이프라인에 바로 넣을 수 있는 구조화된 데이터를 추출함
-- [bradautomates/claude-video](https://github.com/bradautomates/claude-video): Claude가 영상을 볼 수 있게 해주는 도구. /watch로 영상을 내려받아 프레임 추출·자막 변환 후 Claude에 전달함
-- [kyutai-labs/pocket-tts](https://github.com/kyutai-labs/pocket-tts): GPU 없이 CPU만으로 동작하는 초경량 TTS(음성합성) 모델. 주머니에 들어갈 만큼 작음
-- [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt): Microsoft의 텍스트 공간 최적화 도구. 고정된 LLM 에이전트를 위해 재사용 가능한 자연어 스킬을 학습시키고 검증 기반으로 업데이트함
-- [fqscfqj/Y2A-Auto](https://github.com/fqscfqj/Y2A-Auto): 유튜브 영상을 AcFun·bilibili로 자동 옮기는 도구. AI 번역, 자막 생성, 콘텐츠 검수, 스마트 모니터링을 지원함
+- [claude-code-templates](https://github.com/davila7/claude-code-templates): Claude Code를 설정하고 모니터링하기 위한 CLI 도구
+- [last30days-skill](https://github.com/mvanhorn/last30days-skill): Reddit, X, YouTube, HN, Polymarket 및 웹을 통해 주제를 연구하는 AI 에이전트 스킬
+- [speech-to-speech](https://github.com/huggingface/speech-to-speech): 오픈소스 모델을 사용하여 로컬 음성 에이전트 구축
+- [supervision](https://github.com/roboflow/supervision): 재사용 가능한 컴퓨터 비전 도구 작성 플랫폼
+- [openai-python](https://github.com/openai/openai-python): OpenAI API를 위한 공식 Python 라이브러리
 
 ## 📄 Hugging Face Papers
 
-- [AgentLens: 코딩 에이전트 평가를 위한 프로덕션 검증 기반 궤적 리뷰](https://huggingface.co/papers/2607.06624)
-  실제 프로덕션 환경에서 검증된 실행 궤적을 활용해 코딩 에이전트의 성능을 평가하는 프레임워크를 제안함
-- [유방암 분류를 위한 대형 비전 모델의 토큰 기반 이중 관점 융합 및 적응](https://huggingface.co/papers/2607.06309)
-  대형 비전 모델을 유방암 분류에 적응시키기 위해 토큰 단위의 이중 관점 융합 기법을 제안함
-- [RoboTALES: 과제 정렬 시뮬레이션 미래를 통한 추론 유도 로봇 정책 학습](https://huggingface.co/papers/2607.06018)
-  과제에 정렬된 시뮬레이션 미래를 활용해 추론에 기반한 로봇 제어 정책을 학습하는 방법을 다룸
-- [상상된 롤아웃은 운동학적일 뿐 동역학적이지 않다: 장기 월드모델 실패의 진단](https://huggingface.co/papers/2607.05966)
-  월드모델이 장기 예측에서 실패하는 원인을 분석하며, 상상된 롤아웃이 동역학이 아닌 운동학에 그친다는 점을 진단함
-- [LLM에게 저자원 언어 가르치기: Pharo 코드 자동완성 성능 향상](https://huggingface.co/papers/2607.04939)
-  저자원 프로그래밍 언어인 Pharo에 대한 LLM의 코드 자동완성 능력을 향상시키는 방법을 연구함
+- [Vidu S1: A Real-Time Interactive Video Generation Model](https://huggingface.co/papers/2607.03118)
+  실시간으로 사용자 입력에 반응하여 비디오를 생성하는 청화대학교 개발 모델입니다.
+- [Video-Oasis: Rethinking Evaluation of Video Understanding](https://huggingface.co/papers/2603.29616)
+  NAVER에서 제시한 비디오 이해 평가 방식의 혁신적 접근법으로, 기존 평가 체계의 문제점을 다시 검토합니다.
+- [Why Can't I Open My Drawer? Mitigating Object-Driven Shortcuts in Zero-Shot Compositional Action Recognition](https://huggingface.co/papers/2601.16211)
+  NAVER 연구팀이 제로샷 합성 행동 인식에서 객체에 의존하는 단축 문제를 해결하는 방법을 제안합니다.
+- [UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks](https://huggingface.co/papers/2607.08768)
+  실제 작업 환경을 반영하여 능동형 에이전트의 성능을 평가하는 범용 벤치마크를 홍콩대학교에서 개발했습니다.
+- [Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation](https://huggingface.co/papers/2607.08758)
+  상해 교통대학교에서 과학적 아이디어의 계보 관계를 추론하고 생성하는 능력을 평가하는 벤치마크를 제시합니다.
 
 ## 🦉 GeekNews
 
-- [30 Papers - 일리야 서츠케버 추천 AI 핵심 논문 목록 요약](https://news.hada.io/topic?id=31224)
-  일리야 서츠케버가 존 카맥에게 추천했다고 알려진 AI 핵심 논문 목록을 초보자가 따라가기 쉽게 정리한 사이트
-- [루프 시작하기 (에이전트 루프 운영 패턴)](https://news.hada.io/topic?id=31225)
-  매 프롬프트를 지시하는 대신 정지 조건이 충족될 때까지 작업 사이클을 반복하는 코딩 에이전트 운영 패턴으로의 전환을 소개함
-- [Chatto, 이제 오픈소스로 공개되어 셀프 호스팅 가능](https://news.hada.io/topic?id=31253)
-  Slack·Teams·Discord 같은 그룹 채팅 앱을 더 컴팩트하고 빠르게 만든 Chatto가 오픈소스로 공개되어 실행 파일만으로 셀프 호스팅 가능
-- [TrueType QR Code 폰트 - 폰트만으로 QR코드 만들기](https://news.hada.io/topic?id=31247)
-  대괄호로 감싼 텍스트를 QR 코드로 바꿔주는 TrueType/OpenType 폰트로, 이미지 생성 없이 문서 안에 QR 코드를 넣을 수 있음
-- [Oracle Always Free 백엔드 구축 기록: 용량 부족, PAYG 전환, 과금 차단](https://news.hada.io/topic?id=31237)
-  개인 프로젝트 백엔드를 월 0원으로 상시 운영하기 위한 과정을 2026년 7월 기준으로 재조사하고 실제 겪은 문제와 해법을 정리함
+- [30 Papers — 일리야 서츠케버 추천 AI 핵심 논문 목록 요약](https://30papers.com/)
+  일리야 서츠케버가 추천한 AI 핵심 논문을 모아 초보자가 따라가기 쉽게 정리한 사이트입니다.
+- [AI 시대에 취미가 곧 비즈니스 기회가 되는 이유](https://cse.ac/jun/hobby-capital/)
+  LLM이 지식노동을 평준화하면서 진정한 경쟁력은 개인의 도메인 지식과 맥락에 있다는 분석입니다.
+- [Ternlight — 브라우저(WASM)에서 실행되는 7MB 임베딩 모델](https://ternlight-demo.vercel.app/)
+  서버 호출 없이 브라우저에서 텍스트 임베딩과 의미 검색을 수행하는 경량 모델입니다.
+- [OpenAI GPT-5.6 출시](https://openai.com/index/gpt-5-6/)
+  OpenAI가 GPT-5.6 패밀리를 정식 출시했으며, Sol, Terra, Luna 등 다양한 모델 변형을 제공합니다.
+- [LLM 번아웃이 온 것 같아요](https://www.alecscollon.com/blog/llm-burnout/)
+  매일 다양한 AI 도구를 사용하면서 AI 생성 텍스트 소비 시간이 크게 증가한 현상에 대한 개발자의 성찰입니다.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-07-10](data/2026-07-10.md)
 - [2026-07-09](data/2026-07-09.md)
 - [2026-07-08](data/2026-07-08.md)
 - [2026-07-07](data/2026-07-07.md)
@@ -69,4 +70,3 @@
 - [2026-06-12](data/2026-06-12.md)
 - [2026-06-11](data/2026-06-11.md)
 - [2026-06-10](data/2026-06-10.md)
-- [2026-06-09](data/2026-06-09.md)
