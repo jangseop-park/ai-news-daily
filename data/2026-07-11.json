@@ -1,0 +1,109 @@
+{
+  "date": "2026-07-11",
+  "github_trending": [
+    {
+      "name": "claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "description": "Claude Code를 설정하고 모니터링하기 위한 CLI 도구",
+      "description_en": "CLI tool for configuring and monitoring Claude Code"
+    },
+    {
+      "name": "last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "Reddit, X, YouTube, HN, Polymarket 및 웹을 통해 주제를 연구하는 AI 에이전트 스킬",
+      "description_en": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web"
+    },
+    {
+      "name": "speech-to-speech",
+      "url": "https://github.com/huggingface/speech-to-speech",
+      "description": "오픈소스 모델을 사용하여 로컬 음성 에이전트 구축",
+      "description_en": "Build local voice agents with open-source models"
+    },
+    {
+      "name": "supervision",
+      "url": "https://github.com/roboflow/supervision",
+      "description": "재사용 가능한 컴퓨터 비전 도구 작성 플랫폼",
+      "description_en": "We write your reusable computer vision tools"
+    },
+    {
+      "name": "openai-python",
+      "url": "https://github.com/openai/openai-python",
+      "description": "OpenAI API를 위한 공식 Python 라이브러리",
+      "description_en": "The official Python library for the OpenAI API"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "Vidu S1: 실시간 인터랙티브 비디오 생성 모델",
+      "title_en": "Vidu S1: A Real-Time Interactive Video Generation Model",
+      "url": "https://huggingface.co/papers/2607.03118",
+      "summary": "실시간으로 사용자 입력에 반응하여 비디오를 생성하는 청화대학교 개발 모델입니다.",
+      "summary_en": "A real-time video generation model that responds interactively to user inputs, developed by Tsinghua University."
+    },
+    {
+      "title": "Video-Oasis: 비디오 이해 평가의 재고찰",
+      "title_en": "Video-Oasis: Rethinking Evaluation of Video Understanding",
+      "url": "https://huggingface.co/papers/2603.29616",
+      "summary": "NAVER에서 제시한 비디오 이해 평가 방식의 혁신적 접근법으로, 기존 평가 체계의 문제점을 다시 검토합니다.",
+      "summary_en": "NAVER proposes an innovative approach to video comprehension evaluation by reconsidering conventional methodologies."
+    },
+    {
+      "title": "왜 서랍을 열 수 없을까? 영상 행동 인식의 객체 기반 바이어스 완화",
+      "title_en": "Why Can't I Open My Drawer? Mitigating Object-Driven Shortcuts in Zero-Shot Compositional Action Recognition",
+      "url": "https://huggingface.co/papers/2601.16211",
+      "summary": "NAVER 연구팀이 제로샷 합성 행동 인식에서 객체에 의존하는 단축 문제를 해결하는 방법을 제안합니다.",
+      "summary_en": "NAVER researchers address object-driven biases in zero-shot compositional action recognition systems."
+    },
+    {
+      "title": "UniClawBench: 현실 작업을 위한 능동형 에이전트의 범용 벤치마크",
+      "title_en": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
+      "url": "https://huggingface.co/papers/2607.08768",
+      "summary": "실제 작업 환경을 반영하여 능동형 에이전트의 성능을 평가하는 범용 벤치마크를 홍콩대학교에서 개발했습니다.",
+      "summary_en": "Hong Kong University presents a comprehensive evaluation framework for proactive agents performing real-world tasks."
+    },
+    {
+      "title": "아이디어의 계보: 과학적 계보 추론 및 계보 기반 아이디어 생성 벤치마크",
+      "title_en": "Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation",
+      "url": "https://huggingface.co/papers/2607.08758",
+      "summary": "상해 교통대학교에서 과학적 아이디어의 계보 관계를 추론하고 생성하는 능력을 평가하는 벤치마크를 제시합니다.",
+      "summary_en": "Shanghai Jiao Tong University introduces a benchmark for evaluating scientific lineage reasoning and generation capabilities."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "30 Papers — 일리야 서츠케버 추천 AI 핵심 논문 목록 요약",
+      "title_en": "30 Papers - Essential AI Research Papers Recommended by Ilya Sutskever",
+      "url": "https://30papers.com/",
+      "summary": "일리야 서츠케버가 추천한 AI 핵심 논문을 모아 초보자가 따라가기 쉽게 정리한 사이트입니다.",
+      "summary_en": "A curated collection of essential AI research papers recommended by Ilya Sutskever, organized for beginners."
+    },
+    {
+      "title": "AI 시대에 취미가 곧 비즈니스 기회가 되는 이유",
+      "title_en": "Why Hobbies Become Business Opportunities in the AI Era",
+      "url": "https://cse.ac/jun/hobby-capital/",
+      "summary": "LLM이 지식노동을 평준화하면서 진정한 경쟁력은 개인의 도메인 지식과 맥락에 있다는 분석입니다.",
+      "summary_en": "As LLMs democratize knowledge work, competitive advantage shifts to personal domain expertise and context."
+    },
+    {
+      "title": "Ternlight — 브라우저(WASM)에서 실행되는 7MB 임베딩 모델",
+      "title_en": "Ternlight - 7MB Embedding Model Running in Browser (WASM)",
+      "url": "https://ternlight-demo.vercel.app/",
+      "summary": "서버 호출 없이 브라우저에서 텍스트 임베딩과 의미 검색을 수행하는 경량 모델입니다.",
+      "summary_en": "Lightweight model enabling semantic search and text embeddings directly in the browser without server calls."
+    },
+    {
+      "title": "OpenAI GPT-5.6 출시",
+      "title_en": "OpenAI Releases GPT 5.6",
+      "url": "https://openai.com/index/gpt-5-6/",
+      "summary": "OpenAI가 GPT-5.6 패밀리를 정식 출시했으며, Sol, Terra, Luna 등 다양한 모델 변형을 제공합니다.",
+      "summary_en": "OpenAI officially launches the GPT-5.6 family with multiple model variants including Sol, Terra, and Luna."
+    },
+    {
+      "title": "LLM 번아웃이 온 것 같아요",
+      "title_en": "LLM Burnout Seems to Be Here",
+      "url": "https://www.alecscollon.com/blog/llm-burnout/",
+      "summary": "매일 다양한 AI 도구를 사용하면서 AI 생성 텍스트 소비 시간이 크게 증가한 현상에 대한 개발자의 성찰입니다.",
+      "summary_en": "A developer reflects on increased AI-generated text consumption due to daily use of multiple AI tools."
+    }
+  ]
+}
