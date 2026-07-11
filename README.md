@@ -14,15 +14,15 @@
 
 ## 📄 Hugging Face Papers
 
-- [Vidu S1: A Real-Time Interactive Video Generation Model](https://huggingface.co/papers/2607.03118)
+- [Vidu S1: 실시간 인터랙티브 비디오 생성 모델](https://huggingface.co/papers/2607.03118)
   사용자 입력에 실시간으로 반응하는 인터랙티브 비디오 생성 모델. 칭화대학교 개발.
-- [Video-Oasis: Rethinking Evaluation of Video Understanding](https://huggingface.co/papers/2603.29616)
+- [Video-Oasis: 비디오 이해 평가 방식의 재고찰](https://huggingface.co/papers/2603.29616)
   기존 비디오 이해 평가 체계의 문제점을 분석하고 새로운 평가 방법을 제안. NAVER 연구팀.
-- [Why Can't I Open My Drawer? Mitigating Object-Driven Shortcuts in Zero-Shot Compositional Action Recognition](https://huggingface.co/papers/2601.16211)
+- [왜 서랍을 열 수 없을까? 제로샷 행동 인식의 객체 편향 완화](https://huggingface.co/papers/2601.16211)
   제로샷 합성 행동 인식에서 객체 의존 편향을 발견하고 완화하는 방법을 제안. NAVER.
-- [Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation](https://huggingface.co/papers/2607.08758)
+- [아이디어의 계보: 과학적 계보 추론 및 아이디어 생성 벤치마크](https://huggingface.co/papers/2607.08758)
   과학적 아이디어의 계보 관계를 추론하고 생성하는 능력을 평가하는 벤치마크. 상해교통대학교.
-- [UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks](https://huggingface.co/papers/2607.08768)
+- [UniClawBench: 현실 작업을 위한 능동형 에이전트 범용 벤치마크](https://huggingface.co/papers/2607.08768)
   현실적인 복잡한 작업 환경에서 능동형 AI 에이전트 성능을 평가하는 범용 벤치마크. 홍콩대학교.
 
 ## 🦉 GeekNews
