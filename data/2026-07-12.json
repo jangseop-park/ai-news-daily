@@ -1,0 +1,109 @@
+{
+  "date": "2026-07-12",
+  "github_trending": [
+    {
+      "name": "davila7/claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "description": "Claude Code를 설정하고 모니터링하는 CLI 도구",
+      "description_en": "CLI tool for configuring and monitoring Claude Code"
+    },
+    {
+      "name": "home-assistant/core",
+      "url": "https://github.com/home-assistant/core",
+      "description": "로컬 제어와 프라이버시를 우선하는 오픈소스 홈 자동화 플랫폼",
+      "description_en": "Open source home automation that puts local control and privacy first"
+    },
+    {
+      "name": "ansible/ansible",
+      "url": "https://github.com/ansible/ansible",
+      "description": "코드 배포부터 네트워크·클라우드 관리까지 자동화하는, 에이전트 없이 SSH로 동작하는 IT 자동화 플랫폼",
+      "description_en": "Radically simple IT automation platform that automates deployment, configuration and cloud management over SSH with no agents"
+    },
+    {
+      "name": "pytorch/pytorch",
+      "url": "https://github.com/pytorch/pytorch",
+      "description": "강력한 GPU 가속을 지원하는 파이썬 기반 텐서·동적 신경망 라이브러리",
+      "description_en": "Tensors and Dynamic neural networks in Python with strong GPU acceleration"
+    },
+    {
+      "name": "FoundationAgents/OpenManus",
+      "url": "https://github.com/FoundationAgents/OpenManus",
+      "description": "제약 없이 완전히 개방된 범용 AI 에이전트 프레임워크",
+      "description_en": "No fortress, purely open ground — an open general-purpose AI agent framework"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "Vidu S1: 실시간 인터랙티브 비디오 생성 모델",
+      "title_en": "Vidu S1: A Real-Time Interactive Video Generation Model",
+      "url": "https://huggingface.co/papers/2607.03118",
+      "summary": "칭화대학교가 발표한, 사용자와 상호작용하며 실시간으로 영상을 생성하는 모델.",
+      "summary_en": "Tsinghua University's model for generating videos interactively in real-time."
+    },
+    {
+      "title": "Video-Oasis: 비디오 이해 평가 방식의 재고",
+      "title_en": "Video-Oasis: Rethinking Evaluation of Video Understanding",
+      "url": "https://huggingface.co/papers/2603.29616",
+      "summary": "NAVER가 영상 콘텐츠를 이해하는 시스템을 어떻게 평가해야 하는지를 다룬 연구.",
+      "summary_en": "NAVER's work addressing how we evaluate systems that comprehend video content."
+    },
+    {
+      "title": "Why Can't I Open My Drawer? 제로샷 합성 행동 인식에서의 객체 편향 완화",
+      "title_en": "Why Can't I Open My Drawer? Mitigating Object-Driven Shortcuts in Zero-Shot Compositional Action Recognition",
+      "url": "https://huggingface.co/papers/2601.16211",
+      "summary": "NAVER가 학습 예시 없이도 객체 기반 편향을 줄이는 제로샷 행동 인식 기법을 연구.",
+      "summary_en": "NAVER research tackling object-based biases in action recognition without training examples."
+    },
+    {
+      "title": "Ideas Have Genomes: 과학적 계보 추론 벤치마크와 계보 기반 아이디어 생성",
+      "title_en": "Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation",
+      "url": "https://huggingface.co/papers/2607.08758",
+      "summary": "상하이교통대가 AI가 과학적 지적 계보를 추적하는 능력을 평가하는 벤치마크를 제시.",
+      "summary_en": "Shanghai Jiao Tong University's benchmark for evaluating how AI traces scientific intellectual history."
+    },
+    {
+      "title": "UniClawBench: 실세계 과제를 위한 능동형 에이전트 범용 벤치마크",
+      "title_en": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
+      "url": "https://huggingface.co/papers/2607.08768",
+      "summary": "홍콩대가 자율 에이전트를 실세계 문제에서 시험하기 위한 벤치마크를 개발.",
+      "summary_en": "University of Hong Kong's benchmark for testing autonomous agents on real-world problems."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "Show GN: 대한민국 제도 100개를 한 장씩 체계도로 만들었습니다",
+      "title_en": "Show GN: I made system diagrams of 100 Korean institutions, one page each",
+      "url": "https://news.hada.io/topic?id=31313",
+      "summary": "일반인이 AI를 배우기보다 AI를 활용해 다른 전문 영역의 리터러시를 높이자는 관점에서 제도 체계도를 제작.",
+      "summary_en": "A take on AI literacy: using AI to raise domain literacy in other fields rather than learning AI itself, via institutional diagrams."
+    },
+    {
+      "title": "Lisp로 가는 길: 왜 Lisp인가",
+      "title_en": "The road to Lisp: why Lisp",
+      "url": "https://news.hada.io/topic?id=31310",
+      "summary": "문법을 넘어, 언어를 문제에 맞춰 적응시키는 Lisp의 패러다임을 조명한 글.",
+      "summary_en": "Examines Lisp's paradigm of adapting the language to the problem rather than just its syntax."
+    },
+    {
+      "title": "미첼 하시모토 인터뷰: Ghostty, Zig, 오픈소스 유지보수",
+      "title_en": "Mitchell Hashimoto interview: Ghostty, Zig, and open-source maintenance",
+      "url": "https://news.hada.io/topic?id=31294",
+      "summary": "터미널 개발, 언어 설계, 오픈소스 유지보수 철학을 다룬 인터뷰.",
+      "summary_en": "An interview covering terminal development, language design, and open-source maintenance philosophy."
+    },
+    {
+      "title": "LLM 번아웃이 온 것 같아요",
+      "title_en": "I think I'm getting LLM burnout",
+      "url": "https://news.hada.io/topic?id=31286",
+      "summary": "AI 생성 콘텐츠 소비가 늘면서 겪는 개발자의 피로와 작업 방식에 대한 성찰.",
+      "summary_en": "A developer reflects on fatigue from increased AI-generated content consumption and its workflow implications."
+    },
+    {
+      "title": "OpenAI GPT-5.6 출시",
+      "title_en": "OpenAI releases GPT-5.6",
+      "url": "https://news.hada.io/topic?id=31275",
+      "summary": "여러 모델 변형을 포함한 GPT-5.6 제품군이 정식 출시됨.",
+      "summary_en": "General availability release of the GPT-5.6 family with multiple model variants."
+    }
+  ]
+}
