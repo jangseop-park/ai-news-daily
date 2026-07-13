@@ -6,37 +6,37 @@
 
 ## 🔥 GitHub Trending (Python)
 
-- [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading): 개인용 트레이딩 에이전트. LLM 기반으로 시장 분석과 매매 의사결정을 자동화한다.
-- [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect): 장애에 강한 데이터 파이프라인을 구축하기 위한 Python 워크플로 오케스트레이션 프레임워크.
-- [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps): 바로 실행 가능한 100개 이상의 AI Agent 및 RAG 앱 모음. 클론해서 커스터마이즈하고 배포할 수 있다.
-- [home-assistant/core](https://github.com/home-assistant/core): 로컬 제어와 프라이버시를 최우선으로 하는 오픈소스 홈 오토메이션 플랫폼.
-- [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund): 여러 AI 에이전트가 애널리스트 역할을 나눠 맡아 투자 판단을 내리는 AI 헤지펀드 팀 시뮬레이션.
+- [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading): 개인 AI 트레이딩 에이전트 — 시장 분석부터 매매 실행까지 자동화
+- [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect): Python으로 탄력적인 데이터 파이프라인을 구축하는 워크플로우 오케스트레이션 프레임워크
+- [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps): 실제 실행 가능한 100개 이상의 AI 에이전트 및 RAG 앱 모음 — 클론, 커스터마이징, 배포
+- [home-assistant/core](https://github.com/home-assistant/core): 로컬 제어와 프라이버시를 최우선으로 하는 오픈소스 홈 자동화
+- [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund): 여러 AI 에이전트가 협력해 투자 전략을 수립·실행하는 AI 헤지펀드 팀
 
 ## 📄 Hugging Face Papers
 
-- [Vidu S1: 실시간 인터랙티브 비디오 생성 모델](https://huggingface.co/papers/2607.03118)
-  칭화대가 실시간으로 상호작용하며 비디오를 생성하는 모델을 제안했다. 사용자 입력에 즉각 반응하는 인터랙티브 영상 생성이 핵심이다.
-- [Video-Oasis: 비디오 이해 평가 방식의 재검토](https://huggingface.co/papers/2603.29616)
-  NAVER가 비디오 이해 능력을 어떻게 평가할지에 대한 새로운 접근을 제안했다. 기존 벤치마크의 한계를 지적하고 대안을 제시한다.
-- [서랍을 왜 못 여는가? Zero-Shot 합성 행동 인식에서의 객체 기반 지름길 완화](https://huggingface.co/papers/2601.16211)
-  NAVER가 학습 예시 없이 복합 행동을 인식할 때 모델이 객체에만 의존하는 편향(shortcut) 문제를 다뤘다.
-- [아이디어에는 게놈이 있다: 과학적 계보 추론 및 계보 기반 아이디어 생성 벤치마크](https://huggingface.co/papers/2607.08758)
-  상하이교통대가 과학 개념의 기원과 계보를 추적하고, 그 계보에 기반해 새 아이디어를 생성하는 능력을 측정하는 벤치마크를 만들었다.
-- [LongE2V: 비디오 디퓨전 모델을 활용한 장기 이벤트 기반 비디오 복원·예측·프레임 보간](https://huggingface.co/papers/2607.08770)
-  국립양명교통대가 디퓨전 모델로 이벤트 카메라 데이터에서 긴 비디오 시퀀스를 복원하고 예측하는 방법을 제시했다.
+- [Vidu S1: A Real-Time Interactive Video Generation Model](https://huggingface.co/papers/2607.03118)
+  사용자 입력에 실시간으로 반응하는 인터랙티브 비디오 생성 모델. 칭화대학교 개발.
+- [Video-Oasis: Rethinking Evaluation of Video Understanding](https://huggingface.co/papers/2603.29616)
+  기존 비디오 이해 평가 체계의 문제점을 분석하고 혁신적 평가 방법론을 제안. NAVER 연구팀.
+- [Why Can't I Open My Drawer? Mitigating Object-Driven Shortcuts in Zero-Shot Compositional Action Recognition](https://huggingface.co/papers/2601.16211)
+  제로샷 합성 행동 인식에서 객체 의존 편향을 발견하고 완화하는 방법 제안. NAVER.
+- [Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation](https://huggingface.co/papers/2607.08758)
+  과학적 아이디어의 계보 관계를 추론하고 생성하는 능력을 평가하는 벤치마크. 상해교통대학교.
+- [LongE2V: Long-Horizon Event-based Video Reconstruction, Prediction, and Frame Interpolation with Video Diffusion Models](https://huggingface.co/papers/2607.08770)
+  이벤트 카메라 데이터와 비디오 확산 모델로 장기 비디오 복원, 미래 예측, 프레임 보간을 통합 수행.
 
 ## 🦉 GeekNews
 
-- [대한민국 제도 100개를 한 장씩 체계도로 만들었습니다](https://news.hada.io/topic?id=31313)
-  AI를 활용해 다른 전문 분야의 깊이를 더하는 'AI 리터러시' 실험. 국내 제도 100개를 각각 한 장의 체계도로 정리했다.
-- [양극성 LISP 프로그래머](https://news.hada.io/topic?id=31319)
-  기술적으로는 우월하다고 평가받는 Lisp이 왜 주류가 되지 못했는지를, 언어 자체가 아니라 이를 쓰는 프로그래머의 성향에서 찾아 분석한 글.
-- [sem — Git 위에 함수/클래스 단위 변경 추적을 얹은 시맨틱 버전 관리 도구](https://news.hada.io/topic?id=31339)
-  줄 단위가 아니라 함수·메서드·클래스 같은 코드 엔티티 단위로 변경을 추적해, 무엇이 실제로 바뀌었는지 명시적으로 보여주는 도구.
-- [GPT-5.6, Grok 4.5, Claude, Muse Spark로 동일한 앱 4개를 만든 결과](https://news.hada.io/topic?id=31342)
-  12개 AI 모델로 동일한 앱을 만들어 비교한 실험. 복잡한 작업에서는 GPT-5.6 Sol과 Claude Fable 5가 두드러진 성능을 보였다.
-- [Ghost Font — 사람은 읽지만 AI는 읽기 어려운 글꼴](https://news.hada.io/topic?id=31343)
-  배경 점 패턴을 이용해 사람 눈에는 정상적으로 읽히지만 AI의 프레임 단위 분석에는 저항하도록 설계된 글꼴.
+- [대한민국 제도 100개를 한장씩 체계도로 만들었습니다](https://hosungseo.github.io/korea100/)
+  AI를 활용해 한국 공공행정 100개 제도를 한 장짜리 체계도로 시각화. AI 리터러시의 새 방향 제시.
+- [LLM 번아웃이 온 것 같아요](https://www.alecscollon.com/blog/llm-burnout/)
+  매일 AI 도구를 사용하며 AI 생성 콘텐츠 소비가 급증 → 인지적 피로감 축적에 대한 개발자 성찰.
+- [미첼 하시모토 인터뷰: Ghostty, Zig, 오픈소스 유지보수](https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/)
+  HashiCorp 창업자 미첼 하시모토의 Ghostty 터미널 개발, Zig 언어 도입, 오픈소스 철학 인터뷰.
+- [OpenAI GPT-5.6 출시 (Sol, Terra, Luna)](https://openai.com/index/gpt-5-6/)
+  OpenAI GPT-5.6 패밀리 정식 출시. Sol, Terra, Luna 세 모델 변형으로 각 작업에 특화.
+- [양극성 LISP 프로그래머](https://www.marktarver.com/bipolar.html)
+  LISP 프로그래머 특유의 낙관과 좌절을 오가는 심리적 패턴을 유머러스하게 분석한 에세이.
 
 ---
 ## 📅 이전 날짜
