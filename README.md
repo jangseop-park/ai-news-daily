@@ -6,37 +6,37 @@
 
 ## 🔥 GitHub Trending (Python)
 
-- [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading): 개인 AI 트레이딩 에이전트 — 시장 분석부터 매매 실행까지 자동화
-- [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps): 실제 실행 가능한 100개 이상의 AI 에이전트 & RAG 앱 모음 — 클론·커스터마이징·배포
-- [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify): 코드·SQL·문서·이미지·영상을 쿼리 가능한 지식 그래프로 변환하는 AI 코딩 어시스턴트 스킬
-- [github/spec-kit](https://github.com/github/spec-kit): Spec-Driven Development(명세 주도 개발)를 시작하기 위한 GitHub 공식 툴킷
-- [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect): Python으로 탄력적인 데이터 파이프라인을 구축하는 워크플로우 오케스트레이션 프레임워크
+- [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading): 자연어 지시만으로 시장 분석·전략 수립·매매를 수행하는 개인용 AI 트레이딩 에이전트.
+- [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps): 바로 클론해서 실행·커스터마이즈·배포할 수 있는 AI 에이전트 및 RAG 앱 100개 이상 모음집.
+- [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify): 코드·SQL 스키마·문서·논문·이미지 폴더를 질의 가능한 지식 그래프로 바꿔주는 AI 코딩 어시스턴트 스킬(Claude Code, Codex, Cursor 등 지원).
+- [github/spec-kit](https://github.com/github/spec-kit): 명세 주도 개발(Spec-Driven Development)을 시작하도록 돕는 GitHub 공식 툴킷.
+- [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect): 장애에 강한 데이터 파이프라인을 구축하기 위한 파이썬 워크플로 오케스트레이션 프레임워크.
 
 ## 📄 Hugging Face Papers
 
-- [Scalable Visual Pretraining for Language Intelligence](https://huggingface.co/papers/2607.09657)
-  언어 모델의 지능을 향상시키기 위한 대규모 확장 가능한 시각적 사전학습 방법론 제안.
-- [Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading](https://huggingface.co/papers/2607.08964)
-  장기적인 터미널 작업에서 AI 에이전트의 한계를 밀도 보상 기반 채점으로 평가하는 새로운 벤치마크.
-- [Video Generation Models are General-Purpose Vision Learners](https://huggingface.co/papers/2607.09024)
-  비디오 생성을 위해 학습된 모델이 다양한 비전 태스크에서 범용 학습기로 활용될 수 있음을 입증.
+- [Long-Horizon-Terminal-Bench: 밀집 보상 채점으로 장기 터미널 과제에서 에이전트의 한계를 시험하다](https://huggingface.co/papers/2607.08964)
+  기존 터미널 벤치마크는 몇 분이면 끝나는 단순 과제를 최종 결과만으로 평가해 중간 진행 상황을 놓친다. 실험 재현·소프트웨어 엔지니어링·멀티모달 분석·대화형 게임 등 9개 범주 46개 장기 과제로 구성된 벤치마크를 제안하고, 밀집 보상 기반 채점으로 부분 성공까지 측정한다.
+- [언어 지능을 위한 확장 가능한 시각 사전학습](https://huggingface.co/papers/2607.09657)
+  그림·수식·페이지 레이아웃에는 텍스트로 옮기면 사라지는 정보가 많은데, 현재 사전학습은 문서와 웹페이지를 평문으로 변환하며 이 시각적 단서를 버린다. 언어 모델이 반드시 텍스트로만 학습돼야 한다는 기본 가정에 도전한다.
+- [비디오 생성 모델은 범용 비전 학습기다](https://huggingface.co/papers/2607.09024)
+  NLP가 next-token 예측으로 범용 파운데이션 모델에 도달했듯, 컴퓨터 비전에서는 대규모 text-to-video 생성이 그 촉매라고 주장한다. 사전학습된 비디오 확산 백본으로 순전파 지각을 정의하는 GenCeption을 제안하며, 시공간 사전지식과 비전-언어 정렬을 함께 얻는다.
 - [Trust Region Policy Distillation](https://huggingface.co/papers/2607.04751)
-  강화학습에서 신뢰 영역 최적화를 활용해 교사 정책에서 학생 정책으로 효율적으로 지식을 증류하는 방법.
-- [KronQ: LLM Quantization via Kronecker-Factored Hessian](https://huggingface.co/papers/2607.07964)
-  Kronecker 분해된 Hessian 행렬을 활용해 LLM을 효율적으로 양자화하는 새로운 방법론 제안.
+  불안정하고 분산이 큰 On-Policy Distillation을 근접 교사(proximal teacher)를 동적으로 구성해 안정적인 학습 패러다임으로 바꾸는 TOP-D를 제안한다. 그래디언트 분산을 본질적으로 통제함을 이론적으로 보이고, 전역 수렴성과 단조 개선 한계를 함께 증명한다.
+- [KronQ: 크로네커 인수분해 헤시안을 이용한 LLM 양자화](https://huggingface.co/papers/2607.07964)
+  GPTQ 같은 기존 2차 사후학습 양자화(PTQ)는 입력 활성값 통계만 사용해 모든 출력 채널이 동등하게 기여한다고 가정한다. KronQ는 그래디언트 공분산을 파이프라인에 도입해 크로네커 인수분해 헤시안 근사 하에서 입력과 출력을 함께 고려한다.
 
 ## 🦉 GeekNews
 
-- [고객 이탈을 막는 법: 10년간 내가 배운 모든 것](https://www.youtube.com/watch?v=vdCi2GAQA_Y)
-  10년간 스타트업·SaaS 운영을 통해 터득한 고객 이탈 방지 전략 총정리 — 온보딩, 고객 성공, 가격 정책 등.
+- [고객 이탈을 막는 법 : 10년간 내가 배운 모든 것](https://www.youtube.com/watch?v=vdCi2GAQA_Y)
+  구독 비즈니스의 이탈률은 제품 품질만이 아니라 시장·고객군·사용 빈도에 크게 좌우된다. 오래 남는 고객을 먼저 찾아내고 그들에게 제품을 맞추는 것이 핵심이라는 10년치 경험담.
 - [코드베이스를 완전히 이해하지 못해도 괜찮은 이유](https://www.seangoedecke.com/in-defense-of-not-understanding-your-codebase/)
-  대규모 코드베이스를 100% 이해하려는 강박에서 벗어나 효과적으로 기여하는 방법을 논의한 에세이.
+  수천만 줄 규모의 시스템은 누구도 전체를 머릿속에 담을 수 없다. 엔지니어는 부분적으로만 정확한 이해로도 충분히 효과적으로 일할 수 있으며, 완전한 이해를 전제로 삼는 것이 오히려 비현실적이라는 주장.
 - [외부 루프를 소유하라](https://addyo.substack.com/p/own-the-outer-loop)
-  AI 시대에 개발자가 경쟁력을 유지하려면 세부 구현(내부 루프)이 아닌 제품·방향·맥락(외부 루프)을 소유해야 한다는 주장.
+  AI 에이전트가 조사·구현·검증을 반복하는 내부 실행 루프를 맡더라도, 배포 여부를 결정하고 결과에 책임지는 외부 루프는 여전히 엔지니어의 몫이라는 이야기.
 - [AI 에이전트 시대의 새로운 SaaS 플레이북](https://www.thevccorner.com/p/the-new-saas-playbook-ai-agent-era)
-  AI 에이전트가 소프트웨어를 대체하는 시대에 SaaS 스타트업이 적용해야 할 새로운 비즈니스 전략과 플레이북.
-- [AgentsView — AI 코딩 에이전트 세션 검색·분석·비용 추적 도구](https://github.com/kenn-io/agentsview)
-  Claude Code, Cursor 등 여러 AI 코딩 에이전트의 세션을 한 곳에서 검색·분석하고 비용을 추적하는 오픈소스 도구.
+  소프트웨어 제작 비용이 0에 수렴하면서 기능과 UI는 빠르게 복제되는 상품이 된다. SaaS의 가치는 소프트웨어 표면 아래에 있는 희소 자산(데이터·워크플로·유통망)으로 이동한다.
+- [AgentsView - 여러 AI 코딩 에이전트의 세션 검색·분석·비용 추적 도구](https://github.com/kenn-io/agentsview)
+  Claude Code, Codex, Cursor, Gemini CLI, OpenCode 등 여러 코딩 에이전트의 세션을 자동 수집해 대화 검색, 토큰·비용 통계, 활동 분석, 변경 파일 추적을 한 곳에서 제공하는 오픈소스 도구.
 
 ---
 ## 📅 이전 날짜
