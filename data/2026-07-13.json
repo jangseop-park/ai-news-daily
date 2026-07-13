@@ -4,31 +4,31 @@
     {
       "name": "HKUDS/Vibe-Trading",
       "url": "https://github.com/HKUDS/Vibe-Trading",
-      "description": "개인용 AI 트레이딩 에이전트 — 자연어로 매매 전략을 지시하는 트레이딩 봇",
-      "description_en": "Vibe-Trading: Your Personal Trading Agent"
+      "description": "개인용 트레이딩 에이전트. LLM 기반으로 시장 분석과 매매 의사결정을 자동화한다.",
+      "description_en": "Your Personal Trading Agent"
     },
     {
       "name": "PrefectHQ/prefect",
       "url": "https://github.com/PrefectHQ/prefect",
-      "description": "파이썬으로 견고한 데이터 파이프라인을 구축하는 워크플로 오케스트레이션 프레임워크",
+      "description": "장애에 강한 데이터 파이프라인을 구축하기 위한 Python 워크플로 오케스트레이션 프레임워크.",
       "description_en": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python."
     },
     {
       "name": "Shubhamsaboo/awesome-llm-apps",
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-      "description": "실제로 실행 가능한 100개 이상의 AI 에이전트·RAG 앱 모음 (클론·커스터마이즈·배포)",
+      "description": "바로 실행 가능한 100개 이상의 AI Agent 및 RAG 앱 모음. 클론해서 커스터마이즈하고 배포할 수 있다.",
       "description_en": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship."
     },
     {
       "name": "home-assistant/core",
       "url": "https://github.com/home-assistant/core",
-      "description": "로컬 제어와 프라이버시를 최우선으로 하는 오픈소스 홈 자동화 플랫폼",
+      "description": "로컬 제어와 프라이버시를 최우선으로 하는 오픈소스 홈 오토메이션 플랫폼.",
       "description_en": "Open source home automation that puts local control and privacy first."
     },
     {
       "name": "virattt/ai-hedge-fund",
       "url": "https://github.com/virattt/ai-hedge-fund",
-      "description": "여러 AI 에이전트가 협업해 투자 결정을 내리는 AI 헤지펀드 팀 시뮬레이션",
+      "description": "여러 AI 에이전트가 애널리스트 역할을 나눠 맡아 투자 판단을 내리는 AI 헤지펀드 팀 시뮬레이션.",
       "description_en": "An AI Hedge Fund Team"
     }
   ],
@@ -37,73 +37,73 @@
       "title": "Vidu S1: 실시간 인터랙티브 비디오 생성 모델",
       "title_en": "Vidu S1: A Real-Time Interactive Video Generation Model",
       "url": "https://huggingface.co/papers/2607.03118",
-      "summary": "사용자 입력에 실시간으로 반응하며 영상을 생성하는 인터랙티브 비디오 생성 모델을 제안한다.",
-      "summary_en": "Proposes an interactive video generation model that produces video responding to user input in real time."
+      "summary": "칭화대가 실시간으로 상호작용하며 비디오를 생성하는 모델을 제안했다. 사용자 입력에 즉각 반응하는 인터랙티브 영상 생성이 핵심이다.",
+      "summary_en": "Tsinghua University presents a model for generating videos interactively in real time, reacting immediately to user input."
     },
     {
-      "title": "Video-Oasis: 비디오 이해 평가 방식 재고",
+      "title": "Video-Oasis: 비디오 이해 평가 방식의 재검토",
       "title_en": "Video-Oasis: Rethinking Evaluation of Video Understanding",
       "url": "https://huggingface.co/papers/2603.29616",
-      "summary": "기존 비디오 이해 벤치마크의 한계를 지적하고 평가 방법론을 재정립하는 연구.",
-      "summary_en": "Points out limitations of existing video understanding benchmarks and reframes the evaluation methodology."
+      "summary": "NAVER가 비디오 이해 능력을 어떻게 평가할지에 대한 새로운 접근을 제안했다. 기존 벤치마크의 한계를 지적하고 대안을 제시한다.",
+      "summary_en": "NAVER proposes a new approach to assessing how well systems comprehend video content, pointing out limits of existing benchmarks."
     },
     {
-      "title": "왜 서랍을 못 여는가? 제로샷 합성 행동 인식의 객체 편향 완화",
+      "title": "서랍을 왜 못 여는가? Zero-Shot 합성 행동 인식에서의 객체 기반 지름길 완화",
       "title_en": "Why Can't I Open My Drawer? Mitigating Object-Driven Shortcuts in Zero-Shot Compositional Action Recognition",
       "url": "https://huggingface.co/papers/2601.16211",
-      "summary": "제로샷 합성 행동 인식에서 모델이 객체에 의존하는 편향(shortcut)을 줄이는 방법을 제안한다.",
-      "summary_en": "Proposes a method to mitigate object-driven shortcut bias in zero-shot compositional action recognition."
+      "summary": "NAVER가 학습 예시 없이 복합 행동을 인식할 때 모델이 객체에만 의존하는 편향(shortcut) 문제를 다뤘다.",
+      "summary_en": "NAVER addresses object-driven shortcut bias in recognizing compositional actions without prior training examples."
     },
     {
-      "title": "아이디어에도 게놈이 있다: 과학적 계보 추론 벤치마크와 계보 기반 아이디어 생성",
+      "title": "아이디어에는 게놈이 있다: 과학적 계보 추론 및 계보 기반 아이디어 생성 벤치마크",
       "title_en": "Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation",
       "url": "https://huggingface.co/papers/2607.08758",
-      "summary": "과학 아이디어의 계보(lineage)를 추론하는 벤치마크를 구축하고 이를 기반으로 새 아이디어를 생성한다.",
-      "summary_en": "Builds a benchmark for reasoning about the lineage of scientific ideas and grounds new idea generation on it."
+      "summary": "상하이교통대가 과학 개념의 기원과 계보를 추적하고, 그 계보에 기반해 새 아이디어를 생성하는 능력을 측정하는 벤치마크를 만들었다.",
+      "summary_en": "Shanghai Jiao Tong University develops a benchmark for tracing scientific concept lineage and generating lineage-grounded ideas."
     },
     {
-      "title": "LongE2V: 비디오 확산 모델을 이용한 장기 이벤트 기반 영상 복원·예측·프레임 보간",
+      "title": "LongE2V: 비디오 디퓨전 모델을 활용한 장기 이벤트 기반 비디오 복원·예측·프레임 보간",
       "title_en": "LongE2V: Long-Horizon Event-based Video Reconstruction, Prediction, and Frame Interpolation with Video Diffusion Models",
       "url": "https://huggingface.co/papers/2607.08770",
-      "summary": "이벤트 카메라 데이터로부터 장기 영상 복원·예측·프레임 보간을 비디오 확산 모델로 수행한다.",
-      "summary_en": "Performs long-horizon video reconstruction, prediction, and frame interpolation from event-camera data using video diffusion models."
+      "summary": "국립양명교통대가 디퓨전 모델로 이벤트 카메라 데이터에서 긴 비디오 시퀀스를 복원하고 예측하는 방법을 제시했다.",
+      "summary_en": "National Yang Ming Chiao Tung University employs diffusion models to reconstruct and predict long video sequences from event data."
     }
   ],
   "geeknews": [
     {
-      "title": "30 Papers — 일리야 수츠케버 추천 AI 핵심 논문 목록 요약",
-      "title_en": "30 Papers — Summaries of Ilya Sutskever's recommended core AI papers",
-      "url": "https://30papers.com/",
-      "summary": "일리야 수츠케버가 추천한 AI 필독 논문 약 30편을 정리하고 요약해 둔 사이트.",
-      "summary_en": "A site collecting and summarizing the ~30 must-read AI papers recommended by Ilya Sutskever."
+      "title": "대한민국 제도 100개를 한 장씩 체계도로 만들었습니다",
+      "title_en": "I Made One-Page System Diagrams for 100 Korean Institutions",
+      "url": "https://news.hada.io/topic?id=31313",
+      "summary": "AI를 활용해 다른 전문 분야의 깊이를 더하는 'AI 리터러시' 실험. 국내 제도 100개를 각각 한 장의 체계도로 정리했다.",
+      "summary_en": "An AI-literacy exploration focused on using AI to deepen expertise in other professional domains, mapping 100 Korean institutions into one-page system diagrams."
     },
     {
-      "title": "루프 시작하기 (Claude Devs)",
-      "title_en": "Getting started with loops (Claude Devs)",
-      "url": "https://x.com/ClaudeDevs/status/2074208949205881033",
-      "summary": "Claude 개발자 계정이 소개한, 에이전트를 반복(loop)으로 실행하는 활용 팁.",
-      "summary_en": "A tip from the Claude Devs account on running agents in a loop."
+      "title": "양극성 LISP 프로그래머",
+      "title_en": "The Bipolar Lisp Programmer",
+      "url": "https://news.hada.io/topic?id=31319",
+      "summary": "기술적으로는 우월하다고 평가받는 Lisp이 왜 주류가 되지 못했는지를, 언어 자체가 아니라 이를 쓰는 프로그래머의 성향에서 찾아 분석한 글.",
+      "summary_en": "An examination of why Lisp remains technically superior yet a mainstream failure, attributing this to the personality traits of the programmers it attracts."
     },
     {
-      "title": "Chatto, 이제 오픈소스로 공개되어 셀프 호스팅 가능",
-      "title_en": "Chatto is now open source and self-hostable",
-      "url": "https://www.hmans.dev/blog/chatto-is-open-source",
-      "summary": "채팅 도구 Chatto가 오픈소스로 공개되어 직접 셀프 호스팅할 수 있게 되었다.",
-      "summary_en": "The chat tool Chatto has been open-sourced and can now be self-hosted."
+      "title": "sem — Git 위에 함수/클래스 단위 변경 추적을 얹은 시맨틱 버전 관리 도구",
+      "title_en": "sem — Semantic Version Control Adding Function/Class-Level Change Tracking on Top of Git",
+      "url": "https://news.hada.io/topic?id=31339",
+      "summary": "줄 단위가 아니라 함수·메서드·클래스 같은 코드 엔티티 단위로 변경을 추적해, 무엇이 실제로 바뀌었는지 명시적으로 보여주는 도구.",
+      "summary_en": "A tool that tracks changes by code entity (function/method/class) rather than by line, making it explicit what actually changed."
     },
     {
-      "title": "LLM 번아웃이 온 것 같아요",
-      "title_en": "I think I have LLM burnout",
-      "url": "https://www.alecscollon.com/blog/llm-burnout/",
-      "summary": "LLM 도구를 과도하게 사용하며 겪는 피로감(번아웃)에 대한 개발자의 솔직한 회고.",
-      "summary_en": "A developer's candid reflection on the fatigue (burnout) from over-relying on LLM tools."
+      "title": "GPT-5.6, Grok 4.5, Claude, Muse Spark로 동일한 앱 4개를 만든 결과",
+      "title_en": "Building the Same 4 Apps with GPT-5.6, Grok 4.5, Claude, and Muse Spark",
+      "url": "https://news.hada.io/topic?id=31342",
+      "summary": "12개 AI 모델로 동일한 앱을 만들어 비교한 실험. 복잡한 작업에서는 GPT-5.6 Sol과 Claude Fable 5가 두드러진 성능을 보였다.",
+      "summary_en": "A comparison of 12 AI models building identical applications; GPT-5.6 Sol and Claude Fable 5 excelled at the complex tasks."
     },
     {
-      "title": "TrueType QR Code 폰트 — 폰트만으로 QR코드 만들기",
-      "title_en": "TrueType QR Code font — generate QR codes with just a font",
-      "url": "https://qr.jim.sh/",
-      "summary": "별도 라이브러리 없이 폰트만으로 텍스트를 QR코드로 렌더링하는 기발한 TrueType 폰트.",
-      "summary_en": "A clever TrueType font that renders text into QR codes using only the font, no library needed."
+      "title": "Ghost Font — 사람은 읽지만 AI는 읽기 어려운 글꼴",
+      "title_en": "Ghost Font — A Typeface Humans Can Read but AI Struggles With",
+      "url": "https://news.hada.io/topic?id=31343",
+      "summary": "배경 점 패턴을 이용해 사람 눈에는 정상적으로 읽히지만 AI의 프레임 단위 분석에는 저항하도록 설계된 글꼴.",
+      "summary_en": "A font using background dot patterns that stays readable to humans while resisting AI frame-by-frame analysis."
     }
   ]
 }
