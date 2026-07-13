@@ -6,37 +6,37 @@
 
 ## 🔥 GitHub Trending (Python)
 
-- [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading): 개인 AI 트레이딩 에이전트 — 시장 분석부터 매매 실행까지 자동화
-- [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect): Python으로 탄력적인 데이터 파이프라인을 구축하는 워크플로우 오케스트레이션 프레임워크
-- [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps): 실제 실행 가능한 100개 이상의 AI 에이전트 및 RAG 앱 모음 — 클론, 커스터마이징, 배포
-- [home-assistant/core](https://github.com/home-assistant/core): 로컬 제어와 프라이버시를 최우선으로 하는 오픈소스 홈 자동화
-- [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund): 여러 AI 에이전트가 협력해 투자 전략을 수립·실행하는 AI 헤지펀드 팀
+- [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading): 자연어로 투자 전략을 지시하면 시장 데이터를 분석하고 매매를 실행해주는 개인용 트레이딩 에이전트
+- [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect): 장애에 강한 데이터 파이프라인을 파이썬으로 구축하는 워크플로우 오케스트레이션 프레임워크
+- [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps): 바로 클론해서 실행·수정·배포할 수 있는 100개 이상의 AI 에이전트 및 RAG 앱 모음
+- [home-assistant/core](https://github.com/home-assistant/core): 로컬 제어와 프라이버시를 최우선으로 하는 오픈소스 홈 오토메이션 플랫폼
+- [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund): 여러 AI 에이전트가 애널리스트·리스크 매니저 역할을 나눠 맡아 투자 판단을 시뮬레이션하는 헤지펀드 팀
 
 ## 📄 Hugging Face Papers
 
-- [Vidu S1: A Real-Time Interactive Video Generation Model](https://huggingface.co/papers/2607.03118)
-  사용자 입력에 실시간으로 반응하는 인터랙티브 비디오 생성 모델. 칭화대학교 개발.
-- [Video-Oasis: Rethinking Evaluation of Video Understanding](https://huggingface.co/papers/2603.29616)
-  기존 비디오 이해 평가 체계의 문제점을 분석하고 혁신적 평가 방법론을 제안. NAVER 연구팀.
-- [Why Can't I Open My Drawer? Mitigating Object-Driven Shortcuts in Zero-Shot Compositional Action Recognition](https://huggingface.co/papers/2601.16211)
-  제로샷 합성 행동 인식에서 객체 의존 편향을 발견하고 완화하는 방법 제안. NAVER.
-- [Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation](https://huggingface.co/papers/2607.08758)
-  과학적 아이디어의 계보 관계를 추론하고 생성하는 능력을 평가하는 벤치마크. 상해교통대학교.
-- [LongE2V: Long-Horizon Event-based Video Reconstruction, Prediction, and Frame Interpolation with Video Diffusion Models](https://huggingface.co/papers/2607.08770)
-  이벤트 카메라 데이터와 비디오 확산 모델로 장기 비디오 복원, 미래 예측, 프레임 보간을 통합 수행.
+- [Vidu S1: 실시간 인터랙티브 영상 생성 모델](https://huggingface.co/papers/2607.03118)
+  사용자 입력에 실시간으로 반응하며 영상을 생성하는 인터랙티브 비디오 생성 모델로, 기존 배치 방식 대비 지연을 크게 줄였다.
+- [Video-Oasis: 비디오 이해 평가 방식의 재고](https://huggingface.co/papers/2603.29616)
+  기존 비디오 이해 벤치마크가 단일 프레임만 봐도 풀리는 문제를 지적하고, 실제 시간적 추론을 요구하는 새 평가 체계를 제안한다.
+- [왜 서랍을 열 수 없을까? Zero-Shot 합성 행동 인식에서 객체 기반 지름길 완화](https://huggingface.co/papers/2601.16211)
+  행동 인식 모델이 동작 자체가 아니라 등장 객체에 의존하는 지름길 학습 문제를 분석하고, 이를 완화하는 학습 기법을 제시한다.
+- [아이디어에도 게놈이 있다: 과학적 계보 추론 벤치마킹과 계보 기반 아이디어 생성](https://huggingface.co/papers/2607.08758)
+  연구 아이디어가 선행 연구에서 어떻게 파생됐는지 추적하는 '계보 추론' 벤치마크를 만들고, 이를 활용해 LLM이 근거 있는 새 아이디어를 생성하도록 한다.
+- [LongE2V: 비디오 디퓨전을 이용한 장기 이벤트 기반 영상 복원·예측·프레임 보간](https://huggingface.co/papers/2607.08770)
+  이벤트 카메라 데이터로부터 긴 구간의 영상을 복원·예측·보간하는 비디오 디퓨전 프레임워크를 제안한다.
 
 ## 🦉 GeekNews
 
-- [대한민국 제도 100개를 한장씩 체계도로 만들었습니다](https://hosungseo.github.io/korea100/)
-  AI를 활용해 한국 공공행정 100개 제도를 한 장짜리 체계도로 시각화. AI 리터러시의 새 방향 제시.
-- [LLM 번아웃이 온 것 같아요](https://www.alecscollon.com/blog/llm-burnout/)
-  매일 AI 도구를 사용하며 AI 생성 콘텐츠 소비가 급증 → 인지적 피로감 축적에 대한 개발자 성찰.
-- [미첼 하시모토 인터뷰: Ghostty, Zig, 오픈소스 유지보수](https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/)
-  HashiCorp 창업자 미첼 하시모토의 Ghostty 터미널 개발, Zig 언어 도입, 오픈소스 철학 인터뷰.
-- [OpenAI GPT-5.6 출시 (Sol, Terra, Luna)](https://openai.com/index/gpt-5-6/)
-  OpenAI GPT-5.6 패밀리 정식 출시. Sol, Terra, Luna 세 모델 변형으로 각 작업에 특화.
 - [양극성 LISP 프로그래머](https://www.marktarver.com/bipolar.html)
-  LISP 프로그래머 특유의 낙관과 좌절을 오가는 심리적 패턴을 유머러스하게 분석한 에세이.
+  Lisp는 기술적으로 뛰어나지만 주류가 되지 못한 '뛰어난 실패작'이며, 저자는 그 이유를 언어 자체보다 Lisp에 끌리는 사람들의 성향에서 찾는다.
+- [sem — Git 위에 함수/클래스 단위 변경 추적을 더하는 시맨틱 버전 관리 도구](https://github.com/Ataraxy-Labs/sem)
+  줄 단위가 아니라 코드 엔티티를 비교해 어떤 함수·메서드·클래스가 추가/수정/삭제/이동/이름 변경됐는지 보여준다.
+- [GPT-5.6, Grok 4.5, Claude, Muse Spark로 같은 앱 4개를 만들어 본 결과](https://www.tryai.dev/blog/gpt-5.6-build-off-12-models)
+  12개 모델에 레이캐스터 미로, 3D 루빅스 큐브, 계산기, 라이프 게임을 만들게 한 결과 복잡한 과제에서는 GPT-5.6 Sol과 Claude Fable 5가 앞섰다.
+- [Android 앱을 웹페이지로 바꿔본 과정](https://danq.me/2026/07/09/your-app-could-have-been-a-webpage/)
+  여행 일정과 PDF를 보여줄 뿐인 앱이 추적과 광고까지 끼워 넣자, 같은 정보를 제공하는 웹페이지로 직접 대체해 본 사례.
+- [Ghost Font — 사람은 읽지만 AI는 읽기 어려운 글꼴](https://www.mixfont.com/ghost-font)
+  배경과 같은 점들의 움직임으로 글자를 만들어, 사람은 영상에서 메시지를 알아보지만 개별 프레임을 분석하는 AI는 해독하기 어렵다.
 
 ---
 ## 📅 이전 날짜
