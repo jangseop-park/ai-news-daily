@@ -4,106 +4,106 @@
     {
       "name": "HKUDS/Vibe-Trading",
       "url": "https://github.com/HKUDS/Vibe-Trading",
-      "description": "개인 AI 트레이딩 에이전트 — 시장 분석부터 매매 실행까지 자동화",
-      "description_en": "Your Personal AI Trading Agent — automates market analysis to trade execution"
+      "description": "자연어 지시만으로 시장 분석·전략 수립·매매를 수행하는 개인용 AI 트레이딩 에이전트.",
+      "description_en": "\"Vibe-Trading: Your Personal Trading Agent\""
     },
     {
       "name": "Shubhamsaboo/awesome-llm-apps",
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-      "description": "실제 실행 가능한 100개 이상의 AI 에이전트 & RAG 앱 모음 — 클론·커스터마이징·배포",
-      "description_en": "100+ AI Agent & RAG apps you can actually run — clone, customize, and ship"
+      "description": "바로 클론해서 실행·커스터마이즈·배포할 수 있는 AI 에이전트 및 RAG 앱 100개 이상 모음집.",
+      "description_en": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship."
     },
     {
       "name": "Graphify-Labs/graphify",
       "url": "https://github.com/Graphify-Labs/graphify",
-      "description": "코드·SQL·문서·이미지·영상을 쿼리 가능한 지식 그래프로 변환하는 AI 코딩 어시스턴트 스킬",
-      "description_en": "AI coding assistant skill that turns code, SQL schemas, docs, papers, images, and videos into a queryable knowledge graph"
+      "description": "코드·SQL 스키마·문서·논문·이미지 폴더를 질의 가능한 지식 그래프로 바꿔주는 AI 코딩 어시스턴트 스킬(Claude Code, Codex, Cursor 등 지원).",
+      "description_en": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph."
     },
     {
       "name": "github/spec-kit",
       "url": "https://github.com/github/spec-kit",
-      "description": "Spec-Driven Development(명세 주도 개발)를 시작하기 위한 GitHub 공식 툴킷",
-      "description_en": "GitHub's official toolkit to help you get started with Spec-Driven Development"
+      "description": "명세 주도 개발(Spec-Driven Development)을 시작하도록 돕는 GitHub 공식 툴킷.",
+      "description_en": "💫 Toolkit to help you get started with Spec-Driven Development"
     },
     {
       "name": "PrefectHQ/prefect",
       "url": "https://github.com/PrefectHQ/prefect",
-      "description": "Python으로 탄력적인 데이터 파이프라인을 구축하는 워크플로우 오케스트레이션 프레임워크",
-      "description_en": "Workflow orchestration framework for building resilient data pipelines in Python"
+      "description": "장애에 강한 데이터 파이프라인을 구축하기 위한 파이썬 워크플로 오케스트레이션 프레임워크.",
+      "description_en": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python."
     }
   ],
   "huggingface": [
     {
-      "title": "언어 지능을 위한 확장 가능한 시각적 사전학습",
-      "title_en": "Scalable Visual Pretraining for Language Intelligence",
-      "url": "https://huggingface.co/papers/2607.09657",
-      "summary": "언어 모델의 지능을 향상시키기 위한 대규모 확장 가능한 시각적 사전학습 방법론 제안.",
-      "summary_en": "Proposes scalable visual pretraining methods to enhance language model intelligence through multimodal learning."
-    },
-    {
-      "title": "장기 터미널 작업 에이전트 한계 벤치마크: Long-Horizon-Terminal-Bench",
+      "title": "Long-Horizon-Terminal-Bench: 밀집 보상 채점으로 장기 터미널 과제에서 에이전트의 한계를 시험하다",
       "title_en": "Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading",
       "url": "https://huggingface.co/papers/2607.08964",
-      "summary": "장기적인 터미널 작업에서 AI 에이전트의 한계를 밀도 보상 기반 채점으로 평가하는 새로운 벤치마크.",
-      "summary_en": "New benchmark testing AI agent limits on long-horizon terminal tasks using dense reward-based grading systems."
+      "summary": "기존 터미널 벤치마크는 몇 분이면 끝나는 단순 과제를 최종 결과만으로 평가해 중간 진행 상황을 놓친다. 실험 재현·소프트웨어 엔지니어링·멀티모달 분석·대화형 게임 등 9개 범주 46개 장기 과제로 구성된 벤치마크를 제안하고, 밀집 보상 기반 채점으로 부분 성공까지 측정한다.",
+      "summary_en": "Existing terminal benchmarks focus on short tasks judged only by final outcome, yielding sparse rewards. Introduces 46 long-horizon tasks across nine categories with dense reward-based grading to capture partial progress."
     },
     {
-      "title": "비디오 생성 모델은 범용 비전 학습기이다",
+      "title": "언어 지능을 위한 확장 가능한 시각 사전학습",
+      "title_en": "Scalable Visual Pretraining for Language Intelligence",
+      "url": "https://huggingface.co/papers/2607.09657",
+      "summary": "그림·수식·페이지 레이아웃에는 텍스트로 옮기면 사라지는 정보가 많은데, 현재 사전학습은 문서와 웹페이지를 평문으로 변환하며 이 시각적 단서를 버린다. 언어 모델이 반드시 텍스트로만 학습돼야 한다는 기본 가정에 도전한다.",
+      "summary_en": "Figures, typeset equations, and page layouts carry information text cannot capture, yet pretraining discards these cues by flattening documents to plain text. Challenges the assumption that language models must be trained on text."
+    },
+    {
+      "title": "비디오 생성 모델은 범용 비전 학습기다",
       "title_en": "Video Generation Models are General-Purpose Vision Learners",
       "url": "https://huggingface.co/papers/2607.09024",
-      "summary": "비디오 생성을 위해 학습된 모델이 다양한 비전 태스크에서 범용 학습기로 활용될 수 있음을 입증.",
-      "summary_en": "Demonstrates that models trained for video generation can serve as general-purpose vision learners across diverse tasks."
+      "summary": "NLP가 next-token 예측으로 범용 파운데이션 모델에 도달했듯, 컴퓨터 비전에서는 대규모 text-to-video 생성이 그 촉매라고 주장한다. 사전학습된 비디오 확산 백본으로 순전파 지각을 정의하는 GenCeption을 제안하며, 시공간 사전지식과 비전-언어 정렬을 함께 얻는다.",
+      "summary_en": "Argues large-scale text-to-video generation is the pre-training paradigm for general vision. Introduces GenCeption, using a pre-trained video diffusion backbone for feed-forward perception with spatiotemporal priors and vision-language alignment."
     },
     {
-      "title": "신뢰 영역 정책 지식 증류",
+      "title": "Trust Region Policy Distillation",
       "title_en": "Trust Region Policy Distillation",
       "url": "https://huggingface.co/papers/2607.04751",
-      "summary": "강화학습에서 신뢰 영역 최적화를 활용해 교사 정책에서 학생 정책으로 효율적으로 지식을 증류하는 방법.",
-      "summary_en": "Efficient knowledge distillation from teacher to student policy in RL using trust region optimization constraints."
+      "summary": "불안정하고 분산이 큰 On-Policy Distillation을 근접 교사(proximal teacher)를 동적으로 구성해 안정적인 학습 패러다임으로 바꾸는 TOP-D를 제안한다. 그래디언트 분산을 본질적으로 통제함을 이론적으로 보이고, 전역 수렴성과 단조 개선 한계를 함께 증명한다.",
+      "summary_en": "TOP-D transforms unstable, high-variance On-Policy Distillation into a stable paradigm by dynamically constructing a proximal teacher, with formal global convergence and monotonic improvement bounds."
     },
     {
-      "title": "KronQ: Kronecker 분해 Hessian을 이용한 LLM 양자화",
+      "title": "KronQ: 크로네커 인수분해 헤시안을 이용한 LLM 양자화",
       "title_en": "KronQ: LLM Quantization via Kronecker-Factored Hessian",
       "url": "https://huggingface.co/papers/2607.07964",
-      "summary": "Kronecker 분해된 Hessian 행렬을 활용해 LLM을 효율적으로 양자화하는 새로운 방법론 제안.",
-      "summary_en": "Novel LLM quantization method leveraging Kronecker-factored Hessian matrices for efficient compression."
+      "summary": "GPTQ 같은 기존 2차 사후학습 양자화(PTQ)는 입력 활성값 통계만 사용해 모든 출력 채널이 동등하게 기여한다고 가정한다. KronQ는 그래디언트 공분산을 파이프라인에 도입해 크로네커 인수분해 헤시안 근사 하에서 입력과 출력을 함께 고려한다.",
+      "summary_en": "Existing second-order PTQ methods like GPTQ build objectives only from input activations. KronQ introduces gradient covariance so the quantization loss depends jointly on input and output under a Kronecker-factored Hessian approximation."
     }
   ],
   "geeknews": [
     {
-      "title": "고객 이탈을 막는 법: 10년간 내가 배운 모든 것",
-      "title_en": "How to Prevent Customer Churn: Everything I've Learned in 10 Years",
+      "title": "고객 이탈을 막는 법 : 10년간 내가 배운 모든 것",
+      "title_en": "How to stop customer churn: everything I learned in 10 years",
       "url": "https://www.youtube.com/watch?v=vdCi2GAQA_Y",
-      "summary": "10년간 스타트업·SaaS 운영을 통해 터득한 고객 이탈 방지 전략 총정리 — 온보딩, 고객 성공, 가격 정책 등.",
-      "summary_en": "Comprehensive strategies for preventing customer churn from 10 years of startup/SaaS experience — onboarding, success, pricing."
+      "summary": "구독 비즈니스의 이탈률은 제품 품질만이 아니라 시장·고객군·사용 빈도에 크게 좌우된다. 오래 남는 고객을 먼저 찾아내고 그들에게 제품을 맞추는 것이 핵심이라는 10년치 경험담.",
+      "summary_en": "Subscription churn is driven as much by market, customer segment, and usage frequency as by product quality. The key is finding customers who stay and tailoring the product to them."
     },
     {
       "title": "코드베이스를 완전히 이해하지 못해도 괜찮은 이유",
-      "title_en": "In Defense of Not Understanding Your Codebase",
+      "title_en": "In defense of not understanding your codebase",
       "url": "https://www.seangoedecke.com/in-defense-of-not-understanding-your-codebase/",
-      "summary": "대규모 코드베이스를 100% 이해하려는 강박에서 벗어나 효과적으로 기여하는 방법을 논의한 에세이.",
-      "summary_en": "Essay arguing it's okay and even productive to not fully understand a large codebase — and how to contribute effectively anyway."
+      "summary": "수천만 줄 규모의 시스템은 누구도 전체를 머릿속에 담을 수 없다. 엔지니어는 부분적으로만 정확한 이해로도 충분히 효과적으로 일할 수 있으며, 완전한 이해를 전제로 삼는 것이 오히려 비현실적이라는 주장.",
+      "summary_en": "Nobody can hold a multi-million-line system in their head. Engineers can work effectively with partially correct understanding, and demanding full comprehension is unrealistic."
     },
     {
       "title": "외부 루프를 소유하라",
       "title_en": "Own the Outer Loop",
       "url": "https://addyo.substack.com/p/own-the-outer-loop",
-      "summary": "AI 시대에 개발자가 경쟁력을 유지하려면 세부 구현(내부 루프)이 아닌 제품·방향·맥락(외부 루프)을 소유해야 한다는 주장.",
-      "summary_en": "In the AI era, developers should own the outer loop (product, direction, context) rather than implementation details (inner loop)."
+      "summary": "AI 에이전트가 조사·구현·검증을 반복하는 내부 실행 루프를 맡더라도, 배포 여부를 결정하고 결과에 책임지는 외부 루프는 여전히 엔지니어의 몫이라는 이야기.",
+      "summary_en": "Even when agents own the inner loop of research, implementation, and verification, engineers must own the outer loop: deciding what ships and being accountable for it."
     },
     {
       "title": "AI 에이전트 시대의 새로운 SaaS 플레이북",
-      "title_en": "The New SaaS Playbook in the AI Agent Era",
+      "title_en": "The New SaaS Playbook for the AI Agent Era",
       "url": "https://www.thevccorner.com/p/the-new-saas-playbook-ai-agent-era",
-      "summary": "AI 에이전트가 소프트웨어를 대체하는 시대에 SaaS 스타트업이 적용해야 할 새로운 비즈니스 전략과 플레이북.",
-      "summary_en": "New business strategies and playbook for SaaS startups as AI agents increasingly replace traditional software workflows."
+      "summary": "소프트웨어 제작 비용이 0에 수렴하면서 기능과 UI는 빠르게 복제되는 상품이 된다. SaaS의 가치는 소프트웨어 표면 아래에 있는 희소 자산(데이터·워크플로·유통망)으로 이동한다.",
+      "summary_en": "As the cost of building software approaches zero, features and UI become quickly-copied commodities. SaaS value shifts to the scarce assets beneath the software."
     },
     {
-      "title": "AgentsView — AI 코딩 에이전트 세션 검색·분석·비용 추적 도구",
-      "title_en": "AgentsView — Session Search, Analysis, and Cost Tracking for AI Coding Agents",
+      "title": "AgentsView - 여러 AI 코딩 에이전트의 세션 검색·분석·비용 추적 도구",
+      "title_en": "AgentsView - search, analyze, and track costs across AI coding agent sessions",
       "url": "https://github.com/kenn-io/agentsview",
-      "summary": "Claude Code, Cursor 등 여러 AI 코딩 에이전트의 세션을 한 곳에서 검색·분석하고 비용을 추적하는 오픈소스 도구.",
-      "summary_en": "Open-source tool for searching, analyzing, and tracking costs across multiple AI coding agent sessions (Claude Code, Cursor, etc.)."
+      "summary": "Claude Code, Codex, Cursor, Gemini CLI, OpenCode 등 여러 코딩 에이전트의 세션을 자동 수집해 대화 검색, 토큰·비용 통계, 활동 분석, 변경 파일 추적을 한 곳에서 제공하는 오픈소스 도구.",
+      "summary_en": "Open-source tool that auto-collects sessions from Claude Code, Codex, Cursor, Gemini CLI, and OpenCode, offering conversation search, token/cost stats, activity analysis, and changed-file tracking."
     }
   ]
 }
