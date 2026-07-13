@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-07-13
+> 마지막 업데이트: 2026-07-14
 
-# AI 뉴스 — 2026-07-13
+# AI 뉴스 — 2026-07-14
 
 ## 🔥 GitHub Trending (Python)
 
-- [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading): 자연어로 투자 전략을 지시하면 시장 데이터를 분석하고 매매를 실행해주는 개인용 트레이딩 에이전트
-- [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect): 장애에 강한 데이터 파이프라인을 파이썬으로 구축하는 워크플로우 오케스트레이션 프레임워크
-- [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps): 바로 클론해서 실행·수정·배포할 수 있는 100개 이상의 AI 에이전트 및 RAG 앱 모음
-- [home-assistant/core](https://github.com/home-assistant/core): 로컬 제어와 프라이버시를 최우선으로 하는 오픈소스 홈 오토메이션 플랫폼
-- [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund): 여러 AI 에이전트가 애널리스트·리스크 매니저 역할을 나눠 맡아 투자 판단을 시뮬레이션하는 헤지펀드 팀
+- [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading): 개인 AI 트레이딩 에이전트 — 시장 분석부터 매매 실행까지 자동화
+- [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps): 실제 실행 가능한 100개 이상의 AI 에이전트 & RAG 앱 모음 — 클론·커스터마이징·배포
+- [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify): 코드·SQL·문서·이미지·영상을 쿼리 가능한 지식 그래프로 변환하는 AI 코딩 어시스턴트 스킬
+- [github/spec-kit](https://github.com/github/spec-kit): Spec-Driven Development(명세 주도 개발)를 시작하기 위한 GitHub 공식 툴킷
+- [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect): Python으로 탄력적인 데이터 파이프라인을 구축하는 워크플로우 오케스트레이션 프레임워크
 
 ## 📄 Hugging Face Papers
 
-- [Vidu S1: 실시간 인터랙티브 영상 생성 모델](https://huggingface.co/papers/2607.03118)
-  사용자 입력에 실시간으로 반응하며 영상을 생성하는 인터랙티브 비디오 생성 모델로, 기존 배치 방식 대비 지연을 크게 줄였다.
-- [Video-Oasis: 비디오 이해 평가 방식의 재고](https://huggingface.co/papers/2603.29616)
-  기존 비디오 이해 벤치마크가 단일 프레임만 봐도 풀리는 문제를 지적하고, 실제 시간적 추론을 요구하는 새 평가 체계를 제안한다.
-- [왜 서랍을 열 수 없을까? Zero-Shot 합성 행동 인식에서 객체 기반 지름길 완화](https://huggingface.co/papers/2601.16211)
-  행동 인식 모델이 동작 자체가 아니라 등장 객체에 의존하는 지름길 학습 문제를 분석하고, 이를 완화하는 학습 기법을 제시한다.
-- [아이디어에도 게놈이 있다: 과학적 계보 추론 벤치마킹과 계보 기반 아이디어 생성](https://huggingface.co/papers/2607.08758)
-  연구 아이디어가 선행 연구에서 어떻게 파생됐는지 추적하는 '계보 추론' 벤치마크를 만들고, 이를 활용해 LLM이 근거 있는 새 아이디어를 생성하도록 한다.
-- [LongE2V: 비디오 디퓨전을 이용한 장기 이벤트 기반 영상 복원·예측·프레임 보간](https://huggingface.co/papers/2607.08770)
-  이벤트 카메라 데이터로부터 긴 구간의 영상을 복원·예측·보간하는 비디오 디퓨전 프레임워크를 제안한다.
+- [Scalable Visual Pretraining for Language Intelligence](https://huggingface.co/papers/2607.09657)
+  언어 모델의 지능을 향상시키기 위한 대규모 확장 가능한 시각적 사전학습 방법론 제안.
+- [Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading](https://huggingface.co/papers/2607.08964)
+  장기적인 터미널 작업에서 AI 에이전트의 한계를 밀도 보상 기반 채점으로 평가하는 새로운 벤치마크.
+- [Video Generation Models are General-Purpose Vision Learners](https://huggingface.co/papers/2607.09024)
+  비디오 생성을 위해 학습된 모델이 다양한 비전 태스크에서 범용 학습기로 활용될 수 있음을 입증.
+- [Trust Region Policy Distillation](https://huggingface.co/papers/2607.04751)
+  강화학습에서 신뢰 영역 최적화를 활용해 교사 정책에서 학생 정책으로 효율적으로 지식을 증류하는 방법.
+- [KronQ: LLM Quantization via Kronecker-Factored Hessian](https://huggingface.co/papers/2607.07964)
+  Kronecker 분해된 Hessian 행렬을 활용해 LLM을 효율적으로 양자화하는 새로운 방법론 제안.
 
 ## 🦉 GeekNews
 
-- [양극성 LISP 프로그래머](https://www.marktarver.com/bipolar.html)
-  Lisp는 기술적으로 뛰어나지만 주류가 되지 못한 '뛰어난 실패작'이며, 저자는 그 이유를 언어 자체보다 Lisp에 끌리는 사람들의 성향에서 찾는다.
-- [sem — Git 위에 함수/클래스 단위 변경 추적을 더하는 시맨틱 버전 관리 도구](https://github.com/Ataraxy-Labs/sem)
-  줄 단위가 아니라 코드 엔티티를 비교해 어떤 함수·메서드·클래스가 추가/수정/삭제/이동/이름 변경됐는지 보여준다.
-- [GPT-5.6, Grok 4.5, Claude, Muse Spark로 같은 앱 4개를 만들어 본 결과](https://www.tryai.dev/blog/gpt-5.6-build-off-12-models)
-  12개 모델에 레이캐스터 미로, 3D 루빅스 큐브, 계산기, 라이프 게임을 만들게 한 결과 복잡한 과제에서는 GPT-5.6 Sol과 Claude Fable 5가 앞섰다.
-- [Android 앱을 웹페이지로 바꿔본 과정](https://danq.me/2026/07/09/your-app-could-have-been-a-webpage/)
-  여행 일정과 PDF를 보여줄 뿐인 앱이 추적과 광고까지 끼워 넣자, 같은 정보를 제공하는 웹페이지로 직접 대체해 본 사례.
-- [Ghost Font — 사람은 읽지만 AI는 읽기 어려운 글꼴](https://www.mixfont.com/ghost-font)
-  배경과 같은 점들의 움직임으로 글자를 만들어, 사람은 영상에서 메시지를 알아보지만 개별 프레임을 분석하는 AI는 해독하기 어렵다.
+- [고객 이탈을 막는 법: 10년간 내가 배운 모든 것](https://www.youtube.com/watch?v=vdCi2GAQA_Y)
+  10년간 스타트업·SaaS 운영을 통해 터득한 고객 이탈 방지 전략 총정리 — 온보딩, 고객 성공, 가격 정책 등.
+- [코드베이스를 완전히 이해하지 못해도 괜찮은 이유](https://www.seangoedecke.com/in-defense-of-not-understanding-your-codebase/)
+  대규모 코드베이스를 100% 이해하려는 강박에서 벗어나 효과적으로 기여하는 방법을 논의한 에세이.
+- [외부 루프를 소유하라](https://addyo.substack.com/p/own-the-outer-loop)
+  AI 시대에 개발자가 경쟁력을 유지하려면 세부 구현(내부 루프)이 아닌 제품·방향·맥락(외부 루프)을 소유해야 한다는 주장.
+- [AI 에이전트 시대의 새로운 SaaS 플레이북](https://www.thevccorner.com/p/the-new-saas-playbook-ai-agent-era)
+  AI 에이전트가 소프트웨어를 대체하는 시대에 SaaS 스타트업이 적용해야 할 새로운 비즈니스 전략과 플레이북.
+- [AgentsView — AI 코딩 에이전트 세션 검색·분석·비용 추적 도구](https://github.com/kenn-io/agentsview)
+  Claude Code, Cursor 등 여러 AI 코딩 에이전트의 세션을 한 곳에서 검색·분석하고 비용을 추적하는 오픈소스 도구.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-07-13](data/2026-07-13.md)
 - [2026-07-12](data/2026-07-12.md)
 - [2026-07-11](data/2026-07-11.md)
 - [2026-07-10](data/2026-07-10.md)
@@ -69,4 +70,3 @@
 - [2026-06-15](data/2026-06-15.md)
 - [2026-06-14](data/2026-06-14.md)
 - [2026-06-13](data/2026-06-13.md)
-- [2026-06-12](data/2026-06-12.md)
