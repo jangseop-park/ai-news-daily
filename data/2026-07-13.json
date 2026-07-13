@@ -4,106 +4,106 @@
     {
       "name": "HKUDS/Vibe-Trading",
       "url": "https://github.com/HKUDS/Vibe-Trading",
-      "description": "개인 AI 트레이딩 에이전트 — 시장 분석부터 매매 실행까지 자동화",
-      "description_en": "Your Personal AI Trading Agent — automates market analysis to trade execution"
+      "description": "자연어로 투자 전략을 지시하면 시장 데이터를 분석하고 매매를 실행해주는 개인용 트레이딩 에이전트",
+      "description_en": "Vibe-Trading: Your Personal Trading Agent"
     },
     {
       "name": "PrefectHQ/prefect",
       "url": "https://github.com/PrefectHQ/prefect",
-      "description": "Python으로 탄력적인 데이터 파이프라인을 구축하는 워크플로우 오케스트레이션 프레임워크",
-      "description_en": "Workflow orchestration framework for building resilient data pipelines in Python"
+      "description": "장애에 강한 데이터 파이프라인을 파이썬으로 구축하는 워크플로우 오케스트레이션 프레임워크",
+      "description_en": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python."
     },
     {
       "name": "Shubhamsaboo/awesome-llm-apps",
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-      "description": "실제 실행 가능한 100개 이상의 AI 에이전트 및 RAG 앱 모음 — 클론, 커스터마이징, 배포",
-      "description_en": "100+ AI Agent & RAG apps you can actually run — clone, customize, and ship"
+      "description": "바로 클론해서 실행·수정·배포할 수 있는 100개 이상의 AI 에이전트 및 RAG 앱 모음",
+      "description_en": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship."
     },
     {
       "name": "home-assistant/core",
       "url": "https://github.com/home-assistant/core",
-      "description": "로컬 제어와 프라이버시를 최우선으로 하는 오픈소스 홈 자동화",
-      "description_en": "Open source home automation that puts local control and privacy first"
+      "description": "로컬 제어와 프라이버시를 최우선으로 하는 오픈소스 홈 오토메이션 플랫폼",
+      "description_en": "Open source home automation that puts local control and privacy first."
     },
     {
       "name": "virattt/ai-hedge-fund",
       "url": "https://github.com/virattt/ai-hedge-fund",
-      "description": "여러 AI 에이전트가 협력해 투자 전략을 수립·실행하는 AI 헤지펀드 팀",
-      "description_en": "Multiple AI agents collaborating on investment strategies — an AI Hedge Fund Team"
+      "description": "여러 AI 에이전트가 애널리스트·리스크 매니저 역할을 나눠 맡아 투자 판단을 시뮬레이션하는 헤지펀드 팀",
+      "description_en": "An AI Hedge Fund Team"
     }
   ],
   "huggingface": [
     {
-      "title": "Vidu S1: 실시간 인터랙티브 비디오 생성 모델",
+      "title": "Vidu S1: 실시간 인터랙티브 영상 생성 모델",
       "title_en": "Vidu S1: A Real-Time Interactive Video Generation Model",
       "url": "https://huggingface.co/papers/2607.03118",
-      "summary": "사용자 입력에 실시간으로 반응하는 인터랙티브 비디오 생성 모델. 칭화대학교 개발.",
-      "summary_en": "Real-time interactive video generation model responding to user inputs, by Tsinghua University."
+      "summary": "사용자 입력에 실시간으로 반응하며 영상을 생성하는 인터랙티브 비디오 생성 모델로, 기존 배치 방식 대비 지연을 크게 줄였다.",
+      "summary_en": "An interactive video generation model that responds to user input in real time, greatly reducing latency compared with batch generation."
     },
     {
-      "title": "Video-Oasis: 비디오 이해 평가 방식의 재고찰",
+      "title": "Video-Oasis: 비디오 이해 평가 방식의 재고",
       "title_en": "Video-Oasis: Rethinking Evaluation of Video Understanding",
       "url": "https://huggingface.co/papers/2603.29616",
-      "summary": "기존 비디오 이해 평가 체계의 문제점을 분석하고 혁신적 평가 방법론을 제안. NAVER 연구팀.",
-      "summary_en": "NAVER proposes rethinking video understanding evaluation by addressing conventional benchmark limitations."
+      "summary": "기존 비디오 이해 벤치마크가 단일 프레임만 봐도 풀리는 문제를 지적하고, 실제 시간적 추론을 요구하는 새 평가 체계를 제안한다.",
+      "summary_en": "Points out that existing video understanding benchmarks can be solved from a single frame, and proposes a new evaluation suite requiring genuine temporal reasoning."
     },
     {
-      "title": "왜 서랍을 열 수 없을까? 제로샷 행동 인식의 객체 편향 완화",
+      "title": "왜 서랍을 열 수 없을까? Zero-Shot 합성 행동 인식에서 객체 기반 지름길 완화",
       "title_en": "Why Can't I Open My Drawer? Mitigating Object-Driven Shortcuts in Zero-Shot Compositional Action Recognition",
       "url": "https://huggingface.co/papers/2601.16211",
-      "summary": "제로샷 합성 행동 인식에서 객체 의존 편향을 발견하고 완화하는 방법 제안. NAVER.",
-      "summary_en": "NAVER researchers identify and mitigate object-driven biases in zero-shot compositional action recognition."
+      "summary": "행동 인식 모델이 동작 자체가 아니라 등장 객체에 의존하는 지름길 학습 문제를 분석하고, 이를 완화하는 학습 기법을 제시한다.",
+      "summary_en": "Analyzes shortcut learning where action recognition models rely on objects rather than the motion itself, and presents a training method to mitigate it."
     },
     {
-      "title": "아이디어의 계보: 과학적 계보 추론 및 아이디어 생성 벤치마크",
+      "title": "아이디어에도 게놈이 있다: 과학적 계보 추론 벤치마킹과 계보 기반 아이디어 생성",
       "title_en": "Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation",
       "url": "https://huggingface.co/papers/2607.08758",
-      "summary": "과학적 아이디어의 계보 관계를 추론하고 생성하는 능력을 평가하는 벤치마크. 상해교통대학교.",
-      "summary_en": "Shanghai Jiao Tong University benchmark for evaluating scientific lineage reasoning and idea generation."
+      "summary": "연구 아이디어가 선행 연구에서 어떻게 파생됐는지 추적하는 '계보 추론' 벤치마크를 만들고, 이를 활용해 LLM이 근거 있는 새 아이디어를 생성하도록 한다.",
+      "summary_en": "Introduces a scientific lineage reasoning benchmark tracing how research ideas derive from prior work, and uses it to ground LLM-generated novel ideas."
     },
     {
-      "title": "LongE2V: 비디오 확산 모델 기반 장기 이벤트 비디오 복원·예측·보간",
+      "title": "LongE2V: 비디오 디퓨전을 이용한 장기 이벤트 기반 영상 복원·예측·프레임 보간",
       "title_en": "LongE2V: Long-Horizon Event-based Video Reconstruction, Prediction, and Frame Interpolation with Video Diffusion Models",
       "url": "https://huggingface.co/papers/2607.08770",
-      "summary": "이벤트 카메라 데이터와 비디오 확산 모델로 장기 비디오 복원, 미래 예측, 프레임 보간을 통합 수행.",
-      "summary_en": "Unified framework for long-horizon video reconstruction, prediction, and interpolation using event camera data and video diffusion models."
+      "summary": "이벤트 카메라 데이터로부터 긴 구간의 영상을 복원·예측·보간하는 비디오 디퓨전 프레임워크를 제안한다.",
+      "summary_en": "Proposes a video diffusion framework that reconstructs, predicts, and interpolates long-horizon video from event camera data."
     }
   ],
   "geeknews": [
     {
-      "title": "대한민국 제도 100개를 한장씩 체계도로 만들었습니다",
-      "title_en": "Visualizing 100 Korean Government Systems as Single-Page Diagrams",
-      "url": "https://hosungseo.github.io/korea100/",
-      "summary": "AI를 활용해 한국 공공행정 100개 제도를 한 장짜리 체계도로 시각화. AI 리터러시의 새 방향 제시.",
-      "summary_en": "Using AI to create single-page structural diagrams for 100 Korean public administration systems."
-    },
-    {
-      "title": "LLM 번아웃이 온 것 같아요",
-      "title_en": "LLM Burnout Seems to Be Here",
-      "url": "https://www.alecscollon.com/blog/llm-burnout/",
-      "summary": "매일 AI 도구를 사용하며 AI 생성 콘텐츠 소비가 급증 → 인지적 피로감 축적에 대한 개발자 성찰.",
-      "summary_en": "A developer reflects on cognitive fatigue from daily AI tool usage and growing AI-generated content consumption."
-    },
-    {
-      "title": "미첼 하시모토 인터뷰: Ghostty, Zig, 오픈소스 유지보수",
-      "title_en": "Interview with Mitchell Hashimoto: Ghostty, Zig, Open Source Maintenance",
-      "url": "https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/",
-      "summary": "HashiCorp 창업자 미첼 하시모토의 Ghostty 터미널 개발, Zig 언어 도입, 오픈소스 철학 인터뷰.",
-      "summary_en": "HashiCorp founder on building Ghostty terminal, adopting Zig language, and sustainable open source maintenance."
-    },
-    {
-      "title": "OpenAI GPT-5.6 출시 (Sol, Terra, Luna)",
-      "title_en": "OpenAI Releases GPT-5.6 (Sol, Terra, Luna Models)",
-      "url": "https://openai.com/index/gpt-5-6/",
-      "summary": "OpenAI GPT-5.6 패밀리 정식 출시. Sol, Terra, Luna 세 모델 변형으로 각 작업에 특화.",
-      "summary_en": "OpenAI launches GPT-5.6 family with Sol, Terra, Luna variants, each optimized for different tasks."
-    },
-    {
       "title": "양극성 LISP 프로그래머",
       "title_en": "The Bipolar Lisp Programmer",
       "url": "https://www.marktarver.com/bipolar.html",
-      "summary": "LISP 프로그래머 특유의 낙관과 좌절을 오가는 심리적 패턴을 유머러스하게 분석한 에세이.",
-      "summary_en": "A humorous essay analyzing the oscillating optimism and frustration unique to Lisp programmers."
+      "summary": "Lisp는 기술적으로 뛰어나지만 주류가 되지 못한 '뛰어난 실패작'이며, 저자는 그 이유를 언어 자체보다 Lisp에 끌리는 사람들의 성향에서 찾는다.",
+      "summary_en": "Lisp is a brilliant failure — technically superb yet never mainstream — and the author attributes this to the temperament of the people drawn to it rather than the language."
+    },
+    {
+      "title": "sem — Git 위에 함수/클래스 단위 변경 추적을 더하는 시맨틱 버전 관리 도구",
+      "title_en": "sem - Semantic version control adding function/class-level change tracking on top of Git",
+      "url": "https://github.com/Ataraxy-Labs/sem",
+      "summary": "줄 단위가 아니라 코드 엔티티를 비교해 어떤 함수·메서드·클래스가 추가/수정/삭제/이동/이름 변경됐는지 보여준다.",
+      "summary_en": "Diffs code entities instead of lines, showing which functions, methods, and classes were added, modified, deleted, moved, or renamed."
+    },
+    {
+      "title": "GPT-5.6, Grok 4.5, Claude, Muse Spark로 같은 앱 4개를 만들어 본 결과",
+      "title_en": "Building the same 4 apps with GPT-5.6, Grok 4.5, Claude, and Muse Spark",
+      "url": "https://www.tryai.dev/blog/gpt-5.6-build-off-12-models",
+      "summary": "12개 모델에 레이캐스터 미로, 3D 루빅스 큐브, 계산기, 라이프 게임을 만들게 한 결과 복잡한 과제에서는 GPT-5.6 Sol과 Claude Fable 5가 앞섰다.",
+      "summary_en": "Twelve models built a raycaster maze, a 3D Rubik's cube, a calculator, and Conway's Game of Life; GPT-5.6 Sol and Claude Fable 5 led on the complex tasks."
+    },
+    {
+      "title": "Android 앱을 웹페이지로 바꿔본 과정",
+      "title_en": "Your app could have been a webpage",
+      "url": "https://danq.me/2026/07/09/your-app-could-have-been-a-webpage/",
+      "summary": "여행 일정과 PDF를 보여줄 뿐인 앱이 추적과 광고까지 끼워 넣자, 같은 정보를 제공하는 웹페이지로 직접 대체해 본 사례.",
+      "summary_en": "An app that merely displayed travel itineraries and PDFs also bundled tracking and ads, so the author replaced it with a webpage serving the same information."
+    },
+    {
+      "title": "Ghost Font — 사람은 읽지만 AI는 읽기 어려운 글꼴",
+      "title_en": "Ghost Font - a typeface humans can read but AI struggles with",
+      "url": "https://www.mixfont.com/ghost-font",
+      "summary": "배경과 같은 점들의 움직임으로 글자를 만들어, 사람은 영상에서 메시지를 알아보지만 개별 프레임을 분석하는 AI는 해독하기 어렵다.",
+      "summary_en": "Letters emerge from the motion of dots identical to the background, so humans perceive the message in video while AI analyzing individual frames struggles to decode it."
     }
   ]
 }
