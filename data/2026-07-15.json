@@ -4,106 +4,106 @@
     {
       "name": "Shubhamsaboo/awesome-llm-apps",
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-      "description": "실제 실행 가능한 100개 이상의 AI 에이전트 & RAG 앱 모음 — 클론·커스터마이징·배포",
-      "description_en": "100+ AI Agent & RAG apps you can actually run — clone, customize, and ship"
+      "description": "실제로 돌려볼 수 있는 100개 이상의 AI 에이전트·RAG 앱 모음. 클론해서 커스터마이징하고 바로 배포 가능함.",
+      "description_en": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship."
     },
     {
       "name": "virattt/ai-hedge-fund",
       "url": "https://github.com/virattt/ai-hedge-fund",
-      "description": "여러 AI 에이전트가 협력해 투자 전략을 수립·실행하는 AI 헤지펀드 팀",
-      "description_en": "An AI Hedge Fund Team — multiple AI agents collaborating on investment strategies"
+      "description": "여러 AI 에이전트가 협업해 투자 판단을 내리는 AI 헤지펀드 팀 프로젝트임.",
+      "description_en": "An AI Hedge Fund Team."
     },
     {
       "name": "HKUDS/Vibe-Trading",
       "url": "https://github.com/HKUDS/Vibe-Trading",
-      "description": "시장 분석부터 매매 실행까지 자동화하는 개인 AI 트레이딩 에이전트",
-      "description_en": "Your Personal AI Trading Agent — automates market analysis to trade execution"
+      "description": "개인용 자동 트레이딩 에이전트. 자연어 지시로 매매 전략을 실행함.",
+      "description_en": "Vibe-Trading: Your Personal Trading Agent."
     },
     {
       "name": "Graphify-Labs/graphify",
       "url": "https://github.com/Graphify-Labs/graphify",
-      "description": "코드·SQL·문서·이미지·영상을 쿼리 가능한 지식 그래프로 변환하는 AI 코딩 어시스턴트 스킬",
-      "description_en": "AI coding assistant skill turning code, SQL, docs, images, and videos into a queryable knowledge graph"
+      "description": "코드·SQL 스키마·문서·이미지 등을 질의 가능한 지식 그래프로 바꿔주는 AI 코딩 어시스턴트 스킬. Claude Code, Cursor 등 지원함.",
+      "description_en": "AI coding assistant skill that turns code, SQL schemas, docs, images into a queryable knowledge graph. Supports Claude Code, Cursor, and more."
     },
     {
       "name": "cactus-compute/needle",
       "url": "https://github.com/cactus-compute/needle",
-      "description": "26M 파라미터 함수 호출 모델 — 초소형 기기에서도 실행 가능",
-      "description_en": "26M parameter function call model that runs on incredibly small devices"
+      "description": "초소형 기기에서도 돌아가는 2600만 파라미터 함수 호출(function-call) 모델임.",
+      "description_en": "26M function-call model that runs on incredibly small devices."
     }
   ],
   "huggingface": [
     {
-      "title": "직접 온-정책 증류를 통한 약한 모델→강한 모델 일반화",
+      "title": "직접 온-폴리시 증류를 통한 Weak-to-Strong 일반화",
       "title_en": "Weak-to-Strong Generalization via Direct On-Policy Distillation",
       "url": "https://huggingface.co/papers/2607.05394",
-      "summary": "약한 교사 모델의 지도를 받아 더 강한 학생 모델로 일반화하는 직접 온-정책 증류 방법론 제안.",
-      "summary_en": "Proposes direct on-policy distillation enabling weak-to-strong generalization — stronger students surpassing weak teacher supervision."
+      "summary": "약한 교사 모델로 강한 학생 모델을 지도할 때, 온-폴리시 증류를 직접 적용해 성능 저하를 막고 일반화를 끌어올리는 방법을 제안함.",
+      "summary_en": "Proposes direct on-policy distillation to achieve weak-to-strong generalization without the usual performance loss."
     },
     {
-      "title": "ABot-N1: 범용 시각-언어 내비게이션 기반 모델을 향해",
+      "title": "ABot-N1: 범용 시각 언어 내비게이션 파운데이션 모델",
       "title_en": "ABot-N1: Toward a General Visual Language Navigation Foundation Model",
       "url": "https://huggingface.co/papers/2607.10383",
-      "summary": "다양한 환경에서 시각과 언어를 통합해 내비게이션 작업을 수행하는 범용 기반 모델 ABot-N1 제안.",
-      "summary_en": "Proposes ABot-N1, a general foundation model integrating vision and language for navigation tasks across diverse environments."
+      "summary": "언어 지시를 따라 실제·가상 환경을 이동하는 로봇을 위한 범용 시각-언어 내비게이션 파운데이션 모델임.",
+      "summary_en": "A general foundation model for visual-language navigation, letting robots follow natural-language instructions across environments."
     },
     {
       "title": "ABot-AgentOS: 평생 멀티모달 메모리를 갖춘 범용 로봇 에이전트 OS",
       "title_en": "ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi-modal Memory",
       "url": "https://huggingface.co/papers/2607.10350",
-      "summary": "시각·언어·행동 등 다양한 모달리티 메모리를 평생 누적·활용하는 범용 로봇 에이전트 운영 체제.",
-      "summary_en": "General robotic agent OS that accumulates and utilizes lifelong multi-modal memory across vision, language, and action."
+      "summary": "로봇 에이전트가 평생에 걸쳐 멀티모달 경험을 저장·활용하도록 하는 범용 로봇 에이전트 운영체제를 제안함.",
+      "summary_en": "Proposes a general robotic agent OS with lifelong multi-modal memory for continual experience use."
     },
     {
-      "title": "낮은 오버랩 캡처에서 4D 인간-장면 재구성",
+      "title": "저중첩 촬영으로부터의 4D 인간-장면 복원",
       "title_en": "4D Human-Scene Reconstruction from Low-Overlap Captures",
       "url": "https://huggingface.co/papers/2607.09125",
-      "summary": "카메라 오버랩이 낮은 환경에서도 인간과 장면을 시간축(4D)으로 동시에 재구성하는 방법론 제안.",
-      "summary_en": "Method for 4D reconstruction of humans and scenes simultaneously even under low camera overlap conditions."
+      "summary": "겹침이 적은 소수 시점 촬영만으로 사람과 주변 장면을 4D(3D+시간)로 복원하는 기법임.",
+      "summary_en": "Reconstructs humans and scenes in 4D from sparse, low-overlap captures."
     },
     {
-      "title": "LightMem-Ego: 일상 생활을 위한 AI 메모리",
+      "title": "LightMem-Ego: 일상을 위한 AI 메모리",
       "title_en": "LightMem-Ego: Your AI Memory for Everyday Life",
       "url": "https://huggingface.co/papers/2607.11487",
-      "summary": "1인칭 시점 영상(egocentric video)에서 일상 기억을 경량으로 추출·검색하는 개인 AI 메모리 시스템.",
-      "summary_en": "Lightweight personal AI memory system that extracts and retrieves everyday memories from egocentric video streams."
+      "summary": "1인칭(에고센트릭) 일상 데이터를 가볍게 저장·검색하는 개인용 AI 메모리 시스템임.",
+      "summary_en": "A lightweight personal AI memory system for storing and retrieving everyday egocentric life data."
     }
   ],
   "geeknews": [
     {
-      "title": "이봐, 신입 — 우린 당신에게 주어진 일이나 끝내라고 채용한 게 아니야",
-      "title_en": "Hey N00b, We Didn't Hire You to Complete Your Tasks",
-      "url": "https://newsletter.kentbeck.com/p/hey-n00b-we-didnt-hire-you-to-complete",
-      "summary": "Kent Beck이 신입 개발자에게 '태스크 완수'를 넘어 팀과 조직에 진짜 가치를 전달하라고 조언하는 글.",
-      "summary_en": "Kent Beck advises new developers to go beyond task completion and deliver real value to the team and organization."
+      "title": "이봐 신입, 우린 당신에게 주어진 일이나 끝내라고 채용한 게 아니야",
+      "title_en": "Hey n00b, we didn't hire you to complete tickets",
+      "url": "https://news.hada.io/topic?id=31420",
+      "summary": "켄트 벡의 글. 신입에게 기대하는 건 티켓 소화가 아니라 문제를 스스로 정의하고 개선점을 찾는 태도라는 주장임.",
+      "summary_en": "Kent Beck argues juniors are hired to find and frame problems, not just close tickets."
     },
     {
       "title": "고객 이탈을 막는 법: 10년간 내가 배운 모든 것",
-      "title_en": "How to Prevent Customer Churn: Everything I've Learned in 10 Years",
-      "url": "https://www.youtube.com/watch?v=vdCi2GAQA_Y",
-      "summary": "10년 스타트업·SaaS 운영 경험에서 나온 고객 이탈 방지 전략 총정리 — 온보딩·고객 성공·가격 정책 포함.",
-      "summary_en": "Comprehensive churn prevention strategies from 10 years of startup/SaaS experience — onboarding, customer success, pricing."
+      "title_en": "How to reduce churn: everything I learned in 10 years",
+      "url": "https://news.hada.io/topic?id=31384",
+      "summary": "SaaS 창업자가 10년간 겪은 고객 이탈(churn) 방지 노하우를 정리함. 온보딩과 가치 전달이 핵심이라 강조함.",
+      "summary_en": "A SaaS founder's decade of hard-won lessons on reducing churn, centered on onboarding and value delivery."
     },
     {
       "title": "이해가 새로운 병목이다",
-      "title_en": "Understanding is the New Bottleneck",
-      "url": "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck.html",
-      "summary": "AI가 코드 생성을 가속하면서 병목이 '작성'에서 '이해'로 이동했고, 소프트웨어 도구도 이에 맞게 진화해야 한다는 분석.",
-      "summary_en": "As AI accelerates code generation, the bottleneck shifts from writing to understanding — software tools must evolve accordingly."
+      "title_en": "Understanding is the new bottleneck",
+      "url": "https://news.hada.io/topic?id=31429",
+      "summary": "AI가 코드 생성을 대신하면서 진짜 병목은 코드를 이해하고 검증하는 능력으로 옮겨갔다는 분석임.",
+      "summary_en": "As AI writes the code, the real bottleneck shifts to understanding and verifying it."
     },
     {
       "title": "코드베이스를 완전히 이해하지 못해도 괜찮은 이유",
-      "title_en": "In Defense of Not Understanding Your Codebase",
-      "url": "https://www.seangoedecke.com/in-defense-of-not-understanding-your-codebase/",
-      "summary": "대규모 코드베이스를 100% 이해하려는 강박에서 벗어나 효과적으로 기여하는 방법을 논의한 에세이.",
-      "summary_en": "Essay arguing it's productive to not fully understand a large codebase — and how to contribute effectively anyway."
+      "title_en": "Why it's OK not to fully understand the codebase",
+      "url": "https://news.hada.io/topic?id=31377",
+      "summary": "거대한 코드베이스를 전부 파악하려 하기보다 필요한 부분만 국소적으로 이해하며 일하는 전략이 현실적이라는 글임.",
+      "summary_en": "Argues for working with local, need-based understanding instead of grasping an entire large codebase."
     },
     {
-      "title": "외부 루프를 소유하라",
-      "title_en": "Own the Outer Loop",
-      "url": "https://addyo.substack.com/p/own-the-outer-loop",
-      "summary": "AI가 구현을 대체하는 시대, 개발자는 세부 구현(내부 루프)이 아닌 제품·방향·맥락(외부 루프)을 소유해야 한다는 주장.",
-      "summary_en": "Developers should own the outer loop (product, direction, context) rather than implementation details as AI takes over the inner loop."
+      "title": "AI 에이전트 시대의 새로운 SaaS 플레이북",
+      "title_en": "The new SaaS playbook for the AI agent era",
+      "url": "https://news.hada.io/topic?id=31387",
+      "summary": "AI 에이전트가 소프트웨어를 직접 사용하는 시대에 맞춰 SaaS 제품 설계·과금 전략을 다시 짜야 한다는 제언임.",
+      "summary_en": "Rethinking SaaS product design and pricing for an era where AI agents are the users."
     }
   ]
 }
