@@ -4,106 +4,106 @@
     {
       "name": "HKUDS/Vibe-Trading",
       "url": "https://github.com/HKUDS/Vibe-Trading",
-      "description": "자연어로 지시하면 자동으로 매매 전략을 실행해주는 개인용 트레이딩 에이전트임.",
-      "description_en": "Vibe-Trading: Your Personal Trading Agent."
+      "description": "자연어 명령으로 실시간 주식 매매 전략을 실행하는 AI 트레이딩 에이전트 프레임워크임",
+      "description_en": "AI-powered personal trading agent that executes real-time stock strategies via natural language"
     },
     {
       "name": "HKUDS/DeepTutor",
       "url": "https://github.com/HKUDS/DeepTutor",
-      "description": "학습자에 맞춰 지속적으로 개인화 지도를 해주는 평생 학습 튜터링 에이전트임.",
-      "description_en": "DeepTutor: Lifelong Personalized Tutoring."
+      "description": "평생 개인 맞춤형 튜터링을 제공하는 AI 교육 에이전트임. 학습자 수준에 따라 적응형 설명을 생성함",
+      "description_en": "AI tutoring agent providing lifelong personalized instruction with adaptive explanations"
     },
     {
       "name": "Shubhamsaboo/awesome-llm-apps",
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-      "description": "실제로 돌려볼 수 있는 100개 이상의 AI 에이전트/RAG 앱 모음집임. 복제해서 바로 커스터마이징 가능함.",
-      "description_en": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship."
+      "description": "100개 이상의 LLM 기반 AI 에이전트·RAG 앱 모음임. 바로 실행 가능한 예제 위주로 구성됨",
+      "description_en": "Curated collection of 100+ runnable LLM-powered AI agent and RAG applications"
     },
     {
       "name": "github/spec-kit",
       "url": "https://github.com/github/spec-kit",
-      "description": "명세 주도 개발(Spec-Driven Development)을 시작하도록 돕는 GitHub 공식 툴킷임.",
-      "description_en": "Toolkit to help you get started with Spec-Driven Development."
+      "description": "Spec-Driven Development(사양 기반 개발)를 시작하기 위한 공식 툴킷임. GitHub 제공",
+      "description_en": "Official toolkit by GitHub to help developers get started with Spec-Driven Development"
     },
     {
       "name": "HKUDS/nanobot",
       "url": "https://github.com/HKUDS/nanobot",
-      "description": "각종 도구·채팅·워크플로우에 붙일 수 있는 경량 오픈소스 AI 에이전트임.",
-      "description_en": "Lightweight, open-source AI agent for your tools, chats, and workflows."
+      "description": "도구·채팅·워크플로우를 위한 경량 오픈소스 AI 에이전트 프레임워크임",
+      "description_en": "Lightweight open-source AI agent for tools, chats, and workflows"
     }
   ],
   "huggingface": [
     {
-      "title": "SynthDocBench: 롱컨텍스트 시각 문서 이해 통제형 벤치마크",
+      "title": "SynthDocBench: 장문맥 시각 문서 이해를 위한 제어 가능한 벤치마크",
       "title_en": "SynthDocBench: Controlled Benchmark for Long-Context Visual Document Understanding",
       "url": "https://huggingface.co/papers/2607.10400",
-      "summary": "긴 문서를 시각적으로 이해하는 능력을 변수별로 통제해 평가하는 합성 벤치마크를 제안함.",
-      "summary_en": "Proposes a synthetic, controllable benchmark to evaluate long-context visual document understanding."
+      "summary": "긴 문맥의 시각적 문서(PDF, 표, 차트 등)를 이해하는 멀티모달 LLM 성능을 평가하는 합성 벤치마크를 제안함. 문서 유형과 난이도를 세밀하게 조절 가능함",
+      "summary_en": "Proposes a synthetic benchmark for evaluating multimodal LLMs on long-context visual document understanding with fine-grained difficulty control"
     },
     {
-      "title": "Read It Back: 사전학습 MLLM은 텍스트-이미지 생성의 제로샷 보상 모델",
+      "title": "Read It Back: 사전 학습된 MLLM을 텍스트-이미지 생성의 제로샷 보상 모델로 활용",
       "title_en": "Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation",
       "url": "https://huggingface.co/papers/2607.11886",
-      "summary": "별도 학습 없이 사전학습된 멀티모달 LLM을 텍스트-이미지 생성 품질 보상 모델로 바로 활용할 수 있음을 보임.",
-      "summary_en": "Shows pretrained MLLMs can serve as zero-shot reward models for text-to-image generation quality."
+      "summary": "텍스트-이미지 생성 품질 평가에 별도 학습 없이 사전 학습된 멀티모달 LLM을 제로샷 보상 모델로 재활용하는 방법을 제안함",
+      "summary_en": "Proposes reusing pretrained MLLMs as zero-shot reward models for evaluating text-to-image generation quality without additional training"
     },
     {
-      "title": "Search Beyond What Can Be Taught: 에이전트형 시각 생성의 지식 경계 확장",
+      "title": "가르칠 수 없는 것을 탐색: 에이전틱 시각 생성에서 지식 경계 확장",
       "title_en": "Search Beyond What Can Be Taught: Evolving the Knowledge Boundary in Agentic Visual Generation",
       "url": "https://huggingface.co/papers/2607.05382",
-      "summary": "에이전트가 학습된 지식의 한계를 스스로 탐색·확장하며 시각 생성을 개선하는 방법을 제안함.",
-      "summary_en": "Proposes an agentic method that searches beyond learned knowledge to expand the boundary in visual generation."
+      "summary": "에이전트 기반 시각 콘텐츠 생성에서 기존 학습 데이터 범위를 넘어 모델이 스스로 새 지식 경계를 탐색하게 하는 검색 프레임워크를 제시함",
+      "summary_en": "Presents a search framework enabling visual generation agents to explore knowledge boundaries beyond their training distribution"
     },
     {
-      "title": "Blind-Spots-Bench: 멀티모달 모델의 사각지대 평가",
+      "title": "Blind-Spots-Bench: 멀티모달 모델의 블라인드 스팟(맹점) 평가",
       "title_en": "Blind-Spots-Bench: Evaluating Blind Spots in Multimodal Models",
       "url": "https://huggingface.co/papers/2607.08317",
-      "summary": "멀티모달 모델이 놓치는 인지적 사각지대를 체계적으로 진단하는 벤치마크를 제시함.",
-      "summary_en": "Introduces a benchmark to systematically diagnose blind spots in multimodal models."
+      "summary": "멀티모달 모델이 간과하기 쉬운 시각·언어 맹점을 체계적으로 평가하는 벤치마크를 제안함. 기존 모델들의 취약점을 다각도로 분석함",
+      "summary_en": "Proposes a benchmark to systematically evaluate visual and linguistic blind spots in multimodal models"
     },
     {
-      "title": "Function-Aware Fill-in-the-Middle: 코딩 에이전트 파운데이션 모델을 위한 미드트레이닝",
+      "title": "코딩 에이전트를 위한 중간 학습: 함수 인식 Fill-in-the-Middle 기법",
       "title_en": "Function-Aware Fill-in-the-Middle as Mid-Training for Coding Agent Foundation Models",
       "url": "https://huggingface.co/papers/2607.12463",
-      "summary": "함수 구조를 인식하는 중간채우기(FIM) 미드트레이닝으로 코딩 에이전트 파운데이션 모델 성능을 끌어올림.",
-      "summary_en": "Uses function-aware fill-in-the-middle mid-training to boost coding agent foundation models."
+      "summary": "코딩 에이전트 파운데이션 모델의 중간 학습 단계에서 함수 구조를 인식하는 Fill-in-the-Middle 기법을 적용해 코드 완성 성능을 향상시킴",
+      "summary_en": "Applies function-aware fill-in-the-middle training as a mid-training stage to improve coding agent foundation model performance"
     }
   ],
   "geeknews": [
     {
       "title": "이해가 새로운 병목이다",
-      "title_en": "Understanding is the New Bottleneck",
-      "url": "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck.html",
-      "summary": "에이전트가 코드를 쏟아내는 시대에 개발 속도를 좌우하는 건 코드 생성이 아니라 시스템을 이해하는 능력임.",
-      "summary_en": "When agents generate code freely, the real bottleneck on dev speed is understanding the system, not producing code."
+      "title_en": "Understanding Is the New Bottleneck",
+      "url": "https://gist.github.com/geoffreylitt/a29df1b5f9865506e8952488eac3d524",
+      "summary": "AI 도구가 코드 생성 속도를 높이면서 이제 병목은 '코드 짜기'가 아니라 '코드를 이해하고 검증하기'로 이동했다고 주장함. 개발자의 역할이 창작자에서 검토자로 전환되는 현상을 분석함",
+      "summary_en": "Argues that as AI tools accelerate code generation, the bottleneck has shifted from writing to understanding and verifying code"
     },
     {
       "title": "이봐, 신입, 우린 당신에게 주어진 일이나 끝내라고 채용한 게 아니야",
-      "title_en": "Hey Noob, We Didn't Hire You to Just Finish Tickets",
+      "title_en": "Hey Junior, We Didn't Hire You Just to Finish Assigned Tasks",
       "url": "https://news.hada.io/topic?id=31420",
-      "summary": "신입 엔지니어의 가치는 처리한 작업 수가 아니라 주변 동료의 생산성까지 높이는 성장 잠재력에 있음.",
-      "summary_en": "A junior engineer's value lies in growth potential that lifts the whole team, not the count of tickets closed."
+      "summary": "주니어 개발자에게 단순히 태스크를 완료하는 것 이상을 기대한다는 메시지임. 능동적 문제 발굴, 팀 기여, 맥락 파악 능력이 성장의 핵심이라고 강조함",
+      "summary_en": "Challenges junior developers to go beyond task completion and actively identify problems, understand context, and contribute to the team"
     },
     {
       "title": "GeekNews로 어쩌다가 취업하기",
-      "title_en": "How I Accidentally Got Hired via GeekNews",
+      "title_en": "How I Accidentally Got a Job Through GeekNews",
       "url": "https://news.hada.io/topic?id=31434",
-      "summary": "대학 4학년 때 만든 투자 AI 프로덕트를 GeekNews에 공유한 것이 예상 밖 취업으로 이어진 경험담임.",
-      "summary_en": "Sharing an investment AI product on GeekNews unexpectedly led to a job offer."
+      "summary": "GeekNews 활동을 통해 예상치 못하게 취업 기회를 얻은 개인 경험 사례임. 커뮤니티 참여가 커리어로 이어질 수 있음을 보여줌",
+      "summary_en": "Personal story of unexpectedly landing a job through GeekNews activity, showing how community participation can lead to career opportunities"
     },
     {
-      "title": "2026년에 왜 코드를 작성하는가",
-      "title_en": "Why Write Code in 2026",
-      "url": "https://news.hada.io/topic?id=31411",
-      "summary": "엔지니어의 역할은 코드 생산을 넘어 소프트웨어 팩토리를 구축·유지하는 일로 확장됐지만 시스템 이해는 여전히 직접 코딩에서 나옴.",
-      "summary_en": "Engineering now means building and maintaining the software factory, yet deep understanding still comes from writing code."
-    },
-    {
-      "title": "Papermake - Typst 기반 셀프호스팅 PDF 문서 생성 서버",
-      "title_en": "Papermake - Self-hostable PDF Generation Server Based on Typst",
+      "title": "Papermake — Typst 기반 셀프 호스팅 가능한 PDF 문서 생성 서버",
+      "title_en": "Papermake — Self-Hostable PDF Document Generation Server Based on Typst",
       "url": "https://news.hada.io/topic?id=31432",
-      "summary": "Typst 템플릿을 중앙에서 관리하고 REST API로 PDF를 생성하는 셀프호스팅 문서 서버임.",
-      "summary_en": "A self-hostable server that centralizes Typst templates and generates PDFs via REST API."
+      "summary": "Typst를 백엔드로 사용해 PDF를 생성하는 셀프 호스팅 서버임. API를 통해 문서 자동화 워크플로우에 쉽게 통합 가능함",
+      "summary_en": "Self-hostable server using Typst to generate PDFs via API, easily integrable into document automation workflows"
+    },
+    {
+      "title": "컴퓨터과학 학위는 죽지 않았다",
+      "title_en": "The Computer Science Degree Is Not Dead",
+      "url": "https://news.hada.io/topic?id=31421",
+      "summary": "AI 코딩 도구의 부상에도 CS 학위의 가치가 여전히 유효하다고 주장함. 알고리즘, 시스템 이해, 추상화 능력 등 학위가 제공하는 기초 역량의 중요성을 강조함",
+      "summary_en": "Argues that despite the rise of AI coding tools, a CS degree remains valuable for its foundational skills in algorithms, systems, and abstraction"
     }
   ]
 }
