@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-07-16
+> 마지막 업데이트: 2026-07-17
 
-# AI 뉴스 — 2026-07-16
+# AI 뉴스 — 2026-07-17
 
 ## 🔥 GitHub Trending (Python)
 
-- [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading): 자연어 명령으로 실시간 주식 매매 전략을 실행하는 AI 트레이딩 에이전트 프레임워크임
-- [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor): 평생 개인 맞춤형 튜터링을 제공하는 AI 교육 에이전트임. 학습자 수준에 따라 적응형 설명을 생성함
+- [apache/ossie](https://github.com/apache/ossie): 애널리틱스·AI·BI 플랫폼 간 시맨틱 메타데이터를 표준화 방식으로 교환하기 위한 Apache 인큐베이터 사양 프로젝트임
+- [PostHog/posthog](https://github.com/PostHog/posthog): AI 가시성·분석·세션 리플레이·피처 플래그·실험 등을 통합 제공하는 셀프드라이빙 제품 개발 플랫폼임
 - [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps): 100개 이상의 LLM 기반 AI 에이전트·RAG 앱 모음임. 바로 실행 가능한 예제 위주로 구성됨
-- [github/spec-kit](https://github.com/github/spec-kit): Spec-Driven Development(사양 기반 개발)를 시작하기 위한 공식 툴킷임. GitHub 제공
-- [HKUDS/nanobot](https://github.com/HKUDS/nanobot): 도구·채팅·워크플로우를 위한 경량 오픈소스 AI 에이전트 프레임워크임
+- [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor): 학습자 수준에 따라 적응형 설명을 생성하는 AI 기반 평생 개인 맞춤형 튜터링 에이전트임
+- [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify): 코드·SQL·문서·이미지를 쿼리 가능한 지식 그래프로 변환하는 AI 코딩 어시스턴트 스킬임. Claude Code·Cursor·Codex 등과 통합됨
 
 ## 📄 Hugging Face Papers
 
-- [SynthDocBench: 장문맥 시각 문서 이해를 위한 제어 가능한 벤치마크](https://huggingface.co/papers/2607.10400)
-  긴 문맥의 시각적 문서(PDF, 표, 차트 등)를 이해하는 멀티모달 LLM 성능을 평가하는 합성 벤치마크를 제안함. 문서 유형과 난이도를 세밀하게 조절 가능함
-- [Read It Back: 사전 학습된 MLLM을 텍스트-이미지 생성의 제로샷 보상 모델로 활용](https://huggingface.co/papers/2607.11886)
-  텍스트-이미지 생성 품질 평가에 별도 학습 없이 사전 학습된 멀티모달 LLM을 제로샷 보상 모델로 재활용하는 방법을 제안함
-- [가르칠 수 없는 것을 탐색: 에이전틱 시각 생성에서 지식 경계 확장](https://huggingface.co/papers/2607.05382)
-  에이전트 기반 시각 콘텐츠 생성에서 기존 학습 데이터 범위를 넘어 모델이 스스로 새 지식 경계를 탐색하게 하는 검색 프레임워크를 제시함
-- [Blind-Spots-Bench: 멀티모달 모델의 블라인드 스팟(맹점) 평가](https://huggingface.co/papers/2607.08317)
-  멀티모달 모델이 간과하기 쉬운 시각·언어 맹점을 체계적으로 평가하는 벤치마크를 제안함. 기존 모델들의 취약점을 다각도로 분석함
-- [코딩 에이전트를 위한 중간 학습: 함수 인식 Fill-in-the-Middle 기법](https://huggingface.co/papers/2607.12463)
-  코딩 에이전트 파운데이션 모델의 중간 학습 단계에서 함수 구조를 인식하는 Fill-in-the-Middle 기법을 적용해 코드 완성 성능을 향상시킴
+- [Harness Handbook: 진화하는 에이전트 하네스를 읽기 쉽고 탐색 가능하게 만들기](https://huggingface.co/papers/2607.13285)
+  복잡하게 진화하는 AI 에이전트 하네스(실행 프레임워크)를 개발자가 쉽게 읽고, 탐색하고, 편집할 수 있도록 구조화하는 방법론을 제안함
+- [Boogu-Image-0.1: 오픈소스 통합 멀티모달 이해·생성 모델](https://huggingface.co/papers/2607.13125)
+  이미지 이해와 생성을 통합한 오픈소스 멀티모달 모델임. 단일 모델에서 시각적 이해와 생성을 동시에 수행하도록 설계됨
+- [Ring-Zero: 1조 파라미터 규모의 Zero RL로 창발적 추론 달성](https://huggingface.co/papers/2607.12395)
+  Zero RL(지도 없는 강화학습) 방식을 1조 파라미터 규모로 확장해 복잡한 추론 능력을 창발시키는 연구임. 대규모 RL 학습의 가능성을 실증함
+- [KnowAct-GUIClaw: 자기 진화 메모리·스킬을 갖춘 개인 GUI 어시스턴트](https://huggingface.co/papers/2607.12625)
+  깊은 지식 이해와 자기 진화 메모리·스킬 시스템을 기반으로 GUI를 자율적으로 조작하는 개인 비서 에이전트를 제안함
+- [OvisOCR2 기술 보고서](https://huggingface.co/papers/2607.13639)
+  고성능 OCR 기능을 갖춘 멀티모달 모델 OvisOCR2의 아키텍처, 학습 방법, 벤치마크 성능을 상세히 보고함
 
 ## 🦉 GeekNews
 
-- [이해가 새로운 병목이다](https://gist.github.com/geoffreylitt/a29df1b5f9865506e8952488eac3d524)
-  AI 도구가 코드 생성 속도를 높이면서 이제 병목은 '코드 짜기'가 아니라 '코드를 이해하고 검증하기'로 이동했다고 주장함. 개발자의 역할이 창작자에서 검토자로 전환되는 현상을 분석함
-- [이봐, 신입, 우린 당신에게 주어진 일이나 끝내라고 채용한 게 아니야](https://news.hada.io/topic?id=31420)
-  주니어 개발자에게 단순히 태스크를 완료하는 것 이상을 기대한다는 메시지임. 능동적 문제 발굴, 팀 기여, 맥락 파악 능력이 성장의 핵심이라고 강조함
-- [GeekNews로 어쩌다가 취업하기](https://news.hada.io/topic?id=31434)
-  GeekNews 활동을 통해 예상치 못하게 취업 기회를 얻은 개인 경험 사례임. 커뮤니티 참여가 커리어로 이어질 수 있음을 보여줌
-- [Papermake — Typst 기반 셀프 호스팅 가능한 PDF 문서 생성 서버](https://news.hada.io/topic?id=31432)
-  Typst를 백엔드로 사용해 PDF를 생성하는 셀프 호스팅 서버임. API를 통해 문서 자동화 워크플로우에 쉽게 통합 가능함
-- [컴퓨터과학 학위는 죽지 않았다](https://news.hada.io/topic?id=31421)
-  AI 코딩 도구의 부상에도 CS 학위의 가치가 여전히 유효하다고 주장함. 알고리즘, 시스템 이해, 추상화 능력 등 학위가 제공하는 기초 역량의 중요성을 강조함
+- [「Machine Learning Study 혼자 해보기」](https://news.hada.io/topic?id=31479)
+  머신러닝을 독학으로 공부하는 방법과 경험을 공유하는 글임. 혼자서도 체계적으로 ML을 학습할 수 있는 로드맵과 리소스를 소개함
+- [소비자 앱을 구축하고 확장하는 법](https://news.hada.io/topic?id=31480)
+  소비자 대상 앱을 초기 구축부터 대규모 확장까지 이끈 실전 경험을 바탕으로 한 가이드임. 제품·기술·조직 차원의 핵심 원칙을 다룸
+- [ChatGPT는 실제로 어떻게 출처를 고르는가 (네트워크 트래픽 분석)](https://news.hada.io/topic?id=31476)
+  ChatGPT의 네트워크 트래픽을 분석해 실제로 어떤 기준으로 웹 출처를 선택하는지를 역분석한 글임. 검색 및 인용 메커니즘의 실체를 밝힘
+- [예측 불가능한 천재를 감싸는 법](https://news.hada.io/topic?id=31455)
+  뛰어나지만 예측 불가능한 팀원(천재형 인재)을 어떻게 관리하고 지원할지에 대한 리더십 가이드임. 심리적 안전감과 구조적 지원 방법을 제안함
+- [Grok Build가 오픈 소스로 공개됨](https://news.hada.io/topic?id=31492)
+  xAI의 Grok Build 플랫폼 관련 코드가 오픈소스로 공개됨. AI 기반 앱 빌드·배포 도구를 누구나 사용 가능하게 됨
 
 ---
 ## 📅 이전 날짜
 
+- [2026-07-16](data/2026-07-16.md)
 - [2026-07-15](data/2026-07-15.md)
 - [2026-07-14](data/2026-07-14.md)
 - [2026-07-13](data/2026-07-13.md)
@@ -69,4 +70,3 @@
 - [2026-06-18](data/2026-06-18.md)
 - [2026-06-17](data/2026-06-17.md)
 - [2026-06-16](data/2026-06-16.md)
-- [2026-06-15](data/2026-06-15.md)
