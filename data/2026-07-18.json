@@ -4,106 +4,106 @@
     {
       "name": "PostHog/posthog",
       "url": "https://github.com/PostHog/posthog",
-      "description": "AI 가시성·분석·세션 리플레이·피처 플래그·실험·에러 트래킹을 통합 제공하는 셀프드라이빙 제품 플랫폼임. Slack·MCP·Claude Code와 연동 가능함",
-      "description_en": "Platform for building self-driving products with AI observability, analytics, session replay, feature flags, experiments, and error tracking"
+      "description": "셀프 드라이빙 제품 구축을 위한 올인원 플랫폼임. AI 관측성·분석·세션 리플레이·플래그·실험·에러 추적 등 에이전트가 문제를 진단하고 수정하는 데 필요한 컨텍스트를 모두 수집함.",
+      "description_en": "Leading platform for building self-driving products — AI observability, analytics, session replay, flags, experiments, error tracking and more, steerable from Slack, web, desktop or MCP."
     },
     {
       "name": "tirth8205/code-review-graph",
       "url": "https://github.com/tirth8205/code-review-graph",
-      "description": "로컬 우선 코드 인텔리전스 그래프임. MCP·CLI용으로 코드베이스 전체 맵을 빌드해 AI 코딩 도구가 관련 컨텍스트만 읽도록 최적화함",
-      "description_en": "Local-first code intelligence graph for MCP and CLI that builds a persistent codebase map to optimize AI coding tool context"
+      "description": "MCP·CLI용 로컬 우선 코드 인텔리전스 그래프임. 코드베이스의 영구 맵을 만들어 AI 코딩 도구가 필요한 부분만 읽게 해 컨텍스트 사용량을 크게 줄임.",
+      "description_en": "Local-first code intelligence graph for MCP and CLI that builds a persistent map of your codebase so AI tools read only what matters, with benchmarked context reductions."
     },
     {
       "name": "RyanCodrai/turbovec",
       "url": "https://github.com/RyanCodrai/turbovec",
-      "description": "TurboQuant 기반 고성능 벡터 인덱스임. Rust로 작성되고 Python 바인딩을 제공해 빠른 유사도 검색을 지원함",
-      "description_en": "High-performance vector index built on TurboQuant, written in Rust with Python bindings for fast similarity search"
+      "description": "TurboQuant 기반으로 만든 벡터 인덱스임. Rust로 작성됐고 Python 바인딩을 제공함.",
+      "description_en": "A vector index built on TurboQuant, written in Rust with Python bindings."
     },
     {
       "name": "HKUDS/DeepTutor",
       "url": "https://github.com/HKUDS/DeepTutor",
-      "description": "학습자 수준에 맞는 적응형 설명을 생성하는 AI 기반 평생 개인 맞춤형 튜터링 에이전트임",
-      "description_en": "AI-powered lifelong personalized tutoring agent with adaptive explanations based on learner level"
+      "description": "평생 개인화 튜터링을 지향하는 DeepTutor임. 학습자 맞춤형 AI 튜터를 제공함.",
+      "description_en": "DeepTutor: Lifelong Personalized Tutoring — an AI tutor tailored to each learner."
     },
     {
       "name": "aws/agent-toolkit-for-aws",
       "url": "https://github.com/aws/agent-toolkit-for-aws",
-      "description": "AWS가 공식 지원하는 MCP 서버·스킬·플러그인 모음임. AI 에이전트가 AWS 서비스를 직접 활용하도록 돕는 공식 툴킷임",
-      "description_en": "Official AWS-supported toolkit of MCP servers, skills, and plugins to help AI agents build on and interact with AWS services"
+      "description": "AWS가 공식 지원하는 MCP 서버·스킬·플러그인 모음임. AI 에이전트가 AWS 위에서 앱을 구축하도록 돕는 툴킷임.",
+      "description_en": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS."
     }
   ],
   "huggingface": [
     {
-      "title": "VideoChat3: 효율적이고 범용적인 비디오 이해를 위한 완전 오픈 MLLM",
+      "title": "VideoChat3: 효율적이고 범용적인 영상 이해를 위한 완전 오픈 비디오 MLLM",
       "title_en": "VideoChat3: Fully Open Video MLLM for Efficient and Generalist Video Understanding",
       "url": "https://huggingface.co/papers/2607.14935",
-      "summary": "비디오 이해에 특화된 완전 오픈소스 멀티모달 LLM임. 효율적인 추론과 다양한 비디오 태스크를 범용적으로 처리할 수 있도록 설계됨",
-      "summary_en": "Fully open-source multimodal LLM specialized for video understanding with efficient inference and generalist video task handling"
+      "summary": "완전 공개된 비디오 멀티모달 LLM으로, 효율성과 범용성을 모두 잡은 영상 이해 모델임. 학습·데이터·가중치를 모두 개방함.",
+      "summary_en": "A fully open video multimodal LLM targeting both efficiency and generalist video understanding, releasing training, data and weights."
     },
     {
-      "title": "SEED: 에이전틱 강화학습을 위한 자기 진화 온폴리시 증류",
+      "title": "SEED: 에이전트 강화학습을 위한 자기진화 온폴리시 증류",
       "title_en": "SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning",
       "url": "https://huggingface.co/papers/2607.14777",
-      "summary": "에이전트 강화학습에서 온폴리시 증류를 자기 진화 방식으로 수행하는 프레임워크임. 학습 효율을 높이면서 에이전트 성능을 지속적으로 개선함",
-      "summary_en": "Framework for self-evolving on-policy distillation in agentic reinforcement learning to continuously improve agent performance"
+      "summary": "에이전트 RL에서 온폴리시 증류를 자기진화 방식으로 수행해 성능을 끌어올리는 기법임. 스스로 개선되는 학습 루프가 핵심임.",
+      "summary_en": "A self-evolving on-policy distillation method for agentic RL that improves performance through a self-refining training loop."
     },
     {
-      "title": "SearchOS-V1: 강건한 오픈 도메인 정보 탐색 에이전트 협업 시스템",
+      "title": "SearchOS-V1: 견고한 오픈도메인 정보탐색 에이전트 협업을 향하여",
       "title_en": "SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration",
       "url": "https://huggingface.co/papers/2607.15257",
-      "summary": "다양한 도메인에 걸친 정보 탐색을 여러 에이전트가 협력해 수행하는 강건한 시스템을 제안함. 복잡한 질의에 대한 정확도를 높임",
-      "summary_en": "Proposes a robust multi-agent collaboration system for open-domain information-seeking across diverse domains"
+      "summary": "오픈도메인 정보 탐색을 위한 다중 에이전트 협업 프레임워크임. 견고한 검색·질의 협업 구조를 제안함.",
+      "summary_en": "A multi-agent collaboration framework for robust open-domain information seeking and search."
     },
     {
-      "title": "LongStraw: 고정 GPU 예산으로 200만 토큰 이상의 장문맥 RL",
+      "title": "LongStraw: 고정 GPU 예산에서 2M 토큰을 넘는 롱컨텍스트 RL",
       "title_en": "LongStraw: Long-Context RL Beyond 2M Tokens under a Fixed GPU Budget",
       "url": "https://huggingface.co/papers/2607.14952",
-      "summary": "고정된 GPU 예산 아래에서 200만 토큰을 넘는 초장문맥 강화학습을 가능하게 하는 방법을 제안함. 메모리 효율적 학습 기법을 적용함",
-      "summary_en": "Proposes methods for long-context RL beyond 2M tokens under a fixed GPU budget using memory-efficient training techniques"
+      "summary": "제한된 GPU 예산으로 200만 토큰 이상의 롱컨텍스트 강화학습을 가능하게 하는 방법임. 메모리 효율이 핵심임.",
+      "summary_en": "A method enabling long-context RL beyond 2M tokens under a fixed GPU budget, focusing on memory efficiency."
     },
     {
-      "title": "BadWAM: 세계-행동 모델이 꿈은 올바르지만 행동은 잘못되는 현상",
+      "title": "BadWAM: 월드-액션 모델이 꿈은 제대로 꾸지만 행동은 틀릴 때",
       "title_en": "BadWAM: When World-Action Models Dream Right but Act Wrong",
       "url": "https://huggingface.co/papers/2607.15207",
-      "summary": "세계 모델이 올바른 시뮬레이션을 하면서도 실제 행동에서 잘못된 결과를 내는 역설적 현상을 분석함. 안전·신뢰성 측면의 취약점을 드러냄",
-      "summary_en": "Analyzes the paradox where world-action models simulate correctly but produce wrong real-world actions, revealing safety and reliability vulnerabilities"
+      "summary": "월드-액션 모델이 미래를 잘 예측하면서도 실제 행동은 어긋나는 현상을 분석한 논문임. 예측과 행동의 괴리를 파헤침.",
+      "summary_en": "Analyzes how world-action models can predict the future well yet still act incorrectly, dissecting the gap between prediction and action."
     }
   ],
   "geeknews": [
     {
       "title": "「Machine Learning Study 혼자 해보기」",
-      "title_en": "Machine Learning Study: Doing It Alone",
+      "title_en": "Machine Learning Study on Your Own",
       "url": "https://news.hada.io/topic?id=31479",
-      "summary": "ML을 독학으로 체계적으로 학습하는 방법과 경험을 공유함. 혼자서도 효과적으로 공부할 수 있는 로드맵과 리소스를 소개함. 커뮤니티 내 가장 높은 관심을 받는 글임",
-      "summary_en": "Shares methods and experiences for self-studying machine learning with a roadmap and resources; the most popular post on GeekNews"
+      "summary": "머신러닝·딥러닝을 독학하려는 사람들을 위해 강의·블로그·GitHub·논문·데이터셋을 체계적으로 모은 학습 자료 모음임.",
+      "summary_en": "A curated collection of lectures, blogs, GitHub repos, papers and datasets for self-studying machine learning and deep learning."
     },
     {
       "title": "소비자 앱을 구축하고 확장하는 법",
       "title_en": "How to Build and Scale Consumer Apps",
       "url": "https://news.hada.io/topic?id=31480",
-      "summary": "초기 구축부터 대규모 확장까지 실전 경험을 바탕으로 한 가이드임. 제품·기술·조직 차원의 핵심 원칙을 다룸",
-      "summary_en": "Practical guide from real experience building and scaling consumer apps covering product, tech, and organizational principles"
+      "summary": "Cal AI가 18개월 만에 헬스·피트니스 1위 앱으로 성장한 사례로, 확장의 최대 병목은 제품보다 유통(distribution)이라는 교훈을 전함.",
+      "summary_en": "Using Cal AI's rise to the #1 Health & Fitness app in 18 months, argues the biggest bottleneck in scaling consumer apps is distribution, not product."
     },
     {
       "title": "ChatGPT는 실제로 어떻게 출처를 고르는가 (네트워크 트래픽 분석)",
-      "title_en": "How ChatGPT Actually Chooses Sources (Network Traffic Analysis)",
+      "title_en": "How ChatGPT Actually Picks Its Sources (Network Traffic Analysis)",
       "url": "https://news.hada.io/topic?id=31476",
-      "summary": "ChatGPT의 네트워크 트래픽 분석으로 실제 웹 출처 선택 메커니즘을 역분석한 글임. 검색 및 인용 방식의 내부 동작을 밝힘",
-      "summary_en": "Reverse-engineers ChatGPT's source selection by analyzing network traffic to reveal the internal mechanism of web search and citation"
+      "summary": "Pro 계정 하나에서 며칠간 수집한 약 1,240개 출처 레코드를 분석해, 답변만으로는 안 보이는 출처 파이프라인과 검색 질의 분류를 드러냄.",
+      "summary_en": "Analyzes ~1,240 source records collected from a Pro account to reveal ChatGPT's hidden source pipeline and query classification."
     },
     {
       "title": "Grok Build가 오픈 소스로 공개됨",
-      "title_en": "Grok Build Is Now Open Source",
+      "title_en": "Grok Build Open-Sourced",
       "url": "https://news.hada.io/topic?id=31492",
-      "summary": "xAI의 Grok Build 관련 코드가 오픈소스로 공개됨. AI 기반 앱 빌드·배포 도구를 커뮤니티가 자유롭게 활용 가능하게 됨",
-      "summary_en": "Grok Build code released as open source, making xAI's AI app building and deployment tools freely available to the community"
+      "summary": "SpaceXAI의 터미널 기반 AI 코딩 에이전트 Grok Build의 Rust 소스와 에이전트 런타임이 공개됨. 저장소는 SpaceXAI 모노레포에 포함됨.",
+      "summary_en": "The Rust source and agent runtime of SpaceXAI's terminal-based AI coding agent Grok Build have been released in the SpaceXAI monorepo."
     },
     {
       "title": "Microsoft Comic Chat, 오픈 소스로 공개",
-      "title_en": "Microsoft Comic Chat Released as Open Source",
+      "title_en": "Microsoft Comic Chat Open-Sourced",
       "url": "https://news.hada.io/topic?id=31503",
-      "summary": "1990년대 Microsoft가 출시한 아바타 기반 채팅 프로그램 Comic Chat의 소스코드가 오픈소스로 공개됨. 레트로 소프트웨어 역사의 한 페이지가 됨",
-      "summary_en": "Source code of Microsoft Comic Chat, the 1990s avatar-based chat program, released as open source, marking a piece of retro software history"
+      "summary": "IRC 대화를 캐릭터·말풍선·표정 만화 패널로 자동 변환하던 1995년 Microsoft Comic Chat의 소스 코드가 공개됨.",
+      "summary_en": "The source code of Microsoft Comic Chat (1995), which auto-converted IRC chats into comic panels with characters and speech bubbles, has been released."
     }
   ]
 }
