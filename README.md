@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-07-17
+> 마지막 업데이트: 2026-07-18
 
-# AI 뉴스 — 2026-07-17
+# AI 뉴스 — 2026-07-18
 
 ## 🔥 GitHub Trending (Python)
 
-- [apache/ossie](https://github.com/apache/ossie): 분석·AI·BI 플랫폼 간 시맨틱 메타데이터 교환 방식을 표준화하는 업계 공동 명세. 벤더 중립적인 단일 진실 공급원 제공.
-- [PostHog/posthog](https://github.com/PostHog/posthog): 자율 주행형 제품을 만들기 위한 올인원 플랫폼. AI 관측·분석·세션 리플레이·플래그·실험·에러 추적 도구 제공.
-- [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps): 실제로 돌려볼 수 있는 100개 이상의 AI 에이전트·RAG 앱 모음. 클론해서 커스터마이즈하고 바로 배포 가능.
-- [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor): 평생 개인화 튜터링을 지향하는 AI 교육 프로젝트.
-- [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify): 코드·SQL 스키마·문서·논문·이미지를 쿼리 가능한 지식 그래프로 바꿔주는 AI 코딩 어시스턴트 스킬(Claude Code·Codex·Cursor 등 지원).
+- [PostHog/posthog](https://github.com/PostHog/posthog): AI 가시성·분석·세션 리플레이·피처 플래그·실험·에러 트래킹을 통합 제공하는 셀프드라이빙 제품 플랫폼임. Slack·MCP·Claude Code와 연동 가능함
+- [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph): 로컬 우선 코드 인텔리전스 그래프임. MCP·CLI용으로 코드베이스 전체 맵을 빌드해 AI 코딩 도구가 관련 컨텍스트만 읽도록 최적화함
+- [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec): TurboQuant 기반 고성능 벡터 인덱스임. Rust로 작성되고 Python 바인딩을 제공해 빠른 유사도 검색을 지원함
+- [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor): 학습자 수준에 맞는 적응형 설명을 생성하는 AI 기반 평생 개인 맞춤형 튜터링 에이전트임
+- [aws/agent-toolkit-for-aws](https://github.com/aws/agent-toolkit-for-aws): AWS가 공식 지원하는 MCP 서버·스킬·플러그인 모음임. AI 에이전트가 AWS 서비스를 직접 활용하도록 돕는 공식 툴킷임
 
 ## 📄 Hugging Face Papers
 
-- [Harness Handbook: 진화하는 에이전트 하네스를 읽기·탐색·편집 가능하게 만들기](https://huggingface.co/papers/2607.13285)
-  계속 진화하는 에이전트 하네스 코드를 사람이 읽고 탐색하고 수정하기 쉽게 유지하는 설계 원칙과 실무 가이드를 제시함.
-- [Boogu-Image-0.1: 오픈소스 통합 멀티모달 이해·생성 성능 강화](https://huggingface.co/papers/2607.13125)
-  이미지 이해와 생성을 하나로 통합한 오픈소스 멀티모달 모델. 개방형 모델의 이해·생성 성능을 함께 끌어올림.
-- [Ring-Zero: 창발적 추론을 위한 Zero RL의 1조 파라미터 확장](https://huggingface.co/papers/2607.12395)
-  별도 지도 데이터 없이 강화학습(Zero RL)만으로 1조 파라미터 규모까지 확장해 창발적 추론 능력을 끌어낸 연구.
-- [KnowAct-GUIClaw: 자가진화 메모리·스킬을 갖춘 개인 GUI 어시스턴트](https://huggingface.co/papers/2607.12625)
-  스스로 진화하는 메모리와 스킬을 활용해 화면을 깊이 이해하고 정확히 조작하는 개인화 GUI 에이전트를 제안함.
-- [OvisOCR2 기술 보고서](https://huggingface.co/papers/2607.13639)
-  Ovis 계열의 차세대 OCR 모델 OvisOCR2의 구조와 성능을 정리한 기술 보고서.
+- [VideoChat3: 효율적이고 범용적인 비디오 이해를 위한 완전 오픈 MLLM](https://huggingface.co/papers/2607.14935)
+  비디오 이해에 특화된 완전 오픈소스 멀티모달 LLM임. 효율적인 추론과 다양한 비디오 태스크를 범용적으로 처리할 수 있도록 설계됨
+- [SEED: 에이전틱 강화학습을 위한 자기 진화 온폴리시 증류](https://huggingface.co/papers/2607.14777)
+  에이전트 강화학습에서 온폴리시 증류를 자기 진화 방식으로 수행하는 프레임워크임. 학습 효율을 높이면서 에이전트 성능을 지속적으로 개선함
+- [SearchOS-V1: 강건한 오픈 도메인 정보 탐색 에이전트 협업 시스템](https://huggingface.co/papers/2607.15257)
+  다양한 도메인에 걸친 정보 탐색을 여러 에이전트가 협력해 수행하는 강건한 시스템을 제안함. 복잡한 질의에 대한 정확도를 높임
+- [LongStraw: 고정 GPU 예산으로 200만 토큰 이상의 장문맥 RL](https://huggingface.co/papers/2607.14952)
+  고정된 GPU 예산 아래에서 200만 토큰을 넘는 초장문맥 강화학습을 가능하게 하는 방법을 제안함. 메모리 효율적 학습 기법을 적용함
+- [BadWAM: 세계-행동 모델이 꿈은 올바르지만 행동은 잘못되는 현상](https://huggingface.co/papers/2607.15207)
+  세계 모델이 올바른 시뮬레이션을 하면서도 실제 행동에서 잘못된 결과를 내는 역설적 현상을 분석함. 안전·신뢰성 측면의 취약점을 드러냄
 
 ## 🦉 GeekNews
 
-- [「Machine Learning Study 혼자 해보기」](https://github.com/teddylee777/machine-learning)
-  머신러닝·딥러닝을 독학하려는 사람들을 위해 강의·블로그·GitHub·논문·데이터셋을 체계적으로 모은 학습 자료 모음.
-- [소비자 앱을 구축하고 확장하는 법](https://x.com/jakecastilloooo/status/2069417525947912540)
-  Cal AI가 18개월 만에 Health & Fitness 1위 앱이 된 사례를 통해, 소비자 앱 확장의 최대 병목이 제품이 아니라 유통(distribution)임을 짚음.
-- [ChatGPT는 실제로 어떻게 출처를 고르는가 (네트워크 트래픽 분석)](https://suganthan.com/blog/how-chatgpt-picks-sources/)
-  Pro 계정에서 며칠간 수집한 약 1,240개 출처 레코드를 분석해, 답변만으로는 안 보이는 출처 파이프라인·질의 분류·검색어를 역추적함.
-- [예측 불가능한 천재를 감싸는 법](https://melodykoh.substack.com/p/wrapping-the-unpredictable-genius)
-  같은 요청에도 결과가 달라지는 AI 제품에서 오류를 줄이려면 지침을 늘리기보다 모델이 못 거스르는 결정론적 코드로 통제하라는 조언.
-- [Grok Build가 오픈 소스로 공개됨](https://github.com/xai-org/grok-build)
-  터미널 기반 AI 코딩 에이전트 Grok Build의 Rust 소스와 에이전트 런타임이 공개됨. 모노레포에서 주요 구성요소를 확인 가능.
+- [「Machine Learning Study 혼자 해보기」](https://news.hada.io/topic?id=31479)
+  ML을 독학으로 체계적으로 학습하는 방법과 경험을 공유함. 혼자서도 효과적으로 공부할 수 있는 로드맵과 리소스를 소개함. 커뮤니티 내 가장 높은 관심을 받는 글임
+- [소비자 앱을 구축하고 확장하는 법](https://news.hada.io/topic?id=31480)
+  초기 구축부터 대규모 확장까지 실전 경험을 바탕으로 한 가이드임. 제품·기술·조직 차원의 핵심 원칙을 다룸
+- [ChatGPT는 실제로 어떻게 출처를 고르는가 (네트워크 트래픽 분석)](https://news.hada.io/topic?id=31476)
+  ChatGPT의 네트워크 트래픽 분석으로 실제 웹 출처 선택 메커니즘을 역분석한 글임. 검색 및 인용 방식의 내부 동작을 밝힘
+- [Grok Build가 오픈 소스로 공개됨](https://news.hada.io/topic?id=31492)
+  xAI의 Grok Build 관련 코드가 오픈소스로 공개됨. AI 기반 앱 빌드·배포 도구를 커뮤니티가 자유롭게 활용 가능하게 됨
+- [Microsoft Comic Chat, 오픈 소스로 공개](https://news.hada.io/topic?id=31503)
+  1990년대 Microsoft가 출시한 아바타 기반 채팅 프로그램 Comic Chat의 소스코드가 오픈소스로 공개됨. 레트로 소프트웨어 역사의 한 페이지가 됨
 
 ---
 ## 📅 이전 날짜
 
+- [2026-07-17](data/2026-07-17.md)
 - [2026-07-16](data/2026-07-16.md)
 - [2026-07-15](data/2026-07-15.md)
 - [2026-07-14](data/2026-07-14.md)
@@ -69,4 +70,3 @@
 - [2026-06-19](data/2026-06-19.md)
 - [2026-06-18](data/2026-06-18.md)
 - [2026-06-17](data/2026-06-17.md)
-- [2026-06-16](data/2026-06-16.md)
