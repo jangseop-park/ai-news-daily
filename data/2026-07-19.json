@@ -1,0 +1,109 @@
+{
+  "date": "2026-07-19",
+  "github_trending": [
+    {
+      "name": "Robbyant/lingbot-map",
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "description": "스트리밍 데이터로부터 3D 장면을 재구성하는 피드포워드 기반 3D 파운데이션 모델임",
+      "description_en": "Feed-forward 3D foundation model for reconstructing scenes from streaming data"
+    },
+    {
+      "name": "apache/ossie",
+      "url": "https://github.com/apache/ossie",
+      "description": "애널리틱스·AI·BI 플랫폼 간 시맨틱 메타데이터를 표준화하는 Apache 인큐베이터 사양 프로젝트임",
+      "description_en": "Apache incubator project for standardizing semantic metadata exchange across analytics, AI and BI platforms"
+    },
+    {
+      "name": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "description": "AI 가시성·분석·세션 리플레이·피처 플래그·실험을 통합 제공하는 셀프드라이빙 제품 개발 플랫폼임",
+      "description_en": "Platform for building self-driving products with AI observability, analytics, session replay, feature flags, and experiments"
+    },
+    {
+      "name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "AI 엔지니어링을 처음부터 배우고 직접 구현해 배포하는 실전 학습 레포임. 학습·빌드·배포를 한 번에 다룸",
+      "description_en": "Hands-on learning repo for AI engineering from scratch — learn, build, and ship for real-world use"
+    },
+    {
+      "name": "MoonshotAI/kimi-cli",
+      "url": "https://github.com/MoonshotAI/kimi-cli",
+      "description": "Moonshot AI가 만든 다음 세대 CLI 에이전트임. Kimi Code를 터미널에서 직접 활용 가능함",
+      "description_en": "Next-generation CLI agent by Moonshot AI for using Kimi Code directly in the terminal"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "LongStraw: 고정 GPU 예산으로 200만 토큰 초과 장문맥 RL",
+      "title_en": "LongStraw: Long-Context RL Beyond 2M Tokens under a Fixed GPU Budget",
+      "url": "https://huggingface.co/papers/2607.14952",
+      "summary": "고정 GPU 예산에서 200만 토큰 초과 초장문맥 강화학습을 가능하게 하는 방법을 제안함. 메모리 효율 학습 기법으로 비용 대비 성능을 크게 개선함",
+      "summary_en": "Proposes methods for long-context RL beyond 2M tokens under fixed GPU budget using memory-efficient training"
+    },
+    {
+      "title": "VideoChat3: 효율적이고 범용적인 비디오 이해를 위한 완전 오픈 MLLM",
+      "title_en": "VideoChat3: Fully Open Video MLLM for Efficient and Generalist Video Understanding",
+      "url": "https://huggingface.co/papers/2607.14935",
+      "summary": "비디오 이해 특화 완전 오픈소스 멀티모달 LLM임. 효율적인 추론과 다양한 비디오 태스크를 범용으로 처리함",
+      "summary_en": "Fully open-source multimodal LLM for efficient and generalist video understanding across diverse tasks"
+    },
+    {
+      "title": "SEED: 에이전틱 강화학습을 위한 자기 진화 온폴리시 증류",
+      "title_en": "SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2607.14777",
+      "summary": "에이전트 강화학습에서 자기 진화 방식의 온폴리시 증류 프레임워크임. 학습 효율을 높이면서 에이전트 성능을 지속 개선함",
+      "summary_en": "Self-evolving on-policy distillation framework for agentic RL that continuously improves agent performance"
+    },
+    {
+      "title": "SearchOS-V1: 강건한 오픈 도메인 정보 탐색 에이전트 협업",
+      "title_en": "SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration",
+      "url": "https://huggingface.co/papers/2607.15257",
+      "summary": "다양한 도메인에 걸친 정보 탐색을 여러 에이전트가 협력해 수행하는 강건한 시스템임. 복잡한 질의에 대한 정확도를 높임",
+      "summary_en": "Robust multi-agent collaboration system for open-domain information-seeking across diverse domains"
+    },
+    {
+      "title": "BadWAM: 세계-행동 모델이 올바르게 꿈꾸지만 행동은 잘못되는 현상",
+      "title_en": "BadWAM: When World-Action Models Dream Right but Act Wrong",
+      "url": "https://huggingface.co/papers/2607.15207",
+      "summary": "세계 모델이 정확한 시뮬레이션을 하면서도 실제 행동에서 오류를 내는 역설적 현상을 분석함. 모델 안전성의 새로운 취약점을 드러냄",
+      "summary_en": "Analyzes the paradox where world-action models simulate correctly but produce wrong actions, exposing new safety vulnerabilities"
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "LeafWiki — 서버·DB 없이 단일 바이너리로 실행하는 셀프 호스팅 위키",
+      "title_en": "LeafWiki — Self-Hosting Wiki Running as a Single Binary Without Server or DB",
+      "url": "https://news.hada.io/topic?id=31510",
+      "summary": "서버나 데이터베이스 없이 단일 바이너리 하나로 실행되는 셀프 호스팅 위키 툴임. 설치와 관리가 극도로 단순해 개인·소규모 팀에 적합함",
+      "summary_en": "Self-hosting wiki tool that runs as a single binary without any server or database, ideal for personal or small team use"
+    },
+    {
+      "title": "커널 개발에서 LLM 사용에 관한 Linus Torvalds의 견해",
+      "title_en": "Linus Torvalds on Using LLMs in Kernel Development",
+      "url": "https://news.hada.io/topic?id=31509",
+      "summary": "Linux 커널 창시자 Linus Torvalds가 LLM 코드 생성 도구를 커널 개발에 사용하는 것에 대한 견해를 밝힘. 코드 품질과 유지보수 관점에서 신중한 시각을 제시함",
+      "summary_en": "Linus Torvalds shares his views on using LLM code generation tools in Linux kernel development, emphasizing code quality and maintenance concerns"
+    },
+    {
+      "title": "StackRender — 데이터베이스 스키마 설계 및 생성 도구",
+      "title_en": "StackRender — Database Schema Design and Generation Tool",
+      "url": "https://news.hada.io/topic?id=31534",
+      "summary": "데이터베이스 스키마를 시각적으로 설계하고 실제 SQL 코드를 자동 생성하는 도구임. 개발 초기 DB 설계 작업을 크게 단순화함",
+      "summary_en": "Tool for visually designing database schemas and automatically generating SQL code, simplifying early-stage DB design"
+    },
+    {
+      "title": "우리는 떼돈을 벌게 될 것이다",
+      "title_en": "We Are Going to Make a Fortune",
+      "url": "https://news.hada.io/topic?id=31518",
+      "summary": "AI 시대의 경제적 기회와 부의 집중에 대한 비판적 에세이임. AI가 창출하는 가치가 소수에게만 집중될 위험성을 논함",
+      "summary_en": "Critical essay on economic opportunities and wealth concentration in the AI era, discussing the risk of value concentration among a few"
+    },
+    {
+      "title": "Pandas 창시자가 말하는 AI·Apache Arrow·소프트웨어 엔지니어링의 미래",
+      "title_en": "Pandas Creator on the Future of AI, Apache Arrow, and Software Engineering",
+      "url": "https://news.hada.io/topic?id=31516",
+      "summary": "Pandas 창시자 Wes McKinney가 AI 도구의 발전, Apache Arrow 생태계, 소프트웨어 엔지니어링의 미래 방향에 대해 인터뷰에서 이야기함",
+      "summary_en": "Wes McKinney, creator of Pandas, discusses AI tools, the Apache Arrow ecosystem, and the future of software engineering in a YouTube interview"
+    }
+  ]
+}
