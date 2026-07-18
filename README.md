@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-07-18
+> 마지막 업데이트: 2026-07-19
 
-# AI 뉴스 — 2026-07-18
+# AI 뉴스 — 2026-07-19
 
 ## 🔥 GitHub Trending (Python)
 
-- [PostHog/posthog](https://github.com/PostHog/posthog): 셀프 드라이빙 제품 구축을 위한 올인원 플랫폼임. AI 관측성·분석·세션 리플레이·플래그·실험·에러 추적 등 에이전트가 문제를 진단하고 수정하는 데 필요한 컨텍스트를 모두 수집함.
-- [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph): MCP·CLI용 로컬 우선 코드 인텔리전스 그래프임. 코드베이스의 영구 맵을 만들어 AI 코딩 도구가 필요한 부분만 읽게 해 컨텍스트 사용량을 크게 줄임.
-- [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec): TurboQuant 기반으로 만든 벡터 인덱스임. Rust로 작성됐고 Python 바인딩을 제공함.
-- [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor): 평생 개인화 튜터링을 지향하는 DeepTutor임. 학습자 맞춤형 AI 튜터를 제공함.
-- [aws/agent-toolkit-for-aws](https://github.com/aws/agent-toolkit-for-aws): AWS가 공식 지원하는 MCP 서버·스킬·플러그인 모음임. AI 에이전트가 AWS 위에서 앱을 구축하도록 돕는 툴킷임.
+- [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map): 스트리밍 데이터로부터 3D 장면을 재구성하는 피드포워드 기반 3D 파운데이션 모델임
+- [apache/ossie](https://github.com/apache/ossie): 애널리틱스·AI·BI 플랫폼 간 시맨틱 메타데이터를 표준화하는 Apache 인큐베이터 사양 프로젝트임
+- [PostHog/posthog](https://github.com/PostHog/posthog): AI 가시성·분석·세션 리플레이·피처 플래그·실험을 통합 제공하는 셀프드라이빙 제품 개발 플랫폼임
+- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링을 처음부터 배우고 직접 구현해 배포하는 실전 학습 레포임. 학습·빌드·배포를 한 번에 다룸
+- [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli): Moonshot AI가 만든 다음 세대 CLI 에이전트임. Kimi Code를 터미널에서 직접 활용 가능함
 
 ## 📄 Hugging Face Papers
 
-- [VideoChat3: 효율적이고 범용적인 영상 이해를 위한 완전 오픈 비디오 MLLM](https://huggingface.co/papers/2607.14935)
-  완전 공개된 비디오 멀티모달 LLM으로, 효율성과 범용성을 모두 잡은 영상 이해 모델임. 학습·데이터·가중치를 모두 개방함.
-- [SEED: 에이전트 강화학습을 위한 자기진화 온폴리시 증류](https://huggingface.co/papers/2607.14777)
-  에이전트 RL에서 온폴리시 증류를 자기진화 방식으로 수행해 성능을 끌어올리는 기법임. 스스로 개선되는 학습 루프가 핵심임.
-- [SearchOS-V1: 견고한 오픈도메인 정보탐색 에이전트 협업을 향하여](https://huggingface.co/papers/2607.15257)
-  오픈도메인 정보 탐색을 위한 다중 에이전트 협업 프레임워크임. 견고한 검색·질의 협업 구조를 제안함.
-- [LongStraw: 고정 GPU 예산에서 2M 토큰을 넘는 롱컨텍스트 RL](https://huggingface.co/papers/2607.14952)
-  제한된 GPU 예산으로 200만 토큰 이상의 롱컨텍스트 강화학습을 가능하게 하는 방법임. 메모리 효율이 핵심임.
-- [BadWAM: 월드-액션 모델이 꿈은 제대로 꾸지만 행동은 틀릴 때](https://huggingface.co/papers/2607.15207)
-  월드-액션 모델이 미래를 잘 예측하면서도 실제 행동은 어긋나는 현상을 분석한 논문임. 예측과 행동의 괴리를 파헤침.
+- [LongStraw: 고정 GPU 예산으로 200만 토큰 초과 장문맥 RL](https://huggingface.co/papers/2607.14952)
+  고정 GPU 예산에서 200만 토큰 초과 초장문맥 강화학습을 가능하게 하는 방법을 제안함. 메모리 효율 학습 기법으로 비용 대비 성능을 크게 개선함
+- [VideoChat3: 효율적이고 범용적인 비디오 이해를 위한 완전 오픈 MLLM](https://huggingface.co/papers/2607.14935)
+  비디오 이해 특화 완전 오픈소스 멀티모달 LLM임. 효율적인 추론과 다양한 비디오 태스크를 범용으로 처리함
+- [SEED: 에이전틱 강화학습을 위한 자기 진화 온폴리시 증류](https://huggingface.co/papers/2607.14777)
+  에이전트 강화학습에서 자기 진화 방식의 온폴리시 증류 프레임워크임. 학습 효율을 높이면서 에이전트 성능을 지속 개선함
+- [SearchOS-V1: 강건한 오픈 도메인 정보 탐색 에이전트 협업](https://huggingface.co/papers/2607.15257)
+  다양한 도메인에 걸친 정보 탐색을 여러 에이전트가 협력해 수행하는 강건한 시스템임. 복잡한 질의에 대한 정확도를 높임
+- [BadWAM: 세계-행동 모델이 올바르게 꿈꾸지만 행동은 잘못되는 현상](https://huggingface.co/papers/2607.15207)
+  세계 모델이 정확한 시뮬레이션을 하면서도 실제 행동에서 오류를 내는 역설적 현상을 분석함. 모델 안전성의 새로운 취약점을 드러냄
 
 ## 🦉 GeekNews
 
-- [「Machine Learning Study 혼자 해보기」](https://news.hada.io/topic?id=31479)
-  머신러닝·딥러닝을 독학하려는 사람들을 위해 강의·블로그·GitHub·논문·데이터셋을 체계적으로 모은 학습 자료 모음임.
-- [소비자 앱을 구축하고 확장하는 법](https://news.hada.io/topic?id=31480)
-  Cal AI가 18개월 만에 헬스·피트니스 1위 앱으로 성장한 사례로, 확장의 최대 병목은 제품보다 유통(distribution)이라는 교훈을 전함.
-- [ChatGPT는 실제로 어떻게 출처를 고르는가 (네트워크 트래픽 분석)](https://news.hada.io/topic?id=31476)
-  Pro 계정 하나에서 며칠간 수집한 약 1,240개 출처 레코드를 분석해, 답변만으로는 안 보이는 출처 파이프라인과 검색 질의 분류를 드러냄.
-- [Grok Build가 오픈 소스로 공개됨](https://news.hada.io/topic?id=31492)
-  SpaceXAI의 터미널 기반 AI 코딩 에이전트 Grok Build의 Rust 소스와 에이전트 런타임이 공개됨. 저장소는 SpaceXAI 모노레포에 포함됨.
-- [Microsoft Comic Chat, 오픈 소스로 공개](https://news.hada.io/topic?id=31503)
-  IRC 대화를 캐릭터·말풍선·표정 만화 패널로 자동 변환하던 1995년 Microsoft Comic Chat의 소스 코드가 공개됨.
+- [LeafWiki — 서버·DB 없이 단일 바이너리로 실행하는 셀프 호스팅 위키](https://news.hada.io/topic?id=31510)
+  서버나 데이터베이스 없이 단일 바이너리 하나로 실행되는 셀프 호스팅 위키 툴임. 설치와 관리가 극도로 단순해 개인·소규모 팀에 적합함
+- [커널 개발에서 LLM 사용에 관한 Linus Torvalds의 견해](https://news.hada.io/topic?id=31509)
+  Linux 커널 창시자 Linus Torvalds가 LLM 코드 생성 도구를 커널 개발에 사용하는 것에 대한 견해를 밝힘. 코드 품질과 유지보수 관점에서 신중한 시각을 제시함
+- [StackRender — 데이터베이스 스키마 설계 및 생성 도구](https://news.hada.io/topic?id=31534)
+  데이터베이스 스키마를 시각적으로 설계하고 실제 SQL 코드를 자동 생성하는 도구임. 개발 초기 DB 설계 작업을 크게 단순화함
+- [우리는 떼돈을 벌게 될 것이다](https://news.hada.io/topic?id=31518)
+  AI 시대의 경제적 기회와 부의 집중에 대한 비판적 에세이임. AI가 창출하는 가치가 소수에게만 집중될 위험성을 논함
+- [Pandas 창시자가 말하는 AI·Apache Arrow·소프트웨어 엔지니어링의 미래](https://news.hada.io/topic?id=31516)
+  Pandas 창시자 Wes McKinney가 AI 도구의 발전, Apache Arrow 생태계, 소프트웨어 엔지니어링의 미래 방향에 대해 인터뷰에서 이야기함
 
 ---
 ## 📅 이전 날짜
 
+- [2026-07-18](data/2026-07-18.md)
 - [2026-07-17](data/2026-07-17.md)
 - [2026-07-16](data/2026-07-16.md)
 - [2026-07-15](data/2026-07-15.md)
@@ -69,4 +70,3 @@
 - [2026-06-20](data/2026-06-20.md)
 - [2026-06-19](data/2026-06-19.md)
 - [2026-06-18](data/2026-06-18.md)
-- [2026-06-17](data/2026-06-17.md)
