@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-07-19
+> 마지막 업데이트: 2026-07-20
 
-# AI 뉴스 — 2026-07-19
+# AI 뉴스 — 2026-07-20
 
 ## 🔥 GitHub Trending (Python)
 
-- [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map): 스트리밍 데이터로부터 3D 장면을 재구성하는 피드포워드 3D 파운데이션 모델임.
-- [apache/ossie](https://github.com/apache/ossie): 분석·AI·BI 플랫폼 간 시맨틱 메타데이터 교환을 표준화하는 업계 공통 사양 프로젝트임.
-- [PostHog/posthog](https://github.com/PostHog/posthog): 제품 분석·세션 리플레이·A/B 테스트·AI 관측을 한데 모은 올인원 개발자 플랫폼임.
-- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링을 밑바닥부터 배우고 만들어 배포하는 실습형 학습 저장소임.
-- [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph): MCP·CLI용 로컬 우선 코드 인텔리전스 그래프로, AI 코딩 도구가 핵심 코드만 읽도록 코드베이스 지도를 유지함.
+- [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book): 《AI Agent 깊이 이해하기: 설계 원리와 엔지니어링 실천》 오픈소스 책 주 저장소임. 전체 본문·PDF·챕터별 코드 포함
+- [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph): MCP·CLI용 로컬 코드 인텔리전스 그래프임. 코드베이스 전체 맵을 빌드해 AI 도구가 필요한 컨텍스트만 읽도록 최적화함
+- [kvcache-ai/ktransformers](https://github.com/kvcache-ai/ktransformers): 이종(Heterogeneous) 환경에서 LLM 추론·파인튜닝 최적화를 유연하게 적용할 수 있는 프레임워크임
+- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링을 처음부터 배우고 직접 구현해 배포하는 실전 학습 레포임
+- [PostHog/posthog](https://github.com/PostHog/posthog): AI 가시성·분석·세션 리플레이·피처 플래그·실험을 통합 제공하는 셀프드라이빙 제품 개발 플랫폼임
 
 ## 📄 Hugging Face Papers
 
-- [시각 추론에서의 지역성과 길이 일반화](https://huggingface.co/papers/2607.09061)
-  인간처럼 국소적 응시로 정보를 처리하는 방식이 시각 추론의 지역성과 길이 일반화에 미치는 영향을 분석함.
-- [에이전트용 하네스 진화 평가 재고](https://huggingface.co/papers/2607.12227)
-  LLM 에이전트의 자동 하네스 진화 평가 방식의 근본적 문제를 재검토하고 새 평가 프로토콜을 제안함.
-- [Chat2Scenic: 자율주행 시나리오 생성을 위한 반복적 RAG 프레임워크](https://huggingface.co/papers/2607.14387)
-  규제 설명으로부터 자율주행 테스트 시나리오 스크립트를 자동 생성하는 반복적 RAG 기반 프레임워크임.
-- [다단계 시각 추론을 위한 계층적 디노이징](https://huggingface.co/papers/2607.15278)
-  비디오 모델의 다단계 시각 추론을 위한 계층적 디노이징으로 효율과 전역 수정 능력을 동시에 확보함.
-- [RxBrain: 언어·시각 추론과 상상을 결합한 체화 인지 파운데이션 모델](https://huggingface.co/papers/2607.14187)
-  고수준 작업 추론과 달성해야 할 물리 상태를 연결하는, 언어·시각 추론과 상상을 결합한 체화 인지 모델임.
+- [LongStraw: 고정 GPU 예산으로 200만 토큰 초과 장문맥 RL](https://huggingface.co/papers/2607.14952)
+  고정 GPU 예산에서 200만 토큰 초과 장문맥 강화학습을 가능하게 하는 방법임. 메모리 효율 기법으로 비용 대비 성능을 대폭 개선함
+- [VideoChat3: 완전 오픈 비디오 멀티모달 LLM](https://huggingface.co/papers/2607.14935)
+  비디오 이해 특화 완전 오픈소스 MLLM임. 효율적인 추론과 다양한 비디오 태스크를 범용으로 처리하도록 설계됨
+- [SEED: 에이전틱 강화학습을 위한 자기 진화 온폴리시 증류](https://huggingface.co/papers/2607.14777)
+  에이전트 RL에서 자기 진화 방식의 온폴리시 증류 프레임워크임. 에이전트 성능을 지속적으로 개선함
+- [SearchOS-V1: 오픈 도메인 정보 탐색 에이전트 협업](https://huggingface.co/papers/2607.15257)
+  다양한 도메인 정보 탐색을 여러 에이전트가 협력해 처리하는 강건한 시스템임. 복잡한 질의의 정확도를 높임
+- [BadWAM: 세계 모델이 올바르게 시뮬레이션하지만 행동은 잘못되는 현상](https://huggingface.co/papers/2607.15207)
+  세계 모델이 정확한 시뮬레이션에도 실제 행동 오류를 내는 현상을 분석함. AI 안전성의 새로운 취약점을 드러냄
 
 ## 🦉 GeekNews
 
-- [이해가 새로운 병목이다](https://news.hada.io/topic?id=31429)
-  AI가 코드 생성을 가속하면서 이제는 작성보다 코드를 이해하는 것이 진짜 병목이 되었다는 주장임.
-- [커널 개발에서 LLM 사용에 관한 Linus Torvalds의 견해](https://news.hada.io/topic?id=31509)
-  리누스 토르발스가 리눅스 커널 개발에서 LLM 활용에 대해 밝힌 신중하면서도 현실적인 견해를 다룸.
-- [Claude Fable 5, 7월 20일부터 Max/Team Premium 요금제에 기본 포함](https://news.hada.io/topic?id=31545)
-  앤트로픽의 Claude Fable 5 모델이 7월 20일부터 Max·Team Premium 요금제에 기본 포함된다는 소식임.
-- [ChatGPT는 실제로 어떻게 출처를 고르는가 (네트워크 트래픽 분석)](https://news.hada.io/topic?id=31476)
-  네트워크 트래픽을 분석해 ChatGPT가 검색 시 실제로 어떤 경로와 기준으로 출처를 선택하는지 파헤친 글임.
-- [소비자 앱을 구축하고 확장하는 법](https://news.hada.io/topic?id=31480)
-  소비자용 앱을 성공적으로 구축하고 성장시키는 전략과 실전 노하우를 정리한 글임.
+- [StackRender — 데이터베이스 스키마 설계 및 생성 도구](https://news.hada.io/topic?id=31534)
+  DB 스키마를 시각적으로 설계하고 SQL을 자동 생성하는 도구임. 개발 초기 데이터베이스 설계 작업을 크게 단순화함
+- [Mindwalk — 코딩 에이전트 세션을 코드베이스의 3D 지도 위에서 재생하는 시각화 도구](https://news.hada.io/topic?id=31569)
+  AI 코딩 에이전트가 어떻게 코드베이스를 탐색했는지를 3D 지도 위에서 시각적으로 재생하는 도구임. 에이전트의 작업 흐름을 한눈에 파악 가능함
+- [루프 안의 인간은 지쳤다](https://news.hada.io/topic?id=31546)
+  AI 워크플로우에서 사람이 반복적으로 검토·승인해야 하는 'Human-in-the-Loop' 구조의 피로감 문제를 다룬 글임. 자동화 수준을 높이거나 의사결정을 위임하는 방향을 논함
+- [문제를 해결하지 않고 대응하는 세 가지 방식](https://news.hada.io/topic?id=31559)
+  실제 문제 해결 없이 형식적으로 대응하는 세 가지 패턴을 분석하는 글임. 조직 내 의사결정과 커뮤니케이션의 비효율을 비판함
+- [LeafWiki — 서버·DB 없이 단일 바이너리로 실행하는 셀프 호스팅 위키](https://news.hada.io/topic?id=31510)
+  서버나 DB 없이 단일 바이너리 하나로 실행되는 셀프 호스팅 위키임. 설치·관리가 극도로 단순해 개인·소규모 팀에 적합함
 
 ---
 ## 📅 이전 날짜
 
+- [2026-07-19](data/2026-07-19.md)
 - [2026-07-18](data/2026-07-18.md)
 - [2026-07-17](data/2026-07-17.md)
 - [2026-07-16](data/2026-07-16.md)
@@ -69,4 +70,3 @@
 - [2026-06-21](data/2026-06-21.md)
 - [2026-06-20](data/2026-06-20.md)
 - [2026-06-19](data/2026-06-19.md)
-- [2026-06-18](data/2026-06-18.md)
