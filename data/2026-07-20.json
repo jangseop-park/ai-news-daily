@@ -1,0 +1,109 @@
+{
+  "date": "2026-07-20",
+  "github_trending": [
+    {
+      "name": "bojieli/ai-agent-book",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "description": "《AI Agent 깊이 이해하기: 설계 원리와 엔지니어링 실천》 오픈소스 책 주 저장소임. 전체 본문·PDF·챕터별 코드 포함",
+      "description_en": "Open-source repo for the book 'Deep Understanding of AI Agent: Design Principles and Engineering Practice' with full text, PDF, and chapter code"
+    },
+    {
+      "name": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "description": "MCP·CLI용 로컬 코드 인텔리전스 그래프임. 코드베이스 전체 맵을 빌드해 AI 도구가 필요한 컨텍스트만 읽도록 최적화함",
+      "description_en": "Local-first code intelligence graph for MCP and CLI that builds a persistent codebase map to optimize AI coding tool context"
+    },
+    {
+      "name": "kvcache-ai/ktransformers",
+      "url": "https://github.com/kvcache-ai/ktransformers",
+      "description": "이종(Heterogeneous) 환경에서 LLM 추론·파인튜닝 최적화를 유연하게 적용할 수 있는 프레임워크임",
+      "description_en": "Flexible framework for applying heterogeneous LLM inference and fine-tuning optimizations"
+    },
+    {
+      "name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "AI 엔지니어링을 처음부터 배우고 직접 구현해 배포하는 실전 학습 레포임",
+      "description_en": "Hands-on learning repo for AI engineering from scratch — learn, build, and ship for real-world use"
+    },
+    {
+      "name": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "description": "AI 가시성·분석·세션 리플레이·피처 플래그·실험을 통합 제공하는 셀프드라이빙 제품 개발 플랫폼임",
+      "description_en": "Platform for building self-driving products with AI observability, analytics, session replay, feature flags, and experiments"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "LongStraw: 고정 GPU 예산으로 200만 토큰 초과 장문맥 RL",
+      "title_en": "LongStraw: Long-Context RL Beyond 2M Tokens under a Fixed GPU Budget",
+      "url": "https://huggingface.co/papers/2607.14952",
+      "summary": "고정 GPU 예산에서 200만 토큰 초과 장문맥 강화학습을 가능하게 하는 방법임. 메모리 효율 기법으로 비용 대비 성능을 대폭 개선함",
+      "summary_en": "Enables long-context RL beyond 2M tokens under fixed GPU budget with memory-efficient training techniques"
+    },
+    {
+      "title": "VideoChat3: 완전 오픈 비디오 멀티모달 LLM",
+      "title_en": "VideoChat3: Fully Open Video MLLM for Efficient and Generalist Video Understanding",
+      "url": "https://huggingface.co/papers/2607.14935",
+      "summary": "비디오 이해 특화 완전 오픈소스 MLLM임. 효율적인 추론과 다양한 비디오 태스크를 범용으로 처리하도록 설계됨",
+      "summary_en": "Fully open-source MLLM for efficient and generalist video understanding across diverse tasks"
+    },
+    {
+      "title": "SEED: 에이전틱 강화학습을 위한 자기 진화 온폴리시 증류",
+      "title_en": "SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2607.14777",
+      "summary": "에이전트 RL에서 자기 진화 방식의 온폴리시 증류 프레임워크임. 에이전트 성능을 지속적으로 개선함",
+      "summary_en": "Self-evolving on-policy distillation framework for agentic RL that continuously improves agent performance"
+    },
+    {
+      "title": "SearchOS-V1: 오픈 도메인 정보 탐색 에이전트 협업",
+      "title_en": "SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration",
+      "url": "https://huggingface.co/papers/2607.15257",
+      "summary": "다양한 도메인 정보 탐색을 여러 에이전트가 협력해 처리하는 강건한 시스템임. 복잡한 질의의 정확도를 높임",
+      "summary_en": "Robust multi-agent collaboration system for open-domain information-seeking across diverse domains"
+    },
+    {
+      "title": "BadWAM: 세계 모델이 올바르게 시뮬레이션하지만 행동은 잘못되는 현상",
+      "title_en": "BadWAM: When World-Action Models Dream Right but Act Wrong",
+      "url": "https://huggingface.co/papers/2607.15207",
+      "summary": "세계 모델이 정확한 시뮬레이션에도 실제 행동 오류를 내는 현상을 분석함. AI 안전성의 새로운 취약점을 드러냄",
+      "summary_en": "Analyzes how world-action models can simulate correctly yet produce wrong real-world actions, exposing new AI safety vulnerabilities"
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "StackRender — 데이터베이스 스키마 설계 및 생성 도구",
+      "title_en": "StackRender — Database Schema Design and Generation Tool",
+      "url": "https://news.hada.io/topic?id=31534",
+      "summary": "DB 스키마를 시각적으로 설계하고 SQL을 자동 생성하는 도구임. 개발 초기 데이터베이스 설계 작업을 크게 단순화함",
+      "summary_en": "Tool for visually designing database schemas and automatically generating SQL, greatly simplifying early-stage DB design"
+    },
+    {
+      "title": "Mindwalk — 코딩 에이전트 세션을 코드베이스의 3D 지도 위에서 재생하는 시각화 도구",
+      "title_en": "Mindwalk — Visualization Tool That Replays Coding Agent Sessions on a 3D Codebase Map",
+      "url": "https://news.hada.io/topic?id=31569",
+      "summary": "AI 코딩 에이전트가 어떻게 코드베이스를 탐색했는지를 3D 지도 위에서 시각적으로 재생하는 도구임. 에이전트의 작업 흐름을 한눈에 파악 가능함",
+      "summary_en": "Visualization tool that replays AI coding agent sessions on a 3D codebase map, making agent workflows easy to understand at a glance"
+    },
+    {
+      "title": "루프 안의 인간은 지쳤다",
+      "title_en": "The Human in the Loop Is Exhausted",
+      "url": "https://news.hada.io/topic?id=31546",
+      "summary": "AI 워크플로우에서 사람이 반복적으로 검토·승인해야 하는 'Human-in-the-Loop' 구조의 피로감 문제를 다룬 글임. 자동화 수준을 높이거나 의사결정을 위임하는 방향을 논함",
+      "summary_en": "Discusses the fatigue problem of the human-in-the-loop structure in AI workflows, arguing for higher automation or delegated decision-making"
+    },
+    {
+      "title": "문제를 해결하지 않고 대응하는 세 가지 방식",
+      "title_en": "Three Ways to Respond Without Solving the Problem",
+      "url": "https://news.hada.io/topic?id=31559",
+      "summary": "실제 문제 해결 없이 형식적으로 대응하는 세 가지 패턴을 분석하는 글임. 조직 내 의사결정과 커뮤니케이션의 비효율을 비판함",
+      "summary_en": "Analyzes three patterns of responding to problems without actually solving them, critiquing organizational decision-making inefficiencies"
+    },
+    {
+      "title": "LeafWiki — 서버·DB 없이 단일 바이너리로 실행하는 셀프 호스팅 위키",
+      "title_en": "LeafWiki — Self-Hosting Wiki Running as a Single Binary Without Server or DB",
+      "url": "https://news.hada.io/topic?id=31510",
+      "summary": "서버나 DB 없이 단일 바이너리 하나로 실행되는 셀프 호스팅 위키임. 설치·관리가 극도로 단순해 개인·소규모 팀에 적합함",
+      "summary_en": "Self-hosting wiki running as a single binary with no server or database needed, ideal for personal or small team use"
+    }
+  ]
+}
