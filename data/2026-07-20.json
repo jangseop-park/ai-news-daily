@@ -4,106 +4,106 @@
     {
       "name": "bojieli/ai-agent-book",
       "url": "https://github.com/bojieli/ai-agent-book",
-      "description": "《AI Agent 깊이 이해하기: 설계 원리와 엔지니어링 실천》 오픈소스 책 주 저장소임. 전체 본문·PDF·챕터별 코드 포함",
-      "description_en": "Open-source repo for the book 'Deep Understanding of AI Agent: Design Principles and Engineering Practice' with full text, PDF, and chapter code"
+      "description": "AI 에이전트 설계 원칙과 엔지니어링 실무를 다룬 오픈소스 책. 전체 텍스트·PDF·챕터별 예제 코드 포함함.",
+      "description_en": "Open-source book on AI agent design principles and engineering practices, with full text, PDFs, and per-chapter example code."
     },
     {
       "name": "tirth8205/code-review-graph",
       "url": "https://github.com/tirth8205/code-review-graph",
-      "description": "MCP·CLI용 로컬 코드 인텔리전스 그래프임. 코드베이스 전체 맵을 빌드해 AI 도구가 필요한 컨텍스트만 읽도록 최적화함",
-      "description_en": "Local-first code intelligence graph for MCP and CLI that builds a persistent codebase map to optimize AI coding tool context"
+      "description": "MCP/CLI용 로컬 우선 코드 인텔리전스 그래프. 코드베이스 지도를 만들어 AI 도구가 관련 코드에만 집중하도록 컨텍스트를 줄여줌.",
+      "description_en": "Local-first code intelligence graph for MCP and CLI that maps a codebase to help AI tools focus on relevant code with reduced context."
     },
     {
       "name": "kvcache-ai/ktransformers",
       "url": "https://github.com/kvcache-ai/ktransformers",
-      "description": "이종(Heterogeneous) 환경에서 LLM 추론·파인튜닝 최적화를 유연하게 적용할 수 있는 프레임워크임",
-      "description_en": "Flexible framework for applying heterogeneous LLM inference and fine-tuning optimizations"
+      "description": "이기종 컴퓨팅으로 LLM 추론·파인튜닝을 최적화하는 프레임워크임.",
+      "description_en": "Framework that optimizes LLM inference and fine-tuning via heterogeneous computing."
     },
     {
       "name": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "AI 엔지니어링을 처음부터 배우고 직접 구현해 배포하는 실전 학습 레포임",
-      "description_en": "Hands-on learning repo for AI engineering from scratch — learn, build, and ship for real-world use"
+      "description": "실습 중심으로 AI 엔지니어링 기초를 가르치는 교육 자료. 빌드와 배포까지 다룸.",
+      "description_en": "Educational resource teaching AI engineering fundamentals hands-on, covering building and deployment."
     },
     {
       "name": "PostHog/posthog",
       "url": "https://github.com/PostHog/posthog",
-      "description": "AI 가시성·분석·세션 리플레이·피처 플래그·실험을 통합 제공하는 셀프드라이빙 제품 개발 플랫폼임",
-      "description_en": "Platform for building self-driving products with AI observability, analytics, session replay, feature flags, and experiments"
+      "description": "AI 관찰성, 세션 리플레이, 기능 플래그, 실험, 에러 추적을 제공하는 분석·관찰성 플랫폼임.",
+      "description_en": "Analytics and observability platform offering AI observability, session replay, feature flags, experiments, and error tracking."
     }
   ],
   "huggingface": [
     {
-      "title": "LongStraw: 고정 GPU 예산으로 200만 토큰 초과 장문맥 RL",
+      "title": "LongStraw: 고정 GPU 예산으로 200만 토큰 넘는 장문맥 RL",
       "title_en": "LongStraw: Long-Context RL Beyond 2M Tokens under a Fixed GPU Budget",
       "url": "https://huggingface.co/papers/2607.14952",
-      "summary": "고정 GPU 예산에서 200만 토큰 초과 장문맥 강화학습을 가능하게 하는 방법임. 메모리 효율 기법으로 비용 대비 성능을 대폭 개선함",
-      "summary_en": "Enables long-context RL beyond 2M tokens under fixed GPU budget with memory-efficient training techniques"
+      "summary": "고정된 GPU 예산 안에서 200만 토큰 이상 초장문맥 강화학습을 가능하게 하는 기법임.",
+      "summary_en": "A technique enabling long-context RL beyond 2M tokens within a fixed GPU budget."
     },
     {
-      "title": "VideoChat3: 완전 오픈 비디오 멀티모달 LLM",
+      "title": "VideoChat3: 효율적·범용 영상 이해를 위한 완전 오픈 영상 MLLM",
       "title_en": "VideoChat3: Fully Open Video MLLM for Efficient and Generalist Video Understanding",
       "url": "https://huggingface.co/papers/2607.14935",
-      "summary": "비디오 이해 특화 완전 오픈소스 MLLM임. 효율적인 추론과 다양한 비디오 태스크를 범용으로 처리하도록 설계됨",
-      "summary_en": "Fully open-source MLLM for efficient and generalist video understanding across diverse tasks"
+      "summary": "효율적이면서 범용적인 영상 이해를 목표로 한 완전 오픈소스 영상 멀티모달 LLM임.",
+      "summary_en": "A fully open video multimodal LLM aimed at efficient, generalist video understanding."
     },
     {
-      "title": "SEED: 에이전틱 강화학습을 위한 자기 진화 온폴리시 증류",
+      "title": "SEED: 에이전트 강화학습을 위한 자기진화형 온폴리시 증류",
       "title_en": "SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning",
       "url": "https://huggingface.co/papers/2607.14777",
-      "summary": "에이전트 RL에서 자기 진화 방식의 온폴리시 증류 프레임워크임. 에이전트 성능을 지속적으로 개선함",
-      "summary_en": "Self-evolving on-policy distillation framework for agentic RL that continuously improves agent performance"
+      "summary": "에이전트 강화학습에서 스스로 진화하는 온폴리시 증류 방식을 제안함.",
+      "summary_en": "Proposes a self-evolving on-policy distillation method for agentic reinforcement learning."
     },
     {
-      "title": "SearchOS-V1: 오픈 도메인 정보 탐색 에이전트 협업",
+      "title": "SearchOS-V1: 견고한 오픈도메인 정보탐색 에이전트 협업",
       "title_en": "SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration",
       "url": "https://huggingface.co/papers/2607.15257",
-      "summary": "다양한 도메인 정보 탐색을 여러 에이전트가 협력해 처리하는 강건한 시스템임. 복잡한 질의의 정확도를 높임",
-      "summary_en": "Robust multi-agent collaboration system for open-domain information-seeking across diverse domains"
+      "summary": "오픈도메인 정보탐색을 위한 견고한 다중 에이전트 협업 프레임워크임.",
+      "summary_en": "A robust multi-agent collaboration framework for open-domain information seeking."
     },
     {
-      "title": "BadWAM: 세계 모델이 올바르게 시뮬레이션하지만 행동은 잘못되는 현상",
+      "title": "BadWAM: 월드-액션 모델이 예측은 맞지만 행동은 틀릴 때",
       "title_en": "BadWAM: When World-Action Models Dream Right but Act Wrong",
       "url": "https://huggingface.co/papers/2607.15207",
-      "summary": "세계 모델이 정확한 시뮬레이션에도 실제 행동 오류를 내는 현상을 분석함. AI 안전성의 새로운 취약점을 드러냄",
-      "summary_en": "Analyzes how world-action models can simulate correctly yet produce wrong real-world actions, exposing new AI safety vulnerabilities"
+      "summary": "월드-액션 모델이 미래 예측은 정확하지만 실제 행동은 잘못하는 문제를 분석함.",
+      "summary_en": "Analyzes how world-action models predict correctly yet act wrongly."
     }
   ],
   "geeknews": [
     {
-      "title": "StackRender — 데이터베이스 스키마 설계 및 생성 도구",
-      "title_en": "StackRender — Database Schema Design and Generation Tool",
+      "title": "StackRender - 데이터베이스 스키마 설계·생성 도구",
+      "title_en": "StackRender - Database Schema Design Tool",
       "url": "https://news.hada.io/topic?id=31534",
-      "summary": "DB 스키마를 시각적으로 설계하고 SQL을 자동 생성하는 도구임. 개발 초기 데이터베이스 설계 작업을 크게 단순화함",
-      "summary_en": "Tool for visually designing database schemas and automatically generating SQL, greatly simplifying early-stage DB design"
+      "summary": "시각적으로 DB 스키마를 설계하고 코드를 생성해주는 도구임.",
+      "summary_en": "A tool to visually design database schemas and generate code."
     },
     {
-      "title": "Mindwalk — 코딩 에이전트 세션을 코드베이스의 3D 지도 위에서 재생하는 시각화 도구",
-      "title_en": "Mindwalk — Visualization Tool That Replays Coding Agent Sessions on a 3D Codebase Map",
-      "url": "https://news.hada.io/topic?id=31569",
-      "summary": "AI 코딩 에이전트가 어떻게 코드베이스를 탐색했는지를 3D 지도 위에서 시각적으로 재생하는 도구임. 에이전트의 작업 흐름을 한눈에 파악 가능함",
-      "summary_en": "Visualization tool that replays AI coding agent sessions on a 3D codebase map, making agent workflows easy to understand at a glance"
-    },
-    {
-      "title": "루프 안의 인간은 지쳤다",
-      "title_en": "The Human in the Loop Is Exhausted",
-      "url": "https://news.hada.io/topic?id=31546",
-      "summary": "AI 워크플로우에서 사람이 반복적으로 검토·승인해야 하는 'Human-in-the-Loop' 구조의 피로감 문제를 다룬 글임. 자동화 수준을 높이거나 의사결정을 위임하는 방향을 논함",
-      "summary_en": "Discusses the fatigue problem of the human-in-the-loop structure in AI workflows, arguing for higher automation or delegated decision-making"
-    },
-    {
-      "title": "문제를 해결하지 않고 대응하는 세 가지 방식",
-      "title_en": "Three Ways to Respond Without Solving the Problem",
-      "url": "https://news.hada.io/topic?id=31559",
-      "summary": "실제 문제 해결 없이 형식적으로 대응하는 세 가지 패턴을 분석하는 글임. 조직 내 의사결정과 커뮤니케이션의 비효율을 비판함",
-      "summary_en": "Analyzes three patterns of responding to problems without actually solving them, critiquing organizational decision-making inefficiencies"
-    },
-    {
-      "title": "LeafWiki — 서버·DB 없이 단일 바이너리로 실행하는 셀프 호스팅 위키",
-      "title_en": "LeafWiki — Self-Hosting Wiki Running as a Single Binary Without Server or DB",
+      "title": "LeafWiki - 서버·DB 없이 단일 바이너리로 도는 셀프호스팅 위키",
+      "title_en": "LeafWiki - Self-Hosted Wiki in a Single Binary",
       "url": "https://news.hada.io/topic?id=31510",
-      "summary": "서버나 DB 없이 단일 바이너리 하나로 실행되는 셀프 호스팅 위키임. 설치·관리가 극도로 단순해 개인·소규모 팀에 적합함",
-      "summary_en": "Self-hosting wiki running as a single binary with no server or database needed, ideal for personal or small team use"
+      "summary": "별도 서버나 DB 없이 단일 바이너리로 실행되는 가벼운 셀프호스팅 위키임.",
+      "summary_en": "A lightweight self-hosted wiki running as a single binary without a separate server or DB."
+    },
+    {
+      "title": "Microsoft Comic Chat, 오픈소스로 공개",
+      "title_en": "Microsoft Comic Chat Now Open Source",
+      "url": "https://news.hada.io/topic?id=31503",
+      "summary": "90년대 만화형 채팅 클라이언트 코믹챗이 오픈소스로 풀림.",
+      "summary_en": "The 90s comic-style chat client Comic Chat has been open-sourced."
+    },
+    {
+      "title": "리누스 토르발스, 커널 개발에서의 LLM 사용을 언급",
+      "title_en": "Linus Torvalds on LLM Use in Kernel Development",
+      "url": "https://news.hada.io/topic?id=31509",
+      "summary": "토르발스가 리눅스 커널 개발에 LLM을 쓰는 것에 대한 견해를 밝힘.",
+      "summary_en": "Torvalds shares his view on using LLMs in Linux kernel development."
+    },
+    {
+      "title": "시니어 개발자 수요가 급증할 것",
+      "title_en": "Senior Developer Demand Will Surge",
+      "url": "https://news.hada.io/topic?id=31518",
+      "summary": "AI 시대에 오히려 시니어 개발자 수요가 늘 것이라는 전망임.",
+      "summary_en": "Argues that demand for senior developers will actually rise in the AI era."
     }
   ]
 }
