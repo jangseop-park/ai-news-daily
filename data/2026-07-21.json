@@ -1,0 +1,109 @@
+{
+  "date": "2026-07-21",
+  "github_trending": [
+    {
+      "name": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "description": "MCP·CLI용 로컬 코드 인텔리전스 그래프임. 코드베이스 전체 맵을 빌드해 AI 도구가 필요한 컨텍스트만 읽도록 최적화함",
+      "description_en": "Local-first code intelligence graph for MCP and CLI that builds a persistent codebase map to optimize AI coding tool context"
+    },
+    {
+      "name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "AI 엔지니어링을 처음부터 배우고 직접 구현해 배포하는 실전 학습 레포임",
+      "description_en": "Hands-on learning repo for AI engineering from scratch — learn, build, and ship for real-world use"
+    },
+    {
+      "name": "kvcache-ai/ktransformers",
+      "url": "https://github.com/kvcache-ai/ktransformers",
+      "description": "이종(Heterogeneous) 환경에서 LLM 추론·파인튜닝 최적화를 유연하게 적용하는 프레임워크임",
+      "description_en": "Flexible framework for experiencing heterogeneous LLM inference and fine-tuning optimizations"
+    },
+    {
+      "name": "topoteretes/cognee",
+      "url": "https://github.com/topoteretes/cognee",
+      "description": "AI 에이전트용 오픈소스 메모리 플랫폼임. 지식 그래프 엔진으로 에이전트가 세션 간 장기 기억을 유지하도록 지원함",
+      "description_en": "Open-source AI memory platform for agents with a self-hosted knowledge graph engine enabling persistent long-term memory across sessions"
+    },
+    {
+      "name": "MoonshotAI/kimi-cli",
+      "url": "https://github.com/MoonshotAI/kimi-cli",
+      "description": "Moonshot AI의 차세대 CLI 에이전트임. 터미널에서 Kimi Code를 직접 활용 가능함",
+      "description_en": "Next-generation CLI agent by Moonshot AI for using Kimi Code directly in the terminal"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "RESOURCE2SKILL: 멀티모달 리소스에서 실행 가능한 에이전트 스킬 증류",
+      "title_en": "RESOURCE2SKILL: Distilling Executable Agent Skills from Human-Created Multimodal Resources",
+      "url": "https://huggingface.co/papers/2606.29538",
+      "summary": "사람이 만든 멀티모달 리소스(문서·영상·이미지 등)에서 AI 에이전트가 직접 실행할 수 있는 스킬을 자동으로 추출·증류하는 방법을 제안함",
+      "summary_en": "Proposes a method to automatically extract and distill executable agent skills from human-created multimodal resources such as documents, videos, and images"
+    },
+    {
+      "title": "RAGU: 경량 도메인 적응 LLM을 활용한 멀티스텝 GraphRAG 엔진",
+      "title_en": "RAGU: A Multi-Step GraphRAG Engine with a Compact Domain-Adapted LLM",
+      "url": "https://huggingface.co/papers/2607.11683",
+      "summary": "도메인에 적응된 경량 LLM을 활용해 그래프 기반 RAG를 여러 단계로 수행하는 엔진임. 복잡한 질의에서 높은 정확도와 효율을 동시에 달성함",
+      "summary_en": "A multi-step GraphRAG engine using a compact domain-adapted LLM that achieves high accuracy and efficiency on complex queries"
+    },
+    {
+      "title": "Xiaomi-Robotics-1: 10만 시간 실세계 궤적으로 학습한 비전-언어-행동 모델",
+      "title_en": "Xiaomi-Robotics-1: Scaling Vision-Language-Action Models with over 100K Hours of Real-World Trajectories",
+      "url": "https://huggingface.co/papers/2607.15330",
+      "summary": "Xiaomi가 10만 시간 이상의 실세계 로봇 궤적 데이터로 학습시킨 대규모 비전-언어-행동(VLA) 모델을 공개함. 현실 세계 로봇 제어의 새 이정표임",
+      "summary_en": "Xiaomi releases a large-scale Vision-Language-Action model trained on over 100K hours of real-world robot trajectory data, setting a new benchmark for real-world robot control"
+    },
+    {
+      "title": "xHC: 확장된 하이퍼 커넥션 구조",
+      "title_en": "xHC: Expanded Hyper-Connections",
+      "url": "https://huggingface.co/papers/2607.14530",
+      "summary": "트랜스포머 아키텍처에서 레이어 간 연결을 확장·강화하는 새로운 하이퍼 커넥션 구조를 제안함. 깊은 네트워크에서 학습 효율과 성능을 개선함",
+      "summary_en": "Proposes an expanded hyper-connection structure for transformers that enhances inter-layer connectivity, improving training efficiency and performance in deep networks"
+    },
+    {
+      "title": "RAGU GraphRAG 엔진의 멀티스텝 추론 심화 분석",
+      "title_en": "Loop the Loopies!",
+      "url": "https://huggingface.co/papers/2607.16051",
+      "summary": "반복적 루프 구조를 활용해 에이전트가 더 복잡한 추론을 수행하도록 하는 방법을 탐구하는 연구임. 자기 반복 추론의 가능성과 한계를 분석함",
+      "summary_en": "Explores using iterative loop structures to enable agents to perform more complex reasoning, analyzing the potential and limits of self-iterative reasoning"
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "당신이 안 보는 사이 프론트엔드에 무슨 일이 있었나",
+      "title_en": "What Happened to the Frontend While You Weren't Looking",
+      "url": "https://news.hada.io/topic?id=31587",
+      "summary": "최근 몇 년간 프론트엔드 생태계에서 일어난 주요 변화들을 정리한 글임. React Server Components, Signals, 빌드 도구 혁신 등 놓치기 쉬운 흐름을 한눈에 파악할 수 있음",
+      "summary_en": "Summarizes major changes in the frontend ecosystem over recent years, covering React Server Components, Signals, build tool innovations, and other easy-to-miss trends"
+    },
+    {
+      "title": "AI 래퍼는 끝났다: 초기 스타트업을 위한 수직화 전략",
+      "title_en": "The AI Wrapper Is Dead: Verticalization Strategy for Early Startups",
+      "url": "https://news.hada.io/topic?id=31598",
+      "summary": "단순히 AI API를 감싸는 'AI 래퍼' 스타트업의 시대는 끝났다고 주장함. 특정 도메인에 깊이 파고드는 수직화 전략만이 경쟁력을 가짐을 역설함",
+      "summary_en": "Argues the era of simple AI wrapper startups is over, advocating for verticalization strategies that go deep into specific domains as the only competitive path"
+    },
+    {
+      "title": "MIDI 레코더 2,500대를 판매하며 배운 것: 하드웨어는 그렇게 어렵지 않다",
+      "title_en": "What I Learned Selling 2,500 MIDI Recorders: Hardware Isn't That Hard",
+      "url": "https://news.hada.io/topic?id=31601",
+      "summary": "소규모 하드웨어 제품(MIDI 레코더)을 2,500대 판매한 실전 경험을 공유함. 제조·유통·고객 지원의 현실적 어려움과 의외의 쉬운 점을 솔직히 서술함",
+      "summary_en": "Shares real experience selling 2,500 MIDI recorders, honestly describing the practical challenges and surprisingly manageable aspects of manufacturing, distribution, and support"
+    },
+    {
+      "title": "OpenWiki — 코드베이스를 위한 에이전트용 문서를 작성하고 관리하는 CLI",
+      "title_en": "OpenWiki — CLI for Writing and Managing Agent-Oriented Documentation for Codebases",
+      "url": "https://news.hada.io/topic?id=31594",
+      "summary": "AI 에이전트가 코드베이스를 잘 이해할 수 있도록 문서를 작성하고 관리하는 CLI 도구임. 에이전트 친화적 위키를 자동으로 생성·유지함",
+      "summary_en": "CLI tool for writing and managing agent-oriented documentation for codebases, automatically generating and maintaining agent-friendly wikis"
+    },
+    {
+      "title": "Mindwalk — 코딩 에이전트 세션을 코드베이스 3D 지도 위에서 재생",
+      "title_en": "Mindwalk — Replay Coding Agent Sessions on a 3D Codebase Map",
+      "url": "https://news.hada.io/topic?id=31569",
+      "summary": "AI 코딩 에이전트가 코드베이스를 탐색한 과정을 3D 지도 위에서 시각적으로 재생하는 도구임. 에이전트의 작업 흐름을 직관적으로 파악 가능함",
+      "summary_en": "Visualization tool that replays AI coding agent sessions on a 3D codebase map for intuitive understanding of agent workflows"
+    }
+  ]
+}
