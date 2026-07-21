@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-07-21
+> 마지막 업데이트: 2026-07-22
 
-# AI 뉴스 — 2026-07-21
+# AI 뉴스 — 2026-07-22
 
 ## 🔥 GitHub Trending (Python)
 
-- [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph): MCP·CLI용 로컬 코드 인텔리전스 그래프임. 코드베이스 전체 맵을 빌드해 AI 도구가 필요한 컨텍스트만 읽도록 최적화함
-- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링을 처음부터 배우고 직접 구현해 배포하는 실전 학습 레포임
-- [kvcache-ai/ktransformers](https://github.com/kvcache-ai/ktransformers): 이종(Heterogeneous) 환경에서 LLM 추론·파인튜닝 최적화를 유연하게 적용하는 프레임워크임
-- [topoteretes/cognee](https://github.com/topoteretes/cognee): AI 에이전트용 오픈소스 메모리 플랫폼임. 지식 그래프 엔진으로 에이전트가 세션 간 장기 기억을 유지하도록 지원함
-- [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli): Moonshot AI의 차세대 CLI 에이전트임. 터미널에서 Kimi Code를 직접 활용 가능함
+- [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book): 《AI Agent 심층 이해: 설계 원리와 엔지니어링 실천》 오픈소스 전문서적. 전문 내용, 컴파일된 PDF, 챕터별 예제 코드 포함.
+- [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph): MCP·CLI용 로컬 우선 코드 인텔리전스 그래프임. 코드베이스 전체 맵을 빌드해 AI 코딩 도구가 필요한 컨텍스트만 읽도록 최적화함.
+- [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot): 다양한 IM 플랫폼·LLM·플러그인·AI 기능을 통합하는 AI Agent 어시스턴트 및 개발 프레임워크임.
+- [langchain-ai/open_deep_research](https://github.com/langchain-ai/open_deep_research): LangChain이 공개한 오픈소스 딥리서치 에이전트 프레임워크임. 복잡한 주제를 자율적으로 심층 조사함.
+- [dottxt-ai/outlines](https://github.com/dottxt-ai/outlines): LLM의 출력을 JSON·정규식 등 구조화된 형식으로 강제하는 라이브러리임. 신뢰할 수 있는 구조화 출력을 보장함.
 
 ## 📄 Hugging Face Papers
 
-- [RESOURCE2SKILL: 멀티모달 리소스에서 실행 가능한 에이전트 스킬 증류](https://huggingface.co/papers/2606.29538)
-  사람이 만든 멀티모달 리소스(문서·영상·이미지 등)에서 AI 에이전트가 직접 실행할 수 있는 스킬을 자동으로 추출·증류하는 방법을 제안함
-- [RAGU: 경량 도메인 적응 LLM을 활용한 멀티스텝 GraphRAG 엔진](https://huggingface.co/papers/2607.11683)
-  도메인에 적응된 경량 LLM을 활용해 그래프 기반 RAG를 여러 단계로 수행하는 엔진임. 복잡한 질의에서 높은 정확도와 효율을 동시에 달성함
-- [Xiaomi-Robotics-1: 10만 시간 실세계 궤적으로 학습한 비전-언어-행동 모델](https://huggingface.co/papers/2607.15330)
-  Xiaomi가 10만 시간 이상의 실세계 로봇 궤적 데이터로 학습시킨 대규모 비전-언어-행동(VLA) 모델을 공개함. 현실 세계 로봇 제어의 새 이정표임
-- [xHC: 확장된 하이퍼 커넥션 구조](https://huggingface.co/papers/2607.14530)
-  트랜스포머 아키텍처에서 레이어 간 연결을 확장·강화하는 새로운 하이퍼 커넥션 구조를 제안함. 깊은 네트워크에서 학습 효율과 성능을 개선함
-- [RAGU GraphRAG 엔진의 멀티스텝 추론 심화 분석](https://huggingface.co/papers/2607.16051)
-  반복적 루프 구조를 활용해 에이전트가 더 복잡한 추론을 수행하도록 하는 방법을 탐구하는 연구임. 자기 반복 추론의 가능성과 한계를 분석함
+- [TimeLens2: 멀티모달 LLM 기반 범용 비디오 시간 그라운딩](https://huggingface.co/papers/2607.17423)
+  멀티모달 LLM을 활용해 자연어 쿼리로 비디오에서 특정 시간 구간을 정확히 찾아내는 범용 모델을 제안함. 다양한 비디오 도메인에서 높은 정확도를 달성함.
+- [EvolvingWorld: 인터랙티브 문학 세계에서 역할극 에이전트와 세계 모델의 공동 진화 프레임워크](https://huggingface.co/papers/2607.17250)
+  인터랙티브 문학 세계에서 역할극 AI 에이전트와 세계 모델이 서로 함께 진화하는 오픈 스키마 프레임워크를 제안함. 에이전트가 스스로 세계를 확장·수정 가능함.
+- [DeepSearch-World: 검증 가능한 환경에서 심층 탐색 에이전트를 위한 자기 증류](https://huggingface.co/papers/2607.07820)
+  검증 가능한 환경에서 자기 증류 방식으로 심층 탐색 에이전트를 학습시키는 방법을 제안함. 에이전트가 스스로 생성한 검색 경로로 자신을 개선함.
+- [SWE-Pruner Pro: 코더 LLM은 이미 무엇을 잘라낼지 알고 있음](https://huggingface.co/papers/2607.18213)
+  소프트웨어 엔지니어링 작업에서 코더 LLM이 불필요한 코드 컨텍스트를 스스로 식별해 제거하는 프루닝 전략을 제안함. 입력 토큰을 줄이면서 성능을 유지함.
+- [HOMIE: 멀티모달 인텔리전트 향상을 통한 인간-객체 중심 비디오 개인화](https://huggingface.co/papers/2607.18217)
+  인간과 객체를 중심으로 비디오를 개인화하는 멀티모달 AI 프레임워크를 제안함. 특정 인물·사물의 외형을 유지하면서 맞춤형 비디오를 생성함.
 
 ## 🦉 GeekNews
 
-- [당신이 안 보는 사이 프론트엔드에 무슨 일이 있었나](https://news.hada.io/topic?id=31587)
-  최근 몇 년간 프론트엔드 생태계에서 일어난 주요 변화들을 정리한 글임. React Server Components, Signals, 빌드 도구 혁신 등 놓치기 쉬운 흐름을 한눈에 파악할 수 있음
+- [monitor-input-rs — DDC/CI로 모니터 입력 소스를 바꾸는 커맨드라인 도구](https://news.hada.io/topic?id=31632)
+  DDC/CI 프로토콜을 활용해 CLI에서 모니터 입력 소스를 전환하는 Rust 기반 도구임. KVM 스위치 없이 다중 모니터 입력을 자동화 가능함.
 - [AI 래퍼는 끝났다: 초기 스타트업을 위한 수직화 전략](https://news.hada.io/topic?id=31598)
-  단순히 AI API를 감싸는 'AI 래퍼' 스타트업의 시대는 끝났다고 주장함. 특정 도메인에 깊이 파고드는 수직화 전략만이 경쟁력을 가짐을 역설함
+  단순 AI API 래퍼 스타트업의 시대가 끝났다고 주장함. 특정 도메인에 깊이 파고드는 수직화 전략만이 지속 가능한 경쟁력을 가짐을 역설함.
+- [OpenWiki — 코드베이스를 위한 에이전트용 문서 작성·관리 CLI](https://news.hada.io/topic?id=31594)
+  AI 에이전트가 코드베이스를 잘 이해할 수 있도록 문서를 작성·관리하는 CLI 도구임. 에이전트 친화적 위키를 자동으로 생성하고 최신 상태로 유지함.
+- [데이터가 유일한 해자다](https://news.hada.io/topic?id=31606)
+  AI 시대에 기업의 유일한 지속 가능한 경쟁 우위는 고유한 데이터라는 주장을 다룸. 모델·기술은 따라잡히지만 독점 데이터는 복제 불가함을 강조함.
 - [MIDI 레코더 2,500대를 판매하며 배운 것: 하드웨어는 그렇게 어렵지 않다](https://news.hada.io/topic?id=31601)
-  소규모 하드웨어 제품(MIDI 레코더)을 2,500대 판매한 실전 경험을 공유함. 제조·유통·고객 지원의 현실적 어려움과 의외의 쉬운 점을 솔직히 서술함
-- [OpenWiki — 코드베이스를 위한 에이전트용 문서를 작성하고 관리하는 CLI](https://news.hada.io/topic?id=31594)
-  AI 에이전트가 코드베이스를 잘 이해할 수 있도록 문서를 작성하고 관리하는 CLI 도구임. 에이전트 친화적 위키를 자동으로 생성·유지함
-- [Mindwalk — 코딩 에이전트 세션을 코드베이스 3D 지도 위에서 재생](https://news.hada.io/topic?id=31569)
-  AI 코딩 에이전트가 코드베이스를 탐색한 과정을 3D 지도 위에서 시각적으로 재생하는 도구임. 에이전트의 작업 흐름을 직관적으로 파악 가능함
+  소규모 하드웨어 제품 2,500대 판매 실전 경험을 공유함. 제조·유통·고객 지원의 현실적 어려움과 의외로 쉬운 점들을 솔직하게 서술함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-07-21](data/2026-07-21.md)
 - [2026-07-20](data/2026-07-20.md)
 - [2026-07-19](data/2026-07-19.md)
 - [2026-07-18](data/2026-07-18.md)
@@ -69,4 +70,3 @@
 - [2026-06-23](data/2026-06-23.md)
 - [2026-06-22](data/2026-06-22.md)
 - [2026-06-21](data/2026-06-21.md)
-- [2026-06-20](data/2026-06-20.md)
