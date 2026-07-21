@@ -4,32 +4,32 @@
     {
       "name": "bojieli/ai-agent-book",
       "url": "https://github.com/bojieli/ai-agent-book",
-      "description": "《AI Agent 심층 이해: 설계 원리와 엔지니어링 실천》 오픈소스 전문서적. 전문 내용, 컴파일된 PDF, 챕터별 예제 코드 포함.",
-      "description_en": "Open-source repository for the book 'Deep Understanding of AI Agent: Design Principles and Engineering Practice' — full text, compiled PDF, and chapter-by-chapter code."
+      "description": "'AI Agent 심층 이해: 설계 원리와 엔지니어링 실무' 책의 오픈소스 메인 저장소. 전체 본문, 컴파일된 PDF, 장별 예제 코드를 포함함.",
+      "description_en": "Open-source main repo for the book 'Deep Understanding of AI Agents: Design Principles and Engineering Practice' — full text, compiled PDF, and per-chapter code."
     },
     {
       "name": "tirth8205/code-review-graph",
       "url": "https://github.com/tirth8205/code-review-graph",
-      "description": "MCP·CLI용 로컬 우선 코드 인텔리전스 그래프임. 코드베이스 전체 맵을 빌드해 AI 코딩 도구가 필요한 컨텍스트만 읽도록 최적화함.",
-      "description_en": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters."
+      "description": "MCP·CLI용 로컬 우선 코드 인텔리전스 그래프. 코드베이스의 지속적 지도를 만들어 AI 코딩 도구가 필요한 부분만 읽게 하고, 리뷰·대규모 저장소 작업에서 컨텍스트를 크게 줄임.",
+      "description_en": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions."
     },
     {
       "name": "AstrBotDevs/AstrBot",
       "url": "https://github.com/AstrBotDevs/AstrBot",
-      "description": "다양한 IM 플랫폼·LLM·플러그인·AI 기능을 통합하는 AI Agent 어시스턴트 및 개발 프레임워크임.",
-      "description_en": "AI Agent Assistant and development framework that integrates numerous IM platforms, LLMs, plugins, and AI features."
+      "description": "다양한 메신저 플랫폼·LLM·플러그인·AI 기능을 통합하는 AI 에이전트 어시스턴트 겸 개발 프레임워크. 개인용 AI 비서로 쓸 수 있음.",
+      "description_en": "AI Agent Assistant & development framework that integrates many IM platforms, LLMs, plugins and AI features."
     },
     {
       "name": "langchain-ai/open_deep_research",
       "url": "https://github.com/langchain-ai/open_deep_research",
-      "description": "LangChain이 공개한 오픈소스 딥리서치 에이전트 프레임워크임. 복잡한 주제를 자율적으로 심층 조사함.",
-      "description_en": "Open-source deep research agent framework by LangChain for autonomously researching complex topics in depth."
+      "description": "LangChain이 공개한 오픈소스 딥리서치 에이전트. 웹 검색과 다단계 추론으로 심층 리서치 리포트를 자동 생성함.",
+      "description_en": "LangChain's open-source deep research agent that automates multi-step web research and report generation."
     },
     {
       "name": "dottxt-ai/outlines",
       "url": "https://github.com/dottxt-ai/outlines",
-      "description": "LLM의 출력을 JSON·정규식 등 구조화된 형식으로 강제하는 라이브러리임. 신뢰할 수 있는 구조화 출력을 보장함.",
-      "description_en": "Library for structured outputs from LLMs — constrains generation to JSON, regex, or other schemas for reliable, parseable results."
+      "description": "LLM의 구조화된 출력(Structured Outputs)을 보장하는 라이브러리. JSON·정규식·문법에 맞춰 안정적으로 생성하도록 강제함.",
+      "description_en": "Library for structured LLM outputs — constrains generation to JSON, regex, or grammars for reliable results."
     }
   ],
   "huggingface": [
@@ -37,73 +37,73 @@
       "title": "TimeLens2: 멀티모달 LLM 기반 범용 비디오 시간 그라운딩",
       "title_en": "TimeLens2: Generalist Video Temporal Grounding with Multimodal LLMs",
       "url": "https://huggingface.co/papers/2607.17423",
-      "summary": "멀티모달 LLM을 활용해 자연어 쿼리로 비디오에서 특정 시간 구간을 정확히 찾아내는 범용 모델을 제안함. 다양한 비디오 도메인에서 높은 정확도를 달성함.",
-      "summary_en": "Proposes a generalist model that uses multimodal LLMs to accurately locate specific temporal segments in videos from natural language queries, achieving strong performance across diverse video domains."
+      "summary": "멀티모달 LLM으로 비디오 내 특정 순간을 자연어로 찾아내는 범용 시간 그라운딩 모델. 다양한 태스크에 하나의 모델로 대응함.",
+      "summary_en": "A generalist temporal grounding model that uses multimodal LLMs to localize moments in video from natural language across diverse tasks."
     },
     {
-      "title": "EvolvingWorld: 인터랙티브 문학 세계에서 역할극 에이전트와 세계 모델의 공동 진화 프레임워크",
-      "title_en": "EvolvingWorld: An Open-Schema Framework for Co-Evolving Role-Play Agents and World Model in Interactive Literary World",
+      "title": "EvolvingWorld: 롤플레이 에이전트와 월드 모델을 함께 진화시키는 오픈 스키마 프레임워크",
+      "title_en": "EvolvingWorld: An Open-Schema Framework for Co-Evolving Role-Play Agents and World Model",
       "url": "https://huggingface.co/papers/2607.17250",
-      "summary": "인터랙티브 문학 세계에서 역할극 AI 에이전트와 세계 모델이 서로 함께 진화하는 오픈 스키마 프레임워크를 제안함. 에이전트가 스스로 세계를 확장·수정 가능함.",
-      "summary_en": "Proposes an open-schema framework where role-play AI agents and the world model co-evolve within an interactive literary environment, enabling agents to expand and modify the world autonomously."
+      "summary": "상호작용형 문학 세계에서 캐릭터 에이전트와 세계 모델이 서로 영향을 주며 함께 진화하도록 하는 오픈 스키마 프레임워크.",
+      "summary_en": "An open-schema framework where role-play agents and a world model co-evolve within interactive literary worlds."
     },
     {
-      "title": "DeepSearch-World: 검증 가능한 환경에서 심층 탐색 에이전트를 위한 자기 증류",
+      "title": "DeepSearch-World: 검증 가능한 환경에서 딥서치 에이전트를 위한 자기 증류",
       "title_en": "DeepSearch-World: Self-Distillation for Deep Search Agents in a Verifiable Environment",
       "url": "https://huggingface.co/papers/2607.07820",
-      "summary": "검증 가능한 환경에서 자기 증류 방식으로 심층 탐색 에이전트를 학습시키는 방법을 제안함. 에이전트가 스스로 생성한 검색 경로로 자신을 개선함.",
-      "summary_en": "Proposes self-distillation training for deep search agents in a verifiable environment, where agents improve themselves using search trajectories they generate."
+      "summary": "검증 가능한 환경에서 자기 증류(self-distillation)로 딥서치 에이전트의 탐색 능력을 스스로 강화하는 방법.",
+      "summary_en": "A self-distillation method that strengthens deep search agents' capabilities within a verifiable environment."
     },
     {
-      "title": "SWE-Pruner Pro: 코더 LLM은 이미 무엇을 잘라낼지 알고 있음",
+      "title": "SWE-Pruner Pro: 코더 LLM은 이미 무엇을 잘라낼지 안다",
       "title_en": "SWE-Pruner Pro: The Coder LLM Already Knows What to Prune",
       "url": "https://huggingface.co/papers/2607.18213",
-      "summary": "소프트웨어 엔지니어링 작업에서 코더 LLM이 불필요한 코드 컨텍스트를 스스로 식별해 제거하는 프루닝 전략을 제안함. 입력 토큰을 줄이면서 성능을 유지함.",
-      "summary_en": "Proposes a pruning strategy where coder LLMs autonomously identify and remove unnecessary code context in software engineering tasks, reducing input tokens while maintaining performance."
+      "summary": "코드 LLM이 이미 내부적으로 어떤 컨텍스트가 불필요한지 알고 있다는 점을 활용해, 저장소 컨텍스트를 효율적으로 가지치기함.",
+      "summary_en": "Leverages the fact that coder LLMs already know which context is irrelevant to efficiently prune repository context."
     },
     {
-      "title": "HOMIE: 멀티모달 인텔리전트 향상을 통한 인간-객체 중심 비디오 개인화",
+      "title": "HOMIE: 멀티모달 지능 향상을 통한 인간·객체 중심 비디오 개인화",
       "title_en": "HOMIE: Human-object Centric Video Personalization via Multimodal Intelligent Enhancement",
       "url": "https://huggingface.co/papers/2607.18217",
-      "summary": "인간과 객체를 중심으로 비디오를 개인화하는 멀티모달 AI 프레임워크를 제안함. 특정 인물·사물의 외형을 유지하면서 맞춤형 비디오를 생성함.",
-      "summary_en": "Proposes a multimodal AI framework for personalizing videos centered on humans and objects, preserving specific appearances while generating customized video content."
+      "summary": "인간과 객체를 중심으로 비디오를 개인화하는 기법. 멀티모달 강화로 인물·사물의 일관성을 유지함.",
+      "summary_en": "A human-object centric video personalization method that keeps subjects consistent via multimodal enhancement."
     }
   ],
   "geeknews": [
     {
-      "title": "monitor-input-rs — DDC/CI로 모니터 입력 소스를 바꾸는 커맨드라인 도구",
-      "title_en": "monitor-input-rs — Command-line tool to switch monitor input source via DDC/CI",
-      "url": "https://news.hada.io/topic?id=31632",
-      "summary": "DDC/CI 프로토콜을 활용해 CLI에서 모니터 입력 소스를 전환하는 Rust 기반 도구임. KVM 스위치 없이 다중 모니터 입력을 자동화 가능함.",
-      "summary_en": "A Rust-based CLI tool that switches monitor input sources using the DDC/CI protocol, enabling multi-monitor input automation without a KVM switch."
+      "title": "당신이 안 보는 사이 프론트엔드에 무슨 일이 있었나",
+      "title_en": "What Happened to the Frontend",
+      "url": "https://davidpoblador.com/deep-dives/what-happened-to-the-frontend/",
+      "summary": "2008년경 프론트엔드를 떠난 개발자에게 지난 20년의 변화를 설명함. 모든 도구는 실제 문제 위에 생긴 '흉터 조직'이라는 관점으로 정리함.",
+      "summary_en": "Explains 20 years of frontend change to a developer who left around 2008 — every tool framed as scar tissue over a real problem."
+    },
+    {
+      "title": "monitor-input-rs — DDC/CI로 모니터 입력 소스를 바꾸는 CLI 도구",
+      "title_en": "monitor-input-rs — CLI to switch monitor input via DDC/CI",
+      "url": "https://github.com/kojiishi/monitor-input-rs",
+      "summary": "DDC/CI 프로토콜로 모니터 입력 소스(DP·HDMI·USB-C 등)를 커맨드라인에서 전환하는 도구. 윈·맥·리눅스 모두 지원함.",
+      "summary_en": "A CLI tool to switch monitor input sources (DP, HDMI, USB-C) via DDC/CI, supporting Windows, macOS and Linux."
     },
     {
       "title": "AI 래퍼는 끝났다: 초기 스타트업을 위한 수직화 전략",
-      "title_en": "AI Wrappers Are Over: The Verticalization Strategy for Early-Stage Startups",
-      "url": "https://news.hada.io/topic?id=31598",
-      "summary": "단순 AI API 래퍼 스타트업의 시대가 끝났다고 주장함. 특정 도메인에 깊이 파고드는 수직화 전략만이 지속 가능한 경쟁력을 가짐을 역설함.",
-      "summary_en": "Argues the era of simple AI API wrapper startups is over, advocating that only deep verticalization into specific domains creates sustainable competitive advantages."
+      "title_en": "The AI Wrapper Is Dead: Verticalization for Early Startups",
+      "url": "https://www.nfx.com/post/ai-wrapper-dead-verticalization-startups",
+      "summary": "기반 모델에 단일 기능만 얹은 AI 래퍼의 우위가 사라짐. 초기 스타트업은 전체 워크플로와 가치사슬을 소유하는 수직 통합으로 가야 한다고 주장함.",
+      "summary_en": "Argues thin AI wrappers have lost their edge; early startups must own the full workflow and value chain via verticalization."
     },
     {
-      "title": "OpenWiki — 코드베이스를 위한 에이전트용 문서 작성·관리 CLI",
-      "title_en": "OpenWiki — CLI for Writing and Managing Agent-Friendly Documentation for Codebases",
-      "url": "https://news.hada.io/topic?id=31594",
-      "summary": "AI 에이전트가 코드베이스를 잘 이해할 수 있도록 문서를 작성·관리하는 CLI 도구임. 에이전트 친화적 위키를 자동으로 생성하고 최신 상태로 유지함.",
-      "summary_en": "A CLI tool that writes and manages agent-friendly documentation for codebases, automatically generating and keeping up-to-date a wiki that AI agents can effectively navigate."
-    },
-    {
-      "title": "데이터가 유일한 해자다",
-      "title_en": "Data Is the Only Moat",
-      "url": "https://news.hada.io/topic?id=31606",
-      "summary": "AI 시대에 기업의 유일한 지속 가능한 경쟁 우위는 고유한 데이터라는 주장을 다룸. 모델·기술은 따라잡히지만 독점 데이터는 복제 불가함을 강조함.",
-      "summary_en": "Discusses the argument that in the AI era, a company's only sustainable competitive advantage is its unique data, since models and technology can be replicated but proprietary data cannot."
+      "title": "OpenWiki — 코드베이스용 에이전트 문서를 만드는 CLI",
+      "title_en": "OpenWiki — CLI for agent-facing codebase docs",
+      "url": "https://github.com/langchain-ai/openwiki",
+      "summary": "에이전트 전용 문서화 도구. 코드베이스나 목적별 메모리용 위키를 만들고 유지하며, 커넥터나 Git 저장소로 지식 소스를 연결함.",
+      "summary_en": "An agent-facing documentation CLI that builds and maintains wikis for codebases and task memory from connectors or Git repos."
     },
     {
       "title": "MIDI 레코더 2,500대를 판매하며 배운 것: 하드웨어는 그렇게 어렵지 않다",
-      "title_en": "What I Learned Selling 2,500 MIDI Recorders: Hardware Isn't That Hard",
-      "url": "https://news.hada.io/topic?id=31601",
-      "summary": "소규모 하드웨어 제품 2,500대 판매 실전 경험을 공유함. 제조·유통·고객 지원의 현실적 어려움과 의외로 쉬운 점들을 솔직하게 서술함.",
-      "summary_en": "Shares hands-on experience selling 2,500 units of a hardware product, honestly describing the real challenges of manufacturing, distribution, and support — and what's surprisingly manageable."
+      "title_en": "What I Learned Selling 2,500 MIDI Recorders: Hardware Isn't So Hard",
+      "url": "https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard",
+      "summary": "피아노 연주를 자동 기록하는 Jamcorder를 1년 반 만에 2,500대 이상 판매한 경험. 독립적으로 유지되는 하드웨어 사업의 교훈을 공유함.",
+      "summary_en": "Lessons from selling 2,500+ Jamcorder piano-recording devices in 18 months — building a self-sustaining hardware business."
     }
   ]
 }
