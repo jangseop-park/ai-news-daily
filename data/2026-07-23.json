@@ -1,0 +1,109 @@
+{
+  "date": "2026-07-23",
+  "github_trending": [
+    {
+      "name": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "금융시장 언어를 위한 파운데이션 모델임. 주가·지표 등 금융 데이터의 패턴을 학습해 시장 이해 및 예측에 활용 가능함.",
+      "description_en": "A foundation model for the language of financial markets, learning patterns from price data, indicators, and market signals for understanding and prediction."
+    },
+    {
+      "name": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "description": "Claude AI 워크플로우 커스터마이징을 위한 Claude 스킬·리소스·도구 큐레이션 목록임.",
+      "description_en": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows."
+    },
+    {
+      "name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "AI 엔지니어링을 처음부터 배우고 구현해 배포하는 실전 학습 레포임.",
+      "description_en": "A practical learning repository for AI engineering: learn it, build it, and ship it from scratch."
+    },
+    {
+      "name": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "description": "MCP·CLI용 로컬 우선 코드 인텔리전스 그래프임. 코드베이스 전체 맵을 빌드해 AI 도구가 필요한 컨텍스트만 읽도록 최적화함.",
+      "description_en": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters."
+    },
+    {
+      "name": "dottxt-ai/outlines",
+      "url": "https://github.com/dottxt-ai/outlines",
+      "description": "LLM 출력을 JSON·정규식 등 구조화된 형식으로 강제하는 라이브러리임. 신뢰할 수 있는 파싱 가능한 출력을 보장함.",
+      "description_en": "Library for structured outputs from LLMs — constrains generation to JSON, regex, or other schemas for reliable, parseable results."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "ABot-World-0: 단일 데스크탑 GPU에서 무한 인터랙티브 월드 롤아웃",
+      "title_en": "ABot-World-0: Infinite Interactive World Rollout on a Single Desktop GPU",
+      "url": "https://huggingface.co/papers/2607.19191",
+      "summary": "단일 소비자용 GPU에서 무한히 확장되는 인터랙티브 월드를 실시간으로 렌더링하는 모델을 제안함. 게임·시뮬레이션 분야에서 저비용 무한 세계 생성이 가능해짐.",
+      "summary_en": "Proposes a model that renders infinitely expanding interactive worlds in real time on a single consumer-grade GPU, enabling low-cost infinite world generation for games and simulations."
+    },
+    {
+      "title": "DataFlow-Harness: 편집 가능한 LLM 데이터 파이프라인 구축을 위한 코드-에이전트 플랫폼",
+      "title_en": "DataFlow-Harness: A Grounded Code-Agent Platform for Constructing Editable LLM Data Pipelines",
+      "url": "https://huggingface.co/papers/2607.16617",
+      "summary": "코드 에이전트가 실제 환경에 기반해 LLM용 데이터 파이프라인을 자동 구축·편집할 수 있는 플랫폼을 제안함. 데이터 준비 자동화에 유용함.",
+      "summary_en": "Proposes a grounded code-agent platform that automatically constructs and edits data pipelines for LLMs, useful for automating data preparation workflows."
+    },
+    {
+      "title": "텍스트 템플릿 토큰은 확산 트랜스포머의 암묵적 시맨틱 레지스터",
+      "title_en": "Text Template Tokens Are Implicit Semantic Registers in Diffusion Transformers",
+      "url": "https://huggingface.co/papers/2607.19139",
+      "summary": "확산 트랜스포머에서 텍스트 템플릿 토큰이 시맨틱 정보를 암묵적으로 저장하는 레지스터 역할을 한다는 것을 발견함. 이미지 생성의 제어 메커니즘 이해에 새로운 관점을 제시함.",
+      "summary_en": "Discovers that text template tokens in diffusion transformers act as implicit semantic registers that store semantic information, offering new insights into the control mechanisms of image generation."
+    },
+    {
+      "title": "Generative World Renderer at the Speed of Play: 게임 속도로 동작하는 생성형 세계 렌더러",
+      "title_en": "Generative World Renderer at the Speed of Play",
+      "url": "https://huggingface.co/papers/2607.18703",
+      "summary": "게임 플레이 속도에 맞춰 실시간으로 3D 세계를 생성·렌더링하는 모델을 제안함. 기존 방식 대비 훨씬 빠른 속도로 고품질 세계 생성이 가능함.",
+      "summary_en": "Proposes a model that generates and renders 3D worlds in real time at the speed of gameplay, achieving high-quality world generation much faster than previous approaches."
+    },
+    {
+      "title": "Mage-Flow: 이미지 생성·편집을 위한 효율적인 네이티브 해상도 파운데이션 모델",
+      "title_en": "Mage-Flow: An Efficient Native-Resolution Foundation Model for Image Generation and Editing",
+      "url": "https://huggingface.co/papers/2607.19064",
+      "summary": "이미지 생성과 편집을 통합한 효율적인 네이티브 해상도 파운데이션 모델임. 다양한 해상도에서 고품질 이미지를 생성하고 편집 가능함.",
+      "summary_en": "An efficient native-resolution foundation model that unifies image generation and editing, enabling high-quality image creation and modification across diverse resolutions."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "monitor-input-rs — DDC/CI로 모니터 입력 소스를 바꾸는 커맨드라인 도구",
+      "title_en": "monitor-input-rs — Command-line tool to switch monitor input source via DDC/CI",
+      "url": "https://news.hada.io/topic?id=31632",
+      "summary": "DDC/CI 프로토콜을 활용해 CLI에서 모니터 입력 소스를 전환하는 Rust 기반 도구임. KVM 스위치 없이 다중 모니터 입력을 자동화 가능함.",
+      "summary_en": "A Rust-based CLI tool that switches monitor input sources using the DDC/CI protocol, enabling multi-monitor input automation without a KVM switch."
+    },
+    {
+      "title": "AI 시대에 번영할 사람들",
+      "title_en": "People Who Will Thrive in the Age of AI",
+      "url": "https://news.hada.io/topic?id=31683",
+      "summary": "AI가 업무를 자동화하는 시대에 오히려 더 성공할 수 있는 사람들의 특성을 분석함. 창의성·판단력·인간 관계 능력이 핵심 역량으로 부각됨.",
+      "summary_en": "Analyzes the traits of people who will thrive as AI automates work, highlighting creativity, judgment, and human-relationship skills as key competencies."
+    },
+    {
+      "title": "안목은 위임할 수 없다 — AI 시대, 위원회식 디자인의 종말",
+      "title_en": "Taste Cannot Be Delegated — The End of Committee Design in the AI Era",
+      "url": "https://news.hada.io/topic?id=31678",
+      "summary": "AI 시대에 디자인 안목·심미적 판단력은 AI나 위원회에 위임할 수 없는 핵심 인간 역량임을 주장함. 집단 설계 방식의 한계와 개인 안목의 가치를 역설함.",
+      "summary_en": "Argues that design taste and aesthetic judgment are core human competencies that cannot be delegated to AI or committees, advocating for the value of individual discernment over committee-driven design."
+    },
+    {
+      "title": "OpenMMO — AI Agent와 인간 플레이어가 동등하게 대우받는 MMORPG",
+      "title_en": "OpenMMO — An MMORPG Where AI Agents and Human Players Are Treated Equally",
+      "url": "https://news.hada.io/topic?id=31687",
+      "summary": "AI 에이전트와 인간 플레이어가 동등한 시민으로 공존하는 오픈소스 MMORPG 프레임워크임. AI와 인간 간 상호작용 연구에도 활용 가능함.",
+      "summary_en": "An open-source MMORPG framework where AI agents and human players coexist as equal citizens, also useful for studying AI-human interaction in shared environments."
+    },
+    {
+      "title": "중국의 오픈 가중치 AI 전략이 앞서고 있음",
+      "title_en": "China's Open-Weight AI Strategy Is Pulling Ahead",
+      "url": "https://news.hada.io/topic?id=31634",
+      "summary": "중국이 오픈 가중치 AI 모델 전략으로 글로벌 AI 경쟁에서 앞서가고 있다는 분석임. 서방의 폐쇄형 모델 전략과 대비되는 접근법이 주목받음.",
+      "summary_en": "Analysis arguing that China's open-weight AI model strategy is pulling ahead in the global AI race, contrasting with the closed-model approach dominant in the West."
+    }
+  ]
+}
