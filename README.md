@@ -6,37 +6,37 @@
 
 ## 🔥 GitHub Trending (Python)
 
-- [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills): Claude AI 워크플로우 커스터마이징을 위한 Claude Skills·리소스·도구를 큐레이션한 모음집임.
-- [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos): 금융 시장의 언어를 다루는 파운데이션 모델임. 시장 데이터를 위한 사전학습 모델을 제공함.
-- [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec): TurboQuant 기반 벡터 인덱스임. Rust로 작성됐고 Python 바인딩을 제공해 빠른 벡터 검색이 가능함.
-- [andrewyng/aisuite](https://github.com/andrewyng/aisuite): 여러 생성형 AI 제공사를 하나의 통합 인터페이스로 호출할 수 있게 해주는 라이브러리임. 앤드류 응 팀이 만듦.
-- [MODSetter/SurfSense](https://github.com/MODSetter/SurfSense): 오픈소스 NotebookLM 대체제임. 웹 실시간 데이터를 하나의 플랫폼/API/MCP 서버로 리서치할 수 있음.
+- [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills): Claude AI 워크플로우를 커스터마이징하기 위한 Claude Skills, 리소스, 도구를 모아놓은 큐레이션 목록임.
+- [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos): 금융시장의 '언어'를 다루는 파운데이션 모델임. 시장 데이터를 토큰처럼 학습해 예측에 활용함.
+- [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec): TurboQuant 기반의 벡터 인덱스임. Rust로 작성되고 Python 바인딩을 제공해 빠른 검색이 가능함.
+- [andrewyng/aisuite](https://github.com/andrewyng/aisuite): 여러 생성형 AI 제공사를 하나의 통일된 인터페이스로 호출하는 라이브러리임. 앤드류 응이 만듦.
+- [MODSetter/SurfSense](https://github.com/MODSetter/SurfSense): 오픈소스 NotebookLM 대안임. Reddit·유튜브·구글 검색 등 라이브 데이터로 웹 리서치를 하며 API·MCP 서버로도 제공됨.
 
 ## 📄 Hugging Face Papers
 
-- [AREX: 딥 리서치를 위한 재귀적 자기개선 에이전트](https://huggingface.co/papers/2607.21461)
-  딥 리서치를 수행하면서 스스로를 재귀적으로 개선하는 에이전트를 제안함. 반복적으로 성능을 끌어올림.
-- [K12-KGraph: 교육용 LLM 벤치마킹·훈련을 위한 커리큘럼 정렬 지식 그래프](https://huggingface.co/papers/2605.09635)
-  초중고 커리큘럼에 정렬된 지식 그래프를 만들어 교육용 LLM 학습과 평가에 활용함.
-- [ReferTrack: 임바디드 시각 추적을 위한 참조 후 추적](https://huggingface.co/papers/2607.20061)
-  언어 참조로 대상을 지정한 뒤 추적하는 임바디드 시각 추적 방법을 제안함.
-- [시각 대조 자기 증류](https://huggingface.co/papers/2607.21556)
-  대조 학습과 자기 증류를 결합한 시각 표현 학습 기법임. 라벨 없이도 표현력을 높임.
-- [Show, Don't Tell: LLM 텍스트가 아닌 생성 픽셀로 공간 인지 평가](https://huggingface.co/papers/2607.21072)
-  텍스트 답변 대신 이미지를 생성하게 해 모델의 공간 인지 능력을 평가하는 벤치마크를 제시함.
+- [AREX: 딥리서치를 위한 재귀적 자기개선 에이전트](https://huggingface.co/papers/2607.21461)
+  스스로를 반복 개선하며 심층 연구를 수행하는 에이전트를 제안함. 베이징 AI 연구원(BAAI) 연구임.
+- [K12-KGraph: 교육용 LLM 벤치마킹·학습을 위한 교육과정 정렬 지식그래프](https://huggingface.co/papers/2605.09635)
+  초중고 교육과정에 맞춘 지식그래프로 교육용 언어모델을 학습·평가하는 자원을 구축함. 베이징대 연구임.
+- [ReferTrack: 지시 후 추적으로 구현하는 임바디드 시각 추적](https://huggingface.co/papers/2607.20061)
+  언어로 대상을 지시한 뒤 추적하는 방식으로 임바디드 시각 추적을 수행함. 텐센트 연구임.
+- [Visual Contrastive Self-Distillation (시각 대조 자기증류)](https://huggingface.co/papers/2607.21556)
+  대조 학습과 자기증류를 결합해 시각 표현 학습 성능을 높이는 기법임. 메릴랜드대 연구임.
+- [Show, Don't Tell: 텍스트 대신 생성 픽셀로 공간 인지 평가](https://huggingface.co/papers/2607.21072)
+  언어 출력 대신 생성된 이미지로 공간 이해 능력을 평가하는 방법을 제안함. ZJU-OmniAI 연구임.
 
 ## 🦉 GeekNews
 
-- [큰 효과를 만드는 작은 UI 디자인 팁들](https://www.adhamdannaway.com/blog/ui-design/ui-design-tips)
-  UI 디자인을 예술적 감각이 아닌 일관된 논리 규칙으로 접근하면 배치·간격·색상 결정이 더 빠르고 예측 가능해짐.
-- [Bento - 파일 하나에 모두 들어가는 오피스 스위트](https://bento.page/slides/)
-  문서·편집기·뷰어·발표 도구를 하나의 .bento.html 파일에 담은 파워포인트 대체제임. 브라우저만 있으면 됨.
-- [나를 설레게 하는 차분한 기술들](https://abhi.now/blog/calm-technologies/)
-  사용자를 계속 붙잡기보다 원하는 일을 돕고 물러나는 집중형 컴퓨팅을 지향해야 한다고 주장함.
-- [모든 개발자가 SIMD를 알아야 하는 이유](https://mitchellh.com/writing/everyone-should-know-simd)
-  SIMD는 특수 기법이 아니라 평범한 반복문을 가속하는 일상적 최적화 수단임. 데이터를 여러 값씩 처리함.
-- [omp - Pi를 IDE 수준으로 확장한 터미널 AI 코딩 에이전트](https://omp.sh/)
-  오픈소스 코딩 에이전트 Pi 기반으로 IDE 수준 개발 도구와 실전 기능을 기본 탑재한 터미널 코딩 에이전트임.
+- [큰 효과를 만드는 작은 UI 디자인 팁들](https://news.hada.io/topic?id=31746)
+  UI 디자인은 예술 감각보다 일관된 논리 규칙을 적용할 때 배치·간격·서체·색상 결정이 더 빠르고 예측 가능해짐.
+- [나를 설레게 하는 차분한 기술들](https://news.hada.io/topic?id=31741)
+  기술은 사용자를 붙잡기보다 할 일을 돕고 물러나는 '집중형 컴퓨팅'이어야 하며, 하나의 인간적 기능에 집중해야 함.
+- [omp - Pi를 IDE 수준으로 확장한 터미널 AI 코딩 에이전트](https://news.hada.io/topic?id=31744)
+  오픈소스 코딩 에이전트 Pi를 기반으로 IDE 수준의 개발 도구와 실전 기능을 기본 탑재한 터미널 코딩 에이전트임.
+- [매일 집중하기가 점점 어려워지는 이유](https://news.hada.io/topic?id=31790)
+  프로그래밍·학습·글쓰기에 쓰는 한 시간조차 하나의 활동으로 유지하기 어려워졌고, 10분마다 이탈하는 일이 반복됨.
+- [graphify - 코드베이스를 질의 가능한 지식 그래프로 바꾸는 도구](https://news.hada.io/topic?id=31743)
+  AI 코딩 어시스턴트에서 코드·문서·PDF·이미지·영상을 지식 그래프로 매핑해, grep 대신 질문으로 탐색하게 해주는 도구임.
 
 ---
 ## 📅 이전 날짜
