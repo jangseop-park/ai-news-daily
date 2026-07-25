@@ -1,0 +1,73 @@
+{
+  "date": "2026-07-25",
+  "github_trending": [
+    {
+      "name": "bojieli/ai-agent-book",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "description_en": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码"
+    },
+    {
+      "name": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "description_en": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows."
+    },
+    {
+      "name": "MoonshotAI/kimi-cli",
+      "url": "https://github.com/MoonshotAI/kimi-cli",
+      "description": "Kimi Code CLI is your next CLI agent.",
+      "description_en": "Kimi Code CLI is your next CLI agent."
+    },
+    {
+      "name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "description_en": "Learn it. Build it. Ship it for others."
+    },
+    {
+      "name": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "description": "DeepTutor: Lifelong Personalized Tutoring.",
+      "description_en": "DeepTutor: Lifelong Personalized Tutoring."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "2",
+      "title_en": "2",
+      "url": "https://huggingface.co/papers/2607.21461#community",
+      "summary": "2",
+      "summary_en": "2"
+    },
+    {
+      "title": "2",
+      "title_en": "2",
+      "url": "https://huggingface.co/papers/2605.09635#community",
+      "summary": "2",
+      "summary_en": "2"
+    },
+    {
+      "title": "11",
+      "title_en": "11",
+      "url": "https://huggingface.co/papers/2607.20061#community",
+      "summary": "11",
+      "summary_en": "11"
+    },
+    {
+      "title": "2",
+      "title_en": "2",
+      "url": "https://huggingface.co/papers/2607.21556#community",
+      "summary": "2",
+      "summary_en": "2"
+    },
+    {
+      "title": "2",
+      "title_en": "2",
+      "url": "https://huggingface.co/papers/2607.21072#community",
+      "summary": "2",
+      "summary_en": "2"
+    }
+  ],
+  "geeknews": []
+}
