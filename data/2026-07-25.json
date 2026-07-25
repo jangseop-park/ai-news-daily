@@ -34,40 +34,76 @@
   ],
   "huggingface": [
     {
-      "title": "2",
-      "title_en": "2",
-      "url": "https://huggingface.co/papers/2607.21461#community",
-      "summary": "2",
-      "summary_en": "2"
+      "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+      "title_en": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+      "url": "https://huggingface.co/papers/2607.21461",
+      "summary": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+      "summary_en": "AREX: Towards a Recursively Self-Improving Agent for Deep Research"
     },
     {
-      "title": "2",
-      "title_en": "2",
-      "url": "https://huggingface.co/papers/2605.09635#community",
-      "summary": "2",
-      "summary_en": "2"
+      "title": "K12-KGraph: A Curriculum-Aligned Knowledge Graph for Benchmarking and Training Educational LLMs",
+      "title_en": "K12-KGraph: A Curriculum-Aligned Knowledge Graph for Benchmarking and Training Educational LLMs",
+      "url": "https://huggingface.co/papers/2605.09635",
+      "summary": "K12-KGraph: A Curriculum-Aligned Knowledge Graph for Benchmarking and Training Educational LLMs",
+      "summary_en": "K12-KGraph: A Curriculum-Aligned Knowledge Graph for Benchmarking and Training Educational LLMs"
     },
     {
-      "title": "11",
-      "title_en": "11",
-      "url": "https://huggingface.co/papers/2607.20061#community",
-      "summary": "11",
-      "summary_en": "11"
+      "title": "ReferTrack: Referring Then Tracking for Embodied Visual Tracking",
+      "title_en": "ReferTrack: Referring Then Tracking for Embodied Visual Tracking",
+      "url": "https://huggingface.co/papers/2607.20061",
+      "summary": "ReferTrack: Referring Then Tracking for Embodied Visual Tracking",
+      "summary_en": "ReferTrack: Referring Then Tracking for Embodied Visual Tracking"
     },
     {
-      "title": "2",
-      "title_en": "2",
-      "url": "https://huggingface.co/papers/2607.21556#community",
-      "summary": "2",
-      "summary_en": "2"
+      "title": "Visual Contrastive Self-Distillation",
+      "title_en": "Visual Contrastive Self-Distillation",
+      "url": "https://huggingface.co/papers/2607.21556",
+      "summary": "Visual Contrastive Self-Distillation",
+      "summary_en": "Visual Contrastive Self-Distillation"
     },
     {
-      "title": "2",
-      "title_en": "2",
-      "url": "https://huggingface.co/papers/2607.21072#community",
-      "summary": "2",
-      "summary_en": "2"
+      "title": "Show, Don't Tell: Evaluating Spatial Cognition in Generative Pixels Rather Than LLM Text",
+      "title_en": "Show, Don't Tell: Evaluating Spatial Cognition in Generative Pixels Rather Than LLM Text",
+      "url": "https://huggingface.co/papers/2607.21072",
+      "summary": "Show, Don't Tell: Evaluating Spatial Cognition in Generative Pixels Rather Than LLM Text",
+      "summary_en": "Show, Don't Tell: Evaluating Spatial Cognition in Generative Pixels Rather Than LLM Text"
     }
   ],
-  "geeknews": []
+  "geeknews": [
+    {
+      "title": "Chrome이 Gemini 팝업용 전역 단축키를 무단 등록",
+      "title_en": "Chrome이 Gemini 팝업용 전역 단축키를 무단 등록",
+      "url": "https://news.hada.io/topic?id=31806",
+      "summary": "Chrome이 사용자 동의 없이 Mac의 Ctrl+G 전역 단축키를 등록해 다른 앱에서도 Gemini 팝업이 열리도록 함 코딩 편집기의 줄 이동 단축키와 충돌하는 데다, 팝업에는 Chrome·Gemini 식별 정보와 비활성화 기능이 명확히 드러나지 않음 단축키를 끄려면 Ch...",
+      "summary_en": "Chrome이 사용자 동의 없이 Mac의 Ctrl+G 전역 단축키를 등록해 다른 앱에서도 Gemini 팝업이 열리도록 함 코딩 편집기의 줄 이동 단축키와 충돌하는 데다, 팝업에는 Chrome·Gemini 식별 정보와 비활성화 기능이 명확히 드러나지 않음 단축키를 끄려면 Ch..."
+    },
+    {
+      "title": "Show GN: 캐치마인드 좋아하세요?",
+      "title_en": "Show GN: 캐치마인드 좋아하세요?",
+      "url": "https://news.hada.io/topic?id=31803",
+      "summary": "캐치마인드 좋아하는데 친구들이랑 모이기 어려워서 못 한 지 오래됐어요. 그림 문제를 언제든지 만들고, 풀 수 있도록 만들었습니다.",
+      "summary_en": "캐치마인드 좋아하는데 친구들이랑 모이기 어려워서 못 한 지 오래됐어요. 그림 문제를 언제든지 만들고, 풀 수 있도록 만들었습니다."
+    },
+    {
+      "title": "Show GN: 에이전트의 토큰낭비를 잡는 CLI를 만들었습니다! (공개 트레이스 6,780개)",
+      "title_en": "Show GN: 에이전트의 토큰낭비를 잡는 CLI를 만들었습니다! (공개 트레이스 6,780개)",
+      "url": "https://news.hada.io/topic?id=31802",
+      "summary": "토큰 낭비가 안 보이는 이유는 실패가 아니라 중복이라서입니다 같은 파일 두 번 읽기, 같은 인자로 재시도, 같은 도구 재호출. 그래서 끝난 트레이스를 읽어서 어느 스텝이 이미 한 일을 또 했는지 짚어주는 CLI를 만들었습니다! [써보기] pip install &quot;clew-custos[detect]&quot; python -",
+      "summary_en": "토큰 낭비가 안 보이는 이유는 실패가 아니라 중복이라서입니다 같은 파일 두 번 읽기, 같은 인자로 재시도, 같은 도구 재호출. 그래서 끝난 트레이스를 읽어서 어느 스텝이 이미 한 일을 또 했는지 짚어주는 CLI를 만들었습니다! [써보기] pip install &quot;clew-custos[detect]&quot; python -"
+    },
+    {
+      "title": "인도 정부, GitHub에 Bluetooth 채팅 앱 Bitchat 삭제 명령",
+      "title_en": "인도 정부, GitHub에 Bluetooth 채팅 앱 Bitchat 삭제 명령",
+      "url": "https://news.hada.io/topic?id=31800",
+      "summary": "인도 내무부 산하 Indian Cybercrime Coordination Centre가 보안 우려를 이유로 GitHub에 Bluetooth 기반 메시징 앱 Bitchat의 삭제를 명령함 Bitchat 개발자이자 전 Twitter CEO인 Jack Dorsey가 2026년 7월 24일 X에서 정부 통지서를 공개함 공개된 통...",
+      "summary_en": "인도 내무부 산하 Indian Cybercrime Coordination Centre가 보안 우려를 이유로 GitHub에 Bluetooth 기반 메시징 앱 Bitchat의 삭제를 명령함 Bitchat 개발자이자 전 Twitter CEO인 Jack Dorsey가 2026년 7월 24일 X에서 정부 통지서를 공개함 공개된 통..."
+    },
+    {
+      "title": "databasement - 웹UI 기반 셀프호스팅 DB 백업 관리자",
+      "title_en": "databasement - 웹UI 기반 셀프호스팅 DB 백업 관리자",
+      "url": "https://news.hada.io/topic?id=31799",
+      "summary": "여러 종류의 DB를 단일 웹 UI에서 백업, 복원, 스케줄링하는 셀프 호스팅 관리자 MySQL/PostgreSQL/MariaDB/MSSQL/MongoDB/SQLite/Firebird/Redis/Valkey 지원 SSH 터널: bastion/jump 서버를 경유해 사설망 내 DB에 비밀번호 또는 키 기반 인증으로 접속...",
+      "summary_en": "여러 종류의 DB를 단일 웹 UI에서 백업, 복원, 스케줄링하는 셀프 호스팅 관리자 MySQL/PostgreSQL/MariaDB/MSSQL/MongoDB/SQLite/Firebird/Redis/Valkey 지원 SSH 터널: bastion/jump 서버를 경유해 사설망 내 DB에 비밀번호 또는 키 기반 인증으로 접속..."
+    }
+  ]
 }
