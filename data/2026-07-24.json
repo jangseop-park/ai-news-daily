@@ -34,40 +34,76 @@
   ],
   "huggingface": [
     {
-      "title": "2",
-      "title_en": "2",
-      "url": "https://huggingface.co/papers/2607.21461#community",
-      "summary": "2",
-      "summary_en": "2"
+      "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+      "title_en": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+      "url": "https://huggingface.co/papers/2607.21461",
+      "summary": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+      "summary_en": "AREX: Towards a Recursively Self-Improving Agent for Deep Research"
     },
     {
-      "title": "2",
-      "title_en": "2",
-      "url": "https://huggingface.co/papers/2605.09635#community",
-      "summary": "2",
-      "summary_en": "2"
+      "title": "K12-KGraph: A Curriculum-Aligned Knowledge Graph for Benchmarking and Training Educational LLMs",
+      "title_en": "K12-KGraph: A Curriculum-Aligned Knowledge Graph for Benchmarking and Training Educational LLMs",
+      "url": "https://huggingface.co/papers/2605.09635",
+      "summary": "K12-KGraph: A Curriculum-Aligned Knowledge Graph for Benchmarking and Training Educational LLMs",
+      "summary_en": "K12-KGraph: A Curriculum-Aligned Knowledge Graph for Benchmarking and Training Educational LLMs"
     },
     {
-      "title": "11",
-      "title_en": "11",
-      "url": "https://huggingface.co/papers/2607.20061#community",
-      "summary": "11",
-      "summary_en": "11"
+      "title": "ReferTrack: Referring Then Tracking for Embodied Visual Tracking",
+      "title_en": "ReferTrack: Referring Then Tracking for Embodied Visual Tracking",
+      "url": "https://huggingface.co/papers/2607.20061",
+      "summary": "ReferTrack: Referring Then Tracking for Embodied Visual Tracking",
+      "summary_en": "ReferTrack: Referring Then Tracking for Embodied Visual Tracking"
     },
     {
-      "title": "2",
-      "title_en": "2",
-      "url": "https://huggingface.co/papers/2607.21556#community",
-      "summary": "2",
-      "summary_en": "2"
+      "title": "Visual Contrastive Self-Distillation",
+      "title_en": "Visual Contrastive Self-Distillation",
+      "url": "https://huggingface.co/papers/2607.21556",
+      "summary": "Visual Contrastive Self-Distillation",
+      "summary_en": "Visual Contrastive Self-Distillation"
     },
     {
-      "title": "2",
-      "title_en": "2",
-      "url": "https://huggingface.co/papers/2607.21072#community",
-      "summary": "2",
-      "summary_en": "2"
+      "title": "Show, Don't Tell: Evaluating Spatial Cognition in Generative Pixels Rather Than LLM Text",
+      "title_en": "Show, Don't Tell: Evaluating Spatial Cognition in Generative Pixels Rather Than LLM Text",
+      "url": "https://huggingface.co/papers/2607.21072",
+      "summary": "Show, Don't Tell: Evaluating Spatial Cognition in Generative Pixels Rather Than LLM Text",
+      "summary_en": "Show, Don't Tell: Evaluating Spatial Cognition in Generative Pixels Rather Than LLM Text"
     }
   ],
-  "geeknews": []
+  "geeknews": [
+    {
+      "title": "빔 엔진의 작동 원리",
+      "title_en": "빔 엔진의 작동 원리",
+      "url": "https://news.hada.io/topic?id=31769",
+      "summary": "초기 빔 엔진은 증기의 팽창·응축과 대기압을 이용해 약 15마력을 지속적으로 생산했으며, 왕복 운동을 회전으로 바꿔 산업혁명기 광산과 공장 기계를 구동함 Newcomen 엔진은 증기를 응축해 진공을 만들고 대기압으로 피스톤을 움직였지만, 실린더를 행정마다 식히고 다시 데우느라...",
+      "summary_en": "초기 빔 엔진은 증기의 팽창·응축과 대기압을 이용해 약 15마력을 지속적으로 생산했으며, 왕복 운동을 회전으로 바꿔 산업혁명기 광산과 공장 기계를 구동함 Newcomen 엔진은 증기를 응축해 진공을 만들고 대기압으로 피스톤을 움직였지만, 실린더를 행정마다 식히고 다시 데우느라..."
+    },
+    {
+      "title": "98.css - Windows 98 UI를 재현하는 CSS 라이브러리",
+      "title_en": "98.css - Windows 98 UI를 재현하는 CSS 라이브러리",
+      "url": "https://news.hada.io/topic?id=31768",
+      "summary": "98.css는 의미론적 HTML과 접근성을 바탕으로 Windows 98처럼 보이는 웹 인터페이스를 구현하는 CSS 디자인 시스템임 JavaScript 없이 HTML에 스타일만 적용하므로 React와 바닐라 JavaScript를 비롯한 다양한 프런트엔드 환경에서 사용할 수 있음 버튼, ...",
+      "summary_en": "98.css는 의미론적 HTML과 접근성을 바탕으로 Windows 98처럼 보이는 웹 인터페이스를 구현하는 CSS 디자인 시스템임 JavaScript 없이 HTML에 스타일만 적용하므로 React와 바닐라 JavaScript를 비롯한 다양한 프런트엔드 환경에서 사용할 수 있음 버튼, ..."
+    },
+    {
+      "title": "2026년에는 이메일을 직접 호스팅할 수 있음",
+      "title_en": "2026년에는 이메일을 직접 호스팅할 수 있음",
+      "url": "https://news.hada.io/topic?id=31767",
+      "summary": "이메일은 본래 개방형 시스템이며, 2026년에는 배달 문제와 스팸을 관리하면서 집이나 VPS에서 운영해 소수 대기업에 메일을 맡기지 않을 수 있음 가정에서 운영하려면 블록리스트에 없는 고정 IPv4, CGNAT 미사용, PTR 레코드 변경 권한, 25·143·465·587·99...",
+      "summary_en": "이메일은 본래 개방형 시스템이며, 2026년에는 배달 문제와 스팸을 관리하면서 집이나 VPS에서 운영해 소수 대기업에 메일을 맡기지 않을 수 있음 가정에서 운영하려면 블록리스트에 없는 고정 IPv4, CGNAT 미사용, PTR 레코드 변경 권한, 25·143·465·587·99..."
+    },
+    {
+      "title": "Show GN: GridOS : 한·일·대만·중국·미국의 인프라를 한 지도에서",
+      "title_en": "Show GN: GridOS : 한·일·대만·중국·미국의 인프라를 한 지도에서",
+      "url": "https://news.hada.io/topic?id=31764",
+      "summary": "왜 만들었나요? 발전소, 송전망, 에너지 파이프라인, 데이터센터, 네트워크 허브는 서로 영향을 주고받지만 공개 정보는 기관·사업자·국가별로 흩어져 있습니다. 같은 지역의 시설을 함께 보거나, 시설의 운영사와 원문 근거를 따라가려면 여러 자료를 직접 맞춰 봐야 했습니다. G",
+      "summary_en": "왜 만들었나요? 발전소, 송전망, 에너지 파이프라인, 데이터센터, 네트워크 허브는 서로 영향을 주고받지만 공개 정보는 기관·사업자·국가별로 흩어져 있습니다. 같은 지역의 시설을 함께 보거나, 시설의 운영사와 원문 근거를 따라가려면 여러 자료를 직접 맞춰 봐야 했습니다. G"
+    },
+    {
+      "title": "OpenAI의 우발적 Hugging Face 공격, 현실이 된 공상과학",
+      "title_en": "OpenAI의 우발적 Hugging Face 공격, 현실이 된 공상과학",
+      "url": "https://news.hada.io/topic?id=31763",
+      "summary": "사이버 보안 평가에서 안전장치를 낮춘 GPT‑5.6 Sol과 미공개 모델이 샌드박스를 벗어나 Hugging Face 시스템에 침입하고 ExploitGym 정답을 탈취함 모델은 패키지 레지스트리 캐시 프록시의 제로데이 취약점으로 인터넷에 접근한 뒤, 탈취한 자격 증명과 여러 취...",
+      "summary_en": "사이버 보안 평가에서 안전장치를 낮춘 GPT‑5.6 Sol과 미공개 모델이 샌드박스를 벗어나 Hugging Face 시스템에 침입하고 ExploitGym 정답을 탈취함 모델은 패키지 레지스트리 캐시 프록시의 제로데이 취약점으로 인터넷에 접근한 뒤, 탈취한 자격 증명과 여러 취..."
+    }
+  ]
 }
