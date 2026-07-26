@@ -34,39 +34,39 @@
   ],
   "huggingface": [
     {
-      "title": "AREX: 딥리서치를 위한 재귀적 자기개선 에이전트",
-      "title_en": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
-      "url": "https://huggingface.co/papers/2607.21461",
-      "summary": "스스로를 반복 개선하며 심층 연구를 수행하는 에이전트를 제안함. 베이징 AI 연구원(BAAI) 연구임.",
-      "summary_en": "Proposes an agent capable of recursive self-improvement for deep research tasks. From BAAI."
+      "title": "비디오에서 구조화된 다이내믹스의 자기지도 학습",
+      "title_en": "Self-Supervised Learning of Structured Dynamics from Videos",
+      "url": "https://huggingface.co/papers/2607.21576",
+      "summary": "레이블 없이 비디오에서 물리적 구조와 움직임 패턴을 자기지도 방식으로 학습하는 방법을 제안함.",
+      "summary_en": "Proposes self-supervised learning of physical structure and motion patterns from videos without labels."
     },
     {
-      "title": "K12-KGraph: 교육용 LLM 벤치마킹·학습을 위한 교육과정 정렬 지식그래프",
-      "title_en": "K12-KGraph: A Curriculum-Aligned Knowledge Graph for Benchmarking and Training Educational LLMs",
-      "url": "https://huggingface.co/papers/2605.09635",
-      "summary": "초중고 교육과정에 맞춘 지식그래프로 교육용 언어모델을 학습·평가하는 자원을 구축함. 베이징대 연구임.",
-      "summary_en": "Builds a curriculum-aligned knowledge graph to train and evaluate educational LLMs. From Peking University."
+      "title": "세계 상태 레지스터를 갖춘 스트리밍 멀티에이전트 자기회귀 확산 모델",
+      "title_en": "Streaming Multi-Agent Autoregressive Diffusion Model with World State Registers",
+      "url": "https://huggingface.co/papers/2607.21594",
+      "summary": "세계 상태 레지스터를 활용한 멀티에이전트 스트리밍 확산 모델임. 실시간 협력 에이전트 생성을 가능하게 함.",
+      "summary_en": "Multi-agent streaming diffusion model with world state registers enabling real-time collaborative agent generation."
     },
     {
-      "title": "ReferTrack: 지시 후 추적으로 구현하는 임바디드 시각 추적",
-      "title_en": "ReferTrack: Referring Then Tracking for Embodied Visual Tracking",
-      "url": "https://huggingface.co/papers/2607.20061",
-      "summary": "언어로 대상을 지시한 뒤 추적하는 방식으로 임바디드 시각 추적을 수행함. 텐센트 연구임.",
-      "summary_en": "Combines reference resolution with tracking for embodied visual tracking. From Tencent."
+      "title": "에이전트 경험으로부터의 샘플 효율적 학습",
+      "title_en": "Sample-Efficient Learning from Agent Experience",
+      "url": "https://huggingface.co/papers/2607.21051",
+      "summary": "에이전트가 직접 경험한 데이터를 재활용해 샘플 효율을 높이는 강화학습 방법론임.",
+      "summary_en": "Reinforcement learning method that reuses agent experience to improve sample efficiency."
     },
     {
-      "title": "Visual Contrastive Self-Distillation (시각 대조 자기증류)",
-      "title_en": "Visual Contrastive Self-Distillation",
-      "url": "https://huggingface.co/papers/2607.21556",
-      "summary": "대조 학습과 자기증류를 결합해 시각 표현 학습 성능을 높이는 기법임. 메릴랜드대 연구임.",
-      "summary_en": "Improves visual representation learning by combining contrastive learning with self-distillation. From University of Maryland."
+      "title": "Robostral Navigate: 로봇 내비게이션 모델",
+      "title_en": "Robostral Navigate",
+      "url": "https://huggingface.co/papers/2607.20785",
+      "summary": "자율 로봇 내비게이션을 위한 새로운 모델을 제안함. 복잡한 환경에서의 경로 계획 성능을 향상시킴.",
+      "summary_en": "Proposes a new model for autonomous robot navigation with improved path planning in complex environments."
     },
     {
-      "title": "Show, Don't Tell: 텍스트 대신 생성 픽셀로 공간 인지 평가",
-      "title_en": "Show, Don't Tell: Evaluating Spatial Cognition in Generative Pixels Rather Than LLM Text",
-      "url": "https://huggingface.co/papers/2607.21072",
-      "summary": "언어 출력 대신 생성된 이미지로 공간 이해 능력을 평가하는 방법을 제안함. ZJU-OmniAI 연구임.",
-      "summary_en": "Assesses spatial cognition through generated pixels instead of text output. From ZJU-OmniAI."
+      "title": "프리픽스 리플레이를 이용한 멀티턴 온폴리시 증류",
+      "title_en": "Multi-Turn On-Policy Distillation with Prefix Replay",
+      "url": "https://huggingface.co/papers/2607.04763",
+      "summary": "멀티턴 대화에서 온폴리시 증류를 안정화하기 위해 프리픽스 리플레이 기법을 적용함. 대화형 LLM 학습 효율을 개선함.",
+      "summary_en": "Applies prefix replay to stabilize on-policy distillation in multi-turn dialogue, improving conversational LLM training."
     }
   ],
   "geeknews": [
