@@ -1,46 +1,49 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-07-26
+> 마지막 업데이트: 2026-07-27
 
-# AI 뉴스 — 2026-07-26
+# AI 뉴스 — 2026-07-27
 
 ## 🔥 GitHub Trending (Python)
 
-- [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills): Claude AI 워크플로우를 커스터마이징하기 위한 Claude Skills, 리소스, 도구를 모아놓은 큐레이션 목록임.
-- [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos): 금융시장의 '언어'를 다루는 파운데이션 모델임. 시장 데이터를 토큰처럼 학습해 예측에 활용함.
-- [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec): TurboQuant 기반의 벡터 인덱스임. Rust로 작성되고 Python 바인딩을 제공해 빠른 검색이 가능함.
-- [andrewyng/aisuite](https://github.com/andrewyng/aisuite): 여러 생성형 AI 제공사를 하나의 통일된 인터페이스로 호출하는 라이브러리임. 앤드류 응이 만듦.
-- [MODSetter/SurfSense](https://github.com/MODSetter/SurfSense): 오픈소스 NotebookLM 대안임. Reddit·유튜브·구글 검색 등 라이브 데이터로 웹 리서치를 하며 API·MCP 서버로도 제공됨.
+- [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos): 금융 시장의 언어를 다루는 파운데이션 모델임. 시장 데이터용 사전학습 모델을 제공함.
+- [andrewyng/aisuite](https://github.com/andrewyng/aisuite): 여러 생성형 AI 제공사를 하나의 통합 인터페이스로 호출하게 해주는 라이브러리임. Andrew Ng 팀이 만듦.
+- [python/cpython](https://github.com/python/cpython): 파이썬 언어의 공식 레퍼런스 구현체임. C로 작성된 CPython 인터프리터 소스임.
+- [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills): Claude AI 워크플로우 커스터마이징을 위한 Claude Skills·리소스·도구를 큐레이션한 모음집임.
+- [home-assistant/core](https://github.com/home-assistant/core): 로컬 제어와 프라이버시를 우선하는 오픈소스 홈 자동화 플랫폼임.
 
 ## 📄 Hugging Face Papers
 
-- [AREX: 딥리서치를 위한 재귀적 자기개선 에이전트](https://huggingface.co/papers/2607.21461)
-  스스로를 반복 개선하며 심층 연구를 수행하는 에이전트를 제안함. 베이징 AI 연구원(BAAI) 연구임.
-- [K12-KGraph: 교육용 LLM 벤치마킹·학습을 위한 교육과정 정렬 지식그래프](https://huggingface.co/papers/2605.09635)
-  초중고 교육과정에 맞춘 지식그래프로 교육용 언어모델을 학습·평가하는 자원을 구축함. 베이징대 연구임.
-- [ReferTrack: 지시 후 추적으로 구현하는 임바디드 시각 추적](https://huggingface.co/papers/2607.20061)
-  언어로 대상을 지시한 뒤 추적하는 방식으로 임바디드 시각 추적을 수행함. 텐센트 연구임.
-- [Visual Contrastive Self-Distillation (시각 대조 자기증류)](https://huggingface.co/papers/2607.21556)
-  대조 학습과 자기증류를 결합해 시각 표현 학습 성능을 높이는 기법임. 메릴랜드대 연구임.
-- [Show, Don't Tell: 텍스트 대신 생성 픽셀로 공간 인지 평가](https://huggingface.co/papers/2607.21072)
-  언어 출력 대신 생성된 이미지로 공간 이해 능력을 평가하는 방법을 제안함. ZJU-OmniAI 연구임.
+- [AREX: 딥 리서치를 위한 재귀적 자기개선 에이전트](https://huggingface.co/papers/2607.21461)
+  딥 리서치를 수행하면서 스스로를 재귀적으로 개선하는 에이전트를 제안함. 반복적으로 성능을 끌어올림.
+- [K12-KGraph: 교육용 LLM을 위한 커리큘럼 정렬 지식 그래프](https://huggingface.co/papers/2605.09635)
+  초중고 커리큘럼에 정렬된 지식 그래프를 만들어 교육용 LLM 학습·평가에 활용함.
+- [ReferTrack: 임바디드 시각 추적을 위한 참조 후 추적](https://huggingface.co/papers/2607.20061)
+  언어 참조로 대상을 지정한 뒤 추적하는 임바디드 시각 추적 방법을 제안함.
+- [시각 대조 자기 증류](https://huggingface.co/papers/2607.21556)
+  대조 학습과 자기 증류를 결합한 시각 표현 학습 기법임. 라벨 없이도 표현력을 높임.
+- [Show, Don't Tell: 텍스트가 아닌 생성 픽셀로 공간 인지 평가](https://huggingface.co/papers/2607.21072)
+  텍스트 답변 대신 이미지를 생성하게 해 모델의 공간 인지 능력을 평가하는 벤치마크를 제시함.
 
 ## 🦉 GeekNews
 
-- [큰 효과를 만드는 작은 UI 디자인 팁들](https://news.hada.io/topic?id=31746)
-  UI 디자인은 예술 감각보다 일관된 논리 규칙을 적용할 때 배치·간격·서체·색상 결정이 더 빠르고 예측 가능해짐.
-- [나를 설레게 하는 차분한 기술들](https://news.hada.io/topic?id=31741)
-  기술은 사용자를 붙잡기보다 할 일을 돕고 물러나는 '집중형 컴퓨팅'이어야 하며, 하나의 인간적 기능에 집중해야 함.
-- [omp - Pi를 IDE 수준으로 확장한 터미널 AI 코딩 에이전트](https://news.hada.io/topic?id=31744)
-  오픈소스 코딩 에이전트 Pi를 기반으로 IDE 수준의 개발 도구와 실전 기능을 기본 탑재한 터미널 코딩 에이전트임.
-- [매일 집중하기가 점점 어려워지는 이유](https://news.hada.io/topic?id=31790)
-  프로그래밍·학습·글쓰기에 쓰는 한 시간조차 하나의 활동으로 유지하기 어려워졌고, 10분마다 이탈하는 일이 반복됨.
-- [graphify - 코드베이스를 질의 가능한 지식 그래프로 바꾸는 도구](https://news.hada.io/topic?id=31743)
-  AI 코딩 어시스턴트에서 코드·문서·PDF·이미지·영상을 지식 그래프로 매핑해, grep 대신 질문으로 탐색하게 해주는 도구임.
+- [Claude 5 모델을 위한 새로운 컨텍스트 엔지니어링 규칙](https://x.com/trq212/status/2080710971228918066)
+  Claude Opus 5·Fable 5에서는 시스템 프롬프트를 80% 이상 줄여도 코딩 평가 성능 저하가 없었음. 컨텍스트 규칙이 달라짐.
+- [매일 집중하기가 점점 어려워지는 이유](https://glyphack.com/attention/)
+  프로그래밍·학습·글쓰기에 쓰는 한 시간조차 하나의 활동으로 유지하기 어렵고, 10분마다 이탈 후 재집중이 반복됨.
+- [databasement — 웹UI 기반 셀프호스팅 DB 백업 관리자](https://github.com/David-Crty/databasement)
+  여러 종류의 DB를 단일 웹 UI에서 백업·복원·스케줄링하는 셀프 호스팅 관리자임. MySQL/PostgreSQL/MongoDB 등 지원함.
+- [코딩이 해결됐다면 왜 소프트웨어는 계속 나빠지는가?](https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/)
+  AI 도구로 개발 생산성은 올랐지만 소프트웨어 품질·안정성은 그만큼 나아지지 않아, 사용자는 업데이트 후 더 나쁜 경험부터 예상함.
+- [Anthropic Opus 5 출시](https://www.anthropic.com/news/claude-opus-5)
+  2026년 7월 24일 Claude Opus 5를 공개함. Opus 티어의 세대 교체급 개선 모델로, 프론티어 모델 Fable 5에 근접한 지능을 보임.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-07-26](data/2026-07-26.md)
+- [2026-07-25](data/2026-07-25.md)
+- [2026-07-24](data/2026-07-24.md)
 - [2026-07-23](data/2026-07-23.md)
 - [2026-07-22](data/2026-07-22.md)
 - [2026-07-21](data/2026-07-21.md)
@@ -67,6 +70,3 @@
 - [2026-06-28](data/2026-06-28.md)
 - [2026-06-27](data/2026-06-27.md)
 - [2026-06-26](data/2026-06-26.md)
-- [2026-06-25](data/2026-06-25.md)
-- [2026-06-24](data/2026-06-24.md)
-- [2026-06-23](data/2026-06-23.md)
