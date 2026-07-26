@@ -4,31 +4,31 @@
     {
       "name": "bojieli/ai-agent-book",
       "url": "https://github.com/bojieli/ai-agent-book",
-      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "description": "AI Agent 설계원리와 엔지니어링 실전을 다루는 오픈소스 도서임. 전체 본문·PDF·챕터별 코드 포함함.",
       "description_en": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码"
     },
     {
       "name": "tirth8205/code-review-graph",
       "url": "https://github.com/tirth8205/code-review-graph",
-      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "description": "MCP·CLI용 로컬 우선 코드 인텔리전스 그래프임. 코드베이스를 그래프 구조로 분석함.",
       "description_en": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows."
     },
     {
       "name": "MoonshotAI/kimi-cli",
       "url": "https://github.com/MoonshotAI/kimi-cli",
-      "description": "Kimi Code CLI is your next CLI agent.",
+      "description": "Kimi Code 기반 CLI 에이전트임. 터미널에서 바로 쓰는 차세대 코딩 보조 도구임.",
       "description_en": "Kimi Code CLI is your next CLI agent."
     },
     {
       "name": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "Learn it. Build it. Ship it for others.",
+      "description": "AI 엔지니어링을 처음부터 배우고 직접 만들어 배포하는 실습 레포임.",
       "description_en": "Learn it. Build it. Ship it for others."
     },
     {
       "name": "HKUDS/DeepTutor",
       "url": "https://github.com/HKUDS/DeepTutor",
-      "description": "DeepTutor: Lifelong Personalized Tutoring.",
+      "description": "평생 개인화 튜터링을 제공하는 AI 교육 시스템임. 학습자 수준에 맞춰 지속적으로 적응함.",
       "description_en": "DeepTutor: Lifelong Personalized Tutoring."
     }
   ],
