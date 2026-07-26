@@ -1,0 +1,109 @@
+{
+  "date": "2026-07-27",
+  "github_trending": [
+    {
+      "name": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "금융 시장의 언어를 다루는 파운데이션 모델임. 시장 데이터용 사전학습 모델을 제공함.",
+      "description_en": "Kronos: A Foundation Model for the Language of Financial Markets"
+    },
+    {
+      "name": "andrewyng/aisuite",
+      "url": "https://github.com/andrewyng/aisuite",
+      "description": "여러 생성형 AI 제공사를 하나의 통합 인터페이스로 호출하게 해주는 라이브러리임. Andrew Ng 팀이 만듦.",
+      "description_en": "Simple, unified interface to multiple Generative AI providers"
+    },
+    {
+      "name": "python/cpython",
+      "url": "https://github.com/python/cpython",
+      "description": "파이썬 언어의 공식 레퍼런스 구현체임. C로 작성된 CPython 인터프리터 소스임.",
+      "description_en": "The Python programming language"
+    },
+    {
+      "name": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "description": "Claude AI 워크플로우 커스터마이징을 위한 Claude Skills·리소스·도구를 큐레이션한 모음집임.",
+      "description_en": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows"
+    },
+    {
+      "name": "home-assistant/core",
+      "url": "https://github.com/home-assistant/core",
+      "description": "로컬 제어와 프라이버시를 우선하는 오픈소스 홈 자동화 플랫폼임.",
+      "description_en": "Open source home automation that puts local control and privacy first"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "AREX: 딥 리서치를 위한 재귀적 자기개선 에이전트",
+      "title_en": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+      "url": "https://huggingface.co/papers/2607.21461",
+      "summary": "딥 리서치를 수행하면서 스스로를 재귀적으로 개선하는 에이전트를 제안함. 반복적으로 성능을 끌어올림.",
+      "summary_en": "Proposes an agent that recursively self-improves while performing deep research."
+    },
+    {
+      "title": "K12-KGraph: 교육용 LLM을 위한 커리큘럼 정렬 지식 그래프",
+      "title_en": "K12-KGraph: A Curriculum-Aligned Knowledge Graph for Benchmarking and Training Educational LLMs",
+      "url": "https://huggingface.co/papers/2605.09635",
+      "summary": "초중고 커리큘럼에 정렬된 지식 그래프를 만들어 교육용 LLM 학습·평가에 활용함.",
+      "summary_en": "Builds a curriculum-aligned knowledge graph for training and benchmarking educational LLMs."
+    },
+    {
+      "title": "ReferTrack: 임바디드 시각 추적을 위한 참조 후 추적",
+      "title_en": "ReferTrack: Referring Then Tracking for Embodied Visual Tracking",
+      "url": "https://huggingface.co/papers/2607.20061",
+      "summary": "언어 참조로 대상을 지정한 뒤 추적하는 임바디드 시각 추적 방법을 제안함.",
+      "summary_en": "Proposes an embodied visual tracking method that refers to a target via language, then tracks it."
+    },
+    {
+      "title": "시각 대조 자기 증류",
+      "title_en": "Visual Contrastive Self-Distillation",
+      "url": "https://huggingface.co/papers/2607.21556",
+      "summary": "대조 학습과 자기 증류를 결합한 시각 표현 학습 기법임. 라벨 없이도 표현력을 높임.",
+      "summary_en": "A visual representation learning method combining contrastive learning with self-distillation."
+    },
+    {
+      "title": "Show, Don't Tell: 텍스트가 아닌 생성 픽셀로 공간 인지 평가",
+      "title_en": "Show, Don't Tell: Evaluating Spatial Cognition in Generative Pixels Rather Than LLM Text",
+      "url": "https://huggingface.co/papers/2607.21072",
+      "summary": "텍스트 답변 대신 이미지를 생성하게 해 모델의 공간 인지 능력을 평가하는 벤치마크를 제시함.",
+      "summary_en": "Introduces a benchmark evaluating spatial cognition by generating pixels rather than LLM text."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "Claude 5 모델을 위한 새로운 컨텍스트 엔지니어링 규칙",
+      "title_en": "New Context Engineering Rules for Claude 5 Models",
+      "url": "https://x.com/trq212/status/2080710971228918066",
+      "summary": "Claude Opus 5·Fable 5에서는 시스템 프롬프트를 80% 이상 줄여도 코딩 평가 성능 저하가 없었음. 컨텍스트 규칙이 달라짐.",
+      "summary_en": "With Claude Opus 5 and Fable 5, cutting the system prompt by 80%+ showed no measurable coding-eval regression."
+    },
+    {
+      "title": "매일 집중하기가 점점 어려워지는 이유",
+      "title_en": "Why It's Getting Harder to Focus Every Day",
+      "url": "https://glyphack.com/attention/",
+      "summary": "프로그래밍·학습·글쓰기에 쓰는 한 시간조차 하나의 활동으로 유지하기 어렵고, 10분마다 이탈 후 재집중이 반복됨.",
+      "summary_en": "Even an hour of programming, learning or writing is hard to sustain as one activity, breaking off every ten minutes."
+    },
+    {
+      "title": "databasement — 웹UI 기반 셀프호스팅 DB 백업 관리자",
+      "title_en": "databasement - A Web-UI Self-Hosted DB Backup Manager",
+      "url": "https://github.com/David-Crty/databasement",
+      "summary": "여러 종류의 DB를 단일 웹 UI에서 백업·복원·스케줄링하는 셀프 호스팅 관리자임. MySQL/PostgreSQL/MongoDB 등 지원함.",
+      "summary_en": "A self-hosted manager to back up, restore and schedule many DB types (MySQL/PostgreSQL/MongoDB, etc.) from one web UI."
+    },
+    {
+      "title": "코딩이 해결됐다면 왜 소프트웨어는 계속 나빠지는가?",
+      "title_en": "If Coding Is Solved, Why Does Software Keep Getting Worse?",
+      "url": "https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/",
+      "summary": "AI 도구로 개발 생산성은 올랐지만 소프트웨어 품질·안정성은 그만큼 나아지지 않아, 사용자는 업데이트 후 더 나쁜 경험부터 예상함.",
+      "summary_en": "AI tools boosted productivity but software quality and stability didn't follow, so users expect worse after updates."
+    },
+    {
+      "title": "Anthropic Opus 5 출시",
+      "title_en": "Anthropic Releases Opus 5",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "summary": "2026년 7월 24일 Claude Opus 5를 공개함. Opus 티어의 세대 교체급 개선 모델로, 프론티어 모델 Fable 5에 근접한 지능을 보임.",
+      "summary_en": "Claude Opus 5 launched on 2026-07-24, a generational Opus-tier upgrade approaching frontier Fable 5 intelligence."
+    }
+  ]
+}
