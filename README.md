@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-07-27
+> 마지막 업데이트: 2026-07-28
 
-# AI 뉴스 — 2026-07-27
+# AI 뉴스 — 2026-07-28
 
 ## 🔥 GitHub Trending (Python)
 
+- [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler): 샤오홍슈·더우인·콰이쇼우·비리비리·웨이보·바이두 티에바·즈후 등 중국 주요 플랫폼의 게시물·댓글 크롤러임.
 - [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos): 금융 시장의 언어를 다루는 파운데이션 모델임. 시장 데이터용 사전학습 모델을 제공함.
-- [andrewyng/aisuite](https://github.com/andrewyng/aisuite): 여러 생성형 AI 제공사를 하나의 통합 인터페이스로 호출하게 해주는 라이브러리임. Andrew Ng 팀이 만듦.
-- [python/cpython](https://github.com/python/cpython): 파이썬 언어의 공식 레퍼런스 구현체임. C로 작성된 CPython 인터프리터 소스임.
-- [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills): Claude AI 워크플로우 커스터마이징을 위한 Claude Skills·리소스·도구를 큐레이션한 모음집임.
-- [home-assistant/core](https://github.com/home-assistant/core): 로컬 제어와 프라이버시를 우선하는 오픈소스 홈 자동화 플랫폼임.
+- [bradautomates/claude-video](https://github.com/bradautomates/claude-video): Claude가 어떤 영상이든 볼 수 있게 해줌. /watch로 다운로드·프레임 추출·전사 후 Claude에 전달함.
+- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill): Reddit·X·YouTube·HN·Polymarket·웹을 조사해 근거 있는 요약을 합성하는 AI 에이전트 스킬임.
+- [usestrix/strix](https://github.com/usestrix/strix): 앱 취약점을 찾고 고치는 오픈소스 AI 침투 테스트 도구임.
 
 ## 📄 Hugging Face Papers
 
-- [AREX: 딥 리서치를 위한 재귀적 자기개선 에이전트](https://huggingface.co/papers/2607.21461)
-  딥 리서치를 수행하면서 스스로를 재귀적으로 개선하는 에이전트를 제안함. 반복적으로 성능을 끌어올림.
-- [K12-KGraph: 교육용 LLM을 위한 커리큘럼 정렬 지식 그래프](https://huggingface.co/papers/2605.09635)
-  초중고 커리큘럼에 정렬된 지식 그래프를 만들어 교육용 LLM 학습·평가에 활용함.
-- [ReferTrack: 임바디드 시각 추적을 위한 참조 후 추적](https://huggingface.co/papers/2607.20061)
-  언어 참조로 대상을 지정한 뒤 추적하는 임바디드 시각 추적 방법을 제안함.
-- [시각 대조 자기 증류](https://huggingface.co/papers/2607.21556)
-  대조 학습과 자기 증류를 결합한 시각 표현 학습 기법임. 라벨 없이도 표현력을 높임.
-- [Show, Don't Tell: 텍스트가 아닌 생성 픽셀로 공간 인지 평가](https://huggingface.co/papers/2607.21072)
-  텍스트 답변 대신 이미지를 생성하게 해 모델의 공간 인지 능력을 평가하는 벤치마크를 제시함.
+- [DataPrep-Bench: 학습 데이터 준비자로서의 LLM 벤치마킹](https://huggingface.co/papers/2607.20465)
+  LLM이 학습 데이터 준비 작업을 얼마나 잘 하는지 평가하는 벤치마크를 제안함.
+- [Skill Self-Play: 공진화하는 스킬로 LLM 능력 한계를 확장](https://huggingface.co/papers/2607.22529)
+  스킬끼리 공진화하는 셀프 플레이로 LLM의 능력 한계를 밀어올리는 방법을 제안함.
+- [Molt: 에이전트형 강화학습을 위한 확장 가능한 PyTorch 네이티브 훈련 프레임워크](https://huggingface.co/papers/2607.21653)
+  에이전트형 RL을 위한 확장 가능한 PyTorch 네이티브 훈련 프레임워크임.
+- [Agentic Context Management: 에이전트 메모리·비용을 생애주기·아키텍처 문제로 해결](https://huggingface.co/papers/2607.21503)
+  에이전트의 메모리와 비용 문제를 생애주기·아키텍처 관점으로 다뤄 해결하는 방법을 제시함.
+- [Interactive Training 2: 실시간 모델 훈련을 위한 감사 가능한 컨트롤 플레인](https://huggingface.co/papers/2607.18314)
+  실시간 모델 훈련을 감사 가능하게 제어하는 컨트롤 플레인을 제안함.
 
 ## 🦉 GeekNews
 
-- [Claude 5 모델을 위한 새로운 컨텍스트 엔지니어링 규칙](https://x.com/trq212/status/2080710971228918066)
-  Claude Opus 5·Fable 5에서는 시스템 프롬프트를 80% 이상 줄여도 코딩 평가 성능 저하가 없었음. 컨텍스트 규칙이 달라짐.
-- [매일 집중하기가 점점 어려워지는 이유](https://glyphack.com/attention/)
-  프로그래밍·학습·글쓰기에 쓰는 한 시간조차 하나의 활동으로 유지하기 어렵고, 10분마다 이탈 후 재집중이 반복됨.
-- [databasement — 웹UI 기반 셀프호스팅 DB 백업 관리자](https://github.com/David-Crty/databasement)
-  여러 종류의 DB를 단일 웹 UI에서 백업·복원·스케줄링하는 셀프 호스팅 관리자임. MySQL/PostgreSQL/MongoDB 등 지원함.
-- [코딩이 해결됐다면 왜 소프트웨어는 계속 나빠지는가?](https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/)
-  AI 도구로 개발 생산성은 올랐지만 소프트웨어 품질·안정성은 그만큼 나아지지 않아, 사용자는 업데이트 후 더 나쁜 경험부터 예상함.
-- [Anthropic Opus 5 출시](https://www.anthropic.com/news/claude-opus-5)
-  2026년 7월 24일 Claude Opus 5를 공개함. Opus 티어의 세대 교체급 개선 모델로, 프론티어 모델 Fable 5에 근접한 지능을 보임.
+- [재능이라는 허상](https://www.gwagjiug.com/blog/illusion_of_talent)
+  많은 주니어가 취업난·AI·뛰어난 동료를 보며 '재능이 없다'고 포기하지만, 흔히 말하는 재능은 대체로 허상임.
+- [Cerebras가 사내 지식 베이스를 구축한 방법](https://x.com/cerebras/status/2077822555159945507)
+  Slack·코드 저장소·문서·내부 DB를 원위치에서 직접 수집하는 Cerebras Knowledge를 만들어 3개월 만에 직원·에이전트가 활용함.
+- [Claude Code로 대규모 코드 마이그레이션을 수행한 방법](https://claude.com/blog/ai-code-migration)
+  Anthropic 개발자들이 Claude Fable 5·Opus 4.8과 동적 워크플로로 한 달간 수만~수십만 줄 규모 패키지 10개를 이전함.
+- [neko-master — 네트워크 트래픽 시각화·분석 대시보드](https://github.com/foru17/neko-master)
+  로컬 게이트웨이 환경 전용 트래픽 분석·시각화 대시보드임. 외부 구독 없이 자기 네트워크 데이터만 수집함.
+- [8달러짜리 마이크로컨트롤러에서 2,890만 매개변수 LLM 실행하기](https://github.com/slvDev/esp32-ai)
+  ESP32-S3에서 서버 없이 2,890만 매개변수 LLM을 구동해 작은 화면에 초당 약 9토큰으로 텍스트를 출력함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-07-27](data/2026-07-27.md)
 - [2026-07-26](data/2026-07-26.md)
 - [2026-07-25](data/2026-07-25.md)
 - [2026-07-24](data/2026-07-24.md)
@@ -69,4 +70,3 @@
 - [2026-06-29](data/2026-06-29.md)
 - [2026-06-28](data/2026-06-28.md)
 - [2026-06-27](data/2026-06-27.md)
-- [2026-06-26](data/2026-06-26.md)
