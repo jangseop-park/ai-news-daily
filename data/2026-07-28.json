@@ -1,0 +1,109 @@
+{
+  "date": "2026-07-28",
+  "github_trending": [
+    {
+      "name": "NanmiCoder/MediaCrawler",
+      "url": "https://github.com/NanmiCoder/MediaCrawler",
+      "description": "샤오홍슈·더우인·콰이쇼우·비리비리·웨이보·바이두 티에바·즈후 등 중국 주요 플랫폼의 게시물·댓글 크롤러임.",
+      "description_en": "A crawler for posts and comments across major Chinese platforms (Xiaohongshu, Douyin, Kuaishou, Bilibili, Weibo, etc.)"
+    },
+    {
+      "name": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "금융 시장의 언어를 다루는 파운데이션 모델임. 시장 데이터용 사전학습 모델을 제공함.",
+      "description_en": "Kronos: A Foundation Model for the Language of Financial Markets"
+    },
+    {
+      "name": "bradautomates/claude-video",
+      "url": "https://github.com/bradautomates/claude-video",
+      "description": "Claude가 어떤 영상이든 볼 수 있게 해줌. /watch로 다운로드·프레임 추출·전사 후 Claude에 전달함.",
+      "description_en": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude."
+    },
+    {
+      "name": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "Reddit·X·YouTube·HN·Polymarket·웹을 조사해 근거 있는 요약을 합성하는 AI 에이전트 스킬임.",
+      "description_en": "An AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket and the web, then synthesizes a grounded summary."
+    },
+    {
+      "name": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
+      "description": "앱 취약점을 찾고 고치는 오픈소스 AI 침투 테스트 도구임.",
+      "description_en": "Open-source AI penetration testing tool to find and fix your app's vulnerabilities."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "DataPrep-Bench: 학습 데이터 준비자로서의 LLM 벤치마킹",
+      "title_en": "DataPrep-Bench: Benchmarking LLMs as Training Data Preparators",
+      "url": "https://huggingface.co/papers/2607.20465",
+      "summary": "LLM이 학습 데이터 준비 작업을 얼마나 잘 하는지 평가하는 벤치마크를 제안함.",
+      "summary_en": "Proposes a benchmark evaluating how well LLMs perform training-data preparation tasks."
+    },
+    {
+      "title": "Skill Self-Play: 공진화하는 스킬로 LLM 능력 한계를 확장",
+      "title_en": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills",
+      "url": "https://huggingface.co/papers/2607.22529",
+      "summary": "스킬끼리 공진화하는 셀프 플레이로 LLM의 능력 한계를 밀어올리는 방법을 제안함.",
+      "summary_en": "Proposes a self-play method with co-evolving skills to push the frontier of LLM capability."
+    },
+    {
+      "title": "Molt: 에이전트형 강화학습을 위한 확장 가능한 PyTorch 네이티브 훈련 프레임워크",
+      "title_en": "Molt: A Scalable PyTorch-Native Training Framework for Agentic Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2607.21653",
+      "summary": "에이전트형 RL을 위한 확장 가능한 PyTorch 네이티브 훈련 프레임워크임.",
+      "summary_en": "A scalable PyTorch-native training framework for agentic reinforcement learning."
+    },
+    {
+      "title": "Agentic Context Management: 에이전트 메모리·비용을 생애주기·아키텍처 문제로 해결",
+      "title_en": "Agentic Context Management: Solving Agent Memory and Cost by Treating Them as Lifecycle and Architecture Problems",
+      "url": "https://huggingface.co/papers/2607.21503",
+      "summary": "에이전트의 메모리와 비용 문제를 생애주기·아키텍처 관점으로 다뤄 해결하는 방법을 제시함.",
+      "summary_en": "Solves agent memory and cost by treating them as lifecycle and architecture problems."
+    },
+    {
+      "title": "Interactive Training 2: 실시간 모델 훈련을 위한 감사 가능한 컨트롤 플레인",
+      "title_en": "Interactive Training 2: Auditable Control Plane for Live Model Training",
+      "url": "https://huggingface.co/papers/2607.18314",
+      "summary": "실시간 모델 훈련을 감사 가능하게 제어하는 컨트롤 플레인을 제안함.",
+      "summary_en": "Proposes an auditable control plane for live model training."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "재능이라는 허상",
+      "title_en": "The Illusion of Talent",
+      "url": "https://www.gwagjiug.com/blog/illusion_of_talent",
+      "summary": "많은 주니어가 취업난·AI·뛰어난 동료를 보며 '재능이 없다'고 포기하지만, 흔히 말하는 재능은 대체로 허상임.",
+      "summary_en": "Many juniors quit believing they lack talent amid a tough job market and AI, but the 'talent' they imagine is largely an illusion."
+    },
+    {
+      "title": "Cerebras가 사내 지식 베이스를 구축한 방법",
+      "title_en": "How Cerebras Built Its Internal Knowledge Base",
+      "url": "https://x.com/cerebras/status/2077822555159945507",
+      "summary": "Slack·코드 저장소·문서·내부 DB를 원위치에서 직접 수집하는 Cerebras Knowledge를 만들어 3개월 만에 직원·에이전트가 활용함.",
+      "summary_en": "Cerebras built 'Cerebras Knowledge' ingesting Slack, repos, docs and internal DBs in place, used by staff and agents within 3 months."
+    },
+    {
+      "title": "Claude Code로 대규모 코드 마이그레이션을 수행한 방법",
+      "title_en": "How We Ran Large-Scale Code Migration with Claude Code",
+      "url": "https://claude.com/blog/ai-code-migration",
+      "summary": "Anthropic 개발자들이 Claude Fable 5·Opus 4.8과 동적 워크플로로 한 달간 수만~수십만 줄 규모 패키지 10개를 이전함.",
+      "summary_en": "Anthropic devs migrated 10 packages of tens to hundreds of thousands of lines in a month using Claude Fable 5, Opus 4.8 and dynamic workflows."
+    },
+    {
+      "title": "neko-master — 네트워크 트래픽 시각화·분석 대시보드",
+      "title_en": "neko-master - A Network Traffic Visualization and Analysis Dashboard",
+      "url": "https://github.com/foru17/neko-master",
+      "summary": "로컬 게이트웨이 환경 전용 트래픽 분석·시각화 대시보드임. 외부 구독 없이 자기 네트워크 데이터만 수집함.",
+      "summary_en": "A local-gateway traffic analysis and visualization dashboard that collects only your own network data, no external subscription."
+    },
+    {
+      "title": "8달러짜리 마이크로컨트롤러에서 2,890만 매개변수 LLM 실행하기",
+      "title_en": "Running a 28.9M-Parameter LLM on an $8 Microcontroller",
+      "url": "https://github.com/slvDev/esp32-ai",
+      "summary": "ESP32-S3에서 서버 없이 2,890만 매개변수 LLM을 구동해 작은 화면에 초당 약 9토큰으로 텍스트를 출력함.",
+      "summary_en": "Runs a 28.9M-parameter LLM on the ESP32-S3 with no server, printing text to a tiny screen at ~9 tokens/sec."
+    }
+  ]
+}
