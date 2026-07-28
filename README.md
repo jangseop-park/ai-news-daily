@@ -1,29 +1,29 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-07-28
+> 마지막 업데이트: 2026-07-29
 
-# AI 뉴스 — 2026-07-28
+# AI 뉴스 — 2026-07-29
 
 ## 🔥 GitHub Trending (Python)
 
-- [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler): 샤오홍슈·더우인·콰이쇼우·비리비리·웨이보·바이두 티에바·즈후 등 중국 주요 플랫폼의 게시물·댓글 크롤러임.
-- [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos): 금융 시장의 언어를 다루는 파운데이션 모델임. 시장 데이터용 사전학습 모델을 제공함.
-- [bradautomates/claude-video](https://github.com/bradautomates/claude-video): Claude가 어떤 영상이든 볼 수 있게 해줌. /watch로 다운로드·프레임 추출·전사 후 Claude에 전달함.
-- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill): Reddit·X·YouTube·HN·Polymarket·웹을 조사해 근거 있는 요약을 합성하는 AI 에이전트 스킬임.
-- [usestrix/strix](https://github.com/usestrix/strix): 앱 취약점을 찾고 고치는 오픈소스 AI 침투 테스트 도구임.
+- [andrewyng/aisuite](https://github.com/andrewyng/aisuite): 여러 생성형 AI 제공사를 하나의 통합 인터페이스로 호출하게 해주는 라이브러리임. Andrew Ng 팀이 만듦.
+- [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech): 오픈소스 모델로 로컬 음성 에이전트를 구축하는 프로젝트임.
+- [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill): 기술 서적 PDF를 Claude Code 스킬로 변환해 학습·참조·활용할 수 있게 해줌.
+- [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading): 시스템 트레이딩용 라이브러리·전략·책·블로그·튜토리얼을 큐레이션한 모음집임.
+- [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit): 자율 AI 에이전트를 위한 정책 집행·제로트러스트 신원·실행 샌드박싱·신뢰성 엔지니어링 툴킷임. OWASP Agentic Top 10을 전부 다룸.
 
 ## 📄 Hugging Face Papers
 
-- [DataPrep-Bench: 학습 데이터 준비자로서의 LLM 벤치마킹](https://huggingface.co/papers/2607.20465)
-  LLM이 학습 데이터 준비 작업을 얼마나 잘 하는지 평가하는 벤치마크를 제안함.
-- [Skill Self-Play: 공진화하는 스킬로 LLM 능력 한계를 확장](https://huggingface.co/papers/2607.22529)
-  스킬끼리 공진화하는 셀프 플레이로 LLM의 능력 한계를 밀어올리는 방법을 제안함.
-- [Molt: 에이전트형 강화학습을 위한 확장 가능한 PyTorch 네이티브 훈련 프레임워크](https://huggingface.co/papers/2607.21653)
-  에이전트형 RL을 위한 확장 가능한 PyTorch 네이티브 훈련 프레임워크임.
-- [Agentic Context Management: 에이전트 메모리·비용을 생애주기·아키텍처 문제로 해결](https://huggingface.co/papers/2607.21503)
-  에이전트의 메모리와 비용 문제를 생애주기·아키텍처 관점으로 다뤄 해결하는 방법을 제시함.
-- [Interactive Training 2: 실시간 모델 훈련을 위한 감사 가능한 컨트롤 플레인](https://huggingface.co/papers/2607.18314)
-  실시간 모델 훈련을 감사 가능하게 제어하는 컨트롤 플레인을 제안함.
+- [Kimi K3: 오픈 프론티어 인텔리전스](https://huggingface.co/papers/2607.24653)
+  2.8조 매개변수·100만 토큰 컨텍스트의 오픈 가중치 네이티브 멀티모달 에이전트 모델임. 장시간 코딩·추론에 강함.
+- [JarvisHub: 캔버스 네이티브 멀티모달 창작 에이전트를 위한 오픈 하네스](https://huggingface.co/papers/2607.23588)
+  캔버스 위에서 동작하는 멀티모달 창작 에이전트를 위한 오픈 실행 하네스를 제안함.
+- [독점에서 오픈소스로: 에이전트형 검색의 다중 에이전트 프로토콜 증류](https://huggingface.co/papers/2607.24280)
+  다중 에이전트 프로토콜 증류로 독점 모델과 오픈소스 모델 간 분포 격차를 좁히는 방법을 제시함.
+- [로봇 학습을 위한 진행도 보상 모델링: 종합 서베이](https://huggingface.co/papers/2607.21655)
+  로봇 학습에서 진행도 기반 보상 모델링을 정리한 종합 서베이임.
+- [온폴리시 확산 증류에서 Classifier-Free Guidance 재고찰](https://huggingface.co/papers/2607.24731)
+  온폴리시 확산 증류 맥락에서 CFG(Classifier-Free Guidance)를 다시 검토하고 개선함.
 
 ## 🦉 GeekNews
 
@@ -31,16 +31,17 @@
   많은 주니어가 취업난·AI·뛰어난 동료를 보며 '재능이 없다'고 포기하지만, 흔히 말하는 재능은 대체로 허상임.
 - [Cerebras가 사내 지식 베이스를 구축한 방법](https://x.com/cerebras/status/2077822555159945507)
   Slack·코드 저장소·문서·내부 DB를 원위치에서 직접 수집하는 Cerebras Knowledge를 만들어 3개월 만에 직원·에이전트가 활용함.
+- [개발자를 위한 데이터 도구 지형 가이드](https://sinja.io/blog/data-landscape-guide-for-developers)
+  데이터 분야에 처음 온 개발자가 도구 이름만 외우지 않고, 수집·저장·처리·활용 단계별로 각 도구의 역할과 연결을 이해하도록 정리함.
 - [Claude Code로 대규모 코드 마이그레이션을 수행한 방법](https://claude.com/blog/ai-code-migration)
   Anthropic 개발자들이 Claude Fable 5·Opus 4.8과 동적 워크플로로 한 달간 수만~수십만 줄 규모 패키지 10개를 이전함.
-- [neko-master — 네트워크 트래픽 시각화·분석 대시보드](https://github.com/foru17/neko-master)
-  로컬 게이트웨이 환경 전용 트래픽 분석·시각화 대시보드임. 외부 구독 없이 자기 네트워크 데이터만 수집함.
-- [8달러짜리 마이크로컨트롤러에서 2,890만 매개변수 LLM 실행하기](https://github.com/slvDev/esp32-ai)
-  ESP32-S3에서 서버 없이 2,890만 매개변수 LLM을 구동해 작은 화면에 초당 약 9토큰으로 텍스트를 출력함.
+- [Netflix의 사내 LLM 서빙 플랫폼](https://netflixtechblog.com/in-house-llm-serving-at-netflix-a5a8e799ea2c)
+  Netflix는 LLM을 별도 사일로로 두지 않고 기존 ML 인프라에서 함께 운영하며, vLLM과 Triton을 통합 서빙 체계에 연결함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-07-28](data/2026-07-28.md)
 - [2026-07-27](data/2026-07-27.md)
 - [2026-07-26](data/2026-07-26.md)
 - [2026-07-25](data/2026-07-25.md)
@@ -69,4 +70,3 @@
 - [2026-07-01](data/2026-07-01.md)
 - [2026-06-29](data/2026-06-29.md)
 - [2026-06-28](data/2026-06-28.md)
-- [2026-06-27](data/2026-06-27.md)
