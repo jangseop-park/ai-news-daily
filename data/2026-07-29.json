@@ -1,0 +1,109 @@
+{
+  "date": "2026-07-29",
+  "github_trending": [
+    {
+      "name": "andrewyng/aisuite",
+      "url": "https://github.com/andrewyng/aisuite",
+      "description": "여러 생성형 AI 제공사를 하나의 통합 인터페이스로 호출하게 해주는 라이브러리임. Andrew Ng 팀이 만듦.",
+      "description_en": "Simple, unified interface to multiple Generative AI providers"
+    },
+    {
+      "name": "huggingface/speech-to-speech",
+      "url": "https://github.com/huggingface/speech-to-speech",
+      "description": "오픈소스 모델로 로컬 음성 에이전트를 구축하는 프로젝트임.",
+      "description_en": "Build local voice agents with open-source models"
+    },
+    {
+      "name": "virgiliojr94/book-to-skill",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "description": "기술 서적 PDF를 Claude Code 스킬로 변환해 학습·참조·활용할 수 있게 해줌.",
+      "description_en": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work."
+    },
+    {
+      "name": "paperswithbacktest/awesome-systematic-trading",
+      "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "description": "시스템 트레이딩용 라이브러리·전략·책·블로그·튜토리얼을 큐레이션한 모음집임.",
+      "description_en": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading."
+    },
+    {
+      "name": "microsoft/agent-governance-toolkit",
+      "url": "https://github.com/microsoft/agent-governance-toolkit",
+      "description": "자율 AI 에이전트를 위한 정책 집행·제로트러스트 신원·실행 샌드박싱·신뢰성 엔지니어링 툴킷임. OWASP Agentic Top 10을 전부 다룸.",
+      "description_en": "AI Agent Governance Toolkit — policy enforcement, zero-trust identity, execution sandboxing, reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "Kimi K3: 오픈 프론티어 인텔리전스",
+      "title_en": "Kimi K3: Open Frontier Intelligence",
+      "url": "https://huggingface.co/papers/2607.24653",
+      "summary": "2.8조 매개변수·100만 토큰 컨텍스트의 오픈 가중치 네이티브 멀티모달 에이전트 모델임. 장시간 코딩·추론에 강함.",
+      "summary_en": "An open-weight native multimodal agent model with 2.8T parameters and a 1M-token context, strong at long-horizon coding and reasoning."
+    },
+    {
+      "title": "JarvisHub: 캔버스 네이티브 멀티모달 창작 에이전트를 위한 오픈 하네스",
+      "title_en": "JarvisHub: An Open Harness for Canvas-Native Multimodal Creative Agents",
+      "url": "https://huggingface.co/papers/2607.23588",
+      "summary": "캔버스 위에서 동작하는 멀티모달 창작 에이전트를 위한 오픈 실행 하네스를 제안함.",
+      "summary_en": "Proposes an open execution harness for canvas-native multimodal creative agents."
+    },
+    {
+      "title": "독점에서 오픈소스로: 에이전트형 검색의 다중 에이전트 프로토콜 증류",
+      "title_en": "From Proprietary to Open-Source: Bridging the Distribution Gap via Multi-Agent Protocol Distillation in Agentic Search",
+      "url": "https://huggingface.co/papers/2607.24280",
+      "summary": "다중 에이전트 프로토콜 증류로 독점 모델과 오픈소스 모델 간 분포 격차를 좁히는 방법을 제시함.",
+      "summary_en": "Bridges the distribution gap between proprietary and open-source models via multi-agent protocol distillation in agentic search."
+    },
+    {
+      "title": "로봇 학습을 위한 진행도 보상 모델링: 종합 서베이",
+      "title_en": "Progress Reward Modeling for Robotic Learning: A Comprehensive Survey",
+      "url": "https://huggingface.co/papers/2607.21655",
+      "summary": "로봇 학습에서 진행도 기반 보상 모델링을 정리한 종합 서베이임.",
+      "summary_en": "A comprehensive survey of progress-based reward modeling for robotic learning."
+    },
+    {
+      "title": "온폴리시 확산 증류에서 Classifier-Free Guidance 재고찰",
+      "title_en": "Rethinking Classifier-Free Guidance in On-Policy Diffusion Distillation",
+      "url": "https://huggingface.co/papers/2607.24731",
+      "summary": "온폴리시 확산 증류 맥락에서 CFG(Classifier-Free Guidance)를 다시 검토하고 개선함.",
+      "summary_en": "Rethinks and improves classifier-free guidance in the context of on-policy diffusion distillation."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "재능이라는 허상",
+      "title_en": "The Illusion of Talent",
+      "url": "https://www.gwagjiug.com/blog/illusion_of_talent",
+      "summary": "많은 주니어가 취업난·AI·뛰어난 동료를 보며 '재능이 없다'고 포기하지만, 흔히 말하는 재능은 대체로 허상임.",
+      "summary_en": "Many juniors quit believing they lack talent amid a tough job market and AI, but the 'talent' they imagine is largely an illusion."
+    },
+    {
+      "title": "Cerebras가 사내 지식 베이스를 구축한 방법",
+      "title_en": "How Cerebras Built Its Internal Knowledge Base",
+      "url": "https://x.com/cerebras/status/2077822555159945507",
+      "summary": "Slack·코드 저장소·문서·내부 DB를 원위치에서 직접 수집하는 Cerebras Knowledge를 만들어 3개월 만에 직원·에이전트가 활용함.",
+      "summary_en": "Cerebras built 'Cerebras Knowledge' ingesting Slack, repos, docs and internal DBs in place, used by staff and agents within 3 months."
+    },
+    {
+      "title": "개발자를 위한 데이터 도구 지형 가이드",
+      "title_en": "A Data Landscape Guide for Developers",
+      "url": "https://sinja.io/blog/data-landscape-guide-for-developers",
+      "summary": "데이터 분야에 처음 온 개발자가 도구 이름만 외우지 않고, 수집·저장·처리·활용 단계별로 각 도구의 역할과 연결을 이해하도록 정리함.",
+      "summary_en": "Helps developers new to data understand each tool's role across ingest, storage, processing and use, rather than just memorizing names."
+    },
+    {
+      "title": "Claude Code로 대규모 코드 마이그레이션을 수행한 방법",
+      "title_en": "How We Ran Large-Scale Code Migration with Claude Code",
+      "url": "https://claude.com/blog/ai-code-migration",
+      "summary": "Anthropic 개발자들이 Claude Fable 5·Opus 4.8과 동적 워크플로로 한 달간 수만~수십만 줄 규모 패키지 10개를 이전함.",
+      "summary_en": "Anthropic devs migrated 10 packages of tens to hundreds of thousands of lines in a month using Claude Fable 5, Opus 4.8 and dynamic workflows."
+    },
+    {
+      "title": "Netflix의 사내 LLM 서빙 플랫폼",
+      "title_en": "In-House LLM Serving at Netflix",
+      "url": "https://netflixtechblog.com/in-house-llm-serving-at-netflix-a5a8e799ea2c",
+      "summary": "Netflix는 LLM을 별도 사일로로 두지 않고 기존 ML 인프라에서 함께 운영하며, vLLM과 Triton을 통합 서빙 체계에 연결함.",
+      "summary_en": "Netflix runs LLMs within its existing ML infra rather than a separate silo, wiring vLLM and Triton into one unified serving stack."
+    }
+  ]
+}
