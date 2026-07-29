@@ -1,0 +1,109 @@
+{
+  "date": "2026-07-30",
+  "github_trending": [
+    {
+      "name": "huggingface/speech-to-speech",
+      "url": "https://github.com/huggingface/speech-to-speech",
+      "description": "오픈소스 모델로 로컬 음성 에이전트를 구축하는 프로젝트임.",
+      "description_en": "Build local voice agents with open-source models"
+    },
+    {
+      "name": "deepfakes/faceswap",
+      "url": "https://github.com/deepfakes/faceswap",
+      "description": "누구나 쓸 수 있는 딥페이크 얼굴 교체 소프트웨어임.",
+      "description_en": "Deepfakes Software For All"
+    },
+    {
+      "name": "microsoft/VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "description": "Microsoft의 오픈소스 프론티어 음성 AI임.",
+      "description_en": "Open-Source Frontier Voice AI"
+    },
+    {
+      "name": "NanmiCoder/MediaCrawler",
+      "url": "https://github.com/NanmiCoder/MediaCrawler",
+      "description": "샤오홍슈·더우인·콰이쇼우·비리비리·웨이보·즈후 등 중국 주요 플랫폼의 게시물·댓글 크롤러임.",
+      "description_en": "A crawler for posts and comments across major Chinese platforms (Xiaohongshu, Douyin, Kuaishou, Bilibili, Weibo, etc.)"
+    },
+    {
+      "name": "paperswithbacktest/awesome-systematic-trading",
+      "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "description": "시스템 트레이딩용 라이브러리·전략·책·블로그·튜토리얼을 큐레이션한 모음집임.",
+      "description_en": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "HiFi-UMI: 고충실도 UMI 데이터만으로 배포 가능한 조작 정책 학습",
+      "title_en": "HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone",
+      "url": "https://huggingface.co/papers/2607.25895",
+      "summary": "고충실도 UMI 데이터만으로 실제 배포 가능한 로봇 조작 정책을 학습하는 방법을 제안함.",
+      "summary_en": "Learns deployable robot manipulation policies from high-fidelity UMI data alone."
+    },
+    {
+      "title": "Relevance의 새로운 역할: 에이전트형 검색에서 코퍼스 상호작용 안내",
+      "title_en": "A New Role for Relevance: Guiding Corpus Interaction in Agentic Search",
+      "url": "https://huggingface.co/papers/2607.24223",
+      "summary": "에이전트형 검색에서 관련성(relevance)을 코퍼스 상호작용을 안내하는 신호로 재정의함.",
+      "summary_en": "Reframes relevance as a signal that guides corpus interaction in agentic search."
+    },
+    {
+      "title": "ReDesign: 에이전트형 분해로 이미지에서 편집 가능한 디자인 구조 복원",
+      "title_en": "ReDesign: Recovering Editable Design Structures from Images via Agentic Decomposition",
+      "url": "https://huggingface.co/papers/2607.25565",
+      "summary": "에이전트형 분해를 통해 이미지에서 편집 가능한 디자인 구조를 복원하는 방법을 제안함.",
+      "summary_en": "Recovers editable design structures from images via agentic decomposition."
+    },
+    {
+      "title": "CodeNib: 코딩 에이전트에 저장소 컨텍스트를 제공하는 멀티뷰 데이터 시스템",
+      "title_en": "CodeNib: A Multi-View Data System for Serving Repository Context to Coding Agents",
+      "url": "https://huggingface.co/papers/2607.25431",
+      "summary": "코딩 에이전트에게 저장소 컨텍스트를 효율적으로 제공하는 멀티뷰 데이터 시스템임.",
+      "summary_en": "A multi-view data system that serves repository context to coding agents."
+    },
+    {
+      "title": "Keep It InMind: 에이전트 메모리의 암묵적 연관 사각지대 벤치마킹",
+      "title_en": "Keep It InMind: Benchmarking the Implicit-Association Blind Spot in Agent Memory",
+      "url": "https://huggingface.co/papers/2607.24368",
+      "summary": "에이전트 메모리가 암묵적 연관을 놓치는 사각지대를 측정하는 벤치마크를 제안함.",
+      "summary_en": "Benchmarks the implicit-association blind spot in agent memory."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "개발자를 위한 데이터 도구 지형 가이드",
+      "title_en": "A Data Landscape Guide for Developers",
+      "url": "https://sinja.io/blog/data-landscape-guide-for-developers",
+      "summary": "데이터 분야에 처음 온 개발자가 도구 이름만 외우지 않고, 수집·저장·처리·활용 단계별로 각 도구의 역할과 연결을 이해하도록 정리함.",
+      "summary_en": "Helps developers new to data understand each tool's role across ingest, storage, processing and use, rather than just memorizing names."
+    },
+    {
+      "title": "AI로 11일 만에 끝낸 Bun의 Zig→Rust 재작성에서 배울 점",
+      "title_en": "What We Can Learn from Bun's Rapid Rust Rewrite with AI in 11 Days",
+      "url": "https://blog.pragmaticengineer.com/the-pulse-what-can-we-learn-from-buns-rapid-rust-rewrite-with-ai/",
+      "summary": "메모리 안전성 없는 Zig에서 누수·충돌이 계속되자, Bun이 53만여 줄을 64개 AI 에이전트로 Rust에 옮겨 1~2년치 작업을 11일로 단축함.",
+      "summary_en": "After leaks and crashes in memory-unsafe Zig, Bun moved ~535k lines to Rust with 64 AI agents, cutting a 1-2 year job to 11 days."
+    },
+    {
+      "title": "500달러로 미세조정한 9B 오픈 모델, 카탈로그 검수에서 프런티어 모델 능가",
+      "title_en": "A $500-Fine-Tuned 9B Open Model Beats Frontier Models at Catalog Review",
+      "url": "https://fermisense.com/when-machines-take-the-wheel/",
+      "summary": "전자상거래 카탈로그 검수용 9B 오픈 모델을 약 500달러로 강화학습 미세조정해, 같은 조건의 모든 프런티어 모델을 능가함.",
+      "summary_en": "A 9B open model RL-fine-tuned for ~$500 outperformed every frontier model on e-commerce catalog review under the same setup."
+    },
+    {
+      "title": "송재경, AI와 게임",
+      "title_en": "Jake Song on AI and Games",
+      "url": "https://www.inven.co.kr/webzine/news/?news=318963",
+      "summary": "'리니지'·'아키에이지'를 만든 송재경이 'AI 특이점은 이미 진입했다'며 오픈소스 MMORPG 프로젝트 Open MMO를 소개함.",
+      "summary_en": "Jake Song, creator of Lineage and ArcheAge, says the AI singularity has already begun and introduces his open-source Open MMO project."
+    },
+    {
+      "title": "Topcoat — Rust를 위한 풀스택 웹 프레임워크",
+      "title_en": "Topcoat - A Full-Stack Web Framework for Rust",
+      "url": "https://github.com/tokio-rs/topcoat",
+      "summary": "모든 마크업을 서버에서 렌더링하고 컴포넌트가 async로 DB를 직접 조회해 별도 API 계층 보일러플레이트를 없앤 Rust 풀스택 웹 프레임워크임.",
+      "summary_en": "A Rust full-stack web framework that renders all markup server-side and lets components query the DB async, removing API-layer boilerplate."
+    }
+  ]
+}
