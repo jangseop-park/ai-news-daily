@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-07-29
+> 마지막 업데이트: 2026-07-30
 
-# AI 뉴스 — 2026-07-29
+# AI 뉴스 — 2026-07-30
 
 ## 🔥 GitHub Trending (Python)
 
-- [andrewyng/aisuite](https://github.com/andrewyng/aisuite): 여러 생성형 AI 제공사를 하나의 통합 인터페이스로 호출하게 해주는 라이브러리임. Andrew Ng 팀이 만듦.
 - [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech): 오픈소스 모델로 로컬 음성 에이전트를 구축하는 프로젝트임.
-- [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill): 기술 서적 PDF를 Claude Code 스킬로 변환해 학습·참조·활용할 수 있게 해줌.
+- [deepfakes/faceswap](https://github.com/deepfakes/faceswap): 누구나 쓸 수 있는 딥페이크 얼굴 교체 소프트웨어임.
+- [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice): Microsoft의 오픈소스 프론티어 음성 AI임.
+- [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler): 샤오홍슈·더우인·콰이쇼우·비리비리·웨이보·즈후 등 중국 주요 플랫폼의 게시물·댓글 크롤러임.
 - [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading): 시스템 트레이딩용 라이브러리·전략·책·블로그·튜토리얼을 큐레이션한 모음집임.
-- [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit): 자율 AI 에이전트를 위한 정책 집행·제로트러스트 신원·실행 샌드박싱·신뢰성 엔지니어링 툴킷임. OWASP Agentic Top 10을 전부 다룸.
 
 ## 📄 Hugging Face Papers
 
-- [Kimi K3: 오픈 프론티어 인텔리전스](https://huggingface.co/papers/2607.24653)
-  2.8조 매개변수·100만 토큰 컨텍스트의 오픈 가중치 네이티브 멀티모달 에이전트 모델임. 장시간 코딩·추론에 강함.
-- [JarvisHub: 캔버스 네이티브 멀티모달 창작 에이전트를 위한 오픈 하네스](https://huggingface.co/papers/2607.23588)
-  캔버스 위에서 동작하는 멀티모달 창작 에이전트를 위한 오픈 실행 하네스를 제안함.
-- [독점에서 오픈소스로: 에이전트형 검색의 다중 에이전트 프로토콜 증류](https://huggingface.co/papers/2607.24280)
-  다중 에이전트 프로토콜 증류로 독점 모델과 오픈소스 모델 간 분포 격차를 좁히는 방법을 제시함.
-- [로봇 학습을 위한 진행도 보상 모델링: 종합 서베이](https://huggingface.co/papers/2607.21655)
-  로봇 학습에서 진행도 기반 보상 모델링을 정리한 종합 서베이임.
-- [온폴리시 확산 증류에서 Classifier-Free Guidance 재고찰](https://huggingface.co/papers/2607.24731)
-  온폴리시 확산 증류 맥락에서 CFG(Classifier-Free Guidance)를 다시 검토하고 개선함.
+- [HiFi-UMI: 고충실도 UMI 데이터만으로 배포 가능한 조작 정책 학습](https://huggingface.co/papers/2607.25895)
+  고충실도 UMI 데이터만으로 실제 배포 가능한 로봇 조작 정책을 학습하는 방법을 제안함.
+- [Relevance의 새로운 역할: 에이전트형 검색에서 코퍼스 상호작용 안내](https://huggingface.co/papers/2607.24223)
+  에이전트형 검색에서 관련성(relevance)을 코퍼스 상호작용을 안내하는 신호로 재정의함.
+- [ReDesign: 에이전트형 분해로 이미지에서 편집 가능한 디자인 구조 복원](https://huggingface.co/papers/2607.25565)
+  에이전트형 분해를 통해 이미지에서 편집 가능한 디자인 구조를 복원하는 방법을 제안함.
+- [CodeNib: 코딩 에이전트에 저장소 컨텍스트를 제공하는 멀티뷰 데이터 시스템](https://huggingface.co/papers/2607.25431)
+  코딩 에이전트에게 저장소 컨텍스트를 효율적으로 제공하는 멀티뷰 데이터 시스템임.
+- [Keep It InMind: 에이전트 메모리의 암묵적 연관 사각지대 벤치마킹](https://huggingface.co/papers/2607.24368)
+  에이전트 메모리가 암묵적 연관을 놓치는 사각지대를 측정하는 벤치마크를 제안함.
 
 ## 🦉 GeekNews
 
-- [재능이라는 허상](https://www.gwagjiug.com/blog/illusion_of_talent)
-  많은 주니어가 취업난·AI·뛰어난 동료를 보며 '재능이 없다'고 포기하지만, 흔히 말하는 재능은 대체로 허상임.
-- [Cerebras가 사내 지식 베이스를 구축한 방법](https://x.com/cerebras/status/2077822555159945507)
-  Slack·코드 저장소·문서·내부 DB를 원위치에서 직접 수집하는 Cerebras Knowledge를 만들어 3개월 만에 직원·에이전트가 활용함.
 - [개발자를 위한 데이터 도구 지형 가이드](https://sinja.io/blog/data-landscape-guide-for-developers)
   데이터 분야에 처음 온 개발자가 도구 이름만 외우지 않고, 수집·저장·처리·활용 단계별로 각 도구의 역할과 연결을 이해하도록 정리함.
-- [Claude Code로 대규모 코드 마이그레이션을 수행한 방법](https://claude.com/blog/ai-code-migration)
-  Anthropic 개발자들이 Claude Fable 5·Opus 4.8과 동적 워크플로로 한 달간 수만~수십만 줄 규모 패키지 10개를 이전함.
-- [Netflix의 사내 LLM 서빙 플랫폼](https://netflixtechblog.com/in-house-llm-serving-at-netflix-a5a8e799ea2c)
-  Netflix는 LLM을 별도 사일로로 두지 않고 기존 ML 인프라에서 함께 운영하며, vLLM과 Triton을 통합 서빙 체계에 연결함.
+- [AI로 11일 만에 끝낸 Bun의 Zig→Rust 재작성에서 배울 점](https://blog.pragmaticengineer.com/the-pulse-what-can-we-learn-from-buns-rapid-rust-rewrite-with-ai/)
+  메모리 안전성 없는 Zig에서 누수·충돌이 계속되자, Bun이 53만여 줄을 64개 AI 에이전트로 Rust에 옮겨 1~2년치 작업을 11일로 단축함.
+- [500달러로 미세조정한 9B 오픈 모델, 카탈로그 검수에서 프런티어 모델 능가](https://fermisense.com/when-machines-take-the-wheel/)
+  전자상거래 카탈로그 검수용 9B 오픈 모델을 약 500달러로 강화학습 미세조정해, 같은 조건의 모든 프런티어 모델을 능가함.
+- [송재경, AI와 게임](https://www.inven.co.kr/webzine/news/?news=318963)
+  '리니지'·'아키에이지'를 만든 송재경이 'AI 특이점은 이미 진입했다'며 오픈소스 MMORPG 프로젝트 Open MMO를 소개함.
+- [Topcoat — Rust를 위한 풀스택 웹 프레임워크](https://github.com/tokio-rs/topcoat)
+  모든 마크업을 서버에서 렌더링하고 컴포넌트가 async로 DB를 직접 조회해 별도 API 계층 보일러플레이트를 없앤 Rust 풀스택 웹 프레임워크임.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-07-29](data/2026-07-29.md)
 - [2026-07-28](data/2026-07-28.md)
 - [2026-07-27](data/2026-07-27.md)
 - [2026-07-26](data/2026-07-26.md)
@@ -69,4 +70,3 @@
 - [2026-07-02](data/2026-07-02.md)
 - [2026-07-01](data/2026-07-01.md)
 - [2026-06-29](data/2026-06-29.md)
-- [2026-06-28](data/2026-06-28.md)
