@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-07-30
+> 마지막 업데이트: 2026-07-31
 
-# AI 뉴스 — 2026-07-30
+# AI 뉴스 — 2026-07-31
 
 ## 🔥 GitHub Trending (Python)
 
 - [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech): 오픈소스 모델로 로컬 음성 에이전트를 구축하는 프로젝트임.
-- [deepfakes/faceswap](https://github.com/deepfakes/faceswap): 누구나 쓸 수 있는 딥페이크 얼굴 교체 소프트웨어임.
-- [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice): Microsoft의 오픈소스 프론티어 음성 AI임.
-- [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler): 샤오홍슈·더우인·콰이쇼우·비리비리·웨이보·즈후 등 중국 주요 플랫폼의 게시물·댓글 크롤러임.
 - [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading): 시스템 트레이딩용 라이브러리·전략·책·블로그·튜토리얼을 큐레이션한 모음집임.
+- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill): Reddit·X·YouTube·HN·Polymarket·웹을 조사해 근거 있는 요약을 합성하는 AI 에이전트 스킬임.
+- [ansible/ansible](https://github.com/ansible/ansible): 코드 배포부터 네트워크 설정·클라우드 관리까지 자동화하는 단순한 IT 자동화 플랫폼임. 에이전트 설치 없이 SSH로 동작함.
+- [microsoft/TRELLIS.2](https://github.com/microsoft/TRELLIS.2): 3D 생성을 위한 네이티브·컴팩트 구조화 잠재표현(Structured Latents) 모델임.
 
 ## 📄 Hugging Face Papers
 
-- [HiFi-UMI: 고충실도 UMI 데이터만으로 배포 가능한 조작 정책 학습](https://huggingface.co/papers/2607.25895)
-  고충실도 UMI 데이터만으로 실제 배포 가능한 로봇 조작 정책을 학습하는 방법을 제안함.
-- [Relevance의 새로운 역할: 에이전트형 검색에서 코퍼스 상호작용 안내](https://huggingface.co/papers/2607.24223)
-  에이전트형 검색에서 관련성(relevance)을 코퍼스 상호작용을 안내하는 신호로 재정의함.
-- [ReDesign: 에이전트형 분해로 이미지에서 편집 가능한 디자인 구조 복원](https://huggingface.co/papers/2607.25565)
-  에이전트형 분해를 통해 이미지에서 편집 가능한 디자인 구조를 복원하는 방법을 제안함.
-- [CodeNib: 코딩 에이전트에 저장소 컨텍스트를 제공하는 멀티뷰 데이터 시스템](https://huggingface.co/papers/2607.25431)
-  코딩 에이전트에게 저장소 컨텍스트를 효율적으로 제공하는 멀티뷰 데이터 시스템임.
-- [Keep It InMind: 에이전트 메모리의 암묵적 연관 사각지대 벤치마킹](https://huggingface.co/papers/2607.24368)
-  에이전트 메모리가 암묵적 연관을 놓치는 사각지대를 측정하는 벤치마크를 제안함.
+- [TurboVLA: RTX 4090에서 1GB VRAM 미만·32Hz 실시간 비전-언어-행동 모델](https://huggingface.co/papers/2607.27205)
+  RTX 4090에서 1GB 미만 VRAM으로 32Hz 실시간 동작하는 비전-언어-행동(VLA) 모델을 제안함.
+- [CoRT: 토큰 단위 루브릭 안내 정책 최적화를 위한 반사실 재생](https://huggingface.co/papers/2607.25659)
+  반사실 재생으로 토큰 단위 루브릭 기반 정책 최적화를 수행하는 방법을 제안함.
+- [HumanCLAW: 비전-언어 모델은 몸을 통해 행동할 수 있는가?](https://huggingface.co/papers/2607.27180)
+  비전-언어 모델이 신체를 통해 행동할 수 있는지 평가하는 연구·벤치마크임.
+- [DecoEvo: 텍스트 공간에서 솔버·루브릭 생성 스킬의 점수 분리 공진화](https://huggingface.co/papers/2607.25675)
+  텍스트 공간에서 솔버와 루브릭 생성기 스킬을 점수 분리 방식으로 공진화시키는 방법을 제안함.
+- [CLBench-V: 그라운딩부터 지식 습득까지 멀티모달 맥락 학습 평가](https://huggingface.co/papers/2607.25294)
+  그라운딩부터 지식 습득까지 멀티모달 맥락 학습 능력을 평가하는 벤치마크임.
 
 ## 🦉 GeekNews
 
-- [개발자를 위한 데이터 도구 지형 가이드](https://sinja.io/blog/data-landscape-guide-for-developers)
-  데이터 분야에 처음 온 개발자가 도구 이름만 외우지 않고, 수집·저장·처리·활용 단계별로 각 도구의 역할과 연결을 이해하도록 정리함.
-- [AI로 11일 만에 끝낸 Bun의 Zig→Rust 재작성에서 배울 점](https://blog.pragmaticengineer.com/the-pulse-what-can-we-learn-from-buns-rapid-rust-rewrite-with-ai/)
-  메모리 안전성 없는 Zig에서 누수·충돌이 계속되자, Bun이 53만여 줄을 64개 AI 에이전트로 Rust에 옮겨 1~2년치 작업을 11일로 단축함.
+- [매니저가 된다는 것의 진실](https://sofiakodar.github.io/posts/becomingmanager/)
+  엔지니어링 매니저는 기술 업무를 넘어 어려운 결정·갈등·기밀·조직 불안을 감당하는 외롭고 책임 큰 역할임.
 - [500달러로 미세조정한 9B 오픈 모델, 카탈로그 검수에서 프런티어 모델 능가](https://fermisense.com/when-machines-take-the-wheel/)
   전자상거래 카탈로그 검수용 9B 오픈 모델을 약 500달러로 강화학습 미세조정해, 같은 조건의 모든 프런티어 모델을 능가함.
 - [송재경, AI와 게임](https://www.inven.co.kr/webzine/news/?news=318963)
   '리니지'·'아키에이지'를 만든 송재경이 'AI 특이점은 이미 진입했다'며 오픈소스 MMORPG 프로젝트 Open MMO를 소개함.
-- [Topcoat — Rust를 위한 풀스택 웹 프레임워크](https://github.com/tokio-rs/topcoat)
-  모든 마크업을 서버에서 렌더링하고 컴포넌트가 async로 DB를 직접 조회해 별도 API 계층 보일러플레이트를 없앤 Rust 풀스택 웹 프레임워크임.
+- [오픈소스 C++ 라이브러리 목록](https://ko.cppreference.com/cpp/links/libs)
+  C++ 개발자가 필요한 기능을 빠르게 찾을 수 있도록 오픈소스 라이브러리를 분야별로 정리한 목록임.
+- [업그레이드된 Go-To-Market 플레이북](https://www.nfx.com/post/upgraded-gtm-playbook)
+  혼잡·고비용의 SEO·PR 중심 성장 대신, 빠르게 크는 기업들은 제품 전략과 시장 진출(GTM) 전략을 결합함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-07-30](data/2026-07-30.md)
 - [2026-07-29](data/2026-07-29.md)
 - [2026-07-28](data/2026-07-28.md)
 - [2026-07-27](data/2026-07-27.md)
@@ -69,4 +70,3 @@
 - [2026-07-03](data/2026-07-03.md)
 - [2026-07-02](data/2026-07-02.md)
 - [2026-07-01](data/2026-07-01.md)
-- [2026-06-29](data/2026-06-29.md)
