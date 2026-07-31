@@ -1,29 +1,29 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-07-31
+> 마지막 업데이트: 2026-08-01
 
-# AI 뉴스 — 2026-07-31
+# AI 뉴스 — 2026-08-01
 
 ## 🔥 GitHub Trending (Python)
 
-- [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech): 오픈소스 모델로 로컬 음성 에이전트를 구축하는 프로젝트임.
-- [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading): 시스템 트레이딩용 라이브러리·전략·책·블로그·튜토리얼을 큐레이션한 모음집임.
 - [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill): Reddit·X·YouTube·HN·Polymarket·웹을 조사해 근거 있는 요약을 합성하는 AI 에이전트 스킬임.
-- [ansible/ansible](https://github.com/ansible/ansible): 코드 배포부터 네트워크 설정·클라우드 관리까지 자동화하는 단순한 IT 자동화 플랫폼임. 에이전트 설치 없이 SSH로 동작함.
-- [microsoft/TRELLIS.2](https://github.com/microsoft/TRELLIS.2): 3D 생성을 위한 네이티브·컴팩트 구조화 잠재표현(Structured Latents) 모델임.
+- [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading): 시스템 트레이딩용 라이브러리·전략·책·블로그·튜토리얼을 큐레이션한 모음집임.
+- [deepfakes/faceswap](https://github.com/deepfakes/faceswap): 누구나 쓸 수 있는 딥페이크 얼굴 교체 소프트웨어임.
+- [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill): 기술 서적 PDF를 Claude Code 스킬로 변환해 학습·참조·활용할 수 있게 해줌.
+- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo): 주제·키워드만 넣으면 AI 자동화 워크플로로 고화질 숏폼 영상을 원클릭 생성하는 도구임.
 
 ## 📄 Hugging Face Papers
 
-- [TurboVLA: RTX 4090에서 1GB VRAM 미만·32Hz 실시간 비전-언어-행동 모델](https://huggingface.co/papers/2607.27205)
-  RTX 4090에서 1GB 미만 VRAM으로 32Hz 실시간 동작하는 비전-언어-행동(VLA) 모델을 제안함.
-- [CoRT: 토큰 단위 루브릭 안내 정책 최적화를 위한 반사실 재생](https://huggingface.co/papers/2607.25659)
-  반사실 재생으로 토큰 단위 루브릭 기반 정책 최적화를 수행하는 방법을 제안함.
-- [HumanCLAW: 비전-언어 모델은 몸을 통해 행동할 수 있는가?](https://huggingface.co/papers/2607.27180)
-  비전-언어 모델이 신체를 통해 행동할 수 있는지 평가하는 연구·벤치마크임.
-- [DecoEvo: 텍스트 공간에서 솔버·루브릭 생성 스킬의 점수 분리 공진화](https://huggingface.co/papers/2607.25675)
-  텍스트 공간에서 솔버와 루브릭 생성기 스킬을 점수 분리 방식으로 공진화시키는 방법을 제안함.
-- [CLBench-V: 그라운딩부터 지식 습득까지 멀티모달 맥락 학습 평가](https://huggingface.co/papers/2607.25294)
-  그라운딩부터 지식 습득까지 멀티모달 맥락 학습 능력을 평가하는 벤치마크임.
+- [AskChem: 화학 문헌 종합을 위한 주장 중심 인프라](https://huggingface.co/papers/2607.28618)
+  화학 문헌을 주장(claim) 단위로 종합·검증하는 인프라를 제안함.
+- [Qwen-UI-Agent 기술 보고서: 차세대 실세계 중심 파운데이션 GUI 에이전트](https://huggingface.co/papers/2607.28227)
+  실세계 작업에 초점을 둔 차세대 파운데이션 GUI 에이전트 Qwen-UI-Agent의 기술 보고서임.
+- [Metis: 메모리 파운데이션 모델](https://huggingface.co/papers/2607.26760)
+  에이전트·모델의 기억을 담당하는 메모리 파운데이션 모델을 제안함.
+- [PhiZero: 물리 언어를 중심으로 구축한 월드 모델](https://huggingface.co/papers/2607.28624)
+  물리 언어(physical language)를 중심으로 구축한 월드 모델을 제안함.
+- [Frontis-MA1: ML 엔지니어링의 재귀적 자기개선을 향한 AI4AI 모델 훈련](https://huggingface.co/papers/2607.28568)
+  머신러닝 엔지니어링에서 재귀적 자기개선을 목표로 하는 AI4AI 모델을 훈련함.
 
 ## 🦉 GeekNews
 
@@ -33,14 +33,15 @@
   전자상거래 카탈로그 검수용 9B 오픈 모델을 약 500달러로 강화학습 미세조정해, 같은 조건의 모든 프런티어 모델을 능가함.
 - [송재경, AI와 게임](https://www.inven.co.kr/webzine/news/?news=318963)
   '리니지'·'아키에이지'를 만든 송재경이 'AI 특이점은 이미 진입했다'며 오픈소스 MMORPG 프로젝트 Open MMO를 소개함.
-- [오픈소스 C++ 라이브러리 목록](https://ko.cppreference.com/cpp/links/libs)
-  C++ 개발자가 필요한 기능을 빠르게 찾을 수 있도록 오픈소스 라이브러리를 분야별로 정리한 목록임.
 - [업그레이드된 Go-To-Market 플레이북](https://www.nfx.com/post/upgraded-gtm-playbook)
   혼잡·고비용의 SEO·PR 중심 성장 대신, 빠르게 크는 기업들은 제품 전략과 시장 진출(GTM) 전략을 결합함.
+- [TurboFieldfare — 모든 M 시리즈 Mac에서 Gemma 4 26B를 2GB RAM으로 실행](https://github.com/drumih/turbo-fieldfare)
+  14.3GB 전체 모델을 메모리에 다 올리지 않고 Gemma 4 26B-A4B를 약 2GB 메모리로 실행해 8GB Apple Silicon Mac에서도 구동 가능한 오픈소스 엔진임.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-07-31](data/2026-07-31.md)
 - [2026-07-30](data/2026-07-30.md)
 - [2026-07-29](data/2026-07-29.md)
 - [2026-07-28](data/2026-07-28.md)
@@ -69,4 +70,3 @@
 - [2026-07-05](data/2026-07-05.md)
 - [2026-07-03](data/2026-07-03.md)
 - [2026-07-02](data/2026-07-02.md)
-- [2026-07-01](data/2026-07-01.md)
