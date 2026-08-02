@@ -1,16 +1,16 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-08-02
+> 마지막 업데이트: 2026-08-03
 
-# AI 뉴스 — 2026-08-02
+# AI 뉴스 — 2026-08-03
 
 ## 🔥 GitHub Trending (Python)
 
-- [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading): 시스템 트레이딩용 라이브러리·전략·책·블로그·튜토리얼을 큐레이션한 모음집임.
-- [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech): 오픈소스 모델로 로컬 음성 에이전트를 구축하는 프로젝트임.
-- [abus-aikorea/voice-pro](https://github.com/abus-aikorea/voice-pro): TTS(Edge-TTS·kokoro)·제로샷 음성 클로닝(E2/F5-TTS·CosyVoice)·Whisper·유튜브 다운로드·Demucs 보컬 분리·다국어 번역을 갖춘 Gradio WebUI임.
-- [ansible/ansible](https://github.com/ansible/ansible): 코드 배포부터 네트워크 설정·클라우드 관리까지 자동화하는 단순한 IT 자동화 플랫폼임. 에이전트 설치 없이 SSH로 동작함.
-- [microsoft/TRELLIS.2](https://github.com/microsoft/TRELLIS.2): 3D 생성을 위한 네이티브·컴팩트 구조화 잠재표현(Structured Latents) 모델임.
+- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): AI 에이전트가 트위터·레딧·유튜브·깃허브·비리비리·샤오홍슈를 읽고 검색하게 해주는 CLI임. API 비용이 없음.
+- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill): Reddit·X·YouTube·HN·Polymarket·웹을 조사해 근거 있는 요약을 합성하는 AI 에이전트 스킬임.
+- [abus-aikorea/voice-pro](https://github.com/abus-aikorea/voice-pro): TTS·제로샷 음성 클로닝·Whisper·유튜브 다운로드·Demucs 보컬 분리·다국어 번역을 갖춘 Gradio WebUI임.
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): 사용자와 함께 성장하는 에이전트임. NousResearch가 공개함.
+- [Huanshere/VideoLingo](https://github.com/Huanshere/VideoLingo): 자막 분할·번역·정렬은 물론 더빙까지 원클릭으로 자동화하는 Netflix급 AI 영상 자막 도구임.
 
 ## 📄 Hugging Face Papers
 
@@ -20,17 +20,17 @@
   실세계 작업에 초점을 둔 차세대 파운데이션 GUI 에이전트 Qwen-UI-Agent의 기술 보고서임.
 - [Metis: 메모리 파운데이션 모델](https://huggingface.co/papers/2607.26760)
   에이전트·모델의 기억을 담당하는 메모리 파운데이션 모델을 제안함.
+- [Frontis-MA1: ML 엔지니어링의 재귀적 자기개선을 향한 AI4AI 모델 훈련](https://huggingface.co/papers/2607.28568)
+  머신러닝 엔지니어링에서 재귀적 자기개선을 목표로 하는 AI4AI 모델을 훈련함.
 - [PhiZero: 물리 언어를 중심으로 구축한 월드 모델](https://huggingface.co/papers/2607.28624)
   물리 언어(physical language)를 중심으로 구축한 월드 모델을 제안함.
-- [VideoCoCo: 에이전트형 듀얼 엔진으로 물리적으로 일관된 영상 생성 (Code-as-CoT)](https://huggingface.co/papers/2607.27380)
-  코드를 사고연쇄(CoT)로 활용하는 에이전트형 듀얼 엔진 시스템으로 물리적으로 일관된 영상을 생성함.
 
 ## 🦉 GeekNews
 
 - [GitHub Stacked PR 공개 프리뷰 시작](https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/)
   큰 변경을 작고 검토 가능한 계층으로 나누는 Stacked pull requests가 모든 저장소에 공개 프리뷰로 순차 제공됨.
-- [TurboFieldfare — 모든 M 시리즈 Mac에서 Gemma 4 26B를 2GB RAM으로 실행](https://github.com/drumih/turbo-fieldfare)
-  14.3GB 전체 모델을 다 올리지 않고 Gemma 4 26B-A4B를 약 2GB 메모리로 실행해 8GB Apple Silicon Mac에서도 구동 가능한 오픈소스 엔진임.
+- [리팩터링이 만드는 경제적 이점](https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html)
+  에이전트가 작성한 17,155줄 Rust 데이터 접근 계층을 단계적으로 리팩터링하니, 같은 기능 변경에 드는 입력 토큰이 15만여 개에서 크게 줄어듦.
 - [매니저가 된다는 것의 진실](https://sofiakodar.github.io/posts/becomingmanager/)
   엔지니어링 매니저는 기술 업무를 넘어 어려운 결정·갈등·기밀·조직 불안을 감당하는 외롭고 책임 큰 역할임.
 - [500달러로 미세조정한 9B 오픈 모델, 카탈로그 검수에서 프런티어 모델 능가](https://fermisense.com/when-machines-take-the-wheel/)
@@ -41,6 +41,7 @@
 ---
 ## 📅 이전 날짜
 
+- [2026-08-02](data/2026-08-02.md)
 - [2026-08-01](data/2026-08-01.md)
 - [2026-07-31](data/2026-07-31.md)
 - [2026-07-30](data/2026-07-30.md)
@@ -69,4 +70,3 @@
 - [2026-07-07](data/2026-07-07.md)
 - [2026-07-06](data/2026-07-06.md)
 - [2026-07-05](data/2026-07-05.md)
-- [2026-07-03](data/2026-07-03.md)
