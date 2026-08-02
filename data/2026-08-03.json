@@ -1,0 +1,109 @@
+{
+  "date": "2026-08-03",
+  "github_trending": [
+    {
+      "name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "AI 에이전트가 트위터·레딧·유튜브·깃허브·비리비리·샤오홍슈를 읽고 검색하게 해주는 CLI임. API 비용이 없음.",
+      "description_en": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees."
+    },
+    {
+      "name": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "Reddit·X·YouTube·HN·Polymarket·웹을 조사해 근거 있는 요약을 합성하는 AI 에이전트 스킬임.",
+      "description_en": "An AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket and the web, then synthesizes a grounded summary."
+    },
+    {
+      "name": "abus-aikorea/voice-pro",
+      "url": "https://github.com/abus-aikorea/voice-pro",
+      "description": "TTS·제로샷 음성 클로닝·Whisper·유튜브 다운로드·Demucs 보컬 분리·다국어 번역을 갖춘 Gradio WebUI임.",
+      "description_en": "A Gradio WebUI with TTS, zero-shot voice cloning, Whisper, YouTube download, Demucs vocal isolation and multilingual translation."
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "사용자와 함께 성장하는 에이전트임. NousResearch가 공개함.",
+      "description_en": "The agent that grows with you"
+    },
+    {
+      "name": "Huanshere/VideoLingo",
+      "url": "https://github.com/Huanshere/VideoLingo",
+      "description": "자막 분할·번역·정렬은 물론 더빙까지 원클릭으로 자동화하는 Netflix급 AI 영상 자막 도구임.",
+      "description_en": "Netflix-level subtitle cutting, translation, alignment and even dubbing — one-click fully automated AI video subtitle team."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "AskChem: 화학 문헌 종합을 위한 주장 중심 인프라",
+      "title_en": "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis",
+      "url": "https://huggingface.co/papers/2607.28618",
+      "summary": "화학 문헌을 주장(claim) 단위로 종합·검증하는 인프라를 제안함.",
+      "summary_en": "Proposes a claim-centered infrastructure for synthesizing and verifying chemistry literature."
+    },
+    {
+      "title": "Qwen-UI-Agent 기술 보고서: 차세대 실세계 중심 파운데이션 GUI 에이전트",
+      "title_en": "Qwen-UI-Agent Technical Report: Toward Next-Generation Real-World Centric Foundation GUI Agents",
+      "url": "https://huggingface.co/papers/2607.28227",
+      "summary": "실세계 작업에 초점을 둔 차세대 파운데이션 GUI 에이전트 Qwen-UI-Agent의 기술 보고서임.",
+      "summary_en": "A technical report on Qwen-UI-Agent, a next-generation real-world-centric foundation GUI agent."
+    },
+    {
+      "title": "Metis: 메모리 파운데이션 모델",
+      "title_en": "Metis: Memory Foundation Model",
+      "url": "https://huggingface.co/papers/2607.26760",
+      "summary": "에이전트·모델의 기억을 담당하는 메모리 파운데이션 모델을 제안함.",
+      "summary_en": "Proposes a memory foundation model dedicated to agent and model memory."
+    },
+    {
+      "title": "Frontis-MA1: ML 엔지니어링의 재귀적 자기개선을 향한 AI4AI 모델 훈련",
+      "title_en": "Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering",
+      "url": "https://huggingface.co/papers/2607.28568",
+      "summary": "머신러닝 엔지니어링에서 재귀적 자기개선을 목표로 하는 AI4AI 모델을 훈련함.",
+      "summary_en": "Trains an AI4AI model toward recursive self-improvement in machine learning engineering."
+    },
+    {
+      "title": "PhiZero: 물리 언어를 중심으로 구축한 월드 모델",
+      "title_en": "PhiZero: A World Model Built Around Physical Language",
+      "url": "https://huggingface.co/papers/2607.28624",
+      "summary": "물리 언어(physical language)를 중심으로 구축한 월드 모델을 제안함.",
+      "summary_en": "Proposes a world model built around a physical language."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "GitHub Stacked PR 공개 프리뷰 시작",
+      "title_en": "GitHub Stacked Pull Requests Now in Public Preview",
+      "url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/",
+      "summary": "큰 변경을 작고 검토 가능한 계층으로 나누는 Stacked pull requests가 모든 저장소에 공개 프리뷰로 순차 제공됨.",
+      "summary_en": "Stacked pull requests, which split big changes into small reviewable layers, are rolling out in public preview to all repositories."
+    },
+    {
+      "title": "리팩터링이 만드는 경제적 이점",
+      "title_en": "The Economic Benefit of Refactoring",
+      "url": "https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html",
+      "summary": "에이전트가 작성한 17,155줄 Rust 데이터 접근 계층을 단계적으로 리팩터링하니, 같은 기능 변경에 드는 입력 토큰이 15만여 개에서 크게 줄어듦.",
+      "summary_en": "Incrementally refactoring an agent-written 17,155-line Rust data-access layer sharply cut the input tokens needed for the same feature change (from ~159k)."
+    },
+    {
+      "title": "매니저가 된다는 것의 진실",
+      "title_en": "The Truth About Becoming a Manager",
+      "url": "https://sofiakodar.github.io/posts/becomingmanager/",
+      "summary": "엔지니어링 매니저는 기술 업무를 넘어 어려운 결정·갈등·기밀·조직 불안을 감당하는 외롭고 책임 큰 역할임.",
+      "summary_en": "An engineering manager takes on a lonely, high-responsibility role handling hard decisions, conflict, confidentiality and org anxiety beyond technical work."
+    },
+    {
+      "title": "500달러로 미세조정한 9B 오픈 모델, 카탈로그 검수에서 프런티어 모델 능가",
+      "title_en": "A $500-Fine-Tuned 9B Open Model Beats Frontier Models at Catalog Review",
+      "url": "https://fermisense.com/when-machines-take-the-wheel/",
+      "summary": "전자상거래 카탈로그 검수용 9B 오픈 모델을 약 500달러로 강화학습 미세조정해, 같은 조건의 모든 프런티어 모델을 능가함.",
+      "summary_en": "A 9B open model RL-fine-tuned for ~$500 outperformed every frontier model on e-commerce catalog review under the same setup."
+    },
+    {
+      "title": "송재경, AI와 게임",
+      "title_en": "Jake Song on AI and Games",
+      "url": "https://www.inven.co.kr/webzine/news/?news=318963",
+      "summary": "'리니지'·'아키에이지'를 만든 송재경이 'AI 특이점은 이미 진입했다'며 오픈소스 MMORPG 프로젝트 Open MMO를 소개함.",
+      "summary_en": "Jake Song, creator of Lineage and ArcheAge, says the AI singularity has already begun and introduces his open-source Open MMO project."
+    }
+  ]
+}
