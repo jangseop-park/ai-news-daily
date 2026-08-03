@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-08-03
+> 마지막 업데이트: 2026-08-04
 
-# AI 뉴스 — 2026-08-03
+# AI 뉴스 — 2026-08-04
 
 ## 🔥 GitHub Trending (Python)
 
+- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer): 대규모 시스템 설계를 배우고 시스템 디자인 면접을 준비하는 학습 자료임. Anki 플래시카드 포함.
+- [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos): 금융 시장의 언어를 다루는 파운데이션 모델임. 시장 데이터용 사전학습 모델을 제공함.
 - [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): AI 에이전트가 트위터·레딧·유튜브·깃허브·비리비리·샤오홍슈를 읽고 검색하게 해주는 CLI임. API 비용이 없음.
-- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill): Reddit·X·YouTube·HN·Polymarket·웹을 조사해 근거 있는 요약을 합성하는 AI 에이전트 스킬임.
-- [abus-aikorea/voice-pro](https://github.com/abus-aikorea/voice-pro): TTS·제로샷 음성 클로닝·Whisper·유튜브 다운로드·Demucs 보컬 분리·다국어 번역을 갖춘 Gradio WebUI임.
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): 사용자와 함께 성장하는 에이전트임. NousResearch가 공개함.
-- [Huanshere/VideoLingo](https://github.com/Huanshere/VideoLingo): 자막 분할·번역·정렬은 물론 더빙까지 원클릭으로 자동화하는 Netflix급 AI 영상 자막 도구임.
+- [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code): 터미널·앱·IDE·폰에서 Claude Code·Codex·Pi를 무료로 쓸 수 있게 해주는 도구임(음성 지원).
+- [livekit/agents](https://github.com/livekit/agents): 실시간 음성 AI 에이전트를 구축하기 위한 프레임워크임.
 
 ## 📄 Hugging Face Papers
 
-- [AskChem: 화학 문헌 종합을 위한 주장 중심 인프라](https://huggingface.co/papers/2607.28618)
-  화학 문헌을 주장(claim) 단위로 종합·검증하는 인프라를 제안함.
-- [Qwen-UI-Agent 기술 보고서: 차세대 실세계 중심 파운데이션 GUI 에이전트](https://huggingface.co/papers/2607.28227)
-  실세계 작업에 초점을 둔 차세대 파운데이션 GUI 에이전트 Qwen-UI-Agent의 기술 보고서임.
-- [Metis: 메모리 파운데이션 모델](https://huggingface.co/papers/2607.26760)
-  에이전트·모델의 기억을 담당하는 메모리 파운데이션 모델을 제안함.
-- [Frontis-MA1: ML 엔지니어링의 재귀적 자기개선을 향한 AI4AI 모델 훈련](https://huggingface.co/papers/2607.28568)
-  머신러닝 엔지니어링에서 재귀적 자기개선을 목표로 하는 AI4AI 모델을 훈련함.
-- [PhiZero: 물리 언어를 중심으로 구축한 월드 모델](https://huggingface.co/papers/2607.28624)
-  물리 언어(physical language)를 중심으로 구축한 월드 모델을 제안함.
+- [RLVR에서 RLSVR로: 과제 변환으로 개방형 LLM 자기개선용 자기검증 보상 유도](https://huggingface.co/papers/2607.23802)
+  과제를 변환해 자기검증 가능한 보상을 유도함으로써 개방형 문제에서 LLM이 스스로 개선하도록 함.
+- [Mental World Modeling (심적 세계 모델링)](https://huggingface.co/papers/2607.27201)
+  에이전트가 마음속으로 세계를 모델링하는 방식을 다루는 연구임.
+- [N_0-VTLA: 잠재 촉각 토큰으로 비전-촉각-언어-행동 모델 확장](https://huggingface.co/papers/2607.23782)
+  잠재 촉각 토큰을 활용해 비전-촉각-언어-행동(VTLA) 모델을 확장함.
+- [Meshy T2: Flow Matching 기반 빠른 네이티브 메시 생성](https://huggingface.co/papers/2607.28675)
+  Flow Matching으로 3D 메시를 빠르게 네이티브 생성하는 방법을 제안함.
+- [AISPA: LLM 애플리케이션을 위한 사용자 중심 시스템 프롬프트 감사](https://huggingface.co/papers/2607.28617)
+  LLM 앱의 시스템 프롬프트를 사용자 관점에서 감사·점검하는 방법을 제안함.
 
 ## 🦉 GeekNews
 
-- [GitHub Stacked PR 공개 프리뷰 시작](https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/)
-  큰 변경을 작고 검토 가능한 계층으로 나누는 Stacked pull requests가 모든 저장소에 공개 프리뷰로 순차 제공됨.
-- [리팩터링이 만드는 경제적 이점](https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html)
-  에이전트가 작성한 17,155줄 Rust 데이터 접근 계층을 단계적으로 리팩터링하니, 같은 기능 변경에 드는 입력 토큰이 15만여 개에서 크게 줄어듦.
-- [매니저가 된다는 것의 진실](https://sofiakodar.github.io/posts/becomingmanager/)
-  엔지니어링 매니저는 기술 업무를 넘어 어려운 결정·갈등·기밀·조직 불안을 감당하는 외롭고 책임 큰 역할임.
-- [500달러로 미세조정한 9B 오픈 모델, 카탈로그 검수에서 프런티어 모델 능가](https://fermisense.com/when-machines-take-the-wheel/)
-  전자상거래 카탈로그 검수용 9B 오픈 모델을 약 500달러로 강화학습 미세조정해, 같은 조건의 모든 프런티어 모델을 능가함.
-- [송재경, AI와 게임](https://www.inven.co.kr/webzine/news/?news=318963)
-  '리니지'·'아키에이지'를 만든 송재경이 'AI 특이점은 이미 진입했다'며 오픈소스 MMORPG 프로젝트 Open MMO를 소개함.
+- [Diátaxis — 기술 문서 작성을 위한 체계적 접근법](https://diataxis.fr/)
+  기술 문서를 튜토리얼·하우투·레퍼런스·설명 4가지로 나눠 목적별로 체계적으로 작성하는 프레임워크임.
+- [agent-device — AI 에이전트가 iOS/Android 기기를 제어하도록 돕는 CLI](https://github.com/callstack/agent-device)
+  AI 에이전트가 실제 iOS·Android 기기를 제어할 수 있게 해주는 CLI 도구임.
+- [가장 빠른 AI-First 기업은 실제로 어떻게 일하는가](https://www.nfx.com/post/ai-first-company-structure-mission-pods)
+  빠르게 성장하는 AI-First 기업은 전통적 조직도 대신 미션 단위의 소규모 '팟(pod)' 구조로 일한다고 분석함.
+- [자동화하지 말고, 완전히 없애버려라](https://blog.usv.com/obliterate)
+  비효율적인 업무를 자동화하기보다 아예 없애버리는 편이 더 큰 성과를 낸다고 주장함.
+- [Qwen3.8-Max: 코딩과 협업의 새로운 기준](https://qwen.ai/blog?id=qwen3.8)
+  Qwen3.8-Max가 코딩·협업 성능에서 새로운 기준을 제시하며 공개됨.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-08-03](data/2026-08-03.md)
 - [2026-08-02](data/2026-08-02.md)
 - [2026-08-01](data/2026-08-01.md)
 - [2026-07-31](data/2026-07-31.md)
@@ -69,4 +70,3 @@
 - [2026-07-08](data/2026-07-08.md)
 - [2026-07-07](data/2026-07-07.md)
 - [2026-07-06](data/2026-07-06.md)
-- [2026-07-05](data/2026-07-05.md)
