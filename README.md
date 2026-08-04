@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-08-04
+> 마지막 업데이트: 2026-08-05
 
-# AI 뉴스 — 2026-08-04
+# AI 뉴스 — 2026-08-05
 
 ## 🔥 GitHub Trending (Python)
 
-- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer): 대규모 시스템 설계를 배우고 시스템 디자인 면접을 준비하는 학습 자료임. Anki 플래시카드 포함.
-- [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos): 금융 시장의 언어를 다루는 파운데이션 모델임. 시장 데이터용 사전학습 모델을 제공함.
-- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): AI 에이전트가 트위터·레딧·유튜브·깃허브·비리비리·샤오홍슈를 읽고 검색하게 해주는 CLI임. API 비용이 없음.
-- [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code): 터미널·앱·IDE·폰에서 Claude Code·Codex·Pi를 무료로 쓸 수 있게 해주는 도구임(음성 지원).
+- [uber/ADR](https://github.com/uber/ADR): 관측성·보안 벤치마킹·위협 탐지로 기업용 AI 에이전트를 보호하는 도구임. Uber에서 실제 운영 중.
 - [livekit/agents](https://github.com/livekit/agents): 실시간 음성 AI 에이전트를 구축하기 위한 프레임워크임.
+- [browser-use/video-use](https://github.com/browser-use/video-use): 코딩 에이전트로 영상을 편집하는 도구임.
+- [huangruiteng/loopx](https://github.com/huangruiteng/loopx): 장시간 실행되는 AI 에이전트 팀을 위한 경량 루프 상태 커널임. Codex·Claude Code 등과 호환되며 지속 목표·실행 가능한 할일·증거 로그를 제공함.
+- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): AI 에이전트가 트위터·레딧·유튜브·깃허브·비리비리·샤오홍슈를 읽고 검색하게 해주는 CLI임. API 비용이 없음.
 
 ## 📄 Hugging Face Papers
 
-- [RLVR에서 RLSVR로: 과제 변환으로 개방형 LLM 자기개선용 자기검증 보상 유도](https://huggingface.co/papers/2607.23802)
-  과제를 변환해 자기검증 가능한 보상을 유도함으로써 개방형 문제에서 LLM이 스스로 개선하도록 함.
-- [Mental World Modeling (심적 세계 모델링)](https://huggingface.co/papers/2607.27201)
-  에이전트가 마음속으로 세계를 모델링하는 방식을 다루는 연구임.
-- [N_0-VTLA: 잠재 촉각 토큰으로 비전-촉각-언어-행동 모델 확장](https://huggingface.co/papers/2607.23782)
-  잠재 촉각 토큰을 활용해 비전-촉각-언어-행동(VTLA) 모델을 확장함.
-- [Meshy T2: Flow Matching 기반 빠른 네이티브 메시 생성](https://huggingface.co/papers/2607.28675)
-  Flow Matching으로 3D 메시를 빠르게 네이티브 생성하는 방법을 제안함.
-- [AISPA: LLM 애플리케이션을 위한 사용자 중심 시스템 프롬프트 감사](https://huggingface.co/papers/2607.28617)
-  LLM 앱의 시스템 프롬프트를 사용자 관점에서 감사·점검하는 방법을 제안함.
+- [SwanTale: 지시·제로샷 과제를 위한 통합 다중 화자 음성·오디오 생성](https://huggingface.co/papers/2608.02023)
+  지시 기반·제로샷 과제를 아우르는 통합 다중 화자 음성·오디오 생성 모델을 제안함.
+- [LongHorizon-Harness: 실세계 과제를 위한 장기 지평 에이전트 발전](https://huggingface.co/papers/2608.01964)
+  실세계의 긴 호흡 과제를 처리하는 장기 지평(long-horizon) 에이전트를 위한 하네스를 제안함.
+- [DAPD: 이중 앵커 정책 증류](https://huggingface.co/papers/2608.01735)
+  두 개의 앵커를 사용하는 정책 증류(policy distillation) 기법을 제안함.
+- [강화학습을 통한 점진적 에이전트 스킬 생성](https://huggingface.co/papers/2608.01678)
+  강화학습으로 에이전트의 스킬을 점진적으로 생성·확장하는 방법을 제안함.
+- [UEmbed: 통합 희소·밀집 멀티모달 임베딩](https://huggingface.co/papers/2608.02583)
+  희소 임베딩과 밀집 임베딩을 하나로 통합한 멀티모달 임베딩을 제안함.
 
 ## 🦉 GeekNews
 
+- [크래프톤, 21B 한영 이중언어 음성 AI 모델 'A.X K2 Raon-Speech' 공개](https://huggingface.co/KRAFTON/A.X-K2-Raon-Speech-21B-A3B/blob/main/README_ko.md)
+  SKT의 A.X K2 Light 20B-A3B 텍스트 백본에 자체 음성 인코더·코덱을 결합한 21B 한영 이중언어 음성 AI 모델을 공개함.
+- [카카오, '카나나-2' 경량 모델 4종 오픈소스로 공개](https://huggingface.co/kakaocorp/kanana-2-1.3b-base)
+  카카오가 Kanana-2 SLM 계열로 3B와 이를 압축한 1.3B 모델의 Base·Instruct 가중치를 오픈소스로 공개함.
+- [LLM은 전문성을 보상함](https://www.seangoedecke.com/llms-reward-expertise/)
+  LLM으로 누구나 준수한 결과를 내지만, 같은 모델에서 더 큰 가치를 끌어내는 핵심은 프롬프트 기법보다 도메인 전문성임.
 - [Diátaxis — 기술 문서 작성을 위한 체계적 접근법](https://diataxis.fr/)
-  기술 문서를 튜토리얼·하우투·레퍼런스·설명 4가지로 나눠 목적별로 체계적으로 작성하는 프레임워크임.
-- [agent-device — AI 에이전트가 iOS/Android 기기를 제어하도록 돕는 CLI](https://github.com/callstack/agent-device)
-  AI 에이전트가 실제 iOS·Android 기기를 제어할 수 있게 해주는 CLI 도구임.
+  기술 문서를 튜토리얼·하우투·레퍼런스·설명 4가지로 나눠 사용자 요구에 맞춰 체계적으로 설계하는 프레임워크임.
 - [가장 빠른 AI-First 기업은 실제로 어떻게 일하는가](https://www.nfx.com/post/ai-first-company-structure-mission-pods)
-  빠르게 성장하는 AI-First 기업은 전통적 조직도 대신 미션 단위의 소규모 '팟(pod)' 구조로 일한다고 분석함.
-- [자동화하지 말고, 완전히 없애버려라](https://blog.usv.com/obliterate)
-  비효율적인 업무를 자동화하기보다 아예 없애버리는 편이 더 큰 성과를 낸다고 주장함.
-- [Qwen3.8-Max: 코딩과 협업의 새로운 기준](https://qwen.ai/blog?id=qwen3.8)
-  Qwen3.8-Max가 코딩·협업 성능에서 새로운 기준을 제시하며 공개됨.
+  빠른 AI-First 기업은 인원 감축·도구 도입에 그치지 않고 AI를 동료로 취급하며 미션 단위 소규모 '팟(pod)'으로 일함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-08-04](data/2026-08-04.md)
 - [2026-08-03](data/2026-08-03.md)
 - [2026-08-02](data/2026-08-02.md)
 - [2026-08-01](data/2026-08-01.md)
@@ -69,4 +70,3 @@
 - [2026-07-09](data/2026-07-09.md)
 - [2026-07-08](data/2026-07-08.md)
 - [2026-07-07](data/2026-07-07.md)
-- [2026-07-06](data/2026-07-06.md)
