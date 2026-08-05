@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-08-05
+> 마지막 업데이트: 2026-08-06
 
-# AI 뉴스 — 2026-08-05
+# AI 뉴스 — 2026-08-06
 
 ## 🔥 GitHub Trending (Python)
 
+- [huangruiteng/loopx](https://github.com/huangruiteng/loopx): 장시간 실행되는 AI 에이전트 팀을 위한 경량 루프 상태 커널임. Codex·Claude Code 등과 호환되며 지속 목표·할일·증거 로그를 제공함.
+- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer): 대규모 시스템 설계를 배우고 시스템 디자인 면접을 준비하는 학습 자료임. Anki 플래시카드 포함.
+- [roboflow/supervision](https://github.com/roboflow/supervision): 재사용 가능한 컴퓨터 비전 도구를 제공하는 라이브러리임.
 - [uber/ADR](https://github.com/uber/ADR): 관측성·보안 벤치마킹·위협 탐지로 기업용 AI 에이전트를 보호하는 도구임. Uber에서 실제 운영 중.
-- [livekit/agents](https://github.com/livekit/agents): 실시간 음성 AI 에이전트를 구축하기 위한 프레임워크임.
-- [browser-use/video-use](https://github.com/browser-use/video-use): 코딩 에이전트로 영상을 편집하는 도구임.
-- [huangruiteng/loopx](https://github.com/huangruiteng/loopx): 장시간 실행되는 AI 에이전트 팀을 위한 경량 루프 상태 커널임. Codex·Claude Code 등과 호환되며 지속 목표·실행 가능한 할일·증거 로그를 제공함.
-- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): AI 에이전트가 트위터·레딧·유튜브·깃허브·비리비리·샤오홍슈를 읽고 검색하게 해주는 CLI임. API 비용이 없음.
+- [Comfy-Org/workflow_templates](https://github.com/Comfy-Org/workflow_templates): ComfyUI용 템플릿 워크플로 모음임.
 
 ## 📄 Hugging Face Papers
 
-- [SwanTale: 지시·제로샷 과제를 위한 통합 다중 화자 음성·오디오 생성](https://huggingface.co/papers/2608.02023)
-  지시 기반·제로샷 과제를 아우르는 통합 다중 화자 음성·오디오 생성 모델을 제안함.
-- [LongHorizon-Harness: 실세계 과제를 위한 장기 지평 에이전트 발전](https://huggingface.co/papers/2608.01964)
-  실세계의 긴 호흡 과제를 처리하는 장기 지평(long-horizon) 에이전트를 위한 하네스를 제안함.
-- [DAPD: 이중 앵커 정책 증류](https://huggingface.co/papers/2608.01735)
-  두 개의 앵커를 사용하는 정책 증류(policy distillation) 기법을 제안함.
-- [강화학습을 통한 점진적 에이전트 스킬 생성](https://huggingface.co/papers/2608.01678)
-  강화학습으로 에이전트의 스킬을 점진적으로 생성·확장하는 방법을 제안함.
-- [UEmbed: 통합 희소·밀집 멀티모달 임베딩](https://huggingface.co/papers/2608.02583)
-  희소 임베딩과 밀집 임베딩을 하나로 통합한 멀티모달 임베딩을 제안함.
+- [MerchantBench: 전자상거래 운영에서 장기 일관성을 평가하는 LLM 에이전트 벤치마크](https://huggingface.co/papers/2607.28956)
+  전자상거래 운영에서 LLM 에이전트의 장기 일관성을 평가하는 벤치마크를 제안함.
+- [JoyAI-Video-Edit: 자기회귀 확산으로 실시간 개방형 영상 편집](https://huggingface.co/papers/2608.03974)
+  자기회귀 확산(autoregressive diffusion)으로 실시간 개방형 영상 편집을 수행하는 방법을 제안함.
+- [AURORA-LM: 연속 잠재 확산 언어 모델링을 위한 통합 표현 오토인코딩](https://huggingface.co/papers/2608.02602)
+  연속 잠재 공간 확산 기반 언어 모델링을 위한 통합 표현 오토인코딩 기법을 제안함.
+- [Hunyuan3D-Buffalo 1.0: 확장 가능한 3D 생성·이해·편집을 위한 통합 멀티모달 모델](https://huggingface.co/papers/2608.02711)
+  3D 생성·이해·편집을 하나로 처리하는 확장 가능한 통합 멀티모달 모델임.
+- [Video-DeepResearch: 차세대 멀티모달 딥리서치 에이전트를 향해](https://huggingface.co/papers/2608.03979)
+  영상을 포함한 멀티모달 딥리서치를 수행하는 차세대 에이전트를 제안함.
 
 ## 🦉 GeekNews
 
-- [크래프톤, 21B 한영 이중언어 음성 AI 모델 'A.X K2 Raon-Speech' 공개](https://huggingface.co/KRAFTON/A.X-K2-Raon-Speech-21B-A3B/blob/main/README_ko.md)
-  SKT의 A.X K2 Light 20B-A3B 텍스트 백본에 자체 음성 인코더·코덱을 결합한 21B 한영 이중언어 음성 AI 모델을 공개함.
-- [카카오, '카나나-2' 경량 모델 4종 오픈소스로 공개](https://huggingface.co/kakaocorp/kanana-2-1.3b-base)
-  카카오가 Kanana-2 SLM 계열로 3B와 이를 압축한 1.3B 모델의 Base·Instruct 가중치를 오픈소스로 공개함.
-- [LLM은 전문성을 보상함](https://www.seangoedecke.com/llms-reward-expertise/)
-  LLM으로 누구나 준수한 결과를 내지만, 같은 모델에서 더 큰 가치를 끌어내는 핵심은 프롬프트 기법보다 도메인 전문성임.
-- [Diátaxis — 기술 문서 작성을 위한 체계적 접근법](https://diataxis.fr/)
-  기술 문서를 튜토리얼·하우투·레퍼런스·설명 4가지로 나눠 사용자 요구에 맞춰 체계적으로 설계하는 프레임워크임.
-- [가장 빠른 AI-First 기업은 실제로 어떻게 일하는가](https://www.nfx.com/post/ai-first-company-structure-mission-pods)
-  빠른 AI-First 기업은 인원 감축·도구 도입에 그치지 않고 AI를 동료로 취급하며 미션 단위 소규모 '팟(pod)'으로 일함.
+- [Canva는 어떻게 수억 건의 사용자 세션을 빠르고 안전하게 유지할까?](https://www.canva.dev/blog/engineering/session-revocations-at-scale/)
+  초당 수십만 요청이 쏟아지는 수억 명 세션을 검증하면서, 배포마다 게이트웨이 수백 개가 MySQL에서 대량 데이터를 안전하게 처리하는 방식을 다룸.
+- [모든 사용자 인터페이스를 구성하는 10가지 GUI 디자인 요소](https://www.uxtigers.com/post/gui-widgets)
+  거의 모든 화면은 버튼·폼·메뉴·링크·대화상자·알림·아이콘·체크박스/라디오·탭·검색이라는 상호작용 알파벳으로 구성된다고 정리함.
+- [Netflix가 AI 시대에 전문가보다 시스템 사고형 인재에 베팅하는 이유](https://www.youtube.com/watch?v=t0GiTyz4syY)
+  생성형 AI로 PM·디자이너·데이터 과학자가 프로토타입·코드까지 맡게 됐지만, Netflix는 이를 직무 소멸이 아닌 역할 재편으로 보고 시스템 사고형 인재에 베팅함.
+- [디자인 시스템의 미래](https://www.youtube.com/watch?v=CnMxvv4glDM)
+  AI 시대의 디자인 시스템은 디자인을 코드로 넘기는 기존 흐름을 넘어, AI가 만든 제품을 역설계해 일관된 코드·캔버스로 되돌리는 코드 중심 접근으로 이동함.
+- [안목, 판단 그리고 AI](https://x.com/addyosmani/status/2084354578196443351)
+  안목(taste)은 충분한 증거 없이도 뛰어난 것을 알아보는 능력, 판단(judgment)은 위험·결과를 감수하고 그 선택을 실행하는 능력이라고 구분함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-08-05](data/2026-08-05.md)
 - [2026-08-04](data/2026-08-04.md)
 - [2026-08-03](data/2026-08-03.md)
 - [2026-08-02](data/2026-08-02.md)
@@ -69,4 +70,3 @@
 - [2026-07-10](data/2026-07-10.md)
 - [2026-07-09](data/2026-07-09.md)
 - [2026-07-08](data/2026-07-08.md)
-- [2026-07-07](data/2026-07-07.md)
