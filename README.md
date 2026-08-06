@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-08-06
+> 마지막 업데이트: 2026-08-07
 
-# AI 뉴스 — 2026-08-06
+# AI 뉴스 — 2026-08-07
 
 ## 🔥 GitHub Trending (Python)
 
+- [goauthentik/authentik](https://github.com/goauthentik/authentik): 필요한 인증을 이어주는 오픈소스 IdP(신원 공급자)임.
 - [huangruiteng/loopx](https://github.com/huangruiteng/loopx): 장시간 실행되는 AI 에이전트 팀을 위한 경량 루프 상태 커널임. Codex·Claude Code 등과 호환되며 지속 목표·할일·증거 로그를 제공함.
-- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer): 대규모 시스템 설계를 배우고 시스템 디자인 면접을 준비하는 학습 자료임. Anki 플래시카드 포함.
-- [roboflow/supervision](https://github.com/roboflow/supervision): 재사용 가능한 컴퓨터 비전 도구를 제공하는 라이브러리임.
+- [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT): 누구나 쓰고 그 위에 만들 수 있는 접근 가능한 AI를 지향하는 프로젝트임. 필요한 도구를 제공해 중요한 일에 집중하게 함.
+- [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph): MCP·CLI용 로컬 우선 코드 인텔리전스 그래프임. AI 코딩 도구가 필요한 부분만 읽도록 코드베이스 지도를 지속 유지함.
 - [uber/ADR](https://github.com/uber/ADR): 관측성·보안 벤치마킹·위협 탐지로 기업용 AI 에이전트를 보호하는 도구임. Uber에서 실제 운영 중.
-- [Comfy-Org/workflow_templates](https://github.com/Comfy-Org/workflow_templates): ComfyUI용 템플릿 워크플로 모음임.
 
 ## 📄 Hugging Face Papers
 
-- [MerchantBench: 전자상거래 운영에서 장기 일관성을 평가하는 LLM 에이전트 벤치마크](https://huggingface.co/papers/2607.28956)
-  전자상거래 운영에서 LLM 에이전트의 장기 일관성을 평가하는 벤치마크를 제안함.
-- [JoyAI-Video-Edit: 자기회귀 확산으로 실시간 개방형 영상 편집](https://huggingface.co/papers/2608.03974)
-  자기회귀 확산(autoregressive diffusion)으로 실시간 개방형 영상 편집을 수행하는 방법을 제안함.
-- [AURORA-LM: 연속 잠재 확산 언어 모델링을 위한 통합 표현 오토인코딩](https://huggingface.co/papers/2608.02602)
-  연속 잠재 공간 확산 기반 언어 모델링을 위한 통합 표현 오토인코딩 기법을 제안함.
-- [Hunyuan3D-Buffalo 1.0: 확장 가능한 3D 생성·이해·편집을 위한 통합 멀티모달 모델](https://huggingface.co/papers/2608.02711)
-  3D 생성·이해·편집을 하나로 처리하는 확장 가능한 통합 멀티모달 모델임.
-- [Video-DeepResearch: 차세대 멀티모달 딥리서치 에이전트를 향해](https://huggingface.co/papers/2608.03979)
-  영상을 포함한 멀티모달 딥리서치를 수행하는 차세대 에이전트를 제안함.
+- [ABSeeker: 답변 역추적 신용 할당으로 장기 지평 검색 에이전트 학습](https://huggingface.co/papers/2608.05102)
+  답변을 역추적해 신용을 할당하는 방식으로 장기 지평 검색 에이전트를 학습함.
+- [ToolArtist: 에이전트형 이미지 생성을 위한 도구 사용 통합 멀티모달 모델](https://huggingface.co/papers/2608.04436)
+  도구를 사용하는 통합 멀티모달 모델로 에이전트형 이미지 생성을 수행함.
+- [멀티모달 사전학습의 물리학을 향해: 지식 흐름·모달리티 시너지·조기 통합·레시피](https://huggingface.co/papers/2608.05000)
+  멀티모달 사전학습에서 지식이 흐르고 모달리티가 시너지를 내는 원리를 분석하고 학습 레시피를 제시함.
+- [개인화의 신기루: LLM이 사용자 프로필을 어떻게 지어내며 자기감시가 왜 오도하는가](https://huggingface.co/papers/2608.04570)
+  LLM이 사용자 프로필을 사실처럼 지어내는 문제와, 자기감시가 이를 오히려 잘못 판단하게 만드는 이유를 다룸.
+- [OneDayAgent: 자율 에이전트를 위한 장기 지평 하네스](https://huggingface.co/papers/2608.05013)
+  하루 종일 이어지는 긴 과제를 수행하는 자율 에이전트를 위한 장기 지평 하네스를 제안함.
 
 ## 🦉 GeekNews
 
-- [Canva는 어떻게 수억 건의 사용자 세션을 빠르고 안전하게 유지할까?](https://www.canva.dev/blog/engineering/session-revocations-at-scale/)
-  초당 수십만 요청이 쏟아지는 수억 명 세션을 검증하면서, 배포마다 게이트웨이 수백 개가 MySQL에서 대량 데이터를 안전하게 처리하는 방식을 다룸.
+- [자기 개선을 위한 하네스 엔지니어링 (Lilian Weng)](https://lilianweng.github.io/posts/2026-07-04-harness/)
+  재귀적 자기 개선(RSI)의 단기 경로는 모델이 직접 가중치를 고치기보다, 사고·도구·맥락·기억·평가를 조율하는 하네스 자체를 개선하는 것임.
 - [모든 사용자 인터페이스를 구성하는 10가지 GUI 디자인 요소](https://www.uxtigers.com/post/gui-widgets)
   거의 모든 화면은 버튼·폼·메뉴·링크·대화상자·알림·아이콘·체크박스/라디오·탭·검색이라는 상호작용 알파벳으로 구성된다고 정리함.
-- [Netflix가 AI 시대에 전문가보다 시스템 사고형 인재에 베팅하는 이유](https://www.youtube.com/watch?v=t0GiTyz4syY)
-  생성형 AI로 PM·디자이너·데이터 과학자가 프로토타입·코드까지 맡게 됐지만, Netflix는 이를 직무 소멸이 아닌 역할 재편으로 보고 시스템 사고형 인재에 베팅함.
-- [디자인 시스템의 미래](https://www.youtube.com/watch?v=CnMxvv4glDM)
-  AI 시대의 디자인 시스템은 디자인을 코드로 넘기는 기존 흐름을 넘어, AI가 만든 제품을 역설계해 일관된 코드·캔버스로 되돌리는 코드 중심 접근으로 이동함.
-- [안목, 판단 그리고 AI](https://x.com/addyosmani/status/2084354578196443351)
-  안목(taste)은 충분한 증거 없이도 뛰어난 것을 알아보는 능력, 판단(judgment)은 위험·결과를 감수하고 그 선택을 실행하는 능력이라고 구분함.
+- [Canva는 어떻게 수억 건의 사용자 세션을 빠르고 안전하게 유지할까?](https://www.canva.dev/blog/engineering/session-revocations-at-scale/)
+  초당 수십만 요청이 쏟아지는 수억 명 세션을 검증하면서, 배포마다 게이트웨이 수백 개가 MySQL에서 대량 데이터를 안전하게 처리하는 방식을 다룸.
+- [Discovery Loop — Jeff Dean·Sanjay Ghemawat 등의 반복 실험 프로젝트](https://www.discoveryloop.com/)
+  Jeff Dean·Sanjay Ghemawat·Quoc Le·Oriol Vinyals가 참여한 프로젝트로, 반복적인 실험 과정을 자동화·가속하는 것을 지향함.
+- [Pi의 미니멀리즘이 경쟁력인 이유](https://earendil.com/posts/pi-autoresearch-and-databricks/)
+  기본 도구 4개와 1,000토큰 미만의 시스템 프롬프트·도구 정의만 제공하고 필요한 기능은 확장으로 더하는 최소형 코딩 하네스를 지향함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-08-06](data/2026-08-06.md)
 - [2026-08-05](data/2026-08-05.md)
 - [2026-08-04](data/2026-08-04.md)
 - [2026-08-03](data/2026-08-03.md)
@@ -69,4 +70,3 @@
 - [2026-07-11](data/2026-07-11.md)
 - [2026-07-10](data/2026-07-10.md)
 - [2026-07-09](data/2026-07-09.md)
-- [2026-07-08](data/2026-07-08.md)
