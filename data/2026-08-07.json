@@ -1,0 +1,109 @@
+{
+  "date": "2026-08-07",
+  "github_trending": [
+    {
+      "name": "goauthentik/authentik",
+      "url": "https://github.com/goauthentik/authentik",
+      "description": "필요한 인증을 이어주는 오픈소스 IdP(신원 공급자)임.",
+      "description_en": "The authentication glue you need."
+    },
+    {
+      "name": "huangruiteng/loopx",
+      "url": "https://github.com/huangruiteng/loopx",
+      "description": "장시간 실행되는 AI 에이전트 팀을 위한 경량 루프 상태 커널임. Codex·Claude Code 등과 호환되며 지속 목표·할일·증거 로그를 제공함.",
+      "description_en": "A lightweight loop-engineering state kernel for long-running AI agent teams, agnostic across Codex, Claude Code and others, with durable goals, executable todos and evidence logs."
+    },
+    {
+      "name": "Significant-Gravitas/AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "description": "누구나 쓰고 그 위에 만들 수 있는 접근 가능한 AI를 지향하는 프로젝트임. 필요한 도구를 제공해 중요한 일에 집중하게 함.",
+      "description_en": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters."
+    },
+    {
+      "name": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "description": "MCP·CLI용 로컬 우선 코드 인텔리전스 그래프임. AI 코딩 도구가 필요한 부분만 읽도록 코드베이스 지도를 지속 유지함.",
+      "description_en": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters."
+    },
+    {
+      "name": "uber/ADR",
+      "url": "https://github.com/uber/ADR",
+      "description": "관측성·보안 벤치마킹·위협 탐지로 기업용 AI 에이전트를 보호하는 도구임. Uber에서 실제 운영 중.",
+      "description_en": "ADR secures enterprise AI agents through observability, security benchmarking, and threat detection. Deployed at Uber."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "ABSeeker: 답변 역추적 신용 할당으로 장기 지평 검색 에이전트 학습",
+      "title_en": "ABSeeker: Training Long-Horizon Search Agents via Answer-Backtracked Credit Assignment",
+      "url": "https://huggingface.co/papers/2608.05102",
+      "summary": "답변을 역추적해 신용을 할당하는 방식으로 장기 지평 검색 에이전트를 학습함.",
+      "summary_en": "Trains long-horizon search agents via answer-backtracked credit assignment."
+    },
+    {
+      "title": "ToolArtist: 에이전트형 이미지 생성을 위한 도구 사용 통합 멀티모달 모델",
+      "title_en": "ToolArtist: Tool-Using Unified Multimodal Models for Agentic Image Generation",
+      "url": "https://huggingface.co/papers/2608.04436",
+      "summary": "도구를 사용하는 통합 멀티모달 모델로 에이전트형 이미지 생성을 수행함.",
+      "summary_en": "Uses tool-using unified multimodal models for agentic image generation."
+    },
+    {
+      "title": "멀티모달 사전학습의 물리학을 향해: 지식 흐름·모달리티 시너지·조기 통합·레시피",
+      "title_en": "Towards Physics of Multimodal Pretraining: Knowledge Flow, Modality Synergy, Early Unification, and Recipes",
+      "url": "https://huggingface.co/papers/2608.05000",
+      "summary": "멀티모달 사전학습에서 지식이 흐르고 모달리티가 시너지를 내는 원리를 분석하고 학습 레시피를 제시함.",
+      "summary_en": "Analyzes how knowledge flows and modalities synergize in multimodal pretraining, and offers training recipes."
+    },
+    {
+      "title": "개인화의 신기루: LLM이 사용자 프로필을 어떻게 지어내며 자기감시가 왜 오도하는가",
+      "title_en": "The Personalization Mirage: How LLMs Fabricate User Profiles, and Why Self-Monitoring Misleads",
+      "url": "https://huggingface.co/papers/2608.04570",
+      "summary": "LLM이 사용자 프로필을 사실처럼 지어내는 문제와, 자기감시가 이를 오히려 잘못 판단하게 만드는 이유를 다룸.",
+      "summary_en": "Shows how LLMs fabricate user profiles and why self-monitoring misleads rather than helps."
+    },
+    {
+      "title": "OneDayAgent: 자율 에이전트를 위한 장기 지평 하네스",
+      "title_en": "OneDayAgent: Towards a Long-Horizon Harness for Autonomous Agents",
+      "url": "https://huggingface.co/papers/2608.05013",
+      "summary": "하루 종일 이어지는 긴 과제를 수행하는 자율 에이전트를 위한 장기 지평 하네스를 제안함.",
+      "summary_en": "Proposes a long-horizon harness for autonomous agents handling day-long tasks."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "자기 개선을 위한 하네스 엔지니어링 (Lilian Weng)",
+      "title_en": "Harness Engineering for Self-Improvement (Lilian Weng)",
+      "url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+      "summary": "재귀적 자기 개선(RSI)의 단기 경로는 모델이 직접 가중치를 고치기보다, 사고·도구·맥락·기억·평가를 조율하는 하네스 자체를 개선하는 것임.",
+      "summary_en": "Argues the near-term path to recursive self-improvement is improving the harness that orchestrates reasoning, tools, context, memory and evaluation, rather than editing weights directly."
+    },
+    {
+      "title": "모든 사용자 인터페이스를 구성하는 10가지 GUI 디자인 요소",
+      "title_en": "The 10 GUI Design Elements That Make Up Every User Interface",
+      "url": "https://www.uxtigers.com/post/gui-widgets",
+      "summary": "거의 모든 화면은 버튼·폼·메뉴·링크·대화상자·알림·아이콘·체크박스/라디오·탭·검색이라는 상호작용 알파벳으로 구성된다고 정리함.",
+      "summary_en": "Argues nearly every screen is built from ten interaction primitives: buttons, forms, menus, links, dialogs, notifications, icons, checkboxes/radios, tabs and search."
+    },
+    {
+      "title": "Canva는 어떻게 수억 건의 사용자 세션을 빠르고 안전하게 유지할까?",
+      "title_en": "How Canva Keeps Hundreds of Millions of User Sessions Fast and Secure",
+      "url": "https://www.canva.dev/blog/engineering/session-revocations-at-scale/",
+      "summary": "초당 수십만 요청이 쏟아지는 수억 명 세션을 검증하면서, 배포마다 게이트웨이 수백 개가 MySQL에서 대량 데이터를 안전하게 처리하는 방식을 다룸.",
+      "summary_en": "Explains how Canva validates hundreds of millions of sessions at hundreds of thousands of requests per second, safely handling bulk MySQL data on each deploy."
+    },
+    {
+      "title": "Discovery Loop — Jeff Dean·Sanjay Ghemawat 등의 반복 실험 프로젝트",
+      "title_en": "Discovery Loop — from Jeff Dean, Sanjay Ghemawat and Others",
+      "url": "https://www.discoveryloop.com/",
+      "summary": "Jeff Dean·Sanjay Ghemawat·Quoc Le·Oriol Vinyals가 참여한 프로젝트로, 반복적인 실험 과정을 자동화·가속하는 것을 지향함.",
+      "summary_en": "A project involving Jeff Dean, Sanjay Ghemawat, Quoc Le and Oriol Vinyals aimed at automating and accelerating the iterative experimentation loop."
+    },
+    {
+      "title": "Pi의 미니멀리즘이 경쟁력인 이유",
+      "title_en": "Why Pi's Minimalism Is Its Edge",
+      "url": "https://earendil.com/posts/pi-autoresearch-and-databricks/",
+      "summary": "기본 도구 4개와 1,000토큰 미만의 시스템 프롬프트·도구 정의만 제공하고 필요한 기능은 확장으로 더하는 최소형 코딩 하네스를 지향함.",
+      "summary_en": "Champions a minimal coding harness with just four base tools and a sub-1,000-token system prompt, adding features via extensions."
+    }
+  ]
+}
