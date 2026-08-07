@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-08-07
+> 마지막 업데이트: 2026-08-08
 
-# AI 뉴스 — 2026-08-07
+# AI 뉴스 — 2026-08-08
 
 ## 🔥 GitHub Trending (Python)
 
 - [goauthentik/authentik](https://github.com/goauthentik/authentik): 필요한 인증을 이어주는 오픈소스 IdP(신원 공급자)임.
-- [huangruiteng/loopx](https://github.com/huangruiteng/loopx): 장시간 실행되는 AI 에이전트 팀을 위한 경량 루프 상태 커널임. Codex·Claude Code 등과 호환되며 지속 목표·할일·증거 로그를 제공함.
-- [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT): 누구나 쓰고 그 위에 만들 수 있는 접근 가능한 AI를 지향하는 프로젝트임. 필요한 도구를 제공해 중요한 일에 집중하게 함.
-- [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph): MCP·CLI용 로컬 우선 코드 인텔리전스 그래프임. AI 코딩 도구가 필요한 부분만 읽도록 코드베이스 지도를 지속 유지함.
-- [uber/ADR](https://github.com/uber/ADR): 관측성·보안 벤치마킹·위협 탐지로 기업용 AI 에이전트를 보호하는 도구임. Uber에서 실제 운영 중.
+- [semantica-agi/semantica](https://github.com/semantica-agi/semantica): 맥락과 책임성 있는 AI 시스템을 위한 그래프 네이티브 인프라임.
+- [666ghj/MiroFish](https://github.com/666ghj/MiroFish): 무엇이든 예측하는 간결하고 범용적인 군집 지능(swarm intelligence) 엔진임.
+- [google/skills](https://github.com/google/skills): 구글 제품·기술을 위한 에이전트 스킬 모음임.
+- [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI): 그래프·노드 인터페이스를 갖춘 가장 강력하고 모듈러한 확산 모델 GUI·API·백엔드임.
 
 ## 📄 Hugging Face Papers
 
-- [ABSeeker: 답변 역추적 신용 할당으로 장기 지평 검색 에이전트 학습](https://huggingface.co/papers/2608.05102)
-  답변을 역추적해 신용을 할당하는 방식으로 장기 지평 검색 에이전트를 학습함.
-- [ToolArtist: 에이전트형 이미지 생성을 위한 도구 사용 통합 멀티모달 모델](https://huggingface.co/papers/2608.04436)
-  도구를 사용하는 통합 멀티모달 모델로 에이전트형 이미지 생성을 수행함.
-- [멀티모달 사전학습의 물리학을 향해: 지식 흐름·모달리티 시너지·조기 통합·레시피](https://huggingface.co/papers/2608.05000)
-  멀티모달 사전학습에서 지식이 흐르고 모달리티가 시너지를 내는 원리를 분석하고 학습 레시피를 제시함.
-- [개인화의 신기루: LLM이 사용자 프로필을 어떻게 지어내며 자기감시가 왜 오도하는가](https://huggingface.co/papers/2608.04570)
-  LLM이 사용자 프로필을 사실처럼 지어내는 문제와, 자기감시가 이를 오히려 잘못 판단하게 만드는 이유를 다룸.
-- [OneDayAgent: 자율 에이전트를 위한 장기 지평 하네스](https://huggingface.co/papers/2608.05013)
-  하루 종일 이어지는 긴 과제를 수행하는 자율 에이전트를 위한 장기 지평 하네스를 제안함.
+- [AgentOPSD: 에이전트형 강화학습을 위한 재귀적 자기 증류](https://huggingface.co/papers/2608.05987)
+  에이전트형 강화학습에서 재귀적 자기 증류로 에이전트를 반복 개선하는 방법을 제안함.
+- [OSReward: 크로스플랫폼 컴퓨터 사용 보상 모델을 위한 표준화 평가 도입](https://huggingface.co/papers/2607.28609)
+  여러 OS·플랫폼에 걸친 컴퓨터 사용 보상 모델을 표준화된 방식으로 평가하는 벤치마크를 제안함.
+- [WorldClaw: 대규모 에이전트형 3D 오픈월드 생성](https://huggingface.co/papers/2608.05248)
+  에이전트 방식으로 대규모 3D 오픈월드를 생성하는 방법을 제안함.
+- [GST-Bench: VLM은 영상에서 전역 공간 인식을 기를 수 있는가?](https://huggingface.co/papers/2608.05747)
+  비전-언어 모델이 영상으로부터 전역 공간 인식을 학습할 수 있는지 평가하는 벤치마크임.
+- [EnvACE: 월드 리허설로 환경 동역학을 내재화하는 에이전트형 강화학습](https://huggingface.co/papers/2608.06197)
+  월드 리허설(world rehearsal)로 환경 동역학을 내재화해 에이전트형 강화학습을 개선함.
 
 ## 🦉 GeekNews
 
+- [LLM은 '점프'할 수 없다](https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt)
+  현재 생성형 AI는 데이터에서 규칙을 찾는 귀납과 공리에서 결과를 끌어내는 연역은 잘하지만, 그 사이를 '점프'하는 도약적 추론은 못한다고 지적함.
 - [자기 개선을 위한 하네스 엔지니어링 (Lilian Weng)](https://lilianweng.github.io/posts/2026-07-04-harness/)
-  재귀적 자기 개선(RSI)의 단기 경로는 모델이 직접 가중치를 고치기보다, 사고·도구·맥락·기억·평가를 조율하는 하네스 자체를 개선하는 것임.
-- [모든 사용자 인터페이스를 구성하는 10가지 GUI 디자인 요소](https://www.uxtigers.com/post/gui-widgets)
-  거의 모든 화면은 버튼·폼·메뉴·링크·대화상자·알림·아이콘·체크박스/라디오·탭·검색이라는 상호작용 알파벳으로 구성된다고 정리함.
-- [Canva는 어떻게 수억 건의 사용자 세션을 빠르고 안전하게 유지할까?](https://www.canva.dev/blog/engineering/session-revocations-at-scale/)
-  초당 수십만 요청이 쏟아지는 수억 명 세션을 검증하면서, 배포마다 게이트웨이 수백 개가 MySQL에서 대량 데이터를 안전하게 처리하는 방식을 다룸.
-- [Discovery Loop — Jeff Dean·Sanjay Ghemawat 등의 반복 실험 프로젝트](https://www.discoveryloop.com/)
-  Jeff Dean·Sanjay Ghemawat·Quoc Le·Oriol Vinyals가 참여한 프로젝트로, 반복적인 실험 과정을 자동화·가속하는 것을 지향함.
-- [Pi의 미니멀리즘이 경쟁력인 이유](https://earendil.com/posts/pi-autoresearch-and-databricks/)
-  기본 도구 4개와 1,000토큰 미만의 시스템 프롬프트·도구 정의만 제공하고 필요한 기능은 확장으로 더하는 최소형 코딩 하네스를 지향함.
+  재귀적 자기 개선의 단기 경로는 모델이 직접 가중치를 고치기보다, 사고·도구·맥락·기억·평가를 조율하는 하네스 자체를 개선하는 것임.
+- [100배 저렴한 오픈 모델로 검색에서 GPT-5.6 Sol 능가하기](https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency)
+  Castform으로 강화학습 후처리한 4B 오픈소스 모델이 GPT-5.6 Sol과 같은 검색 정확도를 100분의 1 비용으로 달성함.
+- [프롬프트로 프로토타입은 만들 수 있어도, 안목까지 만들 수는 없다](https://mirakl.tech/you-can-prompt-a-prototype-you-cant-prompt-taste-eef2aa77b5a5)
+  생성형 AI로 누구나 완성품처럼 보이는 결과를 빠르게 만들 수 있게 됐지만, 무엇을 만들고 버릴지 정하는 안목·판단력은 프롬프트로 대체되지 않음.
+- [late.sh — 개발자를 위한 아늑한 터미널 클럽하우스](https://github.com/mpiorowski/late-sh)
+  SSH 클라이언트만으로 접속하는 터미널 우선 소셜 앱으로, 'ssh late.sh' 한 줄이면 실시간 채팅·음악·게임·뉴스 공간에 들어감.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-08-07](data/2026-08-07.md)
 - [2026-08-06](data/2026-08-06.md)
 - [2026-08-05](data/2026-08-05.md)
 - [2026-08-04](data/2026-08-04.md)
@@ -69,4 +70,3 @@
 - [2026-07-12](data/2026-07-12.md)
 - [2026-07-11](data/2026-07-11.md)
 - [2026-07-10](data/2026-07-10.md)
-- [2026-07-09](data/2026-07-09.md)
