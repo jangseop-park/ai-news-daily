@@ -1,0 +1,109 @@
+{
+  "date": "2026-08-08",
+  "github_trending": [
+    {
+      "name": "goauthentik/authentik",
+      "url": "https://github.com/goauthentik/authentik",
+      "description": "필요한 인증을 이어주는 오픈소스 IdP(신원 공급자)임.",
+      "description_en": "The authentication glue you need."
+    },
+    {
+      "name": "semantica-agi/semantica",
+      "url": "https://github.com/semantica-agi/semantica",
+      "description": "맥락과 책임성 있는 AI 시스템을 위한 그래프 네이티브 인프라임.",
+      "description_en": "Graph-Native Infrastructure for Context and Accountable AI Systems"
+    },
+    {
+      "name": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "description": "무엇이든 예측하는 간결하고 범용적인 군집 지능(swarm intelligence) 엔진임.",
+      "description_en": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything."
+    },
+    {
+      "name": "google/skills",
+      "url": "https://github.com/google/skills",
+      "description": "구글 제품·기술을 위한 에이전트 스킬 모음임.",
+      "description_en": "Agent Skills for Google products and technologies"
+    },
+    {
+      "name": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "description": "그래프·노드 인터페이스를 갖춘 가장 강력하고 모듈러한 확산 모델 GUI·API·백엔드임.",
+      "description_en": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "AgentOPSD: 에이전트형 강화학습을 위한 재귀적 자기 증류",
+      "title_en": "AgentOPSD: Recursive Self-Distillation for Agentic Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2608.05987",
+      "summary": "에이전트형 강화학습에서 재귀적 자기 증류로 에이전트를 반복 개선하는 방법을 제안함.",
+      "summary_en": "Proposes recursive self-distillation to iteratively improve agents in agentic reinforcement learning."
+    },
+    {
+      "title": "OSReward: 크로스플랫폼 컴퓨터 사용 보상 모델을 위한 표준화 평가 도입",
+      "title_en": "OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models",
+      "url": "https://huggingface.co/papers/2607.28609",
+      "summary": "여러 OS·플랫폼에 걸친 컴퓨터 사용 보상 모델을 표준화된 방식으로 평가하는 벤치마크를 제안함.",
+      "summary_en": "Proposes a standardized evaluation for cross-platform computer-use reward models."
+    },
+    {
+      "title": "WorldClaw: 대규모 에이전트형 3D 오픈월드 생성",
+      "title_en": "WorldClaw: Agentic 3D Open-World Generation at Scale",
+      "url": "https://huggingface.co/papers/2608.05248",
+      "summary": "에이전트 방식으로 대규모 3D 오픈월드를 생성하는 방법을 제안함.",
+      "summary_en": "Proposes agentic generation of large-scale 3D open worlds."
+    },
+    {
+      "title": "GST-Bench: VLM은 영상에서 전역 공간 인식을 기를 수 있는가?",
+      "title_en": "GST-Bench: Can VLMs Develop Global Spatial Awareness from Video?",
+      "url": "https://huggingface.co/papers/2608.05747",
+      "summary": "비전-언어 모델이 영상으로부터 전역 공간 인식을 학습할 수 있는지 평가하는 벤치마크임.",
+      "summary_en": "A benchmark testing whether VLMs can develop global spatial awareness from video."
+    },
+    {
+      "title": "EnvACE: 월드 리허설로 환경 동역학을 내재화하는 에이전트형 강화학습",
+      "title_en": "EnvACE: Internalizing Environment Dynamics via World Rehearsal for Agentic Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2608.06197",
+      "summary": "월드 리허설(world rehearsal)로 환경 동역학을 내재화해 에이전트형 강화학습을 개선함.",
+      "summary_en": "Internalizes environment dynamics via world rehearsal to improve agentic reinforcement learning."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "LLM은 '점프'할 수 없다",
+      "title_en": "LLMs Can't Jump",
+      "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt",
+      "summary": "현재 생성형 AI는 데이터에서 규칙을 찾는 귀납과 공리에서 결과를 끌어내는 연역은 잘하지만, 그 사이를 '점프'하는 도약적 추론은 못한다고 지적함.",
+      "summary_en": "Argues today's generative AI handles induction and deduction well but cannot make the intuitive 'jump' between them."
+    },
+    {
+      "title": "자기 개선을 위한 하네스 엔지니어링 (Lilian Weng)",
+      "title_en": "Harness Engineering for Self-Improvement (Lilian Weng)",
+      "url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+      "summary": "재귀적 자기 개선의 단기 경로는 모델이 직접 가중치를 고치기보다, 사고·도구·맥락·기억·평가를 조율하는 하네스 자체를 개선하는 것임.",
+      "summary_en": "Argues the near-term path to recursive self-improvement is improving the harness that orchestrates reasoning, tools, context, memory and evaluation."
+    },
+    {
+      "title": "100배 저렴한 오픈 모델로 검색에서 GPT-5.6 Sol 능가하기",
+      "title_en": "Beating GPT-5.6 Sol on Search with a 100x Cheaper Open Model",
+      "url": "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency",
+      "summary": "Castform으로 강화학습 후처리한 4B 오픈소스 모델이 GPT-5.6 Sol과 같은 검색 정확도를 100분의 1 비용으로 달성함.",
+      "summary_en": "A 4B open model RL-post-trained with Castform matches GPT-5.6 Sol's search accuracy at 1/100th the cost."
+    },
+    {
+      "title": "프롬프트로 프로토타입은 만들 수 있어도, 안목까지 만들 수는 없다",
+      "title_en": "You Can Prompt a Prototype, You Can't Prompt Taste",
+      "url": "https://mirakl.tech/you-can-prompt-a-prototype-you-cant-prompt-taste-eef2aa77b5a5",
+      "summary": "생성형 AI로 누구나 완성품처럼 보이는 결과를 빠르게 만들 수 있게 됐지만, 무엇을 만들고 버릴지 정하는 안목·판단력은 프롬프트로 대체되지 않음.",
+      "summary_en": "Generative AI lets anyone quickly produce polished-looking output, but the taste and judgment of what to build or cut can't be prompted."
+    },
+    {
+      "title": "late.sh — 개발자를 위한 아늑한 터미널 클럽하우스",
+      "title_en": "late.sh - A Cozy Terminal Clubhouse for Developers",
+      "url": "https://github.com/mpiorowski/late-sh",
+      "summary": "SSH 클라이언트만으로 접속하는 터미널 우선 소셜 앱으로, 'ssh late.sh' 한 줄이면 실시간 채팅·음악·게임·뉴스 공간에 들어감.",
+      "summary_en": "A terminal-first social app you join with just an SSH client—'ssh late.sh' drops you into live chat, music, games and news."
+    }
+  ]
+}
