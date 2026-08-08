@@ -1,0 +1,109 @@
+{
+  "date": "2026-08-09",
+  "github_trending": [
+    {
+      "name": "google/skills",
+      "url": "https://github.com/google/skills",
+      "description": "구글 제품·기술을 위한 에이전트 스킬 모음임.",
+      "description_en": "Agent Skills for Google products and technologies"
+    },
+    {
+      "name": "goauthentik/authentik",
+      "url": "https://github.com/goauthentik/authentik",
+      "description": "필요한 인증을 이어주는 오픈소스 IdP(신원 공급자)임.",
+      "description_en": "The authentication glue you need."
+    },
+    {
+      "name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "멀티 에이전트 LLM 기반 금융 트레이딩 프레임워크임.",
+      "description_en": "TradingAgents: Multi-Agents LLM Financial Trading Framework"
+    },
+    {
+      "name": "virgiliojr94/book-to-skill",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "description": "기술 서적 PDF를 Claude Code 스킬로 변환해 학습·참조·활용할 수 있게 해줌.",
+      "description_en": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work."
+    },
+    {
+      "name": "practical-tutorials/project-based-learning",
+      "url": "https://github.com/practical-tutorials/project-based-learning",
+      "description": "프로젝트 기반으로 직접 만들며 배우는 튜토리얼을 큐레이션한 목록임.",
+      "description_en": "Curated list of project-based tutorials"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "AgentOPSD: 에이전트형 강화학습을 위한 재귀적 자기 증류",
+      "title_en": "AgentOPSD: Recursive Self-Distillation for Agentic Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2608.05987",
+      "summary": "에이전트형 강화학습에서 재귀적 자기 증류로 에이전트를 반복 개선하는 방법을 제안함.",
+      "summary_en": "Proposes recursive self-distillation to iteratively improve agents in agentic reinforcement learning."
+    },
+    {
+      "title": "OSReward: 크로스플랫폼 컴퓨터 사용 보상 모델을 위한 표준화 평가 도입",
+      "title_en": "OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models",
+      "url": "https://huggingface.co/papers/2607.28609",
+      "summary": "여러 OS·플랫폼에 걸친 컴퓨터 사용 보상 모델을 표준화된 방식으로 평가하는 벤치마크를 제안함.",
+      "summary_en": "Proposes a standardized evaluation for cross-platform computer-use reward models."
+    },
+    {
+      "title": "지각된 음성의 해석 가능한 MEG 디코딩: 피질 소스와 인출을 이끄는 자극 특징",
+      "title_en": "Interpretable MEG Decoding of Perceived Speech: Cortical Sources and the Stimulus Features That Drive Retrieval",
+      "url": "https://huggingface.co/papers/2608.01481",
+      "summary": "MEG 신호로 지각된 음성을 해석 가능하게 디코딩하고, 어떤 피질 소스·자극 특징이 인출을 이끄는지 분석함.",
+      "summary_en": "Interpretably decodes perceived speech from MEG and analyzes which cortical sources and stimulus features drive retrieval."
+    },
+    {
+      "title": "WorldClaw: 대규모 에이전트형 3D 오픈월드 생성",
+      "title_en": "WorldClaw: Agentic 3D Open-World Generation at Scale",
+      "url": "https://huggingface.co/papers/2608.05248",
+      "summary": "에이전트 방식으로 대규모 3D 오픈월드를 생성하는 방법을 제안함.",
+      "summary_en": "Proposes agentic generation of large-scale 3D open worlds."
+    },
+    {
+      "title": "GST-Bench: VLM은 영상에서 전역 공간 인식을 기를 수 있는가?",
+      "title_en": "GST-Bench: Can VLMs Develop Global Spatial Awareness from Video?",
+      "url": "https://huggingface.co/papers/2608.05747",
+      "summary": "비전-언어 모델이 영상으로부터 전역 공간 인식을 학습할 수 있는지 평가하는 벤치마크임.",
+      "summary_en": "A benchmark testing whether VLMs can develop global spatial awareness from video."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "LLM은 '점프'할 수 없다",
+      "title_en": "LLMs Can't Jump",
+      "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt",
+      "summary": "현재 생성형 AI는 데이터에서 규칙을 찾는 귀납과 공리에서 결과를 끌어내는 연역은 잘하지만, 그 사이를 도약하는 '점프' 추론은 못한다고 지적함.",
+      "summary_en": "Argues today's generative AI handles induction and deduction well but cannot make the intuitive 'jump' between them."
+    },
+    {
+      "title": "Orca — 여러 병렬 코딩 에이전트를 위한 오픈소스 ADE",
+      "title_en": "Orca - An Open-Source ADE for Multiple Parallel Coding Agents",
+      "url": "https://github.com/stablyai/orca",
+      "summary": "여러 코딩 에이전트를 병렬로 돌리고 관리하는 오픈소스 에이전트 개발 환경(ADE)임.",
+      "summary_en": "An open-source agent development environment (ADE) for running and managing multiple coding agents in parallel."
+    },
+    {
+      "title": "AMD, 모델을 실리콘에 새기는 AI 칩 스타트업 Taalas 인수",
+      "title_en": "AMD Acquires Taalas, an AI Chip Startup That Etches Models into Silicon",
+      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "summary": "AMD가 모델 가중치를 실리콘에 직접 새기는 Taalas를 인수해, Nvidia가 주도하는 고성능 추론 시장 공략을 강화함.",
+      "summary_en": "AMD acquired Taalas, which etches model weights directly into silicon, to strengthen its push into the Nvidia-led high-performance inference market."
+    },
+    {
+      "title": "평가 주도 개발 (Eval-driven development) — Airbnb",
+      "title_en": "Eval-Driven Development — Lessons from Airbnb",
+      "url": "https://medium.com/airbnb-engineering/eval-driven-development-lessons-from-evaluating-genai-at-scale-e817e5ae5788",
+      "summary": "Airbnb가 대규모로 GenAI를 평가하며 얻은 교훈으로, 평가(eval)를 개발의 중심에 두는 '평가 주도 개발' 방식을 소개함.",
+      "summary_en": "Airbnb shares lessons from evaluating GenAI at scale, making evaluation the center of the workflow ('eval-driven development')."
+    },
+    {
+      "title": "100배 저렴한 오픈 모델로 검색에서 GPT-5.6 Sol 능가하기",
+      "title_en": "Beating GPT-5.6 Sol on Search with a 100x Cheaper Open Model",
+      "url": "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency",
+      "summary": "Castform으로 강화학습 후처리한 4B 오픈소스 모델이 GPT-5.6 Sol과 같은 검색 정확도를 100분의 1 비용으로 달성함.",
+      "summary_en": "A 4B open model RL-post-trained with Castform matches GPT-5.6 Sol's search accuracy at 1/100th the cost."
+    }
+  ]
+}
