@@ -1,0 +1,109 @@
+{
+  "date": "2026-08-10",
+  "github_trending": [
+    {
+      "name": "vitali87/code-graph-rag",
+      "url": "https://github.com/vitali87/code-graph-rag",
+      "description": "모노레포를 위한 궁극의 RAG임. 지식 그래프와 AI로 다중 언어 코드베이스를 질의·이해·편집함.",
+      "description_en": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs."
+    },
+    {
+      "name": "google-deepmind/weathernext",
+      "url": "https://github.com/google-deepmind/weathernext",
+      "description": "Google DeepMind의 날씨 예측 AI 모델 'WeatherNext' 관련 저장소임.",
+      "description_en": "Google DeepMind's WeatherNext weather forecasting AI model."
+    },
+    {
+      "name": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 기반 다중 시장 주식 분석 시스템임. 다중 소스 시세·실시간 뉴스·의사결정 대시보드·자동 알림을 제공하고 무료 정기 실행을 지원함.",
+      "description_en": "LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs."
+    },
+    {
+      "name": "goauthentik/authentik",
+      "url": "https://github.com/goauthentik/authentik",
+      "description": "필요한 인증을 이어주는 오픈소스 IdP(신원 공급자)임.",
+      "description_en": "The authentication glue you need."
+    },
+    {
+      "name": "google/skills",
+      "url": "https://github.com/google/skills",
+      "description": "구글 제품·기술을 위한 에이전트 스킬 모음임.",
+      "description_en": "Agent Skills for Google products and technologies"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "AgentOPSD: 에이전트형 강화학습을 위한 재귀적 자기 증류",
+      "title_en": "AgentOPSD: Recursive Self-Distillation for Agentic Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2608.05987",
+      "summary": "에이전트형 강화학습에서 재귀적 자기 증류로 에이전트를 반복 개선하는 방법을 제안함.",
+      "summary_en": "Proposes recursive self-distillation to iteratively improve agents in agentic reinforcement learning."
+    },
+    {
+      "title": "OSReward: 크로스플랫폼 컴퓨터 사용 보상 모델을 위한 표준화 평가 도입",
+      "title_en": "OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models",
+      "url": "https://huggingface.co/papers/2607.28609",
+      "summary": "여러 OS·플랫폼에 걸친 컴퓨터 사용 보상 모델을 표준화된 방식으로 평가하는 벤치마크를 제안함.",
+      "summary_en": "Proposes a standardized evaluation for cross-platform computer-use reward models."
+    },
+    {
+      "title": "WorldClaw: 대규모 에이전트형 3D 오픈월드 생성",
+      "title_en": "WorldClaw: Agentic 3D Open-World Generation at Scale",
+      "url": "https://huggingface.co/papers/2608.05248",
+      "summary": "에이전트 방식으로 대규모 3D 오픈월드를 생성하는 방법을 제안함.",
+      "summary_en": "Proposes agentic generation of large-scale 3D open worlds."
+    },
+    {
+      "title": "GST-Bench: VLM은 영상에서 전역 공간 인식을 기를 수 있는가?",
+      "title_en": "GST-Bench: Can VLMs Develop Global Spatial Awareness from Video?",
+      "url": "https://huggingface.co/papers/2608.05747",
+      "summary": "비전-언어 모델이 영상으로부터 전역 공간 인식을 학습할 수 있는지 평가하는 벤치마크임.",
+      "summary_en": "A benchmark testing whether VLMs can develop global spatial awareness from video."
+    },
+    {
+      "title": "EnvACE: 월드 리허설로 환경 동역학을 내재화하는 에이전트형 강화학습",
+      "title_en": "EnvACE: Internalizing Environment Dynamics via World Rehearsal for Agentic Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2608.06197",
+      "summary": "월드 리허설(world rehearsal)로 환경 동역학을 내재화해 에이전트형 강화학습을 개선함.",
+      "summary_en": "Internalizes environment dynamics via world rehearsal to improve agentic reinforcement learning."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "\"코드는 결코 어려운 부분이 아니었다\"는 말은 모든 프로그래머에 대한 모욕이다",
+      "title_en": "'Code Was Never the Hard Part' Is an Insult to All Programmers",
+      "url": "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
+      "summary": "AI 시대에 흔히 나오는 '코딩은 쉬운 일이었다'는 담론이, 실제 어려운 문제를 풀어온 프로그래머의 노고를 폄하한다고 반박함.",
+      "summary_en": "Rebuts the popular AI-era claim that 'coding was the easy part,' arguing it belittles the real hard work programmers have long done."
+    },
+    {
+      "title": "AI가 린 스타트업 플레이북을 무너뜨리고 있는가?",
+      "title_en": "Is AI Breaking the Lean Startup Playbook?",
+      "url": "https://www.youtube.com/watch?v=5d6y3poKwK4",
+      "summary": "AI로 제품 제작 비용·속도가 급변하면서, MVP·검증 중심의 기존 린 스타트업 방법론이 흔들리는지 논의함.",
+      "summary_en": "Discusses whether AI's shift in the cost and speed of building products is undermining the MVP-and-validate lean startup playbook."
+    },
+    {
+      "title": "평가 주도 개발 (Eval-driven development) — Airbnb",
+      "title_en": "Eval-Driven Development — Lessons from Airbnb",
+      "url": "https://medium.com/airbnb-engineering/eval-driven-development-lessons-from-evaluating-genai-at-scale-e817e5ae5788",
+      "summary": "Airbnb가 대규모로 GenAI를 평가하며 얻은 교훈으로, 평가(eval)를 개발의 중심에 두는 '평가 주도 개발' 방식을 소개함.",
+      "summary_en": "Airbnb shares lessons from evaluating GenAI at scale, making evaluation the center of the workflow ('eval-driven development')."
+    },
+    {
+      "title": "Orca — 여러 병렬 코딩 에이전트를 위한 오픈소스 ADE",
+      "title_en": "Orca - An Open-Source ADE for Multiple Parallel Coding Agents",
+      "url": "https://github.com/stablyai/orca",
+      "summary": "여러 코딩 에이전트를 병렬로 돌리고 관리하는 오픈소스 에이전트 개발 환경(ADE)임.",
+      "summary_en": "An open-source agent development environment (ADE) for running and managing multiple coding agents in parallel."
+    },
+    {
+      "title": "프롬프트로 프로토타입은 만들 수 있어도, 안목까지 만들 수는 없다",
+      "title_en": "You Can Prompt a Prototype, You Can't Prompt Taste",
+      "url": "https://mirakl.tech/you-can-prompt-a-prototype-you-cant-prompt-taste-eef2aa77b5a5",
+      "summary": "생성형 AI로 누구나 완성품처럼 보이는 결과를 빠르게 만들 수 있게 됐지만, 무엇을 만들고 버릴지 정하는 안목·판단력은 프롬프트로 대체되지 않음.",
+      "summary_en": "Generative AI lets anyone quickly produce polished-looking output, but the taste and judgment of what to build or cut can't be prompted."
+    }
+  ]
+}
