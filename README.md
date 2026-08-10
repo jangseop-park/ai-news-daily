@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-08-10
+> 마지막 업데이트: 2026-08-11
 
-# AI 뉴스 — 2026-08-10
+# AI 뉴스 — 2026-08-11
 
 ## 🔥 GitHub Trending (Python)
 
-- [vitali87/code-graph-rag](https://github.com/vitali87/code-graph-rag): 모노레포를 위한 궁극의 RAG임. 지식 그래프와 AI로 다중 언어 코드베이스를 질의·이해·편집함.
+- [semantica-agi/semantica](https://github.com/semantica-agi/semantica): 맥락과 책임성 있는 AI 시스템을 위한 그래프 네이티브 인프라임.
+- [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler): 샤오홍슈·더우인·콰이쇼우·비리비리·웨이보·즈후 등 중국 주요 플랫폼의 게시물·댓글 크롤러임.
+- [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents): 멀티 에이전트 LLM 기반 금융 트레이딩 프레임워크임.
 - [google-deepmind/weathernext](https://github.com/google-deepmind/weathernext): Google DeepMind의 날씨 예측 AI 모델 'WeatherNext' 관련 저장소임.
-- [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis): LLM 기반 다중 시장 주식 분석 시스템임. 다중 소스 시세·실시간 뉴스·의사결정 대시보드·자동 알림을 제공하고 무료 정기 실행을 지원함.
-- [goauthentik/authentik](https://github.com/goauthentik/authentik): 필요한 인증을 이어주는 오픈소스 IdP(신원 공급자)임.
-- [google/skills](https://github.com/google/skills): 구글 제품·기술을 위한 에이전트 스킬 모음임.
+- [vitali87/code-graph-rag](https://github.com/vitali87/code-graph-rag): 모노레포를 위한 궁극의 RAG임. 지식 그래프와 AI로 다중 언어 코드베이스를 질의·이해·편집함.
 
 ## 📄 Hugging Face Papers
 
-- [AgentOPSD: 에이전트형 강화학습을 위한 재귀적 자기 증류](https://huggingface.co/papers/2608.05987)
-  에이전트형 강화학습에서 재귀적 자기 증류로 에이전트를 반복 개선하는 방법을 제안함.
-- [OSReward: 크로스플랫폼 컴퓨터 사용 보상 모델을 위한 표준화 평가 도입](https://huggingface.co/papers/2607.28609)
-  여러 OS·플랫폼에 걸친 컴퓨터 사용 보상 모델을 표준화된 방식으로 평가하는 벤치마크를 제안함.
-- [WorldClaw: 대규모 에이전트형 3D 오픈월드 생성](https://huggingface.co/papers/2608.05248)
-  에이전트 방식으로 대규모 3D 오픈월드를 생성하는 방법을 제안함.
-- [GST-Bench: VLM은 영상에서 전역 공간 인식을 기를 수 있는가?](https://huggingface.co/papers/2608.05747)
-  비전-언어 모델이 영상으로부터 전역 공간 인식을 학습할 수 있는지 평가하는 벤치마크임.
-- [EnvACE: 월드 리허설로 환경 동역학을 내재화하는 에이전트형 강화학습](https://huggingface.co/papers/2608.06197)
-  월드 리허설(world rehearsal)로 환경 동역학을 내재화해 에이전트형 강화학습을 개선함.
+- [SFT는 충돌하고 RL은 공존한다: LLM 멀티태스크 학습의 이론·실증 분석](https://huggingface.co/papers/2608.03573)
+  LLM 멀티태스크 학습에서 SFT는 과제 간 충돌을 일으키지만 RL은 공존이 가능함을 이론·실증으로 분석함.
+- [단순한 환경 스케일링을 넘어: 멀티모달 에이전트 학습을 위한 효과적 환경 분포 설계](https://huggingface.co/papers/2608.03571)
+  환경을 단순히 늘리는 대신, 멀티모달 에이전트 학습에 효과적인 환경 분포를 설계하는 방법을 제안함.
+- [SimWAM: 엔드투엔드 자율주행을 위한 단순 월드 액션 모델](https://huggingface.co/papers/2608.07468)
+  엔드투엔드 자율주행을 위한 단순한 월드 액션 모델을 제안함.
+- [YOLO-PEFT: YOLO 계열에 대한 파라미터 효율적 미세조정](https://huggingface.co/papers/2608.07051)
+  YOLO 계열 객체 탐지 모델을 적은 파라미터만 조정해 효율적으로 미세조정하는 방법을 제안함.
+- [StreamArena: 연속·상호작용·장기 지평 에이전트형 스트리밍 영상 이해를 향해](https://huggingface.co/papers/2608.05703)
+  연속적이고 상호작용적이며 긴 호흡의 스트리밍 영상 이해 에이전트를 평가하는 벤치마크·환경을 제안함.
 
 ## 🦉 GeekNews
 
+- [hallmark — AI 티가 안 나는 디자인 스킬](https://github.com/Nutlope/hallmark)
+  AI로 만든 티가 나는 밋밋한 디자인 대신, 완성도 높은 디자인 결과를 내도록 돕는 에이전트용 디자인 스킬임.
 - ["코드는 결코 어려운 부분이 아니었다"는 말은 모든 프로그래머에 대한 모욕이다](https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers)
   AI 시대에 흔히 나오는 '코딩은 쉬운 일이었다'는 담론이, 실제 어려운 문제를 풀어온 프로그래머의 노고를 폄하한다고 반박함.
-- [AI가 린 스타트업 플레이북을 무너뜨리고 있는가?](https://www.youtube.com/watch?v=5d6y3poKwK4)
-  AI로 제품 제작 비용·속도가 급변하면서, MVP·검증 중심의 기존 린 스타트업 방법론이 흔들리는지 논의함.
-- [평가 주도 개발 (Eval-driven development) — Airbnb](https://medium.com/airbnb-engineering/eval-driven-development-lessons-from-evaluating-genai-at-scale-e817e5ae5788)
-  Airbnb가 대규모로 GenAI를 평가하며 얻은 교훈으로, 평가(eval)를 개발의 중심에 두는 '평가 주도 개발' 방식을 소개함.
-- [Orca — 여러 병렬 코딩 에이전트를 위한 오픈소스 ADE](https://github.com/stablyai/orca)
-  여러 코딩 에이전트를 병렬로 돌리고 관리하는 오픈소스 에이전트 개발 환경(ADE)임.
-- [프롬프트로 프로토타입은 만들 수 있어도, 안목까지 만들 수는 없다](https://mirakl.tech/you-can-prompt-a-prototype-you-cant-prompt-taste-eef2aa77b5a5)
-  생성형 AI로 누구나 완성품처럼 보이는 결과를 빠르게 만들 수 있게 됐지만, 무엇을 만들고 버릴지 정하는 안목·판단력은 프롬프트로 대체되지 않음.
+- [모든 코드를, 항상 다시 작성하라](https://stng.substack.com/p/rewrite-all-the-code-all-the-time)
+  AI로 코드 생성 비용이 급락한 시대에는 레거시를 붙잡기보다 코드를 자주·대담하게 다시 작성하는 편이 낫다고 주장함.
+- [API 키 없이 URL 하나로 쓰는 한국 주식 데이터 JSON·MCP 서버](https://news.hada.io/topic?id=32327)
+  API 키 없이 URL 하나로 한국 주식 데이터를 JSON으로 받고 MCP 서버로도 붙일 수 있게 만든 오픈 프로젝트임.
+- [goshot — 코드 스크린샷 생성기](https://github.com/watzon/goshot)
+  코드를 보기 좋은 이미지로 만들어주는 코드 스크린샷 생성기임.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-08-10](data/2026-08-10.md)
 - [2026-08-09](data/2026-08-09.md)
 - [2026-08-08](data/2026-08-08.md)
 - [2026-08-07](data/2026-08-07.md)
@@ -69,4 +70,3 @@
 - [2026-07-15](data/2026-07-15.md)
 - [2026-07-14](data/2026-07-14.md)
 - [2026-07-13](data/2026-07-13.md)
-- [2026-07-12](data/2026-07-12.md)
