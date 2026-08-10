@@ -1,0 +1,109 @@
+{
+  "date": "2026-08-11",
+  "github_trending": [
+    {
+      "name": "semantica-agi/semantica",
+      "url": "https://github.com/semantica-agi/semantica",
+      "description": "맥락과 책임성 있는 AI 시스템을 위한 그래프 네이티브 인프라임.",
+      "description_en": "Graph-Native Infrastructure for Context and Accountable AI Systems"
+    },
+    {
+      "name": "NanmiCoder/MediaCrawler",
+      "url": "https://github.com/NanmiCoder/MediaCrawler",
+      "description": "샤오홍슈·더우인·콰이쇼우·비리비리·웨이보·즈후 등 중국 주요 플랫폼의 게시물·댓글 크롤러임.",
+      "description_en": "A crawler for posts and comments across major Chinese platforms (Xiaohongshu, Douyin, Kuaishou, Bilibili, Weibo, etc.)"
+    },
+    {
+      "name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "멀티 에이전트 LLM 기반 금융 트레이딩 프레임워크임.",
+      "description_en": "TradingAgents: Multi-Agents LLM Financial Trading Framework"
+    },
+    {
+      "name": "google-deepmind/weathernext",
+      "url": "https://github.com/google-deepmind/weathernext",
+      "description": "Google DeepMind의 날씨 예측 AI 모델 'WeatherNext' 관련 저장소임.",
+      "description_en": "Google DeepMind's WeatherNext weather forecasting AI model."
+    },
+    {
+      "name": "vitali87/code-graph-rag",
+      "url": "https://github.com/vitali87/code-graph-rag",
+      "description": "모노레포를 위한 궁극의 RAG임. 지식 그래프와 AI로 다중 언어 코드베이스를 질의·이해·편집함.",
+      "description_en": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "SFT는 충돌하고 RL은 공존한다: LLM 멀티태스크 학습의 이론·실증 분석",
+      "title_en": "SFT Conflicts, RL Coexists: A Theoretical and Empirical Analysis of Multi-Task Learning for LLMs",
+      "url": "https://huggingface.co/papers/2608.03573",
+      "summary": "LLM 멀티태스크 학습에서 SFT는 과제 간 충돌을 일으키지만 RL은 공존이 가능함을 이론·실증으로 분석함.",
+      "summary_en": "Analyzes theoretically and empirically that SFT causes task conflicts while RL allows coexistence in multi-task LLM learning."
+    },
+    {
+      "title": "단순한 환경 스케일링을 넘어: 멀티모달 에이전트 학습을 위한 효과적 환경 분포 설계",
+      "title_en": "Beyond Simply Environment Scaling: Designing Effective Environment Distributions for Multimodal Agent Learning",
+      "url": "https://huggingface.co/papers/2608.03571",
+      "summary": "환경을 단순히 늘리는 대신, 멀티모달 에이전트 학습에 효과적인 환경 분포를 설계하는 방법을 제안함.",
+      "summary_en": "Proposes designing effective environment distributions—rather than just scaling environments—for multimodal agent learning."
+    },
+    {
+      "title": "SimWAM: 엔드투엔드 자율주행을 위한 단순 월드 액션 모델",
+      "title_en": "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving",
+      "url": "https://huggingface.co/papers/2608.07468",
+      "summary": "엔드투엔드 자율주행을 위한 단순한 월드 액션 모델을 제안함.",
+      "summary_en": "Proposes a simple world action model for end-to-end autonomous driving."
+    },
+    {
+      "title": "YOLO-PEFT: YOLO 계열에 대한 파라미터 효율적 미세조정",
+      "title_en": "YOLO-PEFT: Parameter-Efficient Fine-Tuning on YOLO Family",
+      "url": "https://huggingface.co/papers/2608.07051",
+      "summary": "YOLO 계열 객체 탐지 모델을 적은 파라미터만 조정해 효율적으로 미세조정하는 방법을 제안함.",
+      "summary_en": "Proposes parameter-efficient fine-tuning for the YOLO family of object detectors."
+    },
+    {
+      "title": "StreamArena: 연속·상호작용·장기 지평 에이전트형 스트리밍 영상 이해를 향해",
+      "title_en": "StreamArena: Toward Continuous, Interactive, and Long-Horizon Agentic Streaming Video Understanding",
+      "url": "https://huggingface.co/papers/2608.05703",
+      "summary": "연속적이고 상호작용적이며 긴 호흡의 스트리밍 영상 이해 에이전트를 평가하는 벤치마크·환경을 제안함.",
+      "summary_en": "Proposes a benchmark/environment for continuous, interactive, long-horizon agentic streaming video understanding."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "hallmark — AI 티가 안 나는 디자인 스킬",
+      "title_en": "hallmark - A Design Skill That Doesn't Look AI-Generated",
+      "url": "https://github.com/Nutlope/hallmark",
+      "summary": "AI로 만든 티가 나는 밋밋한 디자인 대신, 완성도 높은 디자인 결과를 내도록 돕는 에이전트용 디자인 스킬임.",
+      "summary_en": "An agent design skill that helps produce polished designs instead of the generic, obviously-AI-generated look."
+    },
+    {
+      "title": "\"코드는 결코 어려운 부분이 아니었다\"는 말은 모든 프로그래머에 대한 모욕이다",
+      "title_en": "'Code Was Never the Hard Part' Is an Insult to All Programmers",
+      "url": "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
+      "summary": "AI 시대에 흔히 나오는 '코딩은 쉬운 일이었다'는 담론이, 실제 어려운 문제를 풀어온 프로그래머의 노고를 폄하한다고 반박함.",
+      "summary_en": "Rebuts the popular AI-era claim that 'coding was the easy part,' arguing it belittles the real hard work programmers have long done."
+    },
+    {
+      "title": "모든 코드를, 항상 다시 작성하라",
+      "title_en": "Rewrite All the Code, All the Time",
+      "url": "https://stng.substack.com/p/rewrite-all-the-code-all-the-time",
+      "summary": "AI로 코드 생성 비용이 급락한 시대에는 레거시를 붙잡기보다 코드를 자주·대담하게 다시 작성하는 편이 낫다고 주장함.",
+      "summary_en": "Argues that as AI slashes the cost of writing code, rewriting frequently and boldly beats clinging to legacy."
+    },
+    {
+      "title": "API 키 없이 URL 하나로 쓰는 한국 주식 데이터 JSON·MCP 서버",
+      "title_en": "A Korean Stock Data JSON/MCP Server Usable via a Single URL, No API Key",
+      "url": "https://news.hada.io/topic?id=32327",
+      "summary": "API 키 없이 URL 하나로 한국 주식 데이터를 JSON으로 받고 MCP 서버로도 붙일 수 있게 만든 오픈 프로젝트임.",
+      "summary_en": "An open project serving Korean stock data as JSON via a single URL with no API key, also usable as an MCP server."
+    },
+    {
+      "title": "goshot — 코드 스크린샷 생성기",
+      "title_en": "goshot - A Code Screenshot Generator",
+      "url": "https://github.com/watzon/goshot",
+      "summary": "코드를 보기 좋은 이미지로 만들어주는 코드 스크린샷 생성기임.",
+      "summary_en": "A code screenshot generator that turns source code into good-looking images."
+    }
+  ]
+}
