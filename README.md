@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-08-11
+> 마지막 업데이트: 2026-08-12
 
-# AI 뉴스 — 2026-08-11
+# AI 뉴스 — 2026-08-12
 
 ## 🔥 GitHub Trending (Python)
 
 - [semantica-agi/semantica](https://github.com/semantica-agi/semantica): 맥락과 책임성 있는 AI 시스템을 위한 그래프 네이티브 인프라임.
-- [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler): 샤오홍슈·더우인·콰이쇼우·비리비리·웨이보·즈후 등 중국 주요 플랫폼의 게시물·댓글 크롤러임.
-- [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents): 멀티 에이전트 LLM 기반 금융 트레이딩 프레임워크임.
-- [google-deepmind/weathernext](https://github.com/google-deepmind/weathernext): Google DeepMind의 날씨 예측 AI 모델 'WeatherNext' 관련 저장소임.
+- [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis): LLM 기반 다중 시장 주식 분석 시스템임. 다중 소스 시세·실시간 뉴스·의사결정 대시보드·자동 알림을 제공하고 무료 정기 실행을 지원함.
 - [vitali87/code-graph-rag](https://github.com/vitali87/code-graph-rag): 모노레포를 위한 궁극의 RAG임. 지식 그래프와 AI로 다중 언어 코드베이스를 질의·이해·편집함.
+- [anthropics/skills](https://github.com/anthropics/skills): Anthropic의 에이전트 스킬 공개 저장소임.
+- [3b1b/manim](https://github.com/3b1b/manim): 설명용 수학 영상을 만들기 위한 애니메이션 엔진임. 3Blue1Brown이 만듦.
 
 ## 📄 Hugging Face Papers
 
-- [SFT는 충돌하고 RL은 공존한다: LLM 멀티태스크 학습의 이론·실증 분석](https://huggingface.co/papers/2608.03573)
-  LLM 멀티태스크 학습에서 SFT는 과제 간 충돌을 일으키지만 RL은 공존이 가능함을 이론·실증으로 분석함.
-- [단순한 환경 스케일링을 넘어: 멀티모달 에이전트 학습을 위한 효과적 환경 분포 설계](https://huggingface.co/papers/2608.03571)
-  환경을 단순히 늘리는 대신, 멀티모달 에이전트 학습에 효과적인 환경 분포를 설계하는 방법을 제안함.
-- [SimWAM: 엔드투엔드 자율주행을 위한 단순 월드 액션 모델](https://huggingface.co/papers/2608.07468)
-  엔드투엔드 자율주행을 위한 단순한 월드 액션 모델을 제안함.
-- [YOLO-PEFT: YOLO 계열에 대한 파라미터 효율적 미세조정](https://huggingface.co/papers/2608.07051)
-  YOLO 계열 객체 탐지 모델을 적은 파라미터만 조정해 효율적으로 미세조정하는 방법을 제안함.
-- [StreamArena: 연속·상호작용·장기 지평 에이전트형 스트리밍 영상 이해를 향해](https://huggingface.co/papers/2608.05703)
-  연속적이고 상호작용적이며 긴 호흡의 스트리밍 영상 이해 에이전트를 평가하는 벤치마크·환경을 제안함.
+- [BDH-CQ: 순환 잠재 추론을 이용한 In-Context Learning](https://huggingface.co/papers/2608.09888)
+  순환적 잠재 추론을 활용해 맥락 내 학습(in-context learning) 성능을 높이는 방법을 제안함.
+- [Macaron-V1: 자기개선·Mixture-of-LoRA 기반 오픈 지속학습을 향해](https://huggingface.co/papers/2608.09819)
+  자기개선과 Mixture-of-LoRA를 결합해 개방형 지속 학습(continual learning)을 구현하는 방법을 제안함.
+- [SWE-Bench ProMax: 대규모 다국어 코드 리팩터링에서 에이전트 벤치마킹](https://huggingface.co/papers/2608.09802)
+  대규모·다국어 코드 리팩터링 과제에서 코딩 에이전트의 성능을 평가하는 확장 벤치마크임.
+- [Ouroboros: 검토된 코어 진화를 갖춘 자기개발형 프런티어 코딩 에이전트](https://huggingface.co/papers/2608.08311)
+  핵심 로직의 진화를 검토 과정을 거쳐 스스로 개발해 나가는 프런티어 코딩 에이전트를 제안함.
+- [어떤 감독도 없는 온폴리시 자기 증류](https://huggingface.co/papers/2608.06296)
+  별도의 감독(레이블) 없이 온폴리시 방식으로 자기 증류를 수행하는 방법을 제안함.
 
 ## 🦉 GeekNews
 
-- [hallmark — AI 티가 안 나는 디자인 스킬](https://github.com/Nutlope/hallmark)
-  AI로 만든 티가 나는 밋밋한 디자인 대신, 완성도 높은 디자인 결과를 내도록 돕는 에이전트용 디자인 스킬임.
-- ["코드는 결코 어려운 부분이 아니었다"는 말은 모든 프로그래머에 대한 모욕이다](https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers)
-  AI 시대에 흔히 나오는 '코딩은 쉬운 일이었다'는 담론이, 실제 어려운 문제를 풀어온 프로그래머의 노고를 폄하한다고 반박함.
-- [모든 코드를, 항상 다시 작성하라](https://stng.substack.com/p/rewrite-all-the-code-all-the-time)
-  AI로 코드 생성 비용이 급락한 시대에는 레거시를 붙잡기보다 코드를 자주·대담하게 다시 작성하는 편이 낫다고 주장함.
-- [API 키 없이 URL 하나로 쓰는 한국 주식 데이터 JSON·MCP 서버](https://news.hada.io/topic?id=32327)
-  API 키 없이 URL 하나로 한국 주식 데이터를 JSON으로 받고 MCP 서버로도 붙일 수 있게 만든 오픈 프로젝트임.
-- [goshot — 코드 스크린샷 생성기](https://github.com/watzon/goshot)
-  코드를 보기 좋은 이미지로 만들어주는 코드 스크린샷 생성기임.
+- [엔지니어링 리더는 매일 무슨 일을 하는가](https://softwareleads.substack.com/p/engineering-leaders-day-to-day-activities)
+  엔지니어링 리더의 하루가 코드가 아니라 방향 설정·조율·의사결정·사람 문제로 채워진다는 점을 구체적 활동으로 풀어냄.
+- [PostgreSQL의 MVCC는 나쁘다. 다른 DB도 마찬가지다](https://boringsql.com/posts/mvcc-bad-bad/)
+  PostgreSQL의 MVCC 구현이 지닌 팽창·베큠 등 고질적 문제를 짚되, 다른 DB의 MVCC도 저마다 트레이드오프가 있다고 정리함.
+- [SQLite에서 배운 신뢰성의 교훈 (Richard Hipp)](https://www.youtube.com/watch?v=V_qzqY1bb7I)
+  SQLite 창시자 Richard Hipp이 극한의 테스트·단순함으로 세계에서 가장 널리 쓰이는 DB의 신뢰성을 지켜온 방법을 이야기함.
+- [Instatic — Webflow·Framer·WordPress를 대체하는 오픈소스 셀프호스팅 비주얼 CMS](https://github.com/CoreBunch/Instatic)
+  Webflow·Framer·WordPress를 대체하려는 오픈소스 셀프호스팅 비주얼 CMS임. 시각적으로 사이트를 만들고 직접 호스팅함.
+- [Chat2DB — AI 기반 데이터베이스 클라이언트 & SQL 워크스페이스](https://github.com/OtterMind/Chat2DB)
+  자연어로 질의하고 SQL을 생성·실행하는 AI 기반 데이터베이스 클라이언트 겸 SQL 워크스페이스임.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-08-11](data/2026-08-11.md)
 - [2026-08-10](data/2026-08-10.md)
 - [2026-08-09](data/2026-08-09.md)
 - [2026-08-08](data/2026-08-08.md)
@@ -69,4 +70,3 @@
 - [2026-07-16](data/2026-07-16.md)
 - [2026-07-15](data/2026-07-15.md)
 - [2026-07-14](data/2026-07-14.md)
-- [2026-07-13](data/2026-07-13.md)
