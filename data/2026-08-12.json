@@ -1,0 +1,109 @@
+{
+  "date": "2026-08-12",
+  "github_trending": [
+    {
+      "name": "semantica-agi/semantica",
+      "url": "https://github.com/semantica-agi/semantica",
+      "description": "맥락과 책임성 있는 AI 시스템을 위한 그래프 네이티브 인프라임.",
+      "description_en": "Graph-Native Infrastructure for Context and Accountable AI Systems"
+    },
+    {
+      "name": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 기반 다중 시장 주식 분석 시스템임. 다중 소스 시세·실시간 뉴스·의사결정 대시보드·자동 알림을 제공하고 무료 정기 실행을 지원함.",
+      "description_en": "LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs."
+    },
+    {
+      "name": "vitali87/code-graph-rag",
+      "url": "https://github.com/vitali87/code-graph-rag",
+      "description": "모노레포를 위한 궁극의 RAG임. 지식 그래프와 AI로 다중 언어 코드베이스를 질의·이해·편집함.",
+      "description_en": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs."
+    },
+    {
+      "name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Anthropic의 에이전트 스킬 공개 저장소임.",
+      "description_en": "Public repository for Agent Skills"
+    },
+    {
+      "name": "3b1b/manim",
+      "url": "https://github.com/3b1b/manim",
+      "description": "설명용 수학 영상을 만들기 위한 애니메이션 엔진임. 3Blue1Brown이 만듦.",
+      "description_en": "Animation engine for explanatory math videos"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "BDH-CQ: 순환 잠재 추론을 이용한 In-Context Learning",
+      "title_en": "BDH-CQ: In-Context Learning with Recurrent Latent Reasoning",
+      "url": "https://huggingface.co/papers/2608.09888",
+      "summary": "순환적 잠재 추론을 활용해 맥락 내 학습(in-context learning) 성능을 높이는 방법을 제안함.",
+      "summary_en": "Proposes in-context learning enhanced with recurrent latent reasoning."
+    },
+    {
+      "title": "Macaron-V1: 자기개선·Mixture-of-LoRA 기반 오픈 지속학습을 향해",
+      "title_en": "Macaron-V1: Towards Open Continual Learning with Self-Improvement and Mixture-of-LoRA",
+      "url": "https://huggingface.co/papers/2608.09819",
+      "summary": "자기개선과 Mixture-of-LoRA를 결합해 개방형 지속 학습(continual learning)을 구현하는 방법을 제안함.",
+      "summary_en": "Proposes open continual learning combining self-improvement and a mixture of LoRA adapters."
+    },
+    {
+      "title": "SWE-Bench ProMax: 대규모 다국어 코드 리팩터링에서 에이전트 벤치마킹",
+      "title_en": "SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring",
+      "url": "https://huggingface.co/papers/2608.09802",
+      "summary": "대규모·다국어 코드 리팩터링 과제에서 코딩 에이전트의 성능을 평가하는 확장 벤치마크임.",
+      "summary_en": "An extended benchmark evaluating coding agents on large-scale, multilingual code refactoring."
+    },
+    {
+      "title": "Ouroboros: 검토된 코어 진화를 갖춘 자기개발형 프런티어 코딩 에이전트",
+      "title_en": "Ouroboros: A Self-Developing Frontier Coding Agent with Reviewed Core Evolution",
+      "url": "https://huggingface.co/papers/2608.08311",
+      "summary": "핵심 로직의 진화를 검토 과정을 거쳐 스스로 개발해 나가는 프런티어 코딩 에이전트를 제안함.",
+      "summary_en": "Proposes a self-developing frontier coding agent whose core evolution goes through review."
+    },
+    {
+      "title": "어떤 감독도 없는 온폴리시 자기 증류",
+      "title_en": "On-Policy Self-Distillation without Any Supervision",
+      "url": "https://huggingface.co/papers/2608.06296",
+      "summary": "별도의 감독(레이블) 없이 온폴리시 방식으로 자기 증류를 수행하는 방법을 제안함.",
+      "summary_en": "Proposes on-policy self-distillation without any supervision."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "엔지니어링 리더는 매일 무슨 일을 하는가",
+      "title_en": "What Engineering Leaders Do Day-to-Day",
+      "url": "https://softwareleads.substack.com/p/engineering-leaders-day-to-day-activities",
+      "summary": "엔지니어링 리더의 하루가 코드가 아니라 방향 설정·조율·의사결정·사람 문제로 채워진다는 점을 구체적 활동으로 풀어냄.",
+      "summary_en": "Breaks down an engineering leader's day into concrete activities—direction-setting, alignment, decisions and people work—rather than code."
+    },
+    {
+      "title": "PostgreSQL의 MVCC는 나쁘다. 다른 DB도 마찬가지다",
+      "title_en": "PostgreSQL's MVCC Is Bad, and So Is Every Other DB's",
+      "url": "https://boringsql.com/posts/mvcc-bad-bad/",
+      "summary": "PostgreSQL의 MVCC 구현이 지닌 팽창·베큠 등 고질적 문제를 짚되, 다른 DB의 MVCC도 저마다 트레이드오프가 있다고 정리함.",
+      "summary_en": "Points out the bloat and vacuum pains of Postgres's MVCC while noting other databases' MVCC carry their own trade-offs."
+    },
+    {
+      "title": "SQLite에서 배운 신뢰성의 교훈 (Richard Hipp)",
+      "title_en": "Lessons on Reliability from SQLite (Richard Hipp)",
+      "url": "https://www.youtube.com/watch?v=V_qzqY1bb7I",
+      "summary": "SQLite 창시자 Richard Hipp이 극한의 테스트·단순함으로 세계에서 가장 널리 쓰이는 DB의 신뢰성을 지켜온 방법을 이야기함.",
+      "summary_en": "SQLite's creator Richard Hipp shares how extreme testing and simplicity keep the world's most deployed database reliable."
+    },
+    {
+      "title": "Instatic — Webflow·Framer·WordPress를 대체하는 오픈소스 셀프호스팅 비주얼 CMS",
+      "title_en": "Instatic - An Open-Source Self-Hosted Visual CMS Replacing Webflow, Framer, WordPress",
+      "url": "https://github.com/CoreBunch/Instatic",
+      "summary": "Webflow·Framer·WordPress를 대체하려는 오픈소스 셀프호스팅 비주얼 CMS임. 시각적으로 사이트를 만들고 직접 호스팅함.",
+      "summary_en": "An open-source, self-hosted visual CMS aiming to replace Webflow, Framer and WordPress—build sites visually and host them yourself."
+    },
+    {
+      "title": "Chat2DB — AI 기반 데이터베이스 클라이언트 & SQL 워크스페이스",
+      "title_en": "Chat2DB - An AI-Powered Database Client & SQL Workspace",
+      "url": "https://github.com/OtterMind/Chat2DB",
+      "summary": "자연어로 질의하고 SQL을 생성·실행하는 AI 기반 데이터베이스 클라이언트 겸 SQL 워크스페이스임.",
+      "summary_en": "An AI-powered database client and SQL workspace that lets you query in natural language and generate/run SQL."
+    }
+  ]
+}
