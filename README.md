@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-08-12
+> 마지막 업데이트: 2026-08-13
 
-# AI 뉴스 — 2026-08-12
+# AI 뉴스 — 2026-08-13
 
 ## 🔥 GitHub Trending (Python)
 
 - [semantica-agi/semantica](https://github.com/semantica-agi/semantica): 맥락과 책임성 있는 AI 시스템을 위한 그래프 네이티브 인프라임.
-- [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis): LLM 기반 다중 시장 주식 분석 시스템임. 다중 소스 시세·실시간 뉴스·의사결정 대시보드·자동 알림을 제공하고 무료 정기 실행을 지원함.
-- [vitali87/code-graph-rag](https://github.com/vitali87/code-graph-rag): 모노레포를 위한 궁극의 RAG임. 지식 그래프와 AI로 다중 언어 코드베이스를 질의·이해·편집함.
-- [anthropics/skills](https://github.com/anthropics/skills): Anthropic의 에이전트 스킬 공개 저장소임.
-- [3b1b/manim](https://github.com/3b1b/manim): 설명용 수학 영상을 만들기 위한 애니메이션 엔진임. 3Blue1Brown이 만듦.
+- [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos): 금융 시장의 언어를 다루는 파운데이션 모델임. 시장 데이터용 사전학습 모델을 제공함.
+- [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master): 문서·주제를 네이티브 도형·전환·애니메이션·데이터 차트·표·음성 내레이션까지 갖춘 진짜 PowerPoint 덱으로 만들어주는 AI임. 자기 .pptx 템플릿도 지원함.
+- [smicallef/spiderfoot](https://github.com/smicallef/spiderfoot): 위협 인텔리전스와 공격 표면 매핑을 위한 OSINT를 자동화하는 도구임.
+- [Lightricks/LTX-2](https://github.com/Lightricks/LTX-2): LTX-2 오디오-비디오 생성 모델의 공식 Python 추론·LoRA 학습 패키지임.
 
 ## 📄 Hugging Face Papers
 
-- [BDH-CQ: 순환 잠재 추론을 이용한 In-Context Learning](https://huggingface.co/papers/2608.09888)
-  순환적 잠재 추론을 활용해 맥락 내 학습(in-context learning) 성능을 높이는 방법을 제안함.
-- [Macaron-V1: 자기개선·Mixture-of-LoRA 기반 오픈 지속학습을 향해](https://huggingface.co/papers/2608.09819)
-  자기개선과 Mixture-of-LoRA를 결합해 개방형 지속 학습(continual learning)을 구현하는 방법을 제안함.
-- [SWE-Bench ProMax: 대규모 다국어 코드 리팩터링에서 에이전트 벤치마킹](https://huggingface.co/papers/2608.09802)
-  대규모·다국어 코드 리팩터링 과제에서 코딩 에이전트의 성능을 평가하는 확장 벤치마크임.
-- [Ouroboros: 검토된 코어 진화를 갖춘 자기개발형 프런티어 코딩 에이전트](https://huggingface.co/papers/2608.08311)
-  핵심 로직의 진화를 검토 과정을 거쳐 스스로 개발해 나가는 프런티어 코딩 에이전트를 제안함.
-- [어떤 감독도 없는 온폴리시 자기 증류](https://huggingface.co/papers/2608.06296)
-  별도의 감독(레이블) 없이 온폴리시 방식으로 자기 증류를 수행하는 방법을 제안함.
+- [ComBodied Agents: 인간 중심 에이전트형 AI의 새 패러다임](https://huggingface.co/papers/2608.10915)
+  인간을 중심에 둔 에이전트형 AI의 새로운 패러다임 'ComBodied Agents'를 제안함.
+- [에이전트 시스템의 공진화: 인간 설계를 넘어선 자기주도 진화를 향해](https://huggingface.co/papers/2608.10299)
+  에이전트 시스템이 인간 설계를 넘어 스스로 방향을 정해 공진화하도록 하는 방법을 다룸.
+- [Beyond Pixels: 비디오 프라이어에서 4D 월드로](https://huggingface.co/papers/2608.10744)
+  영상에서 얻은 사전(prior)을 활용해 시공간을 포함한 4D 월드를 구성하는 방법을 제안함.
+- [AdvFD: 적대적 Fréchet 거리 손실로 시각 생성 성능 향상](https://huggingface.co/papers/2608.11205)
+  적대적 Fréchet 거리(FD) 손실을 도입해 시각 생성 품질을 끌어올리는 방법을 제안함.
+- [Mendel Gödel Machine: 비교 진화를 통한 재귀적 자기개선 코딩 에이전트](https://huggingface.co/papers/2608.07645)
+  비교 진화 방식으로 스스로를 재귀적으로 개선하는 코딩 에이전트를 제안함.
 
 ## 🦉 GeekNews
 
-- [엔지니어링 리더는 매일 무슨 일을 하는가](https://softwareleads.substack.com/p/engineering-leaders-day-to-day-activities)
-  엔지니어링 리더의 하루가 코드가 아니라 방향 설정·조율·의사결정·사람 문제로 채워진다는 점을 구체적 활동으로 풀어냄.
-- [PostgreSQL의 MVCC는 나쁘다. 다른 DB도 마찬가지다](https://boringsql.com/posts/mvcc-bad-bad/)
-  PostgreSQL의 MVCC 구현이 지닌 팽창·베큠 등 고질적 문제를 짚되, 다른 DB의 MVCC도 저마다 트레이드오프가 있다고 정리함.
-- [SQLite에서 배운 신뢰성의 교훈 (Richard Hipp)](https://www.youtube.com/watch?v=V_qzqY1bb7I)
-  SQLite 창시자 Richard Hipp이 극한의 테스트·단순함으로 세계에서 가장 널리 쓰이는 DB의 신뢰성을 지켜온 방법을 이야기함.
-- [Instatic — Webflow·Framer·WordPress를 대체하는 오픈소스 셀프호스팅 비주얼 CMS](https://github.com/CoreBunch/Instatic)
-  Webflow·Framer·WordPress를 대체하려는 오픈소스 셀프호스팅 비주얼 CMS임. 시각적으로 사이트를 만들고 직접 호스팅함.
-- [Chat2DB — AI 기반 데이터베이스 클라이언트 & SQL 워크스페이스](https://github.com/OtterMind/Chat2DB)
-  자연어로 질의하고 SQL을 생성·실행하는 AI 기반 데이터베이스 클라이언트 겸 SQL 워크스페이스임.
+- [코드 리뷰도 배워야 하는 기술이다](https://typesanitizer.com/blog/code-review.html)
+  코드 리뷰를 감으로 하기보다, 무엇을 어떤 순서로 볼지 등 체계적으로 익혀야 하는 하나의 기술로 다뤄야 한다고 주장함.
+- [AI가 코드를 쓰는 시대, antirez는 왜 다시 C로 만드는가](https://news.hada.io/article/antirez-controls-the-ideas)
+  Redis 창시자 antirez가 AI가 코드를 대신 쓰는 시대에도 아이디어의 통제권을 쥐기 위해 직접 C로 만드는 이유를 설명함.
+- [Go 언어가 AI 기반 소프트웨어 엔지니어링에 이상적인 이유](https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/)
+  단순한 문법·강한 표준 라이브러리·명확한 관용구 덕분에 Go가 AI 보조 개발에 특히 잘 맞는다고 구글이 설명함.
+- [한 연구자가 noreply.net을 샀더니 기업 기밀이 쏟아짐](https://arstechnica.com/security/2026/08/a-researcher-bought-noreply-net-companies-started-sending-him-secrets/)
+  한 연구자가 noreply.net 도메인을 사들이자, 잘못 설정된 시스템들이 비밀번호 재설정 등 기업 기밀을 그에게 보내기 시작함.
+- [HOP — HWP/HWPX 문서를 보고 편집하는 오픈소스 데스크톱 앱](https://github.com/golbin/hop)
+  한글(HWP/HWPX) 문서를 열고 편집할 수 있는 오픈소스 데스크톱 앱임. 한컴 오피스 없이도 열람·수정이 가능함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-08-12](data/2026-08-12.md)
 - [2026-08-11](data/2026-08-11.md)
 - [2026-08-10](data/2026-08-10.md)
 - [2026-08-09](data/2026-08-09.md)
@@ -69,4 +70,3 @@
 - [2026-07-17](data/2026-07-17.md)
 - [2026-07-16](data/2026-07-16.md)
 - [2026-07-15](data/2026-07-15.md)
-- [2026-07-14](data/2026-07-14.md)
