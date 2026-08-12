@@ -1,0 +1,109 @@
+{
+  "date": "2026-08-13",
+  "github_trending": [
+    {
+      "name": "semantica-agi/semantica",
+      "url": "https://github.com/semantica-agi/semantica",
+      "description": "맥락과 책임성 있는 AI 시스템을 위한 그래프 네이티브 인프라임.",
+      "description_en": "Graph-Native Infrastructure for Context and Accountable AI Systems"
+    },
+    {
+      "name": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "금융 시장의 언어를 다루는 파운데이션 모델임. 시장 데이터용 사전학습 모델을 제공함.",
+      "description_en": "Kronos: A Foundation Model for the Language of Financial Markets"
+    },
+    {
+      "name": "hugohe3/ppt-master",
+      "url": "https://github.com/hugohe3/ppt-master",
+      "description": "문서·주제를 네이티브 도형·전환·애니메이션·데이터 차트·표·음성 내레이션까지 갖춘 진짜 PowerPoint 덱으로 만들어주는 AI임. 자기 .pptx 템플릿도 지원함.",
+      "description_en": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables, audio narration from speaker notes, and support for your own .pptx templates."
+    },
+    {
+      "name": "smicallef/spiderfoot",
+      "url": "https://github.com/smicallef/spiderfoot",
+      "description": "위협 인텔리전스와 공격 표면 매핑을 위한 OSINT를 자동화하는 도구임.",
+      "description_en": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface."
+    },
+    {
+      "name": "Lightricks/LTX-2",
+      "url": "https://github.com/Lightricks/LTX-2",
+      "description": "LTX-2 오디오-비디오 생성 모델의 공식 Python 추론·LoRA 학습 패키지임.",
+      "description_en": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "ComBodied Agents: 인간 중심 에이전트형 AI의 새 패러다임",
+      "title_en": "ComBodied Agents: a New Paradigm of Human-Centric Agentic AI",
+      "url": "https://huggingface.co/papers/2608.10915",
+      "summary": "인간을 중심에 둔 에이전트형 AI의 새로운 패러다임 'ComBodied Agents'를 제안함.",
+      "summary_en": "Proposes 'ComBodied Agents,' a new paradigm of human-centric agentic AI."
+    },
+    {
+      "title": "에이전트 시스템의 공진화: 인간 설계를 넘어선 자기주도 진화를 향해",
+      "title_en": "Co-Evolution in Agentic Systems: Toward Self-Directed Evolution Beyond Human Design",
+      "url": "https://huggingface.co/papers/2608.10299",
+      "summary": "에이전트 시스템이 인간 설계를 넘어 스스로 방향을 정해 공진화하도록 하는 방법을 다룸.",
+      "summary_en": "Studies co-evolution in agentic systems toward self-directed evolution beyond human design."
+    },
+    {
+      "title": "Beyond Pixels: 비디오 프라이어에서 4D 월드로",
+      "title_en": "Beyond Pixels: From Video Priors to 4D Worlds",
+      "url": "https://huggingface.co/papers/2608.10744",
+      "summary": "영상에서 얻은 사전(prior)을 활용해 시공간을 포함한 4D 월드를 구성하는 방법을 제안함.",
+      "summary_en": "Builds 4D worlds (space + time) from video priors, going beyond pixels."
+    },
+    {
+      "title": "AdvFD: 적대적 Fréchet 거리 손실로 시각 생성 성능 향상",
+      "title_en": "AdvFD: Boosting Visual Generation via Adversarial Fréchet Distance Loss",
+      "url": "https://huggingface.co/papers/2608.11205",
+      "summary": "적대적 Fréchet 거리(FD) 손실을 도입해 시각 생성 품질을 끌어올리는 방법을 제안함.",
+      "summary_en": "Introduces an adversarial Fréchet distance loss to boost visual generation quality."
+    },
+    {
+      "title": "Mendel Gödel Machine: 비교 진화를 통한 재귀적 자기개선 코딩 에이전트",
+      "title_en": "Mendel Gödel Machine: Recursive Self-Improving Coding Agents via Comparative Evolution",
+      "url": "https://huggingface.co/papers/2608.07645",
+      "summary": "비교 진화 방식으로 스스로를 재귀적으로 개선하는 코딩 에이전트를 제안함.",
+      "summary_en": "Proposes recursive self-improving coding agents via comparative evolution."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "코드 리뷰도 배워야 하는 기술이다",
+      "title_en": "Code Review Is a Skill You Have to Learn",
+      "url": "https://typesanitizer.com/blog/code-review.html",
+      "summary": "코드 리뷰를 감으로 하기보다, 무엇을 어떤 순서로 볼지 등 체계적으로 익혀야 하는 하나의 기술로 다뤄야 한다고 주장함.",
+      "summary_en": "Argues code review should be treated as a learnable skill—what to look for and in what order—rather than done by intuition."
+    },
+    {
+      "title": "AI가 코드를 쓰는 시대, antirez는 왜 다시 C로 만드는가",
+      "title_en": "In the Age of AI-Written Code, Why antirez Goes Back to C",
+      "url": "https://news.hada.io/article/antirez-controls-the-ideas",
+      "summary": "Redis 창시자 antirez가 AI가 코드를 대신 쓰는 시대에도 아이디어의 통제권을 쥐기 위해 직접 C로 만드는 이유를 설명함.",
+      "summary_en": "Redis creator antirez explains why he still builds in C to keep control of the ideas, even as AI writes code."
+    },
+    {
+      "title": "Go 언어가 AI 기반 소프트웨어 엔지니어링에 이상적인 이유",
+      "title_en": "Why Go Is an Ideal Language for AI-Assisted Software Engineering",
+      "url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/",
+      "summary": "단순한 문법·강한 표준 라이브러리·명확한 관용구 덕분에 Go가 AI 보조 개발에 특히 잘 맞는다고 구글이 설명함.",
+      "summary_en": "Google argues Go's simple syntax, strong standard library and clear idioms make it especially well-suited to AI-assisted development."
+    },
+    {
+      "title": "한 연구자가 noreply.net을 샀더니 기업 기밀이 쏟아짐",
+      "title_en": "A Researcher Bought noreply.net and Companies Started Sending Him Secrets",
+      "url": "https://arstechnica.com/security/2026/08/a-researcher-bought-noreply-net-companies-started-sending-him-secrets/",
+      "summary": "한 연구자가 noreply.net 도메인을 사들이자, 잘못 설정된 시스템들이 비밀번호 재설정 등 기업 기밀을 그에게 보내기 시작함.",
+      "summary_en": "After a researcher bought noreply.net, misconfigured systems began sending him corporate secrets like password resets."
+    },
+    {
+      "title": "HOP — HWP/HWPX 문서를 보고 편집하는 오픈소스 데스크톱 앱",
+      "title_en": "HOP - An Open-Source Desktop App to View and Edit HWP/HWPX Documents",
+      "url": "https://github.com/golbin/hop",
+      "summary": "한글(HWP/HWPX) 문서를 열고 편집할 수 있는 오픈소스 데스크톱 앱임. 한컴 오피스 없이도 열람·수정이 가능함.",
+      "summary_en": "An open-source desktop app to open and edit Korean HWP/HWPX documents without Hancom Office."
+    }
+  ]
+}
