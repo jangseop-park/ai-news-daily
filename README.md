@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-08-13
+> 마지막 업데이트: 2026-08-14
 
-# AI 뉴스 — 2026-08-13
+# AI 뉴스 — 2026-08-14
 
 ## 🔥 GitHub Trending (Python)
 
 - [semantica-agi/semantica](https://github.com/semantica-agi/semantica): 맥락과 책임성 있는 AI 시스템을 위한 그래프 네이티브 인프라임.
-- [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos): 금융 시장의 언어를 다루는 파운데이션 모델임. 시장 데이터용 사전학습 모델을 제공함.
-- [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master): 문서·주제를 네이티브 도형·전환·애니메이션·데이터 차트·표·음성 내레이션까지 갖춘 진짜 PowerPoint 덱으로 만들어주는 AI임. 자기 .pptx 템플릿도 지원함.
-- [smicallef/spiderfoot](https://github.com/smicallef/spiderfoot): 위협 인텔리전스와 공격 표면 매핑을 위한 OSINT를 자동화하는 도구임.
-- [Lightricks/LTX-2](https://github.com/Lightricks/LTX-2): LTX-2 오디오-비디오 생성 모델의 공식 Python 추론·LoRA 학습 패키지임.
+- [anthropics/skills](https://github.com/anthropics/skills): Anthropic의 에이전트 스킬 공개 저장소임.
+- [cactus-compute/needle](https://github.com/cactus-compute/needle): 폰·웨어러블·스마트홈·로봇 등 초소형 기기를 위한 14MB 파운데이션 모델임.
+- [unslothai/unsloth](https://github.com/unslothai/unsloth): Qwen3.8·Kimi K3·MiniMax-H3·Gemma 4·DeepSeek-V4·FLUX 등 LLM·확산 모델을 실행·학습하는 로컬 UI임.
+- [megadose/holehe](https://github.com/megadose/holehe): 이메일이 트위터·인스타그램 등 여러 사이트에 쓰였는지 확인하고 비밀번호 찾기 기능으로 정보를 수집하는 OSINT 도구임.
 
 ## 📄 Hugging Face Papers
 
-- [ComBodied Agents: 인간 중심 에이전트형 AI의 새 패러다임](https://huggingface.co/papers/2608.10915)
-  인간을 중심에 둔 에이전트형 AI의 새로운 패러다임 'ComBodied Agents'를 제안함.
-- [에이전트 시스템의 공진화: 인간 설계를 넘어선 자기주도 진화를 향해](https://huggingface.co/papers/2608.10299)
-  에이전트 시스템이 인간 설계를 넘어 스스로 방향을 정해 공진화하도록 하는 방법을 다룸.
-- [Beyond Pixels: 비디오 프라이어에서 4D 월드로](https://huggingface.co/papers/2608.10744)
-  영상에서 얻은 사전(prior)을 활용해 시공간을 포함한 4D 월드를 구성하는 방법을 제안함.
-- [AdvFD: 적대적 Fréchet 거리 손실로 시각 생성 성능 향상](https://huggingface.co/papers/2608.11205)
-  적대적 Fréchet 거리(FD) 손실을 도입해 시각 생성 품질을 끌어올리는 방법을 제안함.
-- [Mendel Gödel Machine: 비교 진화를 통한 재귀적 자기개선 코딩 에이전트](https://huggingface.co/papers/2608.07645)
-  비교 진화 방식으로 스스로를 재귀적으로 개선하는 코딩 에이전트를 제안함.
+- [OpenART: 개방형 환경 진화로 에이전트 레드팀 확장](https://huggingface.co/papers/2608.00677)
+  개방형으로 진화하는 환경을 통해 에이전트 레드팀(취약점 탐색)을 대규모로 확장하는 방법을 제안함.
+- [Spark-to-Paper: 조립 가능한 스킬로서의 엔드투엔드 연구 논문 생성](https://huggingface.co/papers/2608.11924)
+  아이디어에서 완성 논문까지 이어지는 연구 논문 생성을 조립 가능한 스킬로 구성함.
+- [AI4AI at Test-Time: 하네스를 통한 강→약 능력 전이](https://huggingface.co/papers/2608.12307)
+  테스트 시점에 하네스를 이용해 강한 모델의 능력을 약한 모델로 전이하는 방법을 제안함.
+- [Mechanist: 지능의 메커니즘을 발견하는 과학적 도구로서의 AI](https://huggingface.co/papers/2608.12036)
+  AI를 과학 도구처럼 활용해 지능의 작동 메커니즘을 밝혀내는 접근을 제안함.
+- [SkillZip: 확장 가능한 에이전트 스킬 라이브러리를 위한 계약 보존 그래프 압축](https://huggingface.co/papers/2608.05604)
+  에이전트 스킬 라이브러리를 계약(인터페이스)을 보존한 채 그래프로 압축해 확장성을 높이는 방법을 제안함.
 
 ## 🦉 GeekNews
 
-- [코드 리뷰도 배워야 하는 기술이다](https://typesanitizer.com/blog/code-review.html)
-  코드 리뷰를 감으로 하기보다, 무엇을 어떤 순서로 볼지 등 체계적으로 익혀야 하는 하나의 기술로 다뤄야 한다고 주장함.
-- [AI가 코드를 쓰는 시대, antirez는 왜 다시 C로 만드는가](https://news.hada.io/article/antirez-controls-the-ideas)
-  Redis 창시자 antirez가 AI가 코드를 대신 쓰는 시대에도 아이디어의 통제권을 쥐기 위해 직접 C로 만드는 이유를 설명함.
-- [Go 언어가 AI 기반 소프트웨어 엔지니어링에 이상적인 이유](https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/)
-  단순한 문법·강한 표준 라이브러리·명확한 관용구 덕분에 Go가 AI 보조 개발에 특히 잘 맞는다고 구글이 설명함.
-- [한 연구자가 noreply.net을 샀더니 기업 기밀이 쏟아짐](https://arstechnica.com/security/2026/08/a-researcher-bought-noreply-net-companies-started-sending-him-secrets/)
-  한 연구자가 noreply.net 도메인을 사들이자, 잘못 설정된 시스템들이 비밀번호 재설정 등 기업 기밀을 그에게 보내기 시작함.
-- [HOP — HWP/HWPX 문서를 보고 편집하는 오픈소스 데스크톱 앱](https://github.com/golbin/hop)
-  한글(HWP/HWPX) 문서를 열고 편집할 수 있는 오픈소스 데스크톱 앱임. 한컴 오피스 없이도 열람·수정이 가능함.
+- [압축은 예측이다](https://ngrok.com/blog/compression-is-prediction)
+  데이터를 잘 압축하는 것과 다음을 잘 예측하는 것이 본질적으로 같은 문제임을 설명하며, 이는 LLM의 작동 원리와도 맞닿아 있음.
+- [인간 중심에서 에이전틱 코드 리뷰로 - 더 빠른 결정이 더 나은 리뷰를 뜻하지는 않는다](https://arxiv.org/html/2607.13196v1)
+  코드 리뷰가 사람 중심에서 에이전트 중심으로 옮겨가지만, 속도가 빨라진다고 리뷰 품질이 좋아지는 건 아니라고 분석함.
+- [AI가 소프트웨어 엔지니어링의 중산층을 없애고 있음](https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html)
+  AI가 중간 난도 업무를 대체하면서 주니어와 시니어 사이 '중산층' 엔지니어의 자리가 좁아지고 있다고 주장함.
+- [AI 사용을 그만두기로 한 이유](https://brettcodes.com/im-done-using-ai/)
+  한 개발자가 AI 코딩 도구가 생산성보다 학습·주도성을 해친다고 느껴 사용을 중단하기로 한 이유를 밝힘.
+- [Unsloth Desktop — 로컬 AI 모델 실행·학습·에이전트를 하나로 묶은 오픈소스 앱](https://unsloth.ai/docs/desktop)
+  로컬에서 AI 모델을 실행·학습하고 에이전트까지 한 앱에서 다루게 해주는 오픈소스 데스크톱 앱임.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-08-13](data/2026-08-13.md)
 - [2026-08-12](data/2026-08-12.md)
 - [2026-08-11](data/2026-08-11.md)
 - [2026-08-10](data/2026-08-10.md)
@@ -69,4 +70,3 @@
 - [2026-07-18](data/2026-07-18.md)
 - [2026-07-17](data/2026-07-17.md)
 - [2026-07-16](data/2026-07-16.md)
-- [2026-07-15](data/2026-07-15.md)
