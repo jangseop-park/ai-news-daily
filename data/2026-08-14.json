@@ -1,0 +1,109 @@
+{
+  "date": "2026-08-14",
+  "github_trending": [
+    {
+      "name": "semantica-agi/semantica",
+      "url": "https://github.com/semantica-agi/semantica",
+      "description": "맥락과 책임성 있는 AI 시스템을 위한 그래프 네이티브 인프라임.",
+      "description_en": "Graph-Native Infrastructure for Context and Accountable AI Systems"
+    },
+    {
+      "name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Anthropic의 에이전트 스킬 공개 저장소임.",
+      "description_en": "Public repository for Agent Skills"
+    },
+    {
+      "name": "cactus-compute/needle",
+      "url": "https://github.com/cactus-compute/needle",
+      "description": "폰·웨어러블·스마트홈·로봇 등 초소형 기기를 위한 14MB 파운데이션 모델임.",
+      "description_en": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots."
+    },
+    {
+      "name": "unslothai/unsloth",
+      "url": "https://github.com/unslothai/unsloth",
+      "description": "Qwen3.8·Kimi K3·MiniMax-H3·Gemma 4·DeepSeek-V4·FLUX 등 LLM·확산 모델을 실행·학습하는 로컬 UI임.",
+      "description_en": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more."
+    },
+    {
+      "name": "megadose/holehe",
+      "url": "https://github.com/megadose/holehe",
+      "description": "이메일이 트위터·인스타그램 등 여러 사이트에 쓰였는지 확인하고 비밀번호 찾기 기능으로 정보를 수집하는 OSINT 도구임.",
+      "description_en": "holehe checks if an email is used on sites like Twitter and Instagram and retrieves info via the forgotten-password function."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "OpenART: 개방형 환경 진화로 에이전트 레드팀 확장",
+      "title_en": "OpenART: Scaling Agent Red Teaming via Open-Ended Environment Evolution",
+      "url": "https://huggingface.co/papers/2608.00677",
+      "summary": "개방형으로 진화하는 환경을 통해 에이전트 레드팀(취약점 탐색)을 대규모로 확장하는 방법을 제안함.",
+      "summary_en": "Scales agent red teaming through open-endedly evolving environments."
+    },
+    {
+      "title": "Spark-to-Paper: 조립 가능한 스킬로서의 엔드투엔드 연구 논문 생성",
+      "title_en": "Spark-to-Paper: End-to-End Research Paper Generation as a Composable Skill",
+      "url": "https://huggingface.co/papers/2608.11924",
+      "summary": "아이디어에서 완성 논문까지 이어지는 연구 논문 생성을 조립 가능한 스킬로 구성함.",
+      "summary_en": "Frames end-to-end research paper generation—from spark to paper—as a composable skill."
+    },
+    {
+      "title": "AI4AI at Test-Time: 하네스를 통한 강→약 능력 전이",
+      "title_en": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
+      "url": "https://huggingface.co/papers/2608.12307",
+      "summary": "테스트 시점에 하네스를 이용해 강한 모델의 능력을 약한 모델로 전이하는 방법을 제안함.",
+      "summary_en": "Transfers capability from strong to weak models at test time via harnesses."
+    },
+    {
+      "title": "Mechanist: 지능의 메커니즘을 발견하는 과학적 도구로서의 AI",
+      "title_en": "Mechanist: AI as a Scientific Instrument for Discovering the Mechanisms of Intelligence",
+      "url": "https://huggingface.co/papers/2608.12036",
+      "summary": "AI를 과학 도구처럼 활용해 지능의 작동 메커니즘을 밝혀내는 접근을 제안함.",
+      "summary_en": "Uses AI as a scientific instrument to discover the mechanisms of intelligence."
+    },
+    {
+      "title": "SkillZip: 확장 가능한 에이전트 스킬 라이브러리를 위한 계약 보존 그래프 압축",
+      "title_en": "SkillZip: Contract-Preserving Graph Compression for Scalable Agent Skill Libraries",
+      "url": "https://huggingface.co/papers/2608.05604",
+      "summary": "에이전트 스킬 라이브러리를 계약(인터페이스)을 보존한 채 그래프로 압축해 확장성을 높이는 방법을 제안함.",
+      "summary_en": "Compresses agent skill libraries as contract-preserving graphs for scalability."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "압축은 예측이다",
+      "title_en": "Compression Is Prediction",
+      "url": "https://ngrok.com/blog/compression-is-prediction",
+      "summary": "데이터를 잘 압축하는 것과 다음을 잘 예측하는 것이 본질적으로 같은 문제임을 설명하며, 이는 LLM의 작동 원리와도 맞닿아 있음.",
+      "summary_en": "Explains that compressing data well and predicting the next token well are fundamentally the same problem—tying into how LLMs work."
+    },
+    {
+      "title": "인간 중심에서 에이전틱 코드 리뷰로 - 더 빠른 결정이 더 나은 리뷰를 뜻하지는 않는다",
+      "title_en": "From Human-Centric to Agentic Code Review - Faster Decisions Don't Mean Better Reviews",
+      "url": "https://arxiv.org/html/2607.13196v1",
+      "summary": "코드 리뷰가 사람 중심에서 에이전트 중심으로 옮겨가지만, 속도가 빨라진다고 리뷰 품질이 좋아지는 건 아니라고 분석함.",
+      "summary_en": "Analyzes the shift from human-centric to agentic code review, arguing faster decisions don't equal better reviews."
+    },
+    {
+      "title": "AI가 소프트웨어 엔지니어링의 중산층을 없애고 있음",
+      "title_en": "AI Is Removing the Middle Class of Software Engineering",
+      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+      "summary": "AI가 중간 난도 업무를 대체하면서 주니어와 시니어 사이 '중산층' 엔지니어의 자리가 좁아지고 있다고 주장함.",
+      "summary_en": "Argues AI is squeezing out the 'middle class' engineers between junior and senior by absorbing mid-difficulty work."
+    },
+    {
+      "title": "AI 사용을 그만두기로 한 이유",
+      "title_en": "Why I'm Done Using AI",
+      "url": "https://brettcodes.com/im-done-using-ai/",
+      "summary": "한 개발자가 AI 코딩 도구가 생산성보다 학습·주도성을 해친다고 느껴 사용을 중단하기로 한 이유를 밝힘.",
+      "summary_en": "A developer explains quitting AI coding tools, feeling they harmed learning and ownership more than they helped productivity."
+    },
+    {
+      "title": "Unsloth Desktop — 로컬 AI 모델 실행·학습·에이전트를 하나로 묶은 오픈소스 앱",
+      "title_en": "Unsloth Desktop - An Open-Source App Unifying Local AI Model Run, Train and Agents",
+      "url": "https://unsloth.ai/docs/desktop",
+      "summary": "로컬에서 AI 모델을 실행·학습하고 에이전트까지 한 앱에서 다루게 해주는 오픈소스 데스크톱 앱임.",
+      "summary_en": "An open-source desktop app that unifies running, training and agent workflows for local AI models."
+    }
+  ]
+}
