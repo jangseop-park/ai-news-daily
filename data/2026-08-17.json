@@ -1,0 +1,109 @@
+{
+  "date": "2026-08-17",
+  "github_trending": [
+    {
+      "name": "unslothai/unsloth",
+      "url": "https://github.com/unslothai/unsloth",
+      "description": "Qwen3.8·Kimi K3·MiniMax-H3·Gemma 4·DeepSeek-V4·FLUX 등 LLM·확산 모델을 실행·학습하는 로컬 UI임.",
+      "description_en": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more."
+    },
+    {
+      "name": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "무료로 쓸 수 있는 공개 API들을 분야별로 모아놓은 목록임.",
+      "description_en": "A collective list of free APIs"
+    },
+    {
+      "name": "cactus-compute/needle",
+      "url": "https://github.com/cactus-compute/needle",
+      "description": "폰·웨어러블·스마트홈·로봇 등 초소형 기기를 위한 14MB 파운데이션 모델임.",
+      "description_en": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots."
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "모든 소프트웨어를 에이전트 친화적(agent-native)으로 만들어 CLI로 다루게 해주는 프로젝트임.",
+      "description_en": "CLI-Anything: Making ALL Software Agent-Native"
+    },
+    {
+      "name": "xai-org/grok-1",
+      "url": "https://github.com/xai-org/grok-1",
+      "description": "xAI의 Grok-1 오픈 릴리스 저장소임.",
+      "description_en": "Grok open release"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "Alaya-EVOKE: 선형 스케일 감독에서 끝없는 세계로",
+      "title_en": "Alaya-EVOKE: From Linear-Scaling Supervision to Endless World",
+      "url": "https://huggingface.co/papers/2608.13546",
+      "summary": "선형적으로 늘어나는 감독의 한계를 넘어, 끝없이 확장되는 학습 세계를 구성하는 방법을 제안함.",
+      "summary_en": "Moves beyond linearly scaling supervision toward an endlessly expanding training world."
+    },
+    {
+      "title": "LLMRouter: LLM 라우터 개발·평가·배포를 위한 통합 인프라",
+      "title_en": "LLMRouter: Unified Infrastructure for Developing, Evaluating, and Deploying LLM Routers",
+      "url": "https://huggingface.co/papers/2608.06867",
+      "summary": "여러 LLM 중 적절한 모델로 요청을 보내는 LLM 라우터를 개발·평가·배포하는 통합 인프라를 제안함.",
+      "summary_en": "Proposes unified infrastructure to develop, evaluate and deploy LLM routers that dispatch requests to the right model."
+    },
+    {
+      "title": "DreamX-Phi 1.0: 로봇 조작을 위한 행동 조건부 비디오 월드 모델",
+      "title_en": "DreamX-Phi 1.0: Action-Conditioned Video World Model for Robotic Manipulation",
+      "url": "https://huggingface.co/papers/2608.13489",
+      "summary": "행동을 조건으로 미래 영상을 예측하는 월드 모델로 로봇 조작을 학습·계획함.",
+      "summary_en": "An action-conditioned video world model that predicts future frames to learn and plan robotic manipulation."
+    },
+    {
+      "title": "DarwinX: 자연 선택을 통해 진화하는 에이전트 하네스",
+      "title_en": "DarwinX: Evolving Agent Harnesses Through Natural Selection",
+      "url": "https://huggingface.co/papers/2608.07545",
+      "summary": "자연 선택 방식으로 에이전트 하네스를 진화시켜 성능을 끌어올리는 방법을 제안함.",
+      "summary_en": "Evolves agent harnesses via natural selection to improve performance."
+    },
+    {
+      "title": "Intern-S2-Preview: 과학 에이전트 파운데이션 모델",
+      "title_en": "Intern-S2-Preview: Scientific Agentic Foundation Model",
+      "url": "https://huggingface.co/papers/2608.13505",
+      "summary": "과학 연구를 수행하는 에이전트형 파운데이션 모델 Intern-S2의 프리뷰를 공개함.",
+      "summary_en": "Previews Intern-S2, an agentic foundation model for scientific research."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "Graph 엔지니어링 vs Loop 엔지니어링: 실제로 달라진 것은 무엇인가",
+      "title_en": "Graph Engineering vs Loop Engineering: What Actually Changed",
+      "url": "https://www.louisbouchard.ai/graph-engineering-explained/",
+      "summary": "에이전트를 고정된 그래프로 짜는 방식과 유연한 루프로 굴리는 방식의 차이와 각 접근이 실제로 바꾸는 지점을 정리함.",
+      "summary_en": "Compares wiring agents as fixed graphs vs running them as flexible loops, and what each approach actually changes."
+    },
+    {
+      "title": "Claude Code 세션의 가치를 극대화하는 방법",
+      "title_en": "Maximizing the Value of Your Claude Code Sessions",
+      "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+      "summary": "Claude Code를 쓸 때 맥락 관리·계획·검증 습관으로 세션의 생산성을 끌어올리는 실전 팁을 정리함.",
+      "summary_en": "Practical tips—context management, planning and verification habits—to get more out of Claude Code sessions."
+    },
+    {
+      "title": "ActivityPub은 지루했기에 승리했다",
+      "title_en": "ActivityPub Won by Being Boring",
+      "url": "https://o.ee/blog/activitypub-won-by-being-boring/",
+      "summary": "화려한 신기술이 아니라 단순·안정적이고 지루할 만큼 검증된 설계 덕분에 ActivityPub이 분산 소셜 표준으로 자리 잡았다고 분석함.",
+      "summary_en": "Argues ActivityPub became the fediverse standard by being simple, stable and boringly proven rather than flashy."
+    },
+    {
+      "title": "아직 이해하지 못한 것에 대해 블로그를 써라",
+      "title_en": "Blog About Things You Don't Understand Yet",
+      "url": "https://www.seangoedecke.com/blog-about-things-you-dont-understand-yet/",
+      "summary": "다 이해한 뒤가 아니라 배우는 과정에서 글을 쓰면, 이해가 빨라지고 남들에게도 더 유용한 글이 나온다고 주장함.",
+      "summary_en": "Argues that writing while still learning—rather than after full mastery—deepens your understanding and helps readers more."
+    },
+    {
+      "title": "실전 루프 엔지니어링 (Addy Osmani)",
+      "title_en": "Practical Loop Engineering (Addy Osmani)",
+      "url": "https://addyo.substack.com/p/practical-loop-engineering",
+      "summary": "AI 에이전트의 성능을 좌우하는 것은 모델 자체보다, 사고·도구·검증을 엮는 '루프'를 잘 설계하는 것이라고 실전 관점에서 정리함.",
+      "summary_en": "Argues that agent performance hinges less on the model and more on well-designed loops tying reasoning, tools and verification."
+    }
+  ]
+}
