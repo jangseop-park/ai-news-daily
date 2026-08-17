@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-08-17
+> 마지막 업데이트: 2026-08-18
 
-# AI 뉴스 — 2026-08-17
+# AI 뉴스 — 2026-08-18
 
 ## 🔥 GitHub Trending (Python)
 
-- [unslothai/unsloth](https://github.com/unslothai/unsloth): Qwen3.8·Kimi K3·MiniMax-H3·Gemma 4·DeepSeek-V4·FLUX 등 LLM·확산 모델을 실행·학습하는 로컬 UI임.
-- [public-apis/public-apis](https://github.com/public-apis/public-apis): 무료로 쓸 수 있는 공개 API들을 분야별로 모아놓은 목록임.
-- [cactus-compute/needle](https://github.com/cactus-compute/needle): 폰·웨어러블·스마트홈·로봇 등 초소형 기기를 위한 14MB 파운데이션 모델임.
+- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo): 주제·키워드만 넣으면 AI 자동화 워크플로로 고화질 숏폼 영상을 원클릭 생성하는 도구임.
+- [usestrix/strix](https://github.com/usestrix/strix): 앱 취약점을 찾고 고치는 오픈소스 AI 침투 테스트 도구임.
+- [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): AI 에이전트용 사이버보안 스킬 817개를 MITRE ATT&CK·NIST CSF 2.0 등 6개 프레임워크에 매핑한 모음임. Claude Code·Copilot·Codex 등 20여 플랫폼과 호환됨.
+- [jundot/omlx](https://github.com/jundot/omlx): Apple Silicon용 LLM 추론 서버임. 연속 배칭·SSD 캐싱을 지원하고 macOS 메뉴바에서 관리함.
 - [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything): 모든 소프트웨어를 에이전트 친화적(agent-native)으로 만들어 CLI로 다루게 해주는 프로젝트임.
-- [xai-org/grok-1](https://github.com/xai-org/grok-1): xAI의 Grok-1 오픈 릴리스 저장소임.
 
 ## 📄 Hugging Face Papers
 
-- [Alaya-EVOKE: 선형 스케일 감독에서 끝없는 세계로](https://huggingface.co/papers/2608.13546)
-  선형적으로 늘어나는 감독의 한계를 넘어, 끝없이 확장되는 학습 세계를 구성하는 방법을 제안함.
-- [LLMRouter: LLM 라우터 개발·평가·배포를 위한 통합 인프라](https://huggingface.co/papers/2608.06867)
-  여러 LLM 중 적절한 모델로 요청을 보내는 LLM 라우터를 개발·평가·배포하는 통합 인프라를 제안함.
-- [DreamX-Phi 1.0: 로봇 조작을 위한 행동 조건부 비디오 월드 모델](https://huggingface.co/papers/2608.13489)
-  행동을 조건으로 미래 영상을 예측하는 월드 모델로 로봇 조작을 학습·계획함.
-- [DarwinX: 자연 선택을 통해 진화하는 에이전트 하네스](https://huggingface.co/papers/2608.07545)
-  자연 선택 방식으로 에이전트 하네스를 진화시켜 성능을 끌어올리는 방법을 제안함.
-- [Intern-S2-Preview: 과학 에이전트 파운데이션 모델](https://huggingface.co/papers/2608.13505)
-  과학 연구를 수행하는 에이전트형 파운데이션 모델 Intern-S2의 프리뷰를 공개함.
+- [실세계 위기 사건에 대한 AI 생성 영상 공격, 방어 가능한가? 탐지기·생성기·확산의 체계적 평가](https://huggingface.co/papers/2608.14391)
+  위기·재난 상황을 겨냥한 AI 생성 가짜 영상 공격을 탐지기·생성기·소셜 확산 관점에서 체계적으로 평가함.
+- [자기지도 시각 온폴리시 증류](https://huggingface.co/papers/2608.14144)
+  라벨 없이 자기지도 방식으로 시각 표현을 온폴리시 증류하는 방법을 제안함.
+- [최종 점수를 넘어서: 장기 지평 AI 연구·개발 에이전트의 체계적 평가](https://huggingface.co/papers/2608.13417)
+  최종 점수만이 아니라 과정까지 보며 장기 지평 AI 연구·개발 에이전트를 체계적으로 평가하는 방법을 제안함.
+- [Intern-S2-Mobius: 지식과 추론을 분리한 파운데이션 모델](https://huggingface.co/papers/2608.14290)
+  지식과 추론 능력을 분리해 다루는 파운데이션 모델 Intern-S2-Mobius를 제안함.
+- [SimpleOPD: 장문맥 추론을 위한 단순·토크나이저 독립 온폴리시 증류](https://huggingface.co/papers/2608.14277)
+  토크나이저에 구애받지 않는 단순한 온폴리시 증류로 장문맥 추론 성능을 높이는 방법을 제안함.
 
 ## 🦉 GeekNews
 
-- [Graph 엔지니어링 vs Loop 엔지니어링: 실제로 달라진 것은 무엇인가](https://www.louisbouchard.ai/graph-engineering-explained/)
-  에이전트를 고정된 그래프로 짜는 방식과 유연한 루프로 굴리는 방식의 차이와 각 접근이 실제로 바꾸는 지점을 정리함.
-- [Claude Code 세션의 가치를 극대화하는 방법](https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions)
-  Claude Code를 쓸 때 맥락 관리·계획·검증 습관으로 세션의 생산성을 끌어올리는 실전 팁을 정리함.
-- [ActivityPub은 지루했기에 승리했다](https://o.ee/blog/activitypub-won-by-being-boring/)
-  화려한 신기술이 아니라 단순·안정적이고 지루할 만큼 검증된 설계 덕분에 ActivityPub이 분산 소셜 표준으로 자리 잡았다고 분석함.
-- [아직 이해하지 못한 것에 대해 블로그를 써라](https://www.seangoedecke.com/blog-about-things-you-dont-understand-yet/)
-  다 이해한 뒤가 아니라 배우는 과정에서 글을 쓰면, 이해가 빨라지고 남들에게도 더 유용한 글이 나온다고 주장함.
-- [실전 루프 엔지니어링 (Addy Osmani)](https://addyo.substack.com/p/practical-loop-engineering)
-  AI 에이전트의 성능을 좌우하는 것은 모델 자체보다, 사고·도구·검증을 엮는 '루프'를 잘 설계하는 것이라고 실전 관점에서 정리함.
+- [인재 밀도가 높은 팀을 만드는 법 (Cursor 인재 총괄 Adam Ward)](https://www.youtube.com/watch?v=zegYJ6dhIg4)
+  Cursor의 인재 총괄 Adam Ward가 소수 정예의 '인재 밀도'를 높여 빠르게 성장하는 팀을 만드는 원칙을 이야기함.
+- [Rust와 PostgreSQL로 확장 가능한 백엔드 서비스 구축하기](https://kerkour.com/rust-scalable-backend-services)
+  Rust와 PostgreSQL 조합으로 확장 가능한 백엔드 서비스를 설계·구축하는 실전 패턴을 정리함.
+- [2026년 Stripe에서 Staff Engineer로 일한다는 것](https://medium.com/@ricbedin/being-a-staff-engineer-at-stripe-in-2026-bd5f2bc869ff)
+  Stripe에서 스태프 엔지니어의 실제 업무와 영향력, 기대치가 2026년 기준으로 어떻게 달라졌는지 풀어냄.
+- [소프트웨어 엔지니어링의 기본 원칙이 어느 때보다 중요해짐](https://rhonabwy.com/2026/08/15/software-engineering-fundamentals-matter-more-than-ever/)
+  AI가 코드를 쉽게 뽑아내는 시대일수록, 설계·테스트·디버깅 같은 소프트웨어 엔지니어링 기본기가 더 중요해진다고 주장함.
+- [프로덕트 매니저 역할의 새로운 정의](https://www.svpg.com/a-fresh-definition-of-the-product-role/)
+  AI·빠른 제작 환경 속에서 프로덕트 매니저의 역할을 '무엇을 왜 만들지'를 책임지는 방향으로 새롭게 정의함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-08-17](data/2026-08-17.md)
 - [2026-08-16](data/2026-08-16.md)
 - [2026-08-15](data/2026-08-15.md)
 - [2026-08-14](data/2026-08-14.md)
@@ -69,4 +70,3 @@
 - [2026-07-22](data/2026-07-22.md)
 - [2026-07-21](data/2026-07-21.md)
 - [2026-07-20](data/2026-07-20.md)
-- [2026-07-19](data/2026-07-19.md)
