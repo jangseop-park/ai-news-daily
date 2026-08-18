@@ -1,0 +1,109 @@
+{
+  "date": "2026-08-19",
+  "github_trending": [
+    {
+      "name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "주제·키워드만 넣으면 AI 자동화 워크플로로 고화질 숏폼 영상을 원클릭 생성하는 도구임.",
+      "description_en": "Generate HD short videos from a topic or keyword with an automated AI workflow."
+    },
+    {
+      "name": "volcengine/OpenViking",
+      "url": "https://github.com/volcengine/OpenViking",
+      "description": "AI 에이전트를 위한 자기진화 컨텍스트 데이터베이스임. 에이전트 메모리·지식 RAG·스킬을 하나로 통합함.",
+      "description_en": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills."
+    },
+    {
+      "name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "AI 에이전트용 사이버보안 스킬 817개를 MITRE ATT&CK·NIST CSF 2.0 등 6개 프레임워크에 매핑한 모음임. Claude Code·Copilot·Codex 등과 호환됨.",
+      "description_en": "817 structured cybersecurity skills for AI agents, mapped to 6 frameworks (MITRE ATT&CK, NIST CSF 2.0, etc.); works with Claude Code, Copilot, Codex CLI, Cursor and 20+ platforms."
+    },
+    {
+      "name": "jundot/omlx",
+      "url": "https://github.com/jundot/omlx",
+      "description": "Apple Silicon용 LLM 추론 서버임. 연속 배칭·SSD 캐싱을 지원하고 macOS 메뉴바에서 관리함.",
+      "description_en": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar."
+    },
+    {
+      "name": "bojieli/ai-agent-book",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "description": "《AI Agent 심층 이해: 설계 원리와 엔지니어링 실무》(李博杰 저) 오픈소스 저장소임. 본문·PDF·장별 예제 코드를 담음.",
+      "description_en": "Open-source repo for the book 'Understanding AI Agents: Design Principles and Engineering Practice' by Bojie Li—full text, compiled PDF, and per-chapter code."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "HarnessEval-W: 시각 월드 평가의 에이전트화",
+      "title_en": "HarnessEval-W: Agentifying the Evaluation of Visual Worlds",
+      "url": "https://huggingface.co/papers/2608.16859",
+      "summary": "생성된 3D·시각 월드를 에이전트가 직접 탐색·검증하며 평가하도록 하는 프레임워크를 제안함.",
+      "summary_en": "Proposes agentifying the evaluation of generated visual/3D worlds, letting agents explore and verify them."
+    },
+    {
+      "title": "StateM: 하네스 스케일링으로 Terminal-Bench 2.1에서 95.3% 정확도·$15 프런티어 런 달성",
+      "title_en": "StateM: Reaching 95.3% Raw Accuracy, or a $15 Frontier Run, on Terminal-Bench 2.1 via Harness Scaling",
+      "url": "https://huggingface.co/papers/2608.15089",
+      "summary": "모델을 키우는 대신 하네스를 확장해 Terminal-Bench 2.1에서 95.3% 정확도를 단 15달러 실행 비용으로 달성함.",
+      "summary_en": "Scales the harness rather than the model to hit 95.3% accuracy on Terminal-Bench 2.1 for a $15 run."
+    },
+    {
+      "title": "VibeWorlding: 멀티모달 에이전트는 3D 오픈월드를 엔드투엔드로 만들 수 있는가?",
+      "title_en": "VibeWorlding: Can Multimodal Agents Construct 3D Open Worlds End-to-End?",
+      "url": "https://huggingface.co/papers/2608.15265",
+      "summary": "멀티모달 에이전트가 3D 오픈월드를 처음부터 끝까지 스스로 구성할 수 있는지 탐구함.",
+      "summary_en": "Explores whether multimodal agents can construct 3D open worlds end-to-end."
+    },
+    {
+      "title": "Large Discovery Models: 경험 기반 모델 기반 개방형 탐색",
+      "title_en": "Large Discovery Models: Empirically-grounded Model-Based Open-Ended Search",
+      "url": "https://huggingface.co/papers/2608.15669",
+      "summary": "경험적 근거에 바탕을 둔 모델 기반 개방형 탐색으로 새로운 발견을 이끄는 'Large Discovery Model'을 제안함.",
+      "summary_en": "Proposes 'Large Discovery Models' for empirically-grounded, model-based open-ended search."
+    },
+    {
+      "title": "숙달한 것 말고 남은 것을 배워라: 다중 보상 정책 최적화를 위한 포화 인지 어드밴티지 재가중",
+      "title_en": "Learn What's Left, Not What's Mastered: Saturation Aware Advantage Reweighting for Multi-Reward Policy Optimization",
+      "url": "https://huggingface.co/papers/2608.16072",
+      "summary": "이미 잘하는 부분보다 아직 부족한 부분에 학습을 집중하도록, 포화도를 인지해 어드밴티지를 재가중하는 다중 보상 정책 최적화를 제안함.",
+      "summary_en": "Reweights advantages with saturation awareness so multi-reward policy optimization focuses on what's left, not what's mastered."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "새로운 아이디어가 태어나는 마음의 상태를 기르는 법",
+      "title_en": "Cultivating the Mental State Where New Ideas Are Born",
+      "url": "https://www.henrikkarlsson.xyz/p/good-ideas",
+      "summary": "위대한 아이디어는 초기에 나쁜 아이디어처럼 보여 타인의 평가에 쉽게 사라지므로, 사회적 판단에서 거리를 두는 마음의 상태를 기르는 게 중요하다고 함.",
+      "summary_en": "Argues great ideas often look bad early and die under others' judgment, so cultivating distance from social evaluation matters for creativity."
+    },
+    {
+      "title": "Flexible Authentication — 수백만 사용자를 위한 Airbnb의 인증 재설계",
+      "title_en": "Flexible Authentication - Reimagining Authentication for Millions of Users at Airbnb",
+      "url": "https://medium.com/airbnb-engineering/flexible-authentication-reimagining-authentication-for-millions-of-users-at-airbnb-3a8a4c917137",
+      "summary": "로그인 간격이 길고 환경이 다양한 서비스에서 인증 실패가 매출 손실로 이어진다고 보고, Airbnb가 10년 누적된 인증 체계를 유연하게 재설계한 과정을 다룸.",
+      "summary_en": "Airbnb reimagines a decade of accumulated auth into a flexible system, since auth failures on infrequent, varied logins cost bookings and revenue."
+    },
+    {
+      "title": "ko-pii — 한국어 문서의 개인정보를 로컬에서 탐지·가명화하는 Python 라이브러리",
+      "title_en": "ko-pii - A Python Library to Detect and Pseudonymize PII in Korean Documents Locally",
+      "url": "https://news.hada.io/topic?id=32610",
+      "summary": "개인정보가 담긴 원문을 외부 API로 보내기 어려운 공공·규제 산업을 위해, 한국어 식별번호·문서 형식의 개인정보를 로컬에서 탐지·가명화하는 라이브러리임.",
+      "summary_en": "A library that locally detects and pseudonymizes Korean PII (ID numbers, document formats) for public/regulated sectors that can't send raw text to external APIs."
+    },
+    {
+      "title": "Codex 한도 차감 없이 ChatGPT 웹 채팅으로 코딩해보기",
+      "title_en": "Coding via ChatGPT Web Chat Without Using Codex Quota",
+      "url": "https://news.hada.io/topic?id=32606",
+      "summary": "ChatGPT 웹 채팅은 Codex 한도와 별도로 쓸 수 있어, 무료 사용자도 관대한 한도로 코딩 작업을 이어갈 수 있는 방법을 소개함.",
+      "summary_en": "Shows that ChatGPT web chat runs on a separate quota from Codex, letting even free users keep coding with generous limits."
+    },
+    {
+      "title": "플랫폼 엔지니어링은 여전히 중요함",
+      "title_en": "Platform Engineering Still Matters",
+      "url": "https://evnm.substack.com/p/platform-engineering-still-matters",
+      "summary": "에이전트 코딩으로 코드 작성 비용이 낮아져도 재사용의 경제성은 사라지지 않으며, 매번 전체 스택을 새로 만드는 것보다 플랫폼이 여전히 유효하다고 주장함.",
+      "summary_en": "Argues agentic coding lowers the cost of writing code but not the economics of reuse—platforms still beat regenerating the whole stack each time."
+    }
+  ]
+}
