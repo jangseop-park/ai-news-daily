@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-08-19
+> 마지막 업데이트: 2026-08-20
 
-# AI 뉴스 — 2026-08-19
+# AI 뉴스 — 2026-08-20
 
 ## 🔥 GitHub Trending (Python)
 
 - [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo): 주제·키워드만 넣으면 AI 자동화 워크플로로 고화질 숏폼 영상을 원클릭 생성하는 도구임.
 - [volcengine/OpenViking](https://github.com/volcengine/OpenViking): AI 에이전트를 위한 자기진화 컨텍스트 데이터베이스임. 에이전트 메모리·지식 RAG·스킬을 하나로 통합함.
 - [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): AI 에이전트용 사이버보안 스킬 817개를 MITRE ATT&CK·NIST CSF 2.0 등 6개 프레임워크에 매핑한 모음임. Claude Code·Copilot·Codex 등과 호환됨.
-- [jundot/omlx](https://github.com/jundot/omlx): Apple Silicon용 LLM 추론 서버임. 연속 배칭·SSD 캐싱을 지원하고 macOS 메뉴바에서 관리함.
-- [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book): 《AI Agent 심층 이해: 설계 원리와 엔지니어링 실무》(李博杰 저) 오픈소스 저장소임. 본문·PDF·장별 예제 코드를 담음.
+- [marceloprates/prettymaps](https://github.com/marceloprates/prettymaps): OpenStreetMap 데이터로 예쁜 지도를 그리는 도구임. osmnx·matplotlib·shapely 기반임.
+- [youssofal/MTPLX](https://github.com/youssofal/MTPLX): Apple Silicon에서 외부 드래프터 없이 네이티브 MTP 추측 디코딩으로 MLX를 3배 빠르게 하는 도구임. Qwen 3.8 27B를 지원함.
 
 ## 📄 Hugging Face Papers
 
-- [HarnessEval-W: 시각 월드 평가의 에이전트화](https://huggingface.co/papers/2608.16859)
-  생성된 3D·시각 월드를 에이전트가 직접 탐색·검증하며 평가하도록 하는 프레임워크를 제안함.
-- [StateM: 하네스 스케일링으로 Terminal-Bench 2.1에서 95.3% 정확도·$15 프런티어 런 달성](https://huggingface.co/papers/2608.15089)
-  모델을 키우는 대신 하네스를 확장해 Terminal-Bench 2.1에서 95.3% 정확도를 단 15달러 실행 비용으로 달성함.
-- [VibeWorlding: 멀티모달 에이전트는 3D 오픈월드를 엔드투엔드로 만들 수 있는가?](https://huggingface.co/papers/2608.15265)
-  멀티모달 에이전트가 3D 오픈월드를 처음부터 끝까지 스스로 구성할 수 있는지 탐구함.
-- [Large Discovery Models: 경험 기반 모델 기반 개방형 탐색](https://huggingface.co/papers/2608.15669)
-  경험적 근거에 바탕을 둔 모델 기반 개방형 탐색으로 새로운 발견을 이끄는 'Large Discovery Model'을 제안함.
-- [숙달한 것 말고 남은 것을 배워라: 다중 보상 정책 최적화를 위한 포화 인지 어드밴티지 재가중](https://huggingface.co/papers/2608.16072)
-  이미 잘하는 부분보다 아직 부족한 부분에 학습을 집중하도록, 포화도를 인지해 어드밴티지를 재가중하는 다중 보상 정책 최적화를 제안함.
+- [에이전트 스킬 파헤치기: 왜 작동하다가 안 되는가](https://huggingface.co/papers/2608.14036)
+  에이전트 '스킬'이 언제 잘 작동하고 언제·왜 실패하는지를 체계적으로 분석함.
+- [Agentic ESOpt: 최소 GPU로 장기 지평 LLM 에이전트 미세조정](https://huggingface.co/papers/2608.17310)
+  적은 GPU 자원만으로 긴 호흡의 LLM 에이전트를 미세조정하는 방법을 제안함.
+- [FreeToken: 대역폭 적응 실행을 갖춘 효율적 엣지 네이티브 MoE 서빙](https://huggingface.co/papers/2608.16157)
+  대역폭에 맞춰 실행을 조절해 엣지 기기에서 MoE 모델을 효율적으로 서빙하는 방법을 제안함.
+- [ASI-Bench: 인공 초지능의 여명에서](https://huggingface.co/papers/2608.17271)
+  인공 초지능(ASI)으로 가는 길목에서 모델의 능력을 가늠하려는 벤치마크를 제안함.
+- [Embodied-Navigator: 가리키고·생각하고·기억하고·정렬해 효율적으로 내비게이션](https://huggingface.co/papers/2608.17512)
+  가리키기·사고·기억·정렬 단계를 결합해 임바디드 에이전트가 효율적으로 길을 찾게 하는 방법을 제안함.
 
 ## 🦉 GeekNews
 
-- [새로운 아이디어가 태어나는 마음의 상태를 기르는 법](https://www.henrikkarlsson.xyz/p/good-ideas)
-  위대한 아이디어는 초기에 나쁜 아이디어처럼 보여 타인의 평가에 쉽게 사라지므로, 사회적 판단에서 거리를 두는 마음의 상태를 기르는 게 중요하다고 함.
-- [Flexible Authentication — 수백만 사용자를 위한 Airbnb의 인증 재설계](https://medium.com/airbnb-engineering/flexible-authentication-reimagining-authentication-for-millions-of-users-at-airbnb-3a8a4c917137)
-  로그인 간격이 길고 환경이 다양한 서비스에서 인증 실패가 매출 손실로 이어진다고 보고, Airbnb가 10년 누적된 인증 체계를 유연하게 재설계한 과정을 다룸.
-- [ko-pii — 한국어 문서의 개인정보를 로컬에서 탐지·가명화하는 Python 라이브러리](https://news.hada.io/topic?id=32610)
-  개인정보가 담긴 원문을 외부 API로 보내기 어려운 공공·규제 산업을 위해, 한국어 식별번호·문서 형식의 개인정보를 로컬에서 탐지·가명화하는 라이브러리임.
-- [Codex 한도 차감 없이 ChatGPT 웹 채팅으로 코딩해보기](https://news.hada.io/topic?id=32606)
-  ChatGPT 웹 채팅은 Codex 한도와 별도로 쓸 수 있어, 무료 사용자도 관대한 한도로 코딩 작업을 이어갈 수 있는 방법을 소개함.
-- [플랫폼 엔지니어링은 여전히 중요함](https://evnm.substack.com/p/platform-engineering-still-matters)
-  에이전트 코딩으로 코드 작성 비용이 낮아져도 재사용의 경제성은 사라지지 않으며, 매번 전체 스택을 새로 만드는 것보다 플랫폼이 여전히 유효하다고 주장함.
+- [2026년에 매일 어떤 소프트웨어를 사용하시나요?](https://lobste.rs/s/ttxwdz/what_software_do_you_use_daily_2026)
+  Lobsters에서 개발자들이 실제로 매일 쓰는 소프트웨어를 공유한 스레드로, 6년 전과 비교해 일상 도구 구성이 어떻게 달라졌는지 엿볼 수 있음.
+- [VisiGrid — 코드 에디터처럼 설계된 로컬 네이티브 스프레드시트](https://github.com/VisiGrid/VisiGrid)
+  Excel 같은 기존 스프레드시트 대신 코드 에디터의 사용 방식을 가져온 오픈소스 스프레드시트임. 메뉴보다 키보드·커맨드 팔레트 중심임.
+- [Docbank — 사람과 에이전트가 함께 쓰는 로컬 우선 문서 기록 시스템](https://github.com/kenn-io/docbank)
+  사람과 에이전트가 함께 문서를 보관·검색·변경하고 이력·무결성을 검증할 수 있는 자기주권형(self-sovereign) 로컬 우선 문서 시스템임.
+- [GitHub이 또 멈췄다 — 우리는 무엇을 GitHub에 맡기고 있나](https://news.hada.io/article/github-is-not-just-git)
+  8월 17일 GitHub.com에 또 장애가 발생해 웹·API 트래픽 20%, 아카이브·Raw 다운로드 50%에 오류가 났으며, GitHub 의존도를 되돌아보게 함.
+- [Codex에서 GPT-5.6 Sol의 1M 토큰 컨텍스트 윈도우 활성화하기](https://x.com/thsottiaux/status/2089082893804896524)
+  Codex는 성능·비용을 고려해 기본 컨텍스트를 줄여두지만, GPT-5.6 Sol의 최대 105만 토큰 컨텍스트를 직접 켜는 방법을 소개함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-08-19](data/2026-08-19.md)
 - [2026-08-18](data/2026-08-18.md)
 - [2026-08-17](data/2026-08-17.md)
 - [2026-08-16](data/2026-08-16.md)
@@ -69,4 +70,3 @@
 - [2026-07-24](data/2026-07-24.md)
 - [2026-07-23](data/2026-07-23.md)
 - [2026-07-22](data/2026-07-22.md)
-- [2026-07-21](data/2026-07-21.md)
