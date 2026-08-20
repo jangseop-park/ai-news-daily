@@ -1,0 +1,109 @@
+{
+  "date": "2026-08-21",
+  "github_trending": [
+    {
+      "name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "주제·키워드만 넣으면 AI 자동화 워크플로로 고화질 숏폼 영상을 원클릭 생성하는 도구임.",
+      "description_en": "Generate HD short videos from a topic or keyword with an automated AI workflow."
+    },
+    {
+      "name": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "description": "제품 개발을 위한 통합 플랫폼임. AI 관측성·분석·세션 리플레이·플래그·실험·에러 추적·로그를 제공하고 Slack·웹·MCP에서 제어함.",
+      "description_en": "The leading platform for building products—AI observability, analytics, session replay, flags, experiments, error tracking, logs and more, steered from Slack, web, desktop or MCP."
+    },
+    {
+      "name": "Tencent/AI-Infra-Guard",
+      "url": "https://github.com/Tencent/AI-Infra-Guard",
+      "description": "에이전트·스킬·MCP·AI 인프라 스캔과 LLM 탈옥 평가로 AI 생태계를 지키는 풀스택 AI 레드팀 플랫폼임.",
+      "description_en": "A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation."
+    },
+    {
+      "name": "Osmantic/ODS",
+      "url": "https://github.com/Osmantic/ODS",
+      "description": "PC·Mac·Linux를 AI 서버로 만드는 도구임. LLM 추론·챗 UI·음성·에이전트·워크플로·RAG·이미지 생성을 지원함.",
+      "description_en": "Turn your PC, Mac, or Linux box into an AI server. LLM inference, chat UI, voice, agents, workflows, RAG, and image generation."
+    },
+    {
+      "name": "microsoft/agent-framework",
+      "url": "https://github.com/microsoft/agent-framework",
+      "description": "AI 에이전트와 멀티 에이전트 워크플로를 구축·오케스트레이션·배포하는 프레임워크임. Python과 .NET을 지원함.",
+      "description_en": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "SemComp-Bench: 영상 생성의 의미적 과제 완수 벤치마킹",
+      "title_en": "SemComp-Bench: Benchmarking Semantic Task Completion in Video Generation",
+      "url": "https://huggingface.co/papers/2608.17426",
+      "summary": "영상 생성 모델이 요구된 '의미적 과제'를 실제로 완수했는지를 평가하는 벤치마크를 제안함.",
+      "summary_en": "Proposes a benchmark measuring whether video-generation models actually complete the requested semantic task."
+    },
+    {
+      "title": "Zetta ζ: 자기진화 물리 지능을 위한 효율적 폐루프 임바디드 하네스",
+      "title_en": "Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
+      "url": "https://huggingface.co/papers/2608.16590",
+      "summary": "실제 환경과 폐루프로 상호작용하며 스스로 진화하는 물리 지능 에이전트를 위한 효율적 하네스를 제안함.",
+      "summary_en": "Proposes an efficient closed-loop embodied harness for self-evolving physical intelligence."
+    },
+    {
+      "title": "SemaPLC: 검증 관문을 갖춘 프로젝트 기반 PLC 코드 생성 에이전트 하네스",
+      "title_en": "SemaPLC: A Project-Grounded, Verification-Gated Agent Harness for PLC Code Generation",
+      "url": "https://huggingface.co/papers/2608.18565",
+      "summary": "산업용 PLC 코드를 프로젝트 맥락에 맞춰 생성하되, 검증 관문을 통과해야만 진행되도록 한 에이전트 하네스임.",
+      "summary_en": "A verification-gated, project-grounded agent harness for generating industrial PLC code."
+    },
+    {
+      "title": "OmniScientist: 전 모달·전 학문 AI 과학자",
+      "title_en": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
+      "url": "https://huggingface.co/papers/2608.13558",
+      "summary": "여러 모달리티와 여러 학문 분야를 아우르며 연구를 수행하는 AI 과학자 'OmniScientist'를 제안함.",
+      "summary_en": "Proposes 'OmniScientist,' an AI scientist spanning many modalities and disciplines."
+    },
+    {
+      "title": "Co-RL: 다중 에이전트 RL의 다양한 집단에서 창발하는 비지도 추론",
+      "title_en": "Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL",
+      "url": "https://huggingface.co/papers/2608.17253",
+      "summary": "다양한 에이전트 집단이 함께 강화학습할 때 감독 없이도 추론 능력이 창발함을 보임.",
+      "summary_en": "Shows unsupervised reasoning emerges from a diverse cohort in multi-agent reinforcement learning."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "AI 시대, 개발자는 면사무소가 아니라 목욕탕을 만들어야 한다",
+      "title_en": "In the AI Era, Developers Should Build Bathhouses, Not Town Offices",
+      "url": "https://www.gwagjiug.com/blog/%EB%A9%B4%EC%82%AC%EB%AC%B4%EC%86%8C%EC%99%80-%EB%AA%A9%EC%9A%95%ED%83%95",
+      "summary": "건축가 정기용이 주민에게 '무엇이 필요한지' 물어 목욕탕을 지은 일화에 빗대, 개발자도 스펙 구현이 아니라 진짜 필요를 묻고 만들어야 한다고 주장함.",
+      "summary_en": "Using architect Jung Ki-yong's story of building a bathhouse by asking residents what they needed, argues developers should build for real needs, not just specs."
+    },
+    {
+      "title": "코드는 다 읽을 수 없고, 코드 리뷰가 맡아온 책임은 사라지지 않는다",
+      "title_en": "Code Outruns Review, but the Responsibility Review Carried Doesn't Disappear",
+      "url": "https://news.hada.io/article/code-outruns-review",
+      "summary": "AI가 코드를 대량 생성하면서 사람이 모든 코드를 읽는 리뷰는 불가능해졌지만, 코드 리뷰가 담당하던 품질·책임은 여전히 누군가 져야 한다고 지적함.",
+      "summary_en": "As AI mass-produces code, reviewing every line becomes impossible—yet the quality and accountability code review carried still must be borne by someone."
+    },
+    {
+      "title": "Bun 1.4 출시 — Zig에서 Rust로 재작성, Node.js 호환성 역대 최대 폭 향상",
+      "title_en": "Bun 1.4 Released — Rewritten from Zig to Rust, Biggest-Ever Node.js Compatibility Boost",
+      "url": "https://bun.com/blog/bun-v1.4",
+      "summary": "JS 런타임 Bun이 1.4를 내며 코어를 Zig에서 Rust로 재작성하고 Node.js 호환성을 역대 최대 폭으로 끌어올림.",
+      "summary_en": "The JS runtime Bun ships 1.4, rewriting its core from Zig to Rust and delivering its biggest-ever jump in Node.js compatibility."
+    },
+    {
+      "title": "OpenRouter가 Stripe에 합류함",
+      "title_en": "OpenRouter Is Joining Stripe",
+      "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
+      "summary": "여러 LLM을 하나의 API로 라우팅하는 OpenRouter가 결제 인프라 기업 Stripe에 합류한다고 발표함.",
+      "summary_en": "OpenRouter, which routes many LLMs through one API, announced it is joining payments company Stripe."
+    },
+    {
+      "title": "2026년에 매일 어떤 소프트웨어를 사용하시나요?",
+      "title_en": "What Software Do You Use Daily in 2026?",
+      "url": "https://lobste.rs/s/ttxwdz/what_software_do_you_use_daily_2026",
+      "summary": "Lobsters에서 개발자들이 실제로 매일 쓰는 소프트웨어를 공유한 스레드로, 6년 전과 비교해 일상 도구 구성이 어떻게 달라졌는지 엿볼 수 있음.",
+      "summary_en": "A Lobsters thread where developers share what software they actually use daily, showing how everyday toolkits shifted from six years ago."
+    }
+  ]
+}
