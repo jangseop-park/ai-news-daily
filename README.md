@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-08-20
+> 마지막 업데이트: 2026-08-21
 
-# AI 뉴스 — 2026-08-20
+# AI 뉴스 — 2026-08-21
 
 ## 🔥 GitHub Trending (Python)
 
 - [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo): 주제·키워드만 넣으면 AI 자동화 워크플로로 고화질 숏폼 영상을 원클릭 생성하는 도구임.
-- [volcengine/OpenViking](https://github.com/volcengine/OpenViking): AI 에이전트를 위한 자기진화 컨텍스트 데이터베이스임. 에이전트 메모리·지식 RAG·스킬을 하나로 통합함.
-- [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): AI 에이전트용 사이버보안 스킬 817개를 MITRE ATT&CK·NIST CSF 2.0 등 6개 프레임워크에 매핑한 모음임. Claude Code·Copilot·Codex 등과 호환됨.
-- [marceloprates/prettymaps](https://github.com/marceloprates/prettymaps): OpenStreetMap 데이터로 예쁜 지도를 그리는 도구임. osmnx·matplotlib·shapely 기반임.
-- [youssofal/MTPLX](https://github.com/youssofal/MTPLX): Apple Silicon에서 외부 드래프터 없이 네이티브 MTP 추측 디코딩으로 MLX를 3배 빠르게 하는 도구임. Qwen 3.8 27B를 지원함.
+- [PostHog/posthog](https://github.com/PostHog/posthog): 제품 개발을 위한 통합 플랫폼임. AI 관측성·분석·세션 리플레이·플래그·실험·에러 추적·로그를 제공하고 Slack·웹·MCP에서 제어함.
+- [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard): 에이전트·스킬·MCP·AI 인프라 스캔과 LLM 탈옥 평가로 AI 생태계를 지키는 풀스택 AI 레드팀 플랫폼임.
+- [Osmantic/ODS](https://github.com/Osmantic/ODS): PC·Mac·Linux를 AI 서버로 만드는 도구임. LLM 추론·챗 UI·음성·에이전트·워크플로·RAG·이미지 생성을 지원함.
+- [microsoft/agent-framework](https://github.com/microsoft/agent-framework): AI 에이전트와 멀티 에이전트 워크플로를 구축·오케스트레이션·배포하는 프레임워크임. Python과 .NET을 지원함.
 
 ## 📄 Hugging Face Papers
 
-- [에이전트 스킬 파헤치기: 왜 작동하다가 안 되는가](https://huggingface.co/papers/2608.14036)
-  에이전트 '스킬'이 언제 잘 작동하고 언제·왜 실패하는지를 체계적으로 분석함.
-- [Agentic ESOpt: 최소 GPU로 장기 지평 LLM 에이전트 미세조정](https://huggingface.co/papers/2608.17310)
-  적은 GPU 자원만으로 긴 호흡의 LLM 에이전트를 미세조정하는 방법을 제안함.
-- [FreeToken: 대역폭 적응 실행을 갖춘 효율적 엣지 네이티브 MoE 서빙](https://huggingface.co/papers/2608.16157)
-  대역폭에 맞춰 실행을 조절해 엣지 기기에서 MoE 모델을 효율적으로 서빙하는 방법을 제안함.
-- [ASI-Bench: 인공 초지능의 여명에서](https://huggingface.co/papers/2608.17271)
-  인공 초지능(ASI)으로 가는 길목에서 모델의 능력을 가늠하려는 벤치마크를 제안함.
-- [Embodied-Navigator: 가리키고·생각하고·기억하고·정렬해 효율적으로 내비게이션](https://huggingface.co/papers/2608.17512)
-  가리키기·사고·기억·정렬 단계를 결합해 임바디드 에이전트가 효율적으로 길을 찾게 하는 방법을 제안함.
+- [SemComp-Bench: 영상 생성의 의미적 과제 완수 벤치마킹](https://huggingface.co/papers/2608.17426)
+  영상 생성 모델이 요구된 '의미적 과제'를 실제로 완수했는지를 평가하는 벤치마크를 제안함.
+- [Zetta ζ: 자기진화 물리 지능을 위한 효율적 폐루프 임바디드 하네스](https://huggingface.co/papers/2608.16590)
+  실제 환경과 폐루프로 상호작용하며 스스로 진화하는 물리 지능 에이전트를 위한 효율적 하네스를 제안함.
+- [SemaPLC: 검증 관문을 갖춘 프로젝트 기반 PLC 코드 생성 에이전트 하네스](https://huggingface.co/papers/2608.18565)
+  산업용 PLC 코드를 프로젝트 맥락에 맞춰 생성하되, 검증 관문을 통과해야만 진행되도록 한 에이전트 하네스임.
+- [OmniScientist: 전 모달·전 학문 AI 과학자](https://huggingface.co/papers/2608.13558)
+  여러 모달리티와 여러 학문 분야를 아우르며 연구를 수행하는 AI 과학자 'OmniScientist'를 제안함.
+- [Co-RL: 다중 에이전트 RL의 다양한 집단에서 창발하는 비지도 추론](https://huggingface.co/papers/2608.17253)
+  다양한 에이전트 집단이 함께 강화학습할 때 감독 없이도 추론 능력이 창발함을 보임.
 
 ## 🦉 GeekNews
 
+- [AI 시대, 개발자는 면사무소가 아니라 목욕탕을 만들어야 한다](https://www.gwagjiug.com/blog/%EB%A9%B4%EC%82%AC%EB%AC%B4%EC%86%8C%EC%99%80-%EB%AA%A9%EC%9A%95%ED%83%95)
+  건축가 정기용이 주민에게 '무엇이 필요한지' 물어 목욕탕을 지은 일화에 빗대, 개발자도 스펙 구현이 아니라 진짜 필요를 묻고 만들어야 한다고 주장함.
+- [코드는 다 읽을 수 없고, 코드 리뷰가 맡아온 책임은 사라지지 않는다](https://news.hada.io/article/code-outruns-review)
+  AI가 코드를 대량 생성하면서 사람이 모든 코드를 읽는 리뷰는 불가능해졌지만, 코드 리뷰가 담당하던 품질·책임은 여전히 누군가 져야 한다고 지적함.
+- [Bun 1.4 출시 — Zig에서 Rust로 재작성, Node.js 호환성 역대 최대 폭 향상](https://bun.com/blog/bun-v1.4)
+  JS 런타임 Bun이 1.4를 내며 코어를 Zig에서 Rust로 재작성하고 Node.js 호환성을 역대 최대 폭으로 끌어올림.
+- [OpenRouter가 Stripe에 합류함](https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/)
+  여러 LLM을 하나의 API로 라우팅하는 OpenRouter가 결제 인프라 기업 Stripe에 합류한다고 발표함.
 - [2026년에 매일 어떤 소프트웨어를 사용하시나요?](https://lobste.rs/s/ttxwdz/what_software_do_you_use_daily_2026)
   Lobsters에서 개발자들이 실제로 매일 쓰는 소프트웨어를 공유한 스레드로, 6년 전과 비교해 일상 도구 구성이 어떻게 달라졌는지 엿볼 수 있음.
-- [VisiGrid — 코드 에디터처럼 설계된 로컬 네이티브 스프레드시트](https://github.com/VisiGrid/VisiGrid)
-  Excel 같은 기존 스프레드시트 대신 코드 에디터의 사용 방식을 가져온 오픈소스 스프레드시트임. 메뉴보다 키보드·커맨드 팔레트 중심임.
-- [Docbank — 사람과 에이전트가 함께 쓰는 로컬 우선 문서 기록 시스템](https://github.com/kenn-io/docbank)
-  사람과 에이전트가 함께 문서를 보관·검색·변경하고 이력·무결성을 검증할 수 있는 자기주권형(self-sovereign) 로컬 우선 문서 시스템임.
-- [GitHub이 또 멈췄다 — 우리는 무엇을 GitHub에 맡기고 있나](https://news.hada.io/article/github-is-not-just-git)
-  8월 17일 GitHub.com에 또 장애가 발생해 웹·API 트래픽 20%, 아카이브·Raw 다운로드 50%에 오류가 났으며, GitHub 의존도를 되돌아보게 함.
-- [Codex에서 GPT-5.6 Sol의 1M 토큰 컨텍스트 윈도우 활성화하기](https://x.com/thsottiaux/status/2089082893804896524)
-  Codex는 성능·비용을 고려해 기본 컨텍스트를 줄여두지만, GPT-5.6 Sol의 최대 105만 토큰 컨텍스트를 직접 켜는 방법을 소개함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-08-20](data/2026-08-20.md)
 - [2026-08-19](data/2026-08-19.md)
 - [2026-08-18](data/2026-08-18.md)
 - [2026-08-17](data/2026-08-17.md)
@@ -69,4 +70,3 @@
 - [2026-07-25](data/2026-07-25.md)
 - [2026-07-24](data/2026-07-24.md)
 - [2026-07-23](data/2026-07-23.md)
-- [2026-07-22](data/2026-07-22.md)
