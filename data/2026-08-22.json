@@ -1,0 +1,109 @@
+{
+  "date": "2026-08-22",
+  "github_trending": [
+    {
+      "name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "주제·키워드만 넣으면 AI 자동화 워크플로로 고화질 숏폼 영상을 원클릭 생성하는 도구임.",
+      "description_en": "Generate HD short videos from a topic or keyword with an automated AI workflow."
+    },
+    {
+      "name": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "description": "제품 개발을 위한 통합 플랫폼임. AI 관측성·분석·세션 리플레이·플래그·실험·에러 추적을 제공하고 Slack·웹·MCP에서 제어함.",
+      "description_en": "The leading platform for building products—AI observability, analytics, session replay, flags, experiments, error tracking and more, steered from Slack, web or MCP."
+    },
+    {
+      "name": "elder-plinius/OBLITERATUS",
+      "url": "https://github.com/elder-plinius/OBLITERATUS",
+      "description": "LLM의 안전 제약을 우회·해제하는 레드팀/탈옥 프롬프트를 다루는 저장소임(보안 연구·교육 목적).",
+      "description_en": "A repository of red-teaming/jailbreak prompts exploring how to bypass LLM safety constraints (for security research/education)."
+    },
+    {
+      "name": "Tencent/AI-Infra-Guard",
+      "url": "https://github.com/Tencent/AI-Infra-Guard",
+      "description": "에이전트·스킬·MCP·AI 인프라 스캔과 LLM 탈옥 평가로 AI 생태계를 지키는 풀스택 AI 레드팀 플랫폼임.",
+      "description_en": "A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation."
+    },
+    {
+      "name": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "description": "터미널에서 동작하는 에이전트형 코딩 도구임. 코드베이스를 이해하고 루틴 작업 실행·복잡한 코드 설명·git 워크플로를 자연어로 처리함.",
+      "description_en": "An agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster via natural-language commands—running tasks, explaining code and handling git."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "EnvHarness: 에이전트 학습을 위해 정적 세계를 깨우다",
+      "title_en": "EnvHarness: Awakening Static Worlds for Agent Learning",
+      "url": "https://huggingface.co/papers/2608.19880",
+      "summary": "정적인 데이터·세계를 상호작용 가능한 학습 환경으로 바꿔 에이전트를 훈련하는 하네스를 제안함.",
+      "summary_en": "Proposes a harness that turns static worlds/data into interactive environments for agent learning."
+    },
+    {
+      "title": "FACET: 터미널 과제 합성에서 원 의도와 실행 상태 보존",
+      "title_en": "FACET: Preserving Source Intent and Executable State in Terminal Task Synthesis",
+      "url": "https://huggingface.co/papers/2608.18580",
+      "summary": "터미널 작업 과제를 합성할 때 원래 의도와 실행 가능한 상태를 보존하는 방법을 제안함.",
+      "summary_en": "Preserves source intent and executable state when synthesizing terminal tasks."
+    },
+    {
+      "title": "4DAnyone: 평범한 모노큘러 영상에서 누구든 4D로 생성",
+      "title_en": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
+      "url": "https://huggingface.co/papers/2608.20335",
+      "summary": "일반 단일 카메라 영상만으로 사람을 시공간(4D)으로 복원·생성하는 방법을 제안함.",
+      "summary_en": "Reconstructs and generates people in 4D (space + time) from a casual single-camera video."
+    },
+    {
+      "title": "SWE-bench Science: 코딩 에이전트는 과학의 엔지니어링 과제를 풀 수 있는가?",
+      "title_en": "SWE-bench Science: Can Coding Agents Resolve Engineering Tasks in Science?",
+      "url": "https://huggingface.co/papers/2608.19799",
+      "summary": "과학 연구 코드의 엔지니어링 과제를 코딩 에이전트가 해결할 수 있는지 평가하는 벤치마크임.",
+      "summary_en": "A benchmark testing whether coding agents can resolve engineering tasks in scientific codebases."
+    },
+    {
+      "title": "WithEveryone: 그룹 이미지 생성을 위한 통합 계획·정체성 그라운딩",
+      "title_en": "WithEveryone: Unified Planning and Identity Grounding for Group Image Generation",
+      "url": "https://huggingface.co/papers/2608.20336",
+      "summary": "여러 인물이 등장하는 그룹 이미지를 생성할 때 배치 계획과 각 인물의 정체성을 함께 정합시키는 방법을 제안함.",
+      "summary_en": "Unifies layout planning and per-person identity grounding for multi-person group image generation."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "프로그래머를 위한 음악 이론",
+      "title_en": "Music Theory for Programmers",
+      "url": "https://runjs.app/blog/music-theory-for-programmers",
+      "summary": "음악 이론을 프로그래머에게 익숙한 자료구조·규칙의 관점에서 설명해, 코드로 다루기 쉽게 풀어낸 글임.",
+      "summary_en": "Explains music theory through data structures and rules familiar to programmers, making it easier to reason about in code."
+    },
+    {
+      "title": "AI 답변을 그대로 붙여넣지 마세요",
+      "title_en": "Don't Paste the AI",
+      "url": "https://dontpastetheai.com/",
+      "summary": "AI가 준 답을 검증 없이 그대로 붙여넣으면 오류·보안 문제가 코드베이스에 스며든다며, 이해하고 다듬어 쓰라고 강조함.",
+      "summary_en": "Warns that pasting AI output unverified seeds errors and security issues into your codebase—understand and refine it first."
+    },
+    {
+      "title": "Stripe의 OpenRouter 인수, 결제 회사가 LLM 라우터를 산 이유",
+      "title_en": "Stripe's OpenRouter Acquisition - Why a Payments Company Bought an LLM Router",
+      "url": "https://news.hada.io/article/openrouter-is-not-just-a-proxy",
+      "summary": "OpenRouter가 단순 프록시가 아니라 모델 사용량·과금·라우팅 데이터를 쥔 결제 성격의 인프라라, Stripe가 이를 인수한 배경을 분석함.",
+      "summary_en": "Argues OpenRouter is not just a proxy but payments-like infrastructure holding usage, billing and routing data—explaining why Stripe bought it."
+    },
+    {
+      "title": "코드는 다 읽을 수 없고, 코드 리뷰가 맡아온 책임은 사라지지 않는다",
+      "title_en": "Code Outruns Review, but the Responsibility Review Carried Doesn't Disappear",
+      "url": "https://news.hada.io/article/code-outruns-review",
+      "summary": "AI가 코드를 대량 생성하면서 사람이 모든 코드를 읽는 리뷰는 불가능해졌지만, 코드 리뷰가 담당하던 품질·책임은 여전히 누군가 져야 한다고 지적함.",
+      "summary_en": "As AI mass-produces code, reviewing every line becomes impossible—yet the quality and accountability code review carried still must be borne by someone."
+    },
+    {
+      "title": "AI 시대, 개발자는 면사무소가 아니라 목욕탕을 만들어야 한다",
+      "title_en": "In the AI Era, Developers Should Build Bathhouses, Not Town Offices",
+      "url": "https://www.gwagjiug.com/blog/%EB%A9%B4%EC%82%AC%EB%AC%B4%EC%86%8C%EC%99%80-%EB%AA%A9%EC%9A%95%ED%83%95",
+      "summary": "건축가 정기용이 주민에게 '무엇이 필요한지' 물어 목욕탕을 지은 일화에 빗대, 개발자도 스펙 구현이 아니라 진짜 필요를 묻고 만들어야 한다고 주장함.",
+      "summary_en": "Using architect Jung Ki-yong's story of building a bathhouse by asking residents what they needed, argues developers should build for real needs, not just specs."
+    }
+  ]
+}
