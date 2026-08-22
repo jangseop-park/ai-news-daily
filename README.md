@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-08-22
+> 마지막 업데이트: 2026-08-23
 
-# AI 뉴스 — 2026-08-22
+# AI 뉴스 — 2026-08-23
 
 ## 🔥 GitHub Trending (Python)
 
-- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo): 주제·키워드만 넣으면 AI 자동화 워크플로로 고화질 숏폼 영상을 원클릭 생성하는 도구임.
-- [PostHog/posthog](https://github.com/PostHog/posthog): 제품 개발을 위한 통합 플랫폼임. AI 관측성·분석·세션 리플레이·플래그·실험·에러 추적을 제공하고 Slack·웹·MCP에서 제어함.
-- [elder-plinius/OBLITERATUS](https://github.com/elder-plinius/OBLITERATUS): LLM의 안전 제약을 우회·해제하는 레드팀/탈옥 프롬프트를 다루는 저장소임(보안 연구·교육 목적).
-- [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard): 에이전트·스킬·MCP·AI 인프라 스캔과 LLM 탈옥 평가로 AI 생태계를 지키는 풀스택 AI 레드팀 플랫폼임.
 - [anthropics/claude-code](https://github.com/anthropics/claude-code): 터미널에서 동작하는 에이전트형 코딩 도구임. 코드베이스를 이해하고 루틴 작업 실행·복잡한 코드 설명·git 워크플로를 자연어로 처리함.
+- [PostHog/posthog](https://github.com/PostHog/posthog): 제품 개발을 위한 통합 플랫폼임. AI 관측성·분석·세션 리플레이·플래그·실험·에러 추적을 제공하고 Slack·웹·MCP에서 제어함.
+- [shy3130/tickflow-stock-panel](https://github.com/shy3130/tickflow-stock-panel): 자체 호스팅·무운영 A주(중국 주식) 선별·모니터링·백테스트 퀀트 워크벤치임. LLM으로 전략 커스터마이징과 개별 종목 분석을 함.
+- [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify): 코드베이스와 문서·SQL 스키마·설정·PDF를 질의 가능한 지식 그래프로 바꾸는 도구임. Claude Code·Cursor 등을 위한 /graphify 스킬로, 로컬 결정적 AST 파싱을 쓰고 벡터스토어가 없음.
+- [forcedotcom/sf-skills](https://github.com/forcedotcom/sf-skills): Salesforce가 큐레이션한 애플리케이션 구축용 에이전트 스킬 모음임. Agentforce Vibes에 최적화됐고 모든 AI 도구와 호환됨.
 
 ## 📄 Hugging Face Papers
 
 - [EnvHarness: 에이전트 학습을 위해 정적 세계를 깨우다](https://huggingface.co/papers/2608.19880)
   정적인 데이터·세계를 상호작용 가능한 학습 환경으로 바꿔 에이전트를 훈련하는 하네스를 제안함.
-- [FACET: 터미널 과제 합성에서 원 의도와 실행 상태 보존](https://huggingface.co/papers/2608.18580)
-  터미널 작업 과제를 합성할 때 원래 의도와 실행 가능한 상태를 보존하는 방법을 제안함.
 - [4DAnyone: 평범한 모노큘러 영상에서 누구든 4D로 생성](https://huggingface.co/papers/2608.20335)
   일반 단일 카메라 영상만으로 사람을 시공간(4D)으로 복원·생성하는 방법을 제안함.
 - [SWE-bench Science: 코딩 에이전트는 과학의 엔지니어링 과제를 풀 수 있는가?](https://huggingface.co/papers/2608.19799)
   과학 연구 코드의 엔지니어링 과제를 코딩 에이전트가 해결할 수 있는지 평가하는 벤치마크임.
 - [WithEveryone: 그룹 이미지 생성을 위한 통합 계획·정체성 그라운딩](https://huggingface.co/papers/2608.20336)
   여러 인물이 등장하는 그룹 이미지를 생성할 때 배치 계획과 각 인물의 정체성을 함께 정합시키는 방법을 제안함.
+- [MemTrapBench: LLM 메모리 사용의 인지적 함정 벤치마킹](https://huggingface.co/papers/2608.20202)
+  LLM이 기억을 활용할 때 빠지는 인지적 함정(오래된 정보 고수 등)을 측정하는 벤치마크임.
 
 ## 🦉 GeekNews
 
+- [SSL에 대해 배운 모든 것이 더는 유효하지 않음](https://www.youtube.com/watch?v=-9KiLFr8_hI)
+  인증서 수명 단축·자동화 등으로 SSL/TLS 운영 방식이 크게 바뀌어, 예전 상식이 더는 통하지 않게 됐다고 설명함.
+- [나는 AI가 쓴 글을 자동으로 무시하기 시작했다](https://cymerys.com/w/im-becoming-ai-blind)
+  AI가 쓴 티가 나는 글이 넘쳐나자, 필자는 그런 글을 무의식적으로 걸러내며 신뢰를 거두게 됐다고 토로함.
+- [YC CEO Garry Tan이 말하는 창업자의 새로운 규칙](https://www.youtube.com/watch?v=fsTtKywmWlU)
+  Y Combinator CEO Garry Tan이 AI 시대에 달라진 창업의 규칙과 소수 정예로 빠르게 만드는 전략을 이야기함.
+- [Linux 7.2 정식 출시](https://www.igalia.com/2026/08/19/Linux-72-Released.html)
+  리눅스 커널 7.2가 정식 출시되며 다양한 하드웨어 지원·성능·보안 개선을 담음.
 - [프로그래머를 위한 음악 이론](https://runjs.app/blog/music-theory-for-programmers)
   음악 이론을 프로그래머에게 익숙한 자료구조·규칙의 관점에서 설명해, 코드로 다루기 쉽게 풀어낸 글임.
-- [AI 답변을 그대로 붙여넣지 마세요](https://dontpastetheai.com/)
-  AI가 준 답을 검증 없이 그대로 붙여넣으면 오류·보안 문제가 코드베이스에 스며든다며, 이해하고 다듬어 쓰라고 강조함.
-- [Stripe의 OpenRouter 인수, 결제 회사가 LLM 라우터를 산 이유](https://news.hada.io/article/openrouter-is-not-just-a-proxy)
-  OpenRouter가 단순 프록시가 아니라 모델 사용량·과금·라우팅 데이터를 쥔 결제 성격의 인프라라, Stripe가 이를 인수한 배경을 분석함.
-- [코드는 다 읽을 수 없고, 코드 리뷰가 맡아온 책임은 사라지지 않는다](https://news.hada.io/article/code-outruns-review)
-  AI가 코드를 대량 생성하면서 사람이 모든 코드를 읽는 리뷰는 불가능해졌지만, 코드 리뷰가 담당하던 품질·책임은 여전히 누군가 져야 한다고 지적함.
-- [AI 시대, 개발자는 면사무소가 아니라 목욕탕을 만들어야 한다](https://www.gwagjiug.com/blog/%EB%A9%B4%EC%82%AC%EB%AC%B4%EC%86%8C%EC%99%80-%EB%AA%A9%EC%9A%95%ED%83%95)
-  건축가 정기용이 주민에게 '무엇이 필요한지' 물어 목욕탕을 지은 일화에 빗대, 개발자도 스펙 구현이 아니라 진짜 필요를 묻고 만들어야 한다고 주장함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-08-22](data/2026-08-22.md)
 - [2026-08-21](data/2026-08-21.md)
 - [2026-08-20](data/2026-08-20.md)
 - [2026-08-19](data/2026-08-19.md)
@@ -69,4 +70,3 @@
 - [2026-07-27](data/2026-07-27.md)
 - [2026-07-26](data/2026-07-26.md)
 - [2026-07-25](data/2026-07-25.md)
-- [2026-07-24](data/2026-07-24.md)
