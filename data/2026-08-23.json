@@ -1,0 +1,109 @@
+{
+  "date": "2026-08-23",
+  "github_trending": [
+    {
+      "name": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "description": "터미널에서 동작하는 에이전트형 코딩 도구임. 코드베이스를 이해하고 루틴 작업 실행·복잡한 코드 설명·git 워크플로를 자연어로 처리함.",
+      "description_en": "An agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster via natural-language commands."
+    },
+    {
+      "name": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "description": "제품 개발을 위한 통합 플랫폼임. AI 관측성·분석·세션 리플레이·플래그·실험·에러 추적을 제공하고 Slack·웹·MCP에서 제어함.",
+      "description_en": "The leading platform for building products—AI observability, analytics, session replay, flags, experiments, error tracking and more."
+    },
+    {
+      "name": "shy3130/tickflow-stock-panel",
+      "url": "https://github.com/shy3130/tickflow-stock-panel",
+      "description": "자체 호스팅·무운영 A주(중국 주식) 선별·모니터링·백테스트 퀀트 워크벤치임. LLM으로 전략 커스터마이징과 개별 종목 분석을 함.",
+      "description_en": "A self-hosted, ops-free A-share stock picking/monitoring/backtesting quant workbench, with LLM-driven strategy customization and stock analysis."
+    },
+    {
+      "name": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "description": "코드베이스와 문서·SQL 스키마·설정·PDF를 질의 가능한 지식 그래프로 바꾸는 도구임. Claude Code·Cursor 등을 위한 /graphify 스킬로, 로컬 결정적 AST 파싱을 쓰고 벡터스토어가 없음.",
+      "description_en": "Turn any codebase—with docs, SQL schemas, configs and PDFs—into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex and Gemini CLI using local deterministic AST parsing, no vector store."
+    },
+    {
+      "name": "forcedotcom/sf-skills",
+      "url": "https://github.com/forcedotcom/sf-skills",
+      "description": "Salesforce가 큐레이션한 애플리케이션 구축용 에이전트 스킬 모음임. Agentforce Vibes에 최적화됐고 모든 AI 도구와 호환됨.",
+      "description_en": "Salesforce's curated collection of agent skills for building applications. Optimized for Agentforce Vibes, compatible with all AI tools."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "EnvHarness: 에이전트 학습을 위해 정적 세계를 깨우다",
+      "title_en": "EnvHarness: Awakening Static Worlds for Agent Learning",
+      "url": "https://huggingface.co/papers/2608.19880",
+      "summary": "정적인 데이터·세계를 상호작용 가능한 학습 환경으로 바꿔 에이전트를 훈련하는 하네스를 제안함.",
+      "summary_en": "Proposes a harness that turns static worlds/data into interactive environments for agent learning."
+    },
+    {
+      "title": "4DAnyone: 평범한 모노큘러 영상에서 누구든 4D로 생성",
+      "title_en": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
+      "url": "https://huggingface.co/papers/2608.20335",
+      "summary": "일반 단일 카메라 영상만으로 사람을 시공간(4D)으로 복원·생성하는 방법을 제안함.",
+      "summary_en": "Reconstructs and generates people in 4D (space + time) from a casual single-camera video."
+    },
+    {
+      "title": "SWE-bench Science: 코딩 에이전트는 과학의 엔지니어링 과제를 풀 수 있는가?",
+      "title_en": "SWE-bench Science: Can Coding Agents Resolve Engineering Tasks in Science?",
+      "url": "https://huggingface.co/papers/2608.19799",
+      "summary": "과학 연구 코드의 엔지니어링 과제를 코딩 에이전트가 해결할 수 있는지 평가하는 벤치마크임.",
+      "summary_en": "A benchmark testing whether coding agents can resolve engineering tasks in scientific codebases."
+    },
+    {
+      "title": "WithEveryone: 그룹 이미지 생성을 위한 통합 계획·정체성 그라운딩",
+      "title_en": "WithEveryone: Unified Planning and Identity Grounding for Group Image Generation",
+      "url": "https://huggingface.co/papers/2608.20336",
+      "summary": "여러 인물이 등장하는 그룹 이미지를 생성할 때 배치 계획과 각 인물의 정체성을 함께 정합시키는 방법을 제안함.",
+      "summary_en": "Unifies layout planning and per-person identity grounding for multi-person group image generation."
+    },
+    {
+      "title": "MemTrapBench: LLM 메모리 사용의 인지적 함정 벤치마킹",
+      "title_en": "MemTrapBench: Benchmarking Cognitive Traps in LLM Memory Use",
+      "url": "https://huggingface.co/papers/2608.20202",
+      "summary": "LLM이 기억을 활용할 때 빠지는 인지적 함정(오래된 정보 고수 등)을 측정하는 벤치마크임.",
+      "summary_en": "A benchmark measuring cognitive traps (e.g., clinging to stale information) in how LLMs use memory."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "SSL에 대해 배운 모든 것이 더는 유효하지 않음",
+      "title_en": "Everything You Learned About SSL Is No Longer True",
+      "url": "https://www.youtube.com/watch?v=-9KiLFr8_hI",
+      "summary": "인증서 수명 단축·자동화 등으로 SSL/TLS 운영 방식이 크게 바뀌어, 예전 상식이 더는 통하지 않게 됐다고 설명함.",
+      "summary_en": "Explains how shorter certificate lifetimes and automation have changed SSL/TLS so much that old assumptions no longer hold."
+    },
+    {
+      "title": "나는 AI가 쓴 글을 자동으로 무시하기 시작했다",
+      "title_en": "I'm Becoming AI-Blind",
+      "url": "https://cymerys.com/w/im-becoming-ai-blind",
+      "summary": "AI가 쓴 티가 나는 글이 넘쳐나자, 필자는 그런 글을 무의식적으로 걸러내며 신뢰를 거두게 됐다고 토로함.",
+      "summary_en": "As AI-written text floods in, the author finds themselves automatically tuning it out and losing trust in it."
+    },
+    {
+      "title": "YC CEO Garry Tan이 말하는 창업자의 새로운 규칙",
+      "title_en": "YC CEO Garry Tan on the New Rules for Founders",
+      "url": "https://www.youtube.com/watch?v=fsTtKywmWlU",
+      "summary": "Y Combinator CEO Garry Tan이 AI 시대에 달라진 창업의 규칙과 소수 정예로 빠르게 만드는 전략을 이야기함.",
+      "summary_en": "Y Combinator CEO Garry Tan discusses how the rules for founders have changed in the AI era and building fast with small teams."
+    },
+    {
+      "title": "Linux 7.2 정식 출시",
+      "title_en": "Linux 7.2 Released",
+      "url": "https://www.igalia.com/2026/08/19/Linux-72-Released.html",
+      "summary": "리눅스 커널 7.2가 정식 출시되며 다양한 하드웨어 지원·성능·보안 개선을 담음.",
+      "summary_en": "Linux kernel 7.2 is officially released with broader hardware support and performance and security improvements."
+    },
+    {
+      "title": "프로그래머를 위한 음악 이론",
+      "title_en": "Music Theory for Programmers",
+      "url": "https://runjs.app/blog/music-theory-for-programmers",
+      "summary": "음악 이론을 프로그래머에게 익숙한 자료구조·규칙의 관점에서 설명해, 코드로 다루기 쉽게 풀어낸 글임.",
+      "summary_en": "Explains music theory through data structures and rules familiar to programmers, making it easier to reason about in code."
+    }
+  ]
+}
