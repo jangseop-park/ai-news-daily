@@ -1,29 +1,29 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-08-23
+> 마지막 업데이트: 2026-08-24
 
-# AI 뉴스 — 2026-08-23
+# AI 뉴스 — 2026-08-24
 
 ## 🔥 GitHub Trending (Python)
 
-- [anthropics/claude-code](https://github.com/anthropics/claude-code): 터미널에서 동작하는 에이전트형 코딩 도구임. 코드베이스를 이해하고 루틴 작업 실행·복잡한 코드 설명·git 워크플로를 자연어로 처리함.
-- [PostHog/posthog](https://github.com/PostHog/posthog): 제품 개발을 위한 통합 플랫폼임. AI 관측성·분석·세션 리플레이·플래그·실험·에러 추적을 제공하고 Slack·웹·MCP에서 제어함.
-- [shy3130/tickflow-stock-panel](https://github.com/shy3130/tickflow-stock-panel): 자체 호스팅·무운영 A주(중국 주식) 선별·모니터링·백테스트 퀀트 워크벤치임. LLM으로 전략 커스터마이징과 개별 종목 분석을 함.
-- [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify): 코드베이스와 문서·SQL 스키마·설정·PDF를 질의 가능한 지식 그래프로 바꾸는 도구임. Claude Code·Cursor 등을 위한 /graphify 스킬로, 로컬 결정적 AST 파싱을 쓰고 벡터스토어가 없음.
-- [forcedotcom/sf-skills](https://github.com/forcedotcom/sf-skills): Salesforce가 큐레이션한 애플리케이션 구축용 에이전트 스킬 모음임. Agentforce Vibes에 최적화됐고 모든 AI 도구와 호환됨.
+- [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code): 터미널·앱·IDE·폰에서 Claude Code·Codex·Pi·OpenCode를 무료로(13억+ 무료 토큰) 쓰게 해주는 도구임(음성 지원·ToS 친화적).
+- [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill): 기술 서적 PDF를 Claude Code 스킬로 변환해 학습·참조·활용할 수 있게 해줌.
+- [anthropics/claude-plugins-community](https://github.com/anthropics/claude-plugins-community): Claude Cowork·Claude Code용 커뮤니티 플러그인 마켓플레이스임(읽기 전용 미러).
+- [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI): 그래프·노드 인터페이스를 갖춘 가장 강력하고 모듈러한 확산 모델 GUI·API·백엔드임.
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): 사용자와 함께 성장하는 에이전트임. NousResearch가 공개함.
 
 ## 📄 Hugging Face Papers
 
 - [EnvHarness: 에이전트 학습을 위해 정적 세계를 깨우다](https://huggingface.co/papers/2608.19880)
   정적인 데이터·세계를 상호작용 가능한 학습 환경으로 바꿔 에이전트를 훈련하는 하네스를 제안함.
+- [FACET: 터미널 과제 합성에서 원 의도와 실행 상태 보존](https://huggingface.co/papers/2608.18580)
+  터미널 작업 과제를 합성할 때 원래 의도와 실행 가능한 상태를 보존하는 방법을 제안함.
 - [4DAnyone: 평범한 모노큘러 영상에서 누구든 4D로 생성](https://huggingface.co/papers/2608.20335)
   일반 단일 카메라 영상만으로 사람을 시공간(4D)으로 복원·생성하는 방법을 제안함.
 - [SWE-bench Science: 코딩 에이전트는 과학의 엔지니어링 과제를 풀 수 있는가?](https://huggingface.co/papers/2608.19799)
   과학 연구 코드의 엔지니어링 과제를 코딩 에이전트가 해결할 수 있는지 평가하는 벤치마크임.
 - [WithEveryone: 그룹 이미지 생성을 위한 통합 계획·정체성 그라운딩](https://huggingface.co/papers/2608.20336)
   여러 인물이 등장하는 그룹 이미지를 생성할 때 배치 계획과 각 인물의 정체성을 함께 정합시키는 방법을 제안함.
-- [MemTrapBench: LLM 메모리 사용의 인지적 함정 벤치마킹](https://huggingface.co/papers/2608.20202)
-  LLM이 기억을 활용할 때 빠지는 인지적 함정(오래된 정보 고수 등)을 측정하는 벤치마크임.
 
 ## 🦉 GeekNews
 
@@ -31,16 +31,17 @@
   인증서 수명 단축·자동화 등으로 SSL/TLS 운영 방식이 크게 바뀌어, 예전 상식이 더는 통하지 않게 됐다고 설명함.
 - [나는 AI가 쓴 글을 자동으로 무시하기 시작했다](https://cymerys.com/w/im-becoming-ai-blind)
   AI가 쓴 티가 나는 글이 넘쳐나자, 필자는 그런 글을 무의식적으로 걸러내며 신뢰를 거두게 됐다고 토로함.
-- [YC CEO Garry Tan이 말하는 창업자의 새로운 규칙](https://www.youtube.com/watch?v=fsTtKywmWlU)
-  Y Combinator CEO Garry Tan이 AI 시대에 달라진 창업의 규칙과 소수 정예로 빠르게 만드는 전략을 이야기함.
-- [Linux 7.2 정식 출시](https://www.igalia.com/2026/08/19/Linux-72-Released.html)
-  리눅스 커널 7.2가 정식 출시되며 다양한 하드웨어 지원·성능·보안 개선을 담음.
-- [프로그래머를 위한 음악 이론](https://runjs.app/blog/music-theory-for-programmers)
-  음악 이론을 프로그래머에게 익숙한 자료구조·규칙의 관점에서 설명해, 코드로 다루기 쉽게 풀어낸 글임.
+- [새로운 MCP 로드맵 - 앞으로 집중할 5가지 영역](https://blog.modelcontextprotocol.io/posts/mcp-roadmap/)
+  모델 컨텍스트 프로토콜(MCP) 팀이 앞으로 집중할 5가지 방향을 담은 새 로드맵을 공개함.
+- [GPT-5.6 Sol 가격 20% 인하](https://developers.openai.com/api/docs/models/gpt-5.6-sol)
+  OpenAI가 GPT-5.6 Sol의 API 가격을 20% 인하함. 프런티어급 모델의 비용 부담을 낮춤.
+- [소프트웨어가 더 이상 느릴 이유는 없다](https://danluu.com/perf-opt/)
+  하드웨어가 크게 빨라진 지금, 대부분의 느린 소프트웨어는 근본 한계가 아니라 방치된 비효율 때문이라고 지적함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-08-23](data/2026-08-23.md)
 - [2026-08-22](data/2026-08-22.md)
 - [2026-08-21](data/2026-08-21.md)
 - [2026-08-20](data/2026-08-20.md)
@@ -69,4 +70,3 @@
 - [2026-07-28](data/2026-07-28.md)
 - [2026-07-27](data/2026-07-27.md)
 - [2026-07-26](data/2026-07-26.md)
-- [2026-07-25](data/2026-07-25.md)
