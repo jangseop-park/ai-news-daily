@@ -1,0 +1,109 @@
+{
+  "date": "2026-08-25",
+  "github_trending": [
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "터미널·앱·IDE·폰에서 Claude Code·Codex·Pi·OpenCode를 무료로(13억+ 무료 토큰) 쓰게 해주는 도구임(음성 지원·ToS 친화적).",
+      "description_en": "Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone."
+    },
+    {
+      "name": "MadsLorentzen/ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "description": "내 컴퓨터에서 도는 구직 도구임. Claude Code 기반 AI 지원 프레임워크로 공고 평가·이력서 맞춤·자기소개서 작성·면접 준비를 함.",
+      "description_en": "The job search that runs on your machine. An AI job-application framework on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews."
+    },
+    {
+      "name": "anthropics/claude-plugins-community",
+      "url": "https://github.com/anthropics/claude-plugins-community",
+      "description": "Claude Cowork·Claude Code용 커뮤니티 플러그인 마켓플레이스임(읽기 전용 미러).",
+      "description_en": "Community plugin marketplace for Claude Cowork and Claude Code (read-only mirror)."
+    },
+    {
+      "name": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "description": "제품 개발을 위한 통합 플랫폼임. AI 관측성·분석·세션 리플레이·플래그·실험·에러 추적을 제공하고 Slack·웹·MCP에서 제어함.",
+      "description_en": "The leading platform for building products—AI observability, analytics, session replay, flags, experiments, error tracking and more."
+    },
+    {
+      "name": "AgriciDaniel/claude-obsidian",
+      "url": "https://github.com/AgriciDaniel/claude-obsidian",
+      "description": "Obsidian + Claude Code용 자기조직화 AI 세컨드 브레인임. 어떤 자료든 넣으면 Claude가 읽고 연결해 하나의 마크다운 지식 그래프로 정리함. Karpathy의 LLM Wiki 패턴 기반.",
+      "description_en": "A self-organizing AI second brain for Obsidian + Claude Code—drop any source and Claude reads, links and files it into one connected Markdown knowledge graph. Based on Karpathy's LLM Wiki pattern."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "단계별로 스케일하자: 대규모 MoE를 위한 계산 효율적 하이퍼파라미터 전이",
+      "title_en": "Let's Scale Step by Step: Compute-Efficient Hyperparameter Transfer for Large-Scale Mixture-of-Experts",
+      "url": "https://huggingface.co/papers/2608.20061",
+      "summary": "작은 모델에서 찾은 하이퍼파라미터를 대규모 MoE로 효율적으로 전이해 학습 비용을 줄이는 방법을 제안함.",
+      "summary_en": "Transfers hyperparameters from small models to large-scale MoE efficiently, cutting training cost."
+    },
+    {
+      "title": "InfinityEdit: 경량 Edit-Ignition 어댑터로 무한 영상 편집",
+      "title_en": "InfinityEdit: Infinite Video Editing with a Lightweight Edit-Ignition Adapter",
+      "url": "https://huggingface.co/papers/2608.20910",
+      "summary": "가벼운 어댑터로 길이 제한 없이 영상을 이어서 편집할 수 있게 하는 방법을 제안함.",
+      "summary_en": "Enables length-unbounded, continuous video editing via a lightweight edit-ignition adapter."
+    },
+    {
+      "title": "LLM 에이전트 시대의 그래프 엔지니어링: 개별 지능에서 시스템 지능으로",
+      "title_en": "Graph Engineering in the Era of LLM Agents: From Individual Intelligence to System Intelligence",
+      "url": "https://huggingface.co/papers/2608.21156",
+      "summary": "개별 에이전트의 지능을 넘어 여러 에이전트를 그래프로 엮어 시스템 차원의 지능을 끌어내는 접근을 정리함.",
+      "summary_en": "Surveys graph engineering that wires many agents into system-level intelligence beyond individual agents."
+    },
+    {
+      "title": "OmniAssistBench: Omni-LLM을 위한 비서형 상호작용 벤치마크",
+      "title_en": "OmniAssistBench: Assistant-style Interaction Benchmark for Omni-LLMs",
+      "url": "https://huggingface.co/papers/2608.21360",
+      "summary": "여러 모달리티를 다루는 Omni-LLM의 비서형 상호작용 능력을 평가하는 벤치마크임.",
+      "summary_en": "A benchmark evaluating assistant-style interaction of omni-modal LLMs."
+    },
+    {
+      "title": "ParaTempo: 시간적 신뢰도를 통한 효율적 병렬 추론",
+      "title_en": "ParaTempo: Efficient Parallel Reasoning via Temporal Confidence",
+      "url": "https://huggingface.co/papers/2608.16425",
+      "summary": "시간적 신뢰도를 활용해 여러 추론 경로를 병렬로 효율적으로 진행하는 방법을 제안함.",
+      "summary_en": "Runs multiple reasoning paths in parallel efficiently using temporal confidence."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "중2개발자가 만든 한국어 LLM",
+      "title_en": "A Korean LLM Built by a Middle-Schooler",
+      "url": "https://news.hada.io/topic?id=32792",
+      "summary": "중학교 2학년 개발자가 직접 만든 한국어 LLM을 공개함. 제한된 자원에서 학습·튜닝한 과정을 공유함.",
+      "summary_en": "A middle-school developer releases their own Korean LLM, sharing how they trained and tuned it on limited resources."
+    },
+    {
+      "title": "프로덕트 엔지니어의 사고방식 - 태스크 수행자에서 문제 해결의 주체로",
+      "title_en": "The Product Engineer Mindset - From Task-Doer to Problem-Owner",
+      "url": "https://spectrum.ieee.org/product-engineer",
+      "summary": "주어진 태스크만 처리하는 엔지니어에서 벗어나, 무엇을 왜 만들지까지 주도하는 '프로덕트 엔지니어'의 사고방식을 설명함.",
+      "summary_en": "Describes the 'product engineer' mindset—owning what and why to build, not just executing assigned tasks."
+    },
+    {
+      "title": "로컬 LLM이 실제 성능보다 더 멍청하게 느껴지는 이유",
+      "title_en": "Why Your Local LLM Feels Dumber Than It Is",
+      "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+      "summary": "양자화·컨텍스트 설정·샘플링 파라미터 등이 잘못되면 로컬 LLM이 실제보다 훨씬 멍청하게 느껴진다며 원인과 해법을 짚음.",
+      "summary_en": "Explains how bad quantization, context settings and sampling params make local LLMs feel far dumber than they really are, and how to fix it."
+    },
+    {
+      "title": "agent.md로 LLM 생성 코드의 품질 높이기",
+      "title_en": "Improving LLM-Generated Code Quality with agent.md",
+      "url": "https://fabiensanglard.net/agent.md/index.html",
+      "summary": "프로젝트에 agent.md로 규칙·맥락을 명시해두면 LLM이 생성하는 코드의 일관성과 품질이 올라간다고 소개함.",
+      "summary_en": "Shows that spelling out rules and context in an agent.md file raises the consistency and quality of LLM-generated code."
+    },
+    {
+      "title": "AI가 인간의 실행력을 확장하려면 무엇이 필요한가",
+      "title_en": "The Human Bet: What AI Needs to Extend Human Execution",
+      "url": "https://www.forerunnerventures.com/perspectives/the-human-bet",
+      "summary": "AI가 사람을 대체하기보다 실행력을 확장하는 방향으로 가려면 신뢰·맥락·인간 판단의 결합이 핵심이라고 분석함.",
+      "summary_en": "Argues that for AI to extend rather than replace human execution, combining trust, context and human judgment is key."
+    }
+  ]
+}
