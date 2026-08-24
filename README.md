@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-08-24
+> 마지막 업데이트: 2026-08-25
 
-# AI 뉴스 — 2026-08-24
+# AI 뉴스 — 2026-08-25
 
 ## 🔥 GitHub Trending (Python)
 
 - [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code): 터미널·앱·IDE·폰에서 Claude Code·Codex·Pi·OpenCode를 무료로(13억+ 무료 토큰) 쓰게 해주는 도구임(음성 지원·ToS 친화적).
-- [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill): 기술 서적 PDF를 Claude Code 스킬로 변환해 학습·참조·활용할 수 있게 해줌.
+- [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search): 내 컴퓨터에서 도는 구직 도구임. Claude Code 기반 AI 지원 프레임워크로 공고 평가·이력서 맞춤·자기소개서 작성·면접 준비를 함.
 - [anthropics/claude-plugins-community](https://github.com/anthropics/claude-plugins-community): Claude Cowork·Claude Code용 커뮤니티 플러그인 마켓플레이스임(읽기 전용 미러).
-- [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI): 그래프·노드 인터페이스를 갖춘 가장 강력하고 모듈러한 확산 모델 GUI·API·백엔드임.
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): 사용자와 함께 성장하는 에이전트임. NousResearch가 공개함.
+- [PostHog/posthog](https://github.com/PostHog/posthog): 제품 개발을 위한 통합 플랫폼임. AI 관측성·분석·세션 리플레이·플래그·실험·에러 추적을 제공하고 Slack·웹·MCP에서 제어함.
+- [AgriciDaniel/claude-obsidian](https://github.com/AgriciDaniel/claude-obsidian): Obsidian + Claude Code용 자기조직화 AI 세컨드 브레인임. 어떤 자료든 넣으면 Claude가 읽고 연결해 하나의 마크다운 지식 그래프로 정리함. Karpathy의 LLM Wiki 패턴 기반.
 
 ## 📄 Hugging Face Papers
 
-- [EnvHarness: 에이전트 학습을 위해 정적 세계를 깨우다](https://huggingface.co/papers/2608.19880)
-  정적인 데이터·세계를 상호작용 가능한 학습 환경으로 바꿔 에이전트를 훈련하는 하네스를 제안함.
-- [FACET: 터미널 과제 합성에서 원 의도와 실행 상태 보존](https://huggingface.co/papers/2608.18580)
-  터미널 작업 과제를 합성할 때 원래 의도와 실행 가능한 상태를 보존하는 방법을 제안함.
-- [4DAnyone: 평범한 모노큘러 영상에서 누구든 4D로 생성](https://huggingface.co/papers/2608.20335)
-  일반 단일 카메라 영상만으로 사람을 시공간(4D)으로 복원·생성하는 방법을 제안함.
-- [SWE-bench Science: 코딩 에이전트는 과학의 엔지니어링 과제를 풀 수 있는가?](https://huggingface.co/papers/2608.19799)
-  과학 연구 코드의 엔지니어링 과제를 코딩 에이전트가 해결할 수 있는지 평가하는 벤치마크임.
-- [WithEveryone: 그룹 이미지 생성을 위한 통합 계획·정체성 그라운딩](https://huggingface.co/papers/2608.20336)
-  여러 인물이 등장하는 그룹 이미지를 생성할 때 배치 계획과 각 인물의 정체성을 함께 정합시키는 방법을 제안함.
+- [단계별로 스케일하자: 대규모 MoE를 위한 계산 효율적 하이퍼파라미터 전이](https://huggingface.co/papers/2608.20061)
+  작은 모델에서 찾은 하이퍼파라미터를 대규모 MoE로 효율적으로 전이해 학습 비용을 줄이는 방법을 제안함.
+- [InfinityEdit: 경량 Edit-Ignition 어댑터로 무한 영상 편집](https://huggingface.co/papers/2608.20910)
+  가벼운 어댑터로 길이 제한 없이 영상을 이어서 편집할 수 있게 하는 방법을 제안함.
+- [LLM 에이전트 시대의 그래프 엔지니어링: 개별 지능에서 시스템 지능으로](https://huggingface.co/papers/2608.21156)
+  개별 에이전트의 지능을 넘어 여러 에이전트를 그래프로 엮어 시스템 차원의 지능을 끌어내는 접근을 정리함.
+- [OmniAssistBench: Omni-LLM을 위한 비서형 상호작용 벤치마크](https://huggingface.co/papers/2608.21360)
+  여러 모달리티를 다루는 Omni-LLM의 비서형 상호작용 능력을 평가하는 벤치마크임.
+- [ParaTempo: 시간적 신뢰도를 통한 효율적 병렬 추론](https://huggingface.co/papers/2608.16425)
+  시간적 신뢰도를 활용해 여러 추론 경로를 병렬로 효율적으로 진행하는 방법을 제안함.
 
 ## 🦉 GeekNews
 
-- [SSL에 대해 배운 모든 것이 더는 유효하지 않음](https://www.youtube.com/watch?v=-9KiLFr8_hI)
-  인증서 수명 단축·자동화 등으로 SSL/TLS 운영 방식이 크게 바뀌어, 예전 상식이 더는 통하지 않게 됐다고 설명함.
-- [나는 AI가 쓴 글을 자동으로 무시하기 시작했다](https://cymerys.com/w/im-becoming-ai-blind)
-  AI가 쓴 티가 나는 글이 넘쳐나자, 필자는 그런 글을 무의식적으로 걸러내며 신뢰를 거두게 됐다고 토로함.
-- [새로운 MCP 로드맵 - 앞으로 집중할 5가지 영역](https://blog.modelcontextprotocol.io/posts/mcp-roadmap/)
-  모델 컨텍스트 프로토콜(MCP) 팀이 앞으로 집중할 5가지 방향을 담은 새 로드맵을 공개함.
-- [GPT-5.6 Sol 가격 20% 인하](https://developers.openai.com/api/docs/models/gpt-5.6-sol)
-  OpenAI가 GPT-5.6 Sol의 API 가격을 20% 인하함. 프런티어급 모델의 비용 부담을 낮춤.
-- [소프트웨어가 더 이상 느릴 이유는 없다](https://danluu.com/perf-opt/)
-  하드웨어가 크게 빨라진 지금, 대부분의 느린 소프트웨어는 근본 한계가 아니라 방치된 비효율 때문이라고 지적함.
+- [중2개발자가 만든 한국어 LLM](https://news.hada.io/topic?id=32792)
+  중학교 2학년 개발자가 직접 만든 한국어 LLM을 공개함. 제한된 자원에서 학습·튜닝한 과정을 공유함.
+- [프로덕트 엔지니어의 사고방식 - 태스크 수행자에서 문제 해결의 주체로](https://spectrum.ieee.org/product-engineer)
+  주어진 태스크만 처리하는 엔지니어에서 벗어나, 무엇을 왜 만들지까지 주도하는 '프로덕트 엔지니어'의 사고방식을 설명함.
+- [로컬 LLM이 실제 성능보다 더 멍청하게 느껴지는 이유](https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917)
+  양자화·컨텍스트 설정·샘플링 파라미터 등이 잘못되면 로컬 LLM이 실제보다 훨씬 멍청하게 느껴진다며 원인과 해법을 짚음.
+- [agent.md로 LLM 생성 코드의 품질 높이기](https://fabiensanglard.net/agent.md/index.html)
+  프로젝트에 agent.md로 규칙·맥락을 명시해두면 LLM이 생성하는 코드의 일관성과 품질이 올라간다고 소개함.
+- [AI가 인간의 실행력을 확장하려면 무엇이 필요한가](https://www.forerunnerventures.com/perspectives/the-human-bet)
+  AI가 사람을 대체하기보다 실행력을 확장하는 방향으로 가려면 신뢰·맥락·인간 판단의 결합이 핵심이라고 분석함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-08-24](data/2026-08-24.md)
 - [2026-08-23](data/2026-08-23.md)
 - [2026-08-22](data/2026-08-22.md)
 - [2026-08-21](data/2026-08-21.md)
@@ -69,4 +70,3 @@
 - [2026-07-29](data/2026-07-29.md)
 - [2026-07-28](data/2026-07-28.md)
 - [2026-07-27](data/2026-07-27.md)
-- [2026-07-26](data/2026-07-26.md)
