@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-08-25
+> 마지막 업데이트: 2026-08-27
 
-# AI 뉴스 — 2026-08-25
+# AI 뉴스 — 2026-08-27
 
 ## 🔥 GitHub Trending (Python)
 
-- [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code): 터미널·앱·IDE·폰에서 Claude Code·Codex·Pi·OpenCode를 무료로(13억+ 무료 토큰) 쓰게 해주는 도구임(음성 지원·ToS 친화적).
-- [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search): 내 컴퓨터에서 도는 구직 도구임. Claude Code 기반 AI 지원 프레임워크로 공고 평가·이력서 맞춤·자기소개서 작성·면접 준비를 함.
-- [anthropics/claude-plugins-community](https://github.com/anthropics/claude-plugins-community): Claude Cowork·Claude Code용 커뮤니티 플러그인 마켓플레이스임(읽기 전용 미러).
-- [PostHog/posthog](https://github.com/PostHog/posthog): 제품 개발을 위한 통합 플랫폼임. AI 관측성·분석·세션 리플레이·플래그·실험·에러 추적을 제공하고 Slack·웹·MCP에서 제어함.
-- [AgriciDaniel/claude-obsidian](https://github.com/AgriciDaniel/claude-obsidian): Obsidian + Claude Code용 자기조직화 AI 세컨드 브레인임. 어떤 자료든 넣으면 Claude가 읽고 연결해 하나의 마크다운 지식 그래프로 정리함. Karpathy의 LLM Wiki 패턴 기반.
+- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official): Anthropic이 직접 관리하는 고품질 Claude Code 플러그인 공식 디렉터리임.
+- [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills): AI 에이전트를 'AI 과학자'로 바꿔주는 과학용 Agent Skills 라이브러리임. 검증된 163개 스킬과 100여 개 과학 데이터베이스를 제공하며 생물·화학·의학·신약개발을 다룸. Cursor, Claude Code, Codex 등과 호환됨.
+- [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage): 세계 최초 오픈소스 에이전트형 영상 제작 시스템임. 12개 제작 파이프라인과 100여 개 툴, 700여 개 agent skill 파일로 AI 코딩 어시스턴트를 영상 제작 스튜디오로 바꿔줌.
+- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링을 바닥부터 배우고 만들고 배포하는 실습형 학습 레포임.
+- [AgriciDaniel/claude-obsidian](https://github.com/AgriciDaniel/claude-obsidian): Obsidian + Claude Code 기반 자기조직화 AI 세컨드 브레인임. 아무 소스나 넣으면 Claude가 읽고 연결해 순수 마크다운 지식 그래프로 정리해줌. Karpathy의 LLM Wiki 패턴 기반이며 오픈소스 Notion 대안으로도 쓰임.
 
 ## 📄 Hugging Face Papers
 
-- [단계별로 스케일하자: 대규모 MoE를 위한 계산 효율적 하이퍼파라미터 전이](https://huggingface.co/papers/2608.20061)
-  작은 모델에서 찾은 하이퍼파라미터를 대규모 MoE로 효율적으로 전이해 학습 비용을 줄이는 방법을 제안함.
-- [InfinityEdit: 경량 Edit-Ignition 어댑터로 무한 영상 편집](https://huggingface.co/papers/2608.20910)
-  가벼운 어댑터로 길이 제한 없이 영상을 이어서 편집할 수 있게 하는 방법을 제안함.
-- [LLM 에이전트 시대의 그래프 엔지니어링: 개별 지능에서 시스템 지능으로](https://huggingface.co/papers/2608.21156)
-  개별 에이전트의 지능을 넘어 여러 에이전트를 그래프로 엮어 시스템 차원의 지능을 끌어내는 접근을 정리함.
-- [OmniAssistBench: Omni-LLM을 위한 비서형 상호작용 벤치마크](https://huggingface.co/papers/2608.21360)
-  여러 모달리티를 다루는 Omni-LLM의 비서형 상호작용 능력을 평가하는 벤치마크임.
-- [ParaTempo: 시간적 신뢰도를 통한 효율적 병렬 추론](https://huggingface.co/papers/2608.16425)
-  시간적 신뢰도를 활용해 여러 추론 경로를 병렬로 효율적으로 진행하는 방법을 제안함.
+- [VoiceMem: 실시간 상호작용을 위한 스트리밍 듀얼-브레인 메모리](https://huggingface.co/papers/2608.26005)
+  duplex 음성 언어모델(SLM)에 부족한 스트리밍·정확·공감형 메모리를 채우는 구조임. 정보 담당 '좌뇌'와 감정 담당 '우뇌'를 병렬로 두고 스트리밍 메모리 I/O를 붙였음. 메모리 인식 SLM 학습·장기 평가·백엔드 교체 가능한 분리 배포까지 전체 파이프라인을 함께 공개함. top-5 검색에서 좌뇌가 기존 방식보다 정확도가 높았음.
+- [FrontierChallenge: 과학 워크플로 완수 능력 평가 벤치마크](https://huggingface.co/papers/2608.24979)
+  기존 벤치마크가 최종 정답이나 단일 도메인에만 치우친 점을 지적함. 양자화학·분자동역학·재료분석·분석화학·생명과학·전기화학 등을 아우르는 end-to-end 과학 워크플로 300개 벤치마크임. 이번 논문에서는 97개 과제를 공개했고, 각 과제는 고정 입력과 요구 산출물 묶음을 명시함. 12개 프런티어 모델을 평가했음.
+- [VGI-BENCH: 영상 생성 모델의 시각 지능 측정](https://huggingface.co/papers/2608.19583)
+  영상 생성 모델이 생성 프레임을 통해 zero-shot 시각 추론을 보인다는 최근 관찰을 제대로 검증하려는 벤치마크임. 그럴듯한 최종 상태만이 아니라 타당한 변화 과정을 요구하도록 설계했고 난이도도 조정했음. 27개 태스크·810개 인스턴스를 태스크 도메인과 스킬 태그 2단계 분류로 구성해 세밀하게 평가함.
+- [WarpSAC: 탐험과 활용 재고를 통한 확장형 off-policy RL](https://huggingface.co/papers/2608.24479)
+  대규모 병렬 시뮬레이션이 off-policy RL의 데이터 환경을 바꿨는데, 기존 안정화 기법들은 데이터가 적을 때를 전제로 설계됐음을 지적함. 8개 벤치마크군 실험에서 파라미터 정규화는 리플레이 커버리지가 좁을 때만 유리하고 데이터가 풍부하면 오히려 가치 학습을 제약했음. clipped double-Q도 고처리량 매니퓰레이션에서는 완화 가능했고, age-biased 리플레이 가중치는 전 구간에서 학습 효율을 높였음.
+- [JIT-Agent: 즉석 하네스 진화로 하네스 지능 확장하기](https://huggingface.co/papers/2608.25593)
+  에이전트 성능은 모델만으로 정해지지 않고 메모리 관리·계획 전략·행동 프로토콜·툴 오케스트레이션을 포함한 '하네스'가 기반 모델보다 더 큰 영향을 줄 수 있다고 봄. 지금까지 하네스 설계는 수작업·태스크 전용이라 확장이 안 됐음. JIT-Agent는 임의의 기성 에이전틱 LLM에 맞춰 태스크 적응형 하네스를 즉석 합성하는 모델이며, 하네스를 4모듈 프로토콜을 따르는 조합형·기계 생성 가능한 산출물로 형식화했음.
 
 ## 🦉 GeekNews
 
-- [중2개발자가 만든 한국어 LLM](https://news.hada.io/topic?id=32792)
-  중학교 2학년 개발자가 직접 만든 한국어 LLM을 공개함. 제한된 자원에서 학습·튜닝한 과정을 공유함.
-- [프로덕트 엔지니어의 사고방식 - 태스크 수행자에서 문제 해결의 주체로](https://spectrum.ieee.org/product-engineer)
-  주어진 태스크만 처리하는 엔지니어에서 벗어나, 무엇을 왜 만들지까지 주도하는 '프로덕트 엔지니어'의 사고방식을 설명함.
-- [로컬 LLM이 실제 성능보다 더 멍청하게 느껴지는 이유](https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917)
-  양자화·컨텍스트 설정·샘플링 파라미터 등이 잘못되면 로컬 LLM이 실제보다 훨씬 멍청하게 느껴진다며 원인과 해법을 짚음.
-- [agent.md로 LLM 생성 코드의 품질 높이기](https://fabiensanglard.net/agent.md/index.html)
-  프로젝트에 agent.md로 규칙·맥락을 명시해두면 LLM이 생성하는 코드의 일관성과 품질이 올라간다고 소개함.
-- [AI가 인간의 실행력을 확장하려면 무엇이 필요한가](https://www.forerunnerventures.com/perspectives/the-human-bet)
-  AI가 사람을 대체하기보다 실행력을 확장하는 방향으로 가려면 신뢰·맥락·인간 판단의 결합이 핵심이라고 분석함.
+- [RAG는 생각보다 단순하다](https://news.hada.io/topic?id=32916)
+  많은 RAG 시스템이 처음부터 임베딩·벡터 DB·재순위화 파이프라인을 깔지만, 실제 검색 문제 상당수는 BM25와 질의 재작성만으로 풀림. 데이터 신선도, 문서 변경률, 질의 유형, 검색량, 팀 역량에 따라 6가지 검색 구조를 단계적으로 고르고 필요할 때만 복잡도를 올리라고 함.
+- [wsrv.nl - 무료 오픈소스 이미지 CDN](https://news.hada.io/topic?id=32915)
+  원본 이미지 URL만 넘기면 리사이즈·크롭·포맷 변환·압축을 실시간 처리하고 CDN에 캐싱해 돌려주는 무료 이미지 프록시임. 가입이나 API Key 없이 바로 쓸 수 있음.
+- [AI로 만든 웹사이트마다 전용 DB를 하나씩 제공하는 이유](https://news.hada.io/topic?id=32891)
+  iMessage 기반 개인 비서 Poke는 사용자가 문자로 요청한 웹사이트를 만들어 Vercel에 배포하고, 생성된 사이트마다 별도의 Turso DB를 자동 발급함. Turso는 SQLite 호환 DB를 클라우드에서 만들고 원격으로 쓰게 해주는 플랫폼임.
+- [Engineerification - 전문직이 엔지니어처럼 변해간다](https://news.hada.io/topic?id=32932)
+  수학자·디자이너·분석가·법률가 등 여러 전문직에서 저장소, 에이전트, 테스트, 자동화, 형식 명세, 피드백 루프를 쓰는 작업 방식이 퍼지고 있음. 핵심은 모두가 코딩을 배우는 게 아니라 도메인 전문가의 일하는 방식 자체가 엔지니어링 습관을 닮아가는 것임.
+- [대학은 예비 창업가를 어떻게 준비시켜야 하는가](https://news.hada.io/topic?id=32896)
+  YC가 찾는 유망 창업가는 무언가를 잘 만들고 꾸준히 만들어온 사람이라고 함. 대학은 별도의 창업 교육보다 컴퓨터과학·기계공학·분자생물학처럼 제품을 만드는 데 필요한 깊은 지식을 가르쳐야 함. 바꿔야 할 핵심은 학생이 창업을 현실적 선택지로 여기게 하고 수업 밖에서 함께 만들 친구를 만나게 하는 환경임.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-08-25](data/2026-08-25.md)
 - [2026-08-24](data/2026-08-24.md)
 - [2026-08-23](data/2026-08-23.md)
 - [2026-08-22](data/2026-08-22.md)
