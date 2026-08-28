@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-08-28
+> 마지막 업데이트: 2026-08-29
 
-# AI 뉴스 — 2026-08-28
+# AI 뉴스 — 2026-08-29
 
 ## 🔥 GitHub Trending (Python)
 
+- [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills): AI 에이전트를 'AI 과학자'로 바꿔주는 과학 분야 1위 Agent Skills 라이브러리. 검증된 163개 스킬과 100개 이상 과학 데이터베이스로 생물학·화학·의학·신약개발을 커버함. Cursor, Claude Code, Codex, Antigravity 등과 호환됨.
 - [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official): Anthropic이 직접 관리하는 고품질 Claude Code 플러그인 공식 디렉터리임.
-- [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills): AI 에이전트를 'AI 과학자'로 바꿔주는 과학용 Agent Skills 라이브러리임. 검증된 스킬 163개와 100여 개 과학 DB를 제공하며 생물·화학·의학·신약개발을 커버함. Cursor, Claude Code, Codex 등과 호환됨.
-- [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage): 세계 최초 오픈소스 에이전트형 영상 제작 시스템임. 12개 제작 파이프라인, 100여 개 툴, 700여 개 agent skill 파일로 AI 코딩 어시스턴트를 영상 제작 스튜디오로 바꿔줌.
-- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링을 바닥부터 배우고 만들고 배포하는 실습형 학습 레포임.
-- [AgriciDaniel/claude-obsidian](https://github.com/AgriciDaniel/claude-obsidian): Obsidian + Claude Code 기반 자기조직화 AI 세컨드 브레인임. 아무 소스나 넣으면 Claude가 읽고 링크를 걸어 순수 마크다운 지식 그래프로 정리함. Karpathy의 LLM Wiki 패턴 기반이며 오픈소스 Notion 대안으로도 쓰임.
+- [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage): 세계 최초의 오픈소스 에이전틱 영상 제작 시스템. 12개 프로덕션 파이프라인, 100개 이상 도구, 700개 이상 에이전트 스킬·제작 지식 파일로 코딩 어시스턴트를 영상 제작 스튜디오로 바꿔줌.
+- [abi/screenshot-to-code](https://github.com/abi/screenshot-to-code): 스크린샷을 넣으면 깔끔한 코드(HTML/Tailwind/React/Vue)로 변환해주는 도구임.
+- [marin-community/marin](https://github.com/marin-community/marin): 파운데이션 모델 연구·개발을 위한 오픈소스 프레임워크임.
 
 ## 📄 Hugging Face Papers
 
-- [VoiceMem: 실시간 상호작용을 위한 스트리밍 듀얼-브레인 메모리](https://huggingface.co/papers/2608.26005)
-  duplex 음성 언어모델(SLM)에 부족한 스트리밍·정확·공감형 메모리를 채우는 구조임. 정보 담당 좌뇌와 감정 담당 우뇌를 병렬로 두고 스트리밍 메모리 I/O를 붙였음. 메모리 인식 SLM 학습, 장기 평가, 백엔드 교체형 분리 배포까지 전체 파이프라인을 함께 공개했고 top-5 검색에서 좌뇌가 기존 방식보다 정확했음.
-- [VGI-Bench: 영상 생성 모델의 시각 지능 측정](https://huggingface.co/papers/2608.19583)
-  영상 생성 모델이 생성 프레임으로 zero-shot 시각 추론을 한다는 최근 관찰을 제대로 검증하려는 벤치마크임. 그럴듯한 최종 상태만이 아니라 타당한 변화 과정을 요구하도록 설계했고 난이도도 조정했음. 27개 태스크·810개 인스턴스를 도메인과 스킬 태그 2단계 분류로 구성함.
-- [FrontierChallenge: 과학 워크플로 완수 능력 평가 벤치마크](https://huggingface.co/papers/2608.24979)
-  기존 벤치마크가 최종 정답이나 단일 도메인에 치우쳤다는 문제의식에서 출발함. 양자화학·분자동역학·재료분석·분석화학·생명과학·전기화학을 아우르는 end-to-end 과학 워크플로 300개로 구성됐고 이번에 97개 과제를 공개했음. 각 과제는 고정 입력과 요구 산출물 묶음을 명시하며 프런티어 모델 12종을 평가했음.
-- [WarpSAC: 탐험과 활용을 다시 생각한 확장형 off-policy RL](https://huggingface.co/papers/2608.24479)
-  대규모 병렬 시뮬레이션이 off-policy RL의 데이터 환경을 바꿨는데 기존 안정화 기법은 데이터가 적을 때를 전제로 설계됐음을 지적함. 8개 벤치마크군 실험에서 파라미터 정규화는 리플레이 커버리지가 좁을 때만 유리했고 데이터가 풍부하면 가치 학습을 제약했음. clipped double-Q는 고처리량 매니퓰레이션에서 완화 가능했고 age-biased 리플레이 가중치는 전 구간에서 학습 효율을 높였음.
-- [JIT-Agent: 즉석 하네스 진화로 하네스 지능 확장하기](https://huggingface.co/papers/2608.25593)
-  에이전트 성능은 모델만으로 정해지지 않고 메모리 관리·계획 전략·행동 프로토콜·툴 오케스트레이션을 포함한 하네스가 기반 모델보다 더 큰 영향을 줄 수 있다고 봄. 지금까지 하네스 설계는 수작업·태스크 전용이라 확장이 안 됐음. JIT-Agent는 임의의 기성 에이전틱 LLM에 맞춰 태스크 적응형 하네스를 즉석 합성하며 하네스를 4모듈 프로토콜의 조합형 산출물로 형식화했음.
+- [검증 가능한 궤적 데이터 엔진으로서의 에이전틱 게임 개발 — 월드모델 스케일링](https://huggingface.co/papers/2608.25518)
+  게임 엔진이 실행 가능한 검증과 장기 궤적을 제공해서, 공간 월드모델의 강화학습 post-training에 쓸 수 있음. 사람-엔진 검증 패러다임을 제안함.
+- [PAWBench: 확률적으로 정렬된 월드 모델링까지 얼마나 남았나?](https://huggingface.co/papers/2608.27345)
+  월드모델의 확률적 정렬을 형식화하고, 비디오 생성기를 확률적 샘플러로 평가하는 PAWBench·PAWEval을 제안함. 현재 모델들은 참조 행동 분포를 못 맞추는 것으로 나타남.
+- [UrbanGround: 국소 지각에서 실제 규모 도시의 공간 행위성으로](https://huggingface.co/papers/2608.27456)
+  실제 규모 3D 도시 복제본에서 멀티모달 언어모델 에이전트가 안정적인 내비게이션과 공간 추론을 유지할 수 있는지 평가함. 국소 지각 능력이 장기 목표 지향 행동으로 합성되지 않는다는 걸 밝힘.
+- [TTPO: 테스트 타임 정책 최적화](https://huggingface.co/papers/2608.27448)
+  합의된 rollout은 비대칭적으로 증류하고 불일치하는 건 페널티를 줘서, 라벨 없이 수학 추론에 테스트 타임 학습을 가능하게 함. 지도학습 수준 성능에 도달함.
+- [Self-OPD: 교사 모델 없는 Flow Matching 온폴리시 증류](https://huggingface.co/papers/2608.26872)
+  자기 탐색 확률적 분기와 정규화된 advantage로 속도장을 최적화해서, flow matching에서 태스크별 교사 모델을 없앰. 다목적 정렬이 가능해짐.
 
 ## 🦉 GeekNews
 
-- [RAG는 생각보다 단순하다](https://news.hada.io/topic?id=32916)
-  많은 RAG 시스템이 처음부터 임베딩·벡터 DB·재순위화 파이프라인을 깔지만 실제 검색 문제 상당수는 BM25와 질의 재작성만으로 풀림. 데이터 신선도, 문서 변경률, 질의 유형, 검색량, 팀 역량에 따라 6가지 검색 구조를 단계적으로 고르고 필요할 때만 복잡도를 올리라고 함.
-- [wsrv.nl - 무료 오픈소스 이미지 CDN](https://news.hada.io/topic?id=32915)
-  원본 이미지 URL만 넘기면 리사이즈·크롭·포맷 변환·압축을 실시간 처리하고 CDN에 캐싱해 돌려주는 무료 이미지 프록시임. 가입이나 API Key 없이 바로 쓸 수 있음.
-- [Engineerification - 전문직이 엔지니어처럼 변해간다](https://news.hada.io/topic?id=32932)
-  수학자·디자이너·분석가·법률가 등 여러 전문직에서 저장소, 에이전트, 테스트, 자동화, 형식 명세, 피드백 루프를 쓰는 방식이 퍼지고 있음. 핵심은 모두가 코딩을 배우는 게 아니라 도메인 전문가의 일하는 방식 자체가 엔지니어링 습관을 닮아가는 것임.
-- [아무도 부탁하지 않은 것을 만들어라](https://news.hada.io/topic?id=32931)
-  직업 세계는 창작 아이디어에 대상 독자·성과·배포 계획을 먼저 요구하도록 훈련시키지만, 어떤 작업은 무엇을 위한 것인지 설명할 수 있기 전에 먼저 존재해야 함. 유용한 작업의 제약은 완성·배포·시장 수요를 가르쳐주지만 모든 호기심에 처음부터 비즈니스 근거를 붙일 필요는 없음.
+- [CEO가 AI를 위해 개발팀을 해고하자, 개발자들은 오픈소스 AI CEO를 만들었다](https://news.hada.io/topic?id=32939)
+  AI 도입 과정에서 해고된 개발팀이 스타트업을 차리고, 'AI가 개발을 바꾼다면 경영도 바꿀 수 있다'며 Open Executive를 오픈소스로 공개함.
+- [Engineerification — 전문직이 엔지니어처럼 변해간다](https://news.hada.io/topic?id=32932)
+  수학자·디자이너·분석가·법률가 등 서로 다른 전문직에서 저장소, 에이전트, 테스트, 자동화, 형식 명세, 피드백 루프를 쓰는 작업 방식이 퍼지고 있음.
+- [격동의 AI 시대가 시작됐다 — 빌 게이츠](https://news.hada.io/topic?id=32958)
+  AI가 인간 인지를 대체하거나 능가하며 빠르게 확산 중임. 역사상 가장 큰 평등화 수단이 될 수도, 최악의 불평등 원인이 될 수도 있다고 봄.
 - [요일 계산을 더 빠르게 만드는 방법](https://news.hada.io/topic?id=32929)
-  32비트 날짜 카운트에서 요일을 구하는 % 7 연산을 다시 설계해 기존 구현보다 빠른 곱셈/덧셈/비트 시프트 기반 알고리듬을 제시함. 핵심은 7 = 2^3 - 1인 메르센 수 특성을 이용해 % 7을 값싼 연산으로 바꾸는 것임.
+  32비트 날짜 카운트에서 요일을 구하는 % 7 연산을 재설계해, 곱셈·덧셈·비트 시프트 기반의 더 빠른 알고리듬들을 제시함.
+- [1.1.1.1 DNS 캐시 최적화로 메모리 100TB 절감](https://news.hada.io/topic?id=32955)
+  Cloudflare의 Big Pineapple이 2,500억 개 넘는 DNS 캐시 항목의 저장 구조를 다섯 차례 개선해, 항목당 메모리를 953바이트에서 420바이트로 56% 줄임.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-08-28](data/2026-08-28.md)
 - [2026-08-27](data/2026-08-27.md)
 - [2026-08-25](data/2026-08-25.md)
 - [2026-08-24](data/2026-08-24.md)
@@ -69,6 +70,3 @@
 - [2026-08-01](data/2026-08-01.md)
 - [2026-07-31](data/2026-07-31.md)
 - [2026-07-30](data/2026-07-30.md)
-- [2026-07-29](data/2026-07-29.md)
-- [2026-07-28](data/2026-07-28.md)
-- [2026-07-27](data/2026-07-27.md)
