@@ -1,0 +1,111 @@
+{
+  "date": "2026-08-30",
+  "github_trending": [
+    {
+      "name": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "AI 에이전트를 'AI 과학자'로 바꿔주는 과학 분야 1위 Agent Skills 라이브러리임. 검증된 스킬 165개와 과학 DB 100개 이상으로 생물학·화학·의학·신약개발을 커버함. 전 세계 19만 명 이상의 과학자가 사용 중임.",
+      "description_en": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery."
+    },
+    {
+      "name": "p-e-w/heretic",
+      "url": "https://github.com/p-e-w/heretic",
+      "description": "언어모델의 검열(거부 정렬)을 완전 자동으로 제거해주는 도구임.",
+      "description_en": "Fully automatic censorship removal for language models."
+    },
+    {
+      "name": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "description": "Claude AI 워크플로 커스터마이징을 위한 Claude Skills·리소스·툴 큐레이션 목록임.",
+      "description_en": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows."
+    },
+    {
+      "name": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "description": "세계 최초 오픈소스 에이전틱 영상 제작 시스템임. 파이프라인 12개, 툴 100개 이상, 에이전트 스킬·제작 지식 파일 700개 이상으로 코딩 어시스턴트를 영상 제작 스튜디오로 바꿔줌.",
+      "description_en": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files."
+    },
+    {
+      "name": "Osmantic/ODS",
+      "url": "https://github.com/Osmantic/ODS",
+      "description": "PC·Mac·Linux 머신을 AI 서버로 바꿔줌. LLM 추론, 채팅 UI, 음성, 에이전트, 워크플로, RAG, 이미지 생성까지 지원함.",
+      "description_en": "Turn your PC, Mac, or Linux box into an AI server. LLM inference, chat UI, voice, agents, workflows, RAG, and image generation."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "검증 가능한 궤적 데이터 엔진으로서의 에이전틱 게임 개발 — 월드모델 스케일링",
+      "title_en": "Agentic Game Development as a Verifiable Trajectory Data Engine for Scaling World Models",
+      "url": "https://huggingface.co/papers/2608.25518",
+      "summary": "게임 엔진이 실행 가능한 검증과 장기 궤적을 제공함. 공간 월드모델의 강화학습 post-training에 활용 가능하며, human-engine 검증 패러다임을 제안함.",
+      "summary_en": "Game engines provide executable verification and long-horizon trajectories for reinforcement learning post-training of spatial world models, motivating a human-engine verification paradigm."
+    },
+    {
+      "title": "PAWBench: 확률적으로 정렬된 월드 모델링까지 얼마나 남았나?",
+      "title_en": "PAWBench: How Far Are We from Probabilistically Aligned World Modeling?",
+      "url": "https://huggingface.co/papers/2608.27345",
+      "summary": "월드모델의 확률적 정렬을 형식화하고, 비디오 생성기를 확률적 샘플러로 평가하는 PAWBench·PAWEval을 내놓음. 현재 모델들은 참조 행동 분포를 못 맞추는 것으로 드러남.",
+      "summary_en": "Formalizes probabilistic alignment for world models, introduces PAWBench and PAWEval to evaluate video generators as stochastic samplers, and finds current models fail to match reference behavior distributions."
+    },
+    {
+      "title": "UrbanGround: 국소 지각에서 실제 규모 도시의 공간 행위성으로",
+      "title_en": "UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City",
+      "url": "https://huggingface.co/papers/2608.27456",
+      "summary": "실제 규모 3D 도시 복제본에서 멀티모달 LLM 에이전트의 내비게이션·공간 추론 능력을 평가함. 국소 지각 능력이 장기 목표 지향 행동으로는 합성되지 않음을 밝힘.",
+      "summary_en": "Evaluates whether multimodal language model agents can sustain reliable navigation and spatial reasoning in a realistic 3D city replica, revealing that local perceptual skills fail to compose into extended goal-directed behavior."
+    },
+    {
+      "title": "TTPO: 테스트 타임 정책 최적화",
+      "title_en": "TTPO: Test-Time Policy Optimization",
+      "url": "https://huggingface.co/papers/2608.27448",
+      "summary": "합의된 rollout은 비대칭적으로 증류하고 불일치하는 건 페널티를 줘서, 라벨 없이 수학 추론의 테스트 타임 학습을 가능하게 함. 지도학습 수준 성능에 도달함.",
+      "summary_en": "Test-Time Policy Optimization enables label-free test-time training for mathematical reasoning by asymmetrically distilling agreeing rollouts and penalizing disagreeing ones, matching supervised performance."
+    },
+    {
+      "title": "Self-OPD: 교사 모델 없는 Flow Matching 온폴리시 증류",
+      "title_en": "Self-OPD: On-Policy Distillation for Flow Matching Models without Teacher",
+      "url": "https://huggingface.co/papers/2608.26872",
+      "summary": "자기 탐색 확률적 분기와 정규화 advantage로 속도장을 최적화함. flow matching에서 태스크별 교사 모델을 없애고 다목적 정렬이 가능해짐.",
+      "summary_en": "Self-OPD eliminates task-specific teachers in flow matching by using self-explored stochastic branches and normalized advantages to optimize the velocity field for multi-objective alignment."
+    }
+  ],
+  "huggingface_note": "2026-08-30 조회 시점에 huggingface.co/papers 가 2026-08-28 자 목록으로 리다이렉트됨 (주말 신규 배치 없음). 목록은 전일과 동일함.",
+  "geeknews": [
+    {
+      "title": "격동의 AI 시대가 시작됐다 — 빌 게이츠",
+      "title_en": "A turbulent AI era has begun - Bill Gates",
+      "url": "https://news.hada.io/topic?id=32958",
+      "summary": "AI가 인간 인지를 대체하거나 능가하며 빠르게 확산 중임. 역사상 가장 큰 평등화 수단이 될 수도, 최악의 불평등 원인이 될 수도 있다고 봄.",
+      "summary_en": "Bill Gates argues AI is spreading fast, replacing or surpassing human cognition, and could become either history's greatest equalizer or its worst driver of inequality."
+    },
+    {
+      "title": "1.1.1.1 DNS 캐시 최적화로 메모리 100TB 절감",
+      "title_en": "1.1.1.1 DNS cache optimization saves 100TB of memory",
+      "url": "https://news.hada.io/topic?id=32955",
+      "summary": "Cloudflare의 Big Pineapple이 2,500억 개 넘는 DNS 캐시 항목 저장 구조를 다섯 차례 개선함. 항목당 메모리를 953바이트에서 420바이트로 56% 줄임.",
+      "summary_en": "Cloudflare's Big Pineapple went through five storage-layout iterations for 250B+ DNS cache entries, cutting per-entry memory from 953 to 420 bytes (56%)."
+    },
+    {
+      "title": "syncular — 로컬 SQLite를 서버와 동기화하는 오프라인 우선 엔진",
+      "title_en": "syncular - an offline-first engine syncing local SQLite with a server",
+      "url": "https://news.hada.io/topic?id=33000",
+      "summary": "각 클라이언트에 실제 SQLite DB를 두고, 서버가 관리하는 순서 보장 커밋 로그와 동기화하는 서버 권위형 데이터 계층임. 읽기·조인·집계·인덱스를 로컬에서 그대로 씀.",
+      "summary_en": "A server-authoritative data layer that keeps a real SQLite DB on each client and syncs it against a server-managed, order-guaranteed commit log, so reads, joins, aggregates and indexes stay local."
+    },
+    {
+      "title": "Agent Behavior — AI 에이전트의 반복 행동을 문서화해 평가 기준으로 삼는 표준",
+      "title_en": "Agent Behavior - a standard for documenting recurring agent behaviors as evaluation criteria",
+      "url": "https://news.hada.io/topic?id=32962",
+      "summary": "장시간 동작하며 수백 번 판단하는 AI 에이전트를 최종 결과 하나로만 평가하기 어려움. 작업 과정에서 반복적으로 나와야 할 행동을 문서화해 평가 기준으로 삼자는 표준임.",
+      "summary_en": "Long-running agents that make hundreds of decisions are hard to judge from a single final outcome, so this standard documents the behaviors that should recur during a task and uses them as evaluation criteria."
+    },
+    {
+      "title": "Gemini 3.5 Transcribe — 실시간·녹음 음성을 정밀하게 텍스트로 변환",
+      "title_en": "Gemini 3.5 Transcribe: high-accuracy speech-to-text for live and recorded audio",
+      "url": "https://news.hada.io/topic?id=32967",
+      "summary": "Google이 배경 소음, 전문 용어, 말더듬, 자기 수정까지 처리해 정돈된 텍스트로 바꿔주는 고정밀 음성-텍스트 모델 gemini-3.5-transcribe 를 공개함.",
+      "summary_en": "Google released gemini-3.5-transcribe, a high-accuracy speech-to-text model that handles background noise, jargon, disfluencies and self-corrections to produce clean text."
+    }
+  ],
+  "geeknews_note": "10점 이상 + 48시간 이내 조건을 엄격히 만족하는 항목은 주말 활동 저조로 2건뿐이었음 (front page + /new 4페이지, 총 33건 스캔). 나머지 3건은 48시간 이내 항목 중 점수 상위 AI/개발 항목으로 채움 (9pt, 7pt, 7pt)."
+}
