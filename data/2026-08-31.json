@@ -1,0 +1,109 @@
+{
+  "date": "2026-08-31",
+  "github_trending": [
+    {
+      "name": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "AI 에이전트를 'AI 과학자'로 바꿔주는 과학 분야 1위 Agent Skills 라이브러리임. 생물·화학·의학·신약개발을 아우르는 검증된 스킬 165개와 100개 이상의 과학 데이터베이스를 제공하며, 전 세계 19만 명 이상의 연구자가 사용 중임. Cursor, Claude Code, Codex 등 오픈 Agent Skills 표준과 호환됨.",
+      "description_en": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard."
+    },
+    {
+      "name": "p-e-w/heretic",
+      "url": "https://github.com/p-e-w/heretic",
+      "description": "언어 모델의 검열(거부 응답)을 완전 자동으로 제거해주는 도구임. 수작업 튜닝 없이 모델의 정렬 제약을 걷어내는 파이프라인을 제공함.",
+      "description_en": "Fully automatic censorship removal for language models"
+    },
+    {
+      "name": "unclecode/crawl4ai",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "description": "LLM 친화적인 오픈소스 웹 크롤러 겸 스크래퍼임. 크롤링 결과를 곧바로 LLM에 넣기 좋은 형태로 정제해 주며, RAG 파이프라인 구축에 널리 쓰임.",
+      "description_en": "Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper."
+    },
+    {
+      "name": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "임의의 주제를 Reddit, X, YouTube, HN, Polymarket, 웹 전반에서 조사한 뒤 근거가 붙은 요약으로 합성해 주는 AI 에이전트 스킬임. 최근 30일 흐름 파악에 특화됨.",
+      "description_en": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
+    },
+    {
+      "name": "pollen-robotics/microduck_rl",
+      "url": "https://github.com/pollen-robotics/microduck_rl",
+      "description": "소형 2족 로봇 Microduck을 위한 강화학습 훈련 환경 모음임. mjlab 기반으로 보행 정책 학습 실험을 재현할 수 있음.",
+      "description_en": "RL training environments for Microduck (mjlab)"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "검증 가능한 궤적 데이터 엔진으로서의 에이전트 기반 게임 개발 — 월드 모델 스케일링",
+      "title_en": "Agentic Game Development as a Verifiable Trajectory Data Engine for Scaling World Models",
+      "url": "https://huggingface.co/papers/2608.25518",
+      "summary": "월드 모델을 크롤링 영상과 연산량만 늘려 스케일하는 방식은 비효율적이라고 주장함. 코드 에이전트가 컴파일러·런타임에서 고품질 보상을 얻듯, 공간 생성에도 근거 있는 보상 신호를 주는 재귀적 데이터 엔진이 필요하다고 봄. CLIP 점수 같은 흐릿하고 편향된 프록시로는 RL 사후학습을 지탱하기 어렵다는 문제의식임.",
+      "summary_en": "Argues that scaling world models on more crawled video and compute is inefficient; it also requires a recursive data engine offering grounded reward signals, unlike fuzzy proxies such as CLIP scores that cannot support RL post-training."
+    },
+    {
+      "title": "PAWBench: 확률적으로 정렬된 월드 모델링까지 얼마나 남았는가?",
+      "title_en": "PAWBench: How Far Are We from Probabilistically Aligned World Modeling?",
+      "url": "https://huggingface.co/papers/2608.27345",
+      "summary": "영상 생성 모델을 월드 모델로 볼 때, 하나의 그럴듯한 궤적뿐 아니라 같은 초기 관측·행동에서 나올 수 있는 행동 분포까지 재현해야 한다고 지적함. 이를 '확률적 정렬'이라 부르고, 기존 평가가 개별 영상의 그럴듯함만 보는 한계를 짚어 반복 생성이 올바른 분포를 복원하는지 측정하는 벤치마크를 제안함.",
+      "summary_en": "Proposes probabilistic alignment: a world model should reproduce the distribution of possible behaviors under the same initial observation and action, not just one plausible trajectory, and benchmarks whether repeated generations recover that distribution."
+    },
+    {
+      "title": "UrbanGround: 국소 지각에서 실제 규모 도시의 공간적 행위성으로",
+      "title_en": "UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City",
+      "url": "https://huggingface.co/papers/2608.27456",
+      "summary": "MLLM이 거리뷰를 해석할 수는 있지만, 에이전트가 실제로 이동하기 시작한 뒤에도 그 국소 정보가 쓸모 있는지를 묻는 연구임. 홍콩 전역 3D 공간정보로 만든 물리 제약 복제 도시를 샌드박스로 구축해, 1인칭 시점 폐루프 상호작용과 내비게이션용 지도를 제공함.",
+      "summary_en": "Introduces the first sandbox — a physically constrained replica of Hong Kong from territory-wide 3D geospatial data — to test how far MLLM agents turn local urban perception into reliable action, with closed-loop first-person interaction."
+    },
+    {
+      "title": "TTPO: 테스트 타임 정책 최적화",
+      "title_en": "TTPO: Test-Time Policy Optimization",
+      "url": "https://huggingface.co/papers/2608.27448",
+      "summary": "RL이나 OPSD 같은 사후학습은 정답 레이블에 의존해 테스트 타임 학습이 불가능한 점을 문제 삼음. 다수결 의사 레이블은 오답 하나가 교사를 오염시켜 취약한데, 실패 양상이 비대칭이라는 관찰(의사 레이블과 불일치하는 롤아웃은 대체로 틀림)을 이용해 레이블 없이도 테스트 시점에 정책을 최적화함.",
+      "summary_en": "Enables test-time training without ground-truth labels by exploiting an asymmetric failure mode: rollouts disagreeing with the majority-vote pseudo-label are typically wrong regardless of whether the vote itself is correct."
+    },
+    {
+      "title": "Self-OPD: 교사 없이 수행하는 플로우 매칭 모델의 온폴리시 증류",
+      "title_en": "Self-OPD: On-Policy Distillation for Flow Matching Models without Teacher",
+      "url": "https://huggingface.co/papers/2608.26872",
+      "summary": "온폴리시 증류는 목표마다 전용 교사 모델을 새로 학습해야 해 비용이 크고, 교사와 학생의 분포 차이가 생성 궤적을 따라 오차를 누적시키는 문제가 있음. Self-OPD는 별도 교사 없이 동작하는 프레임워크로 두 문제를 함께 해소함.",
+      "summary_en": "A teacher-free on-policy distillation framework for flow matching models, addressing both the high cost of training task-specific teachers and compounding errors from teacher-student distribution mismatch."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "Tencent Hy4 프리뷰 공개",
+      "title_en": "Tencent releases Hy4 preview",
+      "url": "https://news.hada.io/topic?id=33023",
+      "summary": "Tencent가 전체 770B·활성 49B 매개변수에 100만 토큰이 넘는 컨텍스트 창을 갖춘 차세대 LLM Hy4 프리뷰를 오픈소스로 공개함. 코딩·문서 작업·게임 개발·과학 연구 같은 실제 생산성 작업에 초점을 맞춤.",
+      "summary_en": "Tencent open-sourced a preview of Hy4, a next-gen LLM with 770B total / 49B active parameters and a 1M+ token context window, focused on real productivity tasks like coding, docs, game development, and scientific research."
+    },
+    {
+      "title": "Samsung의 메모리 내 연산(PIM)",
+      "title_en": "Samsung's Processing-In-Memory (PIM)",
+      "url": "https://news.hada.io/topic?id=33036",
+      "summary": "삼성 LPDDR5X-PIM은 16개 DRAM 뱅크마다 곱셈 누산 연산기를 넣어 데이터를 프로세서로 옮기지 않고 메모리 안에서 AI 연산을 수행함. 일반 LPDDR5X-9600의 외부 대역폭은 76.8GB/s인데, PIM은 16개 뱅크의 내부 대역폭을 동시에 써서 이를 크게 넘어섬.",
+      "summary_en": "Samsung's LPDDR5X-PIM places multiply-accumulate units in each of 16 DRAM banks to run AI computation inside memory, using all banks' internal bandwidth simultaneously instead of the 76.8GB/s external bandwidth of standard LPDDR5X-9600."
+    },
+    {
+      "title": "AI 없는 금요일",
+      "title_en": "No AI Fridays",
+      "url": "https://news.hada.io/topic?id=33041",
+      "summary": "소프트웨어 팀이 매주 하루 AI 코딩 도우미를 끄고 직접 코딩하며 기술 저하와 AI 의존을 점검하는 실천 방식임. LLM 사용이 '인지 부채'를 쌓고 업무 몰입과 비판적 사고를 낮춰 기술 형성을 방해할 수 있다는 문제의식에서 출발함.",
+      "summary_en": "A practice where software teams turn off AI coding assistants one day a week to check skill decay and AI dependence, motivated by concerns that LLM use accumulates 'cognitive debt' and lowers engagement and critical thinking."
+    },
+    {
+      "title": "Show GN: memnest — 세션이 바뀌어도 AI 코딩 에이전트가 기억을 잃지 않게 하는 로컬 메모리 서비스",
+      "title_en": "Show GN: memnest, a local memory service so AI coding agents don't lose memory across sessions",
+      "url": "https://news.hada.io/topic?id=33025",
+      "summary": "세션이 끝나면 에이전트가 서비스 포트, 라이브러리 선택 이유, 이미 두 번 고친 버그의 해결책까지 전부 잊어버리는 문제를 해결하려 만든 로컬 메모리 서비스임. 하네스마다 반쪽짜리 메모리 기능이 따로 있어 다른 도구로 넘어가면 그대로 사라지던 점을 노렸음.",
+      "summary_en": "A local memory service built so coding agents don't forget context — service ports, why a library was chosen, bug fixes already made twice — when a session ends, addressing how per-harness memory features vanish when switching tools."
+    },
+    {
+      "title": "Omarchy의 모든 사용자 프로세스가 root 권한을 얻을 수 있었던 취약점",
+      "title_en": "Vulnerability letting every user process in Omarchy gain root",
+      "url": "https://news.hada.io/topic?id=33043",
+      "summary": "Omarchy의 기본 Docker 설정 때문에 데스크톱 세션의 사실상 모든 프로그램이 암호·sudo·권한 확인 없이 root 권한을 얻을 수 있었음. 기본 사용자를 docker 그룹에 넣어 root Docker 데몬 소켓에 접근시킨 것이 원인이며, 비공개 제보 후 수정됨.",
+      "summary_en": "Omarchy's default Docker configuration let effectively any program in a desktop session gain root without password, sudo, or any permission prompt, because the default user was added to the docker group granting access to the root daemon socket. Fixed after private disclosure."
+    }
+  ]
+}
