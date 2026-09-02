@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-08-31
+> 마지막 업데이트: 2026-09-02
 
-# AI 뉴스 — 2026-08-31
+# AI 뉴스 — 2026-09-02
 
 ## 🔥 GitHub Trending (Python)
 
-- [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills): AI 에이전트를 'AI 과학자'로 바꿔주는 과학 분야 1위 Agent Skills 라이브러리임. 생물·화학·의학·신약개발을 아우르는 검증된 스킬 165개와 100개 이상의 과학 데이터베이스를 제공하며, 전 세계 19만 명 이상의 연구자가 사용 중임. Cursor, Claude Code, Codex 등 오픈 Agent Skills 표준과 호환됨.
-- [p-e-w/heretic](https://github.com/p-e-w/heretic): 언어 모델의 검열(거부 응답)을 완전 자동으로 제거해주는 도구임. 수작업 튜닝 없이 모델의 정렬 제약을 걷어내는 파이프라인을 제공함.
-- [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai): LLM 친화적인 오픈소스 웹 크롤러 겸 스크래퍼임. 크롤링 결과를 곧바로 LLM에 넣기 좋은 형태로 정제해 주며, RAG 파이프라인 구축에 널리 쓰임.
-- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill): 임의의 주제를 Reddit, X, YouTube, HN, Polymarket, 웹 전반에서 조사한 뒤 근거가 붙은 요약으로 합성해 주는 AI 에이전트 스킬임. 최근 30일 흐름 파악에 특화됨.
-- [pollen-robotics/microduck_rl](https://github.com/pollen-robotics/microduck_rl): 소형 2족 로봇 Microduck을 위한 강화학습 훈련 환경 모음임. mjlab 기반으로 보행 정책 학습 실험을 재현할 수 있음.
+- [google-research/timesfm](https://github.com/google-research/timesfm): 구글 리서치가 만든 시계열 예측용 사전학습 파운데이션 모델임. 별도 학습 없이 다양한 시계열에 바로 예측 가능함.
+- [sngyai/Sequoia-X](https://github.com/sngyai/Sequoia-X): 중국 A주 자동 선별 시스템임. 여러 기술적 패턴을 자동 스캔하고 장 마감 후 자동 실행해 결과를 푸시함.
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): Nous Research가 공개한 에이전트 프레임워크임. 사용자와 함께 성장하는 개인화 에이전트를 지향함.
+- [superlinked/sie](https://github.com/superlinked/sie): 에이전트에 필요한 모든 모델을 돌리는 오픈소스 추론 서버 겸 프로덕션 클러스터임.
+- [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills): Claude Code용 학술 연구 스킬 모음임. 조사→작성→리뷰→수정→마무리 흐름을 스킬로 제공함.
 
 ## 📄 Hugging Face Papers
 
-- [검증 가능한 궤적 데이터 엔진으로서의 에이전트 기반 게임 개발 — 월드 모델 스케일링](https://huggingface.co/papers/2608.25518)
-  월드 모델을 크롤링 영상과 연산량만 늘려 스케일하는 방식은 비효율적이라고 주장함. 코드 에이전트가 컴파일러·런타임에서 고품질 보상을 얻듯, 공간 생성에도 근거 있는 보상 신호를 주는 재귀적 데이터 엔진이 필요하다고 봄. CLIP 점수 같은 흐릿하고 편향된 프록시로는 RL 사후학습을 지탱하기 어렵다는 문제의식임.
-- [PAWBench: 확률적으로 정렬된 월드 모델링까지 얼마나 남았는가?](https://huggingface.co/papers/2608.27345)
-  영상 생성 모델을 월드 모델로 볼 때, 하나의 그럴듯한 궤적뿐 아니라 같은 초기 관측·행동에서 나올 수 있는 행동 분포까지 재현해야 한다고 지적함. 이를 '확률적 정렬'이라 부르고, 기존 평가가 개별 영상의 그럴듯함만 보는 한계를 짚어 반복 생성이 올바른 분포를 복원하는지 측정하는 벤치마크를 제안함.
-- [UrbanGround: 국소 지각에서 실제 규모 도시의 공간적 행위성으로](https://huggingface.co/papers/2608.27456)
-  MLLM이 거리뷰를 해석할 수는 있지만, 에이전트가 실제로 이동하기 시작한 뒤에도 그 국소 정보가 쓸모 있는지를 묻는 연구임. 홍콩 전역 3D 공간정보로 만든 물리 제약 복제 도시를 샌드박스로 구축해, 1인칭 시점 폐루프 상호작용과 내비게이션용 지도를 제공함.
-- [TTPO: 테스트 타임 정책 최적화](https://huggingface.co/papers/2608.27448)
-  RL이나 OPSD 같은 사후학습은 정답 레이블에 의존해 테스트 타임 학습이 불가능한 점을 문제 삼음. 다수결 의사 레이블은 오답 하나가 교사를 오염시켜 취약한데, 실패 양상이 비대칭이라는 관찰(의사 레이블과 불일치하는 롤아웃은 대체로 틀림)을 이용해 레이블 없이도 테스트 시점에 정책을 최적화함.
-- [Self-OPD: 교사 없이 수행하는 플로우 매칭 모델의 온폴리시 증류](https://huggingface.co/papers/2608.26872)
-  온폴리시 증류는 목표마다 전용 교사 모델을 새로 학습해야 해 비용이 크고, 교사와 학생의 분포 차이가 생성 궤적을 따라 오차를 누적시키는 문제가 있음. Self-OPD는 별도 교사 없이 동작하는 프레임워크로 두 문제를 함께 해소함.
+- [StudentSim: LLM 기반 학생 시뮬레이터 학습](https://huggingface.co/papers/2609.01591)
+  적은 데이터로 개인화된 학생 시뮬레이터를 학습시켜 실제 학습자 반응을 모사함. 체스·글쓰기·수학에서 기존 모델을 앞섬.
+- [Qwen-Drive-1.0: 자율주행용 비전-언어 파운데이션 모델](https://huggingface.co/papers/2609.00111)
+  3D 인식, 시각 질의응답, 모션 플래닝을 공유 표현과 단계적 학습으로 하나로 묶은 자율주행 파운데이션 모델임.
+- [SMELT: 연산량 동일 조건의 MoE Looped Transformer 스케일링 법칙](https://huggingface.co/papers/2609.01343)
+  희소 MoE 트랜스포머의 중간 레이어를 반복(loop)시키면 토큰당 FLOPs와 파라미터, 캐시 예산을 그대로 두고도 학습 효율과 성능이 올라감.
+- [UI-Venus-2 기술 리포트](https://huggingface.co/papers/2609.00028)
+  추론-행동 루프를 통합한 범용 멀티모달 GUI 에이전트임. 다루는 환경을 넓히고 검증을 강화해 실제 디지털 자동화 신뢰도를 높임.
+- [ZimaBlue: 대규모 영상 사전학습으로 범용 월드 액션 모델 진화](https://huggingface.co/papers/2609.00188)
+  대규모 1인칭 영상에서 3단계 커리큘럼과 slow-fast 구조로 월드 액션 모델을 학습함. 제로샷 로봇 조작 성능이 크게 향상됨.
 
 ## 🦉 GeekNews
 
-- [Tencent Hy4 프리뷰 공개](https://news.hada.io/topic?id=33023)
-  Tencent가 전체 770B·활성 49B 매개변수에 100만 토큰이 넘는 컨텍스트 창을 갖춘 차세대 LLM Hy4 프리뷰를 오픈소스로 공개함. 코딩·문서 작업·게임 개발·과학 연구 같은 실제 생산성 작업에 초점을 맞춤.
-- [Samsung의 메모리 내 연산(PIM)](https://news.hada.io/topic?id=33036)
-  삼성 LPDDR5X-PIM은 16개 DRAM 뱅크마다 곱셈 누산 연산기를 넣어 데이터를 프로세서로 옮기지 않고 메모리 안에서 AI 연산을 수행함. 일반 LPDDR5X-9600의 외부 대역폭은 76.8GB/s인데, PIM은 16개 뱅크의 내부 대역폭을 동시에 써서 이를 크게 넘어섬.
-- [AI 없는 금요일](https://news.hada.io/topic?id=33041)
-  소프트웨어 팀이 매주 하루 AI 코딩 도우미를 끄고 직접 코딩하며 기술 저하와 AI 의존을 점검하는 실천 방식임. LLM 사용이 '인지 부채'를 쌓고 업무 몰입과 비판적 사고를 낮춰 기술 형성을 방해할 수 있다는 문제의식에서 출발함.
-- [Show GN: memnest — 세션이 바뀌어도 AI 코딩 에이전트가 기억을 잃지 않게 하는 로컬 메모리 서비스](https://news.hada.io/topic?id=33025)
-  세션이 끝나면 에이전트가 서비스 포트, 라이브러리 선택 이유, 이미 두 번 고친 버그의 해결책까지 전부 잊어버리는 문제를 해결하려 만든 로컬 메모리 서비스임. 하네스마다 반쪽짜리 메모리 기능이 따로 있어 다른 도구로 넘어가면 그대로 사라지던 점을 노렸음.
-- [Omarchy의 모든 사용자 프로세스가 root 권한을 얻을 수 있었던 취약점](https://news.hada.io/topic?id=33043)
-  Omarchy의 기본 Docker 설정 때문에 데스크톱 세션의 사실상 모든 프로그램이 암호·sudo·권한 확인 없이 root 권한을 얻을 수 있었음. 기본 사용자를 docker 그룹에 넣어 root Docker 데몬 소켓에 접근시킨 것이 원인이며, 비공개 제보 후 수정됨.
+- [조직이 커질수록 일이 느려지는 이유, 조정의 역풍 (171p 슬라이드)](https://news.hada.io/topic?id=33091)
+  성공한 조직이 커질수록 예전엔 쉬웠던 일도 느려지는데, 원인은 개인의 무능이나 방해가 아니라 조정에 참여하는 사람과 불확실성이 늘어나는 구조적 역풍임.
+- [학회에서 목격한 터무니없는 AI 사용: 질의응답까지 AI에 맡긴 발표자들](https://news.hada.io/topic?id=33087)
+  한 학회 발표 후 Q&A에서 패널 대부분이 질문을 녹음해 AI로 답변을 만들고 있었음. AI 사용이 전문성의 대체재로 쓰이는 상황에 대한 비판이 이어짐.
+- [AI 칩 아키텍처](https://news.hada.io/topic?id=33096)
+  단일 스레드 CPU 성능 증가율이 1980년대 연 52%에서 2018년 3%로 떨어지면서 AI 연산이 도메인 특화 아키텍처 경쟁의 중심이 됨. NVIDIA GPU부터 전용 가속기까지 흐름을 정리함.
+- [Starboard - macOS Dock 옆에 항상 붙어 있는 터미널](https://news.hada.io/topic?id=33093)
+  단축키로 내려오는 드롭다운 터미널이 아니라 macOS Dock 옆에 상시 표시되는 터미널임. Dock의 위치와 높이를 실시간으로 따라가고 모든 Space에서 보임.
+- [Codex의 20X는 주간 사용량도 실제 20배, Claude는 5시간 한도만 20배](https://news.hada.io/topic?id=33106)
+  OpenAI Codex 담당자가 두 서비스의 20X 기준이 다르다고 설명함. Codex Pro 20X는 Plus 대비 실제 토큰이 항상 20배인 반면, Claude 쪽은 5시간 한도 기준이라는 주장임.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-08-31](data/2026-08-31.md)
 - [2026-08-30](data/2026-08-30.md)
 - [2026-08-29](data/2026-08-29.md)
 - [2026-08-28](data/2026-08-28.md)
@@ -69,4 +70,3 @@
 - [2026-08-04](data/2026-08-04.md)
 - [2026-08-03](data/2026-08-03.md)
 - [2026-08-02](data/2026-08-02.md)
-- [2026-08-01](data/2026-08-01.md)
