@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-09-03
+> 마지막 업데이트: 2026-09-04
 
-# AI 뉴스 — 2026-09-03
+# AI 뉴스 — 2026-09-04
 
 ## 🔥 GitHub Trending (Python)
 
-- [google-research/timesfm](https://github.com/google-research/timesfm): 구글 리서치가 만든 시계열 예측용 사전학습 파운데이션 모델임. 별도 파인튜닝 없이 다양한 시계열에 바로 적용 가능함.
-- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio): 완전 로컬로 돌아가는 오픈소스 ElevenLabs 대안임. 음성 복제, 보이스 디자인, 영상 더빙, 받아쓰기, 전사, 오디오북 제작을 646개 언어로 지원함.
-- [sngyai/Sequoia-X](https://github.com/sngyai/Sequoia-X): 중국 A주 자동 종목 선별 시스템임. 여러 기술적 패턴을 자동 스캔하고 장 마감 후 자동 실행돼 결과를 푸시함.
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): Nous Research가 공개한 에이전트 프레임워크임. 사용자와 함께 성장하는 개인화 에이전트를 지향함.
-- [superlinked/sie](https://github.com/superlinked/sie): 에이전트에 필요한 모든 모델을 돌리는 오픈소스 추론 서버 겸 프로덕션 클러스터임. 자체 호스팅 환경에서 모델 서빙을 통합 관리함.
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): 사용자와 함께 성장하는 에이전트임. 대화와 작업을 거듭할수록 사용자 맥락을 학습해 점점 맞춤형으로 진화하는 개인 AI 에이전트 프레임워크임.
+- [anthropics/skills](https://github.com/anthropics/skills): Anthropic의 공식 Agent Skills 공개 레포임. Claude가 특정 작업을 수행할 때 참조하는 스킬 패키지들을 모아둠.
+- [blader/humanizer](https://github.com/blader/humanizer): AI가 쓴 티가 나는 문장 패턴을 제거해주는 에이전트 스킬임. 상투적 표현과 리듬을 걷어내 자연스러운 글로 다듬어줌.
+- [google-research/timesfm](https://github.com/google-research/timesfm): Google Research가 만든 시계열 파운데이션 모델 TimesFM임. 사전학습된 모델로 다양한 시계열 예측을 제로샷으로 수행함.
+- [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills): Claude Code용 학술 연구 스킬 모음임. 조사→작성→리뷰→수정→최종화까지 논문 작업 파이프라인을 스킬로 제공함.
 
 ## 📄 Hugging Face Papers
 
-- [StudentSim: LLM 기반 학생 시뮬레이터 학습](https://huggingface.co/papers/2609.01591)
-  적은 데이터로 개인화된 학생 시뮬레이터를 학습시켜 실제 학습자 반응을 모사함. 튜터 지도에 맞춰 적응하며 체스·글쓰기·수학에서 기존 모델을 앞섬.
-- [Qwen-Drive-1.0: 자율주행용 비전-언어 파운데이션 모델](https://huggingface.co/papers/2609.00111)
-  3D 인식, 시각 질의응답, 모션 플래닝을 공유 표현과 단계적 학습으로 하나로 묶은 자율주행 파운데이션 모델임.
-- [SMELT: 연산량 동일 조건의 MoE Looped Transformer 스케일링 법칙](https://huggingface.co/papers/2609.01343)
-  희소 MoE 트랜스포머의 중간 레이어를 반복(loop)시키면 토큰당 FLOPs·파라미터·캐시 예산을 그대로 두고도 학습 효율과 다운스트림 성능이 올라감.
-- [UI-Venus-2 기술 리포트](https://huggingface.co/papers/2609.00028)
-  추론-행동 루프를 통합한 범용 멀티모달 GUI 에이전트임. 다루는 환경 범위를 넓히고 검증을 강화해 실제 디지털 자동화 신뢰도를 높임.
-- [H3-World: 언어 이해를 월드 컨트롤로 바꾸기](https://huggingface.co/papers/2609.01560)
-  33B 규모 MiniMax-H3 영상 생성 모델을 인터랙티브 월드 모델로 바꾸는 프레임워크임. 전용 액션 모듈 없이 캐릭터·카메라 지시를 구조화해 정밀한 시간축 제어를 구현함.
+- [WHALE: 하네스-가중치 공동 최적화를 위한 간단한 레시피](https://huggingface.co/papers/2609.00196)
+  모델 가중치 업데이트와 하네스(에이전트 실행 구조) 탐색을 번갈아 수행해 추론 태스크 전반의 에이전트 성능을 공동 최적화함.
+- [Sparse Readout Prism: Logit-Lens 점수를 토큰 대신 피처로 설명하기](https://huggingface.co/papers/2609.01936)
+  언어모델의 readout을 희소 피처로 분해해, 코퍼스 의존적인 렌즈 아티팩트와 실제 readout 구조를 분리함.
+- [Debias-SparseGPT: 대형 언어모델을 위한 편향 인식 프루닝](https://huggingface.co/papers/2609.02496)
+  사후 희소화 과정에 표현 디바이어싱을 결합해, 프루닝으로 유발되는 인구통계학적 편향을 압축 모델에서 줄임.
+- [루브릭 기반 강화학습의 심판으로서 소형 언어모델](https://huggingface.co/papers/2608.30005)
+  소형 프로브 기반 판정 모델이 루브릭 RL 보상에서 대형 생성 모델을 대체할 수 있음. 일치도와 전이성을 유지하면서 효율이 크게 향상됨.
+- [대화형 추천 시스템의 제로데이터 부트스트래핑에 관한 실증 연구](https://huggingface.co/papers/2504.15476)
+  비대화형 도메인 신호로 합성 대화 데이터를 생성하면, 제로샷이나 소량의 실데이터 베이스라인보다 대화형 추천 시스템 초기 성능이 더 좋음.
 
 ## 🦉 GeekNews
 
-- [조직이 커질수록 일이 느려지는 이유, 조정의 역풍 (171p 슬라이드)](https://news.hada.io/topic?id=33091)
-  성공한 조직이 커질수록 예전엔 쉬웠던 일도 느려지는데, 원인은 개인의 무능이나 방해가 아니라 조정에 참여하는 사람과 불확실성이 함께 늘어나는 구조적 역풍임.
-- [학회에서 목격한 터무니없는 AI 사용: 질의응답까지 AI에 맡긴 발표자들](https://news.hada.io/topic?id=33087)
-  한 학회 발표 후 Q&A에서 패널 대부분이 질문을 녹음해 AI로 답변을 생성하고 있었음. AI가 전문성의 대체재로 쓰이는 상황에 대한 비판이 이어짐.
-- [AI 칩 아키텍처](https://news.hada.io/topic?id=33096)
-  단일 스레드 CPU 성능 증가율이 1980년대 연 52%에서 2018년 3%로 떨어지면서 AI 연산이 도메인 특화 아키텍처 경쟁의 중심이 됨. NVIDIA GPU부터 전용 가속기까지 흐름을 정리함.
-- [Hister - 방문한 웹페이지와 로컬 파일을 다시 찾는 개인 검색엔진](https://news.hada.io/topic?id=33094)
-  방문했던 웹페이지와 보관 중인 파일의 본문 전체를 색인하는 개인 검색엔진임. 제목과 URL만 남기는 브라우저 기록과 달리 페이지 안에서 읽었던 문장까지 다시 찾을 수 있음.
-- [Codex의 20X는 주간 사용량도 실제 20배, Claude는 5시간 한도만 20배](https://news.hada.io/topic?id=33106)
-  OpenAI Codex 담당자가 두 서비스의 20X 기준이 서로 다르다고 설명함. Codex Pro 20X는 Plus 대비 실제 토큰이 항상 20배인 반면, Claude 쪽은 5시간 한도 기준이라는 주장임.
+- [Claude Fable 5.1 프롬프팅 가이드](https://news.hada.io/topic?id=33175)
+  기존 Claude Fable 5 프롬프트는 대부분 작동하지만, 5.1은 effort, 진행 업데이트, 도구 호출, 대화 이력, 출력 형식이 달라 기존 설정을 그대로 쓰면 안 됨. 원문: platform.claude.com
+- [zg(zvec-grep) - 키워드를 넘어서는 로컬 검색 인프라](https://news.hada.io/topic?id=33183)
+  Qwen 팀이 사람과 에이전트를 위한 로컬 우선 검색 도구 zg를 오픈소스로 공개함. ripgrep의 정확한 텍스트 검색에 벡터 검색과 BM25 하이브리드를 결합함.
+- [Uber 규모의 소프트웨어 팩토리를 효율적으로 운영하는 법](https://news.hada.io/topic?id=33141)
+  AI를 개발 전 과정에 적용한 결과, PR의 70% 이상을 로컬·클라우드 에이전트가 담당하고 3,600개가 넘는 에이전트 스킬이 하루 3만 회 이상 실행됨.
+- [에이전트 메모리는 파이프라인이 아니라 파일 형식이어야 한다](https://news.hada.io/topic?id=33135)
+  기존 에이전트 메모리는 특정 하네스에 종속되거나 별도 LLM과 DB를 연결한 복잡한 파이프라인이 되기 쉬움. 메모리를 단순하고 이식 가능한 파일 형식으로 설계해야 한다고 주장함.
+- [클릭하우스(ClickHouse) – 기적의 데이터베이스 기술](https://news.hada.io/topic?id=33149)
+  차트메트릭 창업자 조성문이 ClickHouse를 도입하며 겪은 경험과 그 성능의 원리를 정리한 글임. MySQL/PostgreSQL 같은 기존 DB의 한계에서 출발해 컬럼형 저장의 강점을 설명함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-09-03](data/2026-09-03.md)
 - [2026-09-02](data/2026-09-02.md)
 - [2026-08-31](data/2026-08-31.md)
 - [2026-08-30](data/2026-08-30.md)
@@ -69,4 +70,3 @@
 - [2026-08-06](data/2026-08-06.md)
 - [2026-08-05](data/2026-08-05.md)
 - [2026-08-04](data/2026-08-04.md)
-- [2026-08-03](data/2026-08-03.md)
