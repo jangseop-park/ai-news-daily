@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-09-04
+> 마지막 업데이트: 2026-09-05
 
-# AI 뉴스 — 2026-09-04
+# AI 뉴스 — 2026-09-05
 
 ## 🔥 GitHub Trending (Python)
 
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): 사용자와 함께 성장하는 에이전트임. 대화와 작업을 거듭할수록 사용자 맥락을 학습해 점점 맞춤형으로 진화하는 개인 AI 에이전트 프레임워크임.
-- [anthropics/skills](https://github.com/anthropics/skills): Anthropic의 공식 Agent Skills 공개 레포임. Claude가 특정 작업을 수행할 때 참조하는 스킬 패키지들을 모아둠.
+- [anthropics/skills](https://github.com/anthropics/skills): Anthropic 공식 Agent Skills 공개 레포임. Claude가 특정 작업을 수행할 때 참조하는 스킬 패키지들을 모아둠. 이틀 연속 트렌딩 상위임.
 - [blader/humanizer](https://github.com/blader/humanizer): AI가 쓴 티가 나는 문장 패턴을 제거해주는 에이전트 스킬임. 상투적 표현과 리듬을 걷어내 자연스러운 글로 다듬어줌.
-- [google-research/timesfm](https://github.com/google-research/timesfm): Google Research가 만든 시계열 파운데이션 모델 TimesFM임. 사전학습된 모델로 다양한 시계열 예측을 제로샷으로 수행함.
-- [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills): Claude Code용 학술 연구 스킬 모음임. 조사→작성→리뷰→수정→최종화까지 논문 작업 파이프라인을 스킬로 제공함.
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): 사용자와 함께 성장하는 개인 AI 에이전트 프레임워크임. 대화와 작업을 거듭할수록 사용자 맥락을 학습해 맞춤형으로 진화함.
+- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio): 완전 로컬로 동작하는 오픈소스 ElevenLabs 대안임. 음성 복제, 음성 디자인, 영상 더빙, 받아쓰기, 전사, 오디오북 제작을 646개 언어로 지원함.
+- [radixark/miles](https://github.com/radixark/miles): LLM과 VLM 포스트트레이닝을 위한 엔터프라이즈용 강화학습 프레임워크임. slime에서 포크해 함께 발전하는 구조임.
 
 ## 📄 Hugging Face Papers
 
-- [WHALE: 하네스-가중치 공동 최적화를 위한 간단한 레시피](https://huggingface.co/papers/2609.00196)
-  모델 가중치 업데이트와 하네스(에이전트 실행 구조) 탐색을 번갈아 수행해 추론 태스크 전반의 에이전트 성능을 공동 최적화함.
-- [Sparse Readout Prism: Logit-Lens 점수를 토큰 대신 피처로 설명하기](https://huggingface.co/papers/2609.01936)
-  언어모델의 readout을 희소 피처로 분해해, 코퍼스 의존적인 렌즈 아티팩트와 실제 readout 구조를 분리함.
-- [Debias-SparseGPT: 대형 언어모델을 위한 편향 인식 프루닝](https://huggingface.co/papers/2609.02496)
-  사후 희소화 과정에 표현 디바이어싱을 결합해, 프루닝으로 유발되는 인구통계학적 편향을 압축 모델에서 줄임.
-- [루브릭 기반 강화학습의 심판으로서 소형 언어모델](https://huggingface.co/papers/2608.30005)
-  소형 프로브 기반 판정 모델이 루브릭 RL 보상에서 대형 생성 모델을 대체할 수 있음. 일치도와 전이성을 유지하면서 효율이 크게 향상됨.
-- [대화형 추천 시스템의 제로데이터 부트스트래핑에 관한 실증 연구](https://huggingface.co/papers/2504.15476)
-  비대화형 도메인 신호로 합성 대화 데이터를 생성하면, 제로샷이나 소량의 실데이터 베이스라인보다 대화형 추천 시스템 초기 성능이 더 좋음.
+- [Scal3R: 확장 가능한 온라인 3D 재구성을 위한 효율적 다중 상대 포즈 쿼리 학습](https://huggingface.co/papers/2609.04201)
+  경량 토큰으로 다중 참조 상대 포즈를 쿼리하고 포즈 그래프 최적화를 결합함. 백본 재학습 없이 장시간 영상의 온라인 3D 재구성에서 드리프트를 줄임.
+- [DRACO: 장기 에이전트 학습을 위한 동적 루브릭 기반 세밀한 크레딧 할당](https://huggingface.co/papers/2609.04094)
+  루브릭을 동적으로 생성해 궤적 단위 점수를 스텝별 어드밴티지로 재분배함. 검증기 없이도 장기 에이전트 강화학습 성능을 높임.
+- [Last Translation Benchmark](https://huggingface.co/papers/2609.04173)
+  최고 수준 번역 모델도 실패하는 동료 검토된 멀티모달 예제와 수작업 검증 규칙을 제공함. 신뢰할 수 있고 실행 가능한 번역 평가를 목표로 함.
+- [근거이론을 활용한 대규모 에이전트 행동 분석](https://huggingface.co/papers/2608.30391)
+  AutoTraceGT가 에이전트 궤적에 근거이론 코딩을 자동화해 태스크별 행동 분류 체계를 구축함. 사람이 표기한 실패 유형을 복원하고 확장해 예측에 활용함.
+- [선택, 압축, 재투자: 장시간 비디오 MLLM의 시각 토큰 할당 통제 연구](https://huggingface.co/papers/2609.03820)
+  장시간 비디오 언어모델에서는 프레임 선택이 정확도를 좌우함. 공간 압축은 절약분을 프레임 수에 재투자하면 거의 손실이 없으며, 선택기 비교를 위한 통합 하네스가 필요함.
 
 ## 🦉 GeekNews
 
-- [Claude Fable 5.1 프롬프팅 가이드](https://news.hada.io/topic?id=33175)
-  기존 Claude Fable 5 프롬프트는 대부분 작동하지만, 5.1은 effort, 진행 업데이트, 도구 호출, 대화 이력, 출력 형식이 달라 기존 설정을 그대로 쓰면 안 됨. 원문: platform.claude.com
-- [zg(zvec-grep) - 키워드를 넘어서는 로컬 검색 인프라](https://news.hada.io/topic?id=33183)
-  Qwen 팀이 사람과 에이전트를 위한 로컬 우선 검색 도구 zg를 오픈소스로 공개함. ripgrep의 정확한 텍스트 검색에 벡터 검색과 BM25 하이브리드를 결합함.
-- [Uber 규모의 소프트웨어 팩토리를 효율적으로 운영하는 법](https://news.hada.io/topic?id=33141)
-  AI를 개발 전 과정에 적용한 결과, PR의 70% 이상을 로컬·클라우드 에이전트가 담당하고 3,600개가 넘는 에이전트 스킬이 하루 3만 회 이상 실행됨.
-- [에이전트 메모리는 파이프라인이 아니라 파일 형식이어야 한다](https://news.hada.io/topic?id=33135)
-  기존 에이전트 메모리는 특정 하네스에 종속되거나 별도 LLM과 DB를 연결한 복잡한 파이프라인이 되기 쉬움. 메모리를 단순하고 이식 가능한 파일 형식으로 설계해야 한다고 주장함.
-- [클릭하우스(ClickHouse) – 기적의 데이터베이스 기술](https://news.hada.io/topic?id=33149)
-  차트메트릭 창업자 조성문이 ClickHouse를 도입하며 겪은 경험과 그 성능의 원리를 정리한 글임. MySQL/PostgreSQL 같은 기존 DB의 한계에서 출발해 컬럼형 저장의 강점을 설명함.
+- [원격근무가 아니라 서투른 비동기 소통이 문제다](https://news.hada.io/topic?id=33178)
+  원격근무의 장점을 유지하려면 사무실 복귀보다 비동기 소통 방식을 개선해야 함. 7,700명 대상 조사를 바탕으로 유연성과 생산성을 함께 지키는 방법을 제시함.
+- [Vorssaint - 여러 Mac 유틸리티를 하나로 모은 메뉴 막대 앱](https://news.hada.io/topic?id=33174)
+  앱별 음량 조절, 시스템 모니터, 앱 전환기, 창 관리, 클립보드, 화면 캡처, 파일 정리처럼 따로 구매하던 Mac 도구들을 하나의 메뉴 막대 아이콘에 통합함.
+- [브라우저의 메인 스레드는 비싸다](https://news.hada.io/topic?id=33205)
+  프론트엔드 성능 문제는 코드가 느려서가 아니라 JavaScript·렌더링·레이아웃이 메인 스레드를 어떻게 점유하느냐에 달려 있음. 메인 스레드 사용을 최적화하는 관점을 정리함.
+- [CLIProxyAPI - AI 구독 계정을 호환 API로 노출하는 프록시](https://news.hada.io/topic?id=33206)
+  ChatGPT Codex, Claude Code, Gemini, Grok Build 등의 OAuth 계정을 로컬 프록시에 연결해 여러 표준 형식의 API로 제공함. 별도 API 키 없이 구독 계정으로 개발 도구를 연동할 수 있음.
+- [Any Human Ever - 인류 역사상 살았던 1,000억 명 중 한 사람을 무작위로 만나기](https://news.hada.io/topic?id=33200)
+  출생 연도, 지역, 생애와 이야기를 단계별로 따라가며 역사 기록에서 사라진 평범한 사람의 삶을 통계로 그려보는 데이터 프로젝트임.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-09-04](data/2026-09-04.md)
 - [2026-09-03](data/2026-09-03.md)
 - [2026-09-02](data/2026-09-02.md)
 - [2026-08-31](data/2026-08-31.md)
@@ -69,4 +70,3 @@
 - [2026-08-07](data/2026-08-07.md)
 - [2026-08-06](data/2026-08-06.md)
 - [2026-08-05](data/2026-08-05.md)
-- [2026-08-04](data/2026-08-04.md)
