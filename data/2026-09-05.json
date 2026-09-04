@@ -1,0 +1,109 @@
+{
+  "date": "2026-09-05",
+  "github_trending": [
+    {
+      "name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Anthropic 공식 Agent Skills 공개 레포임. Claude가 특정 작업을 수행할 때 참조하는 스킬 패키지들을 모아둠. 이틀 연속 트렌딩 상위임.",
+      "description_en": "Public repository for Agent Skills from Anthropic."
+    },
+    {
+      "name": "blader/humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "description": "AI가 쓴 티가 나는 문장 패턴을 제거해주는 에이전트 스킬임. 상투적 표현과 리듬을 걷어내 자연스러운 글로 다듬어줌.",
+      "description_en": "Agent skill that removes signs of AI-generated writing from text."
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "사용자와 함께 성장하는 개인 AI 에이전트 프레임워크임. 대화와 작업을 거듭할수록 사용자 맥락을 학습해 맞춤형으로 진화함.",
+      "description_en": "The agent that grows with you — a personal AI agent framework that learns user context over time."
+    },
+    {
+      "name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "완전 로컬로 동작하는 오픈소스 ElevenLabs 대안임. 음성 복제, 음성 디자인, 영상 더빙, 받아쓰기, 전사, 오디오북 제작을 646개 언어로 지원함.",
+      "description_en": "Open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription and audiobook creation in 646 languages."
+    },
+    {
+      "name": "radixark/miles",
+      "url": "https://github.com/radixark/miles",
+      "description": "LLM과 VLM 포스트트레이닝을 위한 엔터프라이즈용 강화학습 프레임워크임. slime에서 포크해 함께 발전하는 구조임.",
+      "description_en": "Enterprise-facing reinforcement learning framework for LLM and VLM post-training, forked from and co-evolving with slime."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "Scal3R: 확장 가능한 온라인 3D 재구성을 위한 효율적 다중 상대 포즈 쿼리 학습",
+      "title_en": "Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction",
+      "url": "https://huggingface.co/papers/2609.04201",
+      "summary": "경량 토큰으로 다중 참조 상대 포즈를 쿼리하고 포즈 그래프 최적화를 결합함. 백본 재학습 없이 장시간 영상의 온라인 3D 재구성에서 드리프트를 줄임.",
+      "summary_en": "Scal3R improves long-video online 3D reconstruction by querying multi-reference relative poses with lightweight tokens and pose-graph optimization, reducing drift without retraining the backbone."
+    },
+    {
+      "title": "DRACO: 장기 에이전트 학습을 위한 동적 루브릭 기반 세밀한 크레딧 할당",
+      "title_en": "DRACO: Fine-Grained Credit Assignment with Dynamic Rubrics for Long-Horizon Agent Training",
+      "url": "https://huggingface.co/papers/2609.04094",
+      "summary": "루브릭을 동적으로 생성해 궤적 단위 점수를 스텝별 어드밴티지로 재분배함. 검증기 없이도 장기 에이전트 강화학습 성능을 높임.",
+      "summary_en": "DRACO dynamically generates rubrics and redistributes trajectory-level scores into per-step advantages for reinforcement learning without verifiers, improving long-horizon agent performance."
+    },
+    {
+      "title": "Last Translation Benchmark",
+      "title_en": "Last Translation Benchmark",
+      "url": "https://huggingface.co/papers/2609.04173",
+      "summary": "최고 수준 번역 모델도 실패하는 동료 검토된 멀티모달 예제와 수작업 검증 규칙을 제공함. 신뢰할 수 있고 실행 가능한 번역 평가를 목표로 함.",
+      "summary_en": "Introduces peer-reviewed, multimodal examples that break leading translation models alongside handcrafted verification rules for reliable, actionable evaluation."
+    },
+    {
+      "title": "근거이론을 활용한 대규모 에이전트 행동 분석",
+      "title_en": "Using Grounded Theory for Agent Behavior Analysis at Scale",
+      "url": "https://huggingface.co/papers/2608.30391",
+      "summary": "AutoTraceGT가 에이전트 궤적에 근거이론 코딩을 자동화해 태스크별 행동 분류 체계를 구축함. 사람이 표기한 실패 유형을 복원하고 확장해 예측에 활용함.",
+      "summary_en": "AutoTraceGT automates grounded theory coding on agent trajectories to build task-specific behavioral taxonomies that recover and extend human failure-mode annotations for downstream prediction."
+    },
+    {
+      "title": "선택, 압축, 재투자: 장시간 비디오 MLLM의 시각 토큰 할당 통제 연구",
+      "title_en": "Select, Compress, Reinvest: A Controlled Study of Visual-Token Allocation in Long-Video MLLMs",
+      "url": "https://huggingface.co/papers/2609.03820",
+      "summary": "장시간 비디오 언어모델에서는 프레임 선택이 정확도를 좌우함. 공간 압축은 절약분을 프레임 수에 재투자하면 거의 손실이 없으며, 선택기 비교를 위한 통합 하네스가 필요함.",
+      "summary_en": "Frame selection dominates accuracy in long-video language models, while spatial compression is nearly free if savings are reinvested into more frames, and a unified harness is needed to compare selectors fairly."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "원격근무가 아니라 서투른 비동기 소통이 문제다",
+      "title_en": "Stop blaming remote work for sloppy communication habits",
+      "url": "https://news.hada.io/topic?id=33178",
+      "summary": "원격근무의 장점을 유지하려면 사무실 복귀보다 비동기 소통 방식을 개선해야 함. 7,700명 대상 조사를 바탕으로 유연성과 생산성을 함께 지키는 방법을 제시함.",
+      "summary_en": "To keep the benefits of remote work, improve asynchronous communication rather than forcing a return to the office; based on a survey of 7,700 people."
+    },
+    {
+      "title": "Vorssaint - 여러 Mac 유틸리티를 하나로 모은 메뉴 막대 앱",
+      "title_en": "Vorssaint - a menu bar app that bundles many Mac utilities into one",
+      "url": "https://news.hada.io/topic?id=33174",
+      "summary": "앱별 음량 조절, 시스템 모니터, 앱 전환기, 창 관리, 클립보드, 화면 캡처, 파일 정리처럼 따로 구매하던 Mac 도구들을 하나의 메뉴 막대 아이콘에 통합함.",
+      "summary_en": "Combines per-app volume, system monitor, app switcher, window management, clipboard, screen capture, and file organizing tools into a single Mac menu bar icon."
+    },
+    {
+      "title": "브라우저의 메인 스레드는 비싸다",
+      "title_en": "The browser main thread is expensive",
+      "url": "https://news.hada.io/topic?id=33205",
+      "summary": "프론트엔드 성능 문제는 코드가 느려서가 아니라 JavaScript·렌더링·레이아웃이 메인 스레드를 어떻게 점유하느냐에 달려 있음. 메인 스레드 사용을 최적화하는 관점을 정리함.",
+      "summary_en": "Frontend performance hinges on how JavaScript, rendering, and layout occupy the main thread rather than raw code speed; explains how to think about main-thread usage."
+    },
+    {
+      "title": "CLIProxyAPI - AI 구독 계정을 호환 API로 노출하는 프록시",
+      "title_en": "CLIProxyAPI - a proxy that exposes AI subscription accounts as compatible APIs",
+      "url": "https://news.hada.io/topic?id=33206",
+      "summary": "ChatGPT Codex, Claude Code, Gemini, Grok Build 등의 OAuth 계정을 로컬 프록시에 연결해 여러 표준 형식의 API로 제공함. 별도 API 키 없이 구독 계정으로 개발 도구를 연동할 수 있음.",
+      "summary_en": "Connects OAuth accounts from ChatGPT Codex, Claude Code, Gemini, Grok Build and others to a local proxy that serves them through standard API formats without separate API keys."
+    },
+    {
+      "title": "Any Human Ever - 인류 역사상 살았던 1,000억 명 중 한 사람을 무작위로 만나기",
+      "title_en": "Any Human Ever - meet one random person among the 100 billion humans who ever lived",
+      "url": "https://news.hada.io/topic?id=33200",
+      "summary": "출생 연도, 지역, 생애와 이야기를 단계별로 따라가며 역사 기록에서 사라진 평범한 사람의 삶을 통계로 그려보는 데이터 프로젝트임.",
+      "summary_en": "A data project that walks through birth year, region, and life story step by step to statistically reconstruct the life of an ordinary person lost to historical records."
+    }
+  ]
+}
