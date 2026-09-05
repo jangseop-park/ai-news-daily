@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-06",
+  "github_trending": [
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "사용자와 함께 성장하는 개인화 AI 에이전트 프레임워크임. 대화와 작업을 거듭할수록 사용자 맥락을 학습함.",
+      "description_en": "The agent that grows with you — a personal AI agent framework that learns user context over time."
+    },
+    {
+      "name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Anthropic이 공개한 Agent Skills 공식 레포임. Claude 에이전트에 바로 붙여 쓸 수 있는 스킬 모음임.",
+      "description_en": "Public repository for Agent Skills — reusable skills for Claude agents, maintained by Anthropic."
+    },
+    {
+      "name": "blader/humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "description": "AI가 쓴 티가 나는 문장 패턴을 제거해 주는 에이전트 스킬임. 글을 사람이 쓴 것처럼 다듬어 줌.",
+      "description_en": "Agent skill that removes signs of AI-generated writing from text."
+    },
+    {
+      "name": "sgl-project/sglang",
+      "url": "https://github.com/sgl-project/sglang",
+      "description": "LLM 및 멀티모달 모델용 고성능 서빙 프레임워크임. 구조화된 생성과 빠른 추론이 강점임.",
+      "description_en": "SGLang is a high-performance serving framework for large language models and multimodal models."
+    },
+    {
+      "name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "완전 로컬로 돌아가는 오픈소스 ElevenLabs 대안임. 음성 복제, 더빙, 받아쓰기, 오디오북 제작을 646개 언어로 지원함.",
+      "description_en": "Open-source, fully-local ElevenLabs alternative — voice cloning, voice design, dubbing, dictation, transcription & audiobook creation in 646 languages."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "RoboTok: 인간 시연 검색과 정교한 조작 학습을 위한 인터넷 규모 데이터 엔진",
+      "title_en": "RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning",
+      "url": "https://huggingface.co/papers/2609.03199",
+      "summary": "로봇 데이터 수집 비용 문제를 웹 영상으로 해결함. 질의 영상을 주면 3D 손 궤적 기반 잠재 동작 공간으로 웹에서 관련 인간 시연을 검색해 로봇 정책 학습에 활용함.",
+      "summary_en": "Addresses costly robot data collection by retrieving manipulation-relevant human demonstrations from web videos via a latent motion space learned from 3D hand trajectories, then training dexterous robot policies on them."
+    },
+    {
+      "title": "DRACO: 동적 루브릭을 이용한 장기 에이전트 학습의 세밀한 크레딧 할당",
+      "title_en": "DRACO: Fine-Grained Credit Assignment with Dynamic Rubrics for Long-Horizon Agent Training",
+      "url": "https://huggingface.co/papers/2609.04094",
+      "summary": "정답 검증기가 없는 장기 에이전트 과제를 위한 RL 기법임. 궤적 단위 단일 점수 대신 동적 루브릭으로 스텝별 어드밴티지를 분배해 크레딧 할당을 정밀하게 함.",
+      "summary_en": "An RL method for outcome-blind long-horizon agent tasks that distributes rubric-based advantages across steps using dynamically generated rubrics instead of a single trajectory-level scalar."
+    },
+    {
+      "title": "VeriPhy: 월드 모델 평가와 개선을 위한 에이전틱 물리 추론",
+      "title_en": "VeriPhy: Agentic Physical Reasoning for World Model Evaluation and Refinement",
+      "url": "https://huggingface.co/papers/2609.03153",
+      "summary": "생성 영상의 시각적 유창함이 물리적 타당성을 보장하지 않는다는 점에 착안함. 텍스트 플래너가 프롬프트를 물리 제약으로 컴파일하고 전문가 모듈로 검증해 어떤 제약이 언제 깨졌는지 감사 가능하게 만듦.",
+      "summary_en": "An auditable physical-verification system where a text-only planner compiles prompts into typed physical obligations and a validated execution plan, then gates frozen low-level experts to pinpoint which constraint fails and when."
+    },
+    {
+      "title": "입구는 잠기고 안은 열려 있다: RLVR이 해 공간을 좁히는 지점",
+      "title_en": "Locked at the Entrance, Open Inside: Where RLVR Narrows the Solution Space",
+      "url": "https://huggingface.co/papers/2608.29188",
+      "summary": "RLVR이 pass@1은 올리지만 해 공간을 수축시켜 테스트 시점 스케일링 효과를 줄인다는 현상을 분석함. Countdown 과제로 해 계열 접근 실패와 계산 실행 실패를 분리해 원인을 규명함.",
+      "summary_en": "Investigates where RLVR loses solution breadth inside reasoning trajectories, using the Countdown task to disentangle failure to access valid solution families from failure to execute computation."
+    },
+    {
+      "title": "음성 뇌-컴퓨터 인터페이스를 위한 공통 소통 측정 지표",
+      "title_en": "A Common Measure of Communication for Speech Brain-Computer Interfaces",
+      "url": "https://huggingface.co/papers/2609.02887",
+      "summary": "음성 BCI 연구가 데이터셋과 어휘가 제각각이라 성능 비교가 어렵다는 문제를 지적함. 시스템 간 비교 가능한 공통 소통량 측정 지표를 제안함.",
+      "summary_en": "Proposes a common, comparable measure of communication for speech BCIs, addressing the lack of a shared progress metric across systems with differing datasets, recording methods, and vocabularies."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "브라우저의 메인 스레드는 비싸다",
+      "title_en": "The Browser's Main Thread Is Expensive",
+      "url": "https://news.hada.io/topic?id=33205",
+      "summary": "프론트엔드 성능의 핵심은 메인 스레드 사용 방식임. 느린 코드보다 JavaScript 실행과 렌더링이 메인 스레드를 점유하는 구조가 문제라는 점을 짚음.",
+      "summary_en": "Frontend performance hinges on how the main thread is used; the issue is less slow code than JavaScript execution and rendering contending for a single thread."
+    },
+    {
+      "title": "CLIProxyAPI - AI 구독 계정을 호환 API로 노출하는 프록시",
+      "title_en": "CLIProxyAPI - A proxy exposing AI subscription accounts as compatible APIs",
+      "url": "https://news.hada.io/topic?id=33206",
+      "summary": "ChatGPT Codex, Claude Code, Gemini, Grok Build 등의 OAuth 계정을 로컬 프록시에 연결함. 별도 API 키 없이 표준 형식 API로 여러 모델을 쓸 수 있게 함.",
+      "summary_en": "Connects OAuth accounts from ChatGPT Codex, Claude Code, Gemini, Grok Build and others to a local proxy, exposing them through standard API formats without separate API keys."
+    },
+    {
+      "title": "동굴을 나와라: 통제 가능한 노력과 실제 진전을 혼동하지 않기",
+      "title_en": "Exit the Cave: Don't Confuse Controllable Effort with Real Progress",
+      "url": "https://news.hada.io/topic?id=33216",
+      "summary": "혼자 몰입하는 수련은 낭만적이지만 현실의 평가를 피하게 만듦. 통제 가능한 노력과 실제 진전을 구분하고 바깥의 피드백에 노출돼야 한다는 글임.",
+      "summary_en": "Solitary deep-work 'cave' practice feels romantic but avoids real-world evaluation; the essay urges separating controllable effort from actual progress and seeking external feedback."
+    },
+    {
+      "title": "모든 글에 AI를 쓰면서도 'AI 슬롭'을 피하는 방법",
+      "title_en": "How We Use AI in Every Article Without Making AI Slop",
+      "url": "https://news.hada.io/topic?id=33225",
+      "summary": "Ahrefs가 조사부터 팩트체크까지 6~12분 만에 끝내는 AI 파이프라인을 공개함. 대량 자동 발행 대신 사람이 검수하는 방식으로 품질을 유지함.",
+      "summary_en": "Ahrefs shares its AI pipeline that handles research through fact-checking in 6–12 minutes, while keeping humans in the loop rather than auto-publishing at scale."
+    }
+  ]
+}
