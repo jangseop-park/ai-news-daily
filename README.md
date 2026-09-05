@@ -1,46 +1,45 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-09-05
+> 마지막 업데이트: 2026-09-06
 
-# AI 뉴스 — 2026-09-05
+# AI 뉴스 — 2026-09-06
 
 ## 🔥 GitHub Trending (Python)
 
-- [anthropics/skills](https://github.com/anthropics/skills): Anthropic 공식 Agent Skills 공개 레포임. Claude가 특정 작업을 수행할 때 참조하는 스킬 패키지들을 모아둠. 이틀 연속 트렌딩 상위임.
-- [blader/humanizer](https://github.com/blader/humanizer): AI가 쓴 티가 나는 문장 패턴을 제거해주는 에이전트 스킬임. 상투적 표현과 리듬을 걷어내 자연스러운 글로 다듬어줌.
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): 사용자와 함께 성장하는 개인 AI 에이전트 프레임워크임. 대화와 작업을 거듭할수록 사용자 맥락을 학습해 맞춤형으로 진화함.
-- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio): 완전 로컬로 동작하는 오픈소스 ElevenLabs 대안임. 음성 복제, 음성 디자인, 영상 더빙, 받아쓰기, 전사, 오디오북 제작을 646개 언어로 지원함.
-- [radixark/miles](https://github.com/radixark/miles): LLM과 VLM 포스트트레이닝을 위한 엔터프라이즈용 강화학습 프레임워크임. slime에서 포크해 함께 발전하는 구조임.
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): 사용자와 함께 성장하는 개인화 AI 에이전트 프레임워크임. 대화와 작업을 거듭할수록 사용자 맥락을 학습함.
+- [anthropics/skills](https://github.com/anthropics/skills): Anthropic이 공개한 Agent Skills 공식 레포임. Claude 에이전트에 바로 붙여 쓸 수 있는 스킬 모음임.
+- [blader/humanizer](https://github.com/blader/humanizer): AI가 쓴 티가 나는 문장 패턴을 제거해 주는 에이전트 스킬임. 글을 사람이 쓴 것처럼 다듬어 줌.
+- [sgl-project/sglang](https://github.com/sgl-project/sglang): LLM 및 멀티모달 모델용 고성능 서빙 프레임워크임. 구조화된 생성과 빠른 추론이 강점임.
+- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio): 완전 로컬로 돌아가는 오픈소스 ElevenLabs 대안임. 음성 복제, 더빙, 받아쓰기, 오디오북 제작을 646개 언어로 지원함.
 
 ## 📄 Hugging Face Papers
 
-- [Scal3R: 확장 가능한 온라인 3D 재구성을 위한 효율적 다중 상대 포즈 쿼리 학습](https://huggingface.co/papers/2609.04201)
-  경량 토큰으로 다중 참조 상대 포즈를 쿼리하고 포즈 그래프 최적화를 결합함. 백본 재학습 없이 장시간 영상의 온라인 3D 재구성에서 드리프트를 줄임.
-- [DRACO: 장기 에이전트 학습을 위한 동적 루브릭 기반 세밀한 크레딧 할당](https://huggingface.co/papers/2609.04094)
-  루브릭을 동적으로 생성해 궤적 단위 점수를 스텝별 어드밴티지로 재분배함. 검증기 없이도 장기 에이전트 강화학습 성능을 높임.
-- [Last Translation Benchmark](https://huggingface.co/papers/2609.04173)
-  최고 수준 번역 모델도 실패하는 동료 검토된 멀티모달 예제와 수작업 검증 규칙을 제공함. 신뢰할 수 있고 실행 가능한 번역 평가를 목표로 함.
-- [근거이론을 활용한 대규모 에이전트 행동 분석](https://huggingface.co/papers/2608.30391)
-  AutoTraceGT가 에이전트 궤적에 근거이론 코딩을 자동화해 태스크별 행동 분류 체계를 구축함. 사람이 표기한 실패 유형을 복원하고 확장해 예측에 활용함.
-- [선택, 압축, 재투자: 장시간 비디오 MLLM의 시각 토큰 할당 통제 연구](https://huggingface.co/papers/2609.03820)
-  장시간 비디오 언어모델에서는 프레임 선택이 정확도를 좌우함. 공간 압축은 절약분을 프레임 수에 재투자하면 거의 손실이 없으며, 선택기 비교를 위한 통합 하네스가 필요함.
+- [RoboTok: 인간 시연 검색과 정교한 조작 학습을 위한 인터넷 규모 데이터 엔진](https://huggingface.co/papers/2609.03199)
+  로봇 데이터 수집 비용 문제를 웹 영상으로 해결함. 질의 영상을 주면 3D 손 궤적 기반 잠재 동작 공간으로 웹에서 관련 인간 시연을 검색해 로봇 정책 학습에 활용함.
+- [DRACO: 동적 루브릭을 이용한 장기 에이전트 학습의 세밀한 크레딧 할당](https://huggingface.co/papers/2609.04094)
+  정답 검증기가 없는 장기 에이전트 과제를 위한 RL 기법임. 궤적 단위 단일 점수 대신 동적 루브릭으로 스텝별 어드밴티지를 분배해 크레딧 할당을 정밀하게 함.
+- [VeriPhy: 월드 모델 평가와 개선을 위한 에이전틱 물리 추론](https://huggingface.co/papers/2609.03153)
+  생성 영상의 시각적 유창함이 물리적 타당성을 보장하지 않는다는 점에 착안함. 텍스트 플래너가 프롬프트를 물리 제약으로 컴파일하고 전문가 모듈로 검증해 어떤 제약이 언제 깨졌는지 감사 가능하게 만듦.
+- [입구는 잠기고 안은 열려 있다: RLVR이 해 공간을 좁히는 지점](https://huggingface.co/papers/2608.29188)
+  RLVR이 pass@1은 올리지만 해 공간을 수축시켜 테스트 시점 스케일링 효과를 줄인다는 현상을 분석함. Countdown 과제로 해 계열 접근 실패와 계산 실행 실패를 분리해 원인을 규명함.
+- [음성 뇌-컴퓨터 인터페이스를 위한 공통 소통 측정 지표](https://huggingface.co/papers/2609.02887)
+  음성 BCI 연구가 데이터셋과 어휘가 제각각이라 성능 비교가 어렵다는 문제를 지적함. 시스템 간 비교 가능한 공통 소통량 측정 지표를 제안함.
 
 ## 🦉 GeekNews
 
-- [원격근무가 아니라 서투른 비동기 소통이 문제다](https://news.hada.io/topic?id=33178)
-  원격근무의 장점을 유지하려면 사무실 복귀보다 비동기 소통 방식을 개선해야 함. 7,700명 대상 조사를 바탕으로 유연성과 생산성을 함께 지키는 방법을 제시함.
-- [Vorssaint - 여러 Mac 유틸리티를 하나로 모은 메뉴 막대 앱](https://news.hada.io/topic?id=33174)
-  앱별 음량 조절, 시스템 모니터, 앱 전환기, 창 관리, 클립보드, 화면 캡처, 파일 정리처럼 따로 구매하던 Mac 도구들을 하나의 메뉴 막대 아이콘에 통합함.
 - [브라우저의 메인 스레드는 비싸다](https://news.hada.io/topic?id=33205)
-  프론트엔드 성능 문제는 코드가 느려서가 아니라 JavaScript·렌더링·레이아웃이 메인 스레드를 어떻게 점유하느냐에 달려 있음. 메인 스레드 사용을 최적화하는 관점을 정리함.
+  프론트엔드 성능의 핵심은 메인 스레드 사용 방식임. 느린 코드보다 JavaScript 실행과 렌더링이 메인 스레드를 점유하는 구조가 문제라는 점을 짚음.
 - [CLIProxyAPI - AI 구독 계정을 호환 API로 노출하는 프록시](https://news.hada.io/topic?id=33206)
-  ChatGPT Codex, Claude Code, Gemini, Grok Build 등의 OAuth 계정을 로컬 프록시에 연결해 여러 표준 형식의 API로 제공함. 별도 API 키 없이 구독 계정으로 개발 도구를 연동할 수 있음.
-- [Any Human Ever - 인류 역사상 살았던 1,000억 명 중 한 사람을 무작위로 만나기](https://news.hada.io/topic?id=33200)
-  출생 연도, 지역, 생애와 이야기를 단계별로 따라가며 역사 기록에서 사라진 평범한 사람의 삶을 통계로 그려보는 데이터 프로젝트임.
+  ChatGPT Codex, Claude Code, Gemini, Grok Build 등의 OAuth 계정을 로컬 프록시에 연결함. 별도 API 키 없이 표준 형식 API로 여러 모델을 쓸 수 있게 함.
+- [동굴을 나와라: 통제 가능한 노력과 실제 진전을 혼동하지 않기](https://news.hada.io/topic?id=33216)
+  혼자 몰입하는 수련은 낭만적이지만 현실의 평가를 피하게 만듦. 통제 가능한 노력과 실제 진전을 구분하고 바깥의 피드백에 노출돼야 한다는 글임.
+- [모든 글에 AI를 쓰면서도 'AI 슬롭'을 피하는 방법](https://news.hada.io/topic?id=33225)
+  Ahrefs가 조사부터 팩트체크까지 6~12분 만에 끝내는 AI 파이프라인을 공개함. 대량 자동 발행 대신 사람이 검수하는 방식으로 품질을 유지함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-09-05](data/2026-09-05.md)
 - [2026-09-04](data/2026-09-04.md)
 - [2026-09-03](data/2026-09-03.md)
 - [2026-09-02](data/2026-09-02.md)
@@ -69,4 +68,3 @@
 - [2026-08-08](data/2026-08-08.md)
 - [2026-08-07](data/2026-08-07.md)
 - [2026-08-06](data/2026-08-06.md)
-- [2026-08-05](data/2026-08-05.md)
