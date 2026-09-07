@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-09-07
+> 마지막 업데이트: 2026-09-08
 
-# AI 뉴스 — 2026-09-07
+# AI 뉴스 — 2026-09-08
 
 ## 🔥 GitHub Trending (Python)
 
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): 사용자와 함께 성장하는 자기 진화형 AI 에이전트 프레임워크임. 대화·작업 이력을 학습해 점점 개인화됨.
-- [openai/skills](https://github.com/openai/skills): OpenAI Codex용 공식 스킬 카탈로그임. 재사용 가능한 에이전트 스킬 정의를 모아둠.
-- [blader/humanizer](https://github.com/blader/humanizer): 텍스트에서 AI 생성 흔적을 제거하는 에이전트 스킬임. 상투적 표현과 과도한 구조를 사람 글처럼 다듬음.
+- [microsoft/markitdown](https://github.com/microsoft/markitdown): PDF·Word·Excel·PPT 등 오피스 문서를 Markdown으로 변환하는 Python 도구임. LLM 입력용 전처리에 유용함.
 - [The-Swarm-Corporation/AutoHedge](https://github.com/The-Swarm-Corporation/AutoHedge): AI 에이전트 스웜으로 자율 헤지펀드를 구축하는 프레임워크임. 시장 분석·리스크 관리·거래 실행을 자동화함.
-- [sooryathejas/METATRON](https://github.com/sooryathejas/METATRON): Parrot OS 리눅스에서 로컬 LLM으로 동작하는 AI 침투 테스트 보조 도구임. 오프라인으로 보안 점검 워크플로를 지원함.
+- [bytedance/deer-flow](https://github.com/bytedance/deer-flow): ByteDance의 오픈소스 장기 실행 SuperAgent 하네스임. 샌드박스·메모리·스킬·서브에이전트를 조합해 수 분에서 수 시간짜리 리서치·코딩 작업을 처리함.
+- [openai/skills](https://github.com/openai/skills): OpenAI Codex용 공식 스킬 카탈로그임. 재사용 가능한 에이전트 스킬 정의를 모아둠.
+- [pytorch/pytorch](https://github.com/pytorch/pytorch): GPU 가속을 지원하는 텐서·동적 신경망 라이브러리임. 딥러닝 연구의 표준 프레임워크임.
 
 ## 📄 Hugging Face Papers
 
-- [RoboTok: 인간 시연 검색과 손재주 조작 학습을 위한 인터넷 규모 데이터 엔진](https://huggingface.co/papers/2609.03199)
-  질의 영상 하나로 웹 영상에서 관련 인간 조작 시연을 검색해 로봇 정책 학습에 활용하는 데이터 엔진임. 3D 손 궤적 기반 잠재 모션 공간을 학습해 롱테일 작업의 데이터 병목을 완화함.
-- [DRACO: 동적 루브릭 기반 장기 에이전트 학습을 위한 세밀한 크레딧 할당](https://huggingface.co/papers/2609.04094)
-  검증 가능한 보상이 없는 장기 에이전트 과제에서 동적으로 루브릭을 생성해 스텝 단위로 어드밴티지를 분배하는 RL 방법임. 궤적당 스칼라 하나만 주던 기존 루브릭 보상의 한계를 극복함.
-- [VeriPhy: 월드 모델 평가와 개선을 위한 에이전틱 물리 추론](https://huggingface.co/papers/2609.03153)
-  생성 영상의 물리적 타당성을 검증하는 감사 가능한 시스템임. 텍스트 플래너가 프롬프트를 타입화된 물리 제약으로 컴파일하고 고정된 저수준 전문가 모델을 호출해 어떤 제약이 언제 위반됐는지 짚어냄.
-- [입구는 잠기고 안은 열려 있다: RLVR이 해 공간을 좁히는 지점](https://huggingface.co/papers/2608.29188)
-  RLVR이 pass@1은 높이지만 해 공간을 축소시키는 현상을 Countdown 과제로 분석함. 유효한 해 계열에 접근하지 못하는 것이 문제인지, 계산 실행이 문제인지를 분리해 규명함.
-- [음성 뇌-컴퓨터 인터페이스를 위한 공통 소통 측정 지표](https://huggingface.co/papers/2609.02887)
-  음성 BCI 연구들이 서로 다른 데이터셋·어휘를 써서 성능 비교가 어려운 문제를 지적함. 시스템 간 비교 가능한 공통 소통 측정 지표를 제안함.
+- [UniMate: 다양한 스켈레톤을 애니메이션하는 단일 통합 모델](https://huggingface.co/papers/2609.05415)
+  리깅된 3D 에셋과 텍스트만으로 임의의 스켈레톤에 대한 관절 모션을 생성하는 통합 파운데이션 모델임. 카테고리별 템플릿이나 스켈레톤별 파인튜닝 없이 동작함.
+- [Dr. Claw: 바이브 리서치를 위한 AI 과학자 워크스페이스](https://huggingface.co/papers/2609.00365)
+  Claude Code 같은 CLI 코딩 에이전트를 감사 가능한 human-in-the-loop 연구 워크플로로 감싸는 오픈소스 워크스페이스임. 채팅·IDE·터미널로 흩어진 연구 과정과 의사결정 기록을 한곳에 보존함.
+- [HarvestBench: LLM 에이전트가 동물을 죽이지 않기 위해 비용을 치를지 측정](https://huggingface.co/papers/2609.04444)
+  트랙터 두 대로 옥수수를 수확하는 농장 시뮬레이션에서 밭의 동물을 피하려고 에이전트가 수익을 포기하는지 측정하는 벤치마크임. 부작용 회피에 가격을 매긴 첫 사례임.
+- [답하지 말아야 할 것을 아는 법: 비전-언어 모델의 선택적 비순응](https://huggingface.co/papers/2609.04720)
+  하나의 질의 안에 답할 수 있는 부분과 답하면 안 되는 부분이 섞인 경우를 다루는 VLM 벤치마크임. 질의 전체 단위가 아니라 부분 단위 비순응 능력을 평가함.
+- [거절 없는 거절: 오탐 거절을 줄이기 위한 안전 튜닝 응답의 구조 분석](https://huggingface.co/papers/2609.04714)
+  유해 질의와 겉보기만 비슷한 무해 질의를 구분하지 못해 생기는 오탐 거절 문제를 분석함. 안전 튜닝 응답의 구조를 바꿔 도움됨과 안전성의 균형을 맞추는 방법을 제안함.
 
 ## 🦉 GeekNews
 
-- [DHH가 바라본 프로그래밍의 미래: 직접 코딩에서 AI 에이전트 팀 운영으로](https://news.hada.io/topic?id=33245)
-  DHH가 Opus 4.5와 에이전트 하네스를 기점으로 AI가 보조 도구에서 문제 해결 주체로 바뀌었다고 봄. 개발자 역할이 직접 코딩에서 에이전트 팀 운영으로 이동 중임.
-- [AI 시대에 코드 리뷰에서 살아남는 방법은?](https://news.hada.io/topic?id=33244)
-  동료들이 AI를 적극 쓰면서 리뷰할 PR이 평균 6,000줄 diff로 커짐. 사람이 시스템 이해를 유지하면서 효과적으로 검토하는 전략을 다룸.
-- [AI가 장애를 처리할수록 엔지니어는 시스템 감각을 잃는다](https://news.hada.io/topic?id=33263)
-  AI SRE가 경보 분석부터 수정까지 맡으면 평균 복구 시간은 줄지만 엔지니어의 시스템 동작 감각이 약해짐. 자동화와 운영 역량 유지 사이의 균형을 짚음.
-- [Claude Code, Codex, Cursor는 어떤 도구를 선택할까? 1만7천 회 실행 분석](https://news.hada.io/topic?id=33247)
-  75개 저장소·1,163개 프롬프트 변형으로 16,893회 실험해 코딩 에이전트의 도구 선택 패턴을 분석함. 유효 세션 5,292개 기준으로 에이전트별 정보 탐색 방식 차이를 정리함.
-- [삶의 진정한 사치](https://news.hada.io/topic?id=33266)
-  VC 브래드 펠드가 61세를 앞두고 쓴 에세이임. 진정한 사치는 물질이 아니라 시간·건강·고요한 마음처럼 일상을 안정시키는 것이라고 말함.
+- [브라운필드의 코끼리: AI로 개인은 빨라졌는데, 조직은 왜 그대로인가](https://news.hada.io/topic?id=33304)
+  기존 시스템과 조직 구조가 굳은 브라운필드 기업의 AI 전환은 기술 문제가 아님. 자신의 역할과 팀 권한을 정체성으로 여기는 사람들이 병목임.
+- [GPT-6 Astra: 하네스가 곧 제품이다](https://news.hada.io/topic?id=33301)
+  같은 GPT-6 Astra도 ARC-AGI-3 동일 설정에서 하네스에 따라 54.8%와 99.9%로 갈림. 장기 실행 에이전트 성능은 모델보다 메모리·도구·루프 설계가 좌우함.
+- [Databasus - 실제 복원까지 검증하는 셀프 호스팅 데이터베이스 백업 도구](https://news.hada.io/topic?id=33305)
+  백업 일정·저장 위치·보관 기간을 관리하고 백업 데이터가 실제로 복원되는지 자동 확인함. PostgreSQL·MySQL·MariaDB·MongoDB 지원함.
+- [코드가 나빠지는 데는 한계가 없다](https://news.hada.io/topic?id=33300)
+  건물과 달리 소프트웨어는 물리적 붕괴 한계가 없어 시스템이 돌아가는 동안에도 복잡성과 성능 저하가 끝없이 누적됨. Amazon 주문 시스템 사례를 들어 설명함.
+- [AI로 도구를 만드는 것과 기업을 바꾸는 것은 다른 일이다](https://news.hada.io/topic?id=33293)
+  Benedict Evans 글임. AI로 도구를 쉽게 만들 수 있어도 어떤 도구가 필요한지 발견하고 조직 전체가 쓰게 만드는 일은 별개의 문제임.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-09-07](data/2026-09-07.md)
 - [2026-09-06](data/2026-09-06.md)
 - [2026-09-05](data/2026-09-05.md)
 - [2026-09-04](data/2026-09-04.md)
@@ -69,4 +70,3 @@
 - [2026-08-10](data/2026-08-10.md)
 - [2026-08-09](data/2026-08-09.md)
 - [2026-08-08](data/2026-08-08.md)
-- [2026-08-07](data/2026-08-07.md)
