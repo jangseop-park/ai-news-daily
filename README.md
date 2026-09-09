@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-09-08
+> 마지막 업데이트: 2026-09-10
 
-# AI 뉴스 — 2026-09-08
+# AI 뉴스 — 2026-09-10
 
 ## 🔥 GitHub Trending (Python)
 
-- [microsoft/markitdown](https://github.com/microsoft/markitdown): PDF·Word·Excel·PPT 등 오피스 문서를 Markdown으로 변환하는 Python 도구임. LLM 입력용 전처리에 유용함.
-- [The-Swarm-Corporation/AutoHedge](https://github.com/The-Swarm-Corporation/AutoHedge): AI 에이전트 스웜으로 자율 헤지펀드를 구축하는 프레임워크임. 시장 분석·리스크 관리·거래 실행을 자동화함.
-- [bytedance/deer-flow](https://github.com/bytedance/deer-flow): ByteDance의 오픈소스 장기 실행 SuperAgent 하네스임. 샌드박스·메모리·스킬·서브에이전트를 조합해 수 분에서 수 시간짜리 리서치·코딩 작업을 처리함.
-- [openai/skills](https://github.com/openai/skills): OpenAI Codex용 공식 스킬 카탈로그임. 재사용 가능한 에이전트 스킬 정의를 모아둠.
-- [pytorch/pytorch](https://github.com/pytorch/pytorch): GPU 가속을 지원하는 텐서·동적 신경망 라이브러리임. 딥러닝 연구의 표준 프레임워크임.
+- [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd): 코딩 에이전트가 답을 서두 뒤에 묻어두지 않도록 행동 우선·번호 절차 형식으로 출력하게 만드는 스킬임. ADHD 친화적 출력 형식을 지향함.
+- [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad): CAD·CAE·CAM 작업을 에이전트가 수행하도록 돕는 스킬 라이브러리임. 텍스트로 설계·해석·가공 워크플로를 자동화함.
+- [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents): 애널리스트·리서처·트레이더 역할의 LLM 에이전트가 협업해 매매 결정을 내리는 멀티에이전트 금융 트레이딩 프레임워크임.
+- [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code): Claude Code, Codex, Pi, OpenCode 등을 무료 토큰으로 터미널·앱·IDE·폰에서 쓰게 해주는 도구임. 음성 입력도 지원함.
+- [experientiallabs/experiential](https://github.com/experientiallabs/experiential): BYOK·셀프호스팅·1000+ 마켓플레이스 모델을 위한 오픈소스 제로마크업 LLM 게이트웨이임. 트래픽을 학습해 비용 절감과 모델 추천, 전용 모델 학습까지 지원함.
 
 ## 📄 Hugging Face Papers
 
-- [UniMate: 다양한 스켈레톤을 애니메이션하는 단일 통합 모델](https://huggingface.co/papers/2609.05415)
-  리깅된 3D 에셋과 텍스트만으로 임의의 스켈레톤에 대한 관절 모션을 생성하는 통합 파운데이션 모델임. 카테고리별 템플릿이나 스켈레톤별 파인튜닝 없이 동작함.
-- [Dr. Claw: 바이브 리서치를 위한 AI 과학자 워크스페이스](https://huggingface.co/papers/2609.00365)
-  Claude Code 같은 CLI 코딩 에이전트를 감사 가능한 human-in-the-loop 연구 워크플로로 감싸는 오픈소스 워크스페이스임. 채팅·IDE·터미널로 흩어진 연구 과정과 의사결정 기록을 한곳에 보존함.
-- [HarvestBench: LLM 에이전트가 동물을 죽이지 않기 위해 비용을 치를지 측정](https://huggingface.co/papers/2609.04444)
-  트랙터 두 대로 옥수수를 수확하는 농장 시뮬레이션에서 밭의 동물을 피하려고 에이전트가 수익을 포기하는지 측정하는 벤치마크임. 부작용 회피에 가격을 매긴 첫 사례임.
-- [답하지 말아야 할 것을 아는 법: 비전-언어 모델의 선택적 비순응](https://huggingface.co/papers/2609.04720)
-  하나의 질의 안에 답할 수 있는 부분과 답하면 안 되는 부분이 섞인 경우를 다루는 VLM 벤치마크임. 질의 전체 단위가 아니라 부분 단위 비순응 능력을 평가함.
-- [거절 없는 거절: 오탐 거절을 줄이기 위한 안전 튜닝 응답의 구조 분석](https://huggingface.co/papers/2609.04714)
-  유해 질의와 겉보기만 비슷한 무해 질의를 구분하지 못해 생기는 오탐 거절 문제를 분석함. 안전 튜닝 응답의 구조를 바꿔 도움됨과 안전성의 균형을 맞추는 방법을 제안함.
+- [VDiff-Bench: 세밀한 이미지 차이 식별 벤치마크](https://huggingface.co/papers/2609.06245)
+  MLLM이 비슷한 두 이미지에서 무엇이 바뀌었는지 찾는 능력을 평가하는 1,756문항 4지선다 벤치마크임. 기존 모델들이 이 기본 비교 능력에서 크게 취약함을 보여줌.
+- [EvoHarnessBench: 진화하는 하네스에 에이전트가 따라갈 수 있는가](https://huggingface.co/papers/2609.04280)
+  툴·스킬·전문 에이전트로 구성된 하네스가 계속 바뀌는 상황에서 LLM 에이전트를 평가하는 벤치마크임. 세 축(tools, skills, agents)의 통제된 진화 시나리오를 제공함.
+- [RenderFormer-V2: 이종 장면 프리미티브 기반 신경 렌더링](https://huggingface.co/papers/2609.05738)
+  장면별 학습 없이 caustics, 볼류메트릭 산란, 환경 조명, 텍스처·변위 표면 등 다양한 광전달 효과를 처리하는 트랜스포머 기반 통합 신경 렌더링 모델임.
+- [NOAH: 환자 여정 전체를 학습하는 종단 멀티모달 시간 인식 모델](https://huggingface.co/papers/2609.09140)
+  평생 축적된 불규칙한 멀티모달 의료 기록에서 환자 상태 궤적을 표현하고 예측하는 모델임. 복잡한 시간 역학과 확률성을 함께 다룸.
+- [Graph Machine: 엣지를 통한 더 나은 사전학습](https://huggingface.co/papers/2609.02881)
+  O(n) 크기 상태를 유지하면서 희소·동적 라우팅으로 접근하는 아키텍처임. 미분 가능하게 갱신되는 포인터형 엣지로 접근 가능한 상태 크기를 제한하지 않음.
 
 ## 🦉 GeekNews
 
-- [브라운필드의 코끼리: AI로 개인은 빨라졌는데, 조직은 왜 그대로인가](https://news.hada.io/topic?id=33304)
-  기존 시스템과 조직 구조가 굳은 브라운필드 기업의 AI 전환은 기술 문제가 아님. 자신의 역할과 팀 권한을 정체성으로 여기는 사람들이 병목임.
-- [GPT-6 Astra: 하네스가 곧 제품이다](https://news.hada.io/topic?id=33301)
-  같은 GPT-6 Astra도 ARC-AGI-3 동일 설정에서 하네스에 따라 54.8%와 99.9%로 갈림. 장기 실행 에이전트 성능은 모델보다 메모리·도구·루프 설계가 좌우함.
-- [Databasus - 실제 복원까지 검증하는 셀프 호스팅 데이터베이스 백업 도구](https://news.hada.io/topic?id=33305)
-  백업 일정·저장 위치·보관 기간을 관리하고 백업 데이터가 실제로 복원되는지 자동 확인함. PostgreSQL·MySQL·MariaDB·MongoDB 지원함.
-- [코드가 나빠지는 데는 한계가 없다](https://news.hada.io/topic?id=33300)
-  건물과 달리 소프트웨어는 물리적 붕괴 한계가 없어 시스템이 돌아가는 동안에도 복잡성과 성능 저하가 끝없이 누적됨. Amazon 주문 시스템 사례를 들어 설명함.
-- [AI로 도구를 만드는 것과 기업을 바꾸는 것은 다른 일이다](https://news.hada.io/topic?id=33293)
-  Benedict Evans 글임. AI로 도구를 쉽게 만들 수 있어도 어떤 도구가 필요한지 발견하고 조직 전체가 쓰게 만드는 일은 별개의 문제임.
+- [VoiceStudio - 음성 복제·더빙·받아쓰기를 로컬에서 처리하는 오픈소스 스튜디오](https://github.com/debpalash/VoiceStudio)
+  계정·API 키·구독 없이 내 컴퓨터에서 음성 작업을 처리하는 데스크톱 앱임. 필요한 모델만 내려받으면 오프라인에서도 사용 가능함.
+- [GPT-6 Astra를 위한 스킬과 프롬프트 다시 생각하기](https://x.com/pvncher/status/2095991462416490862)
+  코딩 에이전트 성능이 올라가며 과거의 세세한 유도·보조 절차 필요성이 줄었음. 누적된 Skills/AGENTS.md를 정리하고 단순화할 때라는 주장임.
+- [Ask HN: 스킬 파일을 어떻게 관리하시나요?](https://news.ycombinator.com/item?id=49589914)
+  AI 에이전트용 스킬을 어디서 찾고 관리하며 검증하는지 묻는 글임. 댓글에서는 범용 스킬 수집보다 직접 만든 소수 스킬이 더 유용하다는 의견이 많음.
+- [Build vs Buy - AI로 개발은 싸졌지만, 3년 뒤 유지보수는 누가 맡을까?](https://kevingoldsmith.substack.com/p/build-vs-buy-when-building-just-got)
+  AI가 초기 개발 비용은 크게 낮췄지만 수년간의 유지보수·보안·장애 대응 비용은 없애지 못함. 직접 만들지 여부는 운영 비용까지 보고 결정해야 함.
+- [타임스탬프를 시·분·초로 변환하는 더 빠른 방법](https://www.benjoffe.com/fast-time-of-day)
+  주요 날짜/시간 라이브러리는 시·분·초 계산이 앞선 결과에 순차 의존하는 구조임. 계산 순서만 바꿔도 의존 대기를 줄여 속도를 높일 수 있음.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-09-08](data/2026-09-08.md)
 - [2026-09-07](data/2026-09-07.md)
 - [2026-09-06](data/2026-09-06.md)
 - [2026-09-05](data/2026-09-05.md)
@@ -69,4 +70,3 @@
 - [2026-08-11](data/2026-08-11.md)
 - [2026-08-10](data/2026-08-10.md)
 - [2026-08-09](data/2026-08-09.md)
-- [2026-08-08](data/2026-08-08.md)
