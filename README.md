@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-09-10
+> 마지막 업데이트: 2026-09-11
 
-# AI 뉴스 — 2026-09-10
+# AI 뉴스 — 2026-09-11
 
 ## 🔥 GitHub Trending (Python)
 
-- [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd): 코딩 에이전트가 답을 서두 뒤에 묻어두지 않도록 행동 우선·번호 절차 형식으로 출력하게 만드는 스킬임. ADHD 친화적 출력 형식을 지향함.
-- [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad): CAD·CAE·CAM 작업을 에이전트가 수행하도록 돕는 스킬 라이브러리임. 텍스트로 설계·해석·가공 워크플로를 자동화함.
-- [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents): 애널리스트·리서처·트레이더 역할의 LLM 에이전트가 협업해 매매 결정을 내리는 멀티에이전트 금융 트레이딩 프레임워크임.
-- [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code): Claude Code, Codex, Pi, OpenCode 등을 무료 토큰으로 터미널·앱·IDE·폰에서 쓰게 해주는 도구임. 음성 입력도 지원함.
-- [experientiallabs/experiential](https://github.com/experientiallabs/experiential): BYOK·셀프호스팅·1000+ 마켓플레이스 모델을 위한 오픈소스 제로마크업 LLM 게이트웨이임. 트래픽을 학습해 비용 절감과 모델 추천, 전용 모델 학습까지 지원함.
+- [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd): 코딩 에이전트가 답을 장황한 설명 속에 묻어버리지 않게 막는 스킬임. ADHD 친화적으로 핵심부터 짧게 출력하도록 유도함.
+- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링을 밑바닥부터 배우고, 직접 만들고, 남에게 배포하는 과정을 다루는 학습 레포임.
+- [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents): 멀티 에이전트 LLM 기반 금융 트레이딩 프레임워크임. 애널리스트·리서처·트레이더 역할 에이전트가 협업해 매매 판단을 내림.
+- [jiji262/douyin-downloader](https://github.com/jiji262/douyin-downloader): 더우인(중국판 틱톡) 영상·이미지·합집·음원을 워터마크 없이 단건 또는 프로필 단위로 일괄 다운로드하는 도구임. 진행률 표시, 재시도, SQLite 중복 제거, 브라우저 폴백 지원함.
+- [NVIDIA/Megatron-LM](https://github.com/NVIDIA/Megatron-LM): NVIDIA의 대규모 트랜스포머 모델 학습 프레임워크임. 텐서·파이프라인 병렬화로 초대형 모델 학습을 지원함.
 
 ## 📄 Hugging Face Papers
 
-- [VDiff-Bench: 세밀한 이미지 차이 식별 벤치마크](https://huggingface.co/papers/2609.06245)
-  MLLM이 비슷한 두 이미지에서 무엇이 바뀌었는지 찾는 능력을 평가하는 1,756문항 4지선다 벤치마크임. 기존 모델들이 이 기본 비교 능력에서 크게 취약함을 보여줌.
-- [EvoHarnessBench: 진화하는 하네스에 에이전트가 따라갈 수 있는가](https://huggingface.co/papers/2609.04280)
-  툴·스킬·전문 에이전트로 구성된 하네스가 계속 바뀌는 상황에서 LLM 에이전트를 평가하는 벤치마크임. 세 축(tools, skills, agents)의 통제된 진화 시나리오를 제공함.
-- [RenderFormer-V2: 이종 장면 프리미티브 기반 신경 렌더링](https://huggingface.co/papers/2609.05738)
-  장면별 학습 없이 caustics, 볼류메트릭 산란, 환경 조명, 텍스처·변위 표면 등 다양한 광전달 효과를 처리하는 트랜스포머 기반 통합 신경 렌더링 모델임.
-- [NOAH: 환자 여정 전체를 학습하는 종단 멀티모달 시간 인식 모델](https://huggingface.co/papers/2609.09140)
-  평생 축적된 불규칙한 멀티모달 의료 기록에서 환자 상태 궤적을 표현하고 예측하는 모델임. 복잡한 시간 역학과 확률성을 함께 다룸.
-- [Graph Machine: 엣지를 통한 더 나은 사전학습](https://huggingface.co/papers/2609.02881)
-  O(n) 크기 상태를 유지하면서 희소·동적 라우팅으로 접근하는 아키텍처임. 미분 가능하게 갱신되는 포인터형 엣지로 접근 가능한 상태 크기를 제한하지 않음.
+- [PARSER: 병렬로 읽고 깊게 추론하는 장문맥 LLM 에이전트](https://huggingface.co/papers/2609.06702)
+  긴 문서를 순차적으로 읽는 메모리 에이전트는 증거 위치에 민감하고 지연 시간이 문서 길이에 비례함. PARSER는 읽기와 추론을 분리해, 청크별 경량 서브에이전트가 병렬로 읽고 리드 에이전트가 반복 질의로 깊게 추론함.
+- [상용 CPU에서 저지연 LLM 웹 검색을 위한 3계층 캐싱 아키텍처](https://huggingface.co/papers/2609.05463)
+  오픈소스 답변 엔진 OreoLook(구 lixSearch)의 검색·캐싱·세션·임베딩 스택을 일반 CPU에서 돌리고 답변 합성만 원격 추론에 맡김. 3계층 캐시로 세션 문맥 유지와 지연 시간 문제를 해결함.
+- [SchemeArena: LLM 에이전트의 은밀한 목표 추구(scheming) 요인 분해 스트레스 테스트](https://huggingface.co/papers/2609.08126)
+  에이전트가 몰래 잘못 정렬된 목표를 추구하는 scheming을 도구적 목표, 환경 여건, 감독 조건, 인지된 결과 등 요인별로 분해해 대규모로 검증함. 기존 연구는 시나리오 수가 적어 요인 분리가 어려웠음.
+- [From Reweighting to Rewriting: 학습 데이터 귀속에서 영향력 있는 샘플의 개입 효과 해제](https://huggingface.co/papers/2609.02771)
+  영향 함수로 고른 샘플은 가중치 재조정 개입에서는 랜덤 선택 대비 이점이 작았음. 샘플을 재작성하는 방식의 개입으로 바꾸면 영향력 있는 예시의 실제 개입 가치가 드러남을 보임.
+- [희소성의 대가: 희소·희소화 측정으로 희소 신호를 복원하기 위한 충분 조건](https://huggingface.co/papers/2509.01809)
+  희소 가우시안 측정 행렬로 잡음 있는 선형 측정에서 희소 이진 신호의 지지집합을 복원할 때, 고SNR 영역에서 최대우도 복원에 필요한 최소 샘플 수의 충분 조건을 제시함. 기존 하한과 합쳐 정보이론적 한계를 규명함.
 
 ## 🦉 GeekNews
 
-- [VoiceStudio - 음성 복제·더빙·받아쓰기를 로컬에서 처리하는 오픈소스 스튜디오](https://github.com/debpalash/VoiceStudio)
-  계정·API 키·구독 없이 내 컴퓨터에서 음성 작업을 처리하는 데스크톱 앱임. 필요한 모델만 내려받으면 오프라인에서도 사용 가능함.
 - [GPT-6 Astra를 위한 스킬과 프롬프트 다시 생각하기](https://x.com/pvncher/status/2095991462416490862)
-  코딩 에이전트 성능이 올라가며 과거의 세세한 유도·보조 절차 필요성이 줄었음. 누적된 Skills/AGENTS.md를 정리하고 단순화할 때라는 주장임.
-- [Ask HN: 스킬 파일을 어떻게 관리하시나요?](https://news.ycombinator.com/item?id=49589914)
-  AI 에이전트용 스킬을 어디서 찾고 관리하며 검증하는지 묻는 글임. 댓글에서는 범용 스킬 수집보다 직접 만든 소수 스킬이 더 유용하다는 의견이 많음.
-- [Build vs Buy - AI로 개발은 싸졌지만, 3년 뒤 유지보수는 누가 맡을까?](https://kevingoldsmith.substack.com/p/build-vs-buy-when-building-just-got)
-  AI가 초기 개발 비용은 크게 낮췄지만 수년간의 유지보수·보안·장애 대응 비용은 없애지 못함. 직접 만들지 여부는 운영 비용까지 보고 결정해야 함.
-- [타임스탬프를 시·분·초로 변환하는 더 빠른 방법](https://www.benjoffe.com/fast-time-of-day)
-  주요 날짜/시간 라이브러리는 시·분·초 계산이 앞선 결과에 순차 의존하는 구조임. 계산 순서만 바꿔도 의존 대기를 줄여 속도를 높일 수 있음.
+  코딩 에이전트 성능이 올라가면서 과거에 필요했던 세세한 유도와 보조 절차의 필요성이 줄어듦. GPT-6 Astra에서는 누적된 Skills와 AGENTS.md를 대폭 정리해야 한다는 주장임.
+- [Visa와 Mastercard는 무슨 일을 할까? 카드 네트워크 입문](https://tautology.town/2026/06/01/card-networks.html)
+  Visa와 Mastercard는 카드를 발급하는 은행이 아니라 카드 소지자·발급사와 가맹점·매입사를 연결해 거래를 성사시키는 네트워크임. 핀테크 개발자가 알아야 할 결제 구조를 설명함.
+- [코딩 에이전트는 테스트와 검증 기법을 얼마나 잘 활용할까?](https://danluu.com/agentic-testing/)
+  Rust로 Zstd를 구현하는 코딩 에이전트에 26가지 테스트·검증 지시와 4가지 스킬을 적용해 실험함. 기법 이름만 알려주는 것으로는 구현 정확도가 뚜렷하게 오르지 않았음.
+- [내 소프트웨어의 기본 라이선스를 MIT에서 EUPL로 바꿨다](https://bergie.iki.fi/blog/eupl/)
+  28년간 LGPLv2와 MIT를 써 온 개발자가 올해부터 기본 라이선스를 EUPL-1.2로 바꿈. EU 법 기반의 카피레프트 라이선스로 AI 학습 등 무단 활용에 대응하려는 취지임.
+- [Qwen-Drive-1.0 - 도로 상황을 이해하고 주행 경로까지 계획하는 자율주행 AI 모델](https://github.com/QwenLM/Qwen-Drive-1.0)
+  주변 환경 3D 인식, 주행 상황 질의응답, 차량 이동 경로 계획을 하나로 결합한 모델임. Qwen3.5-4B 기본 구조를 유지하면서 공간 이해 능력을 추가함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-09-10](data/2026-09-10.md)
 - [2026-09-08](data/2026-09-08.md)
 - [2026-09-07](data/2026-09-07.md)
 - [2026-09-06](data/2026-09-06.md)
@@ -69,4 +70,3 @@
 - [2026-08-12](data/2026-08-12.md)
 - [2026-08-11](data/2026-08-11.md)
 - [2026-08-10](data/2026-08-10.md)
-- [2026-08-09](data/2026-08-09.md)
