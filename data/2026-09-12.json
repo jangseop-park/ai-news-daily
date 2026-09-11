@@ -1,0 +1,109 @@
+{
+  "date": "2026-09-12",
+  "github_trending": [
+    {
+      "name": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "description": "코딩 에이전트가 답을 장황한 설명 속에 묻어버리지 않게 막는 스킬임. 핵심부터 짧게 출력하는 ADHD 친화적 포맷을 강제함.",
+      "description_en": "A skill to stop your coding agent from burying the answer. ADHD-friendly output."
+    },
+    {
+      "name": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "description": "GitHub이 만든 스펙 주도 개발(Spec-Driven Development) 시작 툴킷임. 명세를 먼저 쓰고 코딩 에이전트가 이를 따라 구현하도록 워크플로를 잡아줌.",
+      "description_en": "Toolkit to help you get started with Spec-Driven Development"
+    },
+    {
+      "name": "k2-fsa/OmniVoice",
+      "url": "https://github.com/k2-fsa/OmniVoice",
+      "description": "600개 이상 언어를 지원하는 고품질 음성 복제 TTS 모델임. 짧은 참조 음성으로 화자 목소리를 재현함.",
+      "description_en": "High-Quality Voice Cloning TTS for 600+ Languages"
+    },
+    {
+      "name": "jihe520/MathModelAgent",
+      "url": "https://github.com/jihe520/MathModelAgent",
+      "description": "수학 모델링 대회용으로 설계된 에이전트와 스킬 모음임. 문제 분석부터 모델링, 바로 제출 가능한 논문 생성까지 자동으로 수행함.",
+      "description_en": "An Agent designed for mathematical modeling that automatically completes the model and generates a complete paper ready for submission."
+    },
+    {
+      "name": "jordan-gibbs/hyperresearch",
+      "url": "https://github.com/jordan-gibbs/hyperresearch",
+      "description": "에이전트 기반 리서치 지식 베이스임. 에이전트가 웹 자료를 수집·검색·종합해 검색 가능한 영구 위키로 쌓아감.",
+      "description_en": "Agent-driven research knowledge base. Agents collect, search, and synthesize web research into a persistent, searchable wiki."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "통합 멀티모달 모델에서 이미지 토크나이저를 시각 언어로 연구하기",
+      "title_en": "Studying Image Tokenizers as Visual Languages in Unified Multimodal Models",
+      "url": "https://huggingface.co/papers/2609.09143",
+      "summary": "이미지 토크나이저는 통합 멀티모달 모델의 '시각 언어'를 정의하지만 보통 개별 지표나 생성·이해 단독 평가로만 연구됨. 순수 자기회귀 테스트베드를 만들어 텍스트·이미지·T2I·I2T 연속 사전학습 중 과제별 검증 손실을 추적해 시각 토큰이 텍스트와 함께 모델링될 때 어떻게 동작하는지 분석함.",
+      "summary_en": "Image tokenizers define the visual language of unified multimodal models but are usually studied in isolation. The authors build a controlled pure-autoregressive testbed and track task-specific validation losses during multimodal continual pretraining to see how visual tokens behave when modeled jointly with text."
+    },
+    {
+      "title": "Think Before You Link: 다국어 엔티티 링킹에서의 희귀성, 추론, 검색",
+      "title_en": "Think Before You Link: Rarity, Reasoning, and Retrieval in Multilingual Entity Linking",
+      "url": "https://huggingface.co/papers/2609.10745",
+      "summary": "멀티모달 엔티티 링킹은 희귀 엔티티에서 성능이 떨어지는데, 기존 연구는 희귀성을 페이지뷰 같은 인기도로만 측정함. 지식 그래프 구조 지표로 희귀성을 넓게 정의해 인기도 지표가 놓치는 희귀 엔티티를 찾아내고 추론·검색 전략을 평가함.",
+      "summary_en": "Multimodal entity linking degrades on rare entities, but prior work measures rarity via popularity metrics like pageviews. This paper uses knowledge-graph structural metrics to identify rare entities popularity misses and evaluates reasoning and retrieval strategies on them."
+    },
+    {
+      "title": "다국어 다리 놓기: 목표 언어 내 추론 일반화의 기둥으로서의 데이터 혼합",
+      "title_en": "Building Multilingual Bridges: Data Mixing as the Pillar of Generalization for In-Language Reasoning",
+      "url": "https://huggingface.co/papers/2609.10445",
+      "summary": "추론 모델은 어떤 언어로 물어도 영어로 추론하는 영어 중심 경향이 강함. 목표 언어로 직접 추론하는 L2 추론을 위해 데이터 혼합 전략이 일반화의 핵심임을 보이고, 비영어 사용자에게 접근성과 의도 보존을 개선함.",
+      "summary_en": "Reasoning models overwhelmingly reason in English regardless of prompt language. This work advances in-language (L2) reasoning and shows data mixing is the key pillar for generalization, improving accessibility and intent preservation for non-English users."
+    },
+    {
+      "title": "Adaptive Bridge: ROS 2에서 DDS 배압을 완화하는 프록시 기반 분리 계층",
+      "title_en": "Adaptive Bridge: A Proxy-Based Decoupling Layer for Mitigating DDS Backpressure in ROS 2",
+      "url": "https://huggingface.co/papers/2608.15380",
+      "summary": "ROS 2의 RELIABLE 토픽에서 네트워크가 나쁜 구독자 하나가 배압을 일으켜 안전 필수 구독자까지 처리량·지연이 나빠지는 문제를 다룸. 프록시 계층으로 핵심 구독자를 분리해 퍼블리셔의 DDS writer가 막히지 않도록 함.",
+      "summary_en": "In ROS 2 with DDS, one throttled subscriber on a RELIABLE topic can backpressure all others including safety-critical ones. Adaptive Bridge is a proxy-based layer that decouples critical subscribers so the publisher's DDS writer keeps accepting samples."
+    },
+    {
+      "title": "Solver 판정을 넘어서: 자동 형식화를 위한 생성형 보상 모델",
+      "title_en": "Beyond Solver Verdicts: Generative Reward Models for Autoformalization",
+      "url": "https://huggingface.co/papers/2609.11085",
+      "summary": "뉴로심볼릭 시스템은 수학 solver로 정확성을 보장하지만, solver는 형식 번역이 원래 의도와 같은지는 판단 못 함. 잘못된 인코딩이 실행에 성공하고 기대 판정과 일치하는 VPU 실패 모드를 정의하고, 이를 잡아내는 생성형 보상 모델을 제안함.",
+      "summary_en": "Solvers guarantee reasoning correctness but are blind to whether a formal translation is faithful to the intended formalization. The paper formalizes Verdict-Preserving-Unfaithfulness (VPU) and proposes generative reward models to detect it."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "모든 어른은 한때 어린이였지만, 그것을 기억하는 어른은 드물다",
+      "title_en": "Every adult was once a child, but few remember it (Terence Tao on AI and learning)",
+      "url": "https://mathstodon.xyz/@tao/117244102901892965",
+      "summary": "수학자 Terence Tao가 AI가 문제를 풀어도 그 과정에서 사람이 얻는 배움과 통찰까지 대신하지는 않는다고 말함. 호기심에 이끌리는 탐구 과정 자체의 가치를 강조함.",
+      "summary_en": "Mathematician Terence Tao argues that even when AI solves a problem, it does not replace the learning and insight a person gains in the process, stressing the value of curiosity-driven exploration."
+    },
+    {
+      "title": "Shopify, React Native에서 네이티브로 복귀",
+      "title_en": "Shopify goes back to native from React Native",
+      "url": "https://shopify.engineering/back-to-native",
+      "summary": "코딩 에이전트가 같은 기능을 iOS와 Android에 각각 구현하는 비용을 크게 낮추면서 모든 모바일 앱을 Swift와 Kotlin으로 전환하기로 함. 크로스플랫폼의 이점이 AI 시대에 약해졌다는 판단임.",
+      "summary_en": "With coding agents drastically lowering the cost of implementing a feature twice for iOS and Android, Shopify is moving all mobile apps to Swift and Kotlin, judging cross-platform benefits weaker in the AI era."
+    },
+    {
+      "title": "AI는 우리의 경제적 미래를 어떻게 바꿀까? (Anthropic 경제 시나리오 탐색기)",
+      "title_en": "How will AI change our economic future? (Anthropic economic scenario explorer)",
+      "url": "https://www.anthropic.com/institute/econ-scenarios",
+      "summary": "Anthropic이 AI 발전·도입 속도 가정을 입력하면 2030년 미국 경제와 일자리 변화를 보여주는 경제 시나리오 탐색기를 공개함. 직업별 영향과 생산성 변화를 인터랙티브하게 볼 수 있음.",
+      "summary_en": "Anthropic released an interactive economic scenario explorer that, given assumptions about AI progress and adoption speed, shows how the US economy and jobs could change by 2030."
+    },
+    {
+      "title": "소프트웨어는 어떻게 사람을 미치게 만드는가",
+      "title_en": "How software drives people insane",
+      "url": "https://graybeard.ing/software-drives-people-insane/",
+      "summary": "소프트웨어는 화면부터 사업 모델까지 뭐든 바꿀 수 있다 보니 '할 수 있다'가 '해야 한다', 다시 '왜 아직 안 됐나'로 바뀌며 모든 일이 긴급해짐. 무한한 가변성이 조직과 개발자를 소진시키는 구조를 짚음.",
+      "summary_en": "Because software can change anything from screens to business models, 'we can' becomes 'we must' and then 'why isn't it done yet', making everything urgent. The essay examines how infinite malleability burns out teams."
+    },
+    {
+      "title": "창업자는 월급을 얼마나 받아야 할까?",
+      "title_en": "How much should founders get paid?",
+      "url": "https://www.nfx.com/post/how-much-should-founders-get-paid",
+      "summary": "창업자 급여 기준은 남들이 받는 금액이 아니라 자신과 가족의 생활을 지키면서 회사의 장기 성공에 집중할 수 있는 수준이어야 함. 생활비 걱정이 의사결정을 왜곡하지 않게 하는 것이 핵심임.",
+      "summary_en": "NFX argues founder pay should be set not by what others earn but at a level that protects the founder's family life so they can focus on long-term company success, without money stress distorting decisions."
+    }
+  ]
+}
