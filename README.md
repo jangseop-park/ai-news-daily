@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-09-11
+> 마지막 업데이트: 2026-09-12
 
-# AI 뉴스 — 2026-09-11
+# AI 뉴스 — 2026-09-12
 
 ## 🔥 GitHub Trending (Python)
 
-- [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd): 코딩 에이전트가 답을 장황한 설명 속에 묻어버리지 않게 막는 스킬임. ADHD 친화적으로 핵심부터 짧게 출력하도록 유도함.
-- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링을 밑바닥부터 배우고, 직접 만들고, 남에게 배포하는 과정을 다루는 학습 레포임.
-- [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents): 멀티 에이전트 LLM 기반 금융 트레이딩 프레임워크임. 애널리스트·리서처·트레이더 역할 에이전트가 협업해 매매 판단을 내림.
-- [jiji262/douyin-downloader](https://github.com/jiji262/douyin-downloader): 더우인(중국판 틱톡) 영상·이미지·합집·음원을 워터마크 없이 단건 또는 프로필 단위로 일괄 다운로드하는 도구임. 진행률 표시, 재시도, SQLite 중복 제거, 브라우저 폴백 지원함.
-- [NVIDIA/Megatron-LM](https://github.com/NVIDIA/Megatron-LM): NVIDIA의 대규모 트랜스포머 모델 학습 프레임워크임. 텐서·파이프라인 병렬화로 초대형 모델 학습을 지원함.
+- [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd): 코딩 에이전트가 답을 장황한 설명 속에 묻어버리지 않게 막는 스킬임. 핵심부터 짧게 출력하는 ADHD 친화적 포맷을 강제함.
+- [github/spec-kit](https://github.com/github/spec-kit): GitHub이 만든 스펙 주도 개발(Spec-Driven Development) 시작 툴킷임. 명세를 먼저 쓰고 코딩 에이전트가 이를 따라 구현하도록 워크플로를 잡아줌.
+- [k2-fsa/OmniVoice](https://github.com/k2-fsa/OmniVoice): 600개 이상 언어를 지원하는 고품질 음성 복제 TTS 모델임. 짧은 참조 음성으로 화자 목소리를 재현함.
+- [jihe520/MathModelAgent](https://github.com/jihe520/MathModelAgent): 수학 모델링 대회용으로 설계된 에이전트와 스킬 모음임. 문제 분석부터 모델링, 바로 제출 가능한 논문 생성까지 자동으로 수행함.
+- [jordan-gibbs/hyperresearch](https://github.com/jordan-gibbs/hyperresearch): 에이전트 기반 리서치 지식 베이스임. 에이전트가 웹 자료를 수집·검색·종합해 검색 가능한 영구 위키로 쌓아감.
 
 ## 📄 Hugging Face Papers
 
-- [PARSER: 병렬로 읽고 깊게 추론하는 장문맥 LLM 에이전트](https://huggingface.co/papers/2609.06702)
-  긴 문서를 순차적으로 읽는 메모리 에이전트는 증거 위치에 민감하고 지연 시간이 문서 길이에 비례함. PARSER는 읽기와 추론을 분리해, 청크별 경량 서브에이전트가 병렬로 읽고 리드 에이전트가 반복 질의로 깊게 추론함.
-- [상용 CPU에서 저지연 LLM 웹 검색을 위한 3계층 캐싱 아키텍처](https://huggingface.co/papers/2609.05463)
-  오픈소스 답변 엔진 OreoLook(구 lixSearch)의 검색·캐싱·세션·임베딩 스택을 일반 CPU에서 돌리고 답변 합성만 원격 추론에 맡김. 3계층 캐시로 세션 문맥 유지와 지연 시간 문제를 해결함.
-- [SchemeArena: LLM 에이전트의 은밀한 목표 추구(scheming) 요인 분해 스트레스 테스트](https://huggingface.co/papers/2609.08126)
-  에이전트가 몰래 잘못 정렬된 목표를 추구하는 scheming을 도구적 목표, 환경 여건, 감독 조건, 인지된 결과 등 요인별로 분해해 대규모로 검증함. 기존 연구는 시나리오 수가 적어 요인 분리가 어려웠음.
-- [From Reweighting to Rewriting: 학습 데이터 귀속에서 영향력 있는 샘플의 개입 효과 해제](https://huggingface.co/papers/2609.02771)
-  영향 함수로 고른 샘플은 가중치 재조정 개입에서는 랜덤 선택 대비 이점이 작았음. 샘플을 재작성하는 방식의 개입으로 바꾸면 영향력 있는 예시의 실제 개입 가치가 드러남을 보임.
-- [희소성의 대가: 희소·희소화 측정으로 희소 신호를 복원하기 위한 충분 조건](https://huggingface.co/papers/2509.01809)
-  희소 가우시안 측정 행렬로 잡음 있는 선형 측정에서 희소 이진 신호의 지지집합을 복원할 때, 고SNR 영역에서 최대우도 복원에 필요한 최소 샘플 수의 충분 조건을 제시함. 기존 하한과 합쳐 정보이론적 한계를 규명함.
+- [통합 멀티모달 모델에서 이미지 토크나이저를 시각 언어로 연구하기](https://huggingface.co/papers/2609.09143)
+  이미지 토크나이저는 통합 멀티모달 모델의 '시각 언어'를 정의하지만 보통 개별 지표나 생성·이해 단독 평가로만 연구됨. 순수 자기회귀 테스트베드를 만들어 텍스트·이미지·T2I·I2T 연속 사전학습 중 과제별 검증 손실을 추적해 시각 토큰이 텍스트와 함께 모델링될 때 어떻게 동작하는지 분석함.
+- [Think Before You Link: 다국어 엔티티 링킹에서의 희귀성, 추론, 검색](https://huggingface.co/papers/2609.10745)
+  멀티모달 엔티티 링킹은 희귀 엔티티에서 성능이 떨어지는데, 기존 연구는 희귀성을 페이지뷰 같은 인기도로만 측정함. 지식 그래프 구조 지표로 희귀성을 넓게 정의해 인기도 지표가 놓치는 희귀 엔티티를 찾아내고 추론·검색 전략을 평가함.
+- [다국어 다리 놓기: 목표 언어 내 추론 일반화의 기둥으로서의 데이터 혼합](https://huggingface.co/papers/2609.10445)
+  추론 모델은 어떤 언어로 물어도 영어로 추론하는 영어 중심 경향이 강함. 목표 언어로 직접 추론하는 L2 추론을 위해 데이터 혼합 전략이 일반화의 핵심임을 보이고, 비영어 사용자에게 접근성과 의도 보존을 개선함.
+- [Adaptive Bridge: ROS 2에서 DDS 배압을 완화하는 프록시 기반 분리 계층](https://huggingface.co/papers/2608.15380)
+  ROS 2의 RELIABLE 토픽에서 네트워크가 나쁜 구독자 하나가 배압을 일으켜 안전 필수 구독자까지 처리량·지연이 나빠지는 문제를 다룸. 프록시 계층으로 핵심 구독자를 분리해 퍼블리셔의 DDS writer가 막히지 않도록 함.
+- [Solver 판정을 넘어서: 자동 형식화를 위한 생성형 보상 모델](https://huggingface.co/papers/2609.11085)
+  뉴로심볼릭 시스템은 수학 solver로 정확성을 보장하지만, solver는 형식 번역이 원래 의도와 같은지는 판단 못 함. 잘못된 인코딩이 실행에 성공하고 기대 판정과 일치하는 VPU 실패 모드를 정의하고, 이를 잡아내는 생성형 보상 모델을 제안함.
 
 ## 🦉 GeekNews
 
-- [GPT-6 Astra를 위한 스킬과 프롬프트 다시 생각하기](https://x.com/pvncher/status/2095991462416490862)
-  코딩 에이전트 성능이 올라가면서 과거에 필요했던 세세한 유도와 보조 절차의 필요성이 줄어듦. GPT-6 Astra에서는 누적된 Skills와 AGENTS.md를 대폭 정리해야 한다는 주장임.
-- [Visa와 Mastercard는 무슨 일을 할까? 카드 네트워크 입문](https://tautology.town/2026/06/01/card-networks.html)
-  Visa와 Mastercard는 카드를 발급하는 은행이 아니라 카드 소지자·발급사와 가맹점·매입사를 연결해 거래를 성사시키는 네트워크임. 핀테크 개발자가 알아야 할 결제 구조를 설명함.
-- [코딩 에이전트는 테스트와 검증 기법을 얼마나 잘 활용할까?](https://danluu.com/agentic-testing/)
-  Rust로 Zstd를 구현하는 코딩 에이전트에 26가지 테스트·검증 지시와 4가지 스킬을 적용해 실험함. 기법 이름만 알려주는 것으로는 구현 정확도가 뚜렷하게 오르지 않았음.
-- [내 소프트웨어의 기본 라이선스를 MIT에서 EUPL로 바꿨다](https://bergie.iki.fi/blog/eupl/)
-  28년간 LGPLv2와 MIT를 써 온 개발자가 올해부터 기본 라이선스를 EUPL-1.2로 바꿈. EU 법 기반의 카피레프트 라이선스로 AI 학습 등 무단 활용에 대응하려는 취지임.
-- [Qwen-Drive-1.0 - 도로 상황을 이해하고 주행 경로까지 계획하는 자율주행 AI 모델](https://github.com/QwenLM/Qwen-Drive-1.0)
-  주변 환경 3D 인식, 주행 상황 질의응답, 차량 이동 경로 계획을 하나로 결합한 모델임. Qwen3.5-4B 기본 구조를 유지하면서 공간 이해 능력을 추가함.
+- [모든 어른은 한때 어린이였지만, 그것을 기억하는 어른은 드물다](https://mathstodon.xyz/@tao/117244102901892965)
+  수학자 Terence Tao가 AI가 문제를 풀어도 그 과정에서 사람이 얻는 배움과 통찰까지 대신하지는 않는다고 말함. 호기심에 이끌리는 탐구 과정 자체의 가치를 강조함.
+- [Shopify, React Native에서 네이티브로 복귀](https://shopify.engineering/back-to-native)
+  코딩 에이전트가 같은 기능을 iOS와 Android에 각각 구현하는 비용을 크게 낮추면서 모든 모바일 앱을 Swift와 Kotlin으로 전환하기로 함. 크로스플랫폼의 이점이 AI 시대에 약해졌다는 판단임.
+- [AI는 우리의 경제적 미래를 어떻게 바꿀까? (Anthropic 경제 시나리오 탐색기)](https://www.anthropic.com/institute/econ-scenarios)
+  Anthropic이 AI 발전·도입 속도 가정을 입력하면 2030년 미국 경제와 일자리 변화를 보여주는 경제 시나리오 탐색기를 공개함. 직업별 영향과 생산성 변화를 인터랙티브하게 볼 수 있음.
+- [소프트웨어는 어떻게 사람을 미치게 만드는가](https://graybeard.ing/software-drives-people-insane/)
+  소프트웨어는 화면부터 사업 모델까지 뭐든 바꿀 수 있다 보니 '할 수 있다'가 '해야 한다', 다시 '왜 아직 안 됐나'로 바뀌며 모든 일이 긴급해짐. 무한한 가변성이 조직과 개발자를 소진시키는 구조를 짚음.
+- [창업자는 월급을 얼마나 받아야 할까?](https://www.nfx.com/post/how-much-should-founders-get-paid)
+  창업자 급여 기준은 남들이 받는 금액이 아니라 자신과 가족의 생활을 지키면서 회사의 장기 성공에 집중할 수 있는 수준이어야 함. 생활비 걱정이 의사결정을 왜곡하지 않게 하는 것이 핵심임.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-09-11](data/2026-09-11.md)
 - [2026-09-10](data/2026-09-10.md)
 - [2026-09-08](data/2026-09-08.md)
 - [2026-09-07](data/2026-09-07.md)
@@ -69,4 +70,3 @@
 - [2026-08-13](data/2026-08-13.md)
 - [2026-08-12](data/2026-08-12.md)
 - [2026-08-11](data/2026-08-11.md)
-- [2026-08-10](data/2026-08-10.md)
