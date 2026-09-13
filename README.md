@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-09-13
+> 마지막 업데이트: 2026-09-14
 
-# AI 뉴스 — 2026-09-13
+# AI 뉴스 — 2026-09-14
 
 ## 🔥 GitHub Trending (Python)
 
-- [jihe520/MathModelAgent](https://github.com/jihe520/MathModelAgent): 수학 모델링 전용 Agent & skills. 문제를 주면 모델링을 자동 수행하고 바로 제출 가능한 논문까지 생성함.
-- [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps): 100개 이상의 AI Agent, Agent Skills, RAG 앱을 모은 무료 오픈소스 모음집임.
-- [SnailSploit/Claude-Red](https://github.com/SnailSploit/Claude-Red): Claude skills 시스템용 공격 보안 스킬 라이브러리임. SQLi부터 익스플로잇 개발까지 각 공격 표면별 방법론을 SKILL.md로 정리함.
+- [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage): 세계 최초 오픈소스 에이전틱 영상 제작 시스템임. 12개 제작 파이프라인, 100개 이상 도구, 700개 이상 스킬 파일로 AI 코딩 어시스턴트를 영상 스튜디오로 바꿈.
 - [multimodal-art-projection/YuE](https://github.com/multimodal-art-projection/YuE): YuE2: 심볼릭 플래닝, zero-shot 커버, 에이전트 기반 음악 편집을 지원하는 최전선 음악 생성 모델임.
-- [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd): 코딩 에이전트가 답을 장황한 설명 속에 묻어버리지 않도록 하는 스킬임. ADHD 친화적 출력 형식을 강제함.
+- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio): 완전 로컬로 돌아가는 오픈소스 ElevenLabs 대체재임. 음성 복제, 음성 디자인, 영상 더빙, 받아쓰기, 오디오북 제작을 646개 언어로 지원함.
+- [SnailSploit/Claude-Red](https://github.com/SnailSploit/Claude-Red): Claude skills 시스템용 공격 보안 스킬 라이브러리임. SQLi부터 익스플로잇 개발까지 공격 표면별 방법론을 SKILL.md로 정리함.
+- [jihe520/MathModelAgent](https://github.com/jihe520/MathModelAgent): 수학 모델링 전용 Agent & skills임. 문제를 주면 모델링을 자동 수행하고 제출 가능한 논문까지 생성함.
 
 ## 📄 Hugging Face Papers
 
-- [통합 멀티모달 모델에서 이미지 토크나이저를 시각 언어로 연구하기](https://huggingface.co/papers/2609.09143)
-  이미지 토크나이저를 통합 멀티모달 모델의 '시각 언어'로 보고, 순수 autoregressive 테스트베드에서 텍스트/이미지/T2I/I2T 학습 손실을 추적하며 토큰 설계가 공동 모델링에 미치는 영향을 분석함.
-- [연결 전에 생각하라: 다국어 엔티티 링킹에서의 희귀성, 추론, 검색](https://huggingface.co/papers/2609.10745)
-  멀티모달 엔티티 링킹이 희귀 엔티티에서 성능이 급락하는 문제를 다룸. 페이지뷰 대신 지식그래프 구조 지표로 희귀성을 정의하니 기존 지표가 놓친 희귀 엔티티가 다수 드러나고 SOTA 정확도가 크게 떨어짐.
-- [다국어 다리 놓기: 언어 내 추론 일반화의 기둥으로서의 데이터 믹싱](https://huggingface.co/papers/2609.10445)
-  추론 모델이 어떤 언어로 물어도 영어로 사고하는 문제를 지적함. 데이터 믹싱 전략으로 프롬프트 언어 그대로 일관되게 추론하는 L2 reasoning 능력을 끌어올림.
-- [Adaptive Bridge: ROS 2에서 DDS 백프레셔를 완화하는 프록시 기반 분리 계층](https://huggingface.co/papers/2608.15380)
-  ROS 2의 RELIABLE 토픽에서 느린 구독자 하나가 전체 처리량을 떨어뜨리는 DDS 백프레셔 문제를 다룸. 프록시 계층으로 안전 필수 구독자를 저하된 구독자와 분리함.
-- [솔버 판정을 넘어서: 자동 형식화를 위한 생성형 보상 모델](https://huggingface.co/papers/2609.11085)
-  틀린 형식화가 솔버를 통과해 기대 판정과 일치하는 VPU 실패 모드를 정의함. 판정만 보는 검증의 한계를 이론적으로 증명하고 생성형 보상 모델로 충실성을 판단함.
+- [Mi-Ripple: 반복 AI 편집으로 손상된 이미지 복원](https://huggingface.co/papers/2609.11317)
+  참조 이미지 기반 편집을 반복하면 격자·입자 형태의 '디지털 리플'이 생김. 주기적 격자 아티팩트와 콘텐츠에 얽힌 입자 텍스처를 분리한 뒤 선택적 스펙트럼 노칭으로 구조를 보존하며 복원함.
+- [Memory as Plans: 메모리 기반 플래닝을 통한 World-Action 모델링](https://huggingface.co/papers/2609.11561)
+  로봇 조작 과제는 대부분 non-Markovian이라 장기 기억이 필요함. 언어 요약이나 시각 윈도우 확장 대신 메모리를 플랜으로 활용해 세밀한 시각 증거를 잃지 않고 장기 조작을 수행함.
+- [FreeFlow: 편향 없는 계층적 Transformer 기반 광학 흐름 추정](https://huggingface.co/papers/2609.11486)
+  correlation volume, feature warping, 반복 정제 같은 과제 특화 귀납 편향 없이 계층적 Transformer만으로 optical flow를 추정함. 파이프라인이 단순해지고 연산 비용이 줄어듦.
+- [MetroLLM-Bench: 교통 키오스크 런타임으로서의 언어 모델 평가](https://huggingface.co/papers/2609.10016)
+  실제 지하철 6개 노선망(37~414개 역)을 대상으로 경로 탐색, 요금 계산, 운행 중단, 접근성, 적대적 입력 등 11개 범주 955개 케이스로 구성된 벤치마크임. 모델이 구조화된 툴을 호출해 렌더링 가능한 최종 상태를 제출해야 함.
+- [Negative Self-Distillation: 결함 회피를 통한 추론 학습](https://huggingface.co/papers/2609.11699)
+  정답을 참고한 자기 증류(OPSD)가 복잡한 추론에서 오히려 성능을 떨어뜨리는 문제를 지적함. 정답을 흉내 내는 대신 결함 있는 추론을 피하도록 학습하는 부정적 자기 증류를 제안함.
 
 ## 🦉 GeekNews
 
-- [AI 때문에 느끼는 슬픔](https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/)
-  생계 걱정보다 평생의 취미이자 정체성이던 프로그래밍이 쓸모없는 기술로 취급되는 태도가 더 깊은 슬픔을 준다는 글임.
-- [코딩이 해결됐다면, 코드의 조잡함은 어떻게 측정할까?](https://earendil.com/posts/measuring-code-sloppiness/)
-  AI가 테스트를 통과하는 코드를 만들어도 불필요한 추상화와 중복은 피하지 못함. 기능 추가마다 코드가 불어나는 조잡함을 측정하는 방법을 제안함.
-- [Multigres - Postgres의 수평 확장을 위한 오픈소스](https://github.com/multigres/multigres)
-  MySQL용 Vitess 접근법을 Postgres에 적용해 샤딩, 연결 풀링, 복제, 장애 전환을 함께 관리하는 프로젝트임.
-- [Google ARTEMIS - 자연어로 Android 앱을 조작/테스트하는 자동화 도구](https://github.com/google/artemis)
-  '로그인한 뒤 팝업이 뜨는지 확인해줘'처럼 작업을 설명하면 실제 기기나 에뮬레이터를 조작해 수행함. 앱 테스트 외 일반 자동화에도 쓸 수 있음.
-- [WordPress는 누구의 것인가](https://news.hada.io/article/who-owns-wordpress)
-  9월 9일 Automattic 이사회가 창업자 Matt Mullenweg를 유급 휴직 처리하고 CFO Mark Davies가 임시 CEO를 맡음. WordPress 거버넌스 논쟁을 정리함.
+- [젠장, 그래도 만들자](https://www.joelotter.com/posts/2026/09/make-it-anyway/)
+  프롬프트 하나로 도구와 게임이 만들어지는 시대에 수년간 익힌 기술과 직접 만든 결과물의 가치를 의심하게 됨. 그래도 만드는 행위 자체의 의미를 되짚는 글임.
+- [Google에 더 나은 모습을 기대했다 - 코드는 가져가고 출처는 지운 Artemis](https://www.minitap.ai/blog/i-expected-better-from-google)
+  Minitap 팀이 Google의 모바일 자동화 프로젝트 Artemis에서 자신들의 mobile-use 코드를 발견함. 원 프로젝트와 개발자 출처 표기가 사라져 있었다고 지적함.
+- [Pandas는 멸종해야 한다](https://eddie.codes/posts/pandas-should-go-extinct/)
+  Pandas가 느리다고 분산 쿼리 시스템으로 갈 필요는 없음. 100GB 안팎 작업은 Polars나 DuckDB 같은 고성능 단일 머신 도구로 충분함.
+- [다리오에게 보내는 공개서한: 진심이라면 모델 가중치를 공개하라](https://jacob.gold/posts/open-letter-to-dario-amodei-about-open-weights/)
+  Dario Amodei의 AI 개발 속도 조절 제안에 대한 반론임. 외부 평가자와 복잡한 규제 대신 대중에 제공되는 모델의 가중치 공개를 법으로 의무화하자고 주장함.
+- [모델은 스스로 통제를 벗어나지 않는다](https://mail.cyberneticforests.com/models-dont-go-rogue/)
+  OpenAI의 Hugging Face 해킹 사건에서 먼저 봐야 할 것은 AI의 자발적 일탈이 아니라 안전장치를 풀고 취약점 탐색을 맡긴 인간의 결정이라고 지적함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-09-13](data/2026-09-13.md)
 - [2026-09-12](data/2026-09-12.md)
 - [2026-09-11](data/2026-09-11.md)
 - [2026-09-10](data/2026-09-10.md)
@@ -69,4 +70,3 @@
 - [2026-08-15](data/2026-08-15.md)
 - [2026-08-14](data/2026-08-14.md)
 - [2026-08-13](data/2026-08-13.md)
-- [2026-08-12](data/2026-08-12.md)
