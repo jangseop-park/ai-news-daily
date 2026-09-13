@@ -1,0 +1,109 @@
+{
+  "date": "2026-09-14",
+  "github_trending": [
+    {
+      "name": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "description": "세계 최초 오픈소스 에이전틱 영상 제작 시스템임. 12개 제작 파이프라인, 100개 이상 도구, 700개 이상 스킬 파일로 AI 코딩 어시스턴트를 영상 스튜디오로 바꿈.",
+      "description_en": "World's first open-source agentic video production system with 12 pipelines, 100+ tools and 700+ skill files that turn an AI coding assistant into a full video studio."
+    },
+    {
+      "name": "multimodal-art-projection/YuE",
+      "url": "https://github.com/multimodal-art-projection/YuE",
+      "description": "YuE2: 심볼릭 플래닝, zero-shot 커버, 에이전트 기반 음악 편집을 지원하는 최전선 음악 생성 모델임.",
+      "description_en": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing."
+    },
+    {
+      "name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "완전 로컬로 돌아가는 오픈소스 ElevenLabs 대체재임. 음성 복제, 음성 디자인, 영상 더빙, 받아쓰기, 오디오북 제작을 646개 언어로 지원함.",
+      "description_en": "Open-source, fully-local ElevenLabs alternative: voice cloning, voice design, video dubbing, dictation, transcription and audiobook creation in 646 languages."
+    },
+    {
+      "name": "SnailSploit/Claude-Red",
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "description": "Claude skills 시스템용 공격 보안 스킬 라이브러리임. SQLi부터 익스플로잇 개발까지 공격 표면별 방법론을 SKILL.md로 정리함.",
+      "description_en": "A curated library of offensive security skills for the Claude skills system, each a structured SKILL.md covering a specific attack surface."
+    },
+    {
+      "name": "jihe520/MathModelAgent",
+      "url": "https://github.com/jihe520/MathModelAgent",
+      "description": "수학 모델링 전용 Agent & skills임. 문제를 주면 모델링을 자동 수행하고 제출 가능한 논문까지 생성함.",
+      "description_en": "An agent and skills for mathematical modeling that automatically completes the modeling and generates a submission-ready paper."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "Mi-Ripple: 반복 AI 편집으로 손상된 이미지 복원",
+      "title_en": "Mi-Ripple: Restoring Images Degraded by Iterative AI Editing",
+      "url": "https://huggingface.co/papers/2609.11317",
+      "summary": "참조 이미지 기반 편집을 반복하면 격자·입자 형태의 '디지털 리플'이 생김. 주기적 격자 아티팩트와 콘텐츠에 얽힌 입자 텍스처를 분리한 뒤 선택적 스펙트럼 노칭으로 구조를 보존하며 복원함.",
+      "summary_en": "Iterative reference-conditioned editing creates grid-like 'digital ripple'; Mi-Ripple separates periodic lattice artifacts from granular texture and restores images with selective spectral notching while preserving structure."
+    },
+    {
+      "title": "Memory as Plans: 메모리 기반 플래닝을 통한 World-Action 모델링",
+      "title_en": "Memory as Plans: World-Action Modeling with Memory-Grounded Planning",
+      "url": "https://huggingface.co/papers/2609.11561",
+      "summary": "로봇 조작 과제는 대부분 non-Markovian이라 장기 기억이 필요함. 언어 요약이나 시각 윈도우 확장 대신 메모리를 플랜으로 활용해 세밀한 시각 증거를 잃지 않고 장기 조작을 수행함.",
+      "summary_en": "Real-world manipulation is non-Markovian and needs long-horizon memory; instead of language summaries or growing visual windows, memory is grounded as plans to keep fine-grained visual evidence."
+    },
+    {
+      "title": "FreeFlow: 편향 없는 계층적 Transformer 기반 광학 흐름 추정",
+      "title_en": "FreeFlow: A Bias-free Hierarchical Transformer for Optical Flow Estimation",
+      "url": "https://huggingface.co/papers/2609.11486",
+      "summary": "correlation volume, feature warping, 반복 정제 같은 과제 특화 귀납 편향 없이 계층적 Transformer만으로 optical flow를 추정함. 파이프라인이 단순해지고 연산 비용이 줄어듦.",
+      "summary_en": "Estimates optical flow with a hierarchical transformer free of task-specific inductive biases such as correlation volumes, warping and iterative refinement, simplifying the pipeline."
+    },
+    {
+      "title": "MetroLLM-Bench: 교통 키오스크 런타임으로서의 언어 모델 평가",
+      "title_en": "MetroLLM-Bench: Evaluating Language Models as Transit Kiosk Runtimes",
+      "url": "https://huggingface.co/papers/2609.10016",
+      "summary": "실제 지하철 6개 노선망(37~414개 역)을 대상으로 경로 탐색, 요금 계산, 운행 중단, 접근성, 적대적 입력 등 11개 범주 955개 케이스로 구성된 벤치마크임. 모델이 구조화된 툴을 호출해 렌더링 가능한 최종 상태를 제출해야 함.",
+      "summary_en": "A 955-case benchmark across six real metro systems and eleven categories (routing, fares, disruptions, accessibility, adversarial input) where models must call structured tools and submit a renderable terminal state."
+    },
+    {
+      "title": "Negative Self-Distillation: 결함 회피를 통한 추론 학습",
+      "title_en": "Negative Self-Distillation: Learning to Reason by Avoiding Flaws",
+      "url": "https://huggingface.co/papers/2609.11699",
+      "summary": "정답을 참고한 자기 증류(OPSD)가 복잡한 추론에서 오히려 성능을 떨어뜨리는 문제를 지적함. 정답을 흉내 내는 대신 결함 있는 추론을 피하도록 학습하는 부정적 자기 증류를 제안함.",
+      "summary_en": "Shows on-policy self-distillation with privileged answers can hurt complex reasoning; proposes negative self-distillation that learns by avoiding flawed reasoning rather than imitating."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "젠장, 그래도 만들자",
+      "title_en": "Make It Anyway",
+      "url": "https://www.joelotter.com/posts/2026/09/make-it-anyway/",
+      "summary": "프롬프트 하나로 도구와 게임이 만들어지는 시대에 수년간 익힌 기술과 직접 만든 결과물의 가치를 의심하게 됨. 그래도 만드는 행위 자체의 의미를 되짚는 글임.",
+      "summary_en": "When a single prompt builds tools and games, hard-won skills feel worthless; an essay on why making things still matters anyway."
+    },
+    {
+      "title": "Google에 더 나은 모습을 기대했다 - 코드는 가져가고 출처는 지운 Artemis",
+      "title_en": "I expected better from Google - Artemis took the code and erased the credit",
+      "url": "https://www.minitap.ai/blog/i-expected-better-from-google",
+      "summary": "Minitap 팀이 Google의 모바일 자동화 프로젝트 Artemis에서 자신들의 mobile-use 코드를 발견함. 원 프로젝트와 개발자 출처 표기가 사라져 있었다고 지적함.",
+      "summary_en": "The Minitap team found their mobile-use code inside Google's Artemis mobile automation project with attribution to the original project and developers removed."
+    },
+    {
+      "title": "Pandas는 멸종해야 한다",
+      "title_en": "Pandas Should Go Extinct",
+      "url": "https://eddie.codes/posts/pandas-should-go-extinct/",
+      "summary": "Pandas가 느리다고 분산 쿼리 시스템으로 갈 필요는 없음. 100GB 안팎 작업은 Polars나 DuckDB 같은 고성능 단일 머신 도구로 충분함.",
+      "summary_en": "Slow Pandas is no reason to jump to distributed query systems; workloads around 100GB are well served by single-machine tools like Polars and DuckDB."
+    },
+    {
+      "title": "다리오에게 보내는 공개서한: 진심이라면 모델 가중치를 공개하라",
+      "title_en": "An open letter to Dario: if you mean it, open the weights",
+      "url": "https://jacob.gold/posts/open-letter-to-dario-amodei-about-open-weights/",
+      "summary": "Dario Amodei의 AI 개발 속도 조절 제안에 대한 반론임. 외부 평가자와 복잡한 규제 대신 대중에 제공되는 모델의 가중치 공개를 법으로 의무화하자고 주장함.",
+      "summary_en": "A response to Dario Amodei's call to pace AI: instead of external evaluators and complex regulation, legally mandate open weights for publicly offered models."
+    },
+    {
+      "title": "모델은 스스로 통제를 벗어나지 않는다",
+      "title_en": "Models Don't Go Rogue",
+      "url": "https://mail.cyberneticforests.com/models-dont-go-rogue/",
+      "summary": "OpenAI의 Hugging Face 해킹 사건에서 먼저 봐야 할 것은 AI의 자발적 일탈이 아니라 안전장치를 풀고 취약점 탐색을 맡긴 인간의 결정이라고 지적함.",
+      "summary_en": "On the OpenAI Hugging Face hacking incident: the story is not AI going rogue but the human decision to disable safeguards and assign vulnerability hunting."
+    }
+  ]
+}
