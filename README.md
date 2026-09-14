@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-09-14
+> 마지막 업데이트: 2026-09-15
 
-# AI 뉴스 — 2026-09-14
+# AI 뉴스 — 2026-09-15
 
 ## 🔥 GitHub Trending (Python)
 
-- [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage): 세계 최초 오픈소스 에이전틱 영상 제작 시스템임. 12개 제작 파이프라인, 100개 이상 도구, 700개 이상 스킬 파일로 AI 코딩 어시스턴트를 영상 스튜디오로 바꿈.
-- [multimodal-art-projection/YuE](https://github.com/multimodal-art-projection/YuE): YuE2: 심볼릭 플래닝, zero-shot 커버, 에이전트 기반 음악 편집을 지원하는 최전선 음악 생성 모델임.
-- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio): 완전 로컬로 돌아가는 오픈소스 ElevenLabs 대체재임. 음성 복제, 음성 디자인, 영상 더빙, 받아쓰기, 오디오북 제작을 646개 언어로 지원함.
-- [SnailSploit/Claude-Red](https://github.com/SnailSploit/Claude-Red): Claude skills 시스템용 공격 보안 스킬 라이브러리임. SQLi부터 익스플로잇 개발까지 공격 표면별 방법론을 SKILL.md로 정리함.
-- [jihe520/MathModelAgent](https://github.com/jihe520/MathModelAgent): 수학 모델링 전용 Agent & skills임. 문제를 주면 모델링을 자동 수행하고 제출 가능한 논문까지 생성함.
+- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio): 완전 로컬로 동작하는 오픈소스 ElevenLabs 대안임. 음성 복제, 음성 디자인, 영상 더빙, 받아쓰기, 전사, 오디오북 제작을 646개 언어로 지원함.
+- [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents): 멀티 에이전트 LLM 금융 트레이딩 프레임워크임. 애널리스트·리서처·트레이더·리스크 관리 역할의 에이전트가 협업해 매매 결정을 내림.
+- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): AI 에이전트에게 인터넷 전체를 보는 눈을 달아주는 CLI임. Twitter, Reddit, YouTube, GitHub, Bilibili, 샤오홍슈를 API 비용 없이 읽고 검색함.
+- [multimodal-art-projection/YuE](https://github.com/multimodal-art-projection/YuE): YuE2 프론티어 음악 생성 모델임. 심볼릭 플래닝, 제로샷 커버, 에이전트 기반 음악 편집을 지원함.
+- [666ghj/MiroFish](https://github.com/666ghj/MiroFish): 단순하고 범용적인 군집 지능(Swarm Intelligence) 엔진임. 다수의 에이전트 시뮬레이션으로 무엇이든 예측하는 것을 목표로 함.
 
 ## 📄 Hugging Face Papers
 
-- [Mi-Ripple: 반복 AI 편집으로 손상된 이미지 복원](https://huggingface.co/papers/2609.11317)
-  참조 이미지 기반 편집을 반복하면 격자·입자 형태의 '디지털 리플'이 생김. 주기적 격자 아티팩트와 콘텐츠에 얽힌 입자 텍스처를 분리한 뒤 선택적 스펙트럼 노칭으로 구조를 보존하며 복원함.
-- [Memory as Plans: 메모리 기반 플래닝을 통한 World-Action 모델링](https://huggingface.co/papers/2609.11561)
-  로봇 조작 과제는 대부분 non-Markovian이라 장기 기억이 필요함. 언어 요약이나 시각 윈도우 확장 대신 메모리를 플랜으로 활용해 세밀한 시각 증거를 잃지 않고 장기 조작을 수행함.
-- [FreeFlow: 편향 없는 계층적 Transformer 기반 광학 흐름 추정](https://huggingface.co/papers/2609.11486)
-  correlation volume, feature warping, 반복 정제 같은 과제 특화 귀납 편향 없이 계층적 Transformer만으로 optical flow를 추정함. 파이프라인이 단순해지고 연산 비용이 줄어듦.
-- [MetroLLM-Bench: 교통 키오스크 런타임으로서의 언어 모델 평가](https://huggingface.co/papers/2609.10016)
-  실제 지하철 6개 노선망(37~414개 역)을 대상으로 경로 탐색, 요금 계산, 운행 중단, 접근성, 적대적 입력 등 11개 범주 955개 케이스로 구성된 벤치마크임. 모델이 구조화된 툴을 호출해 렌더링 가능한 최종 상태를 제출해야 함.
-- [Negative Self-Distillation: 결함 회피를 통한 추론 학습](https://huggingface.co/papers/2609.11699)
-  정답을 참고한 자기 증류(OPSD)가 복잡한 추론에서 오히려 성능을 떨어뜨리는 문제를 지적함. 정답을 흉내 내는 대신 결함 있는 추론을 피하도록 학습하는 부정적 자기 증류를 제안함.
+- [DataFlex-RL: RLVR 데이터 정책 평가 플랫폼](https://huggingface.co/papers/2609.06107)
+  검증 가능한 보상 기반 RL(RLVR)에서 어떤 롤아웃을 쓰고 어떻게 가중치를 줄지 정하는 데이터 정책을 공통 GRPO 레시피로 비교하는 평가 플랫폼임. Qwen2.5-7B-Base로 13개 설정을 12개 시드에 걸쳐 실험함.
+- [StepAudio 3 Gen 기술 보고서](https://huggingface.co/papers/2609.12945)
+  제로샷 TTS, 음성 디자인, 보컬 생성, 효과음, 음악, 바이브 스피치를 하나의 프레임워크에서 지원하는 범용 오디오 생성 모델임. RVQ 토큰 위에서 직접 동작하는 이산 자기회귀 생성기가 핵심임.
+- [Top-k 스킬 검색을 넘어: LLM 에이전트를 위한 다양성 인식 스킬 라우팅](https://huggingface.co/papers/2609.05824)
+  대규모 스킬 레지스트리에서 기능이 중복되는 스킬은 걸러내고 상호 보완적인 스킬 조합을 고르는 라우팅 기법임. 기존 관련도 순 랭킹이 낭비하던 컨텍스트 예산을 절약함.
+- [제한된 피드백으로 LLM 전문가와 온라인 학습하기](https://huggingface.co/papers/2609.05820)
+  프롬프트를 여러 LLM 전문가에게 적응적으로 라우팅하는 문제를 밴딧 문제로 정식화함. 제한된 피드백만으로 후회(regret)를 최소화하는 알고리즘을 제안함.
+- [강의계획서 없이 공부하기: 과제 비의존적 환경 전처리](https://huggingface.co/papers/2609.10824)
+  LLM 에이전트가 새 환경에 들어가기 전 코퍼스와 도구를 살펴보고 인덱스·스크립트·절차 가이드 같은 재사용 자원을 미리 만드는 방법임. 과제 예시나 평가 피드백 없이도 동작함.
 
 ## 🦉 GeekNews
 
-- [젠장, 그래도 만들자](https://www.joelotter.com/posts/2026/09/make-it-anyway/)
-  프롬프트 하나로 도구와 게임이 만들어지는 시대에 수년간 익힌 기술과 직접 만든 결과물의 가치를 의심하게 됨. 그래도 만드는 행위 자체의 의미를 되짚는 글임.
-- [Google에 더 나은 모습을 기대했다 - 코드는 가져가고 출처는 지운 Artemis](https://www.minitap.ai/blog/i-expected-better-from-google)
-  Minitap 팀이 Google의 모바일 자동화 프로젝트 Artemis에서 자신들의 mobile-use 코드를 발견함. 원 프로젝트와 개발자 출처 표기가 사라져 있었다고 지적함.
-- [Pandas는 멸종해야 한다](https://eddie.codes/posts/pandas-should-go-extinct/)
-  Pandas가 느리다고 분산 쿼리 시스템으로 갈 필요는 없음. 100GB 안팎 작업은 Polars나 DuckDB 같은 고성능 단일 머신 도구로 충분함.
-- [다리오에게 보내는 공개서한: 진심이라면 모델 가중치를 공개하라](https://jacob.gold/posts/open-letter-to-dario-amodei-about-open-weights/)
-  Dario Amodei의 AI 개발 속도 조절 제안에 대한 반론임. 외부 평가자와 복잡한 규제 대신 대중에 제공되는 모델의 가중치 공개를 법으로 의무화하자고 주장함.
-- [모델은 스스로 통제를 벗어나지 않는다](https://mail.cyberneticforests.com/models-dont-go-rogue/)
-  OpenAI의 Hugging Face 해킹 사건에서 먼저 봐야 할 것은 AI의 자발적 일탈이 아니라 안전장치를 풀고 취약점 탐색을 맡긴 인간의 결정이라고 지적함.
+- [Diagram Design - AI가 만드는 다이어그램에 디자인 규칙을 더하는 스킬](https://github.com/cathrynlavery/diagram-design)
+  Claude Code, Codex 등에서 블로그·문서·발표 자료용 다이어그램을 자연어로 요청해 만드는 에이전트 스킬임. 비슷비슷한 둥근 상자와 화살표 대신 디자인 규칙을 적용해 결과물 품질을 높임.
+- [현실과 동떨어진 쿵푸 고수가 되지 말라 - 존 카맥](https://twitter.com/ID_AA_Carmack/status/2098443262214230095)
+  무술이 전장의 필수 기술에서 스포츠와 취미로 바뀌었듯, 프로그래밍 기술도 AI로 인해 비슷한 길을 걷고 있다는 카맥의 글임. 저수준 기술 자체보다 실제 문제 해결에 집중하라는 메시지임.
+- [바이브 코딩으로 만든 대시보드가 형편없어 보이는 10가지 이유](https://kucharski.substack.com/p/ten-reasons-your-vibe-coded-dashboard)
+  AI에 대시보드를 요청하면 차트와 필터는 만들어주지만 사용자가 무엇을 찾고 어디부터 봐야 하는지는 정리해주지 못함. 정보 위계, 색 사용, 레이아웃 등 흔한 실패 10가지를 정리함.
+- [엔지니어링 매니저의 네 가지 핵심 책임 영역](https://softwareleads.substack.com/p/the-four-pillars-of-engineering-management)
+  엔지니어링 매니저의 역할은 개인 기여를 넘어 팀 전체의 영향력을 높이는 것임. 소통, 우선순위 조정, 목표 정렬, 의사결정 지원 네 축으로 책임을 정리함.
+- [에이전트형 AI를 위한 데이터 준비하기](https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html)
+  사람이 경험으로 알아채던 데이터 오류와 업무 맥락을 에이전트가 스스로 보완하리라 기대할 수 없음. 데이터의 품질, 의미, 사용 권한을 시스템 차원에서 명시적으로 갖춰야 한다는 마틴 파울러 사이트의 글임.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-09-14](data/2026-09-14.md)
 - [2026-09-13](data/2026-09-13.md)
 - [2026-09-12](data/2026-09-12.md)
 - [2026-09-11](data/2026-09-11.md)
@@ -69,4 +70,3 @@
 - [2026-08-16](data/2026-08-16.md)
 - [2026-08-15](data/2026-08-15.md)
 - [2026-08-14](data/2026-08-14.md)
-- [2026-08-13](data/2026-08-13.md)
