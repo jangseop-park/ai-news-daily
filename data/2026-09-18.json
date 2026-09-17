@@ -1,0 +1,109 @@
+{
+  "date": "2026-09-18",
+  "github_trending": [
+    {
+      "name": "arnegiacomo/fugleramme",
+      "url": "https://github.com/arnegiacomo/fugleramme",
+      "description": "Raspberry Pi용 E-ink 새 액자임. 소리로 새를 실시간 감지하는 완전 로컬 AI를 돌리고, 감지된 새를 1800년대 수작업 조류 삽화로 화면에 띄워줌. 하루 700개 넘는 스타를 받으며 트렌딩 1위급으로 올라옴.",
+      "description_en": "An E-ink bird frame for Raspberry Pi. Detects birds in real time by audio using fully local AI and renders them as hand-cut 1800s bird illustrations. Gained 700+ stars in a day."
+    },
+    {
+      "name": "SnailSploit/Claude-Red",
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "description": "Claude skills 시스템용 공격 보안(레드팀) 스킬 모음임. 각 스킬이 SKILL.md 형태로 구성되어 SQLi, 익스플로잇 개발 등 공격 표면별 전문 방법론을 Claude에 주입함. 인가된 모의해킹·보안 연구 용도로 주목받는 중임.",
+      "description_en": "A curated library of offensive-security skills for the Claude skills system. Each SKILL.md primes Claude with expert methodology for a specific attack surface, from SQLi to exploit development; aimed at authorized pentesting and security research."
+    },
+    {
+      "name": "google-research/timesfm",
+      "url": "https://github.com/google-research/timesfm",
+      "description": "Google Research가 만든 시계열 파운데이션 모델 TimesFM임. 사전학습된 모델로 별도 학습 없이 시계열 예측을 수행할 수 있음. 수요·트래픽 예측 등에 바로 써볼 수 있어 다시 트렌딩에 오름.",
+      "description_en": "TimesFM, a pretrained time-series foundation model from Google Research for zero-shot time-series forecasting. Back on trending thanks to its plug-and-play forecasting use cases."
+    },
+    {
+      "name": "strands-agents/harness-sdk",
+      "url": "https://github.com/strands-agents/harness-sdk",
+      "description": "에이전트 하니스를 직접 만들고 끝까지 제어할 수 있게 해주는 오픈소스 SDK임. Python과 TypeScript를 지원하고 모델·클라우드에 종속되지 않음. 프로덕션용 AI 에이전트 구축을 목표로 함.",
+      "description_en": "Open-source SDK to build an agent harness and control it end-to-end. Supports Python and TypeScript with any model and any cloud, targeting production AI agents."
+    },
+    {
+      "name": "onyx-dot-app/onyx",
+      "url": "https://github.com/onyx-dot-app/onyx",
+      "description": "모든 LLM과 연동되는 오픈소스 AI 플랫폼임. 고급 기능을 갖춘 AI 채팅을 셀프호스팅으로 운영할 수 있음. 사내 지식 검색·챗봇 용도로 많이 쓰임.",
+      "description_en": "Open-source AI platform offering feature-rich AI chat that works with every LLM. Self-hostable and popular for internal knowledge search and chat assistants."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "LimiX-2: 범용 정형 데이터 지능을 향한 Contextual Mechanism Network",
+      "title_en": "LimiX-2: A Contextual Mechanism Network Towards General Structured-Data Intelligence",
+      "url": "https://huggingface.co/papers/2609.17488",
+      "summary": "테이블 데이터용 파운데이션 모델 LimiX의 후속작임. 기존 tabular PFN처럼 p(y|x, context)만 맞추는 대신 p(x, y|context) 결합 구조를 학습하는 CMN 패러다임을 도입함. 구조적 인과 모델(SCM)로 만든 합성 데이터로 사전학습했고 TabArena, TALENT, BCCO에서 기존 모델들을 앞섬. feature attention에 인과 관계가 드러나는 점도 특징임.",
+      "summary_en": "Successor in the LimiX tabular foundation model family. It adopts Contextual Mechanism Networks, learning the joint p(x, y | context) instead of target-centric p(y | x, context), pretrained on synthetic SCM-generated data. Outperforms dataset-specific and tabular foundation models on TabArena, TALENT, and BCCO, with feature attention that encodes causal relations."
+    },
+    {
+      "title": "ScienceIDE: 전 세계 과학 코드베이스를 에이전트 학습 환경으로 전환",
+      "title_en": "ScienceIDE: Turning World's Scientific Codebase into Agent Learnable Environments",
+      "url": "https://huggingface.co/papers/2609.19134",
+      "summary": "과학 코드 저장소를 에이전트가 학습할 수 있는 실행 가능한 환경으로 바꿔주는 인프라임. 전문가가 정의한 과학 사례와 합격 기준에 따라 태스크 생성·실행·과학적 검증을 지원함. 검증된 상호작용 궤적으로 PhAI-IDE-72B/9B/4B를 학습했고, 과학 코드 수리뿐 아니라 일반 코드·추론 벤치마크에서도 성능이 오름.",
+      "summary_en": "Infrastructure that turns scientific code repositories into executable environments for agents, supporting task generation, execution, and scientific verification under expert-defined acceptance criteria. Verified trajectories train PhAI-IDE-72B/9B/4B, which improve on held-out scientific-code repair and show positive transfer to general code, reasoning, and knowledge benchmarks."
+    },
+    {
+      "title": "PPO의 Critic 학습 재고: Value Flattening 현상의 이해와 완화",
+      "title_en": "Rethinking Critic Learning in PPO: Understanding and Mitigating Value Flattening",
+      "url": "https://huggingface.co/papers/2609.18708",
+      "summary": "LLM 강화학습에서 PPO critic이 중간 상태들의 가치 변화를 못 따라가고 평평하게 예측하는 'Value Flattening' 실패 모드를 발견함. critic 손실의 암묵적 분산 페널티와 시간적으로 상관된 상태의 중복 업데이트가 원인이라고 분석함. 응답당 서로 떨어진 소수 상태에만 value loss를 거는 SP³O를 제안했고, Qwen3-Base에서 상태 3개만 감독해도 성능이 일관되게 개선됨.",
+      "summary_en": "Identifies 'Value Flattening', a systematic failure where PPO critics in LLM RL predict flat values while true state values change sharply. The authors tie it to an implicit variance penalty and redundant updates from temporally correlated states, and propose SP³O, which applies value loss to only a few well-separated states per response; supervising just three states improves results on Qwen3-Base."
+    },
+    {
+      "title": "자신감은 경험에서 나온다: 추론부터 에이전트까지 경험 기반 신뢰도 추정",
+      "title_en": "Confidence Comes from Experience: Experiential Confidence Estimation from Reasoning to Agents",
+      "url": "https://huggingface.co/papers/2609.17708",
+      "summary": "기존 신뢰도 추정은 현재 추론 과정만 들여다본다는 한계를 지적하고, 모델의 누적 경험을 함께 쓰는 XConf를 제안함. 과거 채점된 에피소드(과제, 성찰, 당시 신뢰도, 결과, 교훈)를 저장해 둠. 새 과제가 오면 Recall 단계에서 비슷한 과제·비슷한 신뢰도의 과거 성공률을 읽고, Reflect 단계에서 반복되는 실패 패턴을 짚은 뒤 신뢰도를 다시 말하게 함.",
+      "summary_en": "Argues that the current inference alone is insufficient for confidence estimation and proposes XConf, which uses the model's accumulated experience. It stores graded past episodes (task, reflection, stated confidence, outcome, lesson); a Recall stage retrieves similar episodes to read historical success rates, and a Reflect stage has the model name recurring failure modes and restate its confidence."
+    },
+    {
+      "title": "Agora: 집단 AutoResearch를 위한 공유 메모리로서의 Git",
+      "title_en": "Agora: Git as Shared Memory for Collective AutoResearch",
+      "url": "https://huggingface.co/papers/2609.18094",
+      "summary": "여러 자율 연구 에이전트가 각자 처음부터 탐색해 중복만 늘어나는 문제를 Git 기반 공유 메모리로 해결함. 결과·가설·검증·리포트를 append-only DAG의 불변 커밋으로 기록해 누구나 체크아웃해서 재실행할 수 있음. 인덱스가 프런티어와 방치된 브랜치, 검증 상태를 보여주고 다양성 기반 선택 규칙이 한 방향 쏠림을 막음. 13개 LLM 워커가 중앙 플래너 없이 약 12일간 weight-transfer 문제를 협업한 사례를 보고함.",
+      "summary_en": "A Git-backed shared memory for multiple autonomous research agents, recording results, hypotheses, verifications, and reports as immutable commits in an append-only DAG anyone can check out and rerun. A derived index exposes the frontier, neglected branches, and verification status, with diversity-aware selection to prevent collapse. Reports a ~12-day run of 13 LLM workers collaborating on a weight-transfer problem with no central planner."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "LLM 시대의 프로그래밍 학습",
+      "title_en": "On Learning Programming in an Age of LLMs",
+      "url": "https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/",
+      "summary": "LLM으로 꽤 큰 시스템을 만든 초보 개발자가 구현 능력과 이해 수준의 격차에 부딪힌 사례를 다룸. 잘 돌아갈 때는 안 보이던 격차가 제품화와 오류 수정 단계에서 드러남. LLM 시대에도 기본기를 직접 이해하며 배우는 과정이 필요하다는 글임.",
+      "summary_en": "Discusses a novice who built a sizable system with LLMs and hit the gap between what they could produce and what they understood. The gap, invisible while things worked, surfaced during productization and debugging, arguing fundamentals still need to be learned."
+    },
+    {
+      "title": "작은 프로그래밍 요령들",
+      "title_en": "Small Programming Tricks Matter",
+      "url": "https://will-keleher.com/posts/small-programming-tricks-matter/",
+      "summary": "엔지니어링 생산성의 상당 부분은 언어 기능, 명령어, 디버깅 단서 같은 작은 지식에서 나온다는 글임. 많은 사전 지식 없이 바로 써먹을 수 있는 요령이 특히 유용함. 팀 안에서 이런 팁을 꾸준히 공유하는 문화를 권함.",
+      "summary_en": "Argues that much engineering productivity comes from small bits of knowledge: language features, commands, and debugging cues. Tricks usable without much prior context are especially valuable, and teams should share them regularly."
+    },
+    {
+      "title": "다른 사람들의 일까지 하기",
+      "title_en": "Doing Everyone Else's Job",
+      "url": "https://yosefk.com/blog/doing-everyone-elses-job.html",
+      "summary": "다른 사람의 일까지 할 줄 알면 그들이 어떻게 일하고 무엇을 필요로 하는지 이해하게 된다는 글임. 필요한 일을 담당자가 하지 않을 때 직접 해결할 수 있는 힘도 생김. 역할 경계를 넘는 역량의 장점과 부담을 함께 짚음.",
+      "summary_en": "Knowing how to do other people's jobs helps you understand how they work and what they need, and lets you step in when something necessary isn't getting done. The post weighs the benefits and costs of crossing role boundaries."
+    },
+    {
+      "title": "PS5 Linux 핵심 개발자 하차: \"LLM으로 자신도 이해하지 못하는 코드를 짜는 초보자들뿐\"",
+      "title_en": "PS5 Linux Lead Quits, Citing Noobs Using LLMs They Don't Understand",
+      "url": "https://frvr.com/blog/news/ps5-linux-lead-quits-as-open-source-projects-have-become-a-bunch-of-noobs-using-llms-that-they-dont-even-understand/",
+      "summary": "PlayStation 해커이자 홈브루 개발자 Andy 'TheFlow0' Nguyen이 PS5 커뮤니티 활동과 PS5 Linux 개발을 중단함. AI 바이브 코더가 늘면서 이해하지 못한 코드가 쏟아지는 상황을 이유로 듦. 오픈소스 메인테이너의 LLM 피로감을 보여주는 사례임.",
+      "summary_en": "PlayStation hacker and homebrew developer Andy 'TheFlow0' Nguyen is stepping away from the PS5 scene and PS5 Linux development, citing the rise of AI vibe coders submitting code they don't understand. A sign of growing LLM fatigue among open-source maintainers."
+    },
+    {
+      "title": "NVIDIA, Rust 네이티브 GPU 프로그래밍 지원 발표",
+      "title_en": "NVIDIA Introduces CUDA Rust: Two Tracks for Writing GPU Kernels",
+      "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
+      "summary": "NVIDIA가 CUDA Rust를 발표함. 다른 언어로 짠 커널을 호출하는 래퍼 수준을 넘어 GPU 커널 자체를 Rust로 작성해 네이티브로 컴파일할 수 있음. 두 가지 개발 경로를 제공해 상황에 맞게 고를 수 있음.",
+      "summary_en": "NVIDIA announced CUDA Rust, going beyond wrappers that call kernels written in other languages: GPU kernels themselves can be written in Rust and compiled natively, with two development tracks to choose from."
+    }
+  ]
+}
