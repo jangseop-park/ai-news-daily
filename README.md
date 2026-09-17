@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-09-17
+> 마지막 업데이트: 2026-09-18
 
-# AI 뉴스 — 2026-09-17
+# AI 뉴스 — 2026-09-18
 
 ## 🔥 GitHub Trending (Python)
 
-- [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins): Anthropic이 공개한 Claude Cowork용 오픈소스 플러그인 모음임. 개발자가 아닌 지식 노동자(기획·마케팅·영업 등)가 바로 쓸 수 있는 워크플로 플러그인 위주로 구성됨.
-- [roboflow/supervision](https://github.com/roboflow/supervision): Roboflow의 재사용 가능한 컴퓨터 비전 유틸리티 라이브러리임. 탐지 결과 시각화, 객체 추적, 영역 카운팅, 데이터셋 변환 등을 모델 종류와 무관하게 몇 줄로 처리할 수 있음.
-- [rlaope/oh-my-hermes](https://github.com/rlaope/oh-my-hermes): Hermes Agent용 올인원 플러그인임. 코딩 인텔리전스, 장기 기억 시스템, 모델별 최적화 워크플로 패키지를 한 번에 설치해 에이전트를 확장함.
-- [TencentCloud/Octop](https://github.com/TencentCloud/Octop): Tencent Cloud가 공개한 셀프호스팅 AI 어시스턴트임. 다중 사용자와 다중 에이전트를 지원해 팀 단위로 직접 서버에 올려 운영할 수 있음.
-- [meituan-longcat/LongCat-Video](https://github.com/meituan-longcat/LongCat-Video): Meituan의 13.6B 파라미터 비디오 생성 모델임. Text-to-Video, Image-to-Video, Video-Continuation을 단일 모델로 처리하고 수 분 길이 720p/30fps 영상을 품질 저하 없이 생성함. 오디오 기반 아바타 생성 모델 Avatar-1.5도 포함됨.
+- [arnegiacomo/fugleramme](https://github.com/arnegiacomo/fugleramme): Raspberry Pi용 E-ink 새 액자임. 소리로 새를 실시간 감지하는 완전 로컬 AI를 돌리고, 감지된 새를 1800년대 수작업 조류 삽화로 화면에 띄워줌. 하루 700개 넘는 스타를 받으며 트렌딩 1위급으로 올라옴.
+- [SnailSploit/Claude-Red](https://github.com/SnailSploit/Claude-Red): Claude skills 시스템용 공격 보안(레드팀) 스킬 모음임. 각 스킬이 SKILL.md 형태로 구성되어 SQLi, 익스플로잇 개발 등 공격 표면별 전문 방법론을 Claude에 주입함. 인가된 모의해킹·보안 연구 용도로 주목받는 중임.
+- [google-research/timesfm](https://github.com/google-research/timesfm): Google Research가 만든 시계열 파운데이션 모델 TimesFM임. 사전학습된 모델로 별도 학습 없이 시계열 예측을 수행할 수 있음. 수요·트래픽 예측 등에 바로 써볼 수 있어 다시 트렌딩에 오름.
+- [strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk): 에이전트 하니스를 직접 만들고 끝까지 제어할 수 있게 해주는 오픈소스 SDK임. Python과 TypeScript를 지원하고 모델·클라우드에 종속되지 않음. 프로덕션용 AI 에이전트 구축을 목표로 함.
+- [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx): 모든 LLM과 연동되는 오픈소스 AI 플랫폼임. 고급 기능을 갖춘 AI 채팅을 셀프호스팅으로 운영할 수 있음. 사내 지식 검색·챗봇 용도로 많이 쓰임.
 
 ## 📄 Hugging Face Papers
 
-- [StepAudio 3 Realtime 기술 보고서](https://huggingface.co/papers/2609.14005)
-  실시간 음성 대화를 위한 오디오-언어 파운데이션 모델임. 듣기-대화-사고-행동이 연속으로 이어지는 루프 구조로 설계됨. 음향 단서로 사용자 의도를 파악하는 Deep Perception과 양방향 오디오 스트림을 동기화하는 Seamless Duplex로 자연스러운 턴테이킹을 구현함.
-- [StepAudio 3 Music 기술 보고서](https://huggingface.co/papers/2609.16034)
-  긴 호흡의 음악을 생성하는 대규모 모델임. 명시적인 음악 구조 계획과 오픈 도메인 텍스트 제어를 지원함. 65536개 단일 코드북의 50Hz 스트림으로 오디오를 표현하는 전용 토크나이저를 사용해 음악적 정보를 보존함.
-- [HarnessVLN: 에이전트 하네스로 학습 없는 구체화 내비게이션 통합](https://huggingface.co/papers/2609.15195)
-  별도 학습 없이 멀티모달 LLM만으로 로봇 내비게이션을 수행하는 에이전트 하네스임. 시각 관찰 해석, 공간 지식 누적, 행동 실행을 하나의 프레임워크로 통합해 기존 training-free 방식의 일관성 부족 문제를 해결함.
-- [FLAT: 이미지와 텍스트를 1D 가변 길이 정렬 토큰으로 리샘플링해 검색과 생성에 활용](https://huggingface.co/papers/2609.16591)
-  멀티모달 표현 학습과 생성을 두 단계로 나누던 관행을 깨고 공동 학습함. 이미지와 텍스트를 길이가 유동적인 1D 정렬 토큰으로 리샘플링해 검색과 생성 모두에 쓸 수 있는 통합 표현을 만듦.
-- [ModularRSI: 모듈식이고 일반화 가능한 재귀적 하네스 자기개선](https://huggingface.co/papers/2609.14857)
-  코딩·터미널 에이전트의 하네스를 경험으로부터 스스로 개선하는 재귀적 자기개선(RSI) 연구임. 하네스를 모듈 단위로 분리해 벤치마크에 과적합하지 않고 재사용 가능한 개선만 골라내도록 설계함.
+- [LimiX-2: 범용 정형 데이터 지능을 향한 Contextual Mechanism Network](https://huggingface.co/papers/2609.17488)
+  테이블 데이터용 파운데이션 모델 LimiX의 후속작임. 기존 tabular PFN처럼 p(y|x, context)만 맞추는 대신 p(x, y|context) 결합 구조를 학습하는 CMN 패러다임을 도입함. 구조적 인과 모델(SCM)로 만든 합성 데이터로 사전학습했고 TabArena, TALENT, BCCO에서 기존 모델들을 앞섬. feature attention에 인과 관계가 드러나는 점도 특징임.
+- [ScienceIDE: 전 세계 과학 코드베이스를 에이전트 학습 환경으로 전환](https://huggingface.co/papers/2609.19134)
+  과학 코드 저장소를 에이전트가 학습할 수 있는 실행 가능한 환경으로 바꿔주는 인프라임. 전문가가 정의한 과학 사례와 합격 기준에 따라 태스크 생성·실행·과학적 검증을 지원함. 검증된 상호작용 궤적으로 PhAI-IDE-72B/9B/4B를 학습했고, 과학 코드 수리뿐 아니라 일반 코드·추론 벤치마크에서도 성능이 오름.
+- [PPO의 Critic 학습 재고: Value Flattening 현상의 이해와 완화](https://huggingface.co/papers/2609.18708)
+  LLM 강화학습에서 PPO critic이 중간 상태들의 가치 변화를 못 따라가고 평평하게 예측하는 'Value Flattening' 실패 모드를 발견함. critic 손실의 암묵적 분산 페널티와 시간적으로 상관된 상태의 중복 업데이트가 원인이라고 분석함. 응답당 서로 떨어진 소수 상태에만 value loss를 거는 SP³O를 제안했고, Qwen3-Base에서 상태 3개만 감독해도 성능이 일관되게 개선됨.
+- [자신감은 경험에서 나온다: 추론부터 에이전트까지 경험 기반 신뢰도 추정](https://huggingface.co/papers/2609.17708)
+  기존 신뢰도 추정은 현재 추론 과정만 들여다본다는 한계를 지적하고, 모델의 누적 경험을 함께 쓰는 XConf를 제안함. 과거 채점된 에피소드(과제, 성찰, 당시 신뢰도, 결과, 교훈)를 저장해 둠. 새 과제가 오면 Recall 단계에서 비슷한 과제·비슷한 신뢰도의 과거 성공률을 읽고, Reflect 단계에서 반복되는 실패 패턴을 짚은 뒤 신뢰도를 다시 말하게 함.
+- [Agora: 집단 AutoResearch를 위한 공유 메모리로서의 Git](https://huggingface.co/papers/2609.18094)
+  여러 자율 연구 에이전트가 각자 처음부터 탐색해 중복만 늘어나는 문제를 Git 기반 공유 메모리로 해결함. 결과·가설·검증·리포트를 append-only DAG의 불변 커밋으로 기록해 누구나 체크아웃해서 재실행할 수 있음. 인덱스가 프런티어와 방치된 브랜치, 검증 상태를 보여주고 다양성 기반 선택 규칙이 한 방향 쏠림을 막음. 13개 LLM 워커가 중앙 플래너 없이 약 12일간 weight-transfer 문제를 협업한 사례를 보고함.
 
 ## 🦉 GeekNews
 
-- [여러분의 사고방식에 가장 큰 영향을 준 블로그 글은 무엇인가요?](https://lobste.rs/s/lbavmm/what_blog_posts_influenced_your_thinking)
-  Lobsters 커뮤니티에서 개발자들이 자기 사고방식을 바꾼 블로그 글을 추천한 스레드임. 소프트웨어 설계부터 제품 완성, 경력 관리, 개발자의 책임까지 폭넓은 고전 글이 모임.
-- [아직도 코드를 읽나요?](https://zanlib.dev/blog/do-you-still-read-the-code/)
-  AI 활용 방식을 구현 이해를 유지하는 '가속형 개발자'와 구현과 수정을 통째로 위임하는 '바이브코더'로 나눔. 차이는 AI가 쓴 코드의 양이 아니라 결과물을 이해하고 책임질 수 있느냐에 있다고 주장함.
-- [Show GN: 'AI에게 시니어처럼 생각해'라고 하지 않고 엔지니어의 판단 과정을 23개 스킬로 쪼갬](https://news.hada.io/topic?id=33762)
-  'Think like a senior engineer' 같은 모호한 프롬프트 대신 시니어의 판단 과정을 23개 구체적 스킬로 분해해 코딩 에이전트에 적용한 프로젝트임. 각 스킬이 언제 어떤 판단을 내리는지 명시해 재현성을 높임.
-- [전 FTC 위원장 Khan, 1934년 판례 들며 'AI CEO들에게 수갑을 채워라'](https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325)
-  Lina Khan 전 FTC 위원장이 기존 법률만으로도 위험하거나 검증되지 않은 AI를 출시한 기업과 경영진에게 형사 책임을 물을 수 있다고 주장함. 1934년 판례를 근거로 새 규제 없이도 집행이 가능하다고 봄.
-- [dbt Charts: AI와 대화로 만들고 Git으로 관리하는 대시보드](https://dbtcharts.com/blog/charts-built-for-chat/)
-  dbt Labs가 차트·필터·데이터 조회를 YAML 파일 하나로 정의하는 오픈소스 대시보드 언어를 공개함. AI가 대화로 대시보드를 생성하고 결과물은 Git으로 버전 관리할 수 있게 설계됨.
+- [LLM 시대의 프로그래밍 학습](https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/)
+  LLM으로 꽤 큰 시스템을 만든 초보 개발자가 구현 능력과 이해 수준의 격차에 부딪힌 사례를 다룸. 잘 돌아갈 때는 안 보이던 격차가 제품화와 오류 수정 단계에서 드러남. LLM 시대에도 기본기를 직접 이해하며 배우는 과정이 필요하다는 글임.
+- [작은 프로그래밍 요령들](https://will-keleher.com/posts/small-programming-tricks-matter/)
+  엔지니어링 생산성의 상당 부분은 언어 기능, 명령어, 디버깅 단서 같은 작은 지식에서 나온다는 글임. 많은 사전 지식 없이 바로 써먹을 수 있는 요령이 특히 유용함. 팀 안에서 이런 팁을 꾸준히 공유하는 문화를 권함.
+- [다른 사람들의 일까지 하기](https://yosefk.com/blog/doing-everyone-elses-job.html)
+  다른 사람의 일까지 할 줄 알면 그들이 어떻게 일하고 무엇을 필요로 하는지 이해하게 된다는 글임. 필요한 일을 담당자가 하지 않을 때 직접 해결할 수 있는 힘도 생김. 역할 경계를 넘는 역량의 장점과 부담을 함께 짚음.
+- [PS5 Linux 핵심 개발자 하차: "LLM으로 자신도 이해하지 못하는 코드를 짜는 초보자들뿐"](https://frvr.com/blog/news/ps5-linux-lead-quits-as-open-source-projects-have-become-a-bunch-of-noobs-using-llms-that-they-dont-even-understand/)
+  PlayStation 해커이자 홈브루 개발자 Andy 'TheFlow0' Nguyen이 PS5 커뮤니티 활동과 PS5 Linux 개발을 중단함. AI 바이브 코더가 늘면서 이해하지 못한 코드가 쏟아지는 상황을 이유로 듦. 오픈소스 메인테이너의 LLM 피로감을 보여주는 사례임.
+- [NVIDIA, Rust 네이티브 GPU 프로그래밍 지원 발표](https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/)
+  NVIDIA가 CUDA Rust를 발표함. 다른 언어로 짠 커널을 호출하는 래퍼 수준을 넘어 GPU 커널 자체를 Rust로 작성해 네이티브로 컴파일할 수 있음. 두 가지 개발 경로를 제공해 상황에 맞게 고를 수 있음.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-09-17](data/2026-09-17.md)
 - [2026-09-15](data/2026-09-15.md)
 - [2026-09-14](data/2026-09-14.md)
 - [2026-09-13](data/2026-09-13.md)
@@ -69,4 +70,3 @@
 - [2026-08-18](data/2026-08-18.md)
 - [2026-08-17](data/2026-08-17.md)
 - [2026-08-16](data/2026-08-16.md)
-- [2026-08-15](data/2026-08-15.md)
