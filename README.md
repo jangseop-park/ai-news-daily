@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-09-18
+> 마지막 업데이트: 2026-09-19
 
-# AI 뉴스 — 2026-09-18
+# AI 뉴스 — 2026-09-19
 
 ## 🔥 GitHub Trending (Python)
 
-- [arnegiacomo/fugleramme](https://github.com/arnegiacomo/fugleramme): Raspberry Pi용 E-ink 새 액자임. 소리로 새를 실시간 감지하는 완전 로컬 AI를 돌리고, 감지된 새를 1800년대 수작업 조류 삽화로 화면에 띄워줌. 하루 700개 넘는 스타를 받으며 트렌딩 1위급으로 올라옴.
-- [SnailSploit/Claude-Red](https://github.com/SnailSploit/Claude-Red): Claude skills 시스템용 공격 보안(레드팀) 스킬 모음임. 각 스킬이 SKILL.md 형태로 구성되어 SQLi, 익스플로잇 개발 등 공격 표면별 전문 방법론을 Claude에 주입함. 인가된 모의해킹·보안 연구 용도로 주목받는 중임.
-- [google-research/timesfm](https://github.com/google-research/timesfm): Google Research가 만든 시계열 파운데이션 모델 TimesFM임. 사전학습된 모델로 별도 학습 없이 시계열 예측을 수행할 수 있음. 수요·트래픽 예측 등에 바로 써볼 수 있어 다시 트렌딩에 오름.
-- [strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk): 에이전트 하니스를 직접 만들고 끝까지 제어할 수 있게 해주는 오픈소스 SDK임. Python과 TypeScript를 지원하고 모델·클라우드에 종속되지 않음. 프로덕션용 AI 에이전트 구축을 목표로 함.
-- [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx): 모든 LLM과 연동되는 오픈소스 AI 플랫폼임. 고급 기능을 갖춘 AI 채팅을 셀프호스팅으로 운영할 수 있음. 사내 지식 검색·챗봇 용도로 많이 쓰임.
+- [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector): AI 에이전트 스킬용 보안 스캐너임. Claude Code, Codex, MCP 스킬을 설치하기 전에 취약점, 악성 패턴, 프롬프트 인젝션, 데이터 유출, 공급망 위험을 탐지함. 스킬 생태계가 커지면서 설치 전 검증 도구로 주목받음.
+- [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling): 단일 요청부터 대규모 크롤링까지 처리하는 적응형 웹 스크래핑 프레임워크임. 사이트 구조가 바뀌어도 요소를 다시 찾아내는 적응형 파싱이 특징임. 하루 300개 이상 스타를 받음.
+- [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos): 금융 시장의 '언어'를 학습한 파운데이션 모델임. 캔들(K-line) 시계열 데이터를 토큰화해 사전학습했고 가격 예측 등 금융 시계열 태스크에 활용 가능함.
+- [microsoft/agent-lightning](https://github.com/microsoft/agent-lightning): Microsoft가 만든 AI 에이전트 학습 프레임워크임. 기존 에이전트 코드를 거의 바꾸지 않고 강화학습 등으로 에이전트를 훈련·최적화할 수 있게 해줌.
+- [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph): MCP와 CLI용 로컬 우선 코드 인텔리전스 그래프임. 코드베이스의 영속적인 지도를 만들어 AI 코딩 도구가 필요한 부분만 읽게 함. 코드 리뷰와 대형 레포 작업에서 컨텍스트를 크게 줄였다는 벤치마크를 제시함.
 
 ## 📄 Hugging Face Papers
 
-- [LimiX-2: 범용 정형 데이터 지능을 향한 Contextual Mechanism Network](https://huggingface.co/papers/2609.17488)
-  테이블 데이터용 파운데이션 모델 LimiX의 후속작임. 기존 tabular PFN처럼 p(y|x, context)만 맞추는 대신 p(x, y|context) 결합 구조를 학습하는 CMN 패러다임을 도입함. 구조적 인과 모델(SCM)로 만든 합성 데이터로 사전학습했고 TabArena, TALENT, BCCO에서 기존 모델들을 앞섬. feature attention에 인과 관계가 드러나는 점도 특징임.
-- [ScienceIDE: 전 세계 과학 코드베이스를 에이전트 학습 환경으로 전환](https://huggingface.co/papers/2609.19134)
-  과학 코드 저장소를 에이전트가 학습할 수 있는 실행 가능한 환경으로 바꿔주는 인프라임. 전문가가 정의한 과학 사례와 합격 기준에 따라 태스크 생성·실행·과학적 검증을 지원함. 검증된 상호작용 궤적으로 PhAI-IDE-72B/9B/4B를 학습했고, 과학 코드 수리뿐 아니라 일반 코드·추론 벤치마크에서도 성능이 오름.
-- [PPO의 Critic 학습 재고: Value Flattening 현상의 이해와 완화](https://huggingface.co/papers/2609.18708)
-  LLM 강화학습에서 PPO critic이 중간 상태들의 가치 변화를 못 따라가고 평평하게 예측하는 'Value Flattening' 실패 모드를 발견함. critic 손실의 암묵적 분산 페널티와 시간적으로 상관된 상태의 중복 업데이트가 원인이라고 분석함. 응답당 서로 떨어진 소수 상태에만 value loss를 거는 SP³O를 제안했고, Qwen3-Base에서 상태 3개만 감독해도 성능이 일관되게 개선됨.
-- [자신감은 경험에서 나온다: 추론부터 에이전트까지 경험 기반 신뢰도 추정](https://huggingface.co/papers/2609.17708)
-  기존 신뢰도 추정은 현재 추론 과정만 들여다본다는 한계를 지적하고, 모델의 누적 경험을 함께 쓰는 XConf를 제안함. 과거 채점된 에피소드(과제, 성찰, 당시 신뢰도, 결과, 교훈)를 저장해 둠. 새 과제가 오면 Recall 단계에서 비슷한 과제·비슷한 신뢰도의 과거 성공률을 읽고, Reflect 단계에서 반복되는 실패 패턴을 짚은 뒤 신뢰도를 다시 말하게 함.
-- [Agora: 집단 AutoResearch를 위한 공유 메모리로서의 Git](https://huggingface.co/papers/2609.18094)
-  여러 자율 연구 에이전트가 각자 처음부터 탐색해 중복만 늘어나는 문제를 Git 기반 공유 메모리로 해결함. 결과·가설·검증·리포트를 append-only DAG의 불변 커밋으로 기록해 누구나 체크아웃해서 재실행할 수 있음. 인덱스가 프런티어와 방치된 브랜치, 검증 상태를 보여주고 다양성 기반 선택 규칙이 한 방향 쏠림을 막음. 13개 LLM 워커가 중앙 플래너 없이 약 12일간 weight-transfer 문제를 협업한 사례를 보고함.
+- [DeepSeek-V4.1-Flash: KV Cache 압축의 한계에 도전](https://huggingface.co/papers/2609.19969)
+  장기 에이전트 워크로드가 입력 중심으로 바뀌면서 prefill 비용과 KV cache 용량·대역폭이 배포 비용의 병목이 됐다고 진단함. 백본 552B 파라미터의 멀티모달 MoE 모델로 최대 100만 토큰 컨텍스트를 지원함. Causal Encoder-Decoder(CED) 구조로 decode 때는 토큰당 16B, prefill 때는 8B만 활성화해 에이전트 워크로드의 비용 효율을 크게 높임.
+- [EOS 토큰이 어긋날 때: On-Policy Distillation의 길이 팽창 이해하기](https://huggingface.co/papers/2609.20511)
+  On-policy distillation에서 학생 모델 응답이 지나치게 길어지는 현상의 원인을 분석함. base 학생과 post-trained 교사가 서로 다른 EOS 토큰에 종료 확률을 두는 불일치가 주요 원인임을 Qwen3, Llama, Gemma에서 확인함. 디코딩 stopping set만 맞추는 것으로는 부족하고, 기능적으로 동등한 EOS 토큰들을 하나의 종료 행동으로 묶어 다루면 길이 팽창이 크게 완화됨.
+- [JEPA-Anything: 서로 다른 세계를 아우르는 예측 모델 학습](https://huggingface.co/papers/2609.20800)
+  도메인에 상관없이 쓸 수 있는 월드 모델링 프레임워크임. JEPA를 확장한 orthogonal predictive factorization(OPF)으로 잠재 타깃을 상보적 요소로 분해해 전용 경로에서 학습한 뒤 다시 결합함. 비전, 생물학, 임상 궤적, 제어, 분자동역학, 물리장, 날씨 등 7개 도메인에서 표현 학습·개입 예측·OOD 일반화·장기 동역학을 평가함.
+- [MiniMax-H3는 물리 세계를 추론할 수 있는가? Omni-Modal 생성 모델 평가](https://huggingface.co/papers/2609.18323)
+  텍스트·이미지·비디오·오디오를 통합 생성하는 MiniMax-H3를 대상으로 물리 세계 추론 능력을 평가함. 멀티모달 정렬이 월드 추론을 개선하는지 묻고, 네 가지 상보적 차원으로 구성된 평가 프레임워크를 제안함. 프롬프트가 정답 영상과 거의 일치하던 기존 평가와 달리 omni-modal 입력을 적극 활용하도록 설계됨.
+- [RiskChainBench: 난독화된 플랫폼 메시지 복원과 증거 기반 웹 조사 벤치마크](https://huggingface.co/papers/2609.16900)
+  이모지, 동음이의어, 글자 분해 등으로 유도 문구를 숨기는 플랫폼 악용 캠페인 탐지를 위한 벤치마크임. 600개 세션에서 만든 3,600개 복원 입력과 사람이 라벨링한 600개 로컬 웹 환경을 짝지음. 모델이 먼저 메시지·의도·목적지를 복원한 뒤 VLM 웹 에이전트로 해당 사이트를 조사해 증거 인용 위험 리포트를 작성하게 하여 두 단계를 함께 평가함.
 
 ## 🦉 GeekNews
 
-- [LLM 시대의 프로그래밍 학습](https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/)
-  LLM으로 꽤 큰 시스템을 만든 초보 개발자가 구현 능력과 이해 수준의 격차에 부딪힌 사례를 다룸. 잘 돌아갈 때는 안 보이던 격차가 제품화와 오류 수정 단계에서 드러남. LLM 시대에도 기본기를 직접 이해하며 배우는 과정이 필요하다는 글임.
-- [작은 프로그래밍 요령들](https://will-keleher.com/posts/small-programming-tricks-matter/)
-  엔지니어링 생산성의 상당 부분은 언어 기능, 명령어, 디버깅 단서 같은 작은 지식에서 나온다는 글임. 많은 사전 지식 없이 바로 써먹을 수 있는 요령이 특히 유용함. 팀 안에서 이런 팁을 꾸준히 공유하는 문화를 권함.
-- [다른 사람들의 일까지 하기](https://yosefk.com/blog/doing-everyone-elses-job.html)
-  다른 사람의 일까지 할 줄 알면 그들이 어떻게 일하고 무엇을 필요로 하는지 이해하게 된다는 글임. 필요한 일을 담당자가 하지 않을 때 직접 해결할 수 있는 힘도 생김. 역할 경계를 넘는 역량의 장점과 부담을 함께 짚음.
-- [PS5 Linux 핵심 개발자 하차: "LLM으로 자신도 이해하지 못하는 코드를 짜는 초보자들뿐"](https://frvr.com/blog/news/ps5-linux-lead-quits-as-open-source-projects-have-become-a-bunch-of-noobs-using-llms-that-they-dont-even-understand/)
-  PlayStation 해커이자 홈브루 개발자 Andy 'TheFlow0' Nguyen이 PS5 커뮤니티 활동과 PS5 Linux 개발을 중단함. AI 바이브 코더가 늘면서 이해하지 못한 코드가 쏟아지는 상황을 이유로 듦. 오픈소스 메인테이너의 LLM 피로감을 보여주는 사례임.
-- [NVIDIA, Rust 네이티브 GPU 프로그래밍 지원 발표](https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/)
-  NVIDIA가 CUDA Rust를 발표함. 다른 언어로 짠 커널을 호출하는 래퍼 수준을 넘어 GPU 커널 자체를 Rust로 작성해 네이티브로 컴파일할 수 있음. 두 가지 개발 경로를 제공해 상황에 맞게 고를 수 있음.
+- [모두가 제정신을 잃었다](https://www.netmeister.org/blog/everybodys-lost-their-minds.html)
+  AI 대응이 하루 업무의 75% 이상을 차지하면서 일의 즐거움까지 잃었다는 경험에서 출발한 글임. 윤리와 실제 효과를 따지지 않고 밀어붙이는 조직의 AI 도입 열풍을 비판함.
+- [마틴 파울러: 나는 LLM이 마음에 들지 않는다](https://martinfowler.com/articles/2026-dont-like-llms.html)
+  LLM의 생산성 향상 가능성과 유용성은 인정하지만 직접 대화할 때는 거부감이 앞선다는 글임. 유용한 답과 지어낸 내용을 똑같이 확신에 찬 어조로 말하는 점을 핵심 문제로 꼽음.
+- [Jevlike - 문장 대신 선택지별 확률을 반환하는 Jev 방식의 오픈소스 모델](https://github.com/vinnylarouge/jevlike)
+  TypeSafe의 Jev처럼 문장 대신 선택지별 확률을 반환하는 모델을 직접 학습하고 실험할 수 있게 만든 오픈소스 프로젝트임. 매번 달라지는 자유 텍스트 대신 구조화된 확률 출력을 얻을 수 있음.
+- [OpenSpec - 코딩 에이전트와 구현 전에 명세를 맞추는 개발 도구](https://openspec.dev/)
+  대화 기록에만 남아 있던 요구사항을 명세와 구현 계획으로 정리해주는 도구임. 사람이 먼저 검토한 뒤 AI가 코드를 작성하도록 흐름을 잡아줌. 변경 작업마다 제안서 등 문서를 남기는 spec-driven 방식임.
+- [Bonsai 2 27B, 성능 98.2%를 유지하며 모델 크기를 5.9GB로 압축](https://prismml.com/news/bonsai-2-27b)
+  PrismML이 Qwen3.8 27B 기반의 3진(ternary) 가중치 모델을 공개함. 전체 정밀도 모델 대비 크기를 9배 이상 줄여 5.9GB로 만들면서 종합 벤치마크 성능의 98.2%를 유지했다고 밝힘.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-09-18](data/2026-09-18.md)
 - [2026-09-17](data/2026-09-17.md)
 - [2026-09-15](data/2026-09-15.md)
 - [2026-09-14](data/2026-09-14.md)
@@ -69,4 +70,3 @@
 - [2026-08-19](data/2026-08-19.md)
 - [2026-08-18](data/2026-08-18.md)
 - [2026-08-17](data/2026-08-17.md)
-- [2026-08-16](data/2026-08-16.md)
