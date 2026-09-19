@@ -1,0 +1,109 @@
+{
+  "date": "2026-09-20",
+  "github_trending": [
+    {
+      "name": "docling-project/docling",
+      "url": "https://github.com/docling-project/docling",
+      "description": "PDF·DOCX·PPTX 등 각종 문서를 생성형 AI용 구조화 데이터로 변환해주는 문서 파싱 툴킷임. RAG 전처리에 널리 쓰임.",
+      "description_en": "Document parsing toolkit that converts PDFs, DOCX, PPTX and more into structured data ready for gen AI; widely used for RAG preprocessing."
+    },
+    {
+      "name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "Anthropic이 공개한 Claude Cowork용 지식근로자 플러그인 모음 오픈소스 레포임. 하루 280스타로 오늘 가장 빠르게 오름.",
+      "description_en": "Anthropic's open-source collection of plugins for knowledge workers to use in Claude Cowork; today's fastest riser with 280 stars."
+    },
+    {
+      "name": "cactus-compute/needle",
+      "url": "https://github.com/cactus-compute/needle",
+      "description": "초소형 기기용 자동화 파운데이션 모델임. 2-bit, 8~29MB 크기로 폰·웨어러블·마이크로컨트롤러에서 툴 콜, 구조화 추출, 임베딩을 수행함.",
+      "description_en": "Automation foundation model for tiny devices: 2-bit, 8-29 MB, handling tool calls, structured extraction and embeddings on phones, wearables and microcontrollers."
+    },
+    {
+      "name": "virattt/ai-hedge-fund",
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "description": "여러 AI 에이전트가 팀을 이뤄 투자 의사결정을 시뮬레이션하는 AI 헤지펀드 프로젝트임. 교육·연구 목적임.",
+      "description_en": "An AI hedge fund team in which multiple agents collaborate to simulate investment decisions; for educational and research purposes."
+    },
+    {
+      "name": "NVIDIA/TensorRT-LLM",
+      "url": "https://github.com/NVIDIA/TensorRT-LLM",
+      "description": "NVIDIA GPU에서 LLM 추론을 최적화하는 라이브러리임. Python API로 모델을 정의하고 최신 최적화 기법과 Python/C++ 런타임을 제공함.",
+      "description_en": "NVIDIA's library for optimized LLM inference on GPUs, with an easy Python API, state-of-the-art optimizations, and Python/C++ runtimes."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "LLM 어시스턴트를 위한 검증 가능한 사회적 추론",
+      "title_en": "Verifiable Social Reasoning for LLM Assistants",
+      "url": "https://huggingface.co/papers/2609.17496",
+      "summary": "일상 고민 상담에 쓰이는 LLM의 사회적 추론을 검증 가능하게 평가하는 연구임. 주관적인 사용자 서술에서 상황을 파악해야 하는 상담 환경의 평가 난점을 다룸.",
+      "summary_en": "Proposes a verifiable way to evaluate LLM assistants' social reasoning in advice-giving settings, where situations must be inferred from subjective user narratives."
+    },
+    {
+      "title": "스스로 진화하는 검색 인덱스",
+      "title_en": "Self-Evolving Search Index",
+      "url": "https://huggingface.co/papers/2609.19656",
+      "summary": "검색 품질이 인덱스 키가 문서 지식을 얼마나 잘 드러내는지에 달려 있다는 점에 착안해, 인덱스 자체가 스스로 개선되도록 하는 방법을 제안함. LLM 에이전트의 복잡한 정보 탐색을 겨냥함.",
+      "summary_en": "Argues retrieval quality hinges on how well index keys expose document knowledge, and proposes an index that improves itself over time for LLM agents' complex information needs."
+    },
+    {
+      "title": "RetireOPD: 에이전트 RL을 위한 자기 은퇴형 온폴리시 증류",
+      "title_en": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2609.20784",
+      "summary": "멀티턴 에이전트 RL은 궤적당 스칼라 보상 하나만 받는 한계가 있음. 스킬을 아는 셀프 교사가 토큰 단위 감독을 주고, 학생이 내재화하면 교사가 물러나는 증류 방식을 제안함.",
+      "summary_en": "Addresses sparse trajectory-level rewards in multi-turn agent RL with self on-policy distillation: a skill-privileged self-teacher gives dense token-level supervision and retires as the student internalizes the skills."
+    },
+    {
+      "title": "Reflect, Revise, Reuse: GUI 에이전트를 위한 학습 없는 스킬 진화",
+      "title_en": "Reflect, Revise, Reuse: Training-Free Skill Evolution for GUI Agents",
+      "url": "https://huggingface.co/papers/2609.17653",
+      "summary": "팝업, 로딩 지연, 위젯 위치 변경으로 사전 계획이 깨지는 GUI 에이전트 문제를 다룸. 추가 학습 없이 스킬을 반성·수정·재사용하며 진화시키는 프레임워크임.",
+      "summary_en": "Tackles GUI agents whose fixed plans break on pop-ups, delayed loads and relocated widgets, with a training-free framework that reflects on, revises and reuses skills."
+    },
+    {
+      "title": "WeVisDoc: 견고한 End-to-End 문서 파싱, 커버리지에서 역량으로",
+      "title_en": "WeVisDoc: From Coverage to Capability for Robust End-to-End Document Parsing",
+      "url": "https://huggingface.co/papers/2609.20423",
+      "summary": "문서 파싱 학습 데이터가 흔한 문서 유형과 깨끗한 디지털 페이지에 편향된 문제를 지적함. 단순 커버리지 확대가 아니라 역량 중심으로 다양한 레이아웃·촬영 조건에 견고한 파서를 만듦.",
+      "summary_en": "Notes document-parsing corpora are biased toward common types and clean digital pages, and shifts from expanding coverage to building capabilities for robustness across layouts and capture conditions."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "코딩 에이전트 하네스 설계에 관한 실증 연구",
+      "title_en": "An Empirical Study of Coding Agent Harness Design",
+      "url": "https://arxiv.org/abs/2609.20804",
+      "summary": "코딩 에이전트의 계획 수립, 도구 구성, 컨텍스트 관리를 따로 바꿔가며 4개 모델·2개 벤치마크에서 176개 설정을 비교함. 효과는 모델과 작업에 따라 달라짐.",
+      "summary_en": "Varies planning, tool configuration and context management independently across 176 settings on 4 models and 2 benchmarks; effects depend on the model and task."
+    },
+    {
+      "title": "LLM과 함께 글 쓰는 법",
+      "title_en": "How to Write with an LLM",
+      "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+      "summary": "LLM은 대필 작가가 아니라 교정 편집자로 써야 한다는 글임. 글은 직접 쓰고, 좋은 모델에 초안을 넘겨 결함을 찾게 하는 방식을 권함.",
+      "summary_en": "Use an LLM as a copy editor, not a ghostwriter: write the piece yourself, then hand the draft to a good model to find its flaws."
+    },
+    {
+      "title": "Cloudflare, 수학과 Rust로 RAM 100TB 추가 절감",
+      "title_en": "Cloudflare Saves Another 100 TB of RAM with Math and Rust",
+      "url": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
+      "summary": "캐시 요청을 서버에 분배하는 Pingora Backend Router(PBR)를 최적화해 전 세계에서 100TB 이상의 RAM 사용량을 줄임. 서버별 부하를 고르게 나누는 수학적 접근이 핵심임.",
+      "summary_en": "Cloudflare optimized the Pingora Backend Router that distributes cache requests, cutting over 100 TB of RAM worldwide through a mathematical approach to even load balancing."
+    },
+    {
+      "title": "생각을 멈춰도 되는 때는 오지 않는다",
+      "title_en": "You Never Get to Turn Your Brain Off",
+      "url": "https://danluu.com/brain-off/",
+      "summary": "Dan Luu의 글임. LLM 결과를 확인 없이 받아들이거나 문제 생길 때마다 다시 시키기만 해서는, 모델이 발전해도 자신의 일자리와 가치를 지킬 수 없다고 주장함.",
+      "summary_en": "Dan Luu argues that accepting LLM output unchecked, or just re-prompting whenever something breaks, won't protect your job or value even as models improve."
+    },
+    {
+      "title": "Cloudflare Quick Tunnels - 계정 없이 로컬 서버를 인터넷에 공유하기",
+      "title_en": "Cloudflare Quick Tunnels - Share a Local Server Without an Account",
+      "url": "https://try.cloudflare.com/",
+      "summary": "개발 중인 웹사이트나 API를 별도 배포 없이 임시 HTTPS 주소로 외부에 공유하는 무료 서비스임. cloudflared tunnel 명령 하나로 동작함.",
+      "summary_en": "Free service that exposes an in-development site or API via a temporary HTTPS URL without deploying or signing up, using a single cloudflared tunnel command."
+    }
+  ]
+}
