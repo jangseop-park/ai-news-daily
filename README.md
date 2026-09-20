@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-09-20
+> 마지막 업데이트: 2026-09-21
 
-# AI 뉴스 — 2026-09-20
+# AI 뉴스 — 2026-09-21
 
 ## 🔥 GitHub Trending (Python)
 
-- [docling-project/docling](https://github.com/docling-project/docling): PDF·DOCX·PPTX 등 각종 문서를 생성형 AI용 구조화 데이터로 변환해주는 문서 파싱 툴킷임. RAG 전처리에 널리 쓰임.
-- [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins): Anthropic이 공개한 Claude Cowork용 지식근로자 플러그인 모음 오픈소스 레포임. 하루 280스타로 오늘 가장 빠르게 오름.
-- [cactus-compute/needle](https://github.com/cactus-compute/needle): 초소형 기기용 자동화 파운데이션 모델임. 2-bit, 8~29MB 크기로 폰·웨어러블·마이크로컨트롤러에서 툴 콜, 구조화 추출, 임베딩을 수행함.
-- [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund): 여러 AI 에이전트가 팀을 이뤄 투자 의사결정을 시뮬레이션하는 AI 헤지펀드 프로젝트임. 교육·연구 목적임.
-- [NVIDIA/TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM): NVIDIA GPU에서 LLM 추론을 최적화하는 라이브러리임. Python API로 모델을 정의하고 최신 최적화 기법과 Python/C++ 런타임을 제공함.
+- [anthropics/financial-services](https://github.com/anthropics/financial-services): Anthropic의 금융 서비스용 Claude 레퍼런스 모음임. 투자은행·주식 리서치·PE·자산관리 워크플로용 에이전트, 스킬, 데이터 커넥터를 Claude Cowork 플러그인이나 Managed Agents API로 쓸 수 있음.
+- [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx): 커뮤니티가 운영하는 문서 관리 시스템임. 종이 문서를 스캔·인덱싱·아카이빙해 검색 가능한 디지털 보관함으로 만들어줌.
+- [mihail911/modern-software-dev-assignments](https://github.com/mihail911/modern-software-dev-assignments): Stanford CS146S 'The Modern Software Developer' 강의 과제 레포임. AI 코딩 도구를 활용한 최신 소프트웨어 개발 방식을 실습함.
+- [browser-use/browser-harness](https://github.com/browser-use/browser-harness): LLM이 브라우저에서 어떤 작업이든 끝까지 수행하도록 돕는 자가 복구형 하네스임. browser-use 팀이 만듦.
+- [FareedKhan-dev/train-llm-from-scratch](https://github.com/FareedKhan-dev/train-llm-from-scratch): 데이터 다운로드부터 텍스트 생성까지 LLM을 처음부터 학습시키는 과정을 단순하게 보여주는 교육용 레포임.
 
 ## 📄 Hugging Face Papers
 
-- [LLM 어시스턴트를 위한 검증 가능한 사회적 추론](https://huggingface.co/papers/2609.17496)
-  일상 고민 상담에 쓰이는 LLM의 사회적 추론을 검증 가능하게 평가하는 연구임. 주관적인 사용자 서술에서 상황을 파악해야 하는 상담 환경의 평가 난점을 다룸.
-- [스스로 진화하는 검색 인덱스](https://huggingface.co/papers/2609.19656)
-  검색 품질이 인덱스 키가 문서 지식을 얼마나 잘 드러내는지에 달려 있다는 점에 착안해, 인덱스 자체가 스스로 개선되도록 하는 방법을 제안함. LLM 에이전트의 복잡한 정보 탐색을 겨냥함.
-- [RetireOPD: 에이전트 RL을 위한 자기 은퇴형 온폴리시 증류](https://huggingface.co/papers/2609.20784)
-  멀티턴 에이전트 RL은 궤적당 스칼라 보상 하나만 받는 한계가 있음. 스킬을 아는 셀프 교사가 토큰 단위 감독을 주고, 학생이 내재화하면 교사가 물러나는 증류 방식을 제안함.
-- [Reflect, Revise, Reuse: GUI 에이전트를 위한 학습 없는 스킬 진화](https://huggingface.co/papers/2609.17653)
-  팝업, 로딩 지연, 위젯 위치 변경으로 사전 계획이 깨지는 GUI 에이전트 문제를 다룸. 추가 학습 없이 스킬을 반성·수정·재사용하며 진화시키는 프레임워크임.
-- [WeVisDoc: 견고한 End-to-End 문서 파싱, 커버리지에서 역량으로](https://huggingface.co/papers/2609.20423)
-  문서 파싱 학습 데이터가 흔한 문서 유형과 깨끗한 디지털 페이지에 편향된 문제를 지적함. 단순 커버리지 확대가 아니라 역량 중심으로 다양한 레이아웃·촬영 조건에 견고한 파서를 만듦.
+- [When2Think: 효율적인 하이브리드 추론 모델을 위한 난이도 인식 길이 제어](https://huggingface.co/papers/2609.19671)
+  추론 모델이 쉬운 문제는 과하게, 어려운 문제는 덜 생각하는 비효율을 다룸. 일률적 길이 페널티 대신 문제 난이도에 맞춰 사고 길이를 조절하도록 학습시킴.
+- [특권 정보는 온폴리시 자기 증류에 무엇을 더하는가?](https://huggingface.co/papers/2609.20612)
+  정답이나 풀이를 본 자기 자신의 고정 사본에게서 배우는 OPSD를 분석함. 교사에게 준 추가 정보가 증류 자체의 효과를 넘어 실제로 얼마나 기여하는지 분리해서 측정함.
+- [샘플 수만으로는 부족함: 후보 생성 전략이 LLM Test-Time Scaling의 에너지와 성능을 좌우함](https://huggingface.co/papers/2609.19499)
+  Test-time scaling의 추론 예산을 후보 개수 N으로만 표현하는 관행을 비판함. 같은 N이라도 후보를 어떻게 생성하느냐에 따라 에너지 소비와 성능이 크게 달라짐을 보임.
+- [FAMOS: 희소 관측으로부터의 Feed-Forward 3D 관절 모델링](https://huggingface.co/papers/2609.20817)
+  소수의 단안 뷰만으로 관절형 물체를 모델링하는 방법임. 단일 관측과 카테고리 사전 지식에 의존하던 기존 방식과 달리 여러 희소 관측의 형상·움직임 단서를 통합함.
+- [환경을 마스킹하지 말 것: 관측 감독이 RL에서 에이전트의 탐색 방식을 바꿈](https://huggingface.co/papers/2609.20715)
+  에이전트 SFT에서 행동 토큰에만 loss를 주는 관행에 의문을 제기함. 환경 관측까지 예측 대상으로 학습시키면 이후 RL 단계에서 에이전트의 탐색 양상이 달라짐을 보임.
 
 ## 🦉 GeekNews
 
-- [코딩 에이전트 하네스 설계에 관한 실증 연구](https://arxiv.org/abs/2609.20804)
-  코딩 에이전트의 계획 수립, 도구 구성, 컨텍스트 관리를 따로 바꿔가며 4개 모델·2개 벤치마크에서 176개 설정을 비교함. 효과는 모델과 작업에 따라 달라짐.
-- [LLM과 함께 글 쓰는 법](https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/)
-  LLM은 대필 작가가 아니라 교정 편집자로 써야 한다는 글임. 글은 직접 쓰고, 좋은 모델에 초안을 넘겨 결함을 찾게 하는 방식을 권함.
-- [Cloudflare, 수학과 Rust로 RAM 100TB 추가 절감](https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/)
-  캐시 요청을 서버에 분배하는 Pingora Backend Router(PBR)를 최적화해 전 세계에서 100TB 이상의 RAM 사용량을 줄임. 서버별 부하를 고르게 나누는 수학적 접근이 핵심임.
-- [생각을 멈춰도 되는 때는 오지 않는다](https://danluu.com/brain-off/)
-  Dan Luu의 글임. LLM 결과를 확인 없이 받아들이거나 문제 생길 때마다 다시 시키기만 해서는, 모델이 발전해도 자신의 일자리와 가치를 지킬 수 없다고 주장함.
-- [Cloudflare Quick Tunnels - 계정 없이 로컬 서버를 인터넷에 공유하기](https://try.cloudflare.com/)
-  개발 중인 웹사이트나 API를 별도 배포 없이 임시 HTTPS 주소로 외부에 공유하는 무료 서비스임. cloudflared tunnel 명령 하나로 동작함.
+- [Jev 덕분에 구조화된 출력이 다시 흥미로워졌다](https://www.seangoedecke.com/jev-means-structured-output-is-interesting-again/)
+  AI가 긴 답변 대신 프로그램의 의사결정 지점마다 빠르고 저렴한 판단을 제공하면 챗봇을 넘어선 새로운 종류의 응용이 가능해진다는 글임.
+- [Stagehand v4, Playwright보다 2배 빠르고 토큰 효율 80% 높은 브라우저 자동화](https://github.com/browserbase/stagehand)
+  AI 에이전트가 웹사이트를 조작하고 데이터를 추출하는 오픈소스 SDK임. Playwright와 비슷한 코드에 자연어 명령을 섞어 쓸 수 있음.
+- [Claude Code, 이제 AGENTS.md도 지원](https://x.com/trq212/status/2101009392611278961)
+  Claude Code 2.1.277부터 프로젝트에 CLAUDE.md가 없으면 AGENTS.md를 프로젝트 지침으로 자동 사용함. 여러 코딩 에이전트의 공통 지침 파일과 호환됨.
+- [Agent-Native - 하나의 액션을 UI/에이전트/API에서 함께 쓰는 앱 프레임워크](https://github.com/BuilderIO/agent-native)
+  기존 앱과 AI 에이전트를 따로 만들지 않고 한 애플리케이션 안에서 같은 기능과 데이터를 공유하게 하는 프레임워크임. 작업을 defineAction으로 한 번만 정의함.
+- [AI 챗봇이 사람들의 생각을 바꾸는 데 전문가가 되고 있음](https://www.science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret)
+  ChatGPT, Gemini, Claude가 정치적 쟁점 대화에서 세계 챔피언을 포함한 전문 토론자보다 높은 설득력을 보였다는 연구 결과임.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-09-20](data/2026-09-20.md)
 - [2026-09-19](data/2026-09-19.md)
 - [2026-09-18](data/2026-09-18.md)
 - [2026-09-17](data/2026-09-17.md)
@@ -69,4 +70,3 @@
 - [2026-08-21](data/2026-08-21.md)
 - [2026-08-20](data/2026-08-20.md)
 - [2026-08-19](data/2026-08-19.md)
-- [2026-08-18](data/2026-08-18.md)
