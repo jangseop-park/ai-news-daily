@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-09-21
+> 마지막 업데이트: 2026-09-22
 
-# AI 뉴스 — 2026-09-21
+# AI 뉴스 — 2026-09-22
 
 ## 🔥 GitHub Trending (Python)
 
-- [anthropics/financial-services](https://github.com/anthropics/financial-services): Anthropic의 금융 서비스용 Claude 레퍼런스 모음임. 투자은행·주식 리서치·PE·자산관리 워크플로용 에이전트, 스킬, 데이터 커넥터를 Claude Cowork 플러그인이나 Managed Agents API로 쓸 수 있음.
-- [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx): 커뮤니티가 운영하는 문서 관리 시스템임. 종이 문서를 스캔·인덱싱·아카이빙해 검색 가능한 디지털 보관함으로 만들어줌.
-- [mihail911/modern-software-dev-assignments](https://github.com/mihail911/modern-software-dev-assignments): Stanford CS146S 'The Modern Software Developer' 강의 과제 레포임. AI 코딩 도구를 활용한 최신 소프트웨어 개발 방식을 실습함.
-- [browser-use/browser-harness](https://github.com/browser-use/browser-harness): LLM이 브라우저에서 어떤 작업이든 끝까지 수행하도록 돕는 자가 복구형 하네스임. browser-use 팀이 만듦.
-- [FareedKhan-dev/train-llm-from-scratch](https://github.com/FareedKhan-dev/train-llm-from-scratch): 데이터 다운로드부터 텍스트 생성까지 LLM을 처음부터 학습시키는 과정을 단순하게 보여주는 교육용 레포임.
+- [mvt-project/mvt](https://github.com/mvt-project/mvt): 모바일 기기 포렌식으로 스파이웨어 등 침해 흔적을 찾아주는 Mobile Verification Toolkit임. Android·iOS 백업과 로그를 분석해 알려진 침해 지표(IOC)와 대조함.
+- [zhouxiaoka/autoclip](https://github.com/zhouxiaoka/autoclip): AI 기반 영상 클리핑·하이라이트 자동 생성 도구임. 긴 영상에서 핵심 장면을 뽑아 2차 창작용 클립으로 편집해 줌.
+- [docling-project/docling](https://github.com/docling-project/docling): PDF·DOCX 등 각종 문서를 생성형 AI가 쓰기 좋은 구조화 포맷으로 변환하는 문서 파싱 라이브러리임. RAG 파이프라인 전처리에 많이 쓰임.
+- [TNT-Likely/PanWatch](https://github.com/TNT-Likely/PanWatch): 셀프호스팅 AI 주식 모니터링 도우미임. TradingAgents 멀티 에이전트 투자 판단을 통합했고 A주·홍콩·미국 주식 실시간 감시, 보유 종목 관리, 분석, 다채널 알림을 지원함.
+- [cv-cat/DouYin_Spider](https://github.com/cv-cat/DouYin_Spider): Douyin(중국판 TikTok)을 리버스 엔지니어링한 크롤러임. 주요 API, DM, 라이브 방송 모니터링 기능을 제공함.
 
 ## 📄 Hugging Face Papers
 
-- [When2Think: 효율적인 하이브리드 추론 모델을 위한 난이도 인식 길이 제어](https://huggingface.co/papers/2609.19671)
-  추론 모델이 쉬운 문제는 과하게, 어려운 문제는 덜 생각하는 비효율을 다룸. 일률적 길이 페널티 대신 문제 난이도에 맞춰 사고 길이를 조절하도록 학습시킴.
-- [특권 정보는 온폴리시 자기 증류에 무엇을 더하는가?](https://huggingface.co/papers/2609.20612)
-  정답이나 풀이를 본 자기 자신의 고정 사본에게서 배우는 OPSD를 분석함. 교사에게 준 추가 정보가 증류 자체의 효과를 넘어 실제로 얼마나 기여하는지 분리해서 측정함.
-- [샘플 수만으로는 부족함: 후보 생성 전략이 LLM Test-Time Scaling의 에너지와 성능을 좌우함](https://huggingface.co/papers/2609.19499)
-  Test-time scaling의 추론 예산을 후보 개수 N으로만 표현하는 관행을 비판함. 같은 N이라도 후보를 어떻게 생성하느냐에 따라 에너지 소비와 성능이 크게 달라짐을 보임.
-- [FAMOS: 희소 관측으로부터의 Feed-Forward 3D 관절 모델링](https://huggingface.co/papers/2609.20817)
-  소수의 단안 뷰만으로 관절형 물체를 모델링하는 방법임. 단일 관측과 카테고리 사전 지식에 의존하던 기존 방식과 달리 여러 희소 관측의 형상·움직임 단서를 통합함.
-- [환경을 마스킹하지 말 것: 관측 감독이 RL에서 에이전트의 탐색 방식을 바꿈](https://huggingface.co/papers/2609.20715)
-  에이전트 SFT에서 행동 토큰에만 loss를 주는 관행에 의문을 제기함. 환경 관측까지 예측 대상으로 학습시키면 이후 RL 단계에서 에이전트의 탐색 양상이 달라짐을 보임.
+- [IntBMoE: 전원 참여형 Mixture-of-Experts를 위한 블록 단위 조건화 기반 전문가 합성](https://huggingface.co/papers/2609.21346)
+  MoE에서 토큰당 참여 전문가 수, 실제 연산 수, 메모리에 올리는 파라미터 수를 독립적으로 조절할 수 없다는 한계를 지적함. 블록 단위 조건화로 전문가를 합성해 연산·메모리 비용은 낮게 유지하면서 모든 전문가가 출력에 기여하도록 하는 구조를 제안함.
+- [OmniVChat: 네이티브 오디오-비주얼 대화를 위한 데이터 합성, 벤치마크, 학습](https://huggingface.co/papers/2609.21465)
+  사용자의 음성과 영상을 별도 텍스트 질문·캡셔닝·음성인식 없이 omni 모델이 직접 받아 답하는 대화 과제 OmniVChat을 정의함. 부족한 실사용 데이터 문제를 합성 데이터로 풀고, 평가 벤치마크와 학습 방법까지 함께 제시함.
+- [Paint-Anything: 이미지 생성과 편집을 위한 통합 임의 색상 제어](https://huggingface.co/papers/2609.20816)
+  24비트 hex 값으로 객체 색을 정확히 지정하는 any-color 제어를 다룸. 전용 색 표현이나 특수 추론 절차 없이 hex 프롬프트라는 공통 인터페이스를 객체 단위 색상 감독으로 학습해 생성과 편집을 하나로 통합함.
+- [Designer-RSI: 사용자 트래픽에서 절차 기억을 진화시키는 에이전트형 그래픽 디자인](https://huggingface.co/papers/2609.22086)
+  고정된 프런티어 모델이 230개 이상의 도구로 전문 디자인 소프트웨어를 조작하고, 자연어 스킬로 된 외부 절차 기억이 경험에서 재사용 가능한 디자인 절차를 쌓고 다듬는 지속 적응 프레임워크임. 모델 재학습 없이 기억만으로 성능이 개선됨.
+- [BI-Agent와 BI-Bench: End-to-End 비즈니스 인텔리전스 자동화를 향하여](https://huggingface.co/papers/2609.20886)
+  Power BI·Tableau 같은 BI 작업에서 테이블 탐색, 데이터 변환, 조인 구성, 질의 응답까지 전 과정을 LLM이 자동으로 수행할 수 있는지 연구함. 이를 평가하는 BI-Bench와 에이전트 BI-Agent를 제안함.
 
 ## 🦉 GeekNews
 
-- [Jev 덕분에 구조화된 출력이 다시 흥미로워졌다](https://www.seangoedecke.com/jev-means-structured-output-is-interesting-again/)
-  AI가 긴 답변 대신 프로그램의 의사결정 지점마다 빠르고 저렴한 판단을 제공하면 챗봇을 넘어선 새로운 종류의 응용이 가능해진다는 글임.
-- [Stagehand v4, Playwright보다 2배 빠르고 토큰 효율 80% 높은 브라우저 자동화](https://github.com/browserbase/stagehand)
-  AI 에이전트가 웹사이트를 조작하고 데이터를 추출하는 오픈소스 SDK임. Playwright와 비슷한 코드에 자연어 명령을 섞어 쓸 수 있음.
-- [Claude Code, 이제 AGENTS.md도 지원](https://x.com/trq212/status/2101009392611278961)
-  Claude Code 2.1.277부터 프로젝트에 CLAUDE.md가 없으면 AGENTS.md를 프로젝트 지침으로 자동 사용함. 여러 코딩 에이전트의 공통 지침 파일과 호환됨.
-- [Agent-Native - 하나의 액션을 UI/에이전트/API에서 함께 쓰는 앱 프레임워크](https://github.com/BuilderIO/agent-native)
-  기존 앱과 AI 에이전트를 따로 만들지 않고 한 애플리케이션 안에서 같은 기능과 데이터를 공유하게 하는 프레임워크임. 작업을 defineAction으로 한 번만 정의함.
-- [AI 챗봇이 사람들의 생각을 바꾸는 데 전문가가 되고 있음](https://www.science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret)
-  ChatGPT, Gemini, Claude가 정치적 쟁점 대화에서 세계 챔피언을 포함한 전문 토론자보다 높은 설득력을 보였다는 연구 결과임.
+- [시니어 엔지니어의 파멸적 악순환](https://sunilpai.dev/posts/the-senior-engineer-death-spiral/)
+  새 직장이나 승진 후 자신을 증명하려고 지나치게 야심 찬 작업을 떠맡고, 결과가 안 나올수록 더 오래 혼자 일하게 되는 악순환을 다룸. 작게 나눠 일찍 공유하는 게 탈출법임.
+- [PostgreSQL 캐싱: 기본 동작과 추가 캐시의 선택 기준](https://www.pgcache.com/blog/postgresql-caching/)
+  PostgreSQL은 데이터 페이지와 실행 계획은 캐싱하지만 쿼리 결과는 저장하지 않음. 데이터가 메모리에 있어도 같은 조회는 매번 다시 계산되므로 언제 별도 결과 캐시를 둘지 기준을 정리함.
+- [AI가 무너뜨리는 공유의 문화](https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/)
+  코드와 지식을 공개해 서로 배우고 재사용하던 문화가 AI 때문에 흔들리고 있다는 글임. 공유가 세상에 주는 선물이 아니라 창작자가 감당해야 할 부담으로 바뀌고 있다고 지적함.
+- [Three.js로 브라우저에서 LLM 실행하기](https://ben3d.ca/blog/running-llms-in-the-browser-with-threejs)
+  3D 그래픽 라이브러리 Three.js의 GPU 연산 기능으로 언어 모델을 돌리는 Three-LLM을 구현함. 별도 추론 서버 없이 브라우저에서 GPT-2, SmolLM2 등을 실행함.
+- [Claude Code 개발자 보리스 처니: "나는 자주 틀린다"](https://borischerny.com/management,/product/2026/09/19/I-am-often-wrong.html)
+  새로운 정보가 들어오면 문제 정의와 접근법, 목표까지 바꿔야 한다는 글임. 방향이 자꾸 바뀌는 것처럼 보여도 복잡한 문제를 푸는 데 필요한 반복일 수 있다고 함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-09-21](data/2026-09-21.md)
 - [2026-09-20](data/2026-09-20.md)
 - [2026-09-19](data/2026-09-19.md)
 - [2026-09-18](data/2026-09-18.md)
@@ -69,4 +70,3 @@
 - [2026-08-22](data/2026-08-22.md)
 - [2026-08-21](data/2026-08-21.md)
 - [2026-08-20](data/2026-08-20.md)
-- [2026-08-19](data/2026-08-19.md)
