@@ -1,0 +1,109 @@
+{
+  "date": "2026-09-26",
+  "github_trending": [
+    {
+      "name": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Anthropic이 직접 관리하는 공식 Claude Code 플러그인 디렉터리임. 검증된 고품질 플러그인을 모아둠.",
+      "description_en": "Official, Anthropic-managed directory of high quality Claude Code Plugins."
+    },
+    {
+      "name": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "description": "학습하는 에이전트 메모리 시스템임. 에이전트가 과거 경험에서 배워 기억을 계속 개선함. 하루 1,600개 이상 스타를 받으며 급상승 중임.",
+      "description_en": "Hindsight: Agent Memory That Learns — a memory layer that lets agents learn from past experience."
+    },
+    {
+      "name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Anthropic의 Agent Skills 공개 저장소임. 문서·스프레드시트·PDF 등 작업별 스킬 패키지를 제공함.",
+      "description_en": "Public repository for Agent Skills — task-specific skill packages for Claude agents."
+    },
+    {
+      "name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "AI 엔지니어링을 밑바닥부터 배우고 직접 만들어 배포하는 실습 커리큘럼임. 'Learn it. Build it. Ship it' 콘셉트임.",
+      "description_en": "Learn it. Build it. Ship it for others — a hands-on AI engineering curriculum from scratch."
+    },
+    {
+      "name": "NVIDIA/Model-Optimizer",
+      "url": "https://github.com/NVIDIA/Model-Optimizer",
+      "description": "양자화·증류·프루닝·NAS·speculative decoding 등 SOTA 모델 최적화 기법을 통합한 라이브러리임. TensorRT-LLM, vLLM 배포용으로 모델을 압축해 추론 속도를 높임.",
+      "description_en": "A unified library of SOTA model optimization techniques (quantization, distillation, pruning, NAS, speculative decoding) that compresses models for TensorRT-LLM, TensorRT, vLLM to optimize inference speed."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "Transformer는 두 가지 생각을 동시에 담을 수 있음: LLM의 선형 중첩 증거",
+      "title_en": "Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs",
+      "url": "https://huggingface.co/papers/2609.29845",
+      "summary": "서로 다른 텍스트 스트림의 입력을 선형 결합하면 모델 출력이 각 next-token 분포의 중첩으로 나옴을 보임. 이를 'Superposition Linearity Hypothesis'라 부르며, 비선형 구조에도 불구하고 LLM이 근본적 선형성을 가진다는 증거를 제시함.",
+      "summary_en": "Shows that when inputs from distinct text streams are linearly combined, the model outputs a superposition of the individual next-token distributions — the Superposition Linearity Hypothesis — evidence of fundamental linearity in LLMs."
+    },
+    {
+      "title": "SAE 잠재 공간에서 창발하는 품사 범주",
+      "title_en": "Parts-of-Speech as Emergent Categories in SAE Latent Space",
+      "url": "https://huggingface.co/papers/2609.29362",
+      "summary": "Sparse AutoEncoder의 latent가 어떤 언어 구조를 드러내는지 품사(PoS)를 테스트 케이스로 분석함. 품사 정보가 개별 latent보다 구조화된 feature 그룹으로 인코딩되며 높은 복원율을 보임.",
+      "summary_en": "Uses part-of-speech categories to test whether SAE latents encode morpho-syntactic information individually or as structured groups; finds PoS distinctions are highly recoverable from feature groups."
+    },
+    {
+      "title": "IterSynth: 역할 분리 반복 합성으로 딥서치 에이전트 재설계",
+      "title_en": "IterSynth: Rethinking Deep Search Agents via Role-Decoupled Iterative Synthesis",
+      "url": "https://huggingface.co/papers/2609.29444",
+      "summary": "ReAct식 딥서치 에이전트의 역할 결합·컨텍스트 누적 문제를 지적함. 계획·증거 활용·합성 역할을 분리하고 반복적으로 합성해 노이즈를 줄이고 근거 있는 답변을 생성함.",
+      "summary_en": "Addresses role coupling and context accumulation in ReAct-style deep search agents by decoupling planning, evidence use and synthesis into iterative, role-specific stages."
+    },
+    {
+      "title": "일반화된 Task and Motion Planning을 위한 코딩 에이전트",
+      "title_en": "Coding Agents for Generalized Task and Motion Planning Problems",
+      "url": "https://huggingface.co/papers/2609.30233",
+      "summary": "기하·운동학 제약과 이산 결정이 얽힌 TAMP 문제를 코딩 에이전트로 풀도록 함. 문제 인스턴스 간 규칙성을 코드로 추출해 새 인스턴스의 계획 비용을 줄이며, 전문가 수작업 없이 일반화함.",
+      "summary_en": "Uses coding agents to solve generalized task and motion planning by extracting regularities across problem instances as code, reducing planning effort on new instances without hand-crafted TAMP expertise."
+    },
+    {
+      "title": "Rufus-Air: 오픈 LLM 후훈련 레시피",
+      "title_en": "Rufus-Air: An Open LLM Post-Training Recipe",
+      "url": "https://huggingface.co/papers/2609.29421",
+      "summary": "GLM-4.5-Air-Base(106B-A12B) 위에 SFT→추론 RL→코딩 RL→지시 따르기 RL→에이전트→RLHF 8단계 파이프라인을 재현 가능하게 공개함. 데이터·보상 설계·인프라·단계별 결과를 모두 문서화함.",
+      "summary_en": "An open, reproducible 8-stage post-training pipeline on GLM-4.5-Air-Base (106B-A12B): SFT, Reasoning RL, Coding RL, IF RL, General/Coding/Search Agent, RLHF — with data, rewards, infra and stagewise results documented."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "Archify - 코드와 설명을 탐색 가능한 시스템 다이어그램으로 만드는 에이전트 스킬",
+      "title_en": "Archify - Agent skill that turns code and descriptions into explorable system diagrams",
+      "url": "https://news.hada.io/topic?id=34248",
+      "summary": "코드베이스를 분석하거나 시스템을 말로 설명하면 구성 요소와 연결 관계를 직접 탐색할 수 있는 다이어그램을 생성함. Cursor·Claude Code·Codex CLI 등에 스킬로 붙여 씀.",
+      "summary_en": "Analyzes a codebase or a verbal system description and generates interactive diagrams of components and their connections; works as a skill in Cursor, Claude Code and Codex CLI."
+    },
+    {
+      "title": "Whiteboard - AI가 만든 코드를 이해하고 검토하는 오픈소스 캔버스",
+      "title_en": "Whiteboard - Open-source canvas for understanding and reviewing AI-generated code",
+      "url": "https://news.hada.io/topic?id=34245",
+      "summary": "Claude Code·Codex가 만든 코드의 구조와 변경 이유를 그림으로 살펴보는 데스크톱 앱임. 기존 코딩 에이전트에 연결해 에이전트가 캔버스에 직접 설명을 그려줌.",
+      "summary_en": "A desktop app that visualizes the structure and rationale of code written by Claude Code or Codex; connects to existing coding agents so they draw explanations on the canvas."
+    },
+    {
+      "title": "Tunnet - 관리 서버까지 직접 운영하는 오픈소스 Tailscale 대안",
+      "title_en": "Tunnet - Open-source Tailscale alternative with self-hosted control server",
+      "url": "https://news.hada.io/topic?id=34204",
+      "summary": "여러 컴퓨터를 하나의 암호화된 사설망으로 연결하고 SSH 접속, 내부 서비스 공유, 공개 터널, 파일 전송을 같은 계정·접근 정책으로 다룸. 관리 서버까지 셀프호스팅 가능함.",
+      "summary_en": "Connects machines into one encrypted private network with SSH access, internal service sharing, public tunnels and file transfer under a single account and access policy; the control server is self-hostable."
+    },
+    {
+      "title": "API 가격대별 최고의 LLM 알아보기",
+      "title_en": "Find the best LLM for your API budget",
+      "url": "https://news.hada.io/topic?id=34242",
+      "summary": "여러 LLM의 성능과 API 가격을 한눈에 비교하고 지불하려는 가격대에서 가장 높은 점수를 받은 모델을 찾아주는 웹사이트임. Artificial Analysis 평가 데이터를 기반으로 함.",
+      "summary_en": "A website that compares LLM performance against API pricing and surfaces the highest-scoring model at each price point, based on Artificial Analysis evaluations."
+    },
+    {
+      "title": "Claude.ai를 2주 만에 3배 빠르게 만든 방법",
+      "title_en": "How we made Claude.ai 3x faster in two weeks",
+      "url": "https://news.hada.io/topic?id=34206",
+      "summary": "웹·데스크톱 앱에서 실행, 대화 시작, 기존 대화 로딩, 메시지 전송 등 사용자 활동의 95%를 차지하는 흐름을 집중 개선함. 핵심 이용 구간이 약 3배 빨라짐.",
+      "summary_en": "Focused on the flows that make up 95% of user activity — launch, starting a chat, loading existing chats, sending messages — and made the core paths roughly 3x faster on web and desktop."
+    }
+  ]
+}
