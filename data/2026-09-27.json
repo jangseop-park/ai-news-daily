@@ -1,0 +1,109 @@
+{
+  "date": "2026-09-27",
+  "github_trending": [
+    {
+      "name": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "description": "학습하는 에이전트 메모리 프레임워크임. 에이전트가 경험을 기억하고 다음 판단에 활용하도록 함. 하루 2,100개 이상 스타로 오늘도 1위임.",
+      "description_en": "Hindsight: Agent Memory That Learns."
+    },
+    {
+      "name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "주제나 키워드만 넣으면 AI 대모델과 자동화 워크플로우로 고화질 숏폼 영상을 원클릭 생성함. 대본·음성·자막·영상 소스를 자동으로 조합함.",
+      "description_en": "Generate HD short videos from a topic or keyword with an automated AI workflow."
+    },
+    {
+      "name": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "description": "간결하고 범용적인 군집 지능(Swarm Intelligence) 엔진임. 다수 에이전트의 상호작용으로 다양한 대상을 예측하는 것을 목표로 함.",
+      "description_en": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything."
+    },
+    {
+      "name": "shy3130/tick-stock-panel",
+      "url": "https://github.com/shy3130/tick-stock-panel",
+      "description": "셀프호스팅·무운영 중국 A주 종목 선정+모니터링+백테스트 퀀트 워크벤치임. LLM으로 전략 커스터마이징과 종목 분석, 복기를 지원하고 서드파티 데이터 소스 연동이 자유로움.",
+      "description_en": "TSP: self-hosted, zero-ops A-share stock picking + monitoring + backtesting quant workbench, LLM-driven strategy customization, stock analysis and review, with pluggable third-party data sources."
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "모든 소프트웨어를 에이전트 네이티브로 만드는 것을 목표로 함. GUI 위주 프로그램에 CLI 인터페이스를 입혀 AI 에이전트가 직접 조작할 수 있게 하고, CLI-Hub에서 공유함.",
+      "description_en": "CLI-Anything: Making ALL Software Agent-Native, with CLI-Hub for sharing generated CLIs."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "흥미로운 수학을 발견하는 법 학습하기",
+      "title_en": "Learning to Discover Interesting Mathematics",
+      "url": "https://huggingface.co/papers/2609.28603",
+      "summary": "LLM이 수십 년 된 난제까지 풀기 시작했지만, 새로 만든 수학 지식이 실제로 '흥미롭고 유용한지'는 미해결 문제임. 단순 정리 생성이 아니라 흥미로운 수학을 발견하도록 학습시키는 접근을 제안함.",
+      "summary_en": "LLMs increasingly solve advanced math problems, but whether the new mathematical knowledge they generate is interesting or useful remains open. This work studies training models to discover interesting mathematics rather than merely conjecture and prove theorems."
+    },
+    {
+      "title": "RGBD20K: 대규모 RGB-D 시맨틱 분할 벤치마크",
+      "title_en": "RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation",
+      "url": "https://huggingface.co/papers/2609.29028",
+      "summary": "160개 세분화 카테고리와 고품질 주석을 갖춘 RGB-D 시맨틱 분할 데이터셋임. 기존 데이터셋보다 훨씬 넓은 의미 공간을 다뤄 더 견고하고 범용적인 모델 개발을 돕는 것이 목표임.",
+      "summary_en": "A new RGB-D semantic segmentation dataset with 160 fine-grained categories and high-quality annotations, greatly expanding the semantic space over existing benchmarks to enable more robust and general models."
+    },
+    {
+      "title": "Neural Spectral Capacity: 네트워크 명세만으로 아키텍처 용량 측정·설계",
+      "title_en": "Neural Spectral Capacity: Measuring and Designing Architectures from Network Specification Alone",
+      "url": "https://huggingface.co/papers/2609.23087",
+      "summary": "파라미터 수와 FLOPs는 모델 크기·연산량만 담고 깊이-너비·헤드·FFN 배분 같은 구조 차이는 못 잡음. 네트워크 명세만으로 구조적 용량을 측정하는 새 지표를 제안해 Transformer 설계와 압축에 활용함.",
+      "summary_en": "#Params and #FLOPs capture size and compute but not architectural structure. The paper proposes Neural Spectral Capacity, a metric computed from the network specification alone, to guide Transformer design and compression."
+    },
+    {
+      "title": "AgentKernel: 신뢰 네이티브 에이전트 운영체제",
+      "title_en": "AgentKernel: The Trust-Native Agentic Operating System",
+      "url": "https://huggingface.co/papers/2609.29647",
+      "summary": "AI 에이전트는 신뢰할 수 없는 콘텐츠와 특권 명령을 섞고 도구를 호출하며 공격 표면이 커짐. 애플리케이션 미들웨어 수준이던 거버넌스를 OS 수준의 신뢰 경계로 끌어올린 설계를 제안함.",
+      "summary_en": "Agents cross trust boundaries by ingesting untrusted content, combining it with privileged instructions, and invoking privileged tools. AgentKernel proposes OS-level, trust-native governance instead of application-level middleware."
+    },
+    {
+      "title": "Just Ask Jev: 보정된 의사결정 RL로 AI 정렬 실패를 제로샷 탐지",
+      "title_en": "Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures",
+      "url": "https://huggingface.co/papers/2609.29429",
+      "summary": "기존 정렬 실패 탐지기는 기준마다 디코딩을 반복하거나 호출당 고정 라벨 하나만 냄. 보정된 의사결정용 RL(RLCD)로 학습한 Jev는 한 입력에 대해 여러 유형의 질문에 답하는 제로샷 탐지기로 동작함.",
+      "summary_en": "Existing alignment-failure detectors spend a decoding pass per criterion or score one fixed label per call. Jev, trained with RL for calibrated decisions (RLCD), answers many typed questions about one input and serves as a zero-shot detector."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "깡통 AI들 때문에 두 번째 뇌를 만들게 됐다",
+      "title_en": "Clankers Made Me Build a Second Brain",
+      "url": "https://jadarma.github.io/blog/posts/2026/09/clankers-made-me-build-a-second-brain/",
+      "summary": "Claude가 존재하지 않는 명령어 옵션을 답하는 일을 겪은 뒤, 이미 배운 내용을 Obsidian에 직접 기록해 찾아 쓰기로 함. AI에 기대기보다 개인 지식 베이스를 쌓는 쪽이 신뢰도가 높다는 경험담임.",
+      "summary_en": "After Claude hallucinated nonexistent command-line options, the author started recording what they learn in Obsidian and consulting it instead. A case for building a personal knowledge base rather than relying on AI."
+    },
+    {
+      "title": "AI가 거의 모든 코드를 작성하면 소프트웨어 엔지니어링에는 무슨 일이 일어날까?",
+      "title_en": "When AI Writes Almost All Code, What Happens to Software Engineering?",
+      "url": "https://rosettalens.com/s/ko/when-ai-writes-almost-all-code-what",
+      "summary": "AI가 대부분의 코드를 생성하는 시대에 엔지니어의 역할, 기회, 위험을 짚음. 제품 관리와의 경계가 흐려지고 판단·설계 능력이 핵심 역량이 된다고 봄.",
+      "summary_en": "Examines how the role, opportunities, and risks of software engineering shift when AI generates most code, including the blurring boundary with product management."
+    },
+    {
+      "title": "Ollaya - Jev 같은 의사결정 모델을 위한 Ollama",
+      "title_en": "Ollaya - Ollama for Decision Models like Jev",
+      "url": "https://ollaya.dev/",
+      "summary": "여러 공개 의사결정 모델을 내려받아 로컬에서 실행하는 오픈소스 도구임. Ollama처럼 CLI, 데스크톱 앱, 로컬 API를 제공하고 이메일·고객 문의 분류 같은 판단 작업에 씀.",
+      "summary_en": "An open-source tool to download and run public decision models locally, offering a CLI, desktop app, and local API like Ollama, for tasks such as email and support-ticket classification."
+    },
+    {
+      "title": "알렉산더 왕: 내가 Muse를 만드는 이유",
+      "title_en": "Alexandr Wang: Why I'm Building Muse",
+      "url": "https://x.com/alexandr_wang/status/2103551714536439951",
+      "summary": "가족과 시간을 보내거나 가게를 열고 싶어도 시작점을 몰라 포기하는 사람이 많다고 봄. Muse는 그 첫걸음을 AI가 대신 설계해 실행까지 이끄는 것을 지향함.",
+      "summary_en": "Many people give up on dreams like opening a shop because they don't know where to start. Muse aims to have AI design that first step and guide them to execution."
+    },
+    {
+      "title": "\"완전 AI 같아!\" 알파 세대의 욕이 된 AI",
+      "title_en": "'That's so AI': What Gen Alpha's Biggest Insult Tells Us",
+      "url": "https://www.theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us",
+      "summary": "알파 세대는 \"That's so AI!\"를 진정성 없고 형편없는 것을 깎아내리는 말로 씀. 실제 AI 생성물인지는 중요하지 않으며, AI 결과물이 '싸구려'의 대명사가 된 현상을 짚음.",
+      "summary_en": "Gen Alpha uses 'That's so AI!' to dismiss anything inauthentic or low quality, regardless of whether it was actually AI-generated, signaling how AI output has become shorthand for cheapness."
+    }
+  ]
+}
