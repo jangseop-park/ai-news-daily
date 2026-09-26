@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-09-26
+> 마지막 업데이트: 2026-09-27
 
-# AI 뉴스 — 2026-09-26
+# AI 뉴스 — 2026-09-27
 
 ## 🔥 GitHub Trending (Python)
 
-- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official): Anthropic이 직접 관리하는 공식 Claude Code 플러그인 디렉터리임. 검증된 고품질 플러그인을 모아둠.
-- [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight): 학습하는 에이전트 메모리 시스템임. 에이전트가 과거 경험에서 배워 기억을 계속 개선함. 하루 1,600개 이상 스타를 받으며 급상승 중임.
-- [anthropics/skills](https://github.com/anthropics/skills): Anthropic의 Agent Skills 공개 저장소임. 문서·스프레드시트·PDF 등 작업별 스킬 패키지를 제공함.
-- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링을 밑바닥부터 배우고 직접 만들어 배포하는 실습 커리큘럼임. 'Learn it. Build it. Ship it' 콘셉트임.
-- [NVIDIA/Model-Optimizer](https://github.com/NVIDIA/Model-Optimizer): 양자화·증류·프루닝·NAS·speculative decoding 등 SOTA 모델 최적화 기법을 통합한 라이브러리임. TensorRT-LLM, vLLM 배포용으로 모델을 압축해 추론 속도를 높임.
+- [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight): 학습하는 에이전트 메모리 프레임워크임. 에이전트가 경험을 기억하고 다음 판단에 활용하도록 함. 하루 2,100개 이상 스타로 오늘도 1위임.
+- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo): 주제나 키워드만 넣으면 AI 대모델과 자동화 워크플로우로 고화질 숏폼 영상을 원클릭 생성함. 대본·음성·자막·영상 소스를 자동으로 조합함.
+- [666ghj/MiroFish](https://github.com/666ghj/MiroFish): 간결하고 범용적인 군집 지능(Swarm Intelligence) 엔진임. 다수 에이전트의 상호작용으로 다양한 대상을 예측하는 것을 목표로 함.
+- [shy3130/tick-stock-panel](https://github.com/shy3130/tick-stock-panel): 셀프호스팅·무운영 중국 A주 종목 선정+모니터링+백테스트 퀀트 워크벤치임. LLM으로 전략 커스터마이징과 종목 분석, 복기를 지원하고 서드파티 데이터 소스 연동이 자유로움.
+- [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything): 모든 소프트웨어를 에이전트 네이티브로 만드는 것을 목표로 함. GUI 위주 프로그램에 CLI 인터페이스를 입혀 AI 에이전트가 직접 조작할 수 있게 하고, CLI-Hub에서 공유함.
 
 ## 📄 Hugging Face Papers
 
-- [Transformer는 두 가지 생각을 동시에 담을 수 있음: LLM의 선형 중첩 증거](https://huggingface.co/papers/2609.29845)
-  서로 다른 텍스트 스트림의 입력을 선형 결합하면 모델 출력이 각 next-token 분포의 중첩으로 나옴을 보임. 이를 'Superposition Linearity Hypothesis'라 부르며, 비선형 구조에도 불구하고 LLM이 근본적 선형성을 가진다는 증거를 제시함.
-- [SAE 잠재 공간에서 창발하는 품사 범주](https://huggingface.co/papers/2609.29362)
-  Sparse AutoEncoder의 latent가 어떤 언어 구조를 드러내는지 품사(PoS)를 테스트 케이스로 분석함. 품사 정보가 개별 latent보다 구조화된 feature 그룹으로 인코딩되며 높은 복원율을 보임.
-- [IterSynth: 역할 분리 반복 합성으로 딥서치 에이전트 재설계](https://huggingface.co/papers/2609.29444)
-  ReAct식 딥서치 에이전트의 역할 결합·컨텍스트 누적 문제를 지적함. 계획·증거 활용·합성 역할을 분리하고 반복적으로 합성해 노이즈를 줄이고 근거 있는 답변을 생성함.
-- [일반화된 Task and Motion Planning을 위한 코딩 에이전트](https://huggingface.co/papers/2609.30233)
-  기하·운동학 제약과 이산 결정이 얽힌 TAMP 문제를 코딩 에이전트로 풀도록 함. 문제 인스턴스 간 규칙성을 코드로 추출해 새 인스턴스의 계획 비용을 줄이며, 전문가 수작업 없이 일반화함.
-- [Rufus-Air: 오픈 LLM 후훈련 레시피](https://huggingface.co/papers/2609.29421)
-  GLM-4.5-Air-Base(106B-A12B) 위에 SFT→추론 RL→코딩 RL→지시 따르기 RL→에이전트→RLHF 8단계 파이프라인을 재현 가능하게 공개함. 데이터·보상 설계·인프라·단계별 결과를 모두 문서화함.
+- [흥미로운 수학을 발견하는 법 학습하기](https://huggingface.co/papers/2609.28603)
+  LLM이 수십 년 된 난제까지 풀기 시작했지만, 새로 만든 수학 지식이 실제로 '흥미롭고 유용한지'는 미해결 문제임. 단순 정리 생성이 아니라 흥미로운 수학을 발견하도록 학습시키는 접근을 제안함.
+- [RGBD20K: 대규모 RGB-D 시맨틱 분할 벤치마크](https://huggingface.co/papers/2609.29028)
+  160개 세분화 카테고리와 고품질 주석을 갖춘 RGB-D 시맨틱 분할 데이터셋임. 기존 데이터셋보다 훨씬 넓은 의미 공간을 다뤄 더 견고하고 범용적인 모델 개발을 돕는 것이 목표임.
+- [Neural Spectral Capacity: 네트워크 명세만으로 아키텍처 용량 측정·설계](https://huggingface.co/papers/2609.23087)
+  파라미터 수와 FLOPs는 모델 크기·연산량만 담고 깊이-너비·헤드·FFN 배분 같은 구조 차이는 못 잡음. 네트워크 명세만으로 구조적 용량을 측정하는 새 지표를 제안해 Transformer 설계와 압축에 활용함.
+- [AgentKernel: 신뢰 네이티브 에이전트 운영체제](https://huggingface.co/papers/2609.29647)
+  AI 에이전트는 신뢰할 수 없는 콘텐츠와 특권 명령을 섞고 도구를 호출하며 공격 표면이 커짐. 애플리케이션 미들웨어 수준이던 거버넌스를 OS 수준의 신뢰 경계로 끌어올린 설계를 제안함.
+- [Just Ask Jev: 보정된 의사결정 RL로 AI 정렬 실패를 제로샷 탐지](https://huggingface.co/papers/2609.29429)
+  기존 정렬 실패 탐지기는 기준마다 디코딩을 반복하거나 호출당 고정 라벨 하나만 냄. 보정된 의사결정용 RL(RLCD)로 학습한 Jev는 한 입력에 대해 여러 유형의 질문에 답하는 제로샷 탐지기로 동작함.
 
 ## 🦉 GeekNews
 
-- [Archify - 코드와 설명을 탐색 가능한 시스템 다이어그램으로 만드는 에이전트 스킬](https://news.hada.io/topic?id=34248)
-  코드베이스를 분석하거나 시스템을 말로 설명하면 구성 요소와 연결 관계를 직접 탐색할 수 있는 다이어그램을 생성함. Cursor·Claude Code·Codex CLI 등에 스킬로 붙여 씀.
-- [Whiteboard - AI가 만든 코드를 이해하고 검토하는 오픈소스 캔버스](https://news.hada.io/topic?id=34245)
-  Claude Code·Codex가 만든 코드의 구조와 변경 이유를 그림으로 살펴보는 데스크톱 앱임. 기존 코딩 에이전트에 연결해 에이전트가 캔버스에 직접 설명을 그려줌.
-- [Tunnet - 관리 서버까지 직접 운영하는 오픈소스 Tailscale 대안](https://news.hada.io/topic?id=34204)
-  여러 컴퓨터를 하나의 암호화된 사설망으로 연결하고 SSH 접속, 내부 서비스 공유, 공개 터널, 파일 전송을 같은 계정·접근 정책으로 다룸. 관리 서버까지 셀프호스팅 가능함.
-- [API 가격대별 최고의 LLM 알아보기](https://news.hada.io/topic?id=34242)
-  여러 LLM의 성능과 API 가격을 한눈에 비교하고 지불하려는 가격대에서 가장 높은 점수를 받은 모델을 찾아주는 웹사이트임. Artificial Analysis 평가 데이터를 기반으로 함.
-- [Claude.ai를 2주 만에 3배 빠르게 만든 방법](https://news.hada.io/topic?id=34206)
-  웹·데스크톱 앱에서 실행, 대화 시작, 기존 대화 로딩, 메시지 전송 등 사용자 활동의 95%를 차지하는 흐름을 집중 개선함. 핵심 이용 구간이 약 3배 빨라짐.
+- [깡통 AI들 때문에 두 번째 뇌를 만들게 됐다](https://jadarma.github.io/blog/posts/2026/09/clankers-made-me-build-a-second-brain/)
+  Claude가 존재하지 않는 명령어 옵션을 답하는 일을 겪은 뒤, 이미 배운 내용을 Obsidian에 직접 기록해 찾아 쓰기로 함. AI에 기대기보다 개인 지식 베이스를 쌓는 쪽이 신뢰도가 높다는 경험담임.
+- [AI가 거의 모든 코드를 작성하면 소프트웨어 엔지니어링에는 무슨 일이 일어날까?](https://rosettalens.com/s/ko/when-ai-writes-almost-all-code-what)
+  AI가 대부분의 코드를 생성하는 시대에 엔지니어의 역할, 기회, 위험을 짚음. 제품 관리와의 경계가 흐려지고 판단·설계 능력이 핵심 역량이 된다고 봄.
+- [Ollaya - Jev 같은 의사결정 모델을 위한 Ollama](https://ollaya.dev/)
+  여러 공개 의사결정 모델을 내려받아 로컬에서 실행하는 오픈소스 도구임. Ollama처럼 CLI, 데스크톱 앱, 로컬 API를 제공하고 이메일·고객 문의 분류 같은 판단 작업에 씀.
+- [알렉산더 왕: 내가 Muse를 만드는 이유](https://x.com/alexandr_wang/status/2103551714536439951)
+  가족과 시간을 보내거나 가게를 열고 싶어도 시작점을 몰라 포기하는 사람이 많다고 봄. Muse는 그 첫걸음을 AI가 대신 설계해 실행까지 이끄는 것을 지향함.
+- ["완전 AI 같아!" 알파 세대의 욕이 된 AI](https://www.theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us)
+  알파 세대는 "That's so AI!"를 진정성 없고 형편없는 것을 깎아내리는 말로 씀. 실제 AI 생성물인지는 중요하지 않으며, AI 결과물이 '싸구려'의 대명사가 된 현상을 짚음.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-09-26](data/2026-09-26.md)
 - [2026-09-22](data/2026-09-22.md)
 - [2026-09-21](data/2026-09-21.md)
 - [2026-09-20](data/2026-09-20.md)
@@ -69,4 +70,3 @@
 - [2026-08-24](data/2026-08-24.md)
 - [2026-08-23](data/2026-08-23.md)
 - [2026-08-22](data/2026-08-22.md)
-- [2026-08-21](data/2026-08-21.md)
