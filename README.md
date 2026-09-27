@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-09-27
+> 마지막 업데이트: 2026-09-28
 
-# AI 뉴스 — 2026-09-27
+# AI 뉴스 — 2026-09-28
 
 ## 🔥 GitHub Trending (Python)
 
-- [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight): 학습하는 에이전트 메모리 프레임워크임. 에이전트가 경험을 기억하고 다음 판단에 활용하도록 함. 하루 2,100개 이상 스타로 오늘도 1위임.
-- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo): 주제나 키워드만 넣으면 AI 대모델과 자동화 워크플로우로 고화질 숏폼 영상을 원클릭 생성함. 대본·음성·자막·영상 소스를 자동으로 조합함.
-- [666ghj/MiroFish](https://github.com/666ghj/MiroFish): 간결하고 범용적인 군집 지능(Swarm Intelligence) 엔진임. 다수 에이전트의 상호작용으로 다양한 대상을 예측하는 것을 목표로 함.
-- [shy3130/tick-stock-panel](https://github.com/shy3130/tick-stock-panel): 셀프호스팅·무운영 중국 A주 종목 선정+모니터링+백테스트 퀀트 워크벤치임. LLM으로 전략 커스터마이징과 종목 분석, 복기를 지원하고 서드파티 데이터 소스 연동이 자유로움.
-- [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything): 모든 소프트웨어를 에이전트 네이티브로 만드는 것을 목표로 함. GUI 위주 프로그램에 CLI 인터페이스를 입혀 AI 에이전트가 직접 조작할 수 있게 하고, CLI-Hub에서 공유함.
+- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio): 완전 로컬로 돌아가는 오픈소스 ElevenLabs 대체재임. 음성 복제, 음성 디자인, 영상 더빙, 받아쓰기, 전사, 오디오북 제작을 646개 언어로 지원함. 하루 3,000개 넘는 스타를 받으며 급부상함.
+- [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight): 학습하는 에이전트 메모리 프레임워크임. 에이전트가 경험을 기억하고 다음 판단에 반영하도록 함. 하루 4,400개 이상 스타로 사흘째 1위임.
+- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링을 밑바닥부터 배우고 직접 만들어 배포까지 하는 학습 커리큘럼임. 'Learn it. Build it. Ship it for others.'를 모토로 함.
+- [microsoft/data-formulator](https://github.com/microsoft/data-formulator): Microsoft의 AI 기반 인터랙티브 데이터 분석 시스템임. 데이터 연결·탐색·시각화를 자연어와 UI 조작을 섞어 쉽게 하도록 함.
+- [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books): 무료로 볼 수 있는 프로그래밍 책과 강의 자료를 언어·주제별로 모은 대형 목록임. 연휴 뒤 학습 수요로 다시 트렌딩에 오름.
 
 ## 📄 Hugging Face Papers
 
-- [흥미로운 수학을 발견하는 법 학습하기](https://huggingface.co/papers/2609.28603)
-  LLM이 수십 년 된 난제까지 풀기 시작했지만, 새로 만든 수학 지식이 실제로 '흥미롭고 유용한지'는 미해결 문제임. 단순 정리 생성이 아니라 흥미로운 수학을 발견하도록 학습시키는 접근을 제안함.
-- [RGBD20K: 대규모 RGB-D 시맨틱 분할 벤치마크](https://huggingface.co/papers/2609.29028)
-  160개 세분화 카테고리와 고품질 주석을 갖춘 RGB-D 시맨틱 분할 데이터셋임. 기존 데이터셋보다 훨씬 넓은 의미 공간을 다뤄 더 견고하고 범용적인 모델 개발을 돕는 것이 목표임.
-- [Neural Spectral Capacity: 네트워크 명세만으로 아키텍처 용량 측정·설계](https://huggingface.co/papers/2609.23087)
-  파라미터 수와 FLOPs는 모델 크기·연산량만 담고 깊이-너비·헤드·FFN 배분 같은 구조 차이는 못 잡음. 네트워크 명세만으로 구조적 용량을 측정하는 새 지표를 제안해 Transformer 설계와 압축에 활용함.
-- [AgentKernel: 신뢰 네이티브 에이전트 운영체제](https://huggingface.co/papers/2609.29647)
-  AI 에이전트는 신뢰할 수 없는 콘텐츠와 특권 명령을 섞고 도구를 호출하며 공격 표면이 커짐. 애플리케이션 미들웨어 수준이던 거버넌스를 OS 수준의 신뢰 경계로 끌어올린 설계를 제안함.
-- [Just Ask Jev: 보정된 의사결정 RL로 AI 정렬 실패를 제로샷 탐지](https://huggingface.co/papers/2609.29429)
-  기존 정렬 실패 탐지기는 기준마다 디코딩을 반복하거나 호출당 고정 라벨 하나만 냄. 보정된 의사결정용 RL(RLCD)로 학습한 Jev는 한 입력에 대해 여러 유형의 질문에 답하는 제로샷 탐지기로 동작함.
+- [OmniEcho: 체화 에이전트를 위한 공간 오디오 이해](https://huggingface.co/papers/2609.23407)
+  사람은 소리 방향을 쉽게 파악해 시각 정보와 결합하지만 체화 에이전트에게는 어려운 과제임. 공간 오디오-시각 인지와 오디오-비전-언어 내비게이션을 평가하는 통합 벤치마크 OmniEchoBench를 제안함.
+- [World Action Agent: 세계 행동 리허설로 VLM이 로봇을 조작하게 함](https://huggingface.co/papers/2609.29964)
+  기존 시스템은 VLM을 제약 예측이나 코드 작성에 간접적으로만 씀. WAA는 VLM이 기본 도구로 로봇을 직접 조종하고 시각적 세계 안에서 행동을 리허설하며 결정하는 멀티 에이전트 하네스임.
+- [PUBG Ally: AI 팀원으로 함께 플레이하는 대화형 체화 에이전트](https://huggingface.co/papers/2609.29837)
+  PUBG: BATTLEGROUNDS에서 추론하고 자율 행동하며 음성으로 대화하는 AI 팀원임. 엄격한 지연 제약 속에서 변화하는 게임 세계를 인지하면서 말과 행동을 동기화하는 두 난제를 결합함.
+- [AV-GRPO: 오디오-비디오 동시 생성을 위한 모달리티 고정 분리 확산 RL](https://huggingface.co/papers/2609.29816)
+  오디오-비디오 동시 생성 모델은 모달리티별 충실도, 텍스트 정렬, 교차 모달 동기화가 약함. 이질적 멀티모달 보상이 얽히는 문제를 모달리티별로 분리한 RL 후처리로 해결함.
+- [DeltaWAM: 양손 조작을 위한 델타 세계-행동 모델](https://huggingface.co/papers/2609.28811)
+  기존 세계-행동 모델은 거의 안 변하는 프레임까지 밀도 있게 예측해 낭비가 큼. 변화량(delta)만 모델링해 행동 조건부 역학을 외관 변화에서 분리하고 추론도 가볍게 만듦.
 
 ## 🦉 GeekNews
 
-- [깡통 AI들 때문에 두 번째 뇌를 만들게 됐다](https://jadarma.github.io/blog/posts/2026/09/clankers-made-me-build-a-second-brain/)
-  Claude가 존재하지 않는 명령어 옵션을 답하는 일을 겪은 뒤, 이미 배운 내용을 Obsidian에 직접 기록해 찾아 쓰기로 함. AI에 기대기보다 개인 지식 베이스를 쌓는 쪽이 신뢰도가 높다는 경험담임.
-- [AI가 거의 모든 코드를 작성하면 소프트웨어 엔지니어링에는 무슨 일이 일어날까?](https://rosettalens.com/s/ko/when-ai-writes-almost-all-code-what)
-  AI가 대부분의 코드를 생성하는 시대에 엔지니어의 역할, 기회, 위험을 짚음. 제품 관리와의 경계가 흐려지고 판단·설계 능력이 핵심 역량이 된다고 봄.
-- [Ollaya - Jev 같은 의사결정 모델을 위한 Ollama](https://ollaya.dev/)
-  여러 공개 의사결정 모델을 내려받아 로컬에서 실행하는 오픈소스 도구임. Ollama처럼 CLI, 데스크톱 앱, 로컬 API를 제공하고 이메일·고객 문의 분류 같은 판단 작업에 씀.
-- [알렉산더 왕: 내가 Muse를 만드는 이유](https://x.com/alexandr_wang/status/2103551714536439951)
-  가족과 시간을 보내거나 가게를 열고 싶어도 시작점을 몰라 포기하는 사람이 많다고 봄. Muse는 그 첫걸음을 AI가 대신 설계해 실행까지 이끄는 것을 지향함.
-- ["완전 AI 같아!" 알파 세대의 욕이 된 AI](https://www.theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us)
-  알파 세대는 "That's so AI!"를 진정성 없고 형편없는 것을 깎아내리는 말로 씀. 실제 AI 생성물인지는 중요하지 않으며, AI 결과물이 '싸구려'의 대명사가 된 현상을 짚음.
+- [계획 모드는 죽었다](https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html)
+  모델이 저장소를 탐색하고 합리적인 가정을 세우는 능력이 좋아지면서 사람이 구현 방법을 미리 상세히 지시하는 Plan 모드의 필요성이 줄었다고 봄. 계획보다 검증에 힘을 쓰라는 주장임.
+- [이제 OS란 대체 무엇인가?](https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now/)
+  프로그래머와 사용자 사이 경계가 AI로 허물어지면서 사용자가 자연어로 필요한 프로그램을 직접 만드는 컴퓨팅 환경이 열리고 있음. 그 위에서 운영체제의 역할이 어떻게 바뀌는지 짚음.
+- [LLM 시대에도 프로그래밍을 계속 즐기는 법](https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705)
+  코딩은 사람이 맡고 LLM에는 계획 정리, 조사, 검토 같은 주변 작업을 맡기는 방식을 제안함. 프로그래밍의 즐거움과 적당한 생산성 향상을 함께 챙기자는 Haskell 커뮤니티 토론임.
+- [비전 모델까지 지원하는 Jev 스타일 LLM 래퍼](http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html)
+  일반 LLM을 긴 답변 대신 선택지별 확률과 점수를 돌려주는 도구로 쓰는 Python 함수 score()를 구현함. 질문과 A/B/C 선택지를 주면 로그 확률로 보정된 결정을 얻고, 비전 모델에도 적용함.
+- [우리에게는 훨씬 더 많은 수학자가 필요할 것이다](https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/)
+  Terence Tao의 글임. AI가 만들어낼 중대한 발견을 인간이 이해하고 기여하려면 수학 역량을 갖춘 연구자 공동체를 줄이는 대신 크게 확대해야 한다고 주장함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-09-27](data/2026-09-27.md)
 - [2026-09-26](data/2026-09-26.md)
 - [2026-09-22](data/2026-09-22.md)
 - [2026-09-21](data/2026-09-21.md)
@@ -69,4 +70,3 @@
 - [2026-08-25](data/2026-08-25.md)
 - [2026-08-24](data/2026-08-24.md)
 - [2026-08-23](data/2026-08-23.md)
-- [2026-08-22](data/2026-08-22.md)
