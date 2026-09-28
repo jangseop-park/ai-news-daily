@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-09-28
+> 마지막 업데이트: 2026-09-29
 
-# AI 뉴스 — 2026-09-28
+# AI 뉴스 — 2026-09-29
 
 ## 🔥 GitHub Trending (Python)
 
-- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio): 완전 로컬로 돌아가는 오픈소스 ElevenLabs 대체재임. 음성 복제, 음성 디자인, 영상 더빙, 받아쓰기, 전사, 오디오북 제작을 646개 언어로 지원함. 하루 3,000개 넘는 스타를 받으며 급부상함.
-- [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight): 학습하는 에이전트 메모리 프레임워크임. 에이전트가 경험을 기억하고 다음 판단에 반영하도록 함. 하루 4,400개 이상 스타로 사흘째 1위임.
-- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링을 밑바닥부터 배우고 직접 만들어 배포까지 하는 학습 커리큘럼임. 'Learn it. Build it. Ship it for others.'를 모토로 함.
-- [microsoft/data-formulator](https://github.com/microsoft/data-formulator): Microsoft의 AI 기반 인터랙티브 데이터 분석 시스템임. 데이터 연결·탐색·시각화를 자연어와 UI 조작을 섞어 쉽게 하도록 함.
-- [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books): 무료로 볼 수 있는 프로그래밍 책과 강의 자료를 언어·주제별로 모은 대형 목록임. 연휴 뒤 학습 수요로 다시 트렌딩에 오름.
+- [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight): 경험에서 학습하는 AI 에이전트 메모리 시스템임. 실행 결과를 기억해 다음 행동에 반영하도록 설계됨. 하루 4,400+ 스타로 트렌딩 1위임.
+- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio): 완전 로컬로 돌아가는 오픈소스 ElevenLabs 대체재임. 음성 복제, 음성 디자인, 영상 더빙, 받아쓰기, 전사, 오디오북 제작을 646개 언어로 지원함.
+- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링을 밑바닥부터 배우고, 직접 만들고, 남에게 배포하는 실습형 학습 커리큘럼임. 'Learn it. Build it. Ship it' 구성임.
+- [ashhart/TensorFold](https://github.com/ashhart/TensorFold): Apple Silicon(MLX)에서 빠르고 정확한(exact) LLM 디코딩을 제공함. OpenAI 호환 엔드포인트 뒤에서 동작해 기존 클라이언트를 그대로 쓸 수 있음.
+- [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt): 고정된(frozen) LLM 에이전트를 위해 재사용 가능한 자연어 스킬을 학습시키는 텍스트 공간 옵티마이저임. 궤적 기반 편집과 검증 게이트 업데이트로 best_skill.md 산출물을 만듦.
 
 ## 📄 Hugging Face Papers
 
-- [OmniEcho: 체화 에이전트를 위한 공간 오디오 이해](https://huggingface.co/papers/2609.23407)
-  사람은 소리 방향을 쉽게 파악해 시각 정보와 결합하지만 체화 에이전트에게는 어려운 과제임. 공간 오디오-시각 인지와 오디오-비전-언어 내비게이션을 평가하는 통합 벤치마크 OmniEchoBench를 제안함.
-- [World Action Agent: 세계 행동 리허설로 VLM이 로봇을 조작하게 함](https://huggingface.co/papers/2609.29964)
-  기존 시스템은 VLM을 제약 예측이나 코드 작성에 간접적으로만 씀. WAA는 VLM이 기본 도구로 로봇을 직접 조종하고 시각적 세계 안에서 행동을 리허설하며 결정하는 멀티 에이전트 하네스임.
-- [PUBG Ally: AI 팀원으로 함께 플레이하는 대화형 체화 에이전트](https://huggingface.co/papers/2609.29837)
-  PUBG: BATTLEGROUNDS에서 추론하고 자율 행동하며 음성으로 대화하는 AI 팀원임. 엄격한 지연 제약 속에서 변화하는 게임 세계를 인지하면서 말과 행동을 동기화하는 두 난제를 결합함.
-- [AV-GRPO: 오디오-비디오 동시 생성을 위한 모달리티 고정 분리 확산 RL](https://huggingface.co/papers/2609.29816)
-  오디오-비디오 동시 생성 모델은 모달리티별 충실도, 텍스트 정렬, 교차 모달 동기화가 약함. 이질적 멀티모달 보상이 얽히는 문제를 모달리티별로 분리한 RL 후처리로 해결함.
-- [DeltaWAM: 양손 조작을 위한 델타 세계-행동 모델](https://huggingface.co/papers/2609.28811)
-  기존 세계-행동 모델은 거의 안 변하는 프레임까지 밀도 있게 예측해 낭비가 큼. 변화량(delta)만 모델링해 행동 조건부 역학을 외관 변화에서 분리하고 추론도 가볍게 만듦.
+- [분리형 양자화: LLM Prefill과 Decode의 특화](https://huggingface.co/papers/2609.26333)
+  Prefill은 저정밀 연산으로 빨라지고, Decode는 압축된 가중치로 메모리 트래픽이 줄어드는 등 두 단계가 원하는 양자화가 다름. 단계별로 연산 포맷·가중치·저장 위치를 따로 최적화하는 DQ를 제안함. Qwen 3, Gemma 3에서 Decode의 활성화 양자화만 제거해도 품질이 회복됨.
+- [SAGE: 위상적 가이드로 장기 추론 편향 완화](https://huggingface.co/papers/2609.30192)
+  희소 보상 환경의 장기 추론 실패 원인을 탐색 편향(그럴듯하지만 불안정한 분기 선호)과 누적 편향(작은 오차가 깊이에 따라 증폭)으로 규정함. 추론 공간의 위상 구조를 활용해 두 편향을 완화하는 SAGE를 제안함.
+- [IndicBankBench: 인도 리테일 뱅킹 LLM 어시스턴트의 안전성·신뢰성 평가](https://huggingface.co/papers/2609.29167)
+  은행 어시스턴트는 계좌 정보를 바탕으로 툴로 실제 행동까지 해야 하므로 최종 답변만 평가하면 오류를 놓침. 이미 아는 정보를 재요청하거나 잘못된 계좌를 고르는 등의 실수를 잡는 799개 케이스 벤치마크를 제안함.
+- [모든 랭크가 같지 않다: 예산 인식 태스크 간 LoRA 병합](https://huggingface.co/papers/2609.22237)
+  기존 LoRA 병합은 모든 레이어·태스크에 같은 랭크 예산을 가정함. 이 균일 예산 가정이 병합 모델과 태스크별 모델 간 성능 격차의 주요 원인임을 보이고, 레이어·태스크별로 랭크를 차등 배분하는 병합법을 제안함.
+- [D-JEPA: 의사결정 정렬 잠재 세계 모델](https://huggingface.co/papers/2609.24749)
+  잠재 세계 모델의 예측이 정확해도 잠재 거리가 실제 실행 성공 여부를 반영하지 않을 수 있음. 목표에 더 가깝다고 예측된 후보가 실제로는 더 나쁜 결과를 내는 '의사결정 국소 예측 갭'을 정의하고, 이를 줄이도록 정렬한 D-JEPA를 제안함.
 
 ## 🦉 GeekNews
 
-- [계획 모드는 죽었다](https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html)
-  모델이 저장소를 탐색하고 합리적인 가정을 세우는 능력이 좋아지면서 사람이 구현 방법을 미리 상세히 지시하는 Plan 모드의 필요성이 줄었다고 봄. 계획보다 검증에 힘을 쓰라는 주장임.
-- [이제 OS란 대체 무엇인가?](https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now/)
-  프로그래머와 사용자 사이 경계가 AI로 허물어지면서 사용자가 자연어로 필요한 프로그램을 직접 만드는 컴퓨팅 환경이 열리고 있음. 그 위에서 운영체제의 역할이 어떻게 바뀌는지 짚음.
-- [LLM 시대에도 프로그래밍을 계속 즐기는 법](https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705)
-  코딩은 사람이 맡고 LLM에는 계획 정리, 조사, 검토 같은 주변 작업을 맡기는 방식을 제안함. 프로그래밍의 즐거움과 적당한 생산성 향상을 함께 챙기자는 Haskell 커뮤니티 토론임.
-- [비전 모델까지 지원하는 Jev 스타일 LLM 래퍼](http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html)
-  일반 LLM을 긴 답변 대신 선택지별 확률과 점수를 돌려주는 도구로 쓰는 Python 함수 score()를 구현함. 질문과 A/B/C 선택지를 주면 로그 확률로 보정된 결정을 얻고, 비전 모델에도 적용함.
-- [우리에게는 훨씬 더 많은 수학자가 필요할 것이다](https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/)
-  Terence Tao의 글임. AI가 만들어낼 중대한 발견을 인간이 이해하고 기여하려면 수학 역량을 갖춘 연구자 공동체를 줄이는 대신 크게 확대해야 한다고 주장함.
+- ['통제를 벗어난' AI 에이전트란 없다](https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents)
+  AI 사고를 '에이전트가 통제를 벗어났다'고 표현하면 소프트웨어가 스스로 판단한 것처럼 보이게 되고, 개발·운영 기업의 책임이 흐려짐. 사고의 책임은 시스템을 설계·배포한 조직에 있다는 주장임.
+- [BrowserSkill - 로그인된 내 브라우저를 AI 에이전트가 사용하게 하는 도구](https://github.com/Tencent/BrowserSkill)
+  Tencent가 공개한 브라우저 확장 + CLI임. 이미 로그인된 Chrome·Edge를 AI 에이전트에 연결해 별도 자동화 브라우저에 다시 로그인할 필요가 없음.
+- [기업용 AI가 마침내 SaaS의 약속을 실현하고 있다](https://emilyman.substack.com/p/enterprise-ai-is-finally-delivering)
+  SaaS는 전문성을 약속했지만 실제 구현은 컨설턴트에게 맡기는 경우가 많았음. 기업용 AI는 업무 노하우를 제품 자체에 내장해 그 약속을 실제로 이행하고 있다는 분석임.
+- [해자와 소프트웨어의 바벨화](https://x.com/mvernal/status/2099885132379500562)
+  소프트웨어 산업이 소수 초대형 기업과 다수 소규모 사업자로 양극화되는 중임. 인터넷 이후 신문 산업처럼 중간 규모 기업의 입지가 줄어들 수 있다는 관측임.
+- [계속 승진하는 것이 좋은 커리어일까? 엔지니어 Philip Su의 경험](https://www.youtube.com/watch?v=RMo04pSSiao)
+  승진은 같은 일을 더 잘하는 것이 아님. 높은 레벨일수록 코딩보다 방향 설정과 조직 간 조율이 늘어남. 잘할 수 있는 일과 하고 싶은 일이 어긋날 수 있다는 경험담임.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-09-28](data/2026-09-28.md)
 - [2026-09-27](data/2026-09-27.md)
 - [2026-09-26](data/2026-09-26.md)
 - [2026-09-22](data/2026-09-22.md)
@@ -69,4 +70,3 @@
 - [2026-08-27](data/2026-08-27.md)
 - [2026-08-25](data/2026-08-25.md)
 - [2026-08-24](data/2026-08-24.md)
-- [2026-08-23](data/2026-08-23.md)
