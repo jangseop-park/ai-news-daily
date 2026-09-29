@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-09-29
+> 마지막 업데이트: 2026-09-30
 
-# AI 뉴스 — 2026-09-29
+# AI 뉴스 — 2026-09-30
 
 ## 🔥 GitHub Trending (Python)
 
-- [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight): 경험에서 학습하는 AI 에이전트 메모리 시스템임. 실행 결과를 기억해 다음 행동에 반영하도록 설계됨. 하루 4,400+ 스타로 트렌딩 1위임.
-- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio): 완전 로컬로 돌아가는 오픈소스 ElevenLabs 대체재임. 음성 복제, 음성 디자인, 영상 더빙, 받아쓰기, 전사, 오디오북 제작을 646개 언어로 지원함.
-- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링을 밑바닥부터 배우고, 직접 만들고, 남에게 배포하는 실습형 학습 커리큘럼임. 'Learn it. Build it. Ship it' 구성임.
-- [ashhart/TensorFold](https://github.com/ashhart/TensorFold): Apple Silicon(MLX)에서 빠르고 정확한(exact) LLM 디코딩을 제공함. OpenAI 호환 엔드포인트 뒤에서 동작해 기존 클라이언트를 그대로 쓸 수 있음.
-- [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt): 고정된(frozen) LLM 에이전트를 위해 재사용 가능한 자연어 스킬을 학습시키는 텍스트 공간 옵티마이저임. 궤적 기반 편집과 검증 게이트 업데이트로 best_skill.md 산출물을 만듦.
+- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio): 완전 로컬로 돌아가는 오픈소스 ElevenLabs 대체재임. 음성 복제, 음성 디자인, 영상 더빙, 받아쓰기, 전사, 오디오북 제작을 646개 언어로 지원함. 이틀 연속 트렌딩 1위(하루 4,700+ 스타)임.
+- [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight): 경험에서 학습하는 AI 에이전트 메모리 시스템임. 실행 결과를 기억해 다음 행동에 반영하도록 설계됨. 하루 2,500+ 스타로 여전히 상위권임.
+- [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex): 벡터 DB 없이 추론 기반으로 문서를 탐색하는 RAG용 문서 인덱스임. 긴 문서를 목차 같은 트리 구조로 만들어 LLM이 추론으로 필요한 부분을 찾아가게 함.
+- [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book): Harvard CS249r 강의 기반 오픈 교재 'Machine Learning Systems'임. 기초·스케일링·에이전틱 AI·피지컬 AI까지 4권 구성으로 mlsysbook.ai에서 무료 열람 가능함.
+- [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search): 내 컴퓨터에서 돌아가는 AI 구직 프레임워크임. Claude Code 위에 구축되어 공고 평가, 이력서 맞춤화, 자기소개서 작성, 면접 준비까지 처리함. 포크해서 내 것으로 쓰는 구조임.
 
 ## 📄 Hugging Face Papers
 
-- [분리형 양자화: LLM Prefill과 Decode의 특화](https://huggingface.co/papers/2609.26333)
-  Prefill은 저정밀 연산으로 빨라지고, Decode는 압축된 가중치로 메모리 트래픽이 줄어드는 등 두 단계가 원하는 양자화가 다름. 단계별로 연산 포맷·가중치·저장 위치를 따로 최적화하는 DQ를 제안함. Qwen 3, Gemma 3에서 Decode의 활성화 양자화만 제거해도 품질이 회복됨.
-- [SAGE: 위상적 가이드로 장기 추론 편향 완화](https://huggingface.co/papers/2609.30192)
-  희소 보상 환경의 장기 추론 실패 원인을 탐색 편향(그럴듯하지만 불안정한 분기 선호)과 누적 편향(작은 오차가 깊이에 따라 증폭)으로 규정함. 추론 공간의 위상 구조를 활용해 두 편향을 완화하는 SAGE를 제안함.
-- [IndicBankBench: 인도 리테일 뱅킹 LLM 어시스턴트의 안전성·신뢰성 평가](https://huggingface.co/papers/2609.29167)
-  은행 어시스턴트는 계좌 정보를 바탕으로 툴로 실제 행동까지 해야 하므로 최종 답변만 평가하면 오류를 놓침. 이미 아는 정보를 재요청하거나 잘못된 계좌를 고르는 등의 실수를 잡는 799개 케이스 벤치마크를 제안함.
-- [모든 랭크가 같지 않다: 예산 인식 태스크 간 LoRA 병합](https://huggingface.co/papers/2609.22237)
-  기존 LoRA 병합은 모든 레이어·태스크에 같은 랭크 예산을 가정함. 이 균일 예산 가정이 병합 모델과 태스크별 모델 간 성능 격차의 주요 원인임을 보이고, 레이어·태스크별로 랭크를 차등 배분하는 병합법을 제안함.
-- [D-JEPA: 의사결정 정렬 잠재 세계 모델](https://huggingface.co/papers/2609.24749)
-  잠재 세계 모델의 예측이 정확해도 잠재 거리가 실제 실행 성공 여부를 반영하지 않을 수 있음. 목표에 더 가깝다고 예측된 후보가 실제로는 더 나쁜 결과를 내는 '의사결정 국소 예측 갭'을 정의하고, 이를 줄이도록 정렬한 D-JEPA를 제안함.
+- [VisionHOPE: 자기 수정 학습 시스템으로서의 비전 백본](https://huggingface.co/papers/2609.33325)
+  CNN→ViT→SSM→TTT로 이어지며 비전 백본은 점점 입력 적응적이 됐지만, 적응 규칙 자체는 고정돼 있었음. 백본이 이미지를 처리하면서 스스로의 학습 규칙까지 수정하는 자기 수정 학습 시스템을 제안함. 오늘 106 upvote로 압도적 1위임.
+- [SentZero: 다중 태스크 제로샷 흉부 X-ray 분석을 위한 문장 중심 비전-언어 사전학습](https://huggingface.co/papers/2609.34479)
+  흉부 X-ray와 판독문 쌍으로 VL 사전학습을 하지만, 판독문이 길고 밀도가 높아 단순 제로샷 프롬프트와 정렬이 어려워 태스크별 파인튜닝에 의존해 왔음. 문장 단위 정렬을 강화해 여러 태스크를 제로샷으로 처리하게 함.
+- [ExpVoyager: 동적 에이전트 스킬 합성을 위한 직접 경험 탐색](https://huggingface.co/papers/2609.32630)
+  LLM 에이전트가 누적 경험을 재사용 가능한 스킬로 합성하는 것이 자기 진화 에이전트의 핵심 계층임. 경험을 직접 탐색해 런타임에 동적으로 스킬을 합성하는 ExpVoyager를 제안함.
+- [LLM 온폴리시 증류에 KL 발산이 정말 필요한가?](https://huggingface.co/papers/2609.33791)
+  지식 증류의 표준 손실인 KL 발산을 온폴리시 증류(OPD)도 그대로 물려받았음. 그런데 KL 없이 업데이트 방향만 보존해도 충분하다는 걸 보임. 증류 손실 설계를 단순화하는 결과임.
+- [WhiteMatter: KV 소스 믹싱을 통한 전층 간 교차 연결](https://huggingface.co/papers/2608.18486)
+  Transformer의 각 층은 과거 토큰 표현을 같은 깊이에서만 읽을 수 있어 이미 계산한 정보를 충분히 재활용하지 못함. 학습된 믹서가 어떤 깊이의 KV를 쓸지 골라 모든 층이 임의 깊이의 과거 표현을 참조하게 함.
 
 ## 🦉 GeekNews
 
-- ['통제를 벗어난' AI 에이전트란 없다](https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents)
-  AI 사고를 '에이전트가 통제를 벗어났다'고 표현하면 소프트웨어가 스스로 판단한 것처럼 보이게 되고, 개발·운영 기업의 책임이 흐려짐. 사고의 책임은 시스템을 설계·배포한 조직에 있다는 주장임.
-- [BrowserSkill - 로그인된 내 브라우저를 AI 에이전트가 사용하게 하는 도구](https://github.com/Tencent/BrowserSkill)
-  Tencent가 공개한 브라우저 확장 + CLI임. 이미 로그인된 Chrome·Edge를 AI 에이전트에 연결해 별도 자동화 브라우저에 다시 로그인할 필요가 없음.
-- [기업용 AI가 마침내 SaaS의 약속을 실현하고 있다](https://emilyman.substack.com/p/enterprise-ai-is-finally-delivering)
-  SaaS는 전문성을 약속했지만 실제 구현은 컨설턴트에게 맡기는 경우가 많았음. 기업용 AI는 업무 노하우를 제품 자체에 내장해 그 약속을 실제로 이행하고 있다는 분석임.
-- [해자와 소프트웨어의 바벨화](https://x.com/mvernal/status/2099885132379500562)
-  소프트웨어 산업이 소수 초대형 기업과 다수 소규모 사업자로 양극화되는 중임. 인터넷 이후 신문 산업처럼 중간 규모 기업의 입지가 줄어들 수 있다는 관측임.
-- [계속 승진하는 것이 좋은 커리어일까? 엔지니어 Philip Su의 경험](https://www.youtube.com/watch?v=RMo04pSSiao)
-  승진은 같은 일을 더 잘하는 것이 아님. 높은 레벨일수록 코딩보다 방향 설정과 조직 간 조율이 늘어남. 잘할 수 있는 일과 하고 싶은 일이 어긋날 수 있다는 경험담임.
+- [서버 모니터링 분석 가이드](https://kciter.so/posts/server-monitoring-analysis-guide/)
+  대시보드 설치 가이드는 많지만 그래프를 실제로 읽고 진단하는 방법을 다룬 글은 드묾. CPU·메모리·I/O·네트워크 지표를 어떻게 해석하고 어떤 행동으로 이어갈지 정리한 실전 가이드임.
+- [문제는 AI 코드가 아니라, 이제 아무도 아무것도 모른다는 것이다](https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore/)
+  AI 코드 품질보다 큰 문제는 팀 안에 시스템 구조와 설계 이유를 이해하는 사람이 사라지는 것임. 모두가 Claude에만 물으면 전체 그림을 아는 사람이 없어짐.
+- [코딩은 해결된 문제가 아니다](https://blog.alexewerlof.com/p/coding-is-not-solved)
+  AI가 코드 생성 비용을 낮췄다고 소프트웨어 개발이 해결된 건 아님. 실제 운영 비용의 큰 부분은 유지보수·신뢰성·보안·확장성에 있고, 이 부분은 여전히 사람 판단이 필요함.
+- [글 쓰다가 막혔을 때 대처법](https://thinkingsian.com/writers-block-one-principle)
+  제텔카스텐 같은 방법론으로 재료와 구성은 쉬워졌지만 디테일하게 쓰는 건 여전히 어려움. 글이 막히면 불편함을 회피하지 말고 한 가지 원칙으로 돌파하라는 조언임.
+- [F/OSS Comics #10: C언어의 아버지, 데니스 리치의 일생](https://fosscomics.com/ko/posts/10.%20The%20Life%20of%20Dennis%20Ritchie/)
+  하버드에서 벨 연구소까지, C 언어와 UNIX를 만든 데니스 리치의 삶을 만화로 그린 오픈소스 코믹 시리즈 10화임. 그림과 내용을 새로 업데이트해 공개함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-09-29](data/2026-09-29.md)
 - [2026-09-28](data/2026-09-28.md)
 - [2026-09-27](data/2026-09-27.md)
 - [2026-09-26](data/2026-09-26.md)
@@ -69,4 +70,3 @@
 - [2026-08-28](data/2026-08-28.md)
 - [2026-08-27](data/2026-08-27.md)
 - [2026-08-25](data/2026-08-25.md)
-- [2026-08-24](data/2026-08-24.md)
