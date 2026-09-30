@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-01",
+  "github_trending": [
+    {
+      "name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "주제나 키워드 하나만 넣으면 AI 대모델과 자동화 워크플로우로 HD 숏폼 영상을 한 번에 생성하는 도구임. 대본·음성·자막·배경영상까지 자동으로 만듦.",
+      "description_en": "Generate HD short videos from a topic or keyword with an automated AI workflow: script, voiceover, subtitles, and background footage are produced end-to-end."
+    },
+    {
+      "name": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "description": "Claude AI 워크플로우를 커스터마이즈하는 Claude Skills, 자료, 도구를 모은 큐레이션 리스트임. 스킬 작성 예시와 활용 사례가 정리돼 있음.",
+      "description_en": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows."
+    },
+    {
+      "name": "VectifyAI/OpenKB",
+      "url": "https://github.com/VectifyAI/OpenKB",
+      "description": "PageIndex 팀이 공개한 오픈소스 LLM 지식베이스임. 벡터 없이 추론 기반 인덱스로 문서를 탐색하는 RAG 백엔드를 지향함.",
+      "description_en": "OpenKB: an open LLM knowledge base from the PageIndex team, built around reasoning-based, vectorless document retrieval."
+    },
+    {
+      "name": "ifixai-ai/iFixAi",
+      "url": "https://github.com/ifixai-ai/iFixAi",
+      "description": "AI 에이전트가 맡은 일을 제대로 하고 있는지 120초 안에 검증하는 독립 감사 도구임. 사람이 실행할 수도, 에이전트가 스스로 돌릴 수도 있음.",
+      "description_en": "Independent auditing of AI agents. Run by a human or the agent itself to answer whether the agent is doing what it is supposed to do, in under 120 seconds."
+    },
+    {
+      "name": "TencentCloud/Octop",
+      "url": "https://github.com/TencentCloud/Octop",
+      "description": "Tencent Cloud가 공개한 셀프호스팅 AI 어시스턴트임. 다중 사용자와 다중 에이전트를 지원해 팀 단위로 운영할 수 있음.",
+      "description_en": "A smarter, self-hosted AI assistant from Tencent Cloud with multi-user and multi-agent support."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "동일 계열 On-Policy Distillation의 스케일링 특성",
+      "title_en": "Scaling Properties of Same-Family On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2609.32722",
+      "summary": "RL로 얻은 추론 능력이 모델 크기 간에 얼마나, 얼마나 빨리 전이되는지 on-policy distillation(OPD)으로 분석함. weak-to-strong, same-base, strong-to-weak 교사-학생 조합에서 초기 학습 동역학이 스케일에 따라 어떻게 달라지는지 규명함.",
+      "summary_en": "Studies how reasoning capability induced by RL transfers across model scales via on-policy distillation, comparing weak-to-strong, same-base, and strong-to-weak teacher-student setups and characterizing early training dynamics."
+    },
+    {
+      "title": "주기적 약점: 청크 KV-캐시 압축의 위상 민감도",
+      "title_en": "Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression",
+      "url": "https://huggingface.co/papers/2609.36322",
+      "summary": "연속 토큰 윈도우를 고정 stride로 압축하는 KV-캐시 압축이 '위상'이라는 새로운 위치 좌표를 만든다는 점을 발견함. 같은 정보라도 압축 윈도우 경계 대비 위치에 따라 성능이 주기적으로 흔들리는 체계적 비대칭을 보여줌.",
+      "summary_en": "Shows that chunked KV-cache compression introduces a token phase coordinate relative to window boundaries, producing a systematic, periodic asymmetry in what models retain depending on where information falls."
+    },
+    {
+      "title": "FocusVTC: 적응형 해상도로 효율적인 시각적 텍스트 압축",
+      "title_en": "FocusVTC: Efficient and High-Performance Visual Text Compression with Adaptive Resolution",
+      "url": "https://huggingface.co/papers/2609.36651",
+      "summary": "텍스트를 이미지로 렌더링해 입력 길이를 줄이는 VTC에서 고정 DPI의 압축-성능 트레이드오프를 깨는 방법임. 중요한 부분은 고해상도, 나머지는 저해상도로 적응 렌더링해 토큰을 아끼면서 가독성을 유지함.",
+      "summary_en": "Breaks the fixed-resolution trade-off in visual text compression by adaptively rendering important content at high DPI and the rest at low DPI, saving tokens without losing legibility."
+    },
+    {
+      "title": "Looped Transformer의 재귀 추론 스케줄링",
+      "title_en": "Scheduling Recursive Reasoning in Looped Transformers",
+      "url": "https://huggingface.co/papers/2609.36653",
+      "summary": "파라미터를 공유해 잠재 상태를 반복 정제하는 재귀 추론 모델이 매 루프 고정 크기 업데이트를 쓰는 한계를 짚음. 진전이 꾸준할 땐 크게, 흔들릴 땐 작게 업데이트 크기를 스케줄링해 추가 루프의 효과를 높임.",
+      "summary_en": "Recurrent reasoning models apply fixed unit-scale updates each loop; this work schedules update magnitude, larger when progress is persistent and smaller when it fluctuates, to get more benefit from extra loops."
+    },
+    {
+      "title": "FRAC: 장기 시퀀스 모델링을 위한 분수 상태공간 전이",
+      "title_en": "Fractional State Space Transition for Long Sequence Modeling",
+      "url": "https://huggingface.co/papers/2609.36314",
+      "summary": "ODE 기반 SSM은 지수적 망각으로 장기 정보를 잃는 한계가 있음. 분수 미적분에서 유도한 선택적 SSM 아키텍처 FRAC으로 넓은 시간 범위의 정보를 더 오래 보존함.",
+      "summary_en": "ODE-based SSMs forget exponentially; FRAC is a selective SSM derived from fractional calculus whose memory law retains information over much broader temporal ranges."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "스태프 엔지니어를 위한 일감 발굴 가이드",
+      "title_en": "A Guide to Inventing Work for Staff Engineers",
+      "url": "https://sujithjay.com/inventing-work",
+      "summary": "플랫폼 팀의 스태프 엔지니어는 다음에 만들 것을 스스로 찾아야 함. 시스템, 사용자, 조직, 업계 네 곳에서 개선 단서를 얻는 방법을 정리함.",
+      "summary_en": "Staff engineers on engineering-led platform teams must invent their own work; this guide shows how to find improvement signals in systems, users, the organization, and the industry."
+    },
+    {
+      "title": "cf - Cloudflare 전체 API를 다루는 에이전트용 CLI",
+      "title_en": "cf: An Agent-Friendly CLI for the Entire Cloudflare API",
+      "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+      "summary": "Cloudflare가 cf 공개 베타를 출시함. Wrangler가 지원하던 약 280개 작업을 넘어 3,000개 이상의 API 작업을 하나의 CLI로 처리하며 AI 에이전트가 쓰기 좋게 설계됨.",
+      "summary_en": "Cloudflare launched the cf CLI in public beta, covering 3,000+ API operations (vs ~280 in Wrangler) in a single tool designed for AI agents."
+    },
+    {
+      "title": "LatticeDB - 그래프, 벡터, 전문 검색을 한 파일에 담는 임베디드 DB",
+      "title_en": "LatticeDB: Graph, Vector, and Full-Text Search in a Single Embedded File",
+      "url": "https://github.com/jeffhajewski/latticedb",
+      "summary": "관계 탐색, 유사 문서 검색, 키워드 검색을 하나의 로컬 DB 파일에서 처리하는 오픈소스 임베디드 DB임. 별도 서버나 설정 없이 바로 쓸 수 있음.",
+      "summary_en": "An open-source embedded database that handles graph traversal, semantic vector search, and keyword search in one local file with no server or setup."
+    },
+    {
+      "title": "NobodyWho - 앱과 게임에 로컬 AI를 넣는 온디바이스 추론 엔진",
+      "title_en": "NobodyWho: On-Device Inference Engine for Local AI in Apps and Games",
+      "url": "https://github.com/nobodywho-ooo/nobodywho",
+      "summary": "클라우드 API 대신 사용자 기기에서 모델을 실행해 앱과 게임에 대화·이미지 이해·음성 기능을 넣는 오픈소스 추론 엔진임. 모델만 내려받으면 오프라인으로 동작함.",
+      "summary_en": "An open-source inference engine that runs models on the user's device instead of cloud APIs, adding chat, image understanding, and speech to apps and games, fully offline."
+    },
+    {
+      "title": "MicroLLM Lab - 브라우저에서 초소형 LLM 7개 체험하기",
+      "title_en": "MicroLLM Lab: Try 7 Tiny LLMs in Your Browser",
+      "url": "https://stateofutopia.com/experiments/microllmlab/",
+      "summary": "설치나 계정 없이 PetitGPT, SmolLM2 등 소형 언어모델 7개를 브라우저에서 바로 실행함. 직접 대화하며 답변 품질과 속도를 비교할 수 있음.",
+      "summary_en": "Run seven tiny language models such as PetitGPT and SmolLM2 directly in the browser with no install or account, and compare their answers and speed side by side."
+    }
+  ]
+}
