@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-09-30
+> 마지막 업데이트: 2026-10-01
 
-# AI 뉴스 — 2026-09-30
+# AI 뉴스 — 2026-10-01
 
 ## 🔥 GitHub Trending (Python)
 
-- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio): 완전 로컬로 돌아가는 오픈소스 ElevenLabs 대체재임. 음성 복제, 음성 디자인, 영상 더빙, 받아쓰기, 전사, 오디오북 제작을 646개 언어로 지원함. 이틀 연속 트렌딩 1위(하루 4,700+ 스타)임.
-- [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight): 경험에서 학습하는 AI 에이전트 메모리 시스템임. 실행 결과를 기억해 다음 행동에 반영하도록 설계됨. 하루 2,500+ 스타로 여전히 상위권임.
-- [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex): 벡터 DB 없이 추론 기반으로 문서를 탐색하는 RAG용 문서 인덱스임. 긴 문서를 목차 같은 트리 구조로 만들어 LLM이 추론으로 필요한 부분을 찾아가게 함.
-- [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book): Harvard CS249r 강의 기반 오픈 교재 'Machine Learning Systems'임. 기초·스케일링·에이전틱 AI·피지컬 AI까지 4권 구성으로 mlsysbook.ai에서 무료 열람 가능함.
-- [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search): 내 컴퓨터에서 돌아가는 AI 구직 프레임워크임. Claude Code 위에 구축되어 공고 평가, 이력서 맞춤화, 자기소개서 작성, 면접 준비까지 처리함. 포크해서 내 것으로 쓰는 구조임.
+- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo): 주제나 키워드 하나만 넣으면 AI 대모델과 자동화 워크플로우로 HD 숏폼 영상을 한 번에 생성하는 도구임. 대본·음성·자막·배경영상까지 자동으로 만듦.
+- [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills): Claude AI 워크플로우를 커스터마이즈하는 Claude Skills, 자료, 도구를 모은 큐레이션 리스트임. 스킬 작성 예시와 활용 사례가 정리돼 있음.
+- [VectifyAI/OpenKB](https://github.com/VectifyAI/OpenKB): PageIndex 팀이 공개한 오픈소스 LLM 지식베이스임. 벡터 없이 추론 기반 인덱스로 문서를 탐색하는 RAG 백엔드를 지향함.
+- [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi): AI 에이전트가 맡은 일을 제대로 하고 있는지 120초 안에 검증하는 독립 감사 도구임. 사람이 실행할 수도, 에이전트가 스스로 돌릴 수도 있음.
+- [TencentCloud/Octop](https://github.com/TencentCloud/Octop): Tencent Cloud가 공개한 셀프호스팅 AI 어시스턴트임. 다중 사용자와 다중 에이전트를 지원해 팀 단위로 운영할 수 있음.
 
 ## 📄 Hugging Face Papers
 
-- [VisionHOPE: 자기 수정 학습 시스템으로서의 비전 백본](https://huggingface.co/papers/2609.33325)
-  CNN→ViT→SSM→TTT로 이어지며 비전 백본은 점점 입력 적응적이 됐지만, 적응 규칙 자체는 고정돼 있었음. 백본이 이미지를 처리하면서 스스로의 학습 규칙까지 수정하는 자기 수정 학습 시스템을 제안함. 오늘 106 upvote로 압도적 1위임.
-- [SentZero: 다중 태스크 제로샷 흉부 X-ray 분석을 위한 문장 중심 비전-언어 사전학습](https://huggingface.co/papers/2609.34479)
-  흉부 X-ray와 판독문 쌍으로 VL 사전학습을 하지만, 판독문이 길고 밀도가 높아 단순 제로샷 프롬프트와 정렬이 어려워 태스크별 파인튜닝에 의존해 왔음. 문장 단위 정렬을 강화해 여러 태스크를 제로샷으로 처리하게 함.
-- [ExpVoyager: 동적 에이전트 스킬 합성을 위한 직접 경험 탐색](https://huggingface.co/papers/2609.32630)
-  LLM 에이전트가 누적 경험을 재사용 가능한 스킬로 합성하는 것이 자기 진화 에이전트의 핵심 계층임. 경험을 직접 탐색해 런타임에 동적으로 스킬을 합성하는 ExpVoyager를 제안함.
-- [LLM 온폴리시 증류에 KL 발산이 정말 필요한가?](https://huggingface.co/papers/2609.33791)
-  지식 증류의 표준 손실인 KL 발산을 온폴리시 증류(OPD)도 그대로 물려받았음. 그런데 KL 없이 업데이트 방향만 보존해도 충분하다는 걸 보임. 증류 손실 설계를 단순화하는 결과임.
-- [WhiteMatter: KV 소스 믹싱을 통한 전층 간 교차 연결](https://huggingface.co/papers/2608.18486)
-  Transformer의 각 층은 과거 토큰 표현을 같은 깊이에서만 읽을 수 있어 이미 계산한 정보를 충분히 재활용하지 못함. 학습된 믹서가 어떤 깊이의 KV를 쓸지 골라 모든 층이 임의 깊이의 과거 표현을 참조하게 함.
+- [동일 계열 On-Policy Distillation의 스케일링 특성](https://huggingface.co/papers/2609.32722)
+  RL로 얻은 추론 능력이 모델 크기 간에 얼마나, 얼마나 빨리 전이되는지 on-policy distillation(OPD)으로 분석함. weak-to-strong, same-base, strong-to-weak 교사-학생 조합에서 초기 학습 동역학이 스케일에 따라 어떻게 달라지는지 규명함.
+- [주기적 약점: 청크 KV-캐시 압축의 위상 민감도](https://huggingface.co/papers/2609.36322)
+  연속 토큰 윈도우를 고정 stride로 압축하는 KV-캐시 압축이 '위상'이라는 새로운 위치 좌표를 만든다는 점을 발견함. 같은 정보라도 압축 윈도우 경계 대비 위치에 따라 성능이 주기적으로 흔들리는 체계적 비대칭을 보여줌.
+- [FocusVTC: 적응형 해상도로 효율적인 시각적 텍스트 압축](https://huggingface.co/papers/2609.36651)
+  텍스트를 이미지로 렌더링해 입력 길이를 줄이는 VTC에서 고정 DPI의 압축-성능 트레이드오프를 깨는 방법임. 중요한 부분은 고해상도, 나머지는 저해상도로 적응 렌더링해 토큰을 아끼면서 가독성을 유지함.
+- [Looped Transformer의 재귀 추론 스케줄링](https://huggingface.co/papers/2609.36653)
+  파라미터를 공유해 잠재 상태를 반복 정제하는 재귀 추론 모델이 매 루프 고정 크기 업데이트를 쓰는 한계를 짚음. 진전이 꾸준할 땐 크게, 흔들릴 땐 작게 업데이트 크기를 스케줄링해 추가 루프의 효과를 높임.
+- [FRAC: 장기 시퀀스 모델링을 위한 분수 상태공간 전이](https://huggingface.co/papers/2609.36314)
+  ODE 기반 SSM은 지수적 망각으로 장기 정보를 잃는 한계가 있음. 분수 미적분에서 유도한 선택적 SSM 아키텍처 FRAC으로 넓은 시간 범위의 정보를 더 오래 보존함.
 
 ## 🦉 GeekNews
 
-- [서버 모니터링 분석 가이드](https://kciter.so/posts/server-monitoring-analysis-guide/)
-  대시보드 설치 가이드는 많지만 그래프를 실제로 읽고 진단하는 방법을 다룬 글은 드묾. CPU·메모리·I/O·네트워크 지표를 어떻게 해석하고 어떤 행동으로 이어갈지 정리한 실전 가이드임.
-- [문제는 AI 코드가 아니라, 이제 아무도 아무것도 모른다는 것이다](https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore/)
-  AI 코드 품질보다 큰 문제는 팀 안에 시스템 구조와 설계 이유를 이해하는 사람이 사라지는 것임. 모두가 Claude에만 물으면 전체 그림을 아는 사람이 없어짐.
-- [코딩은 해결된 문제가 아니다](https://blog.alexewerlof.com/p/coding-is-not-solved)
-  AI가 코드 생성 비용을 낮췄다고 소프트웨어 개발이 해결된 건 아님. 실제 운영 비용의 큰 부분은 유지보수·신뢰성·보안·확장성에 있고, 이 부분은 여전히 사람 판단이 필요함.
-- [글 쓰다가 막혔을 때 대처법](https://thinkingsian.com/writers-block-one-principle)
-  제텔카스텐 같은 방법론으로 재료와 구성은 쉬워졌지만 디테일하게 쓰는 건 여전히 어려움. 글이 막히면 불편함을 회피하지 말고 한 가지 원칙으로 돌파하라는 조언임.
-- [F/OSS Comics #10: C언어의 아버지, 데니스 리치의 일생](https://fosscomics.com/ko/posts/10.%20The%20Life%20of%20Dennis%20Ritchie/)
-  하버드에서 벨 연구소까지, C 언어와 UNIX를 만든 데니스 리치의 삶을 만화로 그린 오픈소스 코믹 시리즈 10화임. 그림과 내용을 새로 업데이트해 공개함.
+- [스태프 엔지니어를 위한 일감 발굴 가이드](https://sujithjay.com/inventing-work)
+  플랫폼 팀의 스태프 엔지니어는 다음에 만들 것을 스스로 찾아야 함. 시스템, 사용자, 조직, 업계 네 곳에서 개선 단서를 얻는 방법을 정리함.
+- [cf - Cloudflare 전체 API를 다루는 에이전트용 CLI](https://blog.cloudflare.com/cloudflare-cf-cli-launch/)
+  Cloudflare가 cf 공개 베타를 출시함. Wrangler가 지원하던 약 280개 작업을 넘어 3,000개 이상의 API 작업을 하나의 CLI로 처리하며 AI 에이전트가 쓰기 좋게 설계됨.
+- [LatticeDB - 그래프, 벡터, 전문 검색을 한 파일에 담는 임베디드 DB](https://github.com/jeffhajewski/latticedb)
+  관계 탐색, 유사 문서 검색, 키워드 검색을 하나의 로컬 DB 파일에서 처리하는 오픈소스 임베디드 DB임. 별도 서버나 설정 없이 바로 쓸 수 있음.
+- [NobodyWho - 앱과 게임에 로컬 AI를 넣는 온디바이스 추론 엔진](https://github.com/nobodywho-ooo/nobodywho)
+  클라우드 API 대신 사용자 기기에서 모델을 실행해 앱과 게임에 대화·이미지 이해·음성 기능을 넣는 오픈소스 추론 엔진임. 모델만 내려받으면 오프라인으로 동작함.
+- [MicroLLM Lab - 브라우저에서 초소형 LLM 7개 체험하기](https://stateofutopia.com/experiments/microllmlab/)
+  설치나 계정 없이 PetitGPT, SmolLM2 등 소형 언어모델 7개를 브라우저에서 바로 실행함. 직접 대화하며 답변 품질과 속도를 비교할 수 있음.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-09-30](data/2026-09-30.md)
 - [2026-09-29](data/2026-09-29.md)
 - [2026-09-28](data/2026-09-28.md)
 - [2026-09-27](data/2026-09-27.md)
@@ -69,4 +70,3 @@
 - [2026-08-29](data/2026-08-29.md)
 - [2026-08-28](data/2026-08-28.md)
 - [2026-08-27](data/2026-08-27.md)
-- [2026-08-25](data/2026-08-25.md)
