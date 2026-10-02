@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-10-02
+> 마지막 업데이트: 2026-10-03
 
-# AI 뉴스 — 2026-10-02
+# AI 뉴스 — 2026-10-03
 
 ## 🔥 GitHub Trending (Python)
 
-- [tile-ai/tilelang](https://github.com/tile-ai/tilelang): GPU·CPU·가속기용 고성능 커널 개발을 간소화하는 도메인 특화 언어임. 타일 단위 추상화로 CUDA 수준 성능을 짧은 코드로 얻을 수 있음.
-- [Friedrich-M/UniMate](https://github.com/Friedrich-M/UniMate): SIGGRAPH Asia 2026 논문 구현으로, 다양한 스켈레톤 구조를 하나의 통합 모델로 애니메이션함. 캐릭터마다 리깅을 따로 하지 않아도 됨.
-- [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills): Claude Code·Codex·Gemini CLI·Cursor 등 12개 코딩 에이전트용 스킬 380개와 에이전트 30개, 커맨드 70개를 모은 모음집임. 엔지니어링부터 마케팅·재무까지 포괄함.
-- [MakazhanAlpamys/Soup](https://github.com/MakazhanAlpamys/Soup): YAML 하나로 LLM 파인튜닝을 돌리는 도구임. 레이어 스트리밍으로 4GB 노트북 GPU에서 8B 모델을 학습시킬 수 있음.
-- [google/skills](https://github.com/google/skills): Google이 공식 공개한 Google 제품·기술용 Agent Skills 모음임. 코딩 에이전트가 Google 스택을 다룰 때 바로 쓸 수 있음.
+- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): AI 에이전트에게 인터넷 전체를 보는 눈을 달아주는 CLI임. Twitter·Reddit·YouTube·GitHub·Bilibili·샤오홍슈를 API 비용 없이 읽고 검색함.
+- [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector): AI 에이전트 스킬용 보안 스캐너임. Claude Code·Codex·MCP 스킬을 설치하기 전에 취약점, 악성 패턴, 프롬프트 인젝션, 데이터 유출, 공급망 위험을 탐지함.
+- [tile-ai/tilelang](https://github.com/tile-ai/tilelang): 고성능 GPU/CPU/가속기 커널 개발을 간소화하는 도메인 특화 언어(DSL)임. 타일 단위 추상화로 커널 작성 생산성을 높임.
+- [Friedrich-M/UniMate](https://github.com/Friedrich-M/UniMate): SIGGRAPH Asia 2026 논문 코드임. 다양한 스켈레톤 구조의 캐릭터를 하나의 통합 모델로 애니메이션함.
+- [getsentry/sentry](https://github.com/getsentry/sentry): 개발자 중심의 에러 트래킹·성능 모니터링 플랫폼임. 앱 오류를 실시간으로 수집하고 원인을 추적함.
 
 ## 📄 Hugging Face Papers
 
-- [TERRA: 근골격 보행을 위한 지형 인식 재구성·리타겟팅·제어](https://huggingface.co/papers/2609.38653)
-  근골격 에이전트의 보행이 평지에 갇혀 있던 한계를 짚음. 지형 정보가 정렬된 모션 데이터를 재구성하고 복잡한 근골격 신체에 리타겟팅해 경사·계단 보행을 구현함.
-- [BiasReducer: 보상 모델을 위한 적응형 편향 완화](https://huggingface.co/papers/2609.32720)
-  보상 모델이 길이·확신 같은 피상적 속성을 선호하는 문제를 다룸. 재학습이나 고정 보정 대신 적응형으로 여러 편향을 동시에 완화함.
-- [MILO: 다중 에이전트 진화로 자동 harness 탐색](https://huggingface.co/papers/2609.38349)
-  에이전트 시스템의 harness 설계를 다중 에이전트 진화로 자동 탐색함. 프롬프트만 바꾸던 기존 방법과 달리 실행 제어·환경 상호작용 구조까지 함께 최적화함.
-- [문항반응이론 기반 루브릭 보상](https://huggingface.co/papers/2609.35646)
-  루브릭 채점 점수를 단순 합산하면 다른 판정 패턴이 같은 보상을 받는 문제가 있음. 문항반응이론으로 항목 난이도·판별력을 반영한 스칼라 보상을 만듦.
-- [Tacit-TTS: 전사 없는 효율적 보이스 클로닝을 위한 마스크 예측](https://huggingface.co/papers/2609.38658)
-  자기회귀 TTS의 지연 문제를 마스크 예측 방식으로 해결함. 참조 음성의 전사 텍스트 없이도 빠른 제로샷 보이스 클로닝이 가능함.
+- [On-Policy vs Off-Policy 학습? 증류 역학에 대한 체계적 연구](https://huggingface.co/papers/2609.35259)
+  기존 SFT와 RL 비교는 여러 변수가 동시에 바뀌어 롤아웃 정책의 효과를 분리하기 어려웠음. 롤아웃 정책만 통제해 on-policy 학습이 망각 감소·희소 업데이트·일반화에 실제로 기여하는지 체계적으로 검증함.
+- [Looped Transformer를 (거의) 공짜로 더 잘 디코딩하기](https://huggingface.co/papers/2610.02185)
+  Looped Transformer는 공유 블록을 반복 실행해 파라미터 효율을 얻지만, 표준 디코딩은 초기 루프의 중간 상태를 버림. 약한 초기 루프와 강한 후기 루프 예측을 정렬해 추가 비용 거의 없이 디코딩 품질을 높임.
+- [X-Tree: 재사용 가능한 경험을 토큰화해 효율적인 에이전트 일반화 달성](https://huggingface.co/papers/2609.32993)
+  SFT·RLVR은 모든 토큰을 균일하게 다뤄 작업 간 반복되는 서브 프로시저 구조를 무시함. 재사용 가능한 루틴을 토큰화해 계층적으로 학습시켜 적은 궤적으로도 에이전트 일반화를 높임.
+- [비디오 생성 모델: 사후 학습과 정렬에 대한 서베이](https://huggingface.co/papers/2610.00812)
+  대규모 사전학습된 비디오 모델도 인간 의도 추종, 시간적 일관성, 물리·안전 제약을 잘 못 지킴. 비디오 생성 모델의 사후 학습(post-training)과 정렬 기법을 체계적으로 정리함.
+- [Where-OPD: 합성 장면으로 공간 유도하는 MLLM의 On-Policy 자기증류](https://huggingface.co/papers/2610.02117)
+  언어 모델에서 효과적인 on-policy 자기증류를 멀티모달 LLM으로 확장함. 합성 장면으로 공간 정보를 특권 입력으로 주어 교사 역할을 하게 하고, 공간 추론 능력을 끌어올림.
 
 ## 🦉 GeekNews
 
-- [브라우저 실시간 통신 설계: 폴링·SSE·WebSocket과 상태 복구](https://blog.wonkooklee.com/docs/api-and-interfaces/browser-realtime/)
-  실시간 요구를 보면 WebSocket부터 떠올리지만, 채팅·알림·협업 커서마다 허용 지연과 끊김 복구 요건이 다름. 요구별로 방식을 고르고 상태를 복구하는 설계를 정리함.
-- [AI 경쟁이 난처해졌다](https://insufferable.dev/posts/the-ai-race-just-got-awkward/)
-  중국 연구소의 모델 증류를 비판하던 서구 AI 기업들이 이번엔 중국이 공개한 추론 최적화 기술의 수혜자가 된 역설을 다룸. DeepSeek의 긴 컨텍스트 기술이 사례임.
-- [NSL - Linux용 WSL](https://frostyard.github.io/nsl/)
-  NSpawn Subsystem for Linux로, 개발 도구와 의존성을 호스트 대신 별도 Linux 환경에 설치함. 기존 시스템을 건드리지 않고 Debian 등 배포판을 돌릴 수 있음.
-- [Google, Gemini 4 Argon 발표](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/)
-  장시간 이어지는 복잡한 작업용 모델임. 소프트웨어 개발, 법률·금융 업무, 사이버 방어를 지원하며 현재는 신뢰 테스터 대상으로 제공됨.
-- [싱가포르 정부 데이팅 앱, Gale-Shapley 안정 결혼 알고리듬 사용](https://twitter.com/tuakdotsol/status/2105105417760391258)
-  GovTech의 FirstDate가 관심사·생활 습관·가치관 설문을 받아 안정 결혼 알고리듬으로 상대를 추천함. 교과서 알고리듬이 실제 공공 서비스에 쓰인 사례임.
+- [벡터 데이터베이스여, 안녕](https://turbopuffer.com/blog/rip-vector-database)
+  turbopuffer가 벡터 검색 전용 DB에서 다양한 검색·집계를 처리하는 범용 검색 엔진으로 확장함. v3에서 데이터 저장 구조를 개편 중이며 '벡터 DB'라는 카테고리 자체가 사라지는 흐름을 짚음.
+- [바이브 코딩한 웹사이트를 디자이너가 만든 것처럼 보이게 한 방법](https://railcode.dev/blog/vibe-coded-website)
+  코딩 에이전트로 개성 있는 웹사이트를 만들려면 한 번에 좋은 결과를 기대하기보다 여러 시안에서 마음에 드는 요소를 골라 반복적으로 다듬어야 함. 구체적인 반복 워크플로를 공유함.
+- [AI 네이티브 회사에서 일한다는 것](https://www.elenaverna.com/p/what-its-like-to-work-at-an-ai-native)
+  Lovable에서는 AI가 개별 생산성 향상에 그치지 않고 직무 경계, 의사결정, 정보 흐름, '일을 잘한다'는 기준까지 바꾸고 있음. 세분화된 역할이 사라지고 제너럴리스트가 부상함.
+- [AI는 어떻게 여기까지 왔고 어디로 가는 중인가](https://substack.com/home/post/p-216691876)
+  VC 투자자 Akshay Mehra의 글임. 5년 전 마켓플레이스·버티컬 SaaS·네오뱅크 피치가 넘쳤던 시장이 자본 집약적 AI 인프라 중심으로 재편된 과정을 짚고, 다음 투자 기회를 전망함.
+- [Pi Durable - 중단된 작업을 이어가는 AI 에이전트 하네스](https://earendil.com/posts/pi-durable/)
+  장시간 실행되는 AI 에이전트 앱을 위한 실험적 하네스임. 터미널 코딩 에이전트 Pi 1.0과 별도로 공개됐으며, 작업 상태를 저장해 프로세스가 중단돼도 이어서 실행할 수 있게 함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-10-02](data/2026-10-02.md)
 - [2026-10-01](data/2026-10-01.md)
 - [2026-09-30](data/2026-09-30.md)
 - [2026-09-29](data/2026-09-29.md)
@@ -69,4 +70,3 @@
 - [2026-08-31](data/2026-08-31.md)
 - [2026-08-30](data/2026-08-30.md)
 - [2026-08-29](data/2026-08-29.md)
-- [2026-08-28](data/2026-08-28.md)
