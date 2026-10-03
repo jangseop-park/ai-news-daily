@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-10-03
+> 마지막 업데이트: 2026-10-04
 
-# AI 뉴스 — 2026-10-03
+# AI 뉴스 — 2026-10-04
 
 ## 🔥 GitHub Trending (Python)
 
-- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): AI 에이전트에게 인터넷 전체를 보는 눈을 달아주는 CLI임. Twitter·Reddit·YouTube·GitHub·Bilibili·샤오홍슈를 API 비용 없이 읽고 검색함.
-- [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector): AI 에이전트 스킬용 보안 스캐너임. Claude Code·Codex·MCP 스킬을 설치하기 전에 취약점, 악성 패턴, 프롬프트 인젝션, 데이터 유출, 공급망 위험을 탐지함.
-- [tile-ai/tilelang](https://github.com/tile-ai/tilelang): 고성능 GPU/CPU/가속기 커널 개발을 간소화하는 도메인 특화 언어(DSL)임. 타일 단위 추상화로 커널 작성 생산성을 높임.
-- [Friedrich-M/UniMate](https://github.com/Friedrich-M/UniMate): SIGGRAPH Asia 2026 논문 코드임. 다양한 스켈레톤 구조의 캐릭터를 하나의 통합 모델로 애니메이션함.
-- [getsentry/sentry](https://github.com/getsentry/sentry): 개발자 중심의 에러 트래킹·성능 모니터링 플랫폼임. 앱 오류를 실시간으로 수집하고 원인을 추적함.
+- [usestrix/strix](https://github.com/usestrix/strix): 앱의 취약점을 찾고 고쳐주는 오픈소스 AI 침투 테스트 도구임. 에이전트가 실제 공격자처럼 동작해 취약점을 검증하고 수정 방향까지 제안함.
+- [jamwithai/production-agentic-rag-course](https://github.com/jamwithai/production-agentic-rag-course): 프로덕션급 RAG 시스템을 직접 만들며 배우는 7주 과정임. FastAPI·PostgreSQL·OpenSearch·Airflow로 arXiv 논문 큐레이터를 구축하고, BM25 키워드 검색 기반 위에 하이브리드 검색·로컬 LLM·Langfuse 모니터링을 얹음.
+- [meituan-longcat/LongCat-Video](https://github.com/meituan-longcat/LongCat-Video): Meituan의 13.6B 파라미터 비디오 생성 파운데이션 모델임. Text-to-Video·Image-to-Video·Video-Continuation을 단일 모델로 처리하고, 수 분 길이 영상을 색 드리프트 없이 생성함. 720p 30fps를 수 분 내 생성하며 MIT 라이선스.
+- [datalab-to/chandra](https://github.com/datalab-to/chandra): 복잡한 표·양식·손글씨를 레이아웃까지 유지하며 인식하는 OCR 모델임. 문서 구조를 그대로 살려 추출함.
+- [agno-agi/agno](https://github.com/agno-agi/agno): 에이전트 플랫폼을 구축·실행·관리하는 Python 프레임워크임. 멀티에이전트 시스템과 런타임, 관리 UI까지 한 번에 제공함.
 
 ## 📄 Hugging Face Papers
 
-- [On-Policy vs Off-Policy 학습? 증류 역학에 대한 체계적 연구](https://huggingface.co/papers/2609.35259)
-  기존 SFT와 RL 비교는 여러 변수가 동시에 바뀌어 롤아웃 정책의 효과를 분리하기 어려웠음. 롤아웃 정책만 통제해 on-policy 학습이 망각 감소·희소 업데이트·일반화에 실제로 기여하는지 체계적으로 검증함.
-- [Looped Transformer를 (거의) 공짜로 더 잘 디코딩하기](https://huggingface.co/papers/2610.02185)
-  Looped Transformer는 공유 블록을 반복 실행해 파라미터 효율을 얻지만, 표준 디코딩은 초기 루프의 중간 상태를 버림. 약한 초기 루프와 강한 후기 루프 예측을 정렬해 추가 비용 거의 없이 디코딩 품질을 높임.
-- [X-Tree: 재사용 가능한 경험을 토큰화해 효율적인 에이전트 일반화 달성](https://huggingface.co/papers/2609.32993)
-  SFT·RLVR은 모든 토큰을 균일하게 다뤄 작업 간 반복되는 서브 프로시저 구조를 무시함. 재사용 가능한 루틴을 토큰화해 계층적으로 학습시켜 적은 궤적으로도 에이전트 일반화를 높임.
-- [비디오 생성 모델: 사후 학습과 정렬에 대한 서베이](https://huggingface.co/papers/2610.00812)
-  대규모 사전학습된 비디오 모델도 인간 의도 추종, 시간적 일관성, 물리·안전 제약을 잘 못 지킴. 비디오 생성 모델의 사후 학습(post-training)과 정렬 기법을 체계적으로 정리함.
-- [Where-OPD: 합성 장면으로 공간 유도하는 MLLM의 On-Policy 자기증류](https://huggingface.co/papers/2610.02117)
-  언어 모델에서 효과적인 on-policy 자기증류를 멀티모달 LLM으로 확장함. 합성 장면으로 공간 정보를 특권 입력으로 주어 교사 역할을 하게 하고, 공간 추론 능력을 끌어올림.
+- [Transformer는 너무 일찍 생각을 멈춘다, 작은 LoRA가 고친다](https://huggingface.co/papers/2609.36585)
+  사전학습된 Transformer는 컨텍스트 내 참조를 따라갈 때 깊이를 거의 안 씀. 13개 베이스 모델이 1.4~3.6줄만 안정적으로 추적함. 초기 레이어 하나에 rank-8 LoRA를 붙이니 Qwen3-8B의 24줄 체인 정확도가 15.5%에서 99%로 뜀.
+- [Persona Dosing: 등급별 특성 제어를 위한 보정된 활성화 조향](https://huggingface.co/papers/2609.36388)
+  활성화 조향 계수는 개입 강도만 정하고, 원하는 페르소나 표현 정도를 지정하려면 행동 척도가 필요함. 특성 설명과 요청 강도로 모델을 제어하는 '페르소나 도징'을 제안하고 설명 조건부 컨트롤러로 보정함.
+- [Ego2Act: 1인칭 비디오 생성에서 목표 지향 조작 평가](https://huggingface.co/papers/2610.01092)
+  비디오 생성 모델을 체화 계획용 월드 시뮬레이터로 쓰려면 예쁜 프레임뿐 아니라 목표 지향 행동 시 환경 변화를 예측해야 함. 1인칭 조작 영상에서 이 능력을 평가하는 벤치마크를 제안함.
+- [OpenTumorBoard: 다학제 종양 보드 토론 궤적의 실제 벤치마크](https://huggingface.co/papers/2609.32810)
+  암 환자 611명, 10개 전문의 역할의 토론 19,157턴을 12,534분 녹취에서 전사한 벤치마크임. 멀티모달 임상 관찰과 종단 병력을 통합하는 전문가 토론을 AI가 얼마나 재현하는지 평가함.
+- [RLE-Bench: 로봇 학습 엔지니어로서 코딩 에이전트의 자격 시험](https://huggingface.co/papers/2609.34210)
+  코딩 에이전트가 로보틱스 등 물리 세계 과제로 확장되고 있음. 기존 벤치마크는 정책·컨트롤러 같은 개별 산출물 성능만 보지만, RLE-Bench는 로봇 학습 엔지니어링 전반 역량을 평가함.
 
 ## 🦉 GeekNews
 
-- [벡터 데이터베이스여, 안녕](https://turbopuffer.com/blog/rip-vector-database)
-  turbopuffer가 벡터 검색 전용 DB에서 다양한 검색·집계를 처리하는 범용 검색 엔진으로 확장함. v3에서 데이터 저장 구조를 개편 중이며 '벡터 DB'라는 카테고리 자체가 사라지는 흐름을 짚음.
-- [바이브 코딩한 웹사이트를 디자이너가 만든 것처럼 보이게 한 방법](https://railcode.dev/blog/vibe-coded-website)
-  코딩 에이전트로 개성 있는 웹사이트를 만들려면 한 번에 좋은 결과를 기대하기보다 여러 시안에서 마음에 드는 요소를 골라 반복적으로 다듬어야 함. 구체적인 반복 워크플로를 공유함.
-- [AI 네이티브 회사에서 일한다는 것](https://www.elenaverna.com/p/what-its-like-to-work-at-an-ai-native)
-  Lovable에서는 AI가 개별 생산성 향상에 그치지 않고 직무 경계, 의사결정, 정보 흐름, '일을 잘한다'는 기준까지 바꾸고 있음. 세분화된 역할이 사라지고 제너럴리스트가 부상함.
-- [AI는 어떻게 여기까지 왔고 어디로 가는 중인가](https://substack.com/home/post/p-216691876)
-  VC 투자자 Akshay Mehra의 글임. 5년 전 마켓플레이스·버티컬 SaaS·네오뱅크 피치가 넘쳤던 시장이 자본 집약적 AI 인프라 중심으로 재편된 과정을 짚고, 다음 투자 기회를 전망함.
-- [Pi Durable - 중단된 작업을 이어가는 AI 에이전트 하네스](https://earendil.com/posts/pi-durable/)
-  장시간 실행되는 AI 에이전트 앱을 위한 실험적 하네스임. 터미널 코딩 에이전트 Pi 1.0과 별도로 공개됐으며, 작업 상태를 저장해 프로세스가 중단돼도 이어서 실행할 수 있게 함.
+- [AI-Infra-Guard - AI 인프라와 에이전트를 점검하는 오픈소스 레드팀 플랫폼](https://github.com/Tencent/AI-Infra-Guard)
+  Tencent가 개발한 AI 보안 점검 플랫폼임. 서버의 알려진 취약점부터 에이전트의 도구 오용·정보 유출, LLM 탈옥 공격까지 검사하며 Ollama 등 실행 중인 인프라도 스캔함.
+- [컨텍스트 언어 모델 - 자신의 컨텍스트를 직접 편집하는 AI](https://arxiv.org/abs/2609.37725)
+  대화 기록과 도구 실행 결과 등 모델이 읽는 내용을 파일로 만들고 모델이 직접 편집·관리하게 하는 방식임. 정해진 컨텍스트 창에 수동적으로 담기는 대신 모델이 능동적으로 정리함.
+- [리눅스 커널 개발자 Greg Kroah-Hartman, LLM 시대의 보안 [영상]](https://www.youtube.com/watch?v=NnV_cWeoo5Q)
+  LLM이 찾아낸 취약점 숫자보다 실제 버그를 검증하고 고치는 일이 중요함. 커널 유지보수자 관점에서 AI 보안 도구의 성과와 한계를 짚음.
+- [DeepSeek Harness, 맥·윈도우용 데스크톱 앱 공개](https://www.deepseek.com/en/harness/)
+  DeepSeek의 오픈소스 AI 에이전트 실행 도구가 macOS·Windows 데스크톱 앱으로 나옴. 코딩, 문서 작성, 데이터 분석, 조사를 로컬 환경에서 에이전트에 맡길 수 있음.
+- [Opus 5.5에게 가상 캔버스를 주고 그림을 그리게 해봤다](https://stillwet.art/)
+  stillwet은 Opus 5.5 등 AI 모델이 붓질을 코드로 작성해 유화를 그리는 실험임. 이미지 생성 모델은 쓰지 않고 붓·젖은 물감·캔버스를 시뮬레이션한 가상 작업실에서 모델이 직접 그림.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-10-03](data/2026-10-03.md)
 - [2026-10-02](data/2026-10-02.md)
 - [2026-10-01](data/2026-10-01.md)
 - [2026-09-30](data/2026-09-30.md)
@@ -69,4 +70,3 @@
 - [2026-09-02](data/2026-09-02.md)
 - [2026-08-31](data/2026-08-31.md)
 - [2026-08-30](data/2026-08-30.md)
-- [2026-08-29](data/2026-08-29.md)
