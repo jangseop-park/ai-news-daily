@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-10-04
+> 마지막 업데이트: 2026-10-05
 
-# AI 뉴스 — 2026-10-04
+# AI 뉴스 — 2026-10-05
 
 ## 🔥 GitHub Trending (Python)
 
-- [usestrix/strix](https://github.com/usestrix/strix): 앱의 취약점을 찾고 고쳐주는 오픈소스 AI 침투 테스트 도구임. 에이전트가 실제 공격자처럼 동작해 취약점을 검증하고 수정 방향까지 제안함.
-- [jamwithai/production-agentic-rag-course](https://github.com/jamwithai/production-agentic-rag-course): 프로덕션급 RAG 시스템을 직접 만들며 배우는 7주 과정임. FastAPI·PostgreSQL·OpenSearch·Airflow로 arXiv 논문 큐레이터를 구축하고, BM25 키워드 검색 기반 위에 하이브리드 검색·로컬 LLM·Langfuse 모니터링을 얹음.
-- [meituan-longcat/LongCat-Video](https://github.com/meituan-longcat/LongCat-Video): Meituan의 13.6B 파라미터 비디오 생성 파운데이션 모델임. Text-to-Video·Image-to-Video·Video-Continuation을 단일 모델로 처리하고, 수 분 길이 영상을 색 드리프트 없이 생성함. 720p 30fps를 수 분 내 생성하며 MIT 라이선스.
-- [datalab-to/chandra](https://github.com/datalab-to/chandra): 복잡한 표·양식·손글씨를 레이아웃까지 유지하며 인식하는 OCR 모델임. 문서 구조를 그대로 살려 추출함.
-- [agno-agi/agno](https://github.com/agno-agi/agno): 에이전트 플랫폼을 구축·실행·관리하는 Python 프레임워크임. 멀티에이전트 시스템과 런타임, 관리 UI까지 한 번에 제공함.
+- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): AI 에이전트에 '인터넷을 보는 눈'을 달아주는 CLI임. Twitter·Reddit·YouTube·GitHub·Bilibili·샤오홍슈를 API 비용 없이 읽고 검색함.
+- [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi): AI 에이전트가 의도한 대로 동작하는지 독립적으로 감사하는 도구임. 사람 또는 에이전트 스스로 실행해 120초 안에 답을 얻음.
+- [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage): 오픈소스 에이전트형 영상 제작 시스템임. 12개 제작 파이프라인, 100+ 툴, 700+ 스킬 파일로 AI 코딩 어시스턴트를 영상 스튜디오로 바꿈.
+- [p-e-w/heretic](https://github.com/p-e-w/heretic): 언어 모델의 검열(거부 응답)을 완전 자동으로 제거하는 도구임.
+- [getsentry/sentry](https://github.com/getsentry/sentry): 개발자 중심의 에러 트래킹·성능 모니터링 플랫폼임. 오랜 기간 유지되는 대표 오픈소스 프로젝트임.
 
 ## 📄 Hugging Face Papers
 
-- [Transformer는 너무 일찍 생각을 멈춘다, 작은 LoRA가 고친다](https://huggingface.co/papers/2609.36585)
-  사전학습된 Transformer는 컨텍스트 내 참조를 따라갈 때 깊이를 거의 안 씀. 13개 베이스 모델이 1.4~3.6줄만 안정적으로 추적함. 초기 레이어 하나에 rank-8 LoRA를 붙이니 Qwen3-8B의 24줄 체인 정확도가 15.5%에서 99%로 뜀.
-- [Persona Dosing: 등급별 특성 제어를 위한 보정된 활성화 조향](https://huggingface.co/papers/2609.36388)
-  활성화 조향 계수는 개입 강도만 정하고, 원하는 페르소나 표현 정도를 지정하려면 행동 척도가 필요함. 특성 설명과 요청 강도로 모델을 제어하는 '페르소나 도징'을 제안하고 설명 조건부 컨트롤러로 보정함.
-- [Ego2Act: 1인칭 비디오 생성에서 목표 지향 조작 평가](https://huggingface.co/papers/2610.01092)
-  비디오 생성 모델을 체화 계획용 월드 시뮬레이터로 쓰려면 예쁜 프레임뿐 아니라 목표 지향 행동 시 환경 변화를 예측해야 함. 1인칭 조작 영상에서 이 능력을 평가하는 벤치마크를 제안함.
-- [OpenTumorBoard: 다학제 종양 보드 토론 궤적의 실제 벤치마크](https://huggingface.co/papers/2609.32810)
-  암 환자 611명, 10개 전문의 역할의 토론 19,157턴을 12,534분 녹취에서 전사한 벤치마크임. 멀티모달 임상 관찰과 종단 병력을 통합하는 전문가 토론을 AI가 얼마나 재현하는지 평가함.
-- [RLE-Bench: 로봇 학습 엔지니어로서 코딩 에이전트의 자격 시험](https://huggingface.co/papers/2609.34210)
-  코딩 에이전트가 로보틱스 등 물리 세계 과제로 확장되고 있음. 기존 벤치마크는 정책·컨트롤러 같은 개별 산출물 성능만 보지만, RLE-Bench는 로봇 학습 엔지니어링 전반 역량을 평가함.
+- [On-Policy냐 Off-Policy냐? 증류 다이내믹스의 체계적 연구](https://huggingface.co/papers/2609.35259)
+  강→약 모델 증류 환경에서 롤아웃 정책, 토큰 단위 KL 방향, 학습률을 독립적으로 바꿔가며 on-policy 학습이 망각 감소·일반화 향상에 실제로 기여하는지 분리해 검증함.
+- [X-Tree: 재사용 가능한 경험을 토큰화해 에이전트 일반화 효율을 높임](https://huggingface.co/papers/2609.32993)
+  다단계 에이전트 학습에서 반복되는 하위 절차를 찾아 토큰으로 만들어 가중치에 학습시킴. 컨텍스트 스킬에만 의존하던 기존 방식보다 적은 궤적으로 일반화함.
+- [비디오 생성 모델: 사후학습과 정렬에 관한 서베이](https://huggingface.co/papers/2610.00812)
+  사전학습된 비디오 모델이 의도 추종·시간적 일관성·물리/안전 제약을 지키지 못하는 문제를 정리하고, 오류 누적 등 비디오 특유의 정렬 난제와 사후학습 기법을 체계적으로 조망함.
+- [ScholarCatalyst: 새 연구에 영감을 준 논문을 검색하는 벤치마크](https://huggingface.co/papers/2610.02202)
+  연구자가 직접 '내 연구를 진전시킨 선행 논문'을 표시하게 하는 자동 파이프라인으로 벤치마크를 구축함. AI가 방대한 아카이브에서 필요한 아이디어를 감지하는 능력을 측정함.
+- [SemanTok: 효율적 자기회귀 비디오 생성을 위한 예측 가능한 시맨틱 토큰](https://huggingface.co/papers/2610.00686)
+  자기회귀 비디오 월드 모델용 토크나이저를 제안함. 첫 토큰이 클립의 전체 의미를, 이후 토큰이 세부를 담는 coarse-to-fine 구조로 예측 가능성과 충실도를 함께 높임.
 
 ## 🦉 GeekNews
 
-- [AI-Infra-Guard - AI 인프라와 에이전트를 점검하는 오픈소스 레드팀 플랫폼](https://github.com/Tencent/AI-Infra-Guard)
-  Tencent가 개발한 AI 보안 점검 플랫폼임. 서버의 알려진 취약점부터 에이전트의 도구 오용·정보 유출, LLM 탈옥 공격까지 검사하며 Ollama 등 실행 중인 인프라도 스캔함.
-- [컨텍스트 언어 모델 - 자신의 컨텍스트를 직접 편집하는 AI](https://arxiv.org/abs/2609.37725)
-  대화 기록과 도구 실행 결과 등 모델이 읽는 내용을 파일로 만들고 모델이 직접 편집·관리하게 하는 방식임. 정해진 컨텍스트 창에 수동적으로 담기는 대신 모델이 능동적으로 정리함.
-- [리눅스 커널 개발자 Greg Kroah-Hartman, LLM 시대의 보안 [영상]](https://www.youtube.com/watch?v=NnV_cWeoo5Q)
-  LLM이 찾아낸 취약점 숫자보다 실제 버그를 검증하고 고치는 일이 중요함. 커널 유지보수자 관점에서 AI 보안 도구의 성과와 한계를 짚음.
-- [DeepSeek Harness, 맥·윈도우용 데스크톱 앱 공개](https://www.deepseek.com/en/harness/)
-  DeepSeek의 오픈소스 AI 에이전트 실행 도구가 macOS·Windows 데스크톱 앱으로 나옴. 코딩, 문서 작성, 데이터 분석, 조사를 로컬 환경에서 에이전트에 맡길 수 있음.
-- [Opus 5.5에게 가상 캔버스를 주고 그림을 그리게 해봤다](https://stillwet.art/)
-  stillwet은 Opus 5.5 등 AI 모델이 붓질을 코드로 작성해 유화를 그리는 실험임. 이미지 생성 모델은 쓰지 않고 붓·젖은 물감·캔버스를 시뮬레이션한 가상 작업실에서 모델이 직접 그림.
+- [에이전트 코딩의 묵시록 4기사](https://distantprovince.substack.com/p/the-four-horsemen-of-agentic-coding)
+  에이전트 코딩은 유용하지만 슬롭, 소외, 숙련도 저하, 팀 관계 약화라는 네 가지 문제를 낳음. 개발자의 호기심과 장인정신, 사회적 연결을 해친다고 지적함.
+- [PicoMQ - S3 기반 실시간 데이터 스트림 서버](https://github.com/picomq/picomq)
+  채팅, 기기 이벤트, 에이전트 대화를 순서대로 저장하고 실시간으로 전달하는 스트림 서버임. S3를 저장소로 써서 읽던 위치부터 이어받거나 과거 기록을 다시 재생할 수 있음.
+- [tmux를 OS로 만들자](https://matduggan.com/what-does-my-dream-os-ui-look-like/)
+  터미널에서 작업을 유지하고 다시 이어가는 tmux의 경험을 일반 사용자용 데스크톱으로 확장하는 구상임. 창을 옮기는 대신 하던 일 자체를 그대로 복원하는 OS를 제안함.
+- [하네스가 곧 회사다](https://blog.sshh.io/p/the-harness-is-the-company)
+  SaaS 기업의 개발·기획·영업을 AI 에이전트가 수행하게 되면, 회사는 모델에 업무 지식과 도구, 권한, 검토 절차를 제공하는 하네스로 바뀔 수 있다고 봄.
+- [업스테이지, GPU 한 장에서 실행하는 Solar Mini 4 발표](https://www.upstage.ai/blog/ko/solar-mini-4)
+  정보 조회, 문서 분류, 도구 호출 같은 반복 에이전트 작업을 저비용으로 처리하는 모델임. 총 350억 파라미터 중 토큰당 30억만 활성화되는 MoE 구조로 GPU 한 장에서 돌아감.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-10-04](data/2026-10-04.md)
 - [2026-10-03](data/2026-10-03.md)
 - [2026-10-02](data/2026-10-02.md)
 - [2026-10-01](data/2026-10-01.md)
@@ -69,4 +70,3 @@
 - [2026-09-03](data/2026-09-03.md)
 - [2026-09-02](data/2026-09-02.md)
 - [2026-08-31](data/2026-08-31.md)
-- [2026-08-30](data/2026-08-30.md)
