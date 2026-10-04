@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-05",
+  "github_trending": [
+    {
+      "name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "AI 에이전트에 '인터넷을 보는 눈'을 달아주는 CLI임. Twitter·Reddit·YouTube·GitHub·Bilibili·샤오홍슈를 API 비용 없이 읽고 검색함.",
+      "description_en": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu with one CLI and zero API fees."
+    },
+    {
+      "name": "ifixai-ai/iFixAi",
+      "url": "https://github.com/ifixai-ai/iFixAi",
+      "description": "AI 에이전트가 의도한 대로 동작하는지 독립적으로 감사하는 도구임. 사람 또는 에이전트 스스로 실행해 120초 안에 답을 얻음.",
+      "description_en": "Independent auditing of AI agents. Run by a human or the agent itself to answer whether the agent is doing what it is supposed to do, in under 120 seconds."
+    },
+    {
+      "name": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "description": "오픈소스 에이전트형 영상 제작 시스템임. 12개 제작 파이프라인, 100+ 툴, 700+ 스킬 파일로 AI 코딩 어시스턴트를 영상 스튜디오로 바꿈.",
+      "description_en": "Open-source agentic video production system with 12 pipelines, 100+ tools and 700+ agent skill files that turns an AI coding assistant into a full video studio."
+    },
+    {
+      "name": "p-e-w/heretic",
+      "url": "https://github.com/p-e-w/heretic",
+      "description": "언어 모델의 검열(거부 응답)을 완전 자동으로 제거하는 도구임.",
+      "description_en": "Fully automatic censorship removal for language models."
+    },
+    {
+      "name": "getsentry/sentry",
+      "url": "https://github.com/getsentry/sentry",
+      "description": "개발자 중심의 에러 트래킹·성능 모니터링 플랫폼임. 오랜 기간 유지되는 대표 오픈소스 프로젝트임.",
+      "description_en": "Developer-first error tracking and performance monitoring."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "On-Policy냐 Off-Policy냐? 증류 다이내믹스의 체계적 연구",
+      "title_en": "On-Policy or Off-Policy Learning? A Systematic Study of Distillation Dynamics",
+      "url": "https://huggingface.co/papers/2609.35259",
+      "summary": "강→약 모델 증류 환경에서 롤아웃 정책, 토큰 단위 KL 방향, 학습률을 독립적으로 바꿔가며 on-policy 학습이 망각 감소·일반화 향상에 실제로 기여하는지 분리해 검증함.",
+      "summary_en": "Isolates the effect of rollout policy in strong-to-weak distillation by independently varying rollout policy, token-level KL direction and learning rate, testing claims that on-policy learning reduces forgetting and improves generalisation."
+    },
+    {
+      "title": "X-Tree: 재사용 가능한 경험을 토큰화해 에이전트 일반화 효율을 높임",
+      "title_en": "X-Tree: Tokenizing Reusable Experience for Efficient Agent Generalization",
+      "url": "https://huggingface.co/papers/2609.32993",
+      "summary": "다단계 에이전트 학습에서 반복되는 하위 절차를 찾아 토큰으로 만들어 가중치에 학습시킴. 컨텍스트 스킬에만 의존하던 기존 방식보다 적은 궤적으로 일반화함.",
+      "summary_en": "Recovers recurring sub-procedures from agent trajectories and tokenizes them into the weights, so hierarchical structure improves generalization beyond in-context skill retrieval."
+    },
+    {
+      "title": "비디오 생성 모델: 사후학습과 정렬에 관한 서베이",
+      "title_en": "Video Generation Models: A Survey of Post-Training and Alignment",
+      "url": "https://huggingface.co/papers/2610.00812",
+      "summary": "사전학습된 비디오 모델이 의도 추종·시간적 일관성·물리/안전 제약을 지키지 못하는 문제를 정리하고, 오류 누적 등 비디오 특유의 정렬 난제와 사후학습 기법을 체계적으로 조망함.",
+      "summary_en": "Surveys post-training and alignment for video generation, covering why pretrained video models fail to follow intent or stay coherent and the unique challenges such as error accumulation."
+    },
+    {
+      "title": "ScholarCatalyst: 새 연구에 영감을 준 논문을 검색하는 벤치마크",
+      "title_en": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
+      "url": "https://huggingface.co/papers/2610.02202",
+      "summary": "연구자가 직접 '내 연구를 진전시킨 선행 논문'을 표시하게 하는 자동 파이프라인으로 벤치마크를 구축함. AI가 방대한 아카이브에서 필요한 아이디어를 감지하는 능력을 측정함.",
+      "summary_en": "Builds a benchmark from author annotations of which prior papers advanced their completed projects, to study the skill of sensing which buried idea a new problem needs."
+    },
+    {
+      "title": "SemanTok: 효율적 자기회귀 비디오 생성을 위한 예측 가능한 시맨틱 토큰",
+      "title_en": "SemanTok: Predictable Semantic Tokens for Efficient Autoregressive Video Generation",
+      "url": "https://huggingface.co/papers/2610.00686",
+      "summary": "자기회귀 비디오 월드 모델용 토크나이저를 제안함. 첫 토큰이 클립의 전체 의미를, 이후 토큰이 세부를 담는 coarse-to-fine 구조로 예측 가능성과 충실도를 함께 높임.",
+      "summary_en": "Proposes a coarse-to-fine scene tokenizer for autoregressive video world models where early tokens carry global semantics and later tokens specify details, improving predictability and fidelity."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "에이전트 코딩의 묵시록 4기사",
+      "title_en": "The Four Horsemen of Agentic Coding",
+      "url": "https://distantprovince.substack.com/p/the-four-horsemen-of-agentic-coding",
+      "summary": "에이전트 코딩은 유용하지만 슬롭, 소외, 숙련도 저하, 팀 관계 약화라는 네 가지 문제를 낳음. 개발자의 호기심과 장인정신, 사회적 연결을 해친다고 지적함.",
+      "summary_en": "Agentic coding is useful but brings four problems: slop, alienation, deskilling and weakened team relationships, eroding developer curiosity, craft and social connection."
+    },
+    {
+      "title": "PicoMQ - S3 기반 실시간 데이터 스트림 서버",
+      "title_en": "PicoMQ - S3-backed real-time data stream server",
+      "url": "https://github.com/picomq/picomq",
+      "summary": "채팅, 기기 이벤트, 에이전트 대화를 순서대로 저장하고 실시간으로 전달하는 스트림 서버임. S3를 저장소로 써서 읽던 위치부터 이어받거나 과거 기록을 다시 재생할 수 있음.",
+      "summary_en": "A stream server that stores chat, device events and agent conversations in order on S3 and delivers them in real time, with resume-from-offset and replay."
+    },
+    {
+      "title": "tmux를 OS로 만들자",
+      "title_en": "What does my dream OS UI look like?",
+      "url": "https://matduggan.com/what-does-my-dream-os-ui-look-like/",
+      "summary": "터미널에서 작업을 유지하고 다시 이어가는 tmux의 경험을 일반 사용자용 데스크톱으로 확장하는 구상임. 창을 옮기는 대신 하던 일 자체를 그대로 복원하는 OS를 제안함.",
+      "summary_en": "A proposal to extend tmux's persist-and-resume workflow to a general desktop OS, restoring tasks themselves rather than shuffling windows."
+    },
+    {
+      "title": "하네스가 곧 회사다",
+      "title_en": "The Harness Is the Company",
+      "url": "https://blog.sshh.io/p/the-harness-is-the-company",
+      "summary": "SaaS 기업의 개발·기획·영업을 AI 에이전트가 수행하게 되면, 회사는 모델에 업무 지식과 도구, 권한, 검토 절차를 제공하는 하네스로 바뀔 수 있다고 봄.",
+      "summary_en": "If AI agents do a SaaS company's development, planning and sales, the company itself becomes the harness that gives models knowledge, tools, permissions and review processes."
+    },
+    {
+      "title": "업스테이지, GPU 한 장에서 실행하는 Solar Mini 4 발표",
+      "title_en": "Upstage announces Solar Mini 4, running on a single GPU",
+      "url": "https://www.upstage.ai/blog/ko/solar-mini-4",
+      "summary": "정보 조회, 문서 분류, 도구 호출 같은 반복 에이전트 작업을 저비용으로 처리하는 모델임. 총 350억 파라미터 중 토큰당 30억만 활성화되는 MoE 구조로 GPU 한 장에서 돌아감.",
+      "summary_en": "A model for repetitive agent tasks like lookup, classification and tool calling. MoE with 35B total and 3B active parameters per token, running on a single GPU."
+    }
+  ]
+}
