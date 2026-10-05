@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-10-05
+> 마지막 업데이트: 2026-10-06
 
-# AI 뉴스 — 2026-10-05
+# AI 뉴스 — 2026-10-06
 
 ## 🔥 GitHub Trending (Python)
 
-- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): AI 에이전트에 '인터넷을 보는 눈'을 달아주는 CLI임. Twitter·Reddit·YouTube·GitHub·Bilibili·샤오홍슈를 API 비용 없이 읽고 검색함.
-- [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi): AI 에이전트가 의도한 대로 동작하는지 독립적으로 감사하는 도구임. 사람 또는 에이전트 스스로 실행해 120초 안에 답을 얻음.
-- [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage): 오픈소스 에이전트형 영상 제작 시스템임. 12개 제작 파이프라인, 100+ 툴, 700+ 스킬 파일로 AI 코딩 어시스턴트를 영상 스튜디오로 바꿈.
-- [p-e-w/heretic](https://github.com/p-e-w/heretic): 언어 모델의 검열(거부 응답)을 완전 자동으로 제거하는 도구임.
-- [getsentry/sentry](https://github.com/getsentry/sentry): 개발자 중심의 에러 트래킹·성능 모니터링 플랫폼임. 오랜 기간 유지되는 대표 오픈소스 프로젝트임.
+- [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad): AI 에이전트에 CAD 설계 능력을 붙여주는 도구임. 자연어 지시로 3D 모델을 만들 수 있음.
+- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): AI 에이전트가 인터넷 전체를 읽게 해주는 CLI임. Twitter·Reddit·YouTube·GitHub·Bilibili·샤오홍수를 API 비용 없이 검색·수집함.
+- [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage): 세계 첫 오픈소스 에이전틱 영상 제작 시스템임. 12개 제작 파이프라인과 100개 넘는 툴, 700개 이상 에이전트 스킬·제작 지식 파일을 포함함.
+- [dortania/OpenCore-Legacy-Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher): 구형 Mac에 최신 macOS를 설치해 주는 패처임. 공식 지원이 끊긴 기기에서도 예전처럼 macOS를 쓸 수 있게 함.
+- [achillean/shodan-python](https://github.com/achillean/shodan-python): 인터넷 연결 기기 검색 엔진 Shodan의 공식 파이썬 라이브러리임. 보안 스캐닝과 자산 조사 자동화에 쓰임.
 
 ## 📄 Hugging Face Papers
 
-- [On-Policy냐 Off-Policy냐? 증류 다이내믹스의 체계적 연구](https://huggingface.co/papers/2609.35259)
-  강→약 모델 증류 환경에서 롤아웃 정책, 토큰 단위 KL 방향, 학습률을 독립적으로 바꿔가며 on-policy 학습이 망각 감소·일반화 향상에 실제로 기여하는지 분리해 검증함.
-- [X-Tree: 재사용 가능한 경험을 토큰화해 에이전트 일반화 효율을 높임](https://huggingface.co/papers/2609.32993)
-  다단계 에이전트 학습에서 반복되는 하위 절차를 찾아 토큰으로 만들어 가중치에 학습시킴. 컨텍스트 스킬에만 의존하던 기존 방식보다 적은 궤적으로 일반화함.
-- [비디오 생성 모델: 사후학습과 정렬에 관한 서베이](https://huggingface.co/papers/2610.00812)
-  사전학습된 비디오 모델이 의도 추종·시간적 일관성·물리/안전 제약을 지키지 못하는 문제를 정리하고, 오류 누적 등 비디오 특유의 정렬 난제와 사후학습 기법을 체계적으로 조망함.
-- [ScholarCatalyst: 새 연구에 영감을 준 논문을 검색하는 벤치마크](https://huggingface.co/papers/2610.02202)
-  연구자가 직접 '내 연구를 진전시킨 선행 논문'을 표시하게 하는 자동 파이프라인으로 벤치마크를 구축함. AI가 방대한 아카이브에서 필요한 아이디어를 감지하는 능력을 측정함.
-- [SemanTok: 효율적 자기회귀 비디오 생성을 위한 예측 가능한 시맨틱 토큰](https://huggingface.co/papers/2610.00686)
-  자기회귀 비디오 월드 모델용 토크나이저를 제안함. 첫 토큰이 클립의 전체 의미를, 이후 토큰이 세부를 담는 coarse-to-fine 구조로 예측 가능성과 충실도를 함께 높임.
+- [RealCompanion: 장기 실사용 대화에서 사람을 이해하는 능력 벤치마크](https://huggingface.co/papers/2610.01780)
+  AI 컴패니언과 실제 사람 10명이 최대 120일간 나눈 27,218개 메시지를 공개한 벤치마크임. 프로필·페르소나·정답 라벨·질문셋을 함께 제공하고 모든 라벨에 근거 추론을 붙임. 과거 대화가 실제로 필요한 경우는 드물다는 점 등 세 가지 발견을 제시함.
+- [단백질 폴딩 학습이 일반 추론으로 전이되는가](https://huggingface.co/papers/2609.38879)
+  단백질 구조 하나에서 검증 가능한 공간·위상 문제 수천 개를 뽑아 FoldingCorpus를 만들고, 언어 헤드와 3D 기하 디코딩을 함께 쓰는 Fold2Reason으로 후학습함. FoldBench에서 Qwen3.5 대비 구조 예측 점수가 2.7~3.5배로 올라감.
+- [MotorMind: 범용 VLM으로 제로샷 로봇 조작 수행](https://huggingface.co/papers/2609.38078)
+  기존 VLA 모델은 전용 학습에 묶여 제로샷 일반화가 약함. 범용 VLM이 관측에서 직접 추론해 행동을 내리고 실행 피드백으로 계속 보정하는 구조를 제안함. 외부 모델·툴 의존 없이 사람 원격조작처럼 로봇을 움직임.
+- [FrameMorrow: 미래 수요를 예측해 프레임을 고르는 장기 영상 생성](https://huggingface.co/papers/2609.38839)
+  장기 영상 생성에서 과거 프레임을 전부 들고 있으면 비용이 커지므로 선별이 핵심임. 현재 내용 기준이 아니라 '앞으로 필요해질 정보' 기준으로 과거를 고르는 게 낫다는 통찰을 제시함. 미래를 다 생성하지 않고 압축 표현만으로 선택을 유도함.
+- [Recursive Self-Rewrite: 복잡 과제 성공 궤적을 스스로 재작성해 확장](https://huggingface.co/papers/2610.02826)
+  특수 하네스에서만 통하는 성공 궤적을 일반 하네스용 학습 데이터로 재구성하는 프레임워크임. 플래너가 런북을 뽑고 크리틱이 정답 누수를 걸러 재귀 수정하며 실행기가 새 샌드박스에서 검증함. 터미널 과제 약 3K개에서 세 하네스 합산 759개를 풀어 최강 단일 하네스보다 34.3% 많음.
 
 ## 🦉 GeekNews
 
-- [에이전트 코딩의 묵시록 4기사](https://distantprovince.substack.com/p/the-four-horsemen-of-agentic-coding)
-  에이전트 코딩은 유용하지만 슬롭, 소외, 숙련도 저하, 팀 관계 약화라는 네 가지 문제를 낳음. 개발자의 호기심과 장인정신, 사회적 연결을 해친다고 지적함.
-- [PicoMQ - S3 기반 실시간 데이터 스트림 서버](https://github.com/picomq/picomq)
-  채팅, 기기 이벤트, 에이전트 대화를 순서대로 저장하고 실시간으로 전달하는 스트림 서버임. S3를 저장소로 써서 읽던 위치부터 이어받거나 과거 기록을 다시 재생할 수 있음.
-- [tmux를 OS로 만들자](https://matduggan.com/what-does-my-dream-os-ui-look-like/)
-  터미널에서 작업을 유지하고 다시 이어가는 tmux의 경험을 일반 사용자용 데스크톱으로 확장하는 구상임. 창을 옮기는 대신 하던 일 자체를 그대로 복원하는 OS를 제안함.
-- [하네스가 곧 회사다](https://blog.sshh.io/p/the-harness-is-the-company)
-  SaaS 기업의 개발·기획·영업을 AI 에이전트가 수행하게 되면, 회사는 모델에 업무 지식과 도구, 권한, 검토 절차를 제공하는 하네스로 바뀔 수 있다고 봄.
-- [업스테이지, GPU 한 장에서 실행하는 Solar Mini 4 발표](https://www.upstage.ai/blog/ko/solar-mini-4)
-  정보 조회, 문서 분류, 도구 호출 같은 반복 에이전트 작업을 저비용으로 처리하는 모델임. 총 350억 파라미터 중 토큰당 30억만 활성화되는 MoE 구조로 GPU 한 장에서 돌아감.
+- [AI 시대의 커리어 조언 — 문제를 푸는 능력보다 찾고 선택하는 능력](https://news.hada.io/topic?id=34793)
+  AI는 정답과 평가 기준이 명확한 문제에서 빠르게 강해지므로, 앞으로의 가치는 채점하기 어려운 문제를 발견하고 고르는 능력에서 나옴. 소프트웨어와 자본 접근은 쉬워진 반면 시간·좋은 인간관계·평판은 여전히 희소하다고 짚음.
+- [Claude Code 모드(mod) 시작하기](https://news.hada.io/topic?id=34796)
+  Claude Code의 동작과 UI를 바꾸는 JS/TS 확장인 '모드'를 소개함. 세션 이벤트를 관찰하고 도구 실행에 개입하거나 맞춤 패널을 띄울 수 있음. 자연어로 기능을 요청해 모드를 만들 수 있고 핫 리로드로 세션 재시작 없이 수정됨.
+- [자율주행 데이터의 진짜 문제는 크기가 아니다](https://news.hada.io/topic?id=34805)
+  자율주행 데이터의 난점은 용량이 아니라 의미 보존임. 카메라·LiDAR·Radar가 서로 다른 주기와 시계를 쓰기 때문에 정확한 시간 관계로 묶는 게 어려움. 주행 데이터 대부분이 반복적이고 지루해 의미 있는 구간을 골라내는 게 핵심임.
+- [Apple과 해커의 미래](https://news.hada.io/topic?id=34827)
+  AI 에이전트가 소프트웨어를 만들고 컴퓨터를 직접 조작하는 환경에서 Apple의 보호 장치와 앱 중심 설계가 오히려 제약이 될 수 있다고 봄. Claude와 Codex만 돌리던 Mac Mini가 해킹됐지만 상시 실행 중인 Claude가 이상을 감지해 침입을 분석한 사례를 소개함.
+- [SQLDoom — 오리지널 Doom을 SQL로 포팅하기](https://news.hada.io/topic?id=34815)
+  1993년 Doom의 게임 로직과 렌더러를 전부 SQL로 옮겨 CedarDB 안에서 실행함. 파이썬 클라이언트는 입력·타이밍과 완성된 화면 표시만 담당함. 원작과 같은 35Hz로 돌고 320×200 화면이 노트북에서 보통 60FPS 수준으로 나옴.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-10-05](data/2026-10-05.md)
 - [2026-10-04](data/2026-10-04.md)
 - [2026-10-03](data/2026-10-03.md)
 - [2026-10-02](data/2026-10-02.md)
@@ -69,4 +70,3 @@
 - [2026-09-04](data/2026-09-04.md)
 - [2026-09-03](data/2026-09-03.md)
 - [2026-09-02](data/2026-09-02.md)
-- [2026-08-31](data/2026-08-31.md)
