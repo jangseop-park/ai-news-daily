@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-06",
+  "github_trending": [
+    {
+      "name": "earthtojake/text-to-cad",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "description": "AI 에이전트에 CAD 설계 능력을 붙여주는 도구임. 자연어 지시로 3D 모델을 만들 수 있음.",
+      "description_en": "Give your agent CAD superpowers."
+    },
+    {
+      "name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "AI 에이전트가 인터넷 전체를 읽게 해주는 CLI임. Twitter·Reddit·YouTube·GitHub·Bilibili·샤오홍수를 API 비용 없이 검색·수집함.",
+      "description_en": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees."
+    },
+    {
+      "name": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "description": "세계 첫 오픈소스 에이전틱 영상 제작 시스템임. 12개 제작 파이프라인과 100개 넘는 툴, 700개 이상 에이전트 스킬·제작 지식 파일을 포함함.",
+      "description_en": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files."
+    },
+    {
+      "name": "dortania/OpenCore-Legacy-Patcher",
+      "url": "https://github.com/dortania/OpenCore-Legacy-Patcher",
+      "description": "구형 Mac에 최신 macOS를 설치해 주는 패처임. 공식 지원이 끊긴 기기에서도 예전처럼 macOS를 쓸 수 있게 함.",
+      "description_en": "Experience macOS just like before."
+    },
+    {
+      "name": "achillean/shodan-python",
+      "url": "https://github.com/achillean/shodan-python",
+      "description": "인터넷 연결 기기 검색 엔진 Shodan의 공식 파이썬 라이브러리임. 보안 스캐닝과 자산 조사 자동화에 쓰임.",
+      "description_en": "The official Python library for Shodan."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "RealCompanion: 장기 실사용 대화에서 사람을 이해하는 능력 벤치마크",
+      "title_en": "RealCompanion: Benchmarking Human Understanding from Reasoning over Longitudinal Real-World Conversations",
+      "url": "https://huggingface.co/papers/2610.01780",
+      "summary": "AI 컴패니언과 실제 사람 10명이 최대 120일간 나눈 27,218개 메시지를 공개한 벤치마크임. 프로필·페르소나·정답 라벨·질문셋을 함께 제공하고 모든 라벨에 근거 추론을 붙임. 과거 대화가 실제로 필요한 경우는 드물다는 점 등 세 가지 발견을 제시함.",
+      "summary_en": "Releases ten real human-AI companion relationships: 27,218 messages over up to 120 days, with profile, persona, chat ground truth and question set, each citing the messages it rests on and carrying its reasoning trace."
+    },
+    {
+      "title": "단백질 폴딩 학습이 일반 추론으로 전이되는가",
+      "title_en": "Does Learning Protein Folding Generalize to Broader Reasoning?",
+      "url": "https://huggingface.co/papers/2609.38879",
+      "summary": "단백질 구조 하나에서 검증 가능한 공간·위상 문제 수천 개를 뽑아 FoldingCorpus를 만들고, 언어 헤드와 3D 기하 디코딩을 함께 쓰는 Fold2Reason으로 후학습함. FoldBench에서 Qwen3.5 대비 구조 예측 점수가 2.7~3.5배로 올라감.",
+      "summary_en": "Builds FoldingCorpus from protein structures and post-trains with Fold2Reason using both discrete structural answers and continuous 3D geometry; achieves 2.7-3.5x structure prediction scores over Qwen3.5 on FoldBench."
+    },
+    {
+      "title": "MotorMind: 범용 VLM으로 제로샷 로봇 조작 수행",
+      "title_en": "MotorMind: Scaffolding General Vision Language Models for Zero-Shot Robot Manipulation",
+      "url": "https://huggingface.co/papers/2609.38078",
+      "summary": "기존 VLA 모델은 전용 학습에 묶여 제로샷 일반화가 약함. 범용 VLM이 관측에서 직접 추론해 행동을 내리고 실행 피드백으로 계속 보정하는 구조를 제안함. 외부 모델·툴 의존 없이 사람 원격조작처럼 로봇을 움직임.",
+      "summary_en": "Lets a general-purpose VLM operate a robot like a human teleoperator by reasoning from observations, issuing actions and adapting to execution feedback, without external learned models or tools."
+    },
+    {
+      "title": "FrameMorrow: 미래 수요를 예측해 프레임을 고르는 장기 영상 생성",
+      "title_en": "FrameMorrow: Future-guided Frame Selection with Prospective Tokens for Long-Horizon Video Generation",
+      "url": "https://huggingface.co/papers/2609.38839",
+      "summary": "장기 영상 생성에서 과거 프레임을 전부 들고 있으면 비용이 커지므로 선별이 핵심임. 현재 내용 기준이 아니라 '앞으로 필요해질 정보' 기준으로 과거를 고르는 게 낫다는 통찰을 제시함. 미래를 다 생성하지 않고 압축 표현만으로 선택을 유도함.",
+      "summary_en": "Argues historical frames should be selected by relevance to future information needs rather than current content, using a compact prospective representation instead of generating the full future."
+    },
+    {
+      "title": "Recursive Self-Rewrite: 복잡 과제 성공 궤적을 스스로 재작성해 확장",
+      "title_en": "Scaling Trajectories for Complex Tasks through Recursive Self-Rewrite",
+      "url": "https://huggingface.co/papers/2610.02826",
+      "summary": "특수 하네스에서만 통하는 성공 궤적을 일반 하네스용 학습 데이터로 재구성하는 프레임워크임. 플래너가 런북을 뽑고 크리틱이 정답 누수를 걸러 재귀 수정하며 실행기가 새 샌드박스에서 검증함. 터미널 과제 약 3K개에서 세 하네스 합산 759개를 풀어 최강 단일 하네스보다 34.3% 많음.",
+      "summary_en": "Recursive Self-Rewrite reconstructs successful trajectories found under diverse harnesses into training data for a general harness via planner, critic and executor; three harnesses jointly solve 759 of ~3K terminal tasks, 34.3% more than the strongest single harness."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "AI 시대의 커리어 조언 — 문제를 푸는 능력보다 찾고 선택하는 능력",
+      "title_en": "Career advice in the AI era: finding and choosing problems beats solving them",
+      "url": "https://news.hada.io/topic?id=34793",
+      "summary": "AI는 정답과 평가 기준이 명확한 문제에서 빠르게 강해지므로, 앞으로의 가치는 채점하기 어려운 문제를 발견하고 고르는 능력에서 나옴. 소프트웨어와 자본 접근은 쉬워진 반면 시간·좋은 인간관계·평판은 여전히 희소하다고 짚음.",
+      "summary_en": "Since AI improves fastest on problems with clear answers and gradable criteria, future value comes from finding and choosing problems that are hard to grade; time, good relationships and reputation stay scarce."
+    },
+    {
+      "title": "Claude Code 모드(mod) 시작하기",
+      "title_en": "Getting started with Claude Code mods",
+      "url": "https://news.hada.io/topic?id=34796",
+      "summary": "Claude Code의 동작과 UI를 바꾸는 JS/TS 확장인 '모드'를 소개함. 세션 이벤트를 관찰하고 도구 실행에 개입하거나 맞춤 패널을 띄울 수 있음. 자연어로 기능을 요청해 모드를 만들 수 있고 핫 리로드로 세션 재시작 없이 수정됨.",
+      "summary_en": "Mods are JS/TS extensions that change Claude Code's behavior and UI — observing session events, intercepting tool runs, showing custom panels; you can request one in natural language and hot-reload it without restarting."
+    },
+    {
+      "title": "자율주행 데이터의 진짜 문제는 크기가 아니다",
+      "title_en": "The real problem with autonomous driving data isn't size",
+      "url": "https://news.hada.io/topic?id=34805",
+      "summary": "자율주행 데이터의 난점은 용량이 아니라 의미 보존임. 카메라·LiDAR·Radar가 서로 다른 주기와 시계를 쓰기 때문에 정확한 시간 관계로 묶는 게 어려움. 주행 데이터 대부분이 반복적이고 지루해 의미 있는 구간을 골라내는 게 핵심임.",
+      "summary_en": "The hard part of AV data is preserving meaning, not scale: camera, LiDAR and radar run on different rates and clocks, so aligning them in exact temporal relation is harder than expected, and most driving data is repetitive."
+    },
+    {
+      "title": "Apple과 해커의 미래",
+      "title_en": "Apple and the future of hackers",
+      "url": "https://news.hada.io/topic?id=34827",
+      "summary": "AI 에이전트가 소프트웨어를 만들고 컴퓨터를 직접 조작하는 환경에서 Apple의 보호 장치와 앱 중심 설계가 오히려 제약이 될 수 있다고 봄. Claude와 Codex만 돌리던 Mac Mini가 해킹됐지만 상시 실행 중인 Claude가 이상을 감지해 침입을 분석한 사례를 소개함.",
+      "summary_en": "Argues Apple's sandboxing and app-centric design may constrain users once AI agents write software and drive the machine; recounts a Mac Mini running only Claude and Codex being hacked, with the always-on Claude detecting and analyzing the intrusion."
+    },
+    {
+      "title": "SQLDoom — 오리지널 Doom을 SQL로 포팅하기",
+      "title_en": "SQLDoom: porting the original Doom to SQL",
+      "url": "https://news.hada.io/topic?id=34815",
+      "summary": "1993년 Doom의 게임 로직과 렌더러를 전부 SQL로 옮겨 CedarDB 안에서 실행함. 파이썬 클라이언트는 입력·타이밍과 완성된 화면 표시만 담당함. 원작과 같은 35Hz로 돌고 320×200 화면이 노트북에서 보통 60FPS 수준으로 나옴.",
+      "summary_en": "SQLDoom moves the 1993 Doom game logic and renderer into SQL running inside CedarDB, with a Python client handling only input, timing and display; it runs at the original 35Hz and around 60FPS at 320x200 on a laptop."
+    }
+  ]
+}
