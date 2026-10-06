@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-07",
+  "github_trending": [
+    {
+      "name": "earthtojake/text-to-cad",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "description": "AI 에이전트에 CAD 설계 능력을 붙여주는 도구임. 자연어 지시로 3D 모델을 생성함. 이틀 연속 트렌딩 1위임.",
+      "description_en": "Give your agent CAD superpowers."
+    },
+    {
+      "name": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "description": "코딩 에이전트가 답을 장문 속에 묻어버리지 않게 하는 스킬임. ADHD 친화적으로 결론을 먼저 짧게 내놓게 함.",
+      "description_en": "A skill to stop your coding agent from burying the answer. ADHD-friendly output."
+    },
+    {
+      "name": "p-e-w/heretic",
+      "url": "https://github.com/p-e-w/heretic",
+      "description": "언어모델의 검열을 전자동으로 제거하는 도구임. 수동 튜닝 없이 거부 응답 경향을 걷어냄.",
+      "description_en": "Fully automatic censorship removal for language models."
+    },
+    {
+      "name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "Anthropic이 공개한 지식노동자용 플러그인 오픈소스 저장소임. Claude Cowork에서 쓰도록 만들어짐.",
+      "description_en": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork."
+    },
+    {
+      "name": "0x4m4/hexstrike-ai",
+      "url": "https://github.com/0x4m4/hexstrike-ai",
+      "description": "AI 에이전트가 150개 넘는 보안 도구를 자율로 실행하게 해주는 MCP 서버임. 모의침투·취약점 탐색·버그바운티 자동화에 쓰임.",
+      "description_en": "An advanced MCP server that lets AI agents autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery and bug bounty automation."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "World Editing: 실행 가능한 월드를 깊이별로 개입해 편집하기",
+      "title_en": "World Editing: Intervening on Executable Worlds at Increasing Depth",
+      "url": "https://huggingface.co/papers/2610.02331",
+      "summary": "월드 모델이 환경을 생성하고 그 안에서 행동하는 건 되는데, 이미 있는 실행 가능한 월드를 의도대로 고치는 건 거의 안 다뤄졌음. 바뀌면 안 되는 속성은 유지하면서 개입하는 문제로 정의하고, 편집이 엔티티·동역학·시스템에 얼마나 강하게 얽히는지를 '개입 깊이'로 축을 세움. 상업 수준 게임 모딩으로 구현해 IGMWorld와 과제 110개·실행 가능 상태 1.1K개 이상의 IGMBench를 공개함.",
+      "summary_en": "Formulates world editing as intervening on an existing executable world while preserving what should stay unchanged, introduces intervention depth as an axis, and releases IGMWorld plus IGMBench (110 tasks, 1.1K+ executable state and behavior checks) via industry-grade game modding."
+    },
+    {
+      "title": "의미 유사도를 넘어서: 복잡 과제용 에이전틱 검색의 성능과 비용",
+      "title_en": "Beyond Semantic Similarity: Performance and Costs of Agentic Retrieval for Complex Tasks",
+      "url": "https://huggingface.co/papers/2610.05750",
+      "summary": "밀집 검색은 표면적 의미 유사도에 의존해서 복잡한 검색 과제에 부족함. LLM 추론과 리트리버를 ReAct 루프로 묶은 에이전틱 검색을 실험해 표준 검색보다 nDCG@10이 개선됨을 보임. 다만 비용이 함께 커지므로 성능-비용 트레이드오프를 정량화함.",
+      "summary_en": "Shows agentic retrieval, combining LLM reasoning with retrievers in a ReAct loop, is more effective than standard dense retrieval on complex tasks, improving nDCG@10 while quantifying the added cost."
+    },
+    {
+      "title": "COSMI: 다중 객체 상호작용의 조합적 합성",
+      "title_en": "COSMI: COmpositional Synthesis of Multi-object Interactions",
+      "url": "https://huggingface.co/papers/2610.03252",
+      "summary": "일상 활동은 여러 물체를 동시에 다루지만 데이터셋은 대부분 한 번에 하나만 기록함. 상호작용이 국소적이라는 관찰에서, 단일 객체 클립을 접촉 일관성을 지켜 조합하고 손 균형을 맞춰 미러링·신체 간 전이함. 언어모델과 기하 검사로 의미·물리적으로 그럴듯한 조합만 통과시킴.",
+      "summary_en": "Since interactions are local, COSMI composes contact-consistent single-object capture clips — mirrored for hand balance and transferred across bodies — admitting only pairings a language model and geometric checks find semantically and physically plausible."
+    },
+    {
+      "title": "비공개 건강기록을 증류해 에이전트로 혈액 바이오마커 발굴",
+      "title_en": "Agentic discovery of blood biomarker from distilled private health records",
+      "url": "https://huggingface.co/papers/2610.04749",
+      "summary": "일반 혈액검사(CBC)에서 새 바이오마커를 찾을 수 있지만 평가에 필요한 비공개 기록은 프런티어 모델에 넘길 수 없음. 환자 540만 명 이상 패널의 근거를 점수 도구로 증류해, 면역 매개 질환 13종별로 데이터 경계 안에서 그래프 어텐션 네트워크를 학습하고 가중치만 공개함. 에이전트의 제안-채점-수정 루프를 실제 데이터에 접지시킴.",
+      "summary_en": "Distills evidence from a 5.4M-patient panel into a released scoring tool — graph attention networks trained inside the data boundary for 13 immune-mediated diseases, weights only — grounding an agent's propose-score-refine loop in real-world records."
+    },
+    {
+      "title": "LLM-as-Jev: LLM은 이미 Jev식 결정 모델임 — 언제·어떻게 파인튜닝할까",
+      "title_en": "LLM-as-Jev: LLMs Are Already Jev-Style Decision Models -- When and How to Fine-Tune Them",
+      "url": "https://huggingface.co/papers/2610.02076",
+      "summary": "Jev식 결정 모델은 자유 텍스트 없이 미리 정한 옵션에 확률만 돌려줘서 소프트웨어가 바로 쓸 수 있음. 범용 LLM이 이 능력을 이미 어디까지 갖고 있고 파인튜닝이 언제 실제로 필요한지 조사함. 괄호 숫자 식별자에 대한 다음 토큰 확률에서 보정된 결정을 뽑는 구조 보존 프레임워크를 제시함.",
+      "summary_en": "Investigates how far general-purpose LLMs already act as Jev-style decision models and when fine-tuning is actually needed, presenting an architecture-preserving framework that extracts calibrated decisions from next-token probabilities over bracketed numeric identifiers."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "AI 시대, 매니저의 길",
+      "title_en": "The manager's path in the AI era",
+      "url": "https://news.hada.io/topic?id=34865",
+      "summary": "AI로 한 사람이 여러 사람 분량의 코드를 쓸 수 있어도 팀을 같은 방향으로 움직이게 하는 일은 자동으로 해결되지 않음. 관리자의 기술적 판단과 사람 관리는 여전히 필요함. AI가 업무 기록을 쉽게 보여주지만 가시성과 이해는 다르며, 요약만 읽으면 맥락을 놓친다고 짚음.",
+      "summary_en": "Even when one person can produce the output of many with AI, keeping a team aligned isn't automated; a manager's technical judgment and people work still matter, and AI-made visibility is not the same as understanding."
+    },
+    {
+      "title": "2026년 개발자 현황 조사",
+      "title_en": "State of Developers 2026 survey",
+      "url": "https://news.hada.io/topic?id=34858",
+      "summary": "개발자 5,463명이 참여한 Devographics 조사임. 고용 불안과 불충분한 임금을 경험한 응답자가 각각 거의 절반에 달함. 4분의 1 이상은 향후 5년 안에 자기 통제를 벗어난 이유로 직업을 바꿔야 할 가능성이 있다고 봤고, 62%가 경력 중 번아웃을 겪었음.",
+      "summary_en": "In a Devographics survey of 5,463 developers, nearly half report job insecurity and inadequate pay, over a quarter expect to change careers within five years for reasons outside their control, and 62% have experienced burnout."
+    },
+    {
+      "title": "OpenRig — Claude Code와 Codex를 팀으로 운영하는 멀티 에이전트 오케스트레이터",
+      "title_en": "OpenRig: a multi-agent orchestrator running Claude Code and Codex as a team",
+      "url": "https://news.hada.io/topic?id=34854",
+      "summary": "Claude Code, Codex, Pi 같은 코딩 에이전트를 역할과 공유 문맥을 갖춘 지속적인 팀으로 구성하는 오픈소스 도구임. 터미널 세션마다 일일이 지시하는 대신 리드 에이전트에 원하는 결과만 전달하면 전문 에이전트들을 조율함. 결과와 사용자 결정이 필요한 지점을 모아 보여줌.",
+      "summary_en": "An open-source tool that organizes coding agents like Claude Code, Codex and Pi into a persistent team with roles and shared context — you tell a lead agent the outcome you want and it coordinates the specialists."
+    },
+    {
+      "title": "고처리량 AI-SQL 엔진 구축하기",
+      "title_en": "Building a high-throughput AI-SQL engine",
+      "url": "https://news.hada.io/topic?id=34860",
+      "summary": "Quail은 SQL 안에서 AI로 문서를 분류하거나 문서 간 관계를 판별하는 엔진임. 데이터 전체에 걸친 수십만~수백만 번의 모델 호출을 빠르게 처리함. 호출을 하나씩 추론 서버로 보내는 대신 쿼리 실행 계획과 모델 추론을 함께 최적화해 같은 문서 반복 읽기를 줄임.",
+      "summary_en": "Quail classifies documents and judges relations between them with AI inside SQL, handling hundreds of thousands to millions of model calls by co-optimizing the query plan with model inference instead of firing calls one at a time."
+    },
+    {
+      "title": "Dust — 역전파 없이 트랜스포머 사전학습하기",
+      "title_en": "Dust: pretraining transformers without backpropagation",
+      "url": "https://news.hada.io/topic?id=34868",
+      "summary": "모델 내부 계산값에 작은 무작위 변화를 주고 예측 오류가 줄어드는 방향을 찾아 역전파 없이 트랜스포머를 처음부터 학습하는 방법임. 가중치를 여러 벌 복제하는 대신 토큰마다 다른 변화를 시험해 한 번의 순전파에서 수천 가지를 평가함.",
+      "summary_en": "Dust pretrains transformers from scratch without backpropagation by perturbing internal activations and following the direction that reduces prediction error, testing thousands of perturbations in a single forward pass by varying them per token."
+    }
+  ]
+}
