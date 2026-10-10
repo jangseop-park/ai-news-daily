@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-10-10
+> 마지막 업데이트: 2026-10-11
 
-# AI 뉴스 — 2026-10-10
+# AI 뉴스 — 2026-10-11
 
 ## 🔥 GitHub Trending (Python)
 
-- [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins): Claude Cowork에서 지식 노동자가 바로 쓸 수 있도록 만든 공식 오픈소스 플러그인 모음임. 문서 작업·리서치·업무 자동화용 플러그인이 포함됨.
-- [BerriAI/litellm](https://github.com/BerriAI/litellm): Rust 코어 + Python SDK로 만든 초경량 AI 게이트웨이임. 100개 이상 LLM API를 OpenAI 포맷으로 호출하고 비용 추적·가드레일·로드밸런싱·로깅을 지원함.
-- [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map): 스트리밍 3D 재구성을 위한 Geometric Context Transformer임. ECCV 2026 Best Paper Award 후보에 올랐음.
-- [Tencent-Hunyuan/Hy-MT2](https://github.com/Tencent-Hunyuan/Hy-MT2): 텐센트가 공개한 'fast-thinking' 다국어 번역 모델 패밀리임. 1.8B/7B/30B-A3B(MoE) 세 가지 크기로 33개 언어 번역을 지원하고, 1.25비트 극한 양자화로 1.8B 모델을 440MB까지 줄였음. 번역 지시 수행 벤치마크 IFMTBench도 함께 공개함.
-- [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd): 코딩 에이전트가 장황한 설명 속에 정답을 묻어버리지 않게 만드는 스킬임. ADHD 친화적으로 결론부터 짧게 출력하도록 유도함.
+- [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master): 문서나 주제를 네이티브 PowerPoint 덱으로 바꿔주는 AI 도구임. 네이티브 도형·전환·애니메이션, 데이터 기반 차트와 표, 발표자 노트 기반 음성 내레이션, 자체 .pptx 템플릿까지 지원함.
+- [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins): Claude Cowork에서 지식 근로자가 쓰도록 만든 오픈소스 플러그인 모음임. Anthropic이 직접 공개함.
+- [huggingface/transformers](https://github.com/huggingface/transformers): 텍스트·비전·오디오·멀티모달 SOTA 모델을 정의하는 프레임워크임. 추론과 학습 양쪽을 모두 커버함.
+- [pytorch/pytorch](https://github.com/pytorch/pytorch): 강력한 GPU 가속을 지원하는 텐서·동적 신경망 라이브러리임. 딥러닝 연구의 사실상 표준임.
+- [fastapi/fastapi](https://github.com/fastapi/fastapi): 고성능·배우기 쉬운 파이썬 웹 프레임워크임. 빠른 개발과 프로덕션 투입을 동시에 노림.
 
 ## 📄 Hugging Face Papers
 
 - [AgentGarten: 진화하는 에이전트를 위한 코드 월드](https://huggingface.co/papers/2610.12374)
-  시뮬레이터·게임 엔진과 공유 뉴럴 렌더러를 결합해 실시간 인터랙티브 환경을 만드는 프레임워크임. 시뮬레이션 백엔드가 지속적인 월드 상태와 상호작용 규칙을 담당하고, 렌더러가 실제 시각 분포를 따르는 관측을 생성함. Adversarial Forcing으로 히스토리 프리필을 미분 가능하게 만들어 사전학습 비디오 모델을 증류했음.
+  시뮬레이터와 게임 엔진을 공유 뉴럴 렌더러에 결합해 실시간 상호작용 환경을 만드는 프레임워크임. 시뮬레이션 백엔드가 지속적 월드 상태와 프로그램으로 정의된 상호작용 규칙을 처리하고, 렌더러가 구조화된 조건에서 시각 관측을 생성함. 사전학습 비디오 모델을 기하 조건에 맞춰 Adversarial Forcing으로 증류함. 환경을 코드로 쓸 수 있어 에이전트와 함께 환경 수와 난이도를 확장 가능함.
+- [Learn2Play Bench: LLM 에이전트는 낯선 환경에서 경험으로 얼마나 잘 배우는가?](https://huggingface.co/papers/2610.08215)
+  규칙이 새롭거나 직관에 반하는 텍스트 기반 게임으로 구성한 벤치마크임. 기존 벤치마크는 규칙이 지시문에 있거나 사전학습 모델이 이미 아는 과제라 '상호작용으로 배우는 능력'과 '기존 지식으로 추론하는 능력'을 구분하기 어려웠음. 재현 가능한 피드백과 자동 채점을 제공해 반복 시도에 걸친 학습을 통제된 조건에서 평가함.
 - [TokenRouter: 토큰 단위 LLM 라우팅을 위한 효율적 서빙 시스템](https://huggingface.co/papers/2610.12242)
-  토큰 단위 라우팅은 품질·비용 측면에서 이득이 크지만, 단일 LLM 가정으로 만든 기존 서빙 시스템은 스텝 비동기화와 배치 admission 지연이 심함. TokenRouter는 'request-centric programming, model-centric execution' 원칙으로 개발자는 요청 하나 관점에서 라우팅 로직만 쓰고, 런타임이 LLM별 서브서버를 띄워 비동기 디스패치함.
-- [트레이스에서 에이전트 월드로: 인터랙티브 환경 시뮬레이션을 위한 에이전틱 언어 월드 모델](https://huggingface.co/papers/2610.06100)
-  실행 가능한 환경을 재구축하는 대신, 월드 모델 에이전트가 태스크 에이전트의 환경 역할을 하도록 함. Trace2Env는 학습 없이 과거 상호작용 트레이스를 환경 스키마·근거·행동 지식이 담긴 '월드북'으로 재구성함. 9개 환경에서 다음 관측 충실도와 장기 상호작용 일관성이 기존 프롬프트 기반 LWM보다 개선됨.
-- [Learn2Play Bench: LLM 에이전트는 낯선 환경에서 경험으로부터 얼마나 잘 배우는가?](https://huggingface.co/papers/2610.08215)
-  규칙이 새롭거나 직관에 반하는 텍스트 게임들로 구성된 벤치마크임. 기존 벤치마크는 규칙을 지시문에 주거나 사전학습 모델이 이미 아는 과제가 많아 '상호작용으로 배운 것'과 '기존 지식으로 추론한 것'을 구분하기 어려웠음. 재현 가능한 피드백과 자동 채점으로 반복 시도에 따른 학습을 통제된 조건에서 측정함.
-- [SuperNav: 모든 장면에서 모든 과제를 수행하는 에이전틱 내비게이션 시스템](https://huggingface.co/papers/2610.12126)
-  MLLM을 내비게이션용으로 파인튜닝하지 않고, 요청 해석·장면 이해·의사결정만 맡기고 실제 이동은 내비게이션 툴에 위임함. Navigation Skills와 물리적 상호작용용 툴, 태스크 진행·컨텍스트 관리를 갖춘 에이전트 하네스를 붙였음. 통합 visual-point 인터페이스로 모델이 이미지 위에 목표 지점을 직접 지정함.
+  토큰 단위로 여러 모델에 추론을 분배하는 라우팅을 실제로 서빙하는 시스템임. 기존 시스템은 단일 LLM 가정 위에 세워져 토큰 단위 라우팅에서 심각한 스텝 비동기화와 배치 admission 지연을 겪었음. request-centric 프로그래밍 원칙을 따라 구현 복잡도를 낮추고 비용-품질 파레토 프런티어를 개선함.
+- [트레이스에서 에이전틱 월드로: 상호작용 환경 시뮬레이션용 에이전틱 언어 월드 모델](https://huggingface.co/papers/2610.06100)
+  실행 가능한 환경을 재구축하는 대신 world model 에이전트가 환경 역할을 맡아 상태를 유지하며 시뮬레이션함. 원본 시스템은 없지만 과거 상호작용 트레이스는 남아 있는 상황을 겨냥한 학습 불필요(learning-free) 프레임워크 Trace2Env를 제시함. 트레이스를 환경 스키마·근거·행동 지식이 담긴 worldbook으로 재구성해 9개 환경에서 검증함.
+- [SuperNav: 모든 장면의 모든 과제를 위한 에이전틱 내비게이션 시스템](https://huggingface.co/papers/2610.12126)
+  MLLM을 내비게이션 전용으로 파인튜닝하지 않고 에이전트 하네스만 붙여 범용 능력을 유지하는 방식임. MLLM은 요청 해석·장면 이해·의사결정에 집중하고 실제 이동은 내비게이션 툴에 위임함. Navigation Skills와 물리 상호작용용 에이전트 지향 Tools로 과제 일반성과 장면 일반성을 함께 달성함.
 
 ## 🦉 GeekNews
 
-- [개발 블로그 글쓰기의 안티패턴](https://news.hada.io/topic?id=34962)
-  개발 블로그의 가장 흔한 실수는 본론까지 너무 오래 걸리는 것임. 제목과 첫 세 문장 안에 누구를 위한 글이고 읽으면 무엇을 얻는지 밝혀야 함. 독자가 나와 같은 지식을 가졌다고 가정하지 말고, 실제 동료 한 명을 기준 독자로 정해 그가 아는 용어와 모르는 용어를 구분해야 함.
-- [SQLite의 확장은 더 큰 DB가 아니라 더 많은 DB](https://news.hada.io/topic?id=34991)
-  특별한 이유가 없다면 Postgres 하나로 대부분의 앱을 만들 수 있고 그게 자연스러운 선택임. 하지만 SQLite로 확장할 때는 하나의 큰 DB를 키우는 게 아니라, 테넌트나 사용자 단위로 DB를 여러 개 쪼개는 방향이 맞다는 주장임.
-- [D2Coding 폰트 1.4.0 공개 - 숫자 0 선택 기능과 한글/코드 표시 개선](https://news.hada.io/topic?id=34987)
-  네이버의 코딩 전용 글꼴 새 버전임. 한글·영문·숫자·기호가 섞인 코드의 가독성과 정렬을 개선함. 기존 빗금 0 대신 가운데 점이 있는 0을 고를 수 있게 됐고, OpenType의 cv01 또는 ss01 기능으로 활성화함. 기본 모양은 그대로 유지됨.
-- [a16z의 2026년 소비자 AI 앱 Top 100](https://news.hada.io/topic?id=34980)
-  ChatGPT가 웹·모바일 이용량과 미국 소비자 지출에서 모두 1위를 유지함. Claude는 웹 3위로 올라 DeepSeek와 Perplexity를 앞섬. 이번 판에 소비자 지출 분석이 처음 추가됐고, 상위 1%의 월평균 AI 지출은 903달러로 유료 이용자 중앙값 25달러와 격차가 큼.
-- [OpenAI, GPT-6 확대 적용과 더 똑똑한 대화형 UI 도입](https://news.hada.io/topic?id=34960)
-  OpenAI가 ChatGPT에 GPT-6와 대화형 인터페이스 'Intelligent UI'를 도입함. 텍스트 답변뿐 아니라 버튼·폼·차트·조작 가능한 도표를 대화 안에서 바로 제공함. 여행 경로를 지도에 띄우거나, 인원수를 바꾸면 장보기 수량이 따라 바뀌는 요리 계획을 만드는 식으로 질문에 맞춰 UI가 생성됨.
+- [Python 3.15 정식 출시 - 지연 임포트, 불변 딕셔너리, UTF-8 기본 인코딩 도입](https://news.hada.io/topic?id=35085)
+  Python 3.15.0이 정식 출시됨. UTF-8을 기본 인코딩으로 쓰고, 불변 딕셔너리 frozendict와 고유 표식 값을 만드는 sentinel 내장 타입이 추가됨. 지연 임포트도 들어감.
+- [Deno 팀, Cloudflare 합류 - 런타임 개발은 1년 뒤 종료](https://news.hada.io/topic?id=35073)
+  Deno 팀 전체가 Cloudflare로 합류함. celld와 workerd를 결합해 Workers와 Durable Objects의 자체 호스팅을 쉽게 만드는 데 개발 역량을 집중함. Deno 런타임 자체 개발은 1년 뒤 종료됨.
+- [AI 시대에 SaaS 기업을 피벗하는 방법](https://news.hada.io/topic?id=35041)
+  AI 코딩 도구로 기능 개발과 복제가 싸지면서 '경쟁사 기능 + 몇 가지 추가' 전략만으로는 SaaS 경쟁력 유지가 어려워짐. 코드 자체가 더는 방어막이 아니라는 전제에서 피벗 전략을 짚음.
+- [tinyjs - JavaScript로 약 6MB 데스크톱 앱을 만드는 경량 프레임워크](https://news.hada.io/topic?id=35038)
+  프런트엔드와 백엔드를 모두 JavaScript로 쓰는 데스크톱 앱 프레임워크임. Electron·Node.js·Chromium을 앱에 포함하지 않아 배포 크기가 약 6MB로 줄어듦.
+- [5년 계획을 세우지 말고, 대신 이렇게 하라](https://news.hada.io/topic?id=35040)
+  5년 뒤 모습을 정하기보다 그때 선택할 수 있는 길을 넓혀야 함. 지금 가진 경험만으로 미래를 계획하면 기존 경력의 조금 다른 버전만 떠올리게 됨.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-10-10](data/2026-10-10.md)
 - [2026-10-07](data/2026-10-07.md)
 - [2026-10-06](data/2026-10-06.md)
 - [2026-10-05](data/2026-10-05.md)
@@ -69,4 +70,3 @@
 - [2026-09-07](data/2026-09-07.md)
 - [2026-09-06](data/2026-09-06.md)
 - [2026-09-05](data/2026-09-05.md)
-- [2026-09-04](data/2026-09-04.md)
