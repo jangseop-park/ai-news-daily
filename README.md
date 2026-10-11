@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-10-11
+> 마지막 업데이트: 2026-10-12
 
-# AI 뉴스 — 2026-10-11
+# AI 뉴스 — 2026-10-12
 
 ## 🔥 GitHub Trending (Python)
 
-- [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master): 문서나 주제를 네이티브 PowerPoint 덱으로 바꿔주는 AI 도구임. 네이티브 도형·전환·애니메이션, 데이터 기반 차트와 표, 발표자 노트 기반 음성 내레이션, 자체 .pptx 템플릿까지 지원함.
-- [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins): Claude Cowork에서 지식 근로자가 쓰도록 만든 오픈소스 플러그인 모음임. Anthropic이 직접 공개함.
-- [huggingface/transformers](https://github.com/huggingface/transformers): 텍스트·비전·오디오·멀티모달 SOTA 모델을 정의하는 프레임워크임. 추론과 학습 양쪽을 모두 커버함.
+- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio): 완전 로컬로 돌아가는 오픈소스 ElevenLabs 대안임. 음성 클로닝, 보이스 디자인, 영상 더빙, 받아쓰기, 전사, 오디오북 제작을 646개 언어로 지원함.
+- [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master): 문서나 주제를 네이티브 PowerPoint 덱으로 바꿔주는 AI 도구임. 네이티브 도형·전환·애니메이션을 그대로 쓰고, 데이터 기반 차트와 표를 생성하며, 발표자 노트로 음성 내레이션을 만들고 자체 .pptx 템플릿도 지원함.
+- [huggingface/transformers](https://github.com/huggingface/transformers): 텍스트·비전·오디오·멀티모달 SOTA 모델을 정의하는 프레임워크임. 추론과 학습을 모두 커버함.
+- [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code): Claude Code, Codex, VSCode, Pi, OpenCode 등 11개 하네스를 무료로 쓰게 해주는 도구임(무료 토큰 13억개+). 터미널·앱·IDE·휴대폰에 이어 이제 브라우저 네이티브 세션도 지원하고, 멀티 하네스·멀티 모델과 음성 입력이 됨.
 - [pytorch/pytorch](https://github.com/pytorch/pytorch): 강력한 GPU 가속을 지원하는 텐서·동적 신경망 라이브러리임. 딥러닝 연구의 사실상 표준임.
-- [fastapi/fastapi](https://github.com/fastapi/fastapi): 고성능·배우기 쉬운 파이썬 웹 프레임워크임. 빠른 개발과 프로덕션 투입을 동시에 노림.
 
 ## 📄 Hugging Face Papers
 
-- [Opera: 장기 호라이즌 코딩 에이전트를 위한 언어 비평가 프레임워크](https://huggingface.co/papers/2609.33987)
-  기존 비평가(critic)는 트래젝토리를 평가하고 피드백을 만드는 데 그치고, 피드백 전달 이후를 추적하지 않음. Opera는 각 수정 지시를 '진단된 문제가 해결될 때까지 따라붙는 지속적 노트'로 다룸. 주기적·이벤트 기반 트리거로 리뷰 시점을 정하고, 타입이 지정된 연산자로 문제를 진단하고, 전달 전에 가시적 증거와 대조해 피드백을 감사함. 이후 행동을 추적해 단순 순응과 실제 해결을 구분함. Terminal-Bench 2.1 / SWE-Bench Pro 부분집합 / DeepSWE v1.1에서 비평가 없는 에이전트의 해결률을 각각 최대 12.4, 15.0, 8.9%p 올림.
-- [이질적 멀티태스크 강화학습을 위한 GPU 병렬 프레임워크](https://huggingface.co/papers/2606.03335)
-  GPU 병렬 Isaac Lab 벤치마크 Hebero를 공개함. 40개 이질적 조작(manipulation) 과제 전체에 대해 단일 정책을 함께 학습·평가할 수 있음. 과제별 병렬 복제 수를 늘리면 동일 wall-clock 예산에서 성공률이 올라감. 희소 보상과 적은 시연 상황을 위해 DGPO(Demonstration-Guided Policy Optimization)를 제안하고, 과제 진행도에 따라 behavior cloning 강도를 조절하는 IW-ABC를 도입함.
-- [AI 에이전트가 열린 결말의 과학적 발견을 할 수 있는가? Station에서의 증거](https://huggingface.co/papers/2610.08927)
-  여러 에이전트가 과학 생태계를 시뮬레이션하는 오픈월드 환경 Station에서 열린 결말 과제를 다룸. 중간 지표가 없어도 탐색을 계속하게 만드는 Supervisor 메커니즘과 주기적 Meta Reflection을 추가함. ICLR 구두 발표 논문 3편의 핵심 연구 질문만 주고 결과와 웹 접근은 막은 뒤 원 논문 발견을 얼마나 재발견하는지 측정함. Station은 평균 62.7%를 재발견했고 Codex Multiagent-v2는 15.4%, AI Scientist-v2는 14.4~20.6%에 그침.
-- [Mara Chain: 실패를 AI 시스템 자동 진화의 디딤돌로 다시 생각하기](https://huggingface.co/papers/2609.35855)
-  배포된 AI 시스템 최적화는 이제 모델 가중치보다 프롬프트·스킬·하네스·코드를 고치는 일임. 기존 propose-evaluate-select 방식은 기준 미달 후보를 버리는데, 버려진 후보에 이후 최적화에 중요한 정보가 많아 같은 실패 패턴을 반복하게 됨. Mara Chain은 거부된 후보를 버리지 않고 누적된 증거로 반복 개선함. 체인 깊이를 고정하고 Pareto 필터 Top-N 선택으로 후보 풀을 제한함. AppWorld 스킬·TerminalBench 2.1 하네스·MuSiQue 검색 파이프라인 최적화에서 더 적은 롤아웃으로 더 큰 성능 향상을 냄.
-- [SpecFold: 확산 언어모델의 추측 디코딩을 위해 다중 분기 중복을 접기](https://huggingface.co/papers/2610.04875)
-  확산 LLM(DLLM)은 블록 디노이징을 반복해 텍스트를 만들고, 다중 분기 추측 디코딩이 메인 분기와 드래프트 분기를 한 번의 forward로 함께 검증해 속도를 올림. 기존 기법이 디노이징 스텝 간 시간적 중복을 노린 반면, 이 논문은 검증 스텝 내부의 '다중 분기 계산 중복'을 찾아냄. 드래프트 분기가 부모 토큰 대부분을 물려받아 hidden state가 분기 간 매우 유사하다는 점을 이용함. 토큰 단위 residual gating과 folded attention·FFN으로 부모 계산을 재사용하고 Triton 커널로 구현함.
+- [MIRA: 텍스트-음악 생성을 사용자 의도에 맞추는 음악 의도 정제 에이전트](https://huggingface.co/papers/2610.10355)
+  텍스트-음악 시스템의 오디오 품질은 좋아졌지만, 결과가 사용자 의도와 맞는지는 평가로 드러나지 않음. 전역 text-audio 관련성 점수 하나는 불충분한 프롬프트에 담긴 암묵적 의도를 놓치고 악기 구성·구조·리듬·무드 전개 같은 개별 요구의 실패를 가림. 이 논문은 의도 정합을 '독립 검증 가능한 항목별 루브릭 충족'으로 정의하고, 음악 전문가가 큐레이션한 실제 플랫폼 요청 벤치마크 MuRA-Bench를 만듦. MIRA는 요청 의도를 루브릭으로 변환한 뒤, 블랙박스 생성기에 대해 제한된 예산 안에서 프롬프트 수정을 탐색함. 음악을 생성하고 루브릭으로 검증한 피드백으로 trajectory-aware 트리 탐색을 유도함.
+- [시뮬레이션을 통한 합성: 확장 가능한 에이전트-시스템 상호작용으로 일관된 엔터프라이즈 데이터 생성](https://huggingface.co/papers/2610.10549)
+  툴 호출 에이전트가 엔터프라이즈 AI의 핵심이 됐지만, 사내 시스템·데이터·DB 스키마에 걸린 사업상·법적 제약 때문에 대규모 학습과 평가가 어려움. 표 데이터 합성은 구조적 유효성과 스키마 확보에 막히고, 절차 기반 방식은 도메인마다 직접 작성하지 않으면 분포 충실도가 떨어짐. STS는 스키마 없이도 LLM 에이전트가 시뮬레이션된 엔터프라이즈 환경의 정책 강제 API에 연산을 실행해 데이터를 만드는 패러다임임. 유효성을 정의하는 환경 자체를 통해 생성하므로 구조적 유효성이 설계상 보장됨. Generalist Populator는 평균 marginal fidelity 0.88, 제약 충족률 100%를 달성함.
+- [부수적 정보가 진료 기록을 오염시키고 대규모 언어모델의 임상 추론을 방해함](https://huggingface.co/papers/2610.08585)
+  환자-임상의 대화 576건에서 프런티어 모델이 노트 35%에 잡담 대화를 끼워 넣었고, 품질 점수 변화는 5점 척도에서 최대 0.20점에 그쳐 잘 드러나지 않음. 프런티어 노트 3.7%에서는 모델이 잡담을 잘못 귀속하거나 임상적으로 사용함. 모의 상담 녹음 57건에서는 -10dB의 다른 환자 대화 배경음이 전사본 48.2%에 새어 들어갔고, 오픈웨이트 모델 4종이 만든 노트 5.3%에서 오염이 검출됨. 저자들은 임상 추론과 산만함의 '이중 인코딩 가설'을 제시하고, 임상 투입 전에 부수 정보 저항성을 평가해야 한다고 주장함.
+- [얼어붙은 모델, 진화하는 전문성: 멀티모달 의료 AI를 위한 모델 비의존적 배포 경험 학습](https://huggingface.co/papers/2610.09146)
+  LLM·VLM은 배포 후 보통 얼어붙어 있어 자기가 푼 사례에서 배우지 못함. 새 임상 근거와 갱신된 가이드라인이 진료를 바꾸는 의료에서는 특히 문제임. 파인튜닝은 가중치 접근과 추가 학습이 필요하고, 파라미터 없는 방법은 고정 검증셋에 과적합되거나 경험을 텍스트로만 저장해 시각 정보를 잃음. 이 프레임워크는 추론·도구 사용을 안내하는 Skill, 검증된 사실을 쌓는 Knowledge Memory, 시각 예시를 보관하고 검색된 사례를 현재 이미지와 연결하는 Multimodal Knowledge Base 세 가지 외부 전문성을 씀. 새 사례에서 도움이 되고 기존 성능을 떨어뜨리지 않을 때만 업데이트를 유지함.
+- [Skill Constellations: GitHub에서 에이전트 스킬의 공급망을 추적하기](https://huggingface.co/papers/2610.11169)
+  에이전트 스킬은 Claude Code나 Codex 같은 코딩 에이전트가 사용자 권한으로 실행하는 SKILL.md 지침과 스크립트임. 개발자들이 레포 간 복사로 공유하다 보니 레지스트리·버전·출처가 없는 소프트웨어 공급망이 됨. 저자들은 GitSkills 내 모든 SKILL.md의 git 이력으로 GitHub 전역 스킬 채택 2,193,119건을 담은 최초의 날짜별 복사 네트워크와 인터랙티브 뷰어를 만듦. 소수 레포가 거의 모든 복사의 출처인데 GitHub 스타로는 식별되지 않음. 복사본은 원본과 함께 거의 갱신되지 않아 원본 수정이 전파되지 않음. 상위 100개 레포를 리뷰하면 고위험 스킬 이후 채택의 14.9%를 막을 수 있음(스타 상위 100개는 0.5%).
 
 ## 🦉 GeekNews
 
-- [Python 3.15 정식 출시 - 지연 임포트, 불변 딕셔너리, UTF-8 기본 인코딩 도입](https://news.hada.io/topic?id=35085)
-  Python 3.15.0이 정식 출시됨. UTF-8을 기본 인코딩으로 쓰고, 불변 딕셔너리 frozendict와 고유 표식 값을 만드는 sentinel 내장 타입이 추가됨. 지연 임포트도 들어감.
-- [Deno 팀, Cloudflare 합류 - 런타임 개발은 1년 뒤 종료](https://news.hada.io/topic?id=35073)
-  Deno 팀 전체가 Cloudflare로 합류함. celld와 workerd를 결합해 Workers와 Durable Objects의 자체 호스팅을 쉽게 만드는 데 개발 역량을 집중함. Deno 런타임 자체 개발은 1년 뒤 종료됨.
-- [AI 시대에 SaaS 기업을 피벗하는 방법](https://news.hada.io/topic?id=35041)
-  AI 코딩 도구로 기능 개발과 복제가 싸지면서 '경쟁사 기능 + 몇 가지 추가' 전략만으로는 SaaS 경쟁력 유지가 어려워짐. 코드 자체가 더는 방어막이 아니라는 전제에서 피벗 전략을 짚음.
-- [tinyjs - JavaScript로 약 6MB 데스크톱 앱을 만드는 경량 프레임워크](https://news.hada.io/topic?id=35038)
-  프런트엔드와 백엔드를 모두 JavaScript로 쓰는 데스크톱 앱 프레임워크임. Electron·Node.js·Chromium을 앱에 포함하지 않아 배포 크기가 약 6MB로 줄어듦.
-- [5년 계획을 세우지 말고, 대신 이렇게 하라](https://news.hada.io/topic?id=35040)
-  5년 뒤 모습을 정하기보다 그때 선택할 수 있는 길을 넓혀야 함. 지금 가진 경험만으로 미래를 계획하면 기존 경력의 조금 다른 버전만 떠올리게 됨.
+- [REA Reverse - 무엇이든 리버스 엔지니어링하기](https://news.hada.io/topic?id=35105)
+  코딩 에이전트가 프로그램을 직접 검사하고 동작을 설명하게 해주는 도구임. 자연어로 질문하면 REA가 명령어·디컴파일 코드·호출 관계를 제공하고, 에이전트가 적용되는 분기와 계산 방식, 재구현 방법을 해석함. Chrome 공룡 게임에서 속도 증가 규칙을 찾아 같은 가속을 가진 작은 게임을 만들었고, Windows 계산기의 % 버튼 연산자별 분기를 복원해 200+10%=220, 200×10%=20을 재현함. 네이티브 실행 파일·라이브러리, JavaScript/Electron 앱까지 다룸. 설치는 npx rea-agents@latest setup임.
+- [코딩 에이전트는 왜 이렇게 멍청할까?](https://news.hada.io/topic?id=35104)
+  AI 지원 개발은 발전했지만 모델을 코드베이스와 시스템에 연결하는 에이전트가 작업 관리·위임·소통에서 여전히 병목임. 작업을 하위 과제로 나눠도 병렬 실행과 모델별 위임이 미흡해 간단한 작업까지 느리고 비싼 모델에 맡기게 됨. 읽기 어려운 계획, 자기 기능에 대한 무지, 사소한 질문으로 멈추는 실행 흐름이 개발자 시간을 계속 잡아먹음. 접근 금지 프롬프트나 반복 승인 대신 파일시스템·네트워크 경계를 강제하는 OS 수준 샌드박스가 기본이어야 함. 현재의 부족함을 대리인 문제로 보는 가설은 있지만 충분한 답은 아직 없음.
+- [Eve - 디렉터리 하나로 AI 에이전트를 정의하고 배포하는 Vercel 프레임워크](https://news.hada.io/topic?id=35140)
+  Markdown과 TypeScript 파일만으로 에이전트를 실행·배포하는 프레임워크임. 웹 개발의 Next.js처럼 파일 구조와 실행 인프라를 함께 제공함. instructions.md에 역할을 쓰면 최소 에이전트가 완성되고, skills/의 Markdown 지침은 관련 작업에서만 불려옴. tools/에 TypeScript 파일을 두면 파일명이 도구 이름이 되어 등록 코드 없이 호출됨. Vercel Workflows로 실행 단계를 저장해 중단·재시작에 대응하고, Drives로 샌드박스 실행 사이에도 작업 공간을 유지함. Slack·Discord·Teams·웹 채팅·API에 같은 에이전트를 연결할 수 있고 외부 서비스 인증은 Vercel Connect가 맡음.
+- [Bun, TypeScript를 네이티브 코드로 선행 컴파일하는 AOT 컴파일러 실험 공개](https://news.hada.io/topic?id=35124)
+  기존 bun build --compile은 JS 번들과 Bun 런타임을 단일 실행 파일로 묶고 --bytecode는 JavaScriptCore 바이트코드를 미리 만드는 방식인데, 새로 공개한 --compile --aot는 네이티브 코드 선행 컴파일을 지향하는 별도 실험임. TypeScript 타입 정보를 컴파일에 활용해 정적 검증과 코드 생성에 반영하고, 컴파일 시점에 확인 못 하는 값은 런타임에서 검증함. const port: number = '8080' 같은 오류는 빌드가 거부되고, as가 실제 형변환으로 동작해 (raw as number)+1에서 raw가 '5'면 6을 반환함. x! 역시 런타임 검사로 바뀜.
+- [Microsoft-Decision-1 - 선택지별 확률을 반환하는 저비용 의사결정 모델](https://news.hada.io/topic?id=35100)
+  분류, 모델 라우팅, 우선순위 지정, 검증, 에이전트 제어를 노린 모델임. 고정된 선택지마다 보정된 확률을 돌려줘서 애플리케이션이 자동 실행·결정 보류·사람 검토 요청 흐름을 구성할 수 있음. Qwen3.5-9B를 추가 학습해 한 번의 처리로 선택지를 채점하도록 설계함. 학습에 노출하지 않은 36개 벤치마크 147,137개 문항에서 평균 정확도 83.5%로 비교 모델 중 1위를 기록함. 중앙값 지연 85ms로 H2O-Lightning-4B v1.1보다 약 2.5배, GPT-6 Sol보다 약 35배 빠름. Microsoft Foundry와 OpenRouter에서 입력 100만 토큰당 0.042달러, 출력은 무료임.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-10-11](data/2026-10-11.md)
 - [2026-10-10](data/2026-10-10.md)
 - [2026-10-07](data/2026-10-07.md)
 - [2026-10-06](data/2026-10-06.md)
@@ -69,4 +70,3 @@
 - [2026-09-08](data/2026-09-08.md)
 - [2026-09-07](data/2026-09-07.md)
 - [2026-09-06](data/2026-09-06.md)
-- [2026-09-05](data/2026-09-05.md)
