@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-10-13
+> 마지막 업데이트: 2026-10-14
 
-# AI 뉴스 — 2026-10-13
+# AI 뉴스 — 2026-10-14
 
 ## 🔥 GitHub Trending (Python)
 
-- [open-webui/open-webui](https://github.com/open-webui/open-webui): Ollama·OpenAI API를 지원하는 셀프호스팅 AI 웹 인터페이스. 로컬 LLM을 챗봇 UI로 바로 쓸 수 있음.
-- [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code): Claude Code·Codex·VSCode 등 10여 개 코딩 하네스를 무료 토큰(13억+)으로 돌리는 도구. 터미널·IDE·브라우저·모바일 모두 지원함.
-- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio): 완전 로컬로 돌아가는 오픈소스 ElevenLabs 대안. 음성 복제·더빙·전사·오디오북 제작을 646개 언어로 지원함.
-- [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master): 문서나 주제를 네이티브 PowerPoint 덱으로 변환함. 도형·전환 효과·데이터 차트·발표자 노트 기반 음성 내레이션까지 생성하고 자체 템플릿도 쓸 수 있음.
-- [google/skills](https://github.com/google/skills): 구글이 공개한 자사 제품·기술용 Agent Skills 모음. 에이전트에 구글 스택 사용법을 바로 붙일 수 있음.
+- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio): 완전 로컬로 돌아가는 오픈소스 ElevenLabs 대안임. 음성 복제·보이스 디자인·영상 더빙·전사·오디오북 제작을 646개 언어로 지원함.
+- [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code): Claude Code·Codex·VSCode 등 10여 개 코딩 하네스를 무료 토큰(13억+)으로 돌리는 도구임. 터미널·IDE·브라우저·모바일 모두 지원함.
+- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo): 주제나 키워드 하나로 고화질 숏폼 영상을 자동 생성함. LLM과 자동화 워크플로를 엮어 대본·영상·자막까지 원클릭으로 뽑아줌.
+- [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master): 문서나 주제를 네이티브 PowerPoint 덱으로 변환함. 도형·전환 효과·데이터 차트는 물론 발표자 노트 기반 음성 내레이션까지 생성되고 자체 .pptx 템플릿도 쓸 수 있음.
+- [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR): Baidu가 공개한 OCR 모델임. 긴 문서를 한 번에 파싱하는 one-shot long-horizon 방식을 내세움.
 
 ## 📄 Hugging Face Papers
 
-- [DiffusionART: 디퓨전 모델을 위한 효율적·안정적·확장 가능한 강화학습](https://huggingface.co/papers/2610.12572)
-  디퓨전 모델 온라인 RL에서 Flow-GRPO 같은 역방향 기법은 credit assignment가 나빠 비효율적이고, DiffusionNFT 같은 순방향 기법은 EMA 튜닝 없이는 불안정함. NFT 계열 목적함수에 숨어 있던 순방향-역방향 일관성 힘을 밝히고, EMA가 off-policy 롤아웃이 아니라 복원을 통해 학습을 안정화한다는 점을 보임. 이를 바탕으로 DiffusionART를 제안함.
-- [S-Space: 멀티모달 언어모델 내부의 공간 작업공간 탐색](https://huggingface.co/papers/2610.13527)
-  MLLM이 공간 추론을 하는 내부 메커니즘을 밝힘. 객체 토큰 표현이 수평·수직·거리 축의 연속 좌표를 인코딩하는 선형 부분공간 S-Space를 발견했음. 특정 데이터나 프롬프트로 유도된 게 아니라 모델에 내재된 구조이며, 공간과 무관한 질문에서도 읽힘. S-Space가 MLLM의 내부 공간 작업공간 역할을 함.
-- [Reflex: 시각에 기반한 반응형 휴머노이드 제어](https://huggingface.co/papers/2610.12772)
-  사람은 날아오는 공을 받거나 떨어지는 컵을 잡는 반사 동작을 1초 안에 전신으로 해내지만 휴머노이드엔 여전히 어려움. 전신 제어 조율, 실시간 물체 동역학 반응, egocentric vision 기반 지각 접지라는 세 과제를 한번에 요구하는 '던진 상자 받기'를 대표 과제로 삼아 연구함. 기존 시스템은 일부만 다룸.
-- [SoftwareGym: 다양하게 합성한 소프트웨어 환경으로 컴퓨터 사용 에이전트 학습 확장](https://huggingface.co/papers/2610.12611)
-  컴퓨터 사용 에이전트(CUA) 학습에서 다양하고 믿을 만한 소프트웨어 환경을 대규모로 합성하는 게 병목임. 네이티브 앱 환경은 구축 비용이 크고 앱별 과적합 위험이 있으며, 브라우저 기반 환경은 상호작용 깊이가 얕음. SoftwareGym은 다양한 인터페이스·실행 가능한 기능·런타임 검증된 동작을 갖춘 GUI 소프트웨어 환경을 자동 합성하는 파이프라인임.
-- [EmbodiedCLBench: 자기진화 임바디드 에이전트의 지속학습 평가](https://huggingface.co/papers/2610.13021)
-  지속학습 연구가 대부분 비임바디드 환경에 머물러 있다는 공백을 메움. 임바디드 시뮬레이션에서 자기진화 에이전트의 지속학습 능력을 평가하는 첫 벤치마크임. 구성적 일반화를 핵심 원리로 삼아, 기초 과제를 먼저 학습한 뒤 습득한 스킬을 재조합해 처음 보는 복잡한 과제를 풀 수 있는지 측정함.
+- [GroundingPI: 시각 프리미티브로 물리 지능을 향하는 그라운딩 파운데이션 모델](https://huggingface.co/papers/2609.39601)
+  정밀한 그라운딩은 어떤 물체가 대상이고 어디 있는지를 잡아내야 하며, 복잡한 장면이나 아주 작은 물체에서도 closed-loop 제어에 쓸 만큼 빨라야 함. 기존 VLA·WAM은 범용 백본의 지각을 그대로 써서 이런 상황에 취약함. GroundingPI는 점과 박스를 공유 어휘의 양자화 좌표로 생성하는 4B 모델임. 34개 벤치마크·44개 베이스라인에서 평균 73.68%로 SOTA를 찍어 더 큰 GPT-6 Astra(71.54%)를 넘음. RoboTwin2.0에서는 OOD 4개 설정 모두에서 주요 백본을 최대 24.8% 앞섰고, RoboCasa-GR1에서는 데모 50%만 쓴 모델이 75%로 학습한 베이스라인을 능가함.
+- [Thinking Inertia: 하지 말라고 해도 계속 생각하는 LLM](https://huggingface.co/papers/2610.11765)
+  LLM에 'thinking mode'는 많이 연구됐지만 반대쪽인 'no-thinking'은 거의 안 다뤄졌음. 기존엔 thinking mode를 끄거나 긴 트레이스가 없는 걸로 대리 측정했는데, 모드를 꺼도 추론이 나오고 긴 트레이스에 군더더기만 있는 경우가 있어 신뢰할 수 없음. 응답을 pre-answer 트레이스와 최종 답으로 정규화해 3단계 지표로 평가함. 6개 모델·6개 개입을 실험한 결과, 명시적으로 생각을 막아도 추론이 사라지지 않는 'Thinking Inertia'가 나타나고 답 공간이 열릴수록 더 심해짐.
+- [AgentSWE: 코딩 에이전트가 당신이 실제로 원하는 에이전트를 만들 수 있나?](https://huggingface.co/papers/2610.13361)
+  코딩 에이전트에 '내 워크플로에 맞는 에이전트를 만들어줘'를 맡기는 일이 늘었지만, 결과물이 요구사항을 진짜로 충족하는지 검증하는 벤치마크가 없었음. AgentSWE는 생성·편집·최적화 3단계를 다루는 25개 과제로 구성되며, 시험이 아니라 '의뢰' 형태임. 빌더는 소수의 예시 케이스로 반복하고, 수용 평가는 제출물을 동결해 held-out 케이스로 채점함. 여러 모델·하네스를 평가한 결과 요구사항을 제대로 만족시킨 에이전트는 하나도 없었고, 보여준 것과 전달한 것 사이의 격차가 예외가 아닌 기본값이었음.
+- [장기 터미널 지능을 위한 에이전트 데이터 스케일링](https://huggingface.co/papers/2610.13166)
+  터미널 에이전트가 실제 전문 업무로 넘어가고 있지만, 짧은 트레이스로는 탐색으로 증거를 모아 판단하고 피드백에 따라 전략을 고치며 중간 결과를 최종 산출물로 바꾸는 과정을 담지 못함. 문제는 환경 합성이 핵심 작업을 미리 끝내버려 에이전트가 할 탐색·구현·검증을 없애버린다는 점임. TerminalHorizon은 실제 업무에서 출발해 독립 실행으로 누락된 핵심 작업을 찾아내고 그 증거로 환경을 재구성하는 완전 자동 데이터 합성 엔진임. 1.5K 과제 환경을 만들어 지도 미세조정에 씀.
+- [VIS-Ground: 컨텍스트 그라운딩을 적용한 비디오 인터랙티브 스토리텔링](https://huggingface.co/papers/2610.09326)
+  시청자가 영상 전개를 직접 조종하게 하면, 요청이 그라운딩 소스와 현재 렌더링된 영상 상태에 숨은 의존성을 갖는 문제가 생김. 이 의존성은 개별 입력에 명시되지 않고 소스·렌더 이력·새 의도를 함께 볼 때만 드러남. 이 연구는 컨텍스트 그라운딩을 '이질적 입력을 영상 생성용 실행 가능 제약 모델로 변환하는 과정'으로 정식화함. VIS-Ground는 구조화된 컨텍스트 추상화, 생성 제약 유도, 제약 기반 영상 생성 3단계로 이를 처리함.
 
 ## 🦉 GeekNews
 
 - [LLM의 능력에 대한 인식 격차가 커지고 있다](https://twitter.com/karpathy/status/2109361546505966046)
   LLM을 어설픈 챗봇으로만 경험하는 대중과, 대규모 작업을 실제로 맡기는 전문 사용자 사이에서 능력 인식 격차가 벌어지고 있음. 활용 분야와 시스템 구성에 따라 체감 성능이 크게 갈림.
-- [미안하지만, 여전히 직접 생각해야 합니다](https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/)
-  AI 에이전트에 코드 재작성을 맡겨도 호환성·지연시간·처리량·메모리 한도 같은 설계 판단은 사라지지 않음. 요구사항을 구체적으로 정의하지 않으면 결과물이 엉뚱해짐.
 - [컨텍스트가 새로운 코드다](https://www.infoq.com/presentations/context-as-code-devops-agents/)
   AI 에이전트에 주는 컨텍스트를 코드처럼 관리하고 생성→평가→배포→관찰 수명주기를 적용해야 함. 컨텍스트 품질은 문법 검사만으로 담보되지 않음.
-- [Qwen으로 나만의 의사결정 모델 만들기](https://nishtahir.com/build-your-own-decision-model/)
-  LLM 출력을 고정된 선택지 토큰으로 제한하면 단 한 번의 순전파로 답을 고르는 의사결정 모델을 만들 수 있음. 다만 선택지 밖 응답을 막아도 정답이 보장되는 건 아님.
-- [jevgrep — 코드의 동작을 질문해 관련 파일을 찾는 코딩 에이전트용 CLI](https://github.com/dzhng/jevgrep)
-  낯선 코드베이스에서 코딩 에이전트가 필요한 파일을 찾도록 돕는 검색 도구임. "인증을 어디서 검사해?", "재시도 동작을 검증하는 테스트는?" 같은 자연어 질문으로 탐색함.
+- [생각은 취미가 될 것이다](https://www.spinellis.gr/blog/20261008/?li261008)
+  AI가 오늘날 인지 노동의 대부분을 맡게 되면서, 인간의 사고가 경제적 목적에서 분리돼 여가 활동으로 바뀔 것으로 전망함.
+- [MCP Gateway — 기존 API를 MCP 도구로 통합하는 Uber의 플랫폼 설계](https://www.uber.com/in/en/blog/designing-mcp-gateway/)
+  Uber가 흩어져 있던 MCP 연동을 MCP Gateway로 통합함. 기존 API와 네이티브 MCP 서버를 일관된 방식으로 노출하며, 현재 800개 이상 서버와 5,000개 이상 도구를 운영함.
+- [Fable이 내 일자리를 빼앗았다](https://cendyne.dev/posts/2026-10-11-fable-took-my-jorb.html)
+  회사에 마지막으로 남은 엔지니어가 해고된 경험담임. AI가 일을 더 잘해서가 아니라 인건비보다 저렴했고, 경영진은 AI로 인수합병까지 버틸 수 있다고 판단했음.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-10-13](data/2026-10-13.md)
 - [2026-10-12](data/2026-10-12.md)
 - [2026-10-11](data/2026-10-11.md)
 - [2026-10-10](data/2026-10-10.md)
@@ -69,4 +70,3 @@
 - [2026-09-11](data/2026-09-11.md)
 - [2026-09-10](data/2026-09-10.md)
 - [2026-09-08](data/2026-09-08.md)
-- [2026-09-07](data/2026-09-07.md)
