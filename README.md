@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-10-14
+> 마지막 업데이트: 2026-10-15
 
-# AI 뉴스 — 2026-10-14
+# AI 뉴스 — 2026-10-15
 
 ## 🔥 GitHub Trending (Python)
 
-- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio): 완전 로컬로 돌아가는 오픈소스 ElevenLabs 대안임. 음성 복제·보이스 디자인·영상 더빙·전사·오디오북 제작을 646개 언어로 지원함.
-- [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code): Claude Code·Codex·VSCode 등 10여 개 코딩 하네스를 무료 토큰(13억+)으로 돌리는 도구임. 터미널·IDE·브라우저·모바일 모두 지원함.
-- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo): 주제나 키워드 하나로 고화질 숏폼 영상을 자동 생성함. LLM과 자동화 워크플로를 엮어 대본·영상·자막까지 원클릭으로 뽑아줌.
-- [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master): 문서나 주제를 네이티브 PowerPoint 덱으로 변환함. 도형·전환 효과·데이터 차트는 물론 발표자 노트 기반 음성 내레이션까지 생성되고 자체 .pptx 템플릿도 쓸 수 있음.
-- [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR): Baidu가 공개한 OCR 모델임. 긴 문서를 한 번에 파싱하는 one-shot long-horizon 방식을 내세움.
+- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio): 완전 로컬에서 돌아가는 오픈소스 ElevenLabs 대안임. 음성 복제, 보이스 디자인, 영상 더빙, 받아쓰기, 전사, 오디오북 제작을 646개 언어로 지원함.
+- [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills): AI 에이전트를 'AI 과학자'로 만들어주는 과학용 Agent Skills 라이브러리임. 검증된 스킬 177개와 과학 데이터베이스 100개 이상을 묶어 생물·화학·의학·신약개발을 커버하고, Cursor·Claude Code·Codex 등과 호환됨.
+- [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything): 모든 소프트웨어를 에이전트가 직접 다룰 수 있는 CLI 형태로 바꿔주는 프로젝트임. CLI-Hub에서 변환된 도구들을 모아 제공함.
+- [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi): AI 에이전트를 독립적으로 감사하는 도구임. 사람이 직접 또는 에이전트 스스로 실행해 '에이전트가 해야 할 일을 제대로 하고 있는지'를 120초 안에 판단함.
+- [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code): Claude Code, Codex, VSCode, Pi, OpenCode 등 11종 하네스를 무료 토큰 13억 개로 쓰게 해주는 도구임. 터미널·앱·IDE·휴대폰에 이어 브라우저 네이티브 세션까지 지원함.
 
 ## 📄 Hugging Face Papers
 
-- [GroundingPI: 시각 프리미티브로 물리 지능을 향하는 그라운딩 파운데이션 모델](https://huggingface.co/papers/2609.39601)
-  정밀한 그라운딩은 어떤 물체가 대상이고 어디 있는지를 잡아내야 하며, 복잡한 장면이나 아주 작은 물체에서도 closed-loop 제어에 쓸 만큼 빨라야 함. 기존 VLA·WAM은 범용 백본의 지각을 그대로 써서 이런 상황에 취약함. GroundingPI는 점과 박스를 공유 어휘의 양자화 좌표로 생성하는 4B 모델임. 34개 벤치마크·44개 베이스라인에서 평균 73.68%로 SOTA를 찍어 더 큰 GPT-6 Astra(71.54%)를 넘음. RoboTwin2.0에서는 OOD 4개 설정 모두에서 주요 백본을 최대 24.8% 앞섰고, RoboCasa-GR1에서는 데모 50%만 쓴 모델이 75%로 학습한 베이스라인을 능가함.
-- [Thinking Inertia: 하지 말라고 해도 계속 생각하는 LLM](https://huggingface.co/papers/2610.11765)
-  LLM에 'thinking mode'는 많이 연구됐지만 반대쪽인 'no-thinking'은 거의 안 다뤄졌음. 기존엔 thinking mode를 끄거나 긴 트레이스가 없는 걸로 대리 측정했는데, 모드를 꺼도 추론이 나오고 긴 트레이스에 군더더기만 있는 경우가 있어 신뢰할 수 없음. 응답을 pre-answer 트레이스와 최종 답으로 정규화해 3단계 지표로 평가함. 6개 모델·6개 개입을 실험한 결과, 명시적으로 생각을 막아도 추론이 사라지지 않는 'Thinking Inertia'가 나타나고 답 공간이 열릴수록 더 심해짐.
-- [AgentSWE: 코딩 에이전트가 당신이 실제로 원하는 에이전트를 만들 수 있나?](https://huggingface.co/papers/2610.13361)
-  코딩 에이전트에 '내 워크플로에 맞는 에이전트를 만들어줘'를 맡기는 일이 늘었지만, 결과물이 요구사항을 진짜로 충족하는지 검증하는 벤치마크가 없었음. AgentSWE는 생성·편집·최적화 3단계를 다루는 25개 과제로 구성되며, 시험이 아니라 '의뢰' 형태임. 빌더는 소수의 예시 케이스로 반복하고, 수용 평가는 제출물을 동결해 held-out 케이스로 채점함. 여러 모델·하네스를 평가한 결과 요구사항을 제대로 만족시킨 에이전트는 하나도 없었고, 보여준 것과 전달한 것 사이의 격차가 예외가 아닌 기본값이었음.
-- [장기 터미널 지능을 위한 에이전트 데이터 스케일링](https://huggingface.co/papers/2610.13166)
-  터미널 에이전트가 실제 전문 업무로 넘어가고 있지만, 짧은 트레이스로는 탐색으로 증거를 모아 판단하고 피드백에 따라 전략을 고치며 중간 결과를 최종 산출물로 바꾸는 과정을 담지 못함. 문제는 환경 합성이 핵심 작업을 미리 끝내버려 에이전트가 할 탐색·구현·검증을 없애버린다는 점임. TerminalHorizon은 실제 업무에서 출발해 독립 실행으로 누락된 핵심 작업을 찾아내고 그 증거로 환경을 재구성하는 완전 자동 데이터 합성 엔진임. 1.5K 과제 환경을 만들어 지도 미세조정에 씀.
-- [VIS-Ground: 컨텍스트 그라운딩을 적용한 비디오 인터랙티브 스토리텔링](https://huggingface.co/papers/2610.09326)
-  시청자가 영상 전개를 직접 조종하게 하면, 요청이 그라운딩 소스와 현재 렌더링된 영상 상태에 숨은 의존성을 갖는 문제가 생김. 이 의존성은 개별 입력에 명시되지 않고 소스·렌더 이력·새 의도를 함께 볼 때만 드러남. 이 연구는 컨텍스트 그라운딩을 '이질적 입력을 영상 생성용 실행 가능 제약 모델로 변환하는 과정'으로 정식화함. VIS-Ground는 구조화된 컨텍스트 추상화, 생성 제약 유도, 제약 기반 영상 생성 3단계로 이를 처리함.
+- [Jeva: 제1원리에서 출발한 System One 모델](https://huggingface.co/papers/2610.18773)
+  텍스트를 직렬화해 답을 예측하는 기존 방식이 의사결정 문제의 구조를 제대로 반영하지 못한다고 지적함. 답이 없는 상황과 후보 간 불확실성을 구분하는 null-aware, 선택지 순서에 영향받지 않는 순열 불변, 후보가 늘어도 출력 공간을 다시 정의하지 않는 확장성, 반복되는 선택지 연산을 재사용하는 캐시 가능성 네 가지를 동시에 만족하는 decision-native 아키텍처 Jeva를 제안함. 공유 인코더가 요청과 각 선택지를 따로 표현하고, 작은 decision stack이 요청 상태만 갱신함.
+- [Agent-Reflex: 언어 에이전트에게 성찰적 행동을 가르치기](https://huggingface.co/papers/2610.17953)
+  실제 배포 환경에서는 MCP 도구가 잡음 섞인 응답을 주고 사용자도 중간에 개입하는데, 기존 방법은 성찰 학습과 실패 복구 감독이 부족함. Agent-Reflex는 3단계로 구성됨. 환경에 도구 피드백 교란을 주입해 성공·실패 쌍을 캐내고 재사용 가능한 성찰 메타스킬을 뽑는 RSD, 그 스킬을 자기성찰 감독 신호로 바꾸는 ReSFT를 거쳐 능동적 성찰을 학습시킴.
+- [VideoJev: 영상 이해와 상호작용을 위한 System One 모델](https://huggingface.co/papers/2610.18615)
+  영상 이해와 상호작용을 구조화된 의사결정 과제로 다룬 모델 계열임. 사전학습된 멀티모달 LLM의 자기회귀 디코딩을 시간 구간과 텍스트 선택지를 함께 점수화하는 공유 헤드로 교체해, 시간 그라운딩과 객관식 영상 QA를 하나로 통합함. 같은 영상 이력에 대한 후속 질의에서 시각 연산을 캐시로 재사용해 에이전트가 바로 쓸 수 있는 빠른 결정을 냄.
+- [Urbex: 도시 규모 3D 장면을 위한 에이전트형 공간 그라운딩](https://huggingface.co/papers/2610.18356)
+  도시 규모 3D 그라운딩을 후보 랭킹이 아니라 능동적 공간 탐색으로 바꿔 접근함. 장면을 상호작용 가능한 멀티뷰 환경으로 표현해 VLM 에이전트가 랜드마크를 질의하고 국소 영역을 확대하고 사각 시점을 렌더링한 뒤 경계 상자를 확정함. CityRefer에서 강화학습으로 도구 사용 정책을 학습해 Hit@1·IoU 최고 성능을 내고, 정답 상자 없이도 동작하며 기존 최강 랭킹 기법보다 훨씬 빠름.
+- [GreenWAM: 로보틱스를 위한 월드 파운데이션 모델](https://huggingface.co/papers/2610.18774)
+  로봇은 행동이 장면을 어떻게 바꿀지 예측하는 월드 모델과 행동을 고르는 정책이 모두 필요한데, 보통 둘 중 하나만 평가됨. GreenWAM은 양팔 로봇부터 손재주 휴머노이드까지 20개 로봇 패밀리를 공통 관절 좌표로 기술하는 공유 액션 공간, 시각·행동조건·월드액션 모드 동시 학습, 생성기에서 액션 전문가를 분리하는 정책 구성으로 두 역할을 함께 수행함. WorldArena 1.0에서 궤적·깊이·3D 정확도 최상위를 기록함.
 
 ## 🦉 GeekNews
 
-- [LLM의 능력에 대한 인식 격차가 커지고 있다](https://twitter.com/karpathy/status/2109361546505966046)
-  LLM을 어설픈 챗봇으로만 경험하는 대중과, 대규모 작업을 실제로 맡기는 전문 사용자 사이에서 능력 인식 격차가 벌어지고 있음. 활용 분야와 시스템 구성에 따라 체감 성능이 크게 갈림.
-- [컨텍스트가 새로운 코드다](https://www.infoq.com/presentations/context-as-code-devops-agents/)
-  AI 에이전트에 주는 컨텍스트를 코드처럼 관리하고 생성→평가→배포→관찰 수명주기를 적용해야 함. 컨텍스트 품질은 문법 검사만으로 담보되지 않음.
-- [생각은 취미가 될 것이다](https://www.spinellis.gr/blog/20261008/?li261008)
-  AI가 오늘날 인지 노동의 대부분을 맡게 되면서, 인간의 사고가 경제적 목적에서 분리돼 여가 활동으로 바뀔 것으로 전망함.
-- [MCP Gateway — 기존 API를 MCP 도구로 통합하는 Uber의 플랫폼 설계](https://www.uber.com/in/en/blog/designing-mcp-gateway/)
-  Uber가 흩어져 있던 MCP 연동을 MCP Gateway로 통합함. 기존 API와 네이티브 MCP 서버를 일관된 방식으로 노출하며, 현재 800개 이상 서버와 5,000개 이상 도구를 운영함.
-- [Fable이 내 일자리를 빼앗았다](https://cendyne.dev/posts/2026-10-11-fable-took-my-jorb.html)
-  회사에 마지막으로 남은 엔지니어가 해고된 경험담임. AI가 일을 더 잘해서가 아니라 인건비보다 저렴했고, 경영진은 AI로 인수합병까지 버틸 수 있다고 판단했음.
+- [Rebalancer - 복잡한 제약 조건에 맞춰 작업과 자원을 배치하는 Meta의 최적화 도구](https://github.com/facebook/rebalancer)
+  서버에 작업을 배치하거나 샤드를 분산할 때 용량 제한, 부하 균형, 장애 대비 같은 조건을 함께 고려해 배치안을 계산해줌. 복잡한 수학식을 직접 세우는 대신 25개 이상의 미리 정의된 제약 조건을 조합해 쓰는 방식임.
+- [AI 코딩이 그렇게 뛰어나다면, 새롭고 좋은 소프트웨어는 다 어디에 있나?](https://www.natemeyvis.com/where-is-all-the-new-good-software/)
+  AI 코딩이 뛰어난데도 새롭고 좋은 소프트웨어가 눈에 띄게 늘지 않는 이유를 따져봄. 성과가 기존 제품 개선에 흡수됐거나, 비공개 내부 도구로만 쌓였거나, 조직 병목이 막고 있다는 등 9가지 가설을 제시함.
+- [Janas - SSD를 활용해 RAM보다 큰 MoE 언어 모델을 실행하는 추론 엔진](https://github.com/prabanta-dev/janas)
+  RAM에 다 들어가지 않는 MoE 모델을 일반 PC에서 돌리는 로컬 추론 엔진임. 토큰마다 필요한 전문가 가중치만 NVMe SSD에서 읽어 쓰는 구조라 메모리 한계를 우회함.
+- [AesCode - 이미지의 디자인을 참고해 HTML/CSS를 생성하는 AI 모델](https://github.com/microsoft/AesCode)
+  슬라이드, 포스터, 대시보드를 수정 가능한 HTML/CSS로 만들어주는 Microsoft의 모델임. 같은 프롬프트로 생성한 참고 이미지에서 레이아웃과 스타일을 가져와 코드 품질과 미적 완성도를 함께 끌어올림. 같은 연구가 HuggingFace Papers 상위에도 올라옴.
+- [AI 코딩 에이전트(Claude Code·Codex·Gemini CLI) 세팅이 실패하는 15가지 패턴과 해결법](https://adrianstudio3.hashnode.dev/15-ways-ai-coding-agents-fail-in-real-repos-and-the-guardrails-that-fix-them)
+  코딩 에이전트를 몇 주 쓰면 '일은 많이 했는데 반영된 건 없는' 상태가 되는데, 원인은 대부분 모델 성능이 아니라 운영 설정임. 실제 레포에서 반복되는 실패 15가지와 이를 막는 가드레일을 정리함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-10-14](data/2026-10-14.md)
 - [2026-10-13](data/2026-10-13.md)
 - [2026-10-12](data/2026-10-12.md)
 - [2026-10-11](data/2026-10-11.md)
@@ -69,4 +70,3 @@
 - [2026-09-12](data/2026-09-12.md)
 - [2026-09-11](data/2026-09-11.md)
 - [2026-09-10](data/2026-09-10.md)
-- [2026-09-08](data/2026-09-08.md)
