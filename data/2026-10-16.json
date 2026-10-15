@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-16",
+  "github_trending": [
+    {
+      "name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "완전 로컬에서 돌아가는 오픈소스 ElevenLabs 대안임. 음성 클로닝, 음성 디자인, 영상 더빙, 받아쓰기, 전사, 오디오북 제작을 646개 언어로 지원함. 오늘 3,027스타 늘며 1위임.",
+      "description_en": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
+    },
+    {
+      "name": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "어떤 AI 에이전트든 'AI 과학자'로 바꿔주는 과학용 Agent Skills 라이브러리임. 검증된 스킬 177개와 생물·화학·의학·신약개발 DB 100개 이상을 묶음. Cursor, Claude Code, Codex 등과 호환됨.",
+      "description_en": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists. 177 validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery."
+    },
+    {
+      "name": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Anthropic이 직접 관리하는 고품질 Claude Code 플러그인 공식 디렉터리임. 검증된 플러그인만 모아둔 저장소임.",
+      "description_en": "Official, Anthropic-managed directory of high quality Claude Code Plugins."
+    },
+    {
+      "name": "ahujasid/mcp-for-blender",
+      "url": "https://github.com/ahujasid/mcp-for-blender",
+      "description": "원하는 LLM으로 Blender 3D를 조작하는 커뮤니티 플러그인임. MCP로 모델링 작업을 자연어로 지시할 수 있음. Blender 재단 공식은 아님.",
+      "description_en": "Community plugin to control Blender 3D with any LLM of your choice. Not affiliated with the official Blender Foundation."
+    },
+    {
+      "name": "lightseekorg/tokenspeed",
+      "url": "https://github.com/lightseekorg/tokenspeed",
+      "description": "'빛의 속도'를 목표로 한 LLM 추론 엔진임. 토큰 생성 속도 극대화에 초점을 맞춘 신규 프로젝트임.",
+      "description_en": "TokenSpeed is a speed-of-light LLM inference engine."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "Any Time, Any Space: 에이전틱 영상 생성을 위한 월드-스테이트 중심 프레임워크",
+      "title_en": "Any Time, Any Space: A World-State-Centric Framework for Agentic Video Generation",
+      "url": "https://huggingface.co/papers/2610.20571",
+      "summary": "장편 영상을 에이전트로 생성할 때 비연속 샷끼리 공간·시간 일관성이 깨지는 문제를 다룸. 각본을 위치/카메라/사건 시각이 명시된 샷 요청으로 컴파일하고, 정적 기하 구조를 모은 scene memory와 시간 인덱스가 붙은 event memory에서 근거를 검색해 생성함. 생성 후에는 클립을 재구성해 등록하며, 검증을 통과한 관측만 메모리에 반영함.",
+      "summary_en": "Long-form agentic video generation must keep nonconsecutive shots spatially and temporally consistent. ATAS compiles a screenplay into shot requests with explicit location, camera, and event-time references, retrieves evidence from a scene memory of static geometry and an event memory of dynamic observations, then reconstructs and registers each clip, updating memory only when review and state checks accept the observation."
+    },
+    {
+      "title": "Player-1: 합성 경험으로 게임 플레이를 배우는 법",
+      "title_en": "Player-1: Learning to Play from Synthetic Experience",
+      "url": "https://huggingface.co/papers/2610.20584",
+      "summary": "컴퓨터 유즈 에이전트는 화면을 읽고 키보드·마우스를 쓰는 데는 강하지만, 시각적으로 복잡하고 메커니즘이 다양한 게임은 여전히 어려움. Player-1은 데모 데이터에 의존하지 않고 합성 경험으로 게임 조작을 학습하는 포스트트레이닝 프레임워크임. 상대 포인터 이동, 지속 입력, 복합 동작으로 액션 공간을 확장하고 큐레이션된 6,044건으로 지도 초기화함.",
+      "summary_en": "Computer-use agents handle screens and input well, but visually rich games with diverse mechanics remain hard. Player-1 is a post-training framework that learns game control beyond demonstrations through synthetic experience, extending the action space with relative pointer motion, sustained inputs and composite actions, with supervised initialization on 6,044 curated trajectories."
+    },
+    {
+      "title": "Doc2Harness: 코딩 에이전트의 롱-호라이즌 하네스 엔지니어링 벤치마크",
+      "title_en": "Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents",
+      "url": "https://huggingface.co/papers/2610.20344",
+      "summary": "에이전트 성능은 모델만큼 모델을 감싼 하네스가 좌우하는데, 기존 벤치마크는 하네스를 고정해두고 성능만 재서 하네스 엔지니어링 자체를 평가하지 못함. Doc2Harness는 2단계 구조로, 1단계에서 인터페이스만 있는 계약 스켈레톤과 프런티어 하네스 12종의 동작을 정리한 문서를 주고 컨테이너 안에서 하네스를 직접 만들게 하고, 2단계에서 그 하네스를 동결해 별도 컨테이너에서 실행함.",
+      "summary_en": "How well LLM agents perform depends as much on the harness as the model, yet existing benchmarks fix the harness. Doc2Harness is a two-stage benchmark: a build model receives an interface-only contract skeleton plus a development document consolidating behavior across twelve frontier harnesses and constructs a complete harness in an isolated container; the frozen candidate then runs in separate containers."
+    },
+    {
+      "title": "방법은 많아졌는데 에이전트는 나아졌나? 에이전틱 강화학습 자기증류의 현실 점검",
+      "title_en": "More Methods, Better Agents? A Reality Check on Self-Distillation in Agentic Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2610.19789",
+      "summary": "에이전틱 RL 자기증류 기법이 쏟아지는데, 기존 평가는 실험 조건이 다른 공개 베이스라인 점수를 재활용하고 동시대 기법 간 직접 비교나 학습 안정성·연산 비용 검토가 부족함. 저자들은 대표 기법 10종을 GRPO와 함께 ALFWorld·ScienceWorld·Search-QA·WebShop에서 모델 크기 3종으로 비교함. 총 132회 학습, H800 GPU 12,124.4시간 규모임.",
+      "summary_en": "Self-distillation in agentic RL has produced many methods, but evaluations reuse published baselines under differing conditions with little attention to stability and cost. The authors compare ten representative methods against GRPO on ALFWorld, ScienceWorld, Search-QA and WebShop across three model sizes — 132 training runs totaling 12,124.4 H800 GPU-hours."
+    },
+    {
+      "title": "비평 기반 온-폴리시 증류로 신뢰할 수 있는 지도 신호 복원하기",
+      "title_en": "Recovering Reliable Supervision via Critique-Guided On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2610.20572",
+      "summary": "온-폴리시 증류는 교사가 학생이 쓴 어떤 접두사에서도 정답에 도달할 수 있다고 가정하지만, 틀린 롤아웃에서는 교사가 오류를 알아보면서도 학생 실수를 따라가며 이 가정이 깨짐. CriticOPD는 교사가 틀린 롤아웃을 비평해 학생이 오류 지점부터 다시 쓰게 하고, 비평을 특권 정보로 포함한 출력을 교사가 채점하되 학생은 비평 없는 수정본으로 학습함. Qwen3 학생 2종·수학 추론 벤치마크 6종에서 개선됨.",
+      "summary_en": "On-policy distillation assumes the teacher can reach a correct answer from any student prefix, but this recoverability fails on incorrect rollouts where the teacher follows student errors despite recognizing them. CriticOPD has the teacher critique an incorrect rollout so the student rewrites from the error; the output including the critique as privileged information is scored by the teacher while the student trains on the critique-free revision. Gains on two Qwen3 students and six math reasoning benchmarks."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "동네 치과의 AX 전환기",
+      "title_en": "How a neighborhood dental clinic went through its own AI transformation",
+      "url": "https://news.hada.io/topic?id=35381",
+      "summary": "생물학 전공 치과 원장이 AI 코딩 에이전트와 로컬 AI로 병원 업무를 직접 자동화한 사례임. 네트워크 공사비가 비싸서 랜선까지 직접 찍고 스위치를 깔았다고 함. 비개발자가 현장 업무를 어디까지 자동화할 수 있는지 보여주는 기록임.",
+      "summary_en": "A dentist with a biology background automated clinic operations himself using AI coding agents and local AI — even wiring the network by hand because contractor quotes were too high. A record of how far a non-developer can push on-site automation."
+    },
+    {
+      "title": "AI 코딩이 그렇게 뛰어나다면, 새롭고 좋은 소프트웨어는 다 어디에 있나?",
+      "title_en": "If AI coding is so good, where is all the new good software?",
+      "url": "https://news.hada.io/topic?id=35319",
+      "summary": "AI 코딩이 뛰어난데도 새롭고 좋은 소프트웨어가 눈에 띄지 않는 이유로 9가지 가설을 제시함. 발전이 신제품 등장보다 기존 소프트웨어의 버그 감소·성능 향상·기능 추가로 나타나거나, 비공개 사내 도구로 숨거나, 조직 병목에 막힐 수 있다고 봄. 새 도구를 자주 쓰지 않는 사람에게는 변화가 잘 안 보인다는 점도 지적함.",
+      "summary_en": "Nine hypotheses for why visibly new, good software hasn't multiplied despite strong AI coding: progress may show up as fewer bugs and better performance in existing software, hide inside private internal tools, or stall on organizational bottlenecks — and people who rarely adopt new tools simply don't see the change."
+    },
+    {
+      "title": "게임 개발용 AI 하네스를 설계하는 방법",
+      "title_en": "How to design an AI harness for game development",
+      "url": "https://news.hada.io/topic?id=35355",
+      "summary": "게임에서 LLM을 제대로 쓰려면 코드뿐 아니라 게임 상태, 데이터, 실행 결과까지 에이전트가 읽고 조작할 수 있어야 함. 결정론적 상태 재현과 저장/불러오기를 개발 초기부터 설계하면 에이전트가 같은 조건에서 변경을 반복 검증할 수 있음. 단일 객체 타입과 커맨드 패턴으로 상태 변경을 구조화하고 데이터를 외부로 분리하면 재컴파일 없이 수치를 시험할 수 있음.",
+      "summary_en": "To use LLMs well in games, agents need to read and manipulate not just code but game state, data and run results. Designing deterministic state reproduction and save/load early lets agents re-verify changes under identical conditions; a single object type plus the command pattern and externalized data allow tuning values without recompiling."
+    },
+    {
+      "title": "내가 셀프호스팅하는 것들 — N100 미니 PC로 서비스 28개 운영하기",
+      "title_en": "What I self-host: running 28 services on an N100 mini PC",
+      "url": "https://news.hada.io/topic?id=35376",
+      "summary": "스트리밍 비용과 끝없는 추천·자동재생을 피해 Jellyfin으로 옮긴 뒤, 1년 반에 걸쳐 사진·음악·재무 관리까지 셀프호스팅을 확장한 개인 운영기임. 라우터 VPN 서버 외에는 아무 서비스도 인터넷에 직접 공개하지 않고, 되도록 네이티브로 돌리고 복잡한 것만 Podman으로 컨테이너화함. Intel N100 + RAM 16GB 미니 PC에서 네이티브 17개를 포함해 총 28개를 운영함.",
+      "summary_en": "After switching to Jellyfin to escape streaming costs and endless recommendations, the author expanded self-hosting over 18 months to photos, music and finances. Nothing but the router's VPN server is exposed to the internet; services run natively where possible with only complex ones in Podman — 28 services total (17 native) on an Intel N100 mini PC with 16GB RAM."
+    },
+    {
+      "title": "즐거움을 위한 프로그래밍",
+      "title_en": "Programming for fun",
+      "url": "https://news.hada.io/topic?id=35341",
+      "summary": "업무나 돈, 외부 요구가 아니라 코딩 자체의 즐거움으로 만드는 활동을 다룸. 핵심 기준은 내적 동기와 외부 압력의 차이임. 부담 없는 탐색이 직관을 키우고 내적 동기와 다시 연결시켜 번아웃을 예방한다고 봄. 공개 탐색, 시스템 깊이 파기, 창작, 개인 문제 해결, 언어 탐험 등 호기심만으로 시작할 수 있는 여러 방식을 제시함.",
+      "summary_en": "On building things for the joy of coding rather than for work, money or outside demands — the dividing line being intrinsic motivation versus external pressure. Low-stakes exploration sharpens intuition and reconnects you with intrinsic motivation, preventing burnout; suggested modes include public exploration, digging deep into systems, creating, solving personal problems and exploring languages."
+    }
+  ]
+}
