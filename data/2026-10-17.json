@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-17",
+  "github_trending": [
+    {
+      "name": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Anthropic이 직접 관리하는 고품질 Claude Code 플러그인 공식 디렉터리임. 오늘 1,552스타 늘며 트렌딩 1위로 올라옴.",
+      "description_en": "Official, Anthropic-managed directory of high quality Claude Code Plugins."
+    },
+    {
+      "name": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "어떤 AI 에이전트든 'AI 과학자'로 바꿔주는 과학용 Agent Skills 라이브러리임. 검증된 스킬 177개와 생물·화학·의학·신약개발 DB 100개 이상을 묶음. Cursor, Claude Code, Codex, Antigravity 등 열린 Agent Skills 표준과 호환됨.",
+      "description_en": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery."
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "모든 소프트웨어를 '에이전트 네이티브'로 만드는 걸 목표로 하는 프로젝트임. GUI 전용 도구에도 CLI 인터페이스를 붙여 에이전트가 직접 조작하게 함. CLI-Hub(clianything.cc)에서 모아 제공함.",
+      "description_en": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
+    },
+    {
+      "name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "완전 로컬에서 돌아가는 오픈소스 ElevenLabs 대안임. 음성 클로닝, 음성 디자인, 영상 더빙, 받아쓰기, 전사, 오디오북 제작을 646개 언어로 지원함. 이틀 연속 상위권 유지 중임.",
+      "description_en": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
+    },
+    {
+      "name": "MadsLorentzen/ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "description": "Claude Code 위에 올린 구직 자동화 프레임워크로, 내 컴퓨터에서 돌아감. 공고 평가, 이력서 맞춤 수정, 커버레터 작성, 면접 준비까지 처리함. 포크해서 각자 고쳐 쓰는 걸 전제로 설계됨.",
+      "description_en": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "OmniCompass: 옴니모달 영상 그라운딩·이해를 위한 종합 벤치마크",
+      "title_en": "OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding",
+      "url": "https://huggingface.co/papers/2610.18829",
+      "summary": "기존 영상 이해 벤치마크는 평가 차원을 일부만 다뤄 옴니모달 능력을 체계적으로 진단하지 못함. OmniCompass는 두 트랙으로 나뉘며, OmniCompass-VL은 시각 증거가 필요한 과제로 VLM을, OmniCompass-AV는 오디오·영상을 함께 봐야 하는 과제로 옴니모달 모델을 평가함. 각 트랙은 시간 그라운딩(TG), 공간 그라운딩(SG), QA 세 과제로 '언제 나오는지·어디 있는지·무슨 일이 일어나는지'를 측정함.",
+      "summary_en": "Existing video understanding benchmarks cover only part of the evaluation dimensions. OmniCompass defines two tracks: OmniCompass-VL assesses vision-language models on tasks requiring visual evidence, while OmniCompass-AV assesses omni-modal models on tasks requiring joint audio-visual evidence. Each track has temporal grounding, spatial grounding and QA — assessing when a target appears, where it is, and what happens."
+    },
+    {
+      "title": "Waypoint-OPD: 게이팅된 온-폴리시 증류로 RL이 만든 정책 변화를 전이하기",
+      "title_en": "Waypoint-OPD: Transferring RL-Induced Policy Shifts via Gated On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2610.21601",
+      "summary": "정책 변화 증류는 교사의 RL 전후 로그확률 차이를 학생 궤적의 지도 신호로 재활용함. 그런데 이 끝점 변화만 보면 교사 학습 도중 행동 선호가 일관되게 변했는지 알 수 없고, 초기와 후기 변화가 서로 강화됐든 상쇄됐든 같은 끝점이 나올 수 있음. Waypoint-OPD는 같은 RL 런의 중간 체크포인트로 초기·후기 변화 방향이 일치하는지 비교해 끝점 변화를 게이팅함.",
+      "summary_en": "Policy-shift distillation reuses the difference between a teacher's log probabilities before and after RL as supervision, but the endpoint shift cannot reveal whether local action preferences evolved consistently — early and late shifts that reinforce or partially cancel each other yield the same endpoint. Waypoint-OPD uses an intermediate teacher checkpoint from the same RL run to compare early and late shifts and gates the endpoint shift by their directional agreement."
+    },
+    {
+      "title": "OpenGCUA: 범용 컴퓨터 유즈를 위한 완전 오픈 스택",
+      "title_en": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
+      "url": "https://huggingface.co/papers/2610.22200",
+      "summary": "컴퓨터 유즈가 GUI 조작만이 아니라 시각·프로그래밍 인터페이스를 함께 쓰는 쪽으로 넓어지는 전환점에 왔음. 모델이 어떻게 관찰·행동·작업 정리를 할지 스스로 고르는 시스템을 범용 컴퓨터 유즈 에이전트(GCUA)로 정의함. GPT-6 Astra 같은 프런티어 구현은 대부분 비공개라 설계 연구가 어려워, 전체 스택을 커뮤니티와 함께 공개하는 프로젝트임. 코드 실행이 핵심 설계로, 중간 결과가 다음 동작을 결정하게 함.",
+      "summary_en": "Computer use is expanding from GUI-only interaction to systems working across visual and programmatic interfaces. The authors define a generalist computer-use agent as one where the model chooses how to observe, act and organize work. Since frontier implementations like GPT-6 Astra's remain closed, OpenGCUA opens the full stack with the community; code execution is central, letting intermediate results determine subsequent operations."
+    },
+    {
+      "title": "FDE-Gym: AI 전달의 마지막 1마일",
+      "title_en": "FDE-Gym: The Last Mile of AI Delivery",
+      "url": "https://huggingface.co/papers/2610.22350",
+      "summary": "기존 에이전트 벤치마크는 이슈 리포트나 티켓으로 잘 정의된 과제를 다루지만, 실제 고객 전달은 다름. 포워드 디플로이드 엔지니어(FDE)는 모호한 요구사항을 명확히 하고 살아있는 시스템에서 일하며 말로 안 된 제약을 찾아내야 함. FDE-Gym은 18개 업종 20개 고객 시나리오에서 뽑은 종단간 전달 과제 95개로 구성되며, 업계 전문가가 실제 프로젝트를 각색함. 고객 지표를 얼마나 개선했는지를 0~1로 정규화해 채점함.",
+      "summary_en": "Existing agent benchmarks evaluate well-specified tasks, but real customer delivery requires clarifying ambiguous requirements, working in live systems and uncovering unstated constraints. FDE-Gym has 95 end-to-end delivery tasks from 20 customer scenarios across 18 sectors, adapted by industry experts, with scripted stakeholders and modifiable systems; deliveries are scored by improvement to the customer's own success metric, normalized between 0 and 1."
+    },
+    {
+      "title": "RoTA-Bench: 상호작용형 투영 정렬로 3D 공간 추론 평가하기",
+      "title_en": "RoTA-Bench: Evaluating 3D Spatial Reasoning through Interactive Projection Alignment",
+      "url": "https://huggingface.co/papers/2610.17665",
+      "summary": "비전-언어 모델이 2D 관측을 정확한 행동으로 이어지는 3D 이해로 바꿀 수 있는지 물음. 목표 실루엣을 주고 회전된 물체를 보여준 뒤, 제한된 행동 예산 안에서 회전을 연속 선택해 목표 투영을 복원하게 함. 2D 아이콘에서 실루엣 보존 3D 물체를 자동 생성하고 역방향 초기화로 풀 수 있음을 보장해 과제 674개와 100개 테스트셋을 만듦. GPT-5.6-Sol은 17%만 성공해 사람과 격차가 큼.",
+      "summary_en": "Can vision-language models turn 2D observations into 3D understanding that supports precise action? Given a target silhouette, a model observes a rotated object and chooses successive rotations to recover the target projection within a limited action budget. An automated pipeline builds silhouette-preserving 3D objects from 2D icons with reversible initialization guaranteeing solvability — 674 tasks and a 100-task test set. A substantial human-model gap persists: GPT-5.6-Sol succeeds on only 17%."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "동네 치과의 AX 전환기",
+      "title_en": "How a neighborhood dental clinic went through its own AI transformation",
+      "url": "https://news.hada.io/topic?id=35381",
+      "summary": "생물학 전공 치과 원장이 AI 코딩 에이전트와 로컬 AI로 병원 업무를 직접 자동화한 사례임. 네트워크 공사비가 너무 비싸서 랜선까지 직접 찍고 스위치를 깔았다고 함. 어제보다 추천이 48점으로 더 올라 여전히 최상위임. 비개발자가 현장 업무를 어디까지 자동화할 수 있는지 보여주는 기록임.",
+      "summary_en": "A dentist with a biology background automated clinic operations himself using AI coding agents and local AI — even wiring the network by hand because contractor quotes were too high. Still the top post, now at 48 points. A record of how far a non-developer can push on-site automation."
+    },
+    {
+      "title": "내가 셀프호스팅하는 것들 — N100 미니 PC로 서비스 28개 운영하기",
+      "title_en": "What I self-host: running 28 services on an N100 mini PC",
+      "url": "https://news.hada.io/topic?id=35376",
+      "summary": "스트리밍 비용과 끝없는 추천·자동재생을 피해 Jellyfin으로 옮긴 뒤, 1년 반에 걸쳐 사진·음악·재무 관리까지 셀프호스팅을 확장한 개인 운영기임. 라우터 VPN 서버 외에는 아무 서비스도 인터넷에 직접 공개하지 않음. 되도록 네이티브로 돌리고 복잡한 것만 Podman으로 컨테이너화함. Intel N100 + RAM 16GB 미니 PC에서 네이티브 17개 포함 총 28개를 운영함.",
+      "summary_en": "After switching to Jellyfin to escape streaming costs and endless recommendations, the author expanded self-hosting over 18 months to photos, music and finances. Nothing but the router's VPN server is exposed to the internet; services run natively where possible with only complex ones in Podman — 28 services total (17 native) on an Intel N100 mini PC with 16GB RAM."
+    },
+    {
+      "title": "월간 소셜 조회수 0에서 1억 회까지 늘리는 3단계 전략",
+      "title_en": "A three-stage strategy for going from 0 to 100M monthly social views",
+      "url": "https://news.hada.io/topic?id=35447",
+      "summary": "초기에는 조회수보다 제품에 관심 있는 잠재 고객을 모으는 게 중요함. 제품과 무관한 바이럴 콘텐츠로 늘린 팔로워는 이후 제품 콘텐츠에 반응하지 않아 장기 성장을 해칠 수 있음. 월 100만 조회수까지는 창업자 중심 콘텐츠로 시작해 매일 올리며 반응 좋은 주제를 찾고, 제품 업데이트를 주 1~2회 콘텐츠로 만듦. 100만~1,000만 단계에서는 검증된 채널에 집중 투자함.",
+      "summary_en": "Early on, gathering prospects who care about the product matters more than raw views — followers won via product-unrelated viral content won't engage with product posts later and can hurt long-term growth. Up to 1M monthly views, start with founder-led content, post daily to find topics that land, and ship product updates as content once or twice a week; from 1M to 10M, concentrate investment in proven channels."
+    },
+    {
+      "title": "당신의 경쟁 해자는 죽었다. 누구나 당신의 제품을 다시 만들 수 있다",
+      "title_en": "Your moat is dead: anyone can rebuild your product",
+      "url": "https://news.hada.io/topic?id=35384",
+      "summary": "AI 에이전트가 관찰 가능한 소프트웨어를 재구현하는 비용을 크게 낮추면서, 코드 자체를 경쟁 해자로 삼는 전략이 흔들리고 있음. Photoshop을 Rust로 재구현한 PhotoCraft는 공개 명세와 관찰된 동작만 썼다고 밝힘. 기능은 아직 Photoshop의 절반에도 못 미친다는 추정이 있지만, 핵심은 재구현 비용의 하락임. 기능 수, 익숙한 UX, 파일 형식, 통합 기능의 방어력이 약해지고 있음.",
+      "summary_en": "As AI agents slash the cost of reimplementing observable software, treating code itself as a moat is breaking down. PhotoCraft, a Rust reimplementation of Photoshop, says it used only public specs and observed behavior; it reportedly covers less than half of Photoshop's features, but the point is the collapsing cost of reimplementation — feature count, familiar UX, file formats and integrations are all weakening as defenses."
+    },
+    {
+      "title": "Tiny Little Office — 링크 자체가 문서인 무료 웹 오피스",
+      "title_en": "Tiny Little Office — a free web office where the link is the document",
+      "url": "https://news.hada.io/topic?id=35390",
+      "summary": "문서 내용이 링크 안에 담겨, 계정 없이 작성하고 주소를 복사하는 것만으로 공유할 수 있는 무료 웹 오피스임. 링크를 받은 사람이 문서를 수정하면 자신의 사본과 링크가 바뀌고, 보낸 사람의 원본에는 영향이 없음. 워드프로세서·스프레드시트·프레젠테이션부터 드로잉·다이어그램·애니메이션·캘린더·여행 계획까지 10개 도구를 제공함. 기본적으로 문서를 서버에 저장하지 않음.",
+      "summary_en": "A free web office where the document's contents live inside the URL — no account needed, and sharing is just copying the address. When a recipient edits, their own copy and link change without touching the sender's original. Ten tools from word processor, spreadsheet and presentations to drawing, diagrams, animation, calendar and trip planning. Documents are not stored server-side by default."
+    }
+  ]
+}
