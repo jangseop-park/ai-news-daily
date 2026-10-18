@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-19",
+  "github_trending": [
+    {
+      "name": "MadsLorentzen/ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "description": "Claude Code 기반으로 돌아가는 로컬 구직 자동화 프레임워크. 공고 평가, 이력서 맞춤 수정, 커버레터 작성, 면접 준비까지 처리함. 포크해서 내 것으로 쓰는 구조임.",
+      "description_en": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it."
+    },
+    {
+      "name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "완전 로컬에서 돌아가는 오픈소스 ElevenLabs 대안. 음성 복제, 음성 디자인, 영상 더빙, 받아쓰기, 전사, 오디오북 제작을 646개 언어로 지원함.",
+      "description_en": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
+    },
+    {
+      "name": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Anthropic이 직접 관리하는 공식 Claude Code 플러그인 디렉터리임. 검증된 고품질 플러그인만 모아둠.",
+      "description_en": "Official, Anthropic-managed directory of high quality Claude Code Plugins."
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "모든 소프트웨어를 에이전트가 쓸 수 있게 CLI로 감싸주는 프로젝트임. CLI-Hub(clianything.cc)에서 모아 제공함.",
+      "description_en": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
+    },
+    {
+      "name": "Kruk2/jasna",
+      "url": "https://github.com/Kruk2/jasna",
+      "description": "영상 복원 도구임. 화질이 열화된 영상을 되살리는 용도로 쓰임.",
+      "description_en": "Video restoration tool"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "Waypoint-OPD: 게이팅된 온폴리시 증류로 RL 정책 변화를 전이하기",
+      "title_en": "Waypoint-OPD: Transferring RL-Induced Policy Shifts via Gated On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2610.21601",
+      "summary": "교사 모델의 초기·후기 policy 변화 방향이 서로 일치하는지를 보고 endpoint shift를 게이팅함. 추가 비용이 거의 없는데도 추론 성능이 올라감.",
+      "summary_en": "Waypoint-OPD improves policy-shift distillation by gating endpoint shifts using directional agreement between early and late teacher policy changes, boosting reasoning performance with minimal overhead."
+    },
+    {
+      "title": "OmniCompass: 옴니모달 비디오 그라운딩·이해를 위한 종합 벤치마크",
+      "title_en": "OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding",
+      "url": "https://huggingface.co/papers/2610.18829",
+      "summary": "vision-language와 audio-visual 추론을 한 번에 재는 벤치마크임. temporal grounding, spatial grounding, QA 세 가지 과제로 평가함.",
+      "summary_en": "OmniCompass is a holistic benchmark for omni-modal video grounding and understanding that evaluates vision-language and audio-visual reasoning through temporal grounding, spatial grounding, and question answering tasks."
+    },
+    {
+      "title": "MJev-Spatial: 네이티브 어텐션 매칭으로 구현한 시스템 1 공간 지능",
+      "title_en": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
+      "url": "https://huggingface.co/papers/2610.22276",
+      "summary": "공간 추론 과제를 단일 패스 분류 문제로 통합한 빠른 멀티모달 결정 모델임. autoregressive VLM보다 속도와 정확도가 모두 나음.",
+      "summary_en": "MJev-Spatial is a fast multimodal decision model that unifies spatial reasoning tasks into a single-pass classification framework, improving speed and accuracy over autoregressive vision-language models."
+    },
+    {
+      "title": "OpenGCUA: 범용 컴퓨터 사용 에이전트를 위한 완전 공개 스택",
+      "title_en": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
+      "url": "https://huggingface.co/papers/2610.22200",
+      "summary": "시각 인터페이스와 프로그래밍 인터페이스를 함께 쓰는 오픈 computer-use 에이전트임. harness의 결정을 모델로 전이하고 코드 실행을 붙여 성능과 효율을 같이 끌어올림.",
+      "summary_en": "OpenGCUA introduces an open generalist computer-use agent that integrates visual and programmatic interfaces, harness-to-model decision transfer, and code execution to improve task performance and efficiency across models."
+    },
+    {
+      "title": "FDE-Gym: AI 전달의 마지막 1마일",
+      "title_en": "FDE-Gym: The Last Mile of AI Delivery",
+      "url": "https://huggingface.co/papers/2610.22350",
+      "summary": "실제 고객 납품 상황을 흉내낸 평가 환경임. 애매한 요구사항을 되묻고 말로 안 한 제약을 찾아내야 하는데, 잘 정의된 벤치마크 대비 성능 격차가 크게 벌어짐.",
+      "summary_en": "FDE-Gym evaluates AI agents on realistic customer delivery tasks requiring clarification of ambiguous requirements and discovery of unstated constraints, revealing a substantial performance gap compared to well-specified benchmarks."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "인공지능은 자본주의의 최종 목적지다",
+      "title_en": "AI is the final destination of capitalism",
+      "url": "https://news.hada.io/topic?id=35544",
+      "summary": "AI 산업을 인류가 쌓아온 지식과 창작물을 기업 자산으로 옮기는 새로운 식민화로 봄. 공동의 지식을 기업이 장악하고 누가 얼마 내고 접근할지를 정하게 된다는 비판임.",
+      "summary_en": "Frames the AI industry as a new colonization that moves humanity's accumulated knowledge and creative work into corporate assets, with companies deciding who pays what for access to shared knowledge."
+    },
+    {
+      "title": "Linus Torvalds \"AI 사용을 금지하지 않겠다. 자신이 하는 일을 이해해야 한다\"",
+      "title_en": "Linus Torvalds: \"I won't ban AI use. You have to understand what you're doing\"",
+      "url": "https://news.hada.io/topic?id=35504",
+      "summary": "Linux 커널 기여에서 특정 작업에 AI 사용을 금지하는 규칙은 만들지 않겠다고 밝힘. 기여자 역량은 도구 사용 여부가 아니라 결과물과 이해도로 판단해야 한다는 입장임.",
+      "summary_en": "Torvalds says he won't make rules banning AI use for particular kinds of Linux kernel contributions, arguing contributors should be judged by their output and understanding rather than which tools they used."
+    },
+    {
+      "title": "Claude Code 팀의 코드 리뷰 방식",
+      "title_en": "How the Claude Code team does code review",
+      "url": "https://news.hada.io/topic?id=35495",
+      "summary": "자체 코드의 약 90%를 Claude가 쓰는 팀이라, 코드 읽기 대부분을 자동화하고 사람은 위험 판단과 결과 책임에 집중하도록 리뷰 체계를 바꿈.",
+      "summary_en": "On a team where Claude writes roughly 90% of the code, most code reading is automated so humans can focus on risk judgment and accountability for outcomes."
+    },
+    {
+      "title": "종교학으로 바라본 소프트웨어 공학",
+      "title_en": "Software engineering seen through religious studies",
+      "url": "https://news.hada.io/topic?id=35475",
+      "summary": "종교학에서 배운 관점으로 소프트웨어 개발과 기술에 대한 믿음을 되짚는 에세이임. 종교와 이데올로기도 사람과 사회를 특정 결과로 이끄는 규범 체계라는 틀로 기술 담론을 봄.",
+      "summary_en": "An essay that revisits beliefs about software development and technology through the lens of religious studies, treating religion and ideology as normative systems that steer people and societies toward particular outcomes."
+    },
+    {
+      "title": "예전의 내 일은 이제 멀게 느껴진다 - AI 에이전트와 달라진 개발 업무",
+      "title_en": "My old job feels distant now — how AI agents changed dev work",
+      "url": "https://news.hada.io/topic?id=35541",
+      "summary": "검색하고 코드 복붙하던 AI 활용이 에이전트에 작업을 맡기고 결과를 확인하는 방식으로 바뀜. 요즘은 코드 리뷰보다 QA와 결과 검증에 시간을 더 쓰게 됐다는 회고임.",
+      "summary_en": "A reflection on how AI use shifted from searching and copy-pasting code to delegating tasks to agents and checking results, with more time now going to QA and output verification than to code review."
+    }
+  ]
+}
