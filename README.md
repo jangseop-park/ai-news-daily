@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-10-18
+> 마지막 업데이트: 2026-10-19
 
-# AI 뉴스 — 2026-10-18
+# AI 뉴스 — 2026-10-19
 
 ## 🔥 GitHub Trending (Python)
 
-- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official): Anthropic이 직접 관리하는 고품질 Claude Code 플러그인 공식 디렉터리임.
-- [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search): 내 컴퓨터에서 돌아가는 구직 자동화 프레임워크임. Claude Code 기반으로 공고 평가, 이력서 맞춤 수정, 커버레터 작성, 면접 준비까지 처리함.
-- [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything): 모든 소프트웨어를 에이전트가 다룰 수 있는 CLI로 바꿔주는 프로젝트임. CLI-Hub도 같이 운영함.
-- [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills): AI 에이전트를 과학자로 만들어주는 스킬 라이브러리임. 검증된 스킬 177개와 과학 DB 100여 개를 제공하고 생물·화학·의학·신약개발을 다룸.
-- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio): 완전 로컬로 돌아가는 오픈소스 ElevenLabs 대안임. 음성 복제, 보이스 디자인, 영상 더빙, 받아쓰기, 오디오북 제작을 646개 언어로 지원함.
+- [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search): Claude Code 기반으로 돌아가는 로컬 구직 자동화 프레임워크. 공고 평가, 이력서 맞춤 수정, 커버레터 작성, 면접 준비까지 처리함. 포크해서 내 것으로 쓰는 구조임.
+- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio): 완전 로컬에서 돌아가는 오픈소스 ElevenLabs 대안. 음성 복제, 음성 디자인, 영상 더빙, 받아쓰기, 전사, 오디오북 제작을 646개 언어로 지원함.
+- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official): Anthropic이 직접 관리하는 공식 Claude Code 플러그인 디렉터리임. 검증된 고품질 플러그인만 모아둠.
+- [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything): 모든 소프트웨어를 에이전트가 쓸 수 있게 CLI로 감싸주는 프로젝트임. CLI-Hub(clianything.cc)에서 모아 제공함.
+- [Kruk2/jasna](https://github.com/Kruk2/jasna): 영상 복원 도구임. 화질이 열화된 영상을 되살리는 용도로 쓰임.
 
 ## 📄 Hugging Face Papers
 
-- [Waypoint-OPD: 게이트형 온폴리시 증류로 RL 정책 변화 전이하기](https://huggingface.co/papers/2610.21601)
-  교사 모델의 초기·후기 정책 변화 방향이 일치하는지로 게이트를 걸어 증류 품질을 높임. 추가 비용 거의 없이 추론 성능이 올라감.
-- [OmniCompass: 옴니모달 비디오 그라운딩·이해 종합 벤치마크](https://huggingface.co/papers/2610.18829)
-  시간 그라운딩, 공간 그라운딩, QA 과제로 비전-언어와 오디오-비주얼 추론을 한꺼번에 평가하는 벤치마크임.
-- [MJev-Spatial: 네이티브 어텐션 매칭으로 구현한 시스템1 공간지능](https://huggingface.co/papers/2610.22276)
-  여러 공간 추론 과제를 단일 패스 분류 문제로 통합한 빠른 멀티모달 결정 모델임. 자기회귀 VLM보다 속도와 정확도가 모두 나음.
-- [OpenGCUA: 범용 컴퓨터 사용 에이전트를 위한 완전 개방 스택](https://huggingface.co/papers/2610.22200)
-  화면 기반 인터페이스와 프로그래밍 인터페이스를 함께 쓰고, 하네스의 판단을 모델로 옮기고 코드 실행을 붙여 작업 성능과 효율을 끌어올림.
-- [FDE-Gym: AI 납품의 라스트 마일](https://huggingface.co/papers/2610.22350)
-  요구사항이 모호하고 제약이 명시되지 않은 실제 고객 납품 상황에서 에이전트를 평가함. 잘 정의된 벤치마크 대비 성능 격차가 크게 드러남.
+- [Waypoint-OPD: 게이팅된 온폴리시 증류로 RL 정책 변화를 전이하기](https://huggingface.co/papers/2610.21601)
+  교사 모델의 초기·후기 policy 변화 방향이 서로 일치하는지를 보고 endpoint shift를 게이팅함. 추가 비용이 거의 없는데도 추론 성능이 올라감.
+- [OmniCompass: 옴니모달 비디오 그라운딩·이해를 위한 종합 벤치마크](https://huggingface.co/papers/2610.18829)
+  vision-language와 audio-visual 추론을 한 번에 재는 벤치마크임. temporal grounding, spatial grounding, QA 세 가지 과제로 평가함.
+- [MJev-Spatial: 네이티브 어텐션 매칭으로 구현한 시스템 1 공간 지능](https://huggingface.co/papers/2610.22276)
+  공간 추론 과제를 단일 패스 분류 문제로 통합한 빠른 멀티모달 결정 모델임. autoregressive VLM보다 속도와 정확도가 모두 나음.
+- [OpenGCUA: 범용 컴퓨터 사용 에이전트를 위한 완전 공개 스택](https://huggingface.co/papers/2610.22200)
+  시각 인터페이스와 프로그래밍 인터페이스를 함께 쓰는 오픈 computer-use 에이전트임. harness의 결정을 모델로 전이하고 코드 실행을 붙여 성능과 효율을 같이 끌어올림.
+- [FDE-Gym: AI 전달의 마지막 1마일](https://huggingface.co/papers/2610.22350)
+  실제 고객 납품 상황을 흉내낸 평가 환경임. 애매한 요구사항을 되묻고 말로 안 한 제약을 찾아내야 하는데, 잘 정의된 벤치마크 대비 성능 격차가 크게 벌어짐.
 
 ## 🦉 GeekNews
 
-- [월간 소셜 조회수 0에서 1억 회까지 늘리는 3단계 전략](https://news.hada.io/topic?id=35447)
-  초기엔 조회수보다 제품에 관심 있는 잠재 고객을 모으는 게 중요함. 제품과 무관한 바이럴로 늘린 팔로워는 결국 제품 콘텐츠에 반응하지 않음.
-- [수학자들이 왜 우는지 나는 안다](https://news.hada.io/topic?id=35424)
-  OpenAI가 수백 건의 수학적 성과를 공개한 뒤 필즈상 수상자 Hugo Duminil-Copin과 Steven Strogatz가 경탄과 함께 눈물을 보임. 평생을 건 연구의 의미가 흔들린 순간임.
-- [동네 치과의 AX 전환기](https://news.hada.io/topic?id=35381)
-  생물학 전공 치과 원장이 AI 코딩 에이전트와 로컬 AI로 병원 업무를 직접 자동화함. 네트워크 공사비가 비싸 랜선까지 직접 찍었다고 함.
-- [게임 개발용 AI 하네스를 설계하는 방법](https://news.hada.io/topic?id=35355)
-  게임에서 LLM을 제대로 쓰려면 코드뿐 아니라 게임 상태·데이터·실행 결과까지 에이전트가 읽고 조작할 수 있어야 함. 결정론적 상태 재현이 핵심임.
-- [AI 코딩이 그렇게 뛰어나다면, 새롭고 좋은 소프트웨어는 다 어디에 있나?](https://news.hada.io/topic?id=35319)
-  AI 코딩이 뛰어나다면 왜 새로운 소프트웨어가 안 보이는지 9가지 가설로 따져봄. 기존 제품 개선, 비공개 사내 도구 증가, 조직 병목 등을 꼽음.
+- [인공지능은 자본주의의 최종 목적지다](https://news.hada.io/topic?id=35544)
+  AI 산업을 인류가 쌓아온 지식과 창작물을 기업 자산으로 옮기는 새로운 식민화로 봄. 공동의 지식을 기업이 장악하고 누가 얼마 내고 접근할지를 정하게 된다는 비판임.
+- [Linus Torvalds "AI 사용을 금지하지 않겠다. 자신이 하는 일을 이해해야 한다"](https://news.hada.io/topic?id=35504)
+  Linux 커널 기여에서 특정 작업에 AI 사용을 금지하는 규칙은 만들지 않겠다고 밝힘. 기여자 역량은 도구 사용 여부가 아니라 결과물과 이해도로 판단해야 한다는 입장임.
+- [Claude Code 팀의 코드 리뷰 방식](https://news.hada.io/topic?id=35495)
+  자체 코드의 약 90%를 Claude가 쓰는 팀이라, 코드 읽기 대부분을 자동화하고 사람은 위험 판단과 결과 책임에 집중하도록 리뷰 체계를 바꿈.
+- [종교학으로 바라본 소프트웨어 공학](https://news.hada.io/topic?id=35475)
+  종교학에서 배운 관점으로 소프트웨어 개발과 기술에 대한 믿음을 되짚는 에세이임. 종교와 이데올로기도 사람과 사회를 특정 결과로 이끄는 규범 체계라는 틀로 기술 담론을 봄.
+- [예전의 내 일은 이제 멀게 느껴진다 - AI 에이전트와 달라진 개발 업무](https://news.hada.io/topic?id=35541)
+  검색하고 코드 복붙하던 AI 활용이 에이전트에 작업을 맡기고 결과를 확인하는 방식으로 바뀜. 요즘은 코드 리뷰보다 QA와 결과 검증에 시간을 더 쓰게 됐다는 회고임.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-10-18](data/2026-10-18.md)
 - [2026-10-17](data/2026-10-17.md)
 - [2026-10-16](data/2026-10-16.md)
 - [2026-10-15](data/2026-10-15.md)
@@ -69,4 +70,3 @@
 - [2026-09-17](data/2026-09-17.md)
 - [2026-09-15](data/2026-09-15.md)
 - [2026-09-14](data/2026-09-14.md)
-- [2026-09-13](data/2026-09-13.md)
