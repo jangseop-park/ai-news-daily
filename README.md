@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-10-19
+> 마지막 업데이트: 2026-10-20
 
-# AI 뉴스 — 2026-10-19
+# AI 뉴스 — 2026-10-20
 
 ## 🔥 GitHub Trending (Python)
 
-- [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search): Claude Code 기반으로 돌아가는 로컬 구직 자동화 프레임워크. 공고 평가, 이력서 맞춤 수정, 커버레터 작성, 면접 준비까지 처리함. 포크해서 내 것으로 쓰는 구조임.
-- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio): 완전 로컬에서 돌아가는 오픈소스 ElevenLabs 대안. 음성 복제, 음성 디자인, 영상 더빙, 받아쓰기, 전사, 오디오북 제작을 646개 언어로 지원함.
-- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official): Anthropic이 직접 관리하는 공식 Claude Code 플러그인 디렉터리임. 검증된 고품질 플러그인만 모아둠.
-- [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything): 모든 소프트웨어를 에이전트가 쓸 수 있게 CLI로 감싸주는 프로젝트임. CLI-Hub(clianything.cc)에서 모아 제공함.
-- [Kruk2/jasna](https://github.com/Kruk2/jasna): 영상 복원 도구임. 화질이 열화된 영상을 되살리는 용도로 쓰임.
+- [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search): Claude Code 위에 올린 로컬 구직 자동화 프레임워크임. 공고 평가, 이력서 맞춤 수정, 커버레터 작성, 면접 준비까지 처리함. 어제에 이어 오늘도 1위, +3,860 스타 찍음.
+- [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI): 그래프/노드 인터페이스로 돌리는 디퓨전 모델 GUI·API·백엔드임. 모듈형 구조가 강점이고, 로컬 추론 엔진 중 가장 빠르다고 주장함.
+- [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything): 모든 소프트웨어를 에이전트가 쓸 수 있게 CLI로 감싸주는 프로젝트임. 모아놓은 허브는 clianything.cc 에서 제공함.
+- [Kruk2/jasna](https://github.com/Kruk2/jasna): 영상 복원 도구임. 화질이 열화된 영상을 되살리는 용도로 쓰임. 어제보다 스타 증가 속도가 4배 넘게 빨라짐.
+- [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom): 툴 출력, 로그, 파일, RAG 청크를 LLM에 넣기 전에 압축해주는 도구임. 코딩 에이전트는 토큰 20%, JSON은 60~95% 줄면서 답은 그대로 나옴. 라이브러리·프록시·MCP 서버 형태로 제공함.
 
 ## 📄 Hugging Face Papers
 
-- [Waypoint-OPD: 게이팅된 온폴리시 증류로 RL 정책 변화를 전이하기](https://huggingface.co/papers/2610.21601)
-  교사 모델의 초기·후기 policy 변화 방향이 서로 일치하는지를 보고 endpoint shift를 게이팅함. 추가 비용이 거의 없는데도 추론 성능이 올라감.
-- [OmniCompass: 옴니모달 비디오 그라운딩·이해를 위한 종합 벤치마크](https://huggingface.co/papers/2610.18829)
-  vision-language와 audio-visual 추론을 한 번에 재는 벤치마크임. temporal grounding, spatial grounding, QA 세 가지 과제로 평가함.
-- [MJev-Spatial: 네이티브 어텐션 매칭으로 구현한 시스템 1 공간 지능](https://huggingface.co/papers/2610.22276)
-  공간 추론 과제를 단일 패스 분류 문제로 통합한 빠른 멀티모달 결정 모델임. autoregressive VLM보다 속도와 정확도가 모두 나음.
-- [OpenGCUA: 범용 컴퓨터 사용 에이전트를 위한 완전 공개 스택](https://huggingface.co/papers/2610.22200)
-  시각 인터페이스와 프로그래밍 인터페이스를 함께 쓰는 오픈 computer-use 에이전트임. harness의 결정을 모델로 전이하고 코드 실행을 붙여 성능과 효율을 같이 끌어올림.
-- [FDE-Gym: AI 전달의 마지막 1마일](https://huggingface.co/papers/2610.22350)
-  실제 고객 납품 상황을 흉내낸 평가 환경임. 애매한 요구사항을 되묻고 말로 안 한 제약을 찾아내야 하는데, 잘 정의된 벤치마크 대비 성능 격차가 크게 벌어짐.
+- [HexaShell: VLM 에이전트를 로봇 코딩 에이전트로 쓸 때의 한계를 탐색하는 얇은 하네스](https://huggingface.co/papers/2610.23479)
+  비전 입력과 스스로 작성한 도구로 양팔 로봇을 제어하는 코딩 에이전트임. RoboDojo에서 SOTA를 찍었지만, 접촉이 많은 과제에서는 여전히 고전함.
+- [GPT-6-Astra는 체화 지능을 달성했는가?](https://huggingface.co/papers/2610.22471)
+  GPT-6-Astra가 in-context learning만으로 다양한 로봇 과제에서 높은 성능을 냄. 다만 실제 배포로 가면 시연 데이터 비용, 실행 시간, 실용적 체화 지능 쪽에 구멍이 드러남.
+- [BizBench: 실제 비즈니스에 장기 과제 에이전트를 투입할 때 숨어 있는 난점들](https://huggingface.co/papers/2610.20424)
+  실제 결제 절차를 써서 장기 과제 비즈니스 에이전트의 중간 실행 단계가 유효한지를 평가함. 프런티어 모델들이 목표는 부분적으로 달성하면서도 제약 조건은 자주 위반하는 게 드러남.
+- [3D 세계에서 생각하고 탐색하는 법 배우기](https://huggingface.co/papers/2610.21783)
+  ACT3D는 1인칭 단일 시점에서 3D 환경을 능동적으로 탐색하도록 VLM을 강화학습으로 훈련함. 탐색을 직접 지도하지 않고도 질문에 맞춘 적응적 이동으로 정답률을 올림.
+- [미지의 영역으로: 열린 과학 연구 문제에서 AI 에이전트 벤치마킹하기](https://huggingface.co/papers/2610.19159)
+  미발표 연구 방향을 주고 후속 논문을 쓰게 해 AI 에이전트를 평가함. 전문가 기준을 통과한 사례가 하나도 없었고, 대부분 날조된 주장이나 서로 모순되는 근거를 담고 있었음.
 
 ## 🦉 GeekNews
 
-- [인공지능은 자본주의의 최종 목적지다](https://news.hada.io/topic?id=35544)
-  AI 산업을 인류가 쌓아온 지식과 창작물을 기업 자산으로 옮기는 새로운 식민화로 봄. 공동의 지식을 기업이 장악하고 누가 얼마 내고 접근할지를 정하게 된다는 비판임.
-- [Linus Torvalds "AI 사용을 금지하지 않겠다. 자신이 하는 일을 이해해야 한다"](https://news.hada.io/topic?id=35504)
-  Linux 커널 기여에서 특정 작업에 AI 사용을 금지하는 규칙은 만들지 않겠다고 밝힘. 기여자 역량은 도구 사용 여부가 아니라 결과물과 이해도로 판단해야 한다는 입장임.
-- [Claude Code 팀의 코드 리뷰 방식](https://news.hada.io/topic?id=35495)
-  자체 코드의 약 90%를 Claude가 쓰는 팀이라, 코드 읽기 대부분을 자동화하고 사람은 위험 판단과 결과 책임에 집중하도록 리뷰 체계를 바꿈.
-- [종교학으로 바라본 소프트웨어 공학](https://news.hada.io/topic?id=35475)
-  종교학에서 배운 관점으로 소프트웨어 개발과 기술에 대한 믿음을 되짚는 에세이임. 종교와 이데올로기도 사람과 사회를 특정 결과로 이끄는 규범 체계라는 틀로 기술 담론을 봄.
-- [예전의 내 일은 이제 멀게 느껴진다 - AI 에이전트와 달라진 개발 업무](https://news.hada.io/topic?id=35541)
-  검색하고 코드 복붙하던 AI 활용이 에이전트에 작업을 맡기고 결과를 확인하는 방식으로 바뀜. 요즘은 코드 리뷰보다 QA와 결과 검증에 시간을 더 쓰게 됐다는 회고임.
+- [시니어 엔지니어처럼 소프트웨어 시스템 설계하기 - 풀코스 [동영상]](https://news.hada.io/topic?id=35613)
+  약 3시간짜리 시스템 설계 면접 대비 강의임. 5단계 접근법을 배우고 Spotify, Booking.com, WhatsApp과 비슷한 시스템을 직접 설계해보는 구성임.
+- [Brain Sandwich - AI 작업 전후에 직접 사고하는 개발 방식](https://news.hada.io/topic?id=35604)
+  '직접 사고하기 → AI 활용하기 → 다시 직접 사고하기' 순서로 일하는 방식임. AI를 충분히 쓰면서도 엔지니어링 역량이 퇴화하지 않게 막는 게 핵심임.
+- [수학에 뛰어들기에 지금보다 좋은 때는 없었다, 3Blue1Brown [영상]](https://news.hada.io/topic?id=35607)
+  AI 때문에 수학의 역할과 평가 기준이 흔들리는 지금, 새로 들어오는 사람도 변화의 방향을 만들 수 있다고 봄. AI 때문에 수학 진로를 포기하지 말라는 메시지임.
+- [웹사이트들이 AI 에이전트에 문을 닫고 있음](https://news.hada.io/topic?id=35590)
+  예약과 쇼핑을 대신하는 AI 에이전트가 주요 사이트의 접근 제한에 막히고 있음. Meta Muse, xAI Grok, OpenAI Dots, Instinct 사용자들이 작업 차단을 겪음. 보안 우려와 사업적 이해관계가 섞인 이유임.
+- [ArtCraft - 2D/3D 장면을 직접 구성하는 AI 이미지/영상 제작 도구](https://news.hada.io/topic?id=35605)
+  아티스트·디자이너·영화 제작자가 구도, 인물 자세, 카메라 위치를 직접 정하고 AI로 생성하는 오픈소스 도구임. 2D 캔버스에서 레이어를 다루는 방식으로 작업함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-10-19](data/2026-10-19.md)
 - [2026-10-18](data/2026-10-18.md)
 - [2026-10-17](data/2026-10-17.md)
 - [2026-10-16](data/2026-10-16.md)
@@ -69,4 +70,3 @@
 - [2026-09-18](data/2026-09-18.md)
 - [2026-09-17](data/2026-09-17.md)
 - [2026-09-15](data/2026-09-15.md)
-- [2026-09-14](data/2026-09-14.md)
