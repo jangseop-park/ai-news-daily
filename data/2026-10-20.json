@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-20",
+  "github_trending": [
+    {
+      "name": "MadsLorentzen/ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "description": "Claude Code 위에 올린 로컬 구직 자동화 프레임워크임. 공고 평가, 이력서 맞춤 수정, 커버레터 작성, 면접 준비까지 처리함. 어제에 이어 오늘도 1위, +3,860 스타 찍음.",
+      "description_en": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it."
+    },
+    {
+      "name": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "description": "그래프/노드 인터페이스로 돌리는 디퓨전 모델 GUI·API·백엔드임. 모듈형 구조가 강점이고, 로컬 추론 엔진 중 가장 빠르다고 주장함.",
+      "description_en": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world."
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "모든 소프트웨어를 에이전트가 쓸 수 있게 CLI로 감싸주는 프로젝트임. 모아놓은 허브는 clianything.cc 에서 제공함.",
+      "description_en": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
+    },
+    {
+      "name": "Kruk2/jasna",
+      "url": "https://github.com/Kruk2/jasna",
+      "description": "영상 복원 도구임. 화질이 열화된 영상을 되살리는 용도로 쓰임. 어제보다 스타 증가 속도가 4배 넘게 빨라짐.",
+      "description_en": "Video restoration tool"
+    },
+    {
+      "name": "headroomlabs-ai/headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "description": "툴 출력, 로그, 파일, RAG 청크를 LLM에 넣기 전에 압축해주는 도구임. 코딩 에이전트는 토큰 20%, JSON은 60~95% 줄면서 답은 그대로 나옴. 라이브러리·프록시·MCP 서버 형태로 제공함.",
+      "description_en": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "HexaShell: VLM 에이전트를 로봇 코딩 에이전트로 쓸 때의 한계를 탐색하는 얇은 하네스",
+      "title_en": "HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents",
+      "url": "https://huggingface.co/papers/2610.23479",
+      "summary": "비전 입력과 스스로 작성한 도구로 양팔 로봇을 제어하는 코딩 에이전트임. RoboDojo에서 SOTA를 찍었지만, 접촉이 많은 과제에서는 여전히 고전함.",
+      "summary_en": "HexaShell is a coding agent that controls a dual-arm robot via vision and self-written tools, achieving state-of-the-art results on RoboDojo but struggling with contact-heavy tasks."
+    },
+    {
+      "title": "GPT-6-Astra는 체화 지능을 달성했는가?",
+      "title_en": "Has GPT-6-Astra Achieved Embodied Intelligence?",
+      "url": "https://huggingface.co/papers/2610.22471",
+      "summary": "GPT-6-Astra가 in-context learning만으로 다양한 로봇 과제에서 높은 성능을 냄. 다만 실제 배포로 가면 시연 데이터 비용, 실행 시간, 실용적 체화 지능 쪽에 구멍이 드러남.",
+      "summary_en": "GPT-6-Astra achieves high performance across diverse robotic tasks via in-context learning, yet real-world deployment reveals gaps in demonstration cost, execution time, and practical embodied intelligence."
+    },
+    {
+      "title": "BizBench: 실제 비즈니스에 장기 과제 에이전트를 투입할 때 숨어 있는 난점들",
+      "title_en": "BizBench: Unveiling Hidden Challenges in Deploying Long-Horizon Agents for Real-World Business",
+      "url": "https://huggingface.co/papers/2610.20424",
+      "summary": "실제 결제 절차를 써서 장기 과제 비즈니스 에이전트의 중간 실행 단계가 유효한지를 평가함. 프런티어 모델들이 목표는 부분적으로 달성하면서도 제약 조건은 자주 위반하는 게 드러남.",
+      "summary_en": "BizBench evaluates long-horizon business agents on intermediate execution validity using real-world payment procedures, revealing that frontier models frequently violate constraints despite achieving partial goal success."
+    },
+    {
+      "title": "3D 세계에서 생각하고 탐색하는 법 배우기",
+      "title_en": "Learning to Think and Explore in 3D World",
+      "url": "https://huggingface.co/papers/2610.21783",
+      "summary": "ACT3D는 1인칭 단일 시점에서 3D 환경을 능동적으로 탐색하도록 VLM을 강화학습으로 훈련함. 탐색을 직접 지도하지 않고도 질문에 맞춘 적응적 이동으로 정답률을 올림.",
+      "summary_en": "ACT3D trains vision-language models via reinforcement learning to actively explore 3D environments from single first-person views, improving answer accuracy through adaptive, question-conditioned navigation without direct exploration supervision."
+    },
+    {
+      "title": "미지의 영역으로: 열린 과학 연구 문제에서 AI 에이전트 벤치마킹하기",
+      "title_en": "Into the Unknown: Benchmarking AI agents on open scientific research problems",
+      "url": "https://huggingface.co/papers/2610.19159",
+      "summary": "미발표 연구 방향을 주고 후속 논문을 쓰게 해 AI 에이전트를 평가함. 전문가 기준을 통과한 사례가 하나도 없었고, 대부분 날조된 주장이나 서로 모순되는 근거를 담고 있었음.",
+      "summary_en": "Researchers benchmarked AI agents on open scientific problems by having them draft follow-up papers from unpublished directions, finding that none met expert standards and most contained fabricated claims or contradictory evidence."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "시니어 엔지니어처럼 소프트웨어 시스템 설계하기 - 풀코스 [동영상]",
+      "title_en": "Design software systems like a senior engineer — full course [video]",
+      "url": "https://news.hada.io/topic?id=35613",
+      "summary": "약 3시간짜리 시스템 설계 면접 대비 강의임. 5단계 접근법을 배우고 Spotify, Booking.com, WhatsApp과 비슷한 시스템을 직접 설계해보는 구성임.",
+      "summary_en": "A roughly three-hour system design interview course that teaches a five-step approach and applies it to designing systems similar to Spotify, Booking.com and WhatsApp."
+    },
+    {
+      "title": "Brain Sandwich - AI 작업 전후에 직접 사고하는 개발 방식",
+      "title_en": "Brain Sandwich — thinking for yourself before and after the AI step",
+      "url": "https://news.hada.io/topic?id=35604",
+      "summary": "'직접 사고하기 → AI 활용하기 → 다시 직접 사고하기' 순서로 일하는 방식임. AI를 충분히 쓰면서도 엔지니어링 역량이 퇴화하지 않게 막는 게 핵심임.",
+      "summary_en": "A working pattern of think yourself, then use AI, then think yourself again — aimed at using AI heavily without letting your engineering skills atrophy."
+    },
+    {
+      "title": "수학에 뛰어들기에 지금보다 좋은 때는 없었다, 3Blue1Brown [영상]",
+      "title_en": "There has never been a better time to get into math — 3Blue1Brown [video]",
+      "url": "https://news.hada.io/topic?id=35607",
+      "summary": "AI 때문에 수학의 역할과 평가 기준이 흔들리는 지금, 새로 들어오는 사람도 변화의 방향을 만들 수 있다고 봄. AI 때문에 수학 진로를 포기하지 말라는 메시지임.",
+      "summary_en": "With AI shaking up math's role and evaluation standards, 3Blue1Brown argues newcomers can still shape where things go, and shouldn't abandon a math path because of AI."
+    },
+    {
+      "title": "웹사이트들이 AI 에이전트에 문을 닫고 있음",
+      "title_en": "Websites are shutting the door on AI agents",
+      "url": "https://news.hada.io/topic?id=35590",
+      "summary": "예약과 쇼핑을 대신하는 AI 에이전트가 주요 사이트의 접근 제한에 막히고 있음. Meta Muse, xAI Grok, OpenAI Dots, Instinct 사용자들이 작업 차단을 겪음. 보안 우려와 사업적 이해관계가 섞인 이유임.",
+      "summary_en": "AI agents that book and shop on users' behalf are hitting access restrictions on major sites, with Meta Muse, xAI Grok, OpenAI Dots and Instinct users blocked — driven by a mix of security concerns and business interests."
+    },
+    {
+      "title": "ArtCraft - 2D/3D 장면을 직접 구성하는 AI 이미지/영상 제작 도구",
+      "title_en": "ArtCraft — an AI image/video tool where you compose the 2D/3D scene yourself",
+      "url": "https://news.hada.io/topic?id=35605",
+      "summary": "아티스트·디자이너·영화 제작자가 구도, 인물 자세, 카메라 위치를 직접 정하고 AI로 생성하는 오픈소스 도구임. 2D 캔버스에서 레이어를 다루는 방식으로 작업함.",
+      "summary_en": "An open-source tool letting artists, designers and filmmakers set composition, character poses and camera position themselves before generating with AI, working with layers on a 2D canvas."
+    }
+  ]
+}
