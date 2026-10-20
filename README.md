@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-10-20
+> 마지막 업데이트: 2026-10-21
 
-# AI 뉴스 — 2026-10-20
+# AI 뉴스 — 2026-10-21
 
 ## 🔥 GitHub Trending (Python)
 
-- [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search): Claude Code 위에 올린 로컬 구직 자동화 프레임워크임. 공고 평가, 이력서 맞춤 수정, 커버레터 작성, 면접 준비까지 처리함. 어제에 이어 오늘도 1위, +3,860 스타 찍음.
-- [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI): 그래프/노드 인터페이스로 돌리는 디퓨전 모델 GUI·API·백엔드임. 모듈형 구조가 강점이고, 로컬 추론 엔진 중 가장 빠르다고 주장함.
-- [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything): 모든 소프트웨어를 에이전트가 쓸 수 있게 CLI로 감싸주는 프로젝트임. 모아놓은 허브는 clianything.cc 에서 제공함.
-- [Kruk2/jasna](https://github.com/Kruk2/jasna): 영상 복원 도구임. 화질이 열화된 영상을 되살리는 용도로 쓰임. 어제보다 스타 증가 속도가 4배 넘게 빨라짐.
-- [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom): 툴 출력, 로그, 파일, RAG 청크를 LLM에 넣기 전에 압축해주는 도구임. 코딩 에이전트는 토큰 20%, JSON은 60~95% 줄면서 답은 그대로 나옴. 라이브러리·프록시·MCP 서버 형태로 제공함.
+- [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search): 내 컴퓨터에서 돌아가는 구직 도우미임. Claude Code 기반으로 채용공고 평가, 이력서 맞춤 수정, 커버레터 작성, 면접 준비까지 해줌.
+- [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI): 그래프/노드 인터페이스를 제공하는 모듈형 디퓨전 모델 GUI·API·백엔드임. 로컬 추론 엔진 중 가장 빠르다고 주장함.
+- [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify): 코드베이스와 문서·SQL 스키마·설정·PDF를 질의 가능한 지식 그래프로 바꿔줌. 벡터 스토어 없이 로컬 AST 파싱만 쓰고 모든 엣지에 근거가 붙음.
+- [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom): 툴 출력·로그·파일·RAG 청크를 LLM에 넣기 전에 압축함. 코딩 에이전트는 토큰 20%, JSON은 60~95% 줄이면서 답은 동일하다고 함.
+- [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins): Anthropic이 공개한 지식 노동자용 플러그인 모음임. Claude Cowork에서 쓰는 걸 주 목적으로 함.
 
 ## 📄 Hugging Face Papers
 
-- [HexaShell: VLM 에이전트를 로봇 코딩 에이전트로 쓸 때의 한계를 탐색하는 얇은 하네스](https://huggingface.co/papers/2610.23479)
-  비전 입력과 스스로 작성한 도구로 양팔 로봇을 제어하는 코딩 에이전트임. RoboDojo에서 SOTA를 찍었지만, 접촉이 많은 과제에서는 여전히 고전함.
-- [GPT-6-Astra는 체화 지능을 달성했는가?](https://huggingface.co/papers/2610.22471)
-  GPT-6-Astra가 in-context learning만으로 다양한 로봇 과제에서 높은 성능을 냄. 다만 실제 배포로 가면 시연 데이터 비용, 실행 시간, 실용적 체화 지능 쪽에 구멍이 드러남.
-- [BizBench: 실제 비즈니스에 장기 과제 에이전트를 투입할 때 숨어 있는 난점들](https://huggingface.co/papers/2610.20424)
-  실제 결제 절차를 써서 장기 과제 비즈니스 에이전트의 중간 실행 단계가 유효한지를 평가함. 프런티어 모델들이 목표는 부분적으로 달성하면서도 제약 조건은 자주 위반하는 게 드러남.
-- [3D 세계에서 생각하고 탐색하는 법 배우기](https://huggingface.co/papers/2610.21783)
-  ACT3D는 1인칭 단일 시점에서 3D 환경을 능동적으로 탐색하도록 VLM을 강화학습으로 훈련함. 탐색을 직접 지도하지 않고도 질문에 맞춘 적응적 이동으로 정답률을 올림.
-- [미지의 영역으로: 열린 과학 연구 문제에서 AI 에이전트 벤치마킹하기](https://huggingface.co/papers/2610.19159)
-  미발표 연구 방향을 주고 후속 논문을 쓰게 해 AI 에이전트를 평가함. 전문가 기준을 통과한 사례가 하나도 없었고, 대부분 날조된 주장이나 서로 모순되는 근거를 담고 있었음.
+- [뇌 인코딩을 위한 파라미터 효율 파인튜닝 스케일링](https://huggingface.co/papers/2610.26802)
+  LoRA 같은 저랭크 어댑터로 초대형 멀티모달 백본을 뇌 인코딩에 적응시킴. 연산량을 줄이면서 성능과 해석 가능성을 동시에 올림.
+- [OR-License: LLM 에이전트를 실무 OR 전문가로 평가하기](https://huggingface.co/papers/2610.24087)
+  실제 고객 자료를 그대로 던져주고 LLM 에이전트가 OR(경영과학) 문제를 푸는지 평가함. 목적함수 품질은 높게 내는 모델도 있지만, 실현 가능성·배포 품질에선 전문가 수준에 못 미침.
+- [EgoXperience: 사람 경험에서 월드 기반 1인칭 표현 학습](https://huggingface.co/papers/2610.26625)
+  1인칭 영상에서 카메라 움직임·장면 기하·손·물체를 한 번에 복원하는 통합 프레임워크임. 자동 어노테이션한 대규모 데이터로 싱글패스 모델을 학습함.
+- [MemT-1.0: 메모리 네이티브 진화를 향하여](https://huggingface.co/papers/2610.26825)
+  연속적 메모리를 파운데이션 모델 연산 자체에 심은 메모리 네이티브 아키텍처임. 긴 컨텍스트 효율과 에이전트 작업 성능이 같이 좋아짐.
+- [Holi-World: 1인칭 인간 경험으로 쌓는 총체적 월드 인텔리전스](https://huggingface.co/papers/2610.26549)
+  1인칭 녹화 영상에서 대규모 학습 리소스를 자동 구축하는 통합 생태계임. 동적인 장면과 상호작용에 대한 기계 이해를 끌어올리는 게 목표임.
 
 ## 🦉 GeekNews
 
-- [시니어 엔지니어처럼 소프트웨어 시스템 설계하기 - 풀코스 [동영상]](https://news.hada.io/topic?id=35613)
-  약 3시간짜리 시스템 설계 면접 대비 강의임. 5단계 접근법을 배우고 Spotify, Booking.com, WhatsApp과 비슷한 시스템을 직접 설계해보는 구성임.
-- [Brain Sandwich - AI 작업 전후에 직접 사고하는 개발 방식](https://news.hada.io/topic?id=35604)
-  '직접 사고하기 → AI 활용하기 → 다시 직접 사고하기' 순서로 일하는 방식임. AI를 충분히 쓰면서도 엔지니어링 역량이 퇴화하지 않게 막는 게 핵심임.
-- [수학에 뛰어들기에 지금보다 좋은 때는 없었다, 3Blue1Brown [영상]](https://news.hada.io/topic?id=35607)
-  AI 때문에 수학의 역할과 평가 기준이 흔들리는 지금, 새로 들어오는 사람도 변화의 방향을 만들 수 있다고 봄. AI 때문에 수학 진로를 포기하지 말라는 메시지임.
-- [웹사이트들이 AI 에이전트에 문을 닫고 있음](https://news.hada.io/topic?id=35590)
-  예약과 쇼핑을 대신하는 AI 에이전트가 주요 사이트의 접근 제한에 막히고 있음. Meta Muse, xAI Grok, OpenAI Dots, Instinct 사용자들이 작업 차단을 겪음. 보안 우려와 사업적 이해관계가 섞인 이유임.
-- [ArtCraft - 2D/3D 장면을 직접 구성하는 AI 이미지/영상 제작 도구](https://news.hada.io/topic?id=35605)
-  아티스트·디자이너·영화 제작자가 구도, 인물 자세, 카메라 위치를 직접 정하고 AI로 생성하는 오픈소스 도구임. 2D 캔버스에서 레이어를 다루는 방식으로 작업함.
+- [Google, TPU용 네이티브 PyTorch 백엔드 TorchTPU 오픈소스 공개](https://news.hada.io/topic?id=35728)
+  TPU에서 PyTorch 모델과 연산을 바로 돌리는 백엔드임. TPU용 ATen 커널과 XLA 실행을 최적화하는 컴파일 캐시를 포함하고 torch.compile()과 통합돼 그래프 모드로 실행됨.
+- [Voxtral 3 — 50개 이상 언어 음성 인식 모델과 실시간 음성 에이전트 SDK](https://news.hada.io/topic?id=35725)
+  Mistral이 Voxtral 3 음성 모델군과 음성 에이전트 SDK를 공개함. 인식·추론·도구 호출·합성을 하나의 실시간 스트리밍 파이프라인으로 묶었고, 전사는 50개 언어에 화자 분리까지 지원함.
+- [거부 기능을 제거한 모델이 해킹의 통로가 될 수 있는 이유](https://news.hada.io/topic?id=35709)
+  ProjectDiscovery가 오픈 모델에 백도어를 심어 Codex CLI에서 돌리는 실험에 성공함. 평소엔 정상 응답하다가 특정 문구가 나오면 자격 증명을 외부로 빼돌리고, 트리거가 모델 가중치에 학습돼 있어 탐지가 어려움.
+- [tsrs: TypeScript 컴파일러의 Rust 포트](https://news.hada.io/topic?id=35724)
+  Cloudflare와 VoidZero가 Owner.com의 Max Schwenk와 함께 TypeScript 컴파일러를 Rust로 포팅함. TypeScript 팀과 협력하며 Oxc 툴체인 안에서 키우고 있고, 초기 벤치마크에서 동일 워커 수 기준 속도 이득이 나옴.
+- [가짜 통계를 게시해 LLM의 인용을 얻다](https://news.hada.io/topic?id=35721)
+  GPT-4.1로 만든 허위 통계 페이지 5만 개를 올린 실험 사이트가 7개월간 ChatGPT 유입 세션 1만 건 이상과 330개 넘는 도메인의 링크를 얻음. 구글 검색 노출이 급감한 뒤에도 ChatGPT 인용은 계속됨.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-10-20](data/2026-10-20.md)
 - [2026-10-19](data/2026-10-19.md)
 - [2026-10-18](data/2026-10-18.md)
 - [2026-10-17](data/2026-10-17.md)
@@ -69,4 +70,3 @@
 - [2026-09-19](data/2026-09-19.md)
 - [2026-09-18](data/2026-09-18.md)
 - [2026-09-17](data/2026-09-17.md)
-- [2026-09-15](data/2026-09-15.md)
