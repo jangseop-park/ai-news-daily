@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-22",
+  "github_trending": [
+    {
+      "name": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "description": "코드베이스와 문서, SQL 스키마, 설정, PDF를 질의 가능한 지식 그래프로 변환함. Claude Code·Cursor·Codex·Gemini CLI용 /graphify 스킬로, 벡터 스토어 없이 로컬 AST 파싱만으로 모든 엣지를 설명함. 오늘 +1,434 스타.",
+      "description_en": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store."
+    },
+    {
+      "name": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "description": "그래프/노드 인터페이스를 갖춘 가장 강력하고 모듈화된 디퓨전 모델 GUI·API·백엔드임. 세계에서 가장 빠른 로컬 추론 엔진을 지향함. 오늘 +914 스타.",
+      "description_en": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world."
+    },
+    {
+      "name": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "금융 시장의 언어를 다루는 파운데이션 모델임. 시장 데이터를 토큰 시퀀스로 보고 사전학습하는 방식임. 오늘 +570 스타.",
+      "description_en": "Kronos: A Foundation Model for the Language of Financial Markets"
+    },
+    {
+      "name": "headroomlabs-ai/headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "description": "툴 출력·로그·파일·RAG 청크를 LLM에 닿기 전에 압축함. 코딩 에이전트는 토큰 20% 절감, JSON은 60~95% 절감하면서 답변 품질은 유지됨. 라이브러리·프록시·MCP 서버로 제공됨. 오늘 +477 스타.",
+      "description_en": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server."
+    },
+    {
+      "name": "vllm-project/vllm",
+      "url": "https://github.com/vllm-project/vllm",
+      "description": "LLM용 고처리량·메모리 효율 추론 및 서빙 엔진임. PagedAttention으로 KV 캐시를 관리해 처리량을 끌어올림. 오늘 +439 스타.",
+      "description_en": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "집중 지각을 적용한 옴니모달 GUI 에이전트 (FocusGUI)",
+      "title_en": "Focused Omni-Modal GUI Agents",
+      "url": "https://huggingface.co/papers/2610.26203",
+      "summary": "스크린샷·오디오·영상·조작 이력을 모두 매 스텝에 똑같이 던져주면 직전에 중요했던 신호가 다음 스텝에선 잡음이 됨. 이 오류가 누적되며 궤적이 되돌릴 수 없게 어긋나는 현상을 '순차적 산만(Sequential Distraction)'으로 정의함. FocusGUI는 경량 어댑터로 스텝마다 멀티모달 채널 우선순위를 동적으로 조정하고, 핵심 근거만 압축한 잠재 벡터를 고정된 디코더 임베딩에 주입해 모델을 건드리지 않고 주의를 유도함.",
+      "summary_en": "GUI agents act over streaming omni-modal observations, but exposing all context uniformly at every step ignores that relevance is transient and sparse, compounding into Sequential Distraction and irreversible trajectory drift. FocusGUI is a lightweight adapter that dynamically prioritizes multimodal channels against a step-specific decision reference, compressing relevant evidence into a compact latent injected into the frozen decoder's embeddings."
+    },
+    {
+      "title": "Matrix-Game 4.0: 비디오 모델로 실시간 플레이 가능한 게임 월드 만들기",
+      "title_en": "Matrix-Game 4.0: Harnessing Video Models for Real-Time Playable Game Worlds",
+      "url": "https://huggingface.co/papers/2610.27999",
+      "summary": "조작 가능한 영상에서 진짜 플레이되는 월드로 가려면 지속적 월드 상태와 실행 가능한 게임 규칙, 저지연 상호작용이 필요함. 게임 실행과 영상 생성을 실행 가능한 게임 하네스로 분리하는 설계를 제시함. 경량 엔진이 상태와 규칙을 담당하고, 멀티모달 코딩 에이전트가 플레이어 아이디어를 게임 코드와 동적 캡션으로 번역하고, 자기회귀 비디오 모델 렌더러가 저폴리 프록시를 정교한 영상으로 바꿈. 자연어로 장면과 게임플레이를 만들고 수정할 수 있음.",
+      "summary_en": "Moving to genuinely playable worlds requires persistent world state, executable game rules, and low-latency interaction. Matrix-Game 4.0 separates game execution from visual generation via an executable game harness: a lightweight engine maintains state and rules, a multimodal coding agent translates player ideas into game code and dynamic captions, and an autoregressive video renderer turns low-poly proxies into detailed visuals."
+    },
+    {
+      "title": "Ropedia W0: 사람의 경험으로 여러 로봇 형태에 걸쳐 이동-조작 월드 모델 확장하기",
+      "title_en": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
+      "url": "https://huggingface.co/papers/2610.26855",
+      "summary": "행동 공간이 제각각이고 멀티모달 지도 데이터가 부족해 이동과 조작을 함께 모델링하기 어려웠음. 사람과 다양한 형태의 로봇을 모두 포괄하는 첫 1인칭 이동-조작 월드 파운데이션 모델임. 사람 1인칭 1만 시간 + 로봇 3천 시간 데이터셋 Xp-Data를 구축하고, 이동은 카메라 포즈로 조작은 투영 스켈레톤으로 통합 표현함. 장기 과제 벤치마크 Xp-Teleop도 함께 공개하며 5개 교차 형태 평가에서 SOTA를 달성함.",
+      "summary_en": "The first egocentric loco-manipulation world foundation model spanning humans and robots with diverse embodiments. Xp-Data comprises 10k hours of egocentric human data and 3k hours of robot data; a unified kinematic representation encodes locomotion via camera poses and manipulation via projected skeletons. State-of-the-art across five cross-embodiment evaluations."
+    },
+    {
+      "title": "PAR: 상태 추적의 길이 일반화를 위한 진행도 정렬 재귀",
+      "title_en": "PAR: Progress-Aligned Recurrence for Length Generalization in State Tracking",
+      "url": "https://huggingface.co/papers/2610.27628",
+      "summary": "루프형 언어 모델은 테스트 때 반복을 더 돌릴 수 있지만 그렇다고 더 긴 문제가 풀리진 않음. 최종 정답만 감독하면 반복 한 번이 얼마나 전진해야 하는지 알려주지 못하는 게 원인임. PAR은 k번째 반복의 예측을 첫 k개 연산 이후 상태와 맞추도록 학습시키고 재귀 상태를 첫 반복 노름으로 재조정함. swap-S5에서 32수까지만 학습한 Qwen2.5-0.5B가 512수(16배 길이)에서 전체 상태 정확도 95.5%를 기록함(RLT 55.7%, 명시적 CoT 0.8%).",
+      "summary_en": "Final-answer supervision does not specify how far each iteration should advance. PAR trains iteration k's prediction to match the state after the first k operations and rescales recurrent states to first-iteration norms. On swap-S5, a Qwen2.5-0.5B trained on at most 32 moves reaches 95.5% mean full-state accuracy at 512 moves (16x training length), vs 55.7% for RLT and 0.8% for explicit chain of thought."
+    },
+    {
+      "title": "S-Agent 2.0: 범용 코딩 에이전트로 하는 공간 추론",
+      "title_en": "S-Agent 2.0: Spatial Reasoning with a General Coding Agent",
+      "url": "https://huggingface.co/papers/2610.28354",
+      "summary": "에이전틱 VLM이 3D 인식 툴로 직접 근거를 모으게 하면서 공간 추론 성능이 크게 올랐지만, 툴이 올바른 값을 돌려줘도 모델이 답을 못 맞히는 경우가 많음. 원시 측정값이 쓸 만한 결론으로 바뀌는 구간이 비어 있다는 진단임. S-Agent 2.0은 기성 범용 코딩 에이전트에 커맨드라인 인식 툴킷을 붙이고, 근거 획득 → 지속적 장면 메모리에 기억 → 평범한 공간 언어로 해석이라는 증거 루프를 닫는 데 인터페이스를 집중시킴.",
+      "summary_en": "On many questions the tools return the right evidence yet the model still fails: the gap where raw readings become usable conclusions is unfilled. S-Agent 2.0 equips an off-the-shelf general coding agent with a command-line perception toolkit designed around closing the evidence loop: acquire scene evidence, remember it in persistent scene memory, and interpret each reading in plain spatial language."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "Harness Engineering 101 — Python 약 300줄로 배우는 AI 에이전트 구현",
+      "title_en": "Harness Engineering 101 - Build an AI agent in ~300 lines of pure Python",
+      "url": "https://github.com/IsuruMaduranga/harness-engineering-101",
+      "summary": "프레임워크나 SDK 없이 순수 Python 300줄로 AI 에이전트를 직접 만들며 작동 원리를 익히는 입문서임. HTTP 요청부터 시작해 16개 장에 걸쳐 실습으로 쌓아올림. 에이전트 내부가 블랙박스로 느껴질 때 보기 좋음.",
+      "summary_en": "A hands-on primer that builds an AI agent in ~300 lines of pure Python with no framework or SDK, starting from raw HTTP requests and building up across 16 chapters."
+    },
+    {
+      "title": "Anatomy — 기술 개념을 움직이는 입체 도해로 만드는 AI 에이전트 스킬",
+      "title_en": "Anatomy - An agent skill that turns technical concepts into animated 3D diagrams",
+      "url": "https://github.com/wheresryan22/anatomy",
+      "summary": "문서·블로그·교육 자료용 인터랙티브 입체 도해를 코딩 에이전트로 제작하는 스킬임. 캐시, 커넥션 풀, 요청 제한처럼 말로는 설명이 길어지는 개념을 실제로 움직이는 그림으로 보여줌.",
+      "summary_en": "A coding-agent skill for producing interactive 3D diagrams for docs, blogs, and teaching material — animating concepts like caches, connection pools, and rate limiting."
+    },
+    {
+      "title": "Ask HN: AI가 작성한 코드를 이해하지 못한 채 배포하는 문제, 어떻게 대처하시나요?",
+      "title_en": "Ask HN: How do you deal with shipping AI-written code you don't fully understand?",
+      "url": "https://news.ycombinator.com/item?id=50151036",
+      "summary": "Meta 엔지니어의 글에 공감한 개발자가 던진 질문임. AI가 쓴 코드를 충분히 이해하지 못한 상태로 배포하는 상황을 다른 엔지니어들은 어떻게 다루는지 묻고, 댓글에 각자의 리뷰 기준과 방어선이 쌓임.",
+      "summary_en": "Sparked by a Meta engineer's post, developers share how they handle shipping AI-generated code they haven't fully understood, and what review guardrails they rely on."
+    },
+    {
+      "title": "AI 시대, 아들에게 무엇을 가르쳐야 할까?",
+      "title_en": "What should I teach my son in the age of AI?",
+      "url": "https://stevekrouse.com/ends",
+      "summary": "첫아이를 앞둔 프로그래머가 AI 시대 교육의 목적을 고민한 글임. 생계의 기반이던 프로그래밍 능력이 덜 가치 있게 느껴지면서, 수단이 아니라 목적 자체를 가르쳐야 한다는 쪽으로 생각이 옮겨감.",
+      "summary_en": "A programmer expecting his first child reflects on the purpose of education in the AI era, as the programming skill that funded his living starts to feel less valuable."
+    },
+    {
+      "title": "가짜 통계 5만 페이지를 올렸더니 ChatGPT와 논문, 은행 보고서가 인용했다",
+      "title_en": "I published 50,000 pages of fake stats, and ChatGPT, papers, and bank reports cited them",
+      "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+      "summary": "GPT-4.1로 지어낸 통계 페이지 5만 개를 게시한 실험임. 7개월간 ChatGPT 유입 세션 1만 건 이상과 330개 넘는 도메인의 백링크를 확보했고, 논문과 은행 보고서까지 인용함. LLM 인용 신뢰성에 대한 경고로 읽힘.",
+      "summary_en": "An experiment publishing 50,000 GPT-4.1-fabricated statistics pages drew 10k+ ChatGPT referral sessions and backlinks from 330+ domains over 7 months, with citations reaching papers and bank reports."
+    }
+  ]
+}
