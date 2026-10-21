@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-10-21
+> 마지막 업데이트: 2026-10-22
 
-# AI 뉴스 — 2026-10-21
+# AI 뉴스 — 2026-10-22
 
 ## 🔥 GitHub Trending (Python)
 
-- [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search): 내 컴퓨터에서 돌아가는 구직 도우미임. Claude Code 기반으로 채용공고 평가, 이력서 맞춤 수정, 커버레터 작성, 면접 준비까지 해줌.
-- [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI): 그래프/노드 인터페이스를 제공하는 모듈형 디퓨전 모델 GUI·API·백엔드임. 로컬 추론 엔진 중 가장 빠르다고 주장함.
-- [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify): 코드베이스와 문서·SQL 스키마·설정·PDF를 질의 가능한 지식 그래프로 바꿔줌. 벡터 스토어 없이 로컬 AST 파싱만 쓰고 모든 엣지에 근거가 붙음.
-- [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom): 툴 출력·로그·파일·RAG 청크를 LLM에 넣기 전에 압축함. 코딩 에이전트는 토큰 20%, JSON은 60~95% 줄이면서 답은 동일하다고 함.
-- [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins): Anthropic이 공개한 지식 노동자용 플러그인 모음임. Claude Cowork에서 쓰는 걸 주 목적으로 함.
+- [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify): 코드베이스와 문서, SQL 스키마, 설정, PDF를 질의 가능한 지식 그래프로 변환함. Claude Code·Cursor·Codex·Gemini CLI용 /graphify 스킬로, 벡터 스토어 없이 로컬 AST 파싱만으로 모든 엣지를 설명함. 오늘 +1,434 스타.
+- [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI): 그래프/노드 인터페이스를 갖춘 가장 강력하고 모듈화된 디퓨전 모델 GUI·API·백엔드임. 세계에서 가장 빠른 로컬 추론 엔진을 지향함. 오늘 +914 스타.
+- [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos): 금융 시장의 언어를 다루는 파운데이션 모델임. 시장 데이터를 토큰 시퀀스로 보고 사전학습하는 방식임. 오늘 +570 스타.
+- [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom): 툴 출력·로그·파일·RAG 청크를 LLM에 닿기 전에 압축함. 코딩 에이전트는 토큰 20% 절감, JSON은 60~95% 절감하면서 답변 품질은 유지됨. 라이브러리·프록시·MCP 서버로 제공됨. 오늘 +477 스타.
+- [vllm-project/vllm](https://github.com/vllm-project/vllm): LLM용 고처리량·메모리 효율 추론 및 서빙 엔진임. PagedAttention으로 KV 캐시를 관리해 처리량을 끌어올림. 오늘 +439 스타.
 
 ## 📄 Hugging Face Papers
 
-- [뇌 인코딩을 위한 파라미터 효율 파인튜닝 스케일링](https://huggingface.co/papers/2610.26802)
-  LoRA 같은 저랭크 어댑터로 초대형 멀티모달 백본을 뇌 인코딩에 적응시킴. 연산량을 줄이면서 성능과 해석 가능성을 동시에 올림.
-- [OR-License: LLM 에이전트를 실무 OR 전문가로 평가하기](https://huggingface.co/papers/2610.24087)
-  실제 고객 자료를 그대로 던져주고 LLM 에이전트가 OR(경영과학) 문제를 푸는지 평가함. 목적함수 품질은 높게 내는 모델도 있지만, 실현 가능성·배포 품질에선 전문가 수준에 못 미침.
-- [EgoXperience: 사람 경험에서 월드 기반 1인칭 표현 학습](https://huggingface.co/papers/2610.26625)
-  1인칭 영상에서 카메라 움직임·장면 기하·손·물체를 한 번에 복원하는 통합 프레임워크임. 자동 어노테이션한 대규모 데이터로 싱글패스 모델을 학습함.
-- [MemT-1.0: 메모리 네이티브 진화를 향하여](https://huggingface.co/papers/2610.26825)
-  연속적 메모리를 파운데이션 모델 연산 자체에 심은 메모리 네이티브 아키텍처임. 긴 컨텍스트 효율과 에이전트 작업 성능이 같이 좋아짐.
-- [Holi-World: 1인칭 인간 경험으로 쌓는 총체적 월드 인텔리전스](https://huggingface.co/papers/2610.26549)
-  1인칭 녹화 영상에서 대규모 학습 리소스를 자동 구축하는 통합 생태계임. 동적인 장면과 상호작용에 대한 기계 이해를 끌어올리는 게 목표임.
+- [집중 지각을 적용한 옴니모달 GUI 에이전트 (FocusGUI)](https://huggingface.co/papers/2610.26203)
+  스크린샷·오디오·영상·조작 이력을 모두 매 스텝에 똑같이 던져주면 직전에 중요했던 신호가 다음 스텝에선 잡음이 됨. 이 오류가 누적되며 궤적이 되돌릴 수 없게 어긋나는 현상을 '순차적 산만(Sequential Distraction)'으로 정의함. FocusGUI는 경량 어댑터로 스텝마다 멀티모달 채널 우선순위를 동적으로 조정하고, 핵심 근거만 압축한 잠재 벡터를 고정된 디코더 임베딩에 주입해 모델을 건드리지 않고 주의를 유도함.
+- [Matrix-Game 4.0: 비디오 모델로 실시간 플레이 가능한 게임 월드 만들기](https://huggingface.co/papers/2610.27999)
+  조작 가능한 영상에서 진짜 플레이되는 월드로 가려면 지속적 월드 상태와 실행 가능한 게임 규칙, 저지연 상호작용이 필요함. 게임 실행과 영상 생성을 실행 가능한 게임 하네스로 분리하는 설계를 제시함. 경량 엔진이 상태와 규칙을 담당하고, 멀티모달 코딩 에이전트가 플레이어 아이디어를 게임 코드와 동적 캡션으로 번역하고, 자기회귀 비디오 모델 렌더러가 저폴리 프록시를 정교한 영상으로 바꿈. 자연어로 장면과 게임플레이를 만들고 수정할 수 있음.
+- [Ropedia W0: 사람의 경험으로 여러 로봇 형태에 걸쳐 이동-조작 월드 모델 확장하기](https://huggingface.co/papers/2610.26855)
+  행동 공간이 제각각이고 멀티모달 지도 데이터가 부족해 이동과 조작을 함께 모델링하기 어려웠음. 사람과 다양한 형태의 로봇을 모두 포괄하는 첫 1인칭 이동-조작 월드 파운데이션 모델임. 사람 1인칭 1만 시간 + 로봇 3천 시간 데이터셋 Xp-Data를 구축하고, 이동은 카메라 포즈로 조작은 투영 스켈레톤으로 통합 표현함. 장기 과제 벤치마크 Xp-Teleop도 함께 공개하며 5개 교차 형태 평가에서 SOTA를 달성함.
+- [PAR: 상태 추적의 길이 일반화를 위한 진행도 정렬 재귀](https://huggingface.co/papers/2610.27628)
+  루프형 언어 모델은 테스트 때 반복을 더 돌릴 수 있지만 그렇다고 더 긴 문제가 풀리진 않음. 최종 정답만 감독하면 반복 한 번이 얼마나 전진해야 하는지 알려주지 못하는 게 원인임. PAR은 k번째 반복의 예측을 첫 k개 연산 이후 상태와 맞추도록 학습시키고 재귀 상태를 첫 반복 노름으로 재조정함. swap-S5에서 32수까지만 학습한 Qwen2.5-0.5B가 512수(16배 길이)에서 전체 상태 정확도 95.5%를 기록함(RLT 55.7%, 명시적 CoT 0.8%).
+- [S-Agent 2.0: 범용 코딩 에이전트로 하는 공간 추론](https://huggingface.co/papers/2610.28354)
+  에이전틱 VLM이 3D 인식 툴로 직접 근거를 모으게 하면서 공간 추론 성능이 크게 올랐지만, 툴이 올바른 값을 돌려줘도 모델이 답을 못 맞히는 경우가 많음. 원시 측정값이 쓸 만한 결론으로 바뀌는 구간이 비어 있다는 진단임. S-Agent 2.0은 기성 범용 코딩 에이전트에 커맨드라인 인식 툴킷을 붙이고, 근거 획득 → 지속적 장면 메모리에 기억 → 평범한 공간 언어로 해석이라는 증거 루프를 닫는 데 인터페이스를 집중시킴.
 
 ## 🦉 GeekNews
 
-- [Google, TPU용 네이티브 PyTorch 백엔드 TorchTPU 오픈소스 공개](https://news.hada.io/topic?id=35728)
-  TPU에서 PyTorch 모델과 연산을 바로 돌리는 백엔드임. TPU용 ATen 커널과 XLA 실행을 최적화하는 컴파일 캐시를 포함하고 torch.compile()과 통합돼 그래프 모드로 실행됨.
-- [Voxtral 3 — 50개 이상 언어 음성 인식 모델과 실시간 음성 에이전트 SDK](https://news.hada.io/topic?id=35725)
-  Mistral이 Voxtral 3 음성 모델군과 음성 에이전트 SDK를 공개함. 인식·추론·도구 호출·합성을 하나의 실시간 스트리밍 파이프라인으로 묶었고, 전사는 50개 언어에 화자 분리까지 지원함.
-- [거부 기능을 제거한 모델이 해킹의 통로가 될 수 있는 이유](https://news.hada.io/topic?id=35709)
-  ProjectDiscovery가 오픈 모델에 백도어를 심어 Codex CLI에서 돌리는 실험에 성공함. 평소엔 정상 응답하다가 특정 문구가 나오면 자격 증명을 외부로 빼돌리고, 트리거가 모델 가중치에 학습돼 있어 탐지가 어려움.
-- [tsrs: TypeScript 컴파일러의 Rust 포트](https://news.hada.io/topic?id=35724)
-  Cloudflare와 VoidZero가 Owner.com의 Max Schwenk와 함께 TypeScript 컴파일러를 Rust로 포팅함. TypeScript 팀과 협력하며 Oxc 툴체인 안에서 키우고 있고, 초기 벤치마크에서 동일 워커 수 기준 속도 이득이 나옴.
-- [가짜 통계를 게시해 LLM의 인용을 얻다](https://news.hada.io/topic?id=35721)
-  GPT-4.1로 만든 허위 통계 페이지 5만 개를 올린 실험 사이트가 7개월간 ChatGPT 유입 세션 1만 건 이상과 330개 넘는 도메인의 링크를 얻음. 구글 검색 노출이 급감한 뒤에도 ChatGPT 인용은 계속됨.
+- [Harness Engineering 101 — Python 약 300줄로 배우는 AI 에이전트 구현](https://github.com/IsuruMaduranga/harness-engineering-101)
+  프레임워크나 SDK 없이 순수 Python 300줄로 AI 에이전트를 직접 만들며 작동 원리를 익히는 입문서임. HTTP 요청부터 시작해 16개 장에 걸쳐 실습으로 쌓아올림. 에이전트 내부가 블랙박스로 느껴질 때 보기 좋음.
+- [Anatomy — 기술 개념을 움직이는 입체 도해로 만드는 AI 에이전트 스킬](https://github.com/wheresryan22/anatomy)
+  문서·블로그·교육 자료용 인터랙티브 입체 도해를 코딩 에이전트로 제작하는 스킬임. 캐시, 커넥션 풀, 요청 제한처럼 말로는 설명이 길어지는 개념을 실제로 움직이는 그림으로 보여줌.
+- [Ask HN: AI가 작성한 코드를 이해하지 못한 채 배포하는 문제, 어떻게 대처하시나요?](https://news.ycombinator.com/item?id=50151036)
+  Meta 엔지니어의 글에 공감한 개발자가 던진 질문임. AI가 쓴 코드를 충분히 이해하지 못한 상태로 배포하는 상황을 다른 엔지니어들은 어떻게 다루는지 묻고, 댓글에 각자의 리뷰 기준과 방어선이 쌓임.
+- [AI 시대, 아들에게 무엇을 가르쳐야 할까?](https://stevekrouse.com/ends)
+  첫아이를 앞둔 프로그래머가 AI 시대 교육의 목적을 고민한 글임. 생계의 기반이던 프로그래밍 능력이 덜 가치 있게 느껴지면서, 수단이 아니라 목적 자체를 가르쳐야 한다는 쪽으로 생각이 옮겨감.
+- [가짜 통계 5만 페이지를 올렸더니 ChatGPT와 논문, 은행 보고서가 인용했다](https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web)
+  GPT-4.1로 지어낸 통계 페이지 5만 개를 게시한 실험임. 7개월간 ChatGPT 유입 세션 1만 건 이상과 330개 넘는 도메인의 백링크를 확보했고, 논문과 은행 보고서까지 인용함. LLM 인용 신뢰성에 대한 경고로 읽힘.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-10-21](data/2026-10-21.md)
 - [2026-10-20](data/2026-10-20.md)
 - [2026-10-19](data/2026-10-19.md)
 - [2026-10-18](data/2026-10-18.md)
@@ -69,4 +70,3 @@
 - [2026-09-20](data/2026-09-20.md)
 - [2026-09-19](data/2026-09-19.md)
 - [2026-09-18](data/2026-09-18.md)
-- [2026-09-17](data/2026-09-17.md)
