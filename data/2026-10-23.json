@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-23",
+  "github_trending": [
+    {
+      "name": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "description": "코드베이스와 문서, SQL 스키마, 설정, PDF를 질의 가능한 지식 그래프로 변환하는 도구임. Claude Code·Cursor·Codex·Gemini CLI용 /graphify 스킬로, 벡터 스토어 없이 로컬 AST 파싱만으로 모든 엣지를 설명함. 오늘 +1,407 스타.",
+      "description_en": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store."
+    },
+    {
+      "name": "headroomlabs-ai/headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "description": "툴 출력·로그·파일·RAG 청크를 LLM에 도달하기 전에 압축함. 코딩 에이전트는 토큰 20% 절감, JSON은 60~95% 절감하면서 답변 품질은 동일함. 라이브러리·프록시·MCP 서버 형태로 제공됨. 오늘 +552 스타.",
+      "description_en": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server."
+    },
+    {
+      "name": "vllm-project/vllm",
+      "url": "https://github.com/vllm-project/vllm",
+      "description": "LLM 추론·서빙 엔진임. 높은 처리량과 메모리 효율을 동시에 달성함. 오늘 +469 스타.",
+      "description_en": "A high-throughput and memory-efficient inference and serving engine for LLMs."
+    },
+    {
+      "name": "luongnv89/claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "description": "Claude Code 입문부터 고급 에이전트까지 다루는 시각적 예제 중심 가이드임. 바로 쓸 수 있는 복붙 템플릿을 제공함. 오늘 +370 스타.",
+      "description_en": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value."
+    },
+    {
+      "name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "Claude Cowork에서 지식 노동자가 쓰도록 만든 플러그인 오픈소스 저장소임. Anthropic이 직접 운영함. 오늘 +303 스타.",
+      "description_en": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "StreamEval: 인터랙티브 스트리밍 영상 생성 모델 평가 벤치마크",
+      "title_en": "StreamEval: Evaluating Interactive Streaming Video Generation Models",
+      "url": "https://huggingface.co/papers/2610.28402",
+      "summary": "실시간 상호작용이 가능한 스트리밍 영상 생성을 평가하는 통합 벤치마크임. 아바타 대화·아바타 퍼포먼스·월드 생성·지시 편집·레퍼런스 편집 5개 태스크를 다루고, 15~300초 길이의 스크립트 테스트 케이스 300개로 구성됨. 태스크 수행·상태 일관성·시각 충실도·시청각 조화 4개 축에서 10개 지표로 0~100점 평가함. 모델 37종을 돌려보니 화질과 신원 유지가 좋아도 상태 변화 추적은 약하다는 점이 드러남.",
+      "summary_en": "A unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. 300 scripted test cases (15-300s) assessed on task execution, state consistency, visual fidelity, and audiovisual coordination via ten metrics. Evaluating 37 models shows high visual quality does not imply reliable state tracking."
+    },
+    {
+      "title": "SpatialScout: VLM 에이전트가 3D 장면을 능동적으로 탐색하고 지도화할 수 있는가?",
+      "title_en": "SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?",
+      "url": "https://huggingface.co/papers/2610.26659",
+      "summary": "VLM 에이전트의 객체 단위 능동 3D 매핑 능력을 평가하는 벤치마크임. 실내 장면 80개와 타깃 객체 3,140개로 구성되고, 에이전트는 객체 목록·RGB 관측·카메라 캘리브레이션·포즈를 받아 카메라를 직접 조작해 장면을 탐색하고 공유 좌표계에서 객체 중심 위치를 추정함. 제한된 상호작용 예산 안에서 시점 선택·뷰 간 연결·기하 추정·지도 수정을 동시에 조율해야 하는 과제임.",
+      "summary_en": "A benchmark evaluating VLM agents on active object-level 3D mapping: 80 indoor scenes with 3,140 target objects. Agents control a camera to explore each scene and estimate object centers in a shared coordinate frame, coordinating viewpoint selection, cross-view association, geometric estimation, and map revision under bounded interaction budgets."
+    },
+    {
+      "title": "Cache Engineering for Agents — 에이전트를 위한 KV 캐시 엔지니어링",
+      "title_en": "Cache Engineering for Agents",
+      "url": "https://huggingface.co/papers/2610.28577",
+      "summary": "LLM 에이전트의 궤적이 길어지면 KV 캐시 I/O와 저장 비용이 지배적이 됨. 기존 컨텍스트 엔지니어링은 히스토리를 자르거나 요약해 캐시를 줄이지만, 궤적 앞부분을 수정하면 뒤쪽 캐시가 무효화돼 재프리필 비용이 크게 발생함. 이 논문은 궤적을 바꾸지 않고 에이전트가 활성 KV 캐시를 직접 제어하는 '캐시 엔지니어링'을 제안함. 재프리필 없이 캐시 증가를 능동적으로 관리할 수 있음.",
+      "summary_en": "As agent trajectories grow, KV cache I/O and storage dominate cost. Context engineering trims or summarizes history, but modifying the trajectory prefix invalidates subsequent cached states and triggers costly re-prefilling. The paper proposes cache engineering: agents directly control their active KV cache without modifying the trajectory or re-prefilling retained context."
+    },
+    {
+      "title": "DONIC: 사람 시연으로 배우는 범용 양손 정교 조작 추적 제어",
+      "title_en": "DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonstrations",
+      "url": "https://huggingface.co/papers/2610.29997",
+      "summary": "기존 정교 조작 추적 모델이 대부분 한 손에 치우쳐 있어, 실생활에서 흔한 양손 동작을 다루지 못하는 문제를 겨냥함. 조작 카테고리와 사람 동작 소스를 함께 학습한 최초의 범용 양손 트래커 DONIC과, 객체 229종·시퀀스 1,575개로 접촉이 지속되는 양손 상호작용에 집중한 멀티뷰 데이터셋 BiHOI를 함께 공개함. PPO와 행동 복제를 피드백 루프로 결합함.",
+      "summary_en": "Addresses the gap that dexterous reference tracking models focus on single-hand manipulation. Presents DONIC, the first generalist bimanual tracker jointly trained across operation categories and human-motion sources, plus BiHOI, a multi-view dataset of 1,575 sequences spanning 229 objects. DONIC combines proximal policy optimization with behavioral cloning in a feedback loop."
+    },
+    {
+      "title": "Looking Ahead: 자기회귀 영상 생성에서 미래 변화를 모델링하기",
+      "title_en": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
+      "url": "https://huggingface.co/papers/2610.29989",
+      "summary": "자기회귀 영상 확산 모델은 청크 단위로 영상을 만드는데, 그럴듯한 연속 프레임을 뽑는 것과 장면이 실제로 어떻게 변하는지 포착하는 것은 다른 문제임. 티처 포싱 학습에서는 시간적 중복성 때문에 국소적 시각 연속성이 손쉬운 지름길이 되어 변화 모델링 압력이 줄어듦. 중간 맥락 없이 시간적으로 떨어진 청크를 예측하는 보조 목표 FCP를 제안함. 추가 사전학습 인코더가 필요 없고 추론 방식도 그대로이며, 더 적은 학습 연산으로 물리적 타당성이 개선됨.",
+      "summary_en": "Autoregressive video diffusion models generate chunk by chunk, but plausible continuations do not guarantee capturing scene evolution. Under teacher forcing, temporal redundancy lets local visual continuity act as a shortcut. The paper introduces Future Chunk Prediction (FCP), an auxiliary objective predicting temporally separated chunks without intervening context — no extra pretrained encoder, unchanged inference, better physical plausibility at lower training compute."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "PHP, 원격 코드 실행 가능한 치명적 취약점 2건 수정 — 즉시 업데이트 권고",
+      "title_en": "PHP patches two critical remote code execution vulnerabilities, immediate update urged",
+      "url": "https://news.hada.io/topic?id=35759",
+      "summary": "PHP가 인증 없이 원격 코드 실행이 가능한 취약점 2개를 수정한 보안 릴리스를 공개함. PHP-FPM 관련 결함이 포함돼 있고, 모든 PHP 사용자에게 즉시 업데이트를 강력히 권고함. 각국 보안당국도 긴급 패치 적용을 권고 중임.",
+      "summary_en": "PHP released a security update fixing two unauthenticated remote code execution vulnerabilities, including PHP-FPM related flaws. All PHP users are strongly urged to update immediately; national security agencies are also recommending urgent patching."
+    },
+    {
+      "title": "한국의 신규 AI 파생 모델 절반 가까이가 중국 Qwen 기반임",
+      "title_en": "Nearly half of Korea's new derivative AI models are built on China's Qwen",
+      "url": "https://news.hada.io/topic?id=35785",
+      "summary": "2026년 1~8월 Hugging Face에 공개된 한국 계정의 신규 언어모델 1,845건 중 49.3%가 중국 모델 기반임. 확산을 주도한 것은 알리바바 Qwen이고, 국내 AI 생태계의 해외 베이스 모델 의존도가 그대로 드러남.",
+      "summary_en": "Of 1,845 new language models published by Korean accounts on Hugging Face between January and August 2026, 49.3% were derived from Chinese base models — led by Alibaba's Qwen, exposing Korea's dependence on foreign base models."
+    },
+    {
+      "title": "2026년 JavaScript 동향",
+      "title_en": "JavaScript trends in 2026",
+      "url": "https://news.hada.io/topic?id=35745",
+      "summary": "네이버 D2가 2020년 이후 6년 만에 재개한 JavaScript 동향 연재임. ECMAScript 표준 변화, TypeScript 7, 서버 런타임, 패키지 공급망 보안까지 생태계 전반을 짚음.",
+      "summary_en": "Naver D2 resumed its JavaScript trends series after six years, covering ECMAScript standard changes, TypeScript 7, server runtimes, and package supply-chain security."
+    },
+    {
+      "title": "CSS의 미래 — Interop 2027에서 기대하는 10가지 기능",
+      "title_en": "The future of CSS — 10 features to expect in Interop 2027",
+      "url": "https://news.hada.io/topic?id=35743",
+      "summary": "브라우저 호환성 개선 프로젝트 Interop 2027의 후보 기능 10가지를 활용 예제와 함께 소개함. CSS 사용자 정의 함수부터 height: auto 애니메이션까지 포함됨.",
+      "summary_en": "Introduces ten candidate features of Interop 2027, the browser compatibility initiative, with usage examples — from CSS custom functions to animating height: auto."
+    },
+    {
+      "title": "PHP2Shell — AI로 PHP의 오래된 취약점을 실제 공격으로 구현",
+      "title_en": "PHP2Shell — Using AI to weaponize a decade-old PHP vulnerability",
+      "url": "https://news.hada.io/topic?id=35761",
+      "summary": "Wiz Research가 AI를 활용해 PHP에 10년 이상 남아 있던 복잡한 취약점을 실제 원격 공격으로 구현함. 여러 결함을 연결하고 대상 환경에 맞춰 공격을 조정하는 과정에 AI를 투입함. 위 PHP 보안 릴리스와 맞물리는 사례임.",
+      "summary_en": "Wiz Research used AI to turn a complex PHP vulnerability that had persisted for over a decade into a working remote exploit, chaining multiple flaws and tailoring the attack to the target environment — directly related to the PHP security release above."
+    }
+  ]
+}
