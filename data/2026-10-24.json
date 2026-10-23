@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-24",
+  "github_trending": [
+    {
+      "name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "Claude Cowork에서 지식 노동자가 쓰도록 만든 플러그인 오픈소스 저장소임. Anthropic이 직접 운영함. 어제 1위였다가 오늘 트렌딩 최상단으로 올라옴. 오늘 +643 스타.",
+      "description_en": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork."
+    },
+    {
+      "name": "SnailSploit/Claude-Red",
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "description": "Claude 스킬 시스템용 공격 보안(offensive security) 스킬 라이브러리임. 각 스킬이 SKILL.md 구조 파일로 되어 있고, SQLi부터 셸코드, EDR 회피, 익스플로잇 개발까지 공격 표면별 전문가 수준 방법론을 Claude에 주입함. 오늘 +209 스타.",
+      "description_en": "A curated library of offensive security skills for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development."
+    },
+    {
+      "name": "OpenBMB/VoxCPM",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "description": "VoxCPM2는 토크나이저가 필요 없는 TTS 모델임. 다국어 음성 생성과 창의적 음색 설계, 실제에 가까운 음성 복제를 지원함. 오늘 +144 스타.",
+      "description_en": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning."
+    },
+    {
+      "name": "baidu/Unlimited-OCR",
+      "url": "https://github.com/baidu/Unlimited-OCR",
+      "description": "Baidu가 공개한 OCR 프로젝트임. 긴 문서를 한 번에 파싱하는 one-shot long-horizon 방식을 내세움. 오늘 +93 스타.",
+      "description_en": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing."
+    },
+    {
+      "name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "멀티 에이전트 LLM 금융 트레이딩 프레임워크임. 여러 에이전트가 역할을 나눠 시장 분석과 매매 판단을 수행함. 오늘 +498 스타.",
+      "description_en": "TradingAgents: Multi-Agents LLM Financial Trading Framework."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "WeVisOne-VL: 객체 단위에서 픽셀 단위까지 통합한 시각 인식 모델",
+      "title_en": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
+      "url": "https://huggingface.co/papers/2610.31329",
+      "summary": "기존 VLM이 세밀한 시각 인식에서 신뢰도가 낮은 문제를 겨냥함. 구조화된 next-token 예측으로 객체 단위와 픽셀 단위 인식을 하나로 묶은 모델임. 객체 검출·참조 위치 지정·카운팅·OCR·세그멘테이션·매팅을 모두 지원하고, 점·박스부터 마스크·알파 매트까지 사용자가 원하는 입도로 위치를 지정할 수 있음. <OBJ> 특수 토큰으로 경량 픽셀 디코더를 VLM에 붙이고, 3단계 커리큘럼 SFT 후 혼합 태스크 RL로 학습함. 30개 이상 벤치마크에서 선두 성능을 냈고, 객체가 없는 질의는 안정적으로 거부함. 오픈소스로 공개됨.",
+      "summary_en": "Addresses VLMs' unreliability on fine-grained visual perception by unifying object-level and pixel-level perception through structured next-token prediction. Supports detection, referring localization, counting, OCR, segmentation, and matting at any user-specified granularity. A lightweight pixel decoder is integrated via a special <OBJ> token; trained with three-stage curriculum SFT then mixed-task RL. Leads on 30+ benchmarks while robustly rejecting object-absent queries."
+    },
+    {
+      "title": "IQuest-Q1: 에이전트형 CLI 시스템을 위한 320B MoE 파운데이션 모델",
+      "title_en": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+      "url": "https://huggingface.co/papers/2610.30949",
+      "summary": "총 320B 파라미터에 활성 15B인 희소 MoE 에이전트 파운데이션 모델임. 3단계로 개발됨. 먼저 Stable SplitNorm·Muon·muP를 결합한 안정적 사전학습에 2단계 커리큘럼을 써서 두 번째 단계에서 코딩 데이터 비중을 올리고, 안전 학습률과 최적 학습률 사이 안정 마진을 넓게 유지함. 다음으로 도메인·포맷을 넓히고 컨텍스트를 점진적으로 늘리는 중간 학습을 거침. 마지막으로 SFT와 도메인 특화 RL, MOPD를 여러 스캐폴드에 걸쳐 조합해 에이전트형 코딩 능력을 강화함. 단계별 전문가와 체크포인트를 병합할 때 파라미터 업데이트 충돌을 완화함.",
+      "summary_en": "A sparse Mixture-of-Experts agentic foundation model with 320B total parameters (15B activated), built in three stages: stable pre-training combining Stable SplitNorm, Muon and muP with a two-stage curriculum that raises the coding-data mixture; fine-grained mid-training expanding domains, formats and context; and multi-scaffold post-training combining SFT, domain-specialized RL and MOPD. Model merging combines experts and checkpoints while mitigating parameter-update conflicts."
+    },
+    {
+      "title": "Deep Search in Real-World Web Environments — 실제 웹 환경에서의 딥서치 평가",
+      "title_en": "Deep Search in Real-World Web Environments",
+      "url": "https://huggingface.co/papers/2610.30181",
+      "summary": "딥서치 에이전트가 많이 발전했지만, 실제 열린 웹에서 처음부터 끝까지 리서치를 수행하는 능력은 제대로 평가되지 않았다는 문제의식임. 정적 검색 설정과 달리 실제 웹 정보는 소스·모달리티·포맷이 제각각이고 복잡한 상호작용을 요구함. 라이브 웹에서 다단계 딥서치 능력을 재는 OpenDS 태스크를 제안함. 에이전트는 웹 검색과 브라우저 조작, 증거 처리를 거쳐 독립된 여러 출처의 근거를 스스로 찾아 연결하고 유일한 사실 답을 확정해야 함. 이를 바탕으로 OpenDS-World 벤치마크를 구축함.",
+      "summary_en": "Argues that Deep Search agents' end-to-end research ability in real, open Web environments is insufficiently evaluated. Introduces the OpenDS task for multi-step deep search on the live Web, requiring agents to autonomously explore, discover and connect evidence from multiple independent sources via search, browser interaction and evidence processing to reach a unique factual answer, plus the OpenDS-World benchmark."
+    },
+    {
+      "title": "LayerEditor: 이미지를 재사용 가능한 레이어로 편집하기",
+      "title_en": "Editing Images into Reusable Layers via Compositional Edit-Prior Distillation",
+      "url": "https://huggingface.co/papers/2610.24738",
+      "summary": "고품질 이미지 편집은 대상 영역만 정확히 바꾸고 나머지는 그대로 보존해야 함. 기존 편집 모델은 결과를 납작하게 합쳐 내보내서 국소 조작과 레이어 재사용이 어렵고, 분해 기법은 레이어 복원을 편집과 따로 최적화함. 지시 기반 편집과 재사용 가능한 RGBA 레이어 생성을 하나로 묶은 LayerEditor를 제안함. 편집된 캔버스와 순서가 있는 RGB-Alpha 레이어를 한 토큰 시퀀스로 함께 표현해, 의미적 편집과 개별 레이어 내용 제어를 동시에 가능하게 함. 사전학습 모델의 편집 능력을 유지하도록 Compositional Edit-Prior Distillation을 씀.",
+      "summary_en": "Existing editing models produce flattened outputs limiting local manipulation and layer reuse, while decomposition methods optimize layer recovery separately from editing. LayerEditor couples instruction-guided editing with controllable generation of reusable RGBA layers via In-Context RGB-Alpha Token Modeling, and uses Compositional Edit-Prior Distillation to retain the pretrained model's editing capability."
+    },
+    {
+      "title": "MLLM 잠재표현을 제대로 쓰기 — 영화적 영상 생성을 위한 요인 인식 예측 학습",
+      "title_en": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+      "url": "https://huggingface.co/papers/2610.30926",
+      "summary": "영화적 영상 생성은 희소한 입력에서 시간적 추론을 하면서 캐릭터·장면·액션·카메라를 각각 제어해야 함. MLLM이 두 능력에 유용한 사전지식을 주지만, Video DiT가 자체 조건 경로로 이를 우회해버려 자동으로 활용되지 않는 문제가 있음. FAPL은 먼저 MLLM 잠재표현을 실제로 쓰게 만드는 것을 공통 전제로 세우고, 두 능력을 보완적 학습 신호로 각각 공략함. MLLM과 커넥터를 동결한 상태로 DiT를 학습시켜 잠재표현 활용을 강화하고, 요인별 제어는 짝지어진 영상으로 학습함.",
+      "summary_en": "Cinematic video generation needs temporal inference from sparse inputs plus factor-aware control of character, scene, action and camera. MLLM priors are not automatically actionable because a Video DiT may bypass them via native conditioning. FAPL first establishes effective MLLM latent use as a shared prerequisite, using latent-only generator grounding with a frozen MLLM and connector, then targets factor-aware control with paired videos."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "지능을 전기처럼 쓰는 시대 — AI 네이티브 핸드북 2026 (407p)",
+      "title_en": "The age of intelligence as a utility — AI Native Handbook 2026 (407p)",
+      "url": "https://news.hada.io/topic?id=35846",
+      "summary": "AI를 전제로 제품과 업무, 조직을 어떻게 다시 설계할지 다루는 407페이지 핸드북임. 개발자와 경영자, 정책 담당자부터 일반 직장인까지를 대상으로 삼고, AI 테스팅과 신뢰성 국제표준까지 범위에 넣음.",
+      "summary_en": "A 407-page handbook on redesigning products, work and organizations on the assumption of AI, aimed at developers, executives, policymakers and general office workers, and covering AI testing and international reliability standards."
+    },
+    {
+      "title": "Google의 Rust 스타일 가이드",
+      "title_en": "Google's Rust style guide",
+      "url": "https://news.hada.io/topic?id=35789",
+      "summary": "Google이 Rust 코드의 가독성과 유지보수성, 코드베이스 전반의 일관성을 위해 포맷뿐 아니라 API와 구현 설계까지 규정한 가이드임. 일반적인 Rust 관례를 따르면서도 사내 기준을 추가로 명시함.",
+      "summary_en": "Google's guide prescribing not just formatting but API and implementation design for Rust, aimed at readability, maintainability and codebase-wide consistency, while following common Rust conventions."
+    },
+    {
+      "title": "Parquet가 현대 데이터 엔지니어링을 지배하는 이유 (영상)",
+      "title_en": "Why Parquet dominates modern data engineering (video)",
+      "url": "https://news.hada.io/topic?id=35843",
+      "summary": "Parquet는 같은 열의 값을 모아 저장하는 파일 형식이어서, 대규모 데이터에서 필요한 열만 빠르게 읽을 수 있음. CSV처럼 모든 줄을 훑고 텍스트를 숫자로 변환하는 비용이 들지 않는 점이 핵심 차이임.",
+      "summary_en": "Parquet stores values column-wise, so large-scale queries can read only the needed columns quickly — avoiding the cost of scanning every row and converting text to numbers as CSV requires."
+    },
+    {
+      "title": "datapitfalls — 차트뿐 아니라 데이터 분석 전 과정의 함정을 찾는 도구",
+      "title_en": "datapitfalls — a tool for spotting pitfalls across the whole data analysis process, not just charts",
+      "url": "https://news.hada.io/topic?id=35842",
+      "summary": "데이터 분석자와 보고서 작성자를 위해 질문 설정부터 수집, 변환, 분석, 해석, 전달까지 오류와 편향을 점검하는 도구임. 축을 잘라낸 차트 같은 시각화 함정만이 아니라 분석 파이프라인 전 단계를 다룸.",
+      "summary_en": "A tool that checks for errors and bias across the full analysis pipeline — question framing, collection, transformation, analysis, interpretation and communication — not only visualization pitfalls like truncated axes."
+    },
+    {
+      "title": "한국의 신규 AI 파생 모델 절반 가까이가 중국 Qwen 기반임",
+      "title_en": "Nearly half of Korea's new derivative AI models are built on China's Qwen",
+      "url": "https://news.hada.io/topic?id=35785",
+      "summary": "2026년 1~8월 Hugging Face에 공개된 한국 계정 신규 언어모델 1,845건 중 49.3%가 중국 모델 기반임. 확산을 주도한 건 알리바바 Qwen으로, 국내 AI 생태계의 해외 베이스 모델 의존도가 수치로 드러남.",
+      "summary_en": "Of 1,845 new language models published by Korean accounts on Hugging Face from January to August 2026, 49.3% derive from Chinese base models — led by Alibaba's Qwen."
+    }
+  ]
+}
