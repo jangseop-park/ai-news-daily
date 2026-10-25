@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-10-25
+> 마지막 업데이트: 2026-10-26
 
-# AI 뉴스 — 2026-10-25
+# AI 뉴스 — 2026-10-26
 
 ## 🔥 GitHub Trending (Python)
 
-- [aws/agent-toolkit-for-aws](https://github.com/aws/agent-toolkit-for-aws): AWS가 공식 지원하는 MCP 서버·skills·플러그인 모음임. AI 에이전트가 AWS 위에서 인프라를 만들고 운영하도록 돕는 공식 툴킷임.
-- [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto): Claude Code를 기초 개념부터 고급 에이전트까지 예제 중심으로 시각화해 설명하는 가이드임. 바로 복붙해 쓸 수 있는 템플릿을 제공함.
-- [jbiaojerry/ebook-treasure-chest](https://github.com/jbiaojerry/ebook-treasure-chest): 문학·경영·자기계발·기술 매뉴얼 등 각종 전자책 다운로드 링크를 모아둔 중국어 저장소임. 여러 독서 앱의 전자책 대부분을 아우른다고 함.
-- [pollen-robotics/microduck_rl](https://github.com/pollen-robotics/microduck_rl): Pollen Robotics의 소형 이족 로봇 Microduck용 강화학습(RL) 훈련 환경임. mjlab(MuJoCo 기반) 위에서 보행 정책을 학습함.
-- [agentskills/agentskills](https://github.com/agentskills/agentskills): Agent Skills의 공식 명세와 문서 저장소임. SKILL.md 기반 스킬 포맷을 여러 에이전트가 공통으로 쓰도록 표준화하는 프로젝트임.
+- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio): 완전 로컬로 돌아가는 오픈소스 ElevenLabs 대안임. 음성 복제·음성 디자인·영상 더빙·받아쓰기·전사·오디오북 제작을 646개 언어로 지원함. 하루 1,500개 넘는 star를 받음.
+- [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo): Claude Code용 범용 SEO skill임. 26개 하위 skill과 19개 sub-agent로 기술 SEO, E-E-A-T, schema, GEO/AEO, llms.txt·WebMCP 등 에이전트 대응까지 다룸. PDF/Excel 리포트 생성도 지원함.
+- [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps): AI 에이전트·Agent Skills·RAG 앱 100개 이상을 모은 무료 오픈소스 예제 모음임. 바로 실행해 보며 LLM 앱 구조를 익히기 좋음.
+- [browser-use/video-use](https://github.com/browser-use/video-use): browser-use 팀이 만든, 코딩 에이전트로 영상을 편집하는 도구임. 자연어 지시만으로 컷 편집·자막 등 영상 작업을 에이전트가 수행함.
+- [apirrone/Open_Duck_Mini](https://github.com/apirrone/Open_Duck_Mini): Disney의 BDX 드로이드를 소형으로 재현하는 오픈소스 이족보행 로봇 프로젝트임. 하드웨어 설계와 강화학습 기반 보행 제어 코드를 함께 공개함.
 
 ## 📄 Hugging Face Papers
 
-- [생성이 아는 것: 통합 멀티모달 모델에서 세밀한 이해 능력 끌어내기](https://huggingface.co/papers/2610.23987)
-  통합 멀티모달 모델(UMM)의 생성 경로가 보존하는 풍부한 시각 정보를 이해(understanding)에 직접 활용하는 방법을 체계적으로 탐구함. 생성적 감독이나 명시적 이미지 생성 없이도 국소 속성·공간 관계 같은 세밀한 시각 이해 성능을 끌어올림.
-- [FilmFlow: 3D 가상 영화 촬영을 위한 에이전트 시스템](https://huggingface.co/papers/2610.30753)
-  자연어 지시나 레퍼런스 영상을 동적 3D 환경용 카메라 궤적으로 변환하는 에이전트 프레임워크임. Director 에이전트가 동시 실행 가능한 원자 동작들을 조합해 실행 가능한 카메라 플랜을 만들고, 복잡한 카메라 무빙을 제어 가능하게 함.
-- [Agent Mosaic: 에이전트형 LLM 시스템의 기밀 유출 인식](https://huggingface.co/papers/2610.30418)
-  LLM 에이전트가 여러 문서의 정보를 조합해 민감한 결론을 노출하는 '모자이크 효과'를 정량화함. 사이버보안·의료·군사 합성 사례 30개로 10,800개 답변과 실제 오픈소스 하네스 1,440개 답변을 분석했는데, 무해한 질의에서도 기밀이 새는 경우가 많았음.
-- [과제마다 다른 타임스텝: 확산 언어모델을 위한 시간·과제 인지 양자화](https://huggingface.co/papers/2610.31198)
-  확산 언어모델(DLM)의 양자화 민감도가 과제와 디노이징 단계에 따라 달라진다는 점을 밝힘. 정답 라벨 없이도 이 패턴을 예측할 수 있음을 보이고, 과제·시간 인지 혼합정밀도 양자화 기법 T²Quant를 제안함.
-- [RTAformer: 비디오 장면 그래프 생성을 위한 관계 전이 인지 Transformer](https://huggingface.co/papers/2610.20091)
-  비디오 장면 그래프 생성(VidSGG)에서 프레임 간 일관성을 과하게 강조하면 관계가 바뀌어도 이전 예측을 유지하는 실패가 생긴다는 점을 지적함. 객체 정체성의 지속성과 관계의 급격한 전이를 함께 모델링하는 Transformer를 제안함.
+- [EvalResearchBench: AI 에이전트가 재귀적 자기개선을 위한 피드백을 스스로 설계할 수 있는가?](https://huggingface.co/papers/2610.04184)
+  재귀적 자기개선(RSI)은 평가 피드백에 의존하지만 복잡한 벤치마크를 반복 실행하는 비용이 큼. 에이전트가 시간·API 예산 안에서 벤치마크 부분집합이나 압축 평가 세트를 직접 설계하는 '평가 연구' 능력을 측정하는 벤치마크 ERB를 제안함.
+- [RIDAR: 자율 연구 에이전트의 연구 윤리 위반 자동 탐지 및 실시간 개입](https://huggingface.co/papers/2610.31372)
+  자율 연구 에이전트가 재현성·타당성을 해치는 연구 무결성 위반(RIV)을 저지르기 쉽다는 문제를 다룸. 연구 전 과정에 걸친 14개 RIV 유형 분류체계 RIVT를 만들고, 궤적 사후 탐지와 실행 중 개입을 하는 RIDAR 프레임워크를 제안함.
+- [BrickWright: 물리적으로 조립 가능한 브릭 구조물의 에이전트 기반 생성](https://huggingface.co/papers/2610.31651)
+  코딩 에이전트가 3D 모델링은 잘하지만 실제 조립 시 부품이 떠 있거나 충돌하는 문제가 있음. 조립·물리 타당성 검증 도구만 쥐여줘도 프롬프트를 따르면서 실제로 조립 가능한 LEGO 구조물을 만들 수 있음을 보임.
+- [LLM-Attacker: 분할·분산 LLM 시스템 프라이버시 평가를 위한 통합 레드팀 프레임워크](https://huggingface.co/papers/2610.22722)
+  분할 언어모델은 입력 텍스트를 클라이언트에 두고 중간 표현만 서버로 보내지만, 이 메시지로 원문을 복원하는 공격이 가능함. 공격자 가정·데이터셋·지표가 제각각이라 비교가 어려운 문제를 해결하려 실험 설정을 기록·재사용하는 통합 평가 프레임워크를 제안함.
+- [확산 언어모델은 과제와 언어에 따라 속도가 달라짐](https://huggingface.co/papers/2610.25835)
+  확산 언어모델은 한 번에 여러 토큰을 생성하지만 토큰당 forward pass 수가 과제마다 크게 다름. 10개 과제를 분석한 결과 입력을 복사·약간 수정하는 텍스트는 저렴하고, 이야기 쓰기 같은 자유 생성은 비용이 큼. 언어별 차이도 확인함.
 
 ## 🦉 GeekNews
 
-- [Docker는 이상하다](https://codeandcake.dev/posts/2026-10-22-docker-is-weird)
-  컨테이너 런타임을 직접 만들어 보며 발견한 Docker의 의외의 동작 방식을 정리한 글임. 하나의 도구처럼 쓰던 기능들이 내부에선 여러 Linux 기능(namespace, cgroup 등)의 조합으로 돌아간다는 점을 짚음.
-- [소프트웨어가 느린 이유는 느린 언어가 아니라 나쁜 설계 때문](https://www.seangoedecke.com/software-is-slow-because-of-bad-design-not-slow-languages/)
-  AI로 프로그램을 C나 Rust로 재작성하는 것보다 설계를 고치는 편이 성능 향상이 훨씬 큰 경우가 많다는 주장임. 대부분의 시간이 DB·네트워크 대기에서 소모되므로 언어보다 구조가 병목이라고 설명함.
-- [LLM으로 훨씬 큰 규모의 소프트웨어 정형 검증이 가능해지고 있음](https://www.anthropic.com/research/formal-verification)
-  Anthropic과 Theorem이 Claude로 오픈소스 라이브러리 123개의 퍼징 진입점 239개를 정형 검증함. 발견한 버그를 고친 뒤 특정 실행 환경·입력 조건에서 정확성을 증명해, 정형 검증의 비용 장벽이 크게 낮아지고 있음을 보여줌.
-- [Idealab.ai - 120만 개 이상의 창업 아이디어를 무료로 제공하는 서비스](https://idealab.ai/)
-  자신의 기술·관심사·자금·지역에 맞는 창업 아이디어를 찾거나 기존 아이디어를 발전시켜 주는 서비스임. 175개 이상 기업을 만든 Idealab의 경험을 바탕으로 120만 개 넘는 아이디어를 무료 공개함.
-- [Dessa - 텍스트 없이 사람의 대화만 듣고 배운 실시간 음성 AI](https://block.xyz/dessa)
-  Block이 텍스트나 사전학습 모델 없이 사람의 음성 대화만으로 처음부터 학습한 실시간 대화 모델 Dessa를 공개함. 말하면서 동시에 상대 말을 듣는 full-duplex 방식이라 끼어들기·맞장구 같은 자연스러운 대화가 가능함.
+- [분산 SQLite의 12년 - rqlite에서 클라우드 서비스까지](https://philipotoole.com/twelve-years-of-distributed-sqlite)
+  2014년 rqlite부터 Litestream, Turso, Cloudflare D1까지 SQLite에 복제·장애 대응을 붙이려는 시도가 약 12개 프로젝트 규모의 분야로 성장한 과정을 rqlite 제작자가 회고함.
+- [Sphinx - AI가 작성한 코드를 이해했는지 푸시 전에 퀴즈로 확인하는 도구](https://github.com/parthh01/sphinx)
+  '생각은 외주를 줄 수 있어도 이해는 외주를 줄 수 없다'는 취지의 Git 도구임. AI가 쓴 코드를 push하기 전에 변경 내용에 대한 질문을 던져 개발자의 이해도를 확인함.
+- [GPU-unlock - RTX 30 시리즈의 AI 연산 성능 제한을 해제하는 Linux 모듈](https://github.com/Zagitta/gpu-unlock)
+  RTX 30 시리즈에 걸린 FP16/BF16 연산 명령 발행 속도 제한을 풀어 전문가용 제품 수준의 처리 속도를 쓰게 해주는 Linux 커널 모듈임. 소비자용 GPU로 로컬 AI를 돌리는 사용자에게 의미 있음.
+- [기술업계 밖에서는 아직 AI 투자 성과가 보이지 않음](https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector)
+  Apollo 분석에 따르면 대규모 AI 투자와 높은 기대에도 미국 기술업계 밖 기업들에선 매출·이익률 개선 증거가 아직 나타나지 않음. AI 생산성 효과가 실물 경제로 번지는 데 시간이 걸린다는 신호임.
+- [구글이 AI 에이전트마다 '컴퓨터 한 대'를 제공하려는 이유](https://cloud.google.com/blog/topics/ai-infrastructure/agent-compute-engine-deep-dive?hl=en)
+  구글이 10월 22일 AI 에이전트 전용 컴퓨팅 인프라 Agent Compute Engine 설계를 공개함. 웹서버 중심이던 클라우드 인프라를, 에이전트마다 격리된 실행 환경(컴퓨터)을 빠르게 띄우는 구조로 바꾸려는 시도임.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-10-25](data/2026-10-25.md)
 - [2026-10-24](data/2026-10-24.md)
 - [2026-10-23](data/2026-10-23.md)
 - [2026-10-22](data/2026-10-22.md)
@@ -69,4 +70,3 @@
 - [2026-09-27](data/2026-09-27.md)
 - [2026-09-26](data/2026-09-26.md)
 - [2026-09-22](data/2026-09-22.md)
-- [2026-09-21](data/2026-09-21.md)
