@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-10-26
+> 마지막 업데이트: 2026-10-27
 
-# AI 뉴스 — 2026-10-26
+# AI 뉴스 — 2026-10-27
 
 ## 🔥 GitHub Trending (Python)
 
-- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio): 완전 로컬로 돌아가는 오픈소스 ElevenLabs 대안임. 음성 복제·음성 디자인·영상 더빙·받아쓰기·전사·오디오북 제작을 646개 언어로 지원함. 하루 1,500개 넘는 star를 받음.
-- [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo): Claude Code용 범용 SEO skill임. 26개 하위 skill과 19개 sub-agent로 기술 SEO, E-E-A-T, schema, GEO/AEO, llms.txt·WebMCP 등 에이전트 대응까지 다룸. PDF/Excel 리포트 생성도 지원함.
-- [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps): AI 에이전트·Agent Skills·RAG 앱 100개 이상을 모은 무료 오픈소스 예제 모음임. 바로 실행해 보며 LLM 앱 구조를 익히기 좋음.
-- [browser-use/video-use](https://github.com/browser-use/video-use): browser-use 팀이 만든, 코딩 에이전트로 영상을 편집하는 도구임. 자연어 지시만으로 컷 편집·자막 등 영상 작업을 에이전트가 수행함.
-- [apirrone/Open_Duck_Mini](https://github.com/apirrone/Open_Duck_Mini): Disney의 BDX 드로이드를 소형으로 재현하는 오픈소스 이족보행 로봇 프로젝트임. 하드웨어 설계와 강화학습 기반 보행 제어 코드를 함께 공개함.
+- [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents): 여러 LLM 에이전트가 애널리스트·트레이더·리스크 관리자 역할을 나눠 맡아 토론하며 매매 결정을 내리는 금융 트레이딩 프레임워크임. 하루 1,300개 넘는 스타를 받으며 다시 급상승함.
+- [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector): Claude Code·Codex·MCP 스킬을 설치 전에 검사하는 NVIDIA의 AI 에이전트 스킬 보안 스캐너임. 프롬프트 인젝션, 데이터 유출, 악성 패턴, 공급망 위험을 탐지함.
+- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): AI 에이전트가 Twitter·Reddit·YouTube·GitHub·Bilibili·XiaoHongShu를 읽고 검색할 수 있게 해주는 단일 CLI임. API 비용 없이 인터넷 전반에 접근하는 게 특징임.
+- [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot): 다양한 메신저 플랫폼·LLM·플러그인을 통합하는 AI 에이전트 어시스턴트 겸 개발 프레임워크임. OpenClaw 대안을 표방함.
+- [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code): Claude Code·Codex·OpenCode 등 10여 개 코딩 하네스를 무료 토큰 기반 멀티 모델로 터미널·IDE·브라우저·폰에서 쓰게 해주는 도구임. 음성 입력도 지원함.
 
 ## 📄 Hugging Face Papers
 
-- [EvalResearchBench: AI 에이전트가 재귀적 자기개선을 위한 피드백을 스스로 설계할 수 있는가?](https://huggingface.co/papers/2610.04184)
-  재귀적 자기개선(RSI)은 평가 피드백에 의존하지만 복잡한 벤치마크를 반복 실행하는 비용이 큼. 에이전트가 시간·API 예산 안에서 벤치마크 부분집합이나 압축 평가 세트를 직접 설계하는 '평가 연구' 능력을 측정하는 벤치마크 ERB를 제안함.
-- [RIDAR: 자율 연구 에이전트의 연구 윤리 위반 자동 탐지 및 실시간 개입](https://huggingface.co/papers/2610.31372)
-  자율 연구 에이전트가 재현성·타당성을 해치는 연구 무결성 위반(RIV)을 저지르기 쉽다는 문제를 다룸. 연구 전 과정에 걸친 14개 RIV 유형 분류체계 RIVT를 만들고, 궤적 사후 탐지와 실행 중 개입을 하는 RIDAR 프레임워크를 제안함.
-- [BrickWright: 물리적으로 조립 가능한 브릭 구조물의 에이전트 기반 생성](https://huggingface.co/papers/2610.31651)
-  코딩 에이전트가 3D 모델링은 잘하지만 실제 조립 시 부품이 떠 있거나 충돌하는 문제가 있음. 조립·물리 타당성 검증 도구만 쥐여줘도 프롬프트를 따르면서 실제로 조립 가능한 LEGO 구조물을 만들 수 있음을 보임.
-- [LLM-Attacker: 분할·분산 LLM 시스템 프라이버시 평가를 위한 통합 레드팀 프레임워크](https://huggingface.co/papers/2610.22722)
-  분할 언어모델은 입력 텍스트를 클라이언트에 두고 중간 표현만 서버로 보내지만, 이 메시지로 원문을 복원하는 공격이 가능함. 공격자 가정·데이터셋·지표가 제각각이라 비교가 어려운 문제를 해결하려 실험 설정을 기록·재사용하는 통합 평가 프레임워크를 제안함.
-- [확산 언어모델은 과제와 언어에 따라 속도가 달라짐](https://huggingface.co/papers/2610.25835)
-  확산 언어모델은 한 번에 여러 토큰을 생성하지만 토큰당 forward pass 수가 과제마다 크게 다름. 10개 과제를 분석한 결과 입력을 복사·약간 수정하는 텍스트는 저렴하고, 이야기 쓰기 같은 자유 생성은 비용이 큼. 언어별 차이도 확인함.
+- [비디오로 세상을 읽고, 쓰고, 공유하고, 상호작용하기](https://huggingface.co/papers/2610.31668)
+  비디오 이해·생성 파운데이션 모델과 비디오 world model을 'world modeling'이라는 하나의 관점으로 묶어 정리한 대형 서베이임. 오늘 upvote 221로 압도적 1위임.
+- [PaperFormalizer: 저자 참여형 연구 논문 Lean 자동 형식화](https://huggingface.co/papers/2610.31810)
+  LaTeX 원고를 명제 의존성 그래프로 옮긴 뒤 Lean으로 검증하는 에이전트 파이프라인임. 저자와 함께 증명의 빈틈과 누락된 가정을 찾아 메우고 논문 전체를 Lean 검증본으로 만듦.
+- [Kolab: 장기 워크플로에서의 인간-에이전트 협업 벤치마크](https://huggingface.co/papers/2610.21109)
+  기존 에이전트 벤치마크가 자동화 성능만 보는 한계를 지적하고, 사람이 계획을 수정하며 함께 일하는 장기 작업에서 에이전트 기여도를 측정하는 벤치마크를 제안함.
+- [MMVistaReason: 멀티모달 추론을 위한 오픈 데이터·후학습 레시피](https://huggingface.co/papers/2610.01352)
+  데이터 품질 편차, 난이도 불균형, 도메인 간 간섭 문제를 다루는 멀티모달 추론 모델용 오픈 데이터 후학습 레시피(MVR)임. 넓은 능력 커버리지와 효율적 supervision 구성을 핵심으로 함.
+- [Speculative Diffusion은 두 가지 트레이드오프의 이야기](https://huggingface.co/papers/2610.31819)
+  무손실이 보장되는 기존 speculative decoding과 달리, diffusion LLM에 적용한 speculative 방식은 속도와 품질 사이 트레이드오프가 생긴다는 점을 분석함. 추론 가속 설계 시 참고할 만함.
 
 ## 🦉 GeekNews
 
-- [분산 SQLite의 12년 - rqlite에서 클라우드 서비스까지](https://philipotoole.com/twelve-years-of-distributed-sqlite)
-  2014년 rqlite부터 Litestream, Turso, Cloudflare D1까지 SQLite에 복제·장애 대응을 붙이려는 시도가 약 12개 프로젝트 규모의 분야로 성장한 과정을 rqlite 제작자가 회고함.
-- [Sphinx - AI가 작성한 코드를 이해했는지 푸시 전에 퀴즈로 확인하는 도구](https://github.com/parthh01/sphinx)
-  '생각은 외주를 줄 수 있어도 이해는 외주를 줄 수 없다'는 취지의 Git 도구임. AI가 쓴 코드를 push하기 전에 변경 내용에 대한 질문을 던져 개발자의 이해도를 확인함.
-- [GPU-unlock - RTX 30 시리즈의 AI 연산 성능 제한을 해제하는 Linux 모듈](https://github.com/Zagitta/gpu-unlock)
-  RTX 30 시리즈에 걸린 FP16/BF16 연산 명령 발행 속도 제한을 풀어 전문가용 제품 수준의 처리 속도를 쓰게 해주는 Linux 커널 모듈임. 소비자용 GPU로 로컬 AI를 돌리는 사용자에게 의미 있음.
-- [기술업계 밖에서는 아직 AI 투자 성과가 보이지 않음](https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector)
-  Apollo 분석에 따르면 대규모 AI 투자와 높은 기대에도 미국 기술업계 밖 기업들에선 매출·이익률 개선 증거가 아직 나타나지 않음. AI 생산성 효과가 실물 경제로 번지는 데 시간이 걸린다는 신호임.
-- [구글이 AI 에이전트마다 '컴퓨터 한 대'를 제공하려는 이유](https://cloud.google.com/blog/topics/ai-infrastructure/agent-compute-engine-deep-dive?hl=en)
-  구글이 10월 22일 AI 에이전트 전용 컴퓨팅 인프라 Agent Compute Engine 설계를 공개함. 웹서버 중심이던 클라우드 인프라를, 에이전트마다 격리된 실행 환경(컴퓨터)을 빠르게 띄우는 구조로 바꾸려는 시도임.
+- [AI가 쓴 글은 왜 이해하기 어려울까?](https://arxiv.org/abs/2610.29162)
+  AI가 작성한 영어 대화·코딩 설명·에세이를 분석한 결과, 사람이 읽고 이해하는 데 부담을 주는 표현이 더 자주 나타남. 주요 모델별 가독성 차이도 비교함.
+- [우리가 만드는 소프트웨어에 더 큰 야심을 가져야 한다](https://danluu.com/ambitious/)
+  Dan Luu의 글임. AI로 개발 비용이 낮아지면서 혼자 감당하기 어려웠던 대형 프로젝트도, 시간 대비 가치가 없어 포기했던 개인용 도구도 만들 수 있게 됐다고 주장함.
+- [Codex는 어떻게 탄생했나](https://every.to/p/how-codex-happened)
+  클라우드 코딩 에이전트의 실패 이후 로컬 도구로 방향을 틀고, 전용 모델과 데스크톱 앱을 함께 발전시키며 OpenAI 핵심 제품이 되기까지의 과정을 다룸.
+- [JetBrains Thinkrail - 명세로 프로젝트 지식을 유지하는 에이전트 IDE](https://github.com/JetBrains/thinkrail)
+  pi 코딩 에이전트에 편집기·터미널·리뷰 도구를 결합함. 계속 갱신되는 명세와 재사용 가능한 스킬로 세션이 바뀌어도 프로젝트 지식을 유지함.
+- [Petal - 동료가 공유한 창을 내 데스크톱 창처럼 쓰는 원격 협업 앱](https://github.com/kiruna-labs/petal)
+  CoScreen 제작진이 만든 오픈소스 원격 협업 앱임. 공유받은 창을 내 작업 창 옆에 배치해 페어 프로그래밍과 코드 리뷰를 할 수 있음.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-10-26](data/2026-10-26.md)
 - [2026-10-25](data/2026-10-25.md)
 - [2026-10-24](data/2026-10-24.md)
 - [2026-10-23](data/2026-10-23.md)
@@ -69,4 +70,3 @@
 - [2026-09-28](data/2026-09-28.md)
 - [2026-09-27](data/2026-09-27.md)
 - [2026-09-26](data/2026-09-26.md)
-- [2026-09-22](data/2026-09-22.md)
