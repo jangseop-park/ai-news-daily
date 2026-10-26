@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-27",
+  "github_trending": [
+    {
+      "name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "여러 LLM 에이전트가 애널리스트·트레이더·리스크 관리자 역할을 나눠 맡아 토론하며 매매 결정을 내리는 금융 트레이딩 프레임워크임. 하루 1,300개 넘는 스타를 받으며 다시 급상승함.",
+      "description_en": "TradingAgents: Multi-Agents LLM Financial Trading Framework."
+    },
+    {
+      "name": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "description": "Claude Code·Codex·MCP 스킬을 설치 전에 검사하는 NVIDIA의 AI 에이전트 스킬 보안 스캐너임. 프롬프트 인젝션, 데이터 유출, 악성 패턴, 공급망 위험을 탐지함.",
+      "description_en": "Security scanner for AI agent skills. Detects vulnerabilities, malicious patterns, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them."
+    },
+    {
+      "name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "AI 에이전트가 Twitter·Reddit·YouTube·GitHub·Bilibili·XiaoHongShu를 읽고 검색할 수 있게 해주는 단일 CLI임. API 비용 없이 인터넷 전반에 접근하는 게 특징임.",
+      "description_en": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees."
+    },
+    {
+      "name": "AstrBotDevs/AstrBot",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "description": "다양한 메신저 플랫폼·LLM·플러그인을 통합하는 AI 에이전트 어시스턴트 겸 개발 프레임워크임. OpenClaw 대안을 표방함.",
+      "description_en": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI features; an OpenClaw alternative."
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Claude Code·Codex·OpenCode 등 10여 개 코딩 하네스를 무료 토큰 기반 멀티 모델로 터미널·IDE·브라우저·폰에서 쓰게 해주는 도구임. 음성 입력도 지원함.",
+      "description_en": "Use Claude Code, Codex, Antigravity, VSCode, Pi, OpenCode and other harnesses for free from terminal, app, IDE, phone or browser, multi-harness and multi-model, with voice support."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "비디오로 세상을 읽고, 쓰고, 공유하고, 상호작용하기",
+      "title_en": "Reading, Writing, Sharing, and Interacting with the World through Video",
+      "url": "https://huggingface.co/papers/2610.31668",
+      "summary": "비디오 이해·생성 파운데이션 모델과 비디오 world model을 'world modeling'이라는 하나의 관점으로 묶어 정리한 대형 서베이임. 오늘 upvote 221로 압도적 1위임.",
+      "summary_en": "A survey that unifies video foundation models (understanding and generation) and video world models under a world-modeling lens, examining how video observations relate to an evolving world."
+    },
+    {
+      "title": "PaperFormalizer: 저자 참여형 연구 논문 Lean 자동 형식화",
+      "title_en": "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean",
+      "url": "https://huggingface.co/papers/2610.31810",
+      "summary": "LaTeX 원고를 명제 의존성 그래프로 옮긴 뒤 Lean으로 검증하는 에이전트 파이프라인임. 저자와 함께 증명의 빈틈과 누락된 가정을 찾아 메우고 논문 전체를 Lean 검증본으로 만듦.",
+      "summary_en": "A Lean-based agentic pipeline that transcribes a paper's LaTeX into a dependency graph of statements, helping authors find and close gaps in proofs and assumptions to produce a Lean-verified version."
+    },
+    {
+      "title": "Kolab: 장기 워크플로에서의 인간-에이전트 협업 벤치마크",
+      "title_en": "Kolab: Benchmarking Human-Agent Collaboration in Long-Horizon Workflows",
+      "url": "https://huggingface.co/papers/2610.21109",
+      "summary": "기존 에이전트 벤치마크가 자동화 성능만 보는 한계를 지적하고, 사람이 계획을 수정하며 함께 일하는 장기 작업에서 에이전트 기여도를 측정하는 벤치마크를 제안함.",
+      "summary_en": "Argues agentic benchmarks overemphasize automation and introduces a benchmark measuring agent contributions in long-horizon tasks where humans continuously interact and revise plans."
+    },
+    {
+      "title": "MMVistaReason: 멀티모달 추론을 위한 오픈 데이터·후학습 레시피",
+      "title_en": "MMVistaReason: Toward Open-Data and Post-Training Recipes for Multimodal Reasoning",
+      "url": "https://huggingface.co/papers/2610.01352",
+      "summary": "데이터 품질 편차, 난이도 불균형, 도메인 간 간섭 문제를 다루는 멀티모달 추론 모델용 오픈 데이터 후학습 레시피(MVR)임. 넓은 능력 커버리지와 효율적 supervision 구성을 핵심으로 함.",
+      "summary_en": "An open-data post-training recipe for multimodal reasoning addressing uneven data quality, inefficient supervision construction, imbalanced difficulty, and cross-domain interference."
+    },
+    {
+      "title": "Speculative Diffusion은 두 가지 트레이드오프의 이야기",
+      "title_en": "Speculative Diffusion is a Tale of Two Tradeoffs",
+      "url": "https://huggingface.co/papers/2610.31819",
+      "summary": "무손실이 보장되는 기존 speculative decoding과 달리, diffusion LLM에 적용한 speculative 방식은 속도와 품질 사이 트레이드오프가 생긴다는 점을 분석함. 추론 가속 설계 시 참고할 만함.",
+      "summary_en": "Analyzes how speculative methods for diffusion LLMs differ from lossless autoregressive speculative decoding, introducing tradeoffs between speed and quality."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "AI가 쓴 글은 왜 이해하기 어려울까?",
+      "title_en": "Why is AI-written text hard to understand?",
+      "url": "https://arxiv.org/abs/2610.29162",
+      "summary": "AI가 작성한 영어 대화·코딩 설명·에세이를 분석한 결과, 사람이 읽고 이해하는 데 부담을 주는 표현이 더 자주 나타남. 주요 모델별 가독성 차이도 비교함.",
+      "summary_en": "An analysis of AI-written English dialogues, coding explanations and essays finds they more often contain expressions that burden human comprehension, comparing major models."
+    },
+    {
+      "title": "우리가 만드는 소프트웨어에 더 큰 야심을 가져야 한다",
+      "title_en": "We should be more ambitious about the software we build",
+      "url": "https://danluu.com/ambitious/",
+      "summary": "Dan Luu의 글임. AI로 개발 비용이 낮아지면서 혼자 감당하기 어려웠던 대형 프로젝트도, 시간 대비 가치가 없어 포기했던 개인용 도구도 만들 수 있게 됐다고 주장함.",
+      "summary_en": "Dan Luu argues that as AI lowers development cost, we can build both large projects once too big for one person and personal tools previously not worth the time."
+    },
+    {
+      "title": "Codex는 어떻게 탄생했나",
+      "title_en": "How Codex happened",
+      "url": "https://every.to/p/how-codex-happened",
+      "summary": "클라우드 코딩 에이전트의 실패 이후 로컬 도구로 방향을 틀고, 전용 모델과 데스크톱 앱을 함께 발전시키며 OpenAI 핵심 제품이 되기까지의 과정을 다룸.",
+      "summary_en": "How OpenAI's Codex pivoted to a local tool after a failed cloud coding agent and co-evolved a dedicated model and desktop app to become a core product."
+    },
+    {
+      "title": "JetBrains Thinkrail - 명세로 프로젝트 지식을 유지하는 에이전트 IDE",
+      "title_en": "JetBrains Thinkrail - an agent IDE that keeps project knowledge in specs",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "summary": "pi 코딩 에이전트에 편집기·터미널·리뷰 도구를 결합함. 계속 갱신되는 명세와 재사용 가능한 스킬로 세션이 바뀌어도 프로젝트 지식을 유지함.",
+      "summary_en": "Combines the pi coding agent with an editor, terminal and review tools, preserving project knowledge across sessions via continuously updated specs and reusable skills."
+    },
+    {
+      "title": "Petal - 동료가 공유한 창을 내 데스크톱 창처럼 쓰는 원격 협업 앱",
+      "title_en": "Petal - remote collaboration app that lets you use shared windows like your own",
+      "url": "https://github.com/kiruna-labs/petal",
+      "summary": "CoScreen 제작진이 만든 오픈소스 원격 협업 앱임. 공유받은 창을 내 작업 창 옆에 배치해 페어 프로그래밍과 코드 리뷰를 할 수 있음.",
+      "summary_en": "An open-source remote collaboration app from the CoScreen team that places shared windows beside your own for pair programming and code review."
+    }
+  ]
+}
