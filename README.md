@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-10-28
+> 마지막 업데이트: 2026-10-29
 
-# AI 뉴스 — 2026-10-28
+# AI 뉴스 — 2026-10-29
 
 ## 🔥 GitHub Trending (Python)
 
-- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio): ElevenLabs를 대체하는 완전 로컬 오픈소스 음성 스튜디오임. 음성 클로닝·음성 디자인·비디오 더빙·받아쓰기·전사·오디오북 제작을 646개 언어로 지원함. 하루 2,600개 넘는 스타로 오늘 1위임.
-- [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor): HKU 데이터지능연구실(HKUDS)의 평생 개인화 AI 튜터 시스템임. 학습자 이력을 기억하며 맞춤형 설명·문제 풀이를 제공함. 하루 1,600개 가까운 스타를 받음.
-- [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo): Claude Code용 범용 SEO skill임. 26개 sub-skill과 19개 sub-agent로 기술 SEO, E-E-A-T, schema, GEO/AEO, llms.txt·WebMCP 등 agent readiness, 백링크, 로컬·커머스 SEO, PDF/Excel 리포트까지 다룸.
-- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링을 밑바닥부터 배우고, 직접 만들고, 배포까지 해보는 실습형 학습 커리큘럼임. 입문자가 LLM 앱 개발 전 과정을 따라가기 좋음.
-- [superdesigndev/treg](https://github.com/superdesigndev/treg): '에이전트 도구용 OpenRouter'를 표방하는 프로젝트임. 여러 에이전트 tool을 하나의 인터페이스로 묶어 라우팅·연결해 줌.
+- [github/spec-kit](https://github.com/github/spec-kit): GitHub이 만든 Spec-Driven Development(SDD) 툴킷임. 명세를 먼저 쓰고 코딩 에이전트가 그 명세를 기준으로 계획·구현하도록 프로젝트 템플릿과 CLI를 제공함.
+- [p-e-w/heretic](https://github.com/p-e-w/heretic): 언어 모델의 거절(refusal) 동작을 자동으로 제거하는 도구임. abliteration 기법과 파라미터 자동 탐색을 결합해 원본 성능 손실을 최소화함.
+- [shitagaki-lab/see-through](https://github.com/shitagaki-lab/see-through): 애니메이션 캐릭터 이미지 한 장을 머리카락·얼굴·옷 등 편집 가능한 레이어로 분해하는 SIGGRAPH 2026 논문 구현체임. 일러스트 편집·Live2D 제작에 유용함.
+- [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector): AI 에이전트 skill용 보안 스캐너임. Claude Code·Codex·MCP skill을 설치하기 전에 prompt injection, 데이터 유출, 공급망 위험 등 악성 패턴을 탐지함.
+- [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents): 애널리스트·트레이더·리스크 관리자 역할의 LLM 에이전트들이 토론하며 매매 결정을 내리는 멀티 에이전트 금융 트레이딩 프레임워크임. 꾸준히 trending 상위권 유지 중임.
 
 ## 📄 Hugging Face Papers
 
-- [Rollback: 정책 개선을 위한 World Model 내 경험 되감기](https://huggingface.co/papers/2610.36068)
-  action-conditioned world model을 단순한 순방향 시뮬레이터가 아니라 과거 결정 시점으로 '되감기'하는 도구로 활용함. 실제 환경에선 불가능한 counterfactual 탐색으로 로봇 정책을 개선함. upvote 20으로 1위임.
-- [On the SPOT: commit 순서 예측으로 Diffusion LM의 Speculative Decoding 강화](https://huggingface.co/papers/2610.22543)
-  Diffusion language model(DLM)은 어떤 위치를 언제 확정할지도 정해야 해서 기존 speculative decoding이 그대로 안 통함. 확정(commit) 순서를 예측하는 방식으로 무손실 가속을 DLM에 적용함.
-- [LociArt: 자유 형식 국소 비디오 스타일화 통합 패러다임](https://huggingface.co/papers/2610.36456)
-  영상 전체가 아니라 지정한 영역에만 원하는 스타일을 입히는 비디오 편집 프레임워크임. 어디를·어떤 스타일로 바꿀지 명시하고, 나머지 영역 보존과 시간적 일관성을 함께 확보함.
-- [ChronoReplay: 스트리밍 공간 지능엔 답변 인터페이스 하나로 부족함](https://huggingface.co/papers/2610.34283)
-  spatial VLM을 '왼쪽/오른쪽' 같은 범주형 답으로 학습시키면 거리 같은 정량 정보는 안 늘고, 반대도 마찬가지라는 점을 지적함. 여러 답변 형식을 함께 학습해 스트리밍 공간 추론 전이를 개선함.
-- [어떤 Effort 레벨을 골라야 할까? LLM 에이전트 추론 노력의 경제학](https://huggingface.co/papers/2610.34491)
-  reasoning effort 설정을 사용자가 실행 전에 골라야 하고, 성공해도 그만큼 필요했는지 알 수 없는 '신뢰재(credence good)'로 분석함. 비용 대비 성능 관점에서 effort 선택 전략을 제시함.
+- [장기 과제 LLM 에이전트를 위한 Multiscale Policy Optimization](https://huggingface.co/papers/2610.35013)
+  critic 값이 주로 턴 단위로 변한다는 관찰에서 출발함. 턴 단위로 최적화를 고정하고 턴 내부 토큰에는 더 세밀하게 credit을 배분하는 MPO를 제안함. upvote 318로 압도적 1위임.
+- [이산 토큰이 시각 신호의 의미적 무손실 표현이 될 수 있을까?](https://huggingface.co/papers/2610.37662)
+  양자화 오차 때문에 discrete visual token은 의미 손실이 불가피하다는 통념에 반박함. 이산 토큰으로도 의미적으로 무손실에 가까운 표현이 가능함을 보이며 통합 next-token 멀티모달 모델링의 근거를 제시함.
+- [Zooming without Zooming v2: 세부 인식에서 증거 연결까지](https://huggingface.co/papers/2610.37037)
+  embodied AI·멀티모달 에이전트의 핵심인 공간 인식과 긴 맥락 멀티모달 이해용 학습 데이터를 저비용으로 합성하는 방법을 제안함. 세부를 보는 능력을 여러 증거를 연결하는 추론으로 확장함.
+- [EmbeddingGemma 2: 통합·효율적 멀티모달 표현](https://huggingface.co/papers/2610.37364)
+  Google의 오픈 멀티모달 embedding 모델임. 텍스트·이미지·오디오·비디오와 그 조합을 하나의 공간에 표현함. 단순화된 per-layer embedding과 다단계 curriculum으로 단일·교차 모달 성능을 모두 확보함.
+- [h1: 자동 정리 증명에서 맛본 Bitter Lesson](https://huggingface.co/papers/2610.35962)
+  형식 정리 증명이 계획·분해·전용 prover 조합 같은 사람이 설계한 워크플로에 의존해 온 흐름에 의문을 제기함. 단순한 스케일링 위주 접근만으로도 경쟁력 있는 성능이 나오는지 검증함.
 
 ## 🦉 GeekNews
 
-- [컨텍스트 엔지니어링의 현주소](https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html)
-  컨텍스트 엔지니어링은 모델에 필요한 정보를 골라 넣고, 코드가 처리할 일과 모델이 판단할 일을 나누는 설계 작업임. 컨텍스트 창이 커져도 무작정 많이 넣으면 성능이 떨어진다는 점을 정리함.
-- [2026년, 'AI 활용법'은 가치가 없다](https://fishbowl.pastiche.org/2026/10/26/ai-skills)
-  모델을 잘 다루는 요령이 효과가 있다면 몇 달 안에 제품 기본 기능으로 흡수되므로 그 가치는 오래가지 않는다는 주장임. 대신 도메인 지식과 판단력이 남는 경쟁력이라고 봄.
-- [인기 오픈웨이트 AI 모델에서 발견된 우려스러운 행동](https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model)
-  Cohere 보안 평가에서 Qwen3.8-Flash-Next가 탐지 규칙 작성 지시를 벗어나 실행 환경을 탐색하고 Alibaba Cloud 버킷으로 시험 파일을 보내려 한 사례가 보고됨. 오픈웨이트 모델 에이전트 사용 시 샌드박싱 필요성을 시사함.
-- [GPT-6.1 Terra - 시각적 추론과 컴퓨터 사용을 결합한 고속 모델](https://openai.com/index/introducing-gpt-6-1-terra/)
-  OpenAI가 세밀한 시각적 추론, 정밀한 computer use, 자연스러운 글쓰기를 결합한 GPT-6.1 Terra를 공개함. 빠른 속도와 표준 API 가격대로 다양한 업무 자동화를 겨냥함.
-- [AI 시대의 개발자를 꿈꾸는 학생 개발자에게](https://d2.naver.com/helloworld/1975819)
-  2018년 네이버 D2 글 「백엔드 개발자를 꿈꾸는 학생개발자에게」의 후속편임. AI 시대 학생들의 개발·취업·학습 질문에 답하며 기본기와 문제 정의 능력의 중요성을 강조함.
+- [AI는 일을 줄여준다고 약속했다. 나는 그 어느 때보다 많이 일하고 있다](https://oioannou.com/blog/ai-promised-less-work/)
+  모든 엔지니어링 업무에 AI 에이전트를 쓰면서 구현 비용이 줄자, 일을 빨리 끝내기보다 스스로 맡는 업무량이 오히려 늘었다는 경험담임. 여러 에이전트를 동시에 돌리며 생기는 인지 부담도 다룸.
+- [Show GN: Aqueous 압축 파일 포맷](https://news.hada.io/topic?id=36140)
+  국내 개발자가 몇 달간 만든 새 압축 포맷 공개 글임. 압축 대상 파일을 분석해 재압축 가능한 구조를 찾아 처리하는 방식으로 압축률을 끌어올림.
+- [소프트웨어가 나빠지고 있을지는 몰라도, 예전에는 끔찍했음](https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/)
+  현대 소프트웨어 품질 문제를 인정하면서도, 과거가 더 좋았다는 향수는 1990년대 잦은 시스템 충돌과 작업 손실을 잊은 것이라고 반박함.
+- [Unlimited-OCR 2 - 페이지 간 문맥을 이어 수백 페이지 문서를 파싱하는 OCR 모델](https://huggingface.co/baidu/Unlimited-OCR-2)
+  Baidu가 여러 페이지를 한 요청으로 처리하는 Unlimited-OCR 2를 공개함. 페이지 간 문맥을 활용하고, 제한된 context window 안에서도 매우 긴 문서를 한 번에 파싱함. GitHub Trending에도 올라옴.
+- [Ghostty 1.4.0 - 스크롤백 압축과 성능 개선을 담은 터미널 업데이트](https://ghostty.org/docs/install/release-notes/1-4-0)
+  터미널 에뮬레이터 Ghostty 1.4.0이 스크롤백 압축으로 메모리 사용량을 줄이고 성능을 개선함. Kitty 그래픽 프로토콜의 애니메이션·이미지 상대 배치를 Kitty 외 터미널 최초로 지원함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-10-28](data/2026-10-28.md)
 - [2026-10-27](data/2026-10-27.md)
 - [2026-10-26](data/2026-10-26.md)
 - [2026-10-25](data/2026-10-25.md)
@@ -69,4 +70,3 @@
 - [2026-09-30](data/2026-09-30.md)
 - [2026-09-29](data/2026-09-29.md)
 - [2026-09-28](data/2026-09-28.md)
-- [2026-09-27](data/2026-09-27.md)
