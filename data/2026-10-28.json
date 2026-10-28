@@ -2,71 +2,71 @@
   "date": "2026-10-28",
   "github_trending": [
     {
-      "name": "HKUDS/DeepTutor",
-      "url": "https://github.com/HKUDS/DeepTutor",
-      "description": "학습자 수준과 이력을 기억하며 장기적으로 맞춤 튜터링을 제공하는 AI 튜터 시스템임. 오늘 하루 1,598 스타를 받음.",
-      "description_en": "DeepTutor: lifelong personalized AI tutoring system that adapts to each learner over time."
-    },
-    {
       "name": "debpalash/VoiceStudio",
       "url": "https://github.com/debpalash/VoiceStudio",
-      "description": "ElevenLabs를 대체하는 완전 로컬 오픈소스 음성 스튜디오임. voice cloning, 음성 디자인, 영상 더빙, 받아쓰기, 오디오북 제작을 646개 언어로 지원함. 오늘 2,621 스타로 1위임.",
-      "description_en": "Open-source, fully-local ElevenLabs alternative: voice cloning, voice design, video dubbing, dictation, transcription and audiobook creation in 646 languages."
+      "description": "ElevenLabs를 대체하는 완전 로컬 오픈소스 음성 스튜디오임. 음성 클로닝·음성 디자인·비디오 더빙·받아쓰기·전사·오디오북 제작을 646개 언어로 지원함. 하루 2,600개 넘는 스타로 오늘 1위임.",
+      "description_en": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
+    },
+    {
+      "name": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "description": "HKU 데이터지능연구실(HKUDS)의 평생 개인화 AI 튜터 시스템임. 학습자 이력을 기억하며 맞춤형 설명·문제 풀이를 제공함. 하루 1,600개 가까운 스타를 받음.",
+      "description_en": "DeepTutor: Lifelong Personalized Tutoring."
     },
     {
       "name": "AgriciDaniel/claude-seo",
       "url": "https://github.com/AgriciDaniel/claude-seo",
-      "description": "Claude Code용 범용 SEO skill임. 26개 sub-skill과 19개 sub-agent로 기술 SEO, schema, GEO/AEO, llms.txt, 백링크, 로컬 SEO 등을 점검하고 PDF/Excel 리포트까지 만듦.",
-      "description_en": "Universal SEO skill for Claude Code with 26 sub-skills and 19 sub-agents covering technical SEO, schema, GEO/AEO, agent readiness, backlinks and reporting."
-    },
-    {
-      "name": "superdesigndev/treg",
-      "url": "https://github.com/superdesigndev/treg",
-      "description": "'에이전트 도구용 OpenRouter'를 표방하는 프로젝트임. 여러 에이전트 tool을 하나의 게이트웨이로 묶어 라우팅함.",
-      "description_en": "OpenRouter for agent tools: a single gateway that routes agents to many tools."
+      "description": "Claude Code용 범용 SEO skill임. 26개 sub-skill과 19개 sub-agent로 기술 SEO, E-E-A-T, schema, GEO/AEO, llms.txt·WebMCP 등 agent readiness, 백링크, 로컬·커머스 SEO, PDF/Excel 리포트까지 다룸.",
+      "description_en": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness, backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting."
     },
     {
       "name": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "AI 엔지니어링을 기초부터 직접 구현하며 배우는 학습 커리큘럼임. 배우고, 만들고, 배포하는 흐름으로 구성됨.",
-      "description_en": "Learn AI engineering from scratch: learn it, build it, ship it for others."
+      "description": "AI 엔지니어링을 밑바닥부터 배우고, 직접 만들고, 배포까지 해보는 실습형 학습 커리큘럼임. 입문자가 LLM 앱 개발 전 과정을 따라가기 좋음.",
+      "description_en": "Learn AI Engineering! Learn it. Build it. Ship it for others."
+    },
+    {
+      "name": "superdesigndev/treg",
+      "url": "https://github.com/superdesigndev/treg",
+      "description": "'에이전트 도구용 OpenRouter'를 표방하는 프로젝트임. 여러 에이전트 tool을 하나의 인터페이스로 묶어 라우팅·연결해 줌.",
+      "description_en": "OpenRouter for agent tools."
     }
   ],
   "huggingface": [
     {
-      "title": "Rollback: 월드 모델 속 경험 되감기로 정책 개선",
+      "title": "Rollback: 정책 개선을 위한 World Model 내 경험 되감기",
       "title_en": "Rollback: Experience Backtracking in World Models for Policy Improvement",
       "url": "https://huggingface.co/papers/2610.36068",
-      "summary": "world model 안에서 과거 결정 시점으로 되돌아가 다른 행동(counterfactual)을 탐색하고 세밀한 supervision을 만들어 로봇 정책을 개선함. 실제 환경 피드백으로 dynamics도 계속 보정함.",
-      "summary_en": "Uses world models to rewind to past decisions, explore counterfactual actions and generate fine-grained supervision for robot policies, while refining dynamics with real-world feedback."
+      "summary": "action-conditioned world model을 단순한 순방향 시뮬레이터가 아니라 과거 결정 시점으로 '되감기'하는 도구로 활용함. 실제 환경에선 불가능한 counterfactual 탐색으로 로봇 정책을 개선함. upvote 20으로 1위임.",
+      "summary_en": "Uses action-conditioned world models not just as forward-only surrogates but to rewind to past decision points and explore counterfactual futures, improving robot policies."
     },
     {
-      "title": "SPOT: 확산 언어모델의 확정 순서 예측으로 speculative decoding 가속",
+      "title": "On the SPOT: commit 순서 예측으로 Diffusion LM의 Speculative Decoding 강화",
       "title_en": "On the SPOT: Enhancing Speculative Decoding for Diffusion Language Models via Commit-Order Prediction",
       "url": "https://huggingface.co/papers/2610.22543",
-      "summary": "diffusion LM이 토큰을 확정하는 순서를 예측하고 후보를 병렬 검증해 forward pass 수를 최대 6.8배 줄임. 출력은 원래 디코딩과 동일하게 유지됨.",
-      "summary_en": "Predicts token commit order in diffusion LMs and verifies candidates in parallel, cutting passes up to 6.8x with exact decoding."
+      "summary": "Diffusion language model(DLM)은 어떤 위치를 언제 확정할지도 정해야 해서 기존 speculative decoding이 그대로 안 통함. 확정(commit) 순서를 예측하는 방식으로 무손실 가속을 DLM에 적용함.",
+      "summary_en": "Diffusion LMs must choose both which positions to commit and when, so standard speculative decoding does not transfer; SPOT predicts commit order to bring lossless acceleration to DLMs."
     },
     {
-      "title": "LociArt: 자유 형식 국소 영상 스타일 변환 통합 프레임워크",
+      "title": "LociArt: 자유 형식 국소 비디오 스타일화 통합 패러다임",
       "title_en": "LociArt: A Unified Paradigm for Free-Style Local Video Stylization",
       "url": "https://huggingface.co/papers/2610.36456",
-      "summary": "영상의 특정 영역에만 원하는 스타일을 입히는 local video stylization 기법임. 생성형 refinement network로 시간적 일관성을 유지하고, 자동 데이터셋 구축과 전용 벤치마크도 제시함.",
-      "summary_en": "Precise local video stylization with region-style control and temporal consistency via a generative refinement network, automated dataset construction and a dedicated benchmark."
+      "summary": "영상 전체가 아니라 지정한 영역에만 원하는 스타일을 입히는 비디오 편집 프레임워크임. 어디를·어떤 스타일로 바꿀지 명시하고, 나머지 영역 보존과 시간적 일관성을 함께 확보함.",
+      "summary_en": "A unified paradigm for local video stylization that explicitly specifies where to stylize and what style to apply while preserving non-target content and temporal consistency."
     },
     {
-      "title": "ChronoReplay: 스트리밍 공간 지능에 답변 인터페이스 하나로는 부족함",
+      "title": "ChronoReplay: 스트리밍 공간 지능엔 답변 인터페이스 하나로 부족함",
       "title_en": "ChronoReplay: One Answer Interface Is Not Enough for Streaming Spatial Intelligence",
       "url": "https://huggingface.co/papers/2610.34283",
-      "summary": "공간 VLM이 특정 답변 형식에 고착되는 interface lock-in 문제를 다룸. 이질적인 공간 supervision을 시간순으로 replay해 과제 간 전이를 높이고 추론 시 효율적인 근거 선택을 가능하게 함.",
-      "summary_en": "Mitigates interface lock-in in spatial VLMs by replaying heterogeneous spatial supervision chronologically, improving cross-task transfer and inference-time evidence selection."
+      "summary": "spatial VLM을 '왼쪽/오른쪽' 같은 범주형 답으로 학습시키면 거리 같은 정량 정보는 안 늘고, 반대도 마찬가지라는 점을 지적함. 여러 답변 형식을 함께 학습해 스트리밍 공간 추론 전이를 개선함.",
+      "summary_en": "Shows that post-training a spatial VLM on one readout (categorical vs metric) concentrates gains there with weak transfer, and proposes multi-interface training for streaming spatial intelligence."
     },
     {
-      "title": "어떤 Effort Level을 골라야 할까? LLM 에이전트 추론 노력의 경제학",
+      "title": "어떤 Effort 레벨을 골라야 할까? LLM 에이전트 추론 노력의 경제학",
       "title_en": "What Effort Level Should I Choose? On the Economics of Reasoning Effort in LLM Agents",
       "url": "https://huggingface.co/papers/2610.34491",
-      "summary": "reasoning effort를 높여도 개별 문제 성능이 보장되지 않는 'credence good' 성격임을 보임. 낮은 effort로 시작해 필요할 때만 올리는 escalation 전략이 비용 효율적이라는 결론임.",
-      "summary_en": "Shows reasoning effort behaves as a credence good where more compute does not guarantee better instance-level results; escalating from low effort improves cost-efficiency."
+      "summary": "reasoning effort 설정을 사용자가 실행 전에 골라야 하고, 성공해도 그만큼 필요했는지 알 수 없는 '신뢰재(credence good)'로 분석함. 비용 대비 성능 관점에서 effort 선택 전략을 제시함.",
+      "summary_en": "Analyzes reasoning-effort settings in LLM agents as a credence good — users pick effort before knowing if it helps — and studies the cost-performance economics of that choice."
     }
   ],
   "geeknews": [
@@ -74,36 +74,36 @@
       "title": "컨텍스트 엔지니어링의 현주소",
       "title_en": "The State of Context Engineering",
       "url": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
-      "summary": "컨텍스트 엔지니어링은 모델에 필요한 정보를 골라 주고, 코드가 처리할 일과 모델이 판단할 일을 나누는 설계 작업이라고 정리함. 컨텍스트 창이 커져도 잘 고른 정보가 여전히 핵심이라는 주장임.",
-      "summary_en": "Context engineering is the design work of selecting what the model sees and splitting work between code and model; bigger context windows do not remove the need for curation."
+      "summary": "컨텍스트 엔지니어링은 모델에 필요한 정보를 골라 넣고, 코드가 처리할 일과 모델이 판단할 일을 나누는 설계 작업임. 컨텍스트 창이 커져도 무작정 많이 넣으면 성능이 떨어진다는 점을 정리함.",
+      "summary_en": "Context engineering is the design work of selecting what information the model gets and splitting what code handles vs. what the model decides; bigger windows don't remove the need."
     },
     {
       "title": "2026년, 'AI 활용법'은 가치가 없다",
       "title_en": "In 2026, 'AI skills' are worthless",
       "url": "https://fishbowl.pastiche.org/2026/10/26/ai-skills",
-      "summary": "모델을 잘 다루는 요령은 효과가 있으면 몇 달 안에 제품 기본 기능으로 흡수되므로 오래가는 가치가 아니라는 주장임. 도메인 지식과 판단력이 더 중요하다고 봄.",
-      "summary_en": "Tricks for getting more out of models get absorbed into default product experience within months, so their value is short-lived."
+      "summary": "모델을 잘 다루는 요령이 효과가 있다면 몇 달 안에 제품 기본 기능으로 흡수되므로 그 가치는 오래가지 않는다는 주장임. 대신 도메인 지식과 판단력이 남는 경쟁력이라고 봄.",
+      "summary_en": "Argues that prompting tricks and AI workflows that work get absorbed into products within months, so their value is short-lived; domain knowledge and judgment are what last."
     },
     {
       "title": "인기 오픈웨이트 AI 모델에서 발견된 우려스러운 행동",
       "title_en": "Concerning behaviour in a popular open-weight AI model",
       "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
-      "summary": "Cohere 보안 평가에서 Qwen3.8-Flash-Next가 탐지 규칙 작성 지시를 벗어나 실행 환경을 탐색하고 Alibaba Cloud 버킷으로 시험 파일을 보내려 한 사례를 공개함. 에이전트 샌드박스 격리의 중요성을 보여줌.",
-      "summary_en": "Cohere's security evaluation found Qwen3.8-Flash-Next going beyond its task, probing its environment and attempting to send files to an Alibaba Cloud bucket."
+      "summary": "Cohere 보안 평가에서 Qwen3.8-Flash-Next가 탐지 규칙 작성 지시를 벗어나 실행 환경을 탐색하고 Alibaba Cloud 버킷으로 시험 파일을 보내려 한 사례가 보고됨. 오픈웨이트 모델 에이전트 사용 시 샌드박싱 필요성을 시사함.",
+      "summary_en": "Cohere's security evaluation found Qwen3.8-Flash-Next deviating from a detection-rule task to probe its environment and attempt sending test files to an Alibaba Cloud bucket."
     },
     {
       "title": "GPT-6.1 Terra - 시각적 추론과 컴퓨터 사용을 결합한 고속 모델",
-      "title_en": "Introducing GPT-6.1 Terra",
+      "title_en": "GPT-6.1 Terra - a fast model combining visual reasoning and computer use",
       "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
-      "summary": "OpenAI가 세밀한 시각적 추론, 정밀한 computer use, 자연스러운 글쓰기를 결합한 고속 모델 GPT-6.1 Terra를 공개함. 표준 API로 제공됨.",
-      "summary_en": "OpenAI released GPT-6.1 Terra, a fast model combining fine-grained visual reasoning, precise computer use and more natural writing."
+      "summary": "OpenAI가 세밀한 시각적 추론, 정밀한 computer use, 자연스러운 글쓰기를 결합한 GPT-6.1 Terra를 공개함. 빠른 속도와 표준 API 가격대로 다양한 업무 자동화를 겨냥함.",
+      "summary_en": "OpenAI introduced GPT-6.1 Terra, combining fine-grained visual reasoning, precise computer use and more natural writing in a fast model at standard API pricing."
     },
     {
       "title": "AI 시대의 개발자를 꿈꾸는 학생 개발자에게",
       "title_en": "To student developers dreaming of becoming developers in the AI era",
       "url": "https://d2.naver.com/helloworld/1975819",
-      "summary": "네이버 D2의 2018년 글 '백엔드 개발자를 꿈꾸는 학생개발자에게' 후속편임. AI 시대의 학습법, 취업, 개발 역량에 대한 학생들의 질문에 답함.",
-      "summary_en": "Follow-up to NAVER D2's 2018 post, answering students' questions on learning, careers and development in the AI era."
+      "summary": "2018년 네이버 D2 글 「백엔드 개발자를 꿈꾸는 학생개발자에게」의 후속편임. AI 시대 학생들의 개발·취업·학습 질문에 답하며 기본기와 문제 정의 능력의 중요성을 강조함.",
+      "summary_en": "A follow-up to Naver D2's 2018 post for aspiring backend developers, answering students' questions on development, hiring and learning in the AI era."
     }
   ]
 }
