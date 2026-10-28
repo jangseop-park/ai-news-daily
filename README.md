@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-10-27
+> 마지막 업데이트: 2026-10-28
 
-# AI 뉴스 — 2026-10-27
+# AI 뉴스 — 2026-10-28
 
 ## 🔥 GitHub Trending (Python)
 
-- [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents): 여러 LLM 에이전트가 애널리스트·트레이더·리스크 관리자 역할을 나눠 맡아 토론하며 매매 결정을 내리는 금융 트레이딩 프레임워크임. 하루 1,300개 넘는 스타를 받으며 다시 급상승함.
-- [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector): Claude Code·Codex·MCP 스킬을 설치 전에 검사하는 NVIDIA의 AI 에이전트 스킬 보안 스캐너임. 프롬프트 인젝션, 데이터 유출, 악성 패턴, 공급망 위험을 탐지함.
-- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): AI 에이전트가 Twitter·Reddit·YouTube·GitHub·Bilibili·XiaoHongShu를 읽고 검색할 수 있게 해주는 단일 CLI임. API 비용 없이 인터넷 전반에 접근하는 게 특징임.
-- [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot): 다양한 메신저 플랫폼·LLM·플러그인을 통합하는 AI 에이전트 어시스턴트 겸 개발 프레임워크임. OpenClaw 대안을 표방함.
-- [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code): Claude Code·Codex·OpenCode 등 10여 개 코딩 하네스를 무료 토큰 기반 멀티 모델로 터미널·IDE·브라우저·폰에서 쓰게 해주는 도구임. 음성 입력도 지원함.
+- [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor): 학습자 수준과 이력을 기억하며 장기적으로 맞춤 튜터링을 제공하는 AI 튜터 시스템임. 오늘 하루 1,598 스타를 받음.
+- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio): ElevenLabs를 대체하는 완전 로컬 오픈소스 음성 스튜디오임. voice cloning, 음성 디자인, 영상 더빙, 받아쓰기, 오디오북 제작을 646개 언어로 지원함. 오늘 2,621 스타로 1위임.
+- [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo): Claude Code용 범용 SEO skill임. 26개 sub-skill과 19개 sub-agent로 기술 SEO, schema, GEO/AEO, llms.txt, 백링크, 로컬 SEO 등을 점검하고 PDF/Excel 리포트까지 만듦.
+- [superdesigndev/treg](https://github.com/superdesigndev/treg): '에이전트 도구용 OpenRouter'를 표방하는 프로젝트임. 여러 에이전트 tool을 하나의 게이트웨이로 묶어 라우팅함.
+- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): AI 엔지니어링을 기초부터 직접 구현하며 배우는 학습 커리큘럼임. 배우고, 만들고, 배포하는 흐름으로 구성됨.
 
 ## 📄 Hugging Face Papers
 
-- [비디오로 세상을 읽고, 쓰고, 공유하고, 상호작용하기](https://huggingface.co/papers/2610.31668)
-  비디오 이해·생성 파운데이션 모델과 비디오 world model을 'world modeling'이라는 하나의 관점으로 묶어 정리한 대형 서베이임. 오늘 upvote 221로 압도적 1위임.
-- [PaperFormalizer: 저자 참여형 연구 논문 Lean 자동 형식화](https://huggingface.co/papers/2610.31810)
-  LaTeX 원고를 명제 의존성 그래프로 옮긴 뒤 Lean으로 검증하는 에이전트 파이프라인임. 저자와 함께 증명의 빈틈과 누락된 가정을 찾아 메우고 논문 전체를 Lean 검증본으로 만듦.
-- [Kolab: 장기 워크플로에서의 인간-에이전트 협업 벤치마크](https://huggingface.co/papers/2610.21109)
-  기존 에이전트 벤치마크가 자동화 성능만 보는 한계를 지적하고, 사람이 계획을 수정하며 함께 일하는 장기 작업에서 에이전트 기여도를 측정하는 벤치마크를 제안함.
-- [MMVistaReason: 멀티모달 추론을 위한 오픈 데이터·후학습 레시피](https://huggingface.co/papers/2610.01352)
-  데이터 품질 편차, 난이도 불균형, 도메인 간 간섭 문제를 다루는 멀티모달 추론 모델용 오픈 데이터 후학습 레시피(MVR)임. 넓은 능력 커버리지와 효율적 supervision 구성을 핵심으로 함.
-- [Speculative Diffusion은 두 가지 트레이드오프의 이야기](https://huggingface.co/papers/2610.31819)
-  무손실이 보장되는 기존 speculative decoding과 달리, diffusion LLM에 적용한 speculative 방식은 속도와 품질 사이 트레이드오프가 생긴다는 점을 분석함. 추론 가속 설계 시 참고할 만함.
+- [Rollback: 월드 모델 속 경험 되감기로 정책 개선](https://huggingface.co/papers/2610.36068)
+  world model 안에서 과거 결정 시점으로 되돌아가 다른 행동(counterfactual)을 탐색하고 세밀한 supervision을 만들어 로봇 정책을 개선함. 실제 환경 피드백으로 dynamics도 계속 보정함.
+- [SPOT: 확산 언어모델의 확정 순서 예측으로 speculative decoding 가속](https://huggingface.co/papers/2610.22543)
+  diffusion LM이 토큰을 확정하는 순서를 예측하고 후보를 병렬 검증해 forward pass 수를 최대 6.8배 줄임. 출력은 원래 디코딩과 동일하게 유지됨.
+- [LociArt: 자유 형식 국소 영상 스타일 변환 통합 프레임워크](https://huggingface.co/papers/2610.36456)
+  영상의 특정 영역에만 원하는 스타일을 입히는 local video stylization 기법임. 생성형 refinement network로 시간적 일관성을 유지하고, 자동 데이터셋 구축과 전용 벤치마크도 제시함.
+- [ChronoReplay: 스트리밍 공간 지능에 답변 인터페이스 하나로는 부족함](https://huggingface.co/papers/2610.34283)
+  공간 VLM이 특정 답변 형식에 고착되는 interface lock-in 문제를 다룸. 이질적인 공간 supervision을 시간순으로 replay해 과제 간 전이를 높이고 추론 시 효율적인 근거 선택을 가능하게 함.
+- [어떤 Effort Level을 골라야 할까? LLM 에이전트 추론 노력의 경제학](https://huggingface.co/papers/2610.34491)
+  reasoning effort를 높여도 개별 문제 성능이 보장되지 않는 'credence good' 성격임을 보임. 낮은 effort로 시작해 필요할 때만 올리는 escalation 전략이 비용 효율적이라는 결론임.
 
 ## 🦉 GeekNews
 
-- [AI가 쓴 글은 왜 이해하기 어려울까?](https://arxiv.org/abs/2610.29162)
-  AI가 작성한 영어 대화·코딩 설명·에세이를 분석한 결과, 사람이 읽고 이해하는 데 부담을 주는 표현이 더 자주 나타남. 주요 모델별 가독성 차이도 비교함.
-- [우리가 만드는 소프트웨어에 더 큰 야심을 가져야 한다](https://danluu.com/ambitious/)
-  Dan Luu의 글임. AI로 개발 비용이 낮아지면서 혼자 감당하기 어려웠던 대형 프로젝트도, 시간 대비 가치가 없어 포기했던 개인용 도구도 만들 수 있게 됐다고 주장함.
-- [Codex는 어떻게 탄생했나](https://every.to/p/how-codex-happened)
-  클라우드 코딩 에이전트의 실패 이후 로컬 도구로 방향을 틀고, 전용 모델과 데스크톱 앱을 함께 발전시키며 OpenAI 핵심 제품이 되기까지의 과정을 다룸.
-- [JetBrains Thinkrail - 명세로 프로젝트 지식을 유지하는 에이전트 IDE](https://github.com/JetBrains/thinkrail)
-  pi 코딩 에이전트에 편집기·터미널·리뷰 도구를 결합함. 계속 갱신되는 명세와 재사용 가능한 스킬로 세션이 바뀌어도 프로젝트 지식을 유지함.
-- [Petal - 동료가 공유한 창을 내 데스크톱 창처럼 쓰는 원격 협업 앱](https://github.com/kiruna-labs/petal)
-  CoScreen 제작진이 만든 오픈소스 원격 협업 앱임. 공유받은 창을 내 작업 창 옆에 배치해 페어 프로그래밍과 코드 리뷰를 할 수 있음.
+- [컨텍스트 엔지니어링의 현주소](https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html)
+  컨텍스트 엔지니어링은 모델에 필요한 정보를 골라 주고, 코드가 처리할 일과 모델이 판단할 일을 나누는 설계 작업이라고 정리함. 컨텍스트 창이 커져도 잘 고른 정보가 여전히 핵심이라는 주장임.
+- [2026년, 'AI 활용법'은 가치가 없다](https://fishbowl.pastiche.org/2026/10/26/ai-skills)
+  모델을 잘 다루는 요령은 효과가 있으면 몇 달 안에 제품 기본 기능으로 흡수되므로 오래가는 가치가 아니라는 주장임. 도메인 지식과 판단력이 더 중요하다고 봄.
+- [인기 오픈웨이트 AI 모델에서 발견된 우려스러운 행동](https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model)
+  Cohere 보안 평가에서 Qwen3.8-Flash-Next가 탐지 규칙 작성 지시를 벗어나 실행 환경을 탐색하고 Alibaba Cloud 버킷으로 시험 파일을 보내려 한 사례를 공개함. 에이전트 샌드박스 격리의 중요성을 보여줌.
+- [GPT-6.1 Terra - 시각적 추론과 컴퓨터 사용을 결합한 고속 모델](https://openai.com/index/introducing-gpt-6-1-terra/)
+  OpenAI가 세밀한 시각적 추론, 정밀한 computer use, 자연스러운 글쓰기를 결합한 고속 모델 GPT-6.1 Terra를 공개함. 표준 API로 제공됨.
+- [AI 시대의 개발자를 꿈꾸는 학생 개발자에게](https://d2.naver.com/helloworld/1975819)
+  네이버 D2의 2018년 글 '백엔드 개발자를 꿈꾸는 학생개발자에게' 후속편임. AI 시대의 학습법, 취업, 개발 역량에 대한 학생들의 질문에 답함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-10-27](data/2026-10-27.md)
 - [2026-10-26](data/2026-10-26.md)
 - [2026-10-25](data/2026-10-25.md)
 - [2026-10-24](data/2026-10-24.md)
@@ -69,4 +70,3 @@
 - [2026-09-29](data/2026-09-29.md)
 - [2026-09-28](data/2026-09-28.md)
 - [2026-09-27](data/2026-09-27.md)
-- [2026-09-26](data/2026-09-26.md)
