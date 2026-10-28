@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-29",
+  "github_trending": [
+    {
+      "name": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "description": "GitHub이 만든 Spec-Driven Development(SDD) 툴킷임. 명세를 먼저 쓰고 코딩 에이전트가 그 명세를 기준으로 계획·구현하도록 프로젝트 템플릿과 CLI를 제공함.",
+      "description_en": "Toolkit to help you get started with Spec-Driven Development (SDD) or any other process."
+    },
+    {
+      "name": "p-e-w/heretic",
+      "url": "https://github.com/p-e-w/heretic",
+      "description": "언어 모델의 거절(refusal) 동작을 자동으로 제거하는 도구임. abliteration 기법과 파라미터 자동 탐색을 결합해 원본 성능 손실을 최소화함.",
+      "description_en": "Fully automatic censorship removal for language models."
+    },
+    {
+      "name": "shitagaki-lab/see-through",
+      "url": "https://github.com/shitagaki-lab/see-through",
+      "description": "애니메이션 캐릭터 이미지 한 장을 머리카락·얼굴·옷 등 편집 가능한 레이어로 분해하는 SIGGRAPH 2026 논문 구현체임. 일러스트 편집·Live2D 제작에 유용함.",
+      "description_en": "Single-image Layer Decomposition for Anime Characters (SIGGRAPH 2026 Conference Paper)."
+    },
+    {
+      "name": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "description": "AI 에이전트 skill용 보안 스캐너임. Claude Code·Codex·MCP skill을 설치하기 전에 prompt injection, 데이터 유출, 공급망 위험 등 악성 패턴을 탐지함.",
+      "description_en": "Security scanner for AI agent skills. Detects vulnerabilities, malicious patterns, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them."
+    },
+    {
+      "name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "애널리스트·트레이더·리스크 관리자 역할의 LLM 에이전트들이 토론하며 매매 결정을 내리는 멀티 에이전트 금융 트레이딩 프레임워크임. 꾸준히 trending 상위권 유지 중임.",
+      "description_en": "TradingAgents: Multi-Agents LLM Financial Trading Framework."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "장기 과제 LLM 에이전트를 위한 Multiscale Policy Optimization",
+      "title_en": "Multiscale Policy Optimization for Long-Horizon LLM Agents",
+      "url": "https://huggingface.co/papers/2610.35013",
+      "summary": "critic 값이 주로 턴 단위로 변한다는 관찰에서 출발함. 턴 단위로 최적화를 고정하고 턴 내부 토큰에는 더 세밀하게 credit을 배분하는 MPO를 제안함. upvote 318로 압도적 1위임.",
+      "summary_en": "Observing that critic values vary mainly across turns, MPO anchors optimization at turns with finer credit allocation among tokens for long-horizon LLM agents."
+    },
+    {
+      "title": "이산 토큰이 시각 신호의 의미적 무손실 표현이 될 수 있을까?",
+      "title_en": "Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?",
+      "url": "https://huggingface.co/papers/2610.37662",
+      "summary": "양자화 오차 때문에 discrete visual token은 의미 손실이 불가피하다는 통념에 반박함. 이산 토큰으로도 의미적으로 무손실에 가까운 표현이 가능함을 보이며 통합 next-token 멀티모달 모델링의 근거를 제시함.",
+      "summary_en": "Challenges the assumption that quantization error makes discrete visual tokens inherently lossy, showing they can be near semantically lossless for unified multimodal modeling."
+    },
+    {
+      "title": "Zooming without Zooming v2: 세부 인식에서 증거 연결까지",
+      "title_en": "Zooming without Zooming v2: From Seeing Details to Connecting Evidence for Generalizable Multimodal Perception",
+      "url": "https://huggingface.co/papers/2610.37037",
+      "summary": "embodied AI·멀티모달 에이전트의 핵심인 공간 인식과 긴 맥락 멀티모달 이해용 학습 데이터를 저비용으로 합성하는 방법을 제안함. 세부를 보는 능력을 여러 증거를 연결하는 추론으로 확장함.",
+      "summary_en": "Proposes cheap synthesis of targeted training data for spatial perception and multimodal long-context understanding, extending detail perception to connecting evidence."
+    },
+    {
+      "title": "EmbeddingGemma 2: 통합·효율적 멀티모달 표현",
+      "title_en": "EmbeddingGemma 2: Unified and Efficient Multimodal Representations",
+      "url": "https://huggingface.co/papers/2610.37364",
+      "summary": "Google의 오픈 멀티모달 embedding 모델임. 텍스트·이미지·오디오·비디오와 그 조합을 하나의 공간에 표현함. 단순화된 per-layer embedding과 다단계 curriculum으로 단일·교차 모달 성능을 모두 확보함.",
+      "summary_en": "An open multimodal embedding model natively representing text, images, audio, video and combinations in one space, using simplified per-layer embeddings and a multi-stage curriculum."
+    },
+    {
+      "title": "h1: 자동 정리 증명에서 맛본 Bitter Lesson",
+      "title_en": "h1: A Taste of the Bitter Lesson in Automated Theorem Proving",
+      "url": "https://huggingface.co/papers/2610.35962",
+      "summary": "형식 정리 증명이 계획·분해·전용 prover 조합 같은 사람이 설계한 워크플로에 의존해 온 흐름에 의문을 제기함. 단순한 스케일링 위주 접근만으로도 경쟁력 있는 성능이 나오는지 검증함.",
+      "summary_en": "Asks the bitter-lesson question for formal theorem proving: whether scaling general reasoning can rival human-designed workflows of planning, decomposition and specialized provers."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "AI는 일을 줄여준다고 약속했다. 나는 그 어느 때보다 많이 일하고 있다",
+      "title_en": "AI promised less work. I'm working more than ever",
+      "url": "https://oioannou.com/blog/ai-promised-less-work/",
+      "summary": "모든 엔지니어링 업무에 AI 에이전트를 쓰면서 구현 비용이 줄자, 일을 빨리 끝내기보다 스스로 맡는 업무량이 오히려 늘었다는 경험담임. 여러 에이전트를 동시에 돌리며 생기는 인지 부담도 다룸.",
+      "summary_en": "Using AI agents for all engineering work lowered implementation cost but expanded the amount of work taken on rather than finishing faster, with added cognitive load from parallel agents."
+    },
+    {
+      "title": "Show GN: Aqueous 압축 파일 포맷",
+      "title_en": "Show GN: Aqueous compression file format",
+      "url": "https://news.hada.io/topic?id=36140",
+      "summary": "국내 개발자가 몇 달간 만든 새 압축 포맷 공개 글임. 압축 대상 파일을 분석해 재압축 가능한 구조를 찾아 처리하는 방식으로 압축률을 끌어올림.",
+      "summary_en": "A Korean developer's new compression format that analyzes input files to find recompressible structure and improve ratios."
+    },
+    {
+      "title": "소프트웨어가 나빠지고 있을지는 몰라도, 예전에는 끔찍했음",
+      "title_en": "Software may be getting worse, but it used to be horrible",
+      "url": "https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/",
+      "summary": "현대 소프트웨어 품질 문제를 인정하면서도, 과거가 더 좋았다는 향수는 1990년대 잦은 시스템 충돌과 작업 손실을 잊은 것이라고 반박함.",
+      "summary_en": "Acknowledges modern software quality issues but argues nostalgia forgets the frequent crashes and lost work of 1990s software."
+    },
+    {
+      "title": "Unlimited-OCR 2 - 페이지 간 문맥을 이어 수백 페이지 문서를 파싱하는 OCR 모델",
+      "title_en": "Unlimited-OCR 2 - OCR model parsing hundreds of pages with cross-page context",
+      "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+      "summary": "Baidu가 여러 페이지를 한 요청으로 처리하는 Unlimited-OCR 2를 공개함. 페이지 간 문맥을 활용하고, 제한된 context window 안에서도 매우 긴 문서를 한 번에 파싱함. GitHub Trending에도 올라옴.",
+      "summary_en": "Baidu released Unlimited-OCR 2, handling many pages in one request using cross-page context to parse very long documents within a finite context window."
+    },
+    {
+      "title": "Ghostty 1.4.0 - 스크롤백 압축과 성능 개선을 담은 터미널 업데이트",
+      "title_en": "Ghostty 1.4.0 - terminal update with scrollback compression and performance improvements",
+      "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+      "summary": "터미널 에뮬레이터 Ghostty 1.4.0이 스크롤백 압축으로 메모리 사용량을 줄이고 성능을 개선함. Kitty 그래픽 프로토콜의 애니메이션·이미지 상대 배치를 Kitty 외 터미널 최초로 지원함.",
+      "summary_en": "Ghostty 1.4.0 reduces memory via scrollback compression, improves performance, and is the first non-Kitty terminal to support Kitty graphics animation and relative placement."
+    }
+  ]
+}
