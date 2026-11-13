@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-09",
+  "github_trending": [
+    {
+      "name": "googlecolab/google-colab-cli",
+      "url": "https://github.com/googlecolab/google-colab-cli",
+      "description": "터미널에서 Colab CPU·GPU·TPU 런타임을 띄우고 코드 실행·파일 관리·일회성 작업을 수행하는 공식 CLI임.",
+      "description_en": "Official CLI for Google Colab: provision CPU/GPU/TPU runtimes, run code, manage files and ephemeral jobs from the terminal."
+    },
+    {
+      "name": "SWE-agent/mini-swe-agent",
+      "url": "https://github.com/SWE-agent/mini-swe-agent",
+      "description": "100줄짜리 초간단 AI 에이전트로 GitHub 이슈를 해결함. SWE-bench Verified 74% 이상임.",
+      "description_en": "The 100 line AI agent that solves GitHub issues; scores >74% on SWE-bench verified."
+    },
+    {
+      "name": "bradautomates/claude-video",
+      "url": "https://github.com/bradautomates/claude-video",
+      "description": "영상을 타임스탬프 프레임과 자막으로 변환해 Claude가 영상을 볼 수 있게 하는 /watch 스킬임.",
+      "description_en": "Give Claude the ability to watch any video: frames + transcript via /watch."
+    },
+    {
+      "name": "neuml/txtai",
+      "url": "https://github.com/neuml/txtai",
+      "description": "시맨틱 검색, LLM 오케스트레이션, 언어 모델 워크플로를 다루는 올인원 AI 프레임워크임.",
+      "description_en": "All-in-one AI framework for semantic search, LLM orchestration and language model workflows."
+    },
+    {
+      "name": "anthropics/claude-quickstarts",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "description": "Claude API로 배포 가능한 앱을 빠르게 만들 수 있는 예제 프로젝트 모음임.",
+      "description_en": "Projects to quickly get started building deployable applications using the Claude API."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "Muir: 민감도 기반 게이팅 linear attention",
+      "title_en": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout",
+      "url": "https://huggingface.co/papers/2611.08376",
+      "summary": "state 업데이트가 write에 더 민감함을 밝히고 게이트 용량을 write에 집중 배분함.",
+      "summary_en": "Allocates gating capacity toward writes, which state updates are far more sensitive to, plus matched-filter readout."
+    },
+    {
+      "title": "SwarmEvolve: 잠재 공간 에이전트 스웜 진화 탐색",
+      "title_en": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+      "url": "https://huggingface.co/papers/2611.08483",
+      "summary": "저비용 에이전트 수백 개가 latent space에서 추론해 LLM 진화 탐색을 가속함.",
+      "summary_en": "Hundreds of low-cost agents reason in latent space to speed up LLM-guided evolutionary search."
+    },
+    {
+      "title": "도구 출력은 텍스트일 필요 없음: 잠재 컨텍스트 압축",
+      "title_en": "Tools Need Not Speak in Text: Latent Context Compression for Agents",
+      "url": "https://huggingface.co/papers/2611.06500",
+      "summary": "툴 결과를 latent 표현으로 압축해 컨텍스트 비용을 줄임.",
+      "summary_en": "Compresses tool observations into latent representations to cut agent context overhead."
+    },
+    {
+      "title": "OpenFrontiers: 미해결 연구 문제 모음과 재발견 벤치마크",
+      "title_en": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+      "url": "https://huggingface.co/papers/2610.37739",
+      "summary": "open problem 코퍼스와 최근 해결된 수학 문제 기반 벤치마크를 공개함.",
+      "summary_en": "Corpus of open research problems plus a retrospective benchmark of recently resolved math problems."
+    },
+    {
+      "title": "학습 가능한 prefix 토큰으로 임베딩 간섭 감소",
+      "title_en": "Reducing Representational Interference in Retrieval Embeddings with Trainable Prefix Tokens",
+      "url": "https://huggingface.co/papers/2611.07298",
+      "summary": "[DUMP] 토큰을 앞에 붙여 잔여 토큰 정보를 흡수시켜 임베딩 품질을 높임.",
+      "summary_en": "Prepends trainable [DUMP] tokens to absorb residual token-level info and improve embeddings."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "에이전트 메모리 설계 - 무엇을 기억하고 잘못된 기억은 어떻게 고칠까",
+      "title_en": "Components of agent memory",
+      "url": "https://www.anthropic.com/research/components-of-agent-memory",
+      "summary": "Anthropic이 Claude로 에이전트 세션 간 기억 저장·정리 방식을 실험함.",
+      "summary_en": "Anthropic experiments with what agents should remember across sessions and how to fix bad memories."
+    },
+    {
+      "title": "모든 Windows 11 앱은 Electron을 버려야 함 - Discord 사례",
+      "title_en": "Every Windows 11 app should kill Electron, and Discord just showed why",
+      "url": "https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why-no-starting-screen-and-70-less-ram-even-with-two-accounts-signed-in/",
+      "summary": "Discord가 Rust+GPUI로 재구축해 RAM 70% 절감함.",
+      "summary_en": "Discord rebuilds its desktop app in Rust + GPUI, using 70% less RAM."
+    },
+    {
+      "title": "10달러짜리 4G USB 동글로 홈 서버 운영",
+      "title_en": "Running a home server on a $10 4G USB dongle",
+      "url": "https://blog.bosscher.ch/posts/openstick/",
+      "summary": "OpenStick에 Debian·Podman으로 여러 서비스를 돌림.",
+      "summary_en": "Debian + Podman services on a $10 OpenStick dongle."
+    },
+    {
+      "title": "GitHub 새 Git 스토리지 아키텍처 Rubicon",
+      "title_en": "Inside GitHub's new Git storage architecture",
+      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+      "summary": "단일 저장소에서 초당 7,200회 push를 처리함.",
+      "summary_en": "Handles 7,200 pushes/sec on a single repo from 5,000 agents."
+    },
+    {
+      "title": "MaxxBench - DeepSWE 점수, 진짜인가",
+      "title_en": "Why MaxxBench",
+      "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+      "summary": "DeepSWE 과제를 변형해 에이전트 적응력을 평가함.",
+      "summary_en": "Perturbs DeepSWE tasks to test whether agents adapt rather than recall."
+    }
+  ]
+}
