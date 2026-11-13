@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-11",
+  "github_trending": [
+    {
+      "name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Anthropic이 공개한 Agent Skills 공식 저장소임. Claude가 문서 작성·코드·데이터 작업 등에 불러 쓰는 스킬 예제와 템플릿을 모아둠. 하루 1,676 스타로 오늘 1위임.",
+      "description_en": "Anthropic's public repository for Agent Skills — example skills and templates Claude can load for documents, code and data tasks."
+    },
+    {
+      "name": "opensandbox-group/OpenSandbox",
+      "url": "https://github.com/opensandbox-group/OpenSandbox",
+      "description": "AI 에이전트용 보안 샌드박스 런타임임. 에이전트가 생성한 코드를 격리 환경에서 빠르게 실행하도록 설계됐고 확장 가능한 구조를 내세움.",
+      "description_en": "Secure, fast and extensible sandbox runtime for AI agents to execute generated code in isolation."
+    },
+    {
+      "name": "Imbad0202/academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "description": "Claude Code용 학술 연구 스킬 모음임. 리서치 → 작성 → 리뷰 → 수정 → 마무리까지 논문 작업 흐름을 단계별 스킬로 나눠 제공함.",
+      "description_en": "Academic research skills for Claude Code covering research, writing, review, revision and finalization."
+    },
+    {
+      "name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "AI 엔지니어링을 처음부터 배우는 실습형 커리큘럼임. 개념 학습 → 직접 구현 → 배포까지 이어지는 구성임.",
+      "description_en": "Hands-on curriculum to learn AI engineering from scratch: learn it, build it, ship it."
+    },
+    {
+      "name": "ashishpatel26/500-AI-Agents-Projects",
+      "url": "https://github.com/ashishpatel26/500-AI-Agents-Projects",
+      "description": "산업별 AI 에이전트 활용 사례 500개를 정리한 큐레이션 목록임. 각 사례마다 구현에 참고할 오픈소스 프로젝트 링크가 달려 있음.",
+      "description_en": "Curated collection of 500 AI agent use cases across industries with links to open-source implementations."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "Longtail-SWE: 비주류 언어용 고품질 SWE 과제",
+      "title_en": "Longtail-SWE: High-Quality SWE Tasks for Underrepresented Languages",
+      "url": "https://huggingface.co/papers/2611.10304",
+      "summary": "Clojure·Dart·Elixir·Haskell·Kotlin·Swift 등 기존 벤치마크에서 소외된 13개 언어의 이슈 해결 과제 202개를 담은 벤치마크임. solver–judge–repairer 파이프라인으로 잘못된 테스트와 모호한 설명을 고쳐 어려운 과제를 버리지 않고 살림.",
+      "summary_en": "Benchmark of 202 issue-resolution tasks across 13 underrepresented languages, built with a solver–judge–repairer pipeline that repairs tests and descriptions."
+    },
+    {
+      "title": "MotionGraphicsBench: 프로그램 검증 기반 모션 그래픽 생성 평가",
+      "title_en": "MotionGraphicsBench: Evaluating Motion Graphics Generation with Programmatic Verification",
+      "url": "https://huggingface.co/papers/2611.10592",
+      "summary": "정적 SVG와 모션 편집 프롬프트를 주고 애니메이션을 만들게 하는 100개 과제 벤치마크임. 실제 Lottie 디자인에서 추출했고, 정답 비교 대신 요구사항별 통과/실패를 알려주는 결정적 검증 프로그램으로 채점함.",
+      "summary_en": "100-instance benchmark for animating static SVGs from motion prompts, derived from real Lottie designs and scored by deterministic verification programs."
+    },
+    {
+      "title": "Auriga: 제로샷 로봇 조작을 위한 범용 에이전트 하네스",
+      "title_en": "Auriga Technical Report: A Task-Agnostic Agent Harness for Zero-Shot Embodied Manipulation",
+      "url": "https://huggingface.co/papers/2611.01112",
+      "summary": "VLM이 계획은 잘해도 직접 로봇을 움직이면 성공률이 크게 떨어지는 문제를 다룸. 3D 측정·양팔 제어·궤적 미리보기 등을 하네스가 제공해 RoboDojo에서 계획-실행 격차의 68.3%를 사전 시도 없이 메움.",
+      "summary_en": "Agent harness that gives VLMs calibrated 3D measurements, dual-arm control and trajectory previews, closing 68.3% of the planning–execution gap zero-shot on RoboDojo."
+    },
+    {
+      "title": "onóna: 묶인 언임베딩을 쓰는 쌍둥이 임베딩",
+      "title_en": "onóna: Twin Embeddings with Tied Unembeddings",
+      "url": "https://huggingface.co/papers/2611.10556",
+      "summary": "임베딩 테이블 2개를 두고 입력은 평균, 출력은 두 softmax를 게이트로 섞는 weight tying 기법임. Transformer 본체는 그대로이며 142M~1B 규모 Dense·MoE 등에서 12번 중 11번 검증 손실이 낮아짐.",
+      "summary_en": "Two-table weight-tying parameterization mixing two softmaxes via a token-conditioned gate; lowers validation loss in 11 of 12 comparisons at 142M–1B scale."
+    },
+    {
+      "title": "LCM-Promo: LLM 기반 프로모션 배분 업리프트 모델",
+      "title_en": "LCM-Promo: An LLM-Based Uplift Model for Promotion Allocation",
+      "url": "https://huggingface.co/papers/2610.37570",
+      "summary": "거래 데이터로 파인튜닝한 커머스 특화 LLM으로 사용자별 프로모션 반응을 예측함. 실서비스 A/B 테스트에서 기존 대비 전환율 1% 증가, 프로모션 비용 6% 절감함.",
+      "summary_en": "Commerce-specific fine-tuned LLM predicting promotion response; production A/B test showed +1% conversion and −6% promotion cost."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "Flide - Jev 같은 의사결정 모델을 최대 9.5배 빠르게 실행",
+      "title_en": "Flide - Run decision models like Jev up to 9.5x faster",
+      "url": "https://github.com/OmniJev/Flide",
+      "summary": "Jev 계열 의사결정 모델 전용 추론 인프라임. 정확한 상태 분기(exact state forking)로 vLLM·SGLang 대비 최대 9.5배 빠른 추론을 냄.",
+      "summary_en": "Inference infrastructure for Jev-style decision models using exact state forking, up to 9.5x faster than vLLM and SGLang."
+    },
+    {
+      "title": "Claude Fable 5.2와 Mythos 5.2 출시",
+      "title_en": "Claude Fable 5.2 and Mythos 5.2",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "summary": "Anthropic이 고난도 코딩·과학 연구용 Fable 5.2와 Mythos 5.2를 공개함. 코딩·추론·이미지 이해가 이전 버전보다 향상됐고, Artificial Analysis 지능 지수에서는 Fable 5.2가 역대 최고 65점을 기록함.",
+      "summary_en": "Anthropic released Claude Fable 5.2 and Mythos 5.2 with stronger coding, reasoning and vision; Fable 5.2 scored a record 65 on the Artificial Analysis Intelligence Index."
+    },
+    {
+      "title": "raea - AI가 코드로 만든 영상/3D/게임을 GPU로 렌더링하는 엔진",
+      "title_en": "raea - GPU engine rendering AI-coded video, 3D and games",
+      "url": "https://github.com/shinyobjectz/raea",
+      "summary": "원하는 결과를 말하면 AI 에이전트가 React/TypeScript 코드로 작성하고 GPU로 렌더링함. 텍스트·SVG·애니메이션을 합성해 영상과 모션 그래픽을 만듦.",
+      "summary_en": "Describe what you want, an AI agent writes React/TypeScript and the engine renders video, motion graphics, 3D and games on the GPU."
+    },
+    {
+      "title": "kokio.forge - 서버·DB를 배치하고 트래픽·장애를 시뮬레이션하는 인프라 설계 게임",
+      "title_en": "Show GN: kokio.forge - infra design game simulating traffic and failures",
+      "url": "https://news.hada.io/topic?id=36912",
+      "summary": "서버와 DB를 직접 배치해 보고 트래픽 증가나 장애 상황을 시뮬레이션하는 게임임. '서버 몇 대가 필요한지, 하나 죽으면 어디까지 영향이 가는지'를 감이 아닌 실험으로 익히게 함.",
+      "summary_en": "A game where you place servers and databases and simulate traffic and outages to learn capacity and failure impact."
+    },
+    {
+      "title": "웹이면 충분하고도 남는다",
+      "title_en": "The web is more than enough",
+      "url": "https://ftrain.com/aboard-the-web-is-more-than-enough",
+      "summary": "브라우저에는 이미 암호화·3D 그래픽·오디오 같은 기능이 다 들어 있다는 주장임. 이를 쓰는 비용이 낮아지면서 예전엔 큰 팀이 만들던 웹 앱을 개인도 만들 수 있게 됐다고 봄.",
+      "summary_en": "Browsers already ship crypto, 3D graphics and audio; as using them gets cheaper, individuals can build apps that once needed large teams."
+    }
+  ]
+}
