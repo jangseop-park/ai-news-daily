@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-31",
+  "github_trending": [
+    {
+      "name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Anthropic이 공개한 Agent Skills 공식 레포임. Claude가 문서·스프레드시트 작업 등 특정 업무를 수행하도록 지침·스크립트를 패키징한 스킬 예제가 모여 있음.",
+      "description_en": "Anthropic's public repository for Agent Skills — packaged instructions and scripts that teach Claude to perform specific tasks such as document and spreadsheet work."
+    },
+    {
+      "name": "MemPalace/mempalace",
+      "url": "https://github.com/MemPalace/mempalace",
+      "description": "벤치마크 성적이 가장 좋다고 내세우는 오픈소스 AI 메모리 시스템임. 에이전트가 장기 기억을 저장·검색하도록 해주며 무료로 쓸 수 있음.",
+      "description_en": "Claims to be the best-benchmarked open-source AI memory system, giving agents long-term memory storage and retrieval for free."
+    },
+    {
+      "name": "ethanplusai/harvey",
+      "url": "https://github.com/ethanplusai/harvey",
+      "description": "Claude Code나 Codex 위에서 도는 자율 AI 영업 에이전트임. 잠재고객 발굴, 콜드메일 작성·발송, 답장 처리, 미팅 예약까지 자동화함. 별도 API 키 없이 기존 구독으로 동작함.",
+      "description_en": "Autonomous AI sales agent powered by Claude Code or Codex: finds prospects, writes and sends cold emails, handles replies and books meetings, running on existing subscriptions with no API keys."
+    },
+    {
+      "name": "langchain-ai/deepagents",
+      "url": "https://github.com/langchain-ai/deepagents",
+      "description": "LangChain의 '배터리 포함형' 에이전트 하네스임. 계획 수립, 서브에이전트, 파일시스템 도구 등을 기본 제공해 장기 실행 에이전트를 빠르게 만들 수 있음.",
+      "description_en": "LangChain's batteries-included agent harness with built-in planning, sub-agents and filesystem tools for building long-running agents."
+    },
+    {
+      "name": "kirodotdev/KiroCrew",
+      "url": "https://github.com/kirodotdev/KiroCrew",
+      "description": "세션이 끝나도 이어지는 개발용 영속 워크스페이스임. 작업 맥락을 유지하면서 스스로 개선해 나가는 구조를 지향함.",
+      "description_en": "A persistent workspace for development work that self-improves and continues beyond a single session."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "Youtu-Parsing-Omni: 하나의 인코더·하나의 스키마로 모든 모달리티 파싱",
+      "title_en": "Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities",
+      "url": "https://huggingface.co/papers/2610.39301",
+      "summary": "문서·이미지·오디오·비디오를 시공간 근거가 달린 구조화 레코드로 바꾸는 omni-modal parser임. 모든 모달리티를 하나의 encoder, 모든 태스크를 하나의 schema로 처리해 에이전트가 증거를 읽고 위치를 찾고 인용하는 perception layer 역할을 함.",
+      "summary_en": "An omni-modal parser that converts documents, images, audio and video into spatio-temporally grounded structured records using one encoder for all modalities and one schema for all tasks, serving as a perception layer for agents."
+    },
+    {
+      "title": "JEPA로 플라토닉 표현 가설을 증명하고 개선하기",
+      "title_en": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
+      "url": "https://huggingface.co/papers/2610.39302",
+      "summary": "서로 다른 모달리티로 학습한 모델이 같은 세계 표현으로 수렴한다는 Platonic Representation Hypothesis를 정리(theorem)로 바꿈. JEPA 계열 학습이 표현 수렴을 보장함을 증명하고, 이를 바탕으로 표현 정렬을 개선하는 레시피까지 제시함.",
+      "summary_en": "Turns the Platonic Representation Hypothesis into a theorem, proving that Joint-Embedding Predictive Architectures converge to shared representations across modalities, and derives a recipe to improve alignment."
+    },
+    {
+      "title": "PhysInsert: 기하 사전지식과 양방향 객체-장면 상호작용을 활용한 물리적으로 그럴듯한 객체 삽입",
+      "title_en": "PhysInsert: Physically Plausible Object Insertion with Geometric Priors and Bidirectional Object-Scene Interactions",
+      "url": "https://huggingface.co/papers/2610.40453",
+      "summary": "참조 이미지 기반으로 객체를 장면에 넣을 때 객체와 주변 장면을 함께 조정하는 프레임워크임. 시점·조명 변화와 그림자·접촉 같은 양방향 상호작용을 반영하도록 학습 데이터를 새로 구축함.",
+      "summary_en": "A reference-based object insertion framework that jointly adapts the object and surrounding scene, with a new dataset capturing pose and lighting changes and bidirectional object-scene interactions."
+    },
+    {
+      "title": "OpenFlyV2: 공중 인식·내비게이션을 위한 온보드 VLA 모델",
+      "title_en": "OpenFlyV2: An onboard vision-language-action model for aerial perception and navigation",
+      "url": "https://huggingface.co/papers/2610.39287",
+      "summary": "드론에 탑재해 돌아가는 vision-language-action 모델임. 환경 이해, 지시 대상 인식, 공간 추론, 행동을 하나의 인식 기반 위에서 처리하고 오프보드 연산 없이 closed-loop 비행을 유지함.",
+      "summary_en": "An onboard vision-language-action model for aerial robots that unifies perception, referring, spatial reasoning and action on a shared foundation, sustaining closed-loop flight without offboard compute."
+    },
+    {
+      "title": "실제 코드 검증을 위한 Lean 정리 증명 확장",
+      "title_en": "Scaling Lean Theorem Proving for Real-World Code Verification",
+      "url": "https://huggingface.co/papers/2610.38174",
+      "summary": "재귀 에이전트·비동기 탐색·병렬 tactic 탐색을 결합한 Lean 증명 시스템 EasyProver를 제안함. 추가 학습 없는 frontier 모델만으로 PutnamBench 669/672, IMO 2026 형식화 6문제 전부, VERINA 189개 과제를 모두 풀었음.",
+      "summary_en": "EasyProver, a Lean proving system of recursive agents with async search and parallel tactic probing, solves 669/672 PutnamBench problems, all six IMO 2026 formalizations and all 189 VERINA tasks using an off-the-shelf frontier model."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "마틴 파울러: LLM 문체가 만드는 글의 불쾌한 골짜기",
+      "title_en": "Martin Fowler: LLM Voice and the uncanny valley of writing",
+      "url": "https://news.hada.io/topic?id=36244",
+      "summary": "LLM 특유의 문체는 실제로 AI를 썼는지와 상관없이 읽고 싶은 마음을 떨어뜨리고 거부감을 줄 수 있다는 글임. AI 판별 도구가 사람 글로 판정해도 독자는 위화감을 느낀다는 점을 짚음.",
+      "summary_en": "Martin Fowler argues that the characteristic LLM writing voice erodes readers' desire to read and triggers aversion, regardless of whether AI was actually used."
+    },
+    {
+      "title": "BookOrbit - 전자책과 오디오북을 여러 기기에서 이어 읽는 셀프 호스팅 도서관",
+      "title_en": "BookOrbit - a self-hosted library to continue ebooks and audiobooks across devices",
+      "url": "https://news.hada.io/topic?id=36261",
+      "summary": "전자책·PDF·만화·오디오북을 내 서버에 모아 웹, 전자책 단말기, 모바일에서 읽고 듣는 독서 플랫폼임. 웹 리더와 Kobo, KOReader 간 읽기 위치 동기화를 지원함.",
+      "summary_en": "A self-hosted reading platform for ebooks, PDFs, comics and audiobooks, accessible from web, e-readers and mobile, with reading-progress sync between the web reader, Kobo and KOReader."
+    },
+    {
+      "title": "이대로는 지속 가능하지 않다 - 취약점 공개 속도를 따라가지 못하는 보안 대응",
+      "title_en": "This is not sustainable - security response can't keep up with vulnerability disclosure",
+      "url": "https://news.hada.io/topic?id=36195",
+      "summary": "취약점 발견·공개 속도가 방어 조직의 대응 능력을 넘어섰다는 글임. AI로 패치를 만드는 것만으로는 해결되지 않고, 실제 병목은 패치 배포·검증 등 운영 단계에 있다고 지적함.",
+      "summary_en": "Vulnerability discovery and disclosure now outpace defenders' capacity; AI-generated patches alone won't fix it because the real bottleneck lies in deploying and validating patches."
+    },
+    {
+      "title": "Gemini 4 Carbon, AAII v5 1위·코딩 에이전트 2위",
+      "title_en": "Gemini 4 Carbon takes #1 on AAII v5 and #2 for coding agents",
+      "url": "https://news.hada.io/topic?id=36229",
+      "summary": "Google Gemini 4 Carbon이 Artificial Analysis Intelligence Index v5에서 59점으로 1위를 차지함. 복잡한 추론·지식·과학 과제에 강하고 코딩 에이전트 부문에서는 2위를 기록함.",
+      "summary_en": "Google's Gemini 4 Carbon ranks first on the Artificial Analysis Intelligence Index v5 with 59 points, strong in complex reasoning, knowledge and science, and second in coding-agent evaluations."
+    },
+    {
+      "title": "좀비 통계: AI가 인용하는 숫자는 어디에서 오는가",
+      "title_en": "Zombie stats: where do the numbers AI cites come from?",
+      "url": "https://news.hada.io/topic?id=36254",
+      "summary": "Trakkr가 AI 서비스 5곳의 통계 인용 1,285건을 추적한 결과, 원 연구까지 거슬러 올라가 내용이 일치한 비율은 40%에 그쳤음. 출처가 사라졌거나 왜곡된 숫자가 계속 재인용되는 문제를 보여줌.",
+      "summary_en": "Trakkr traced 1,285 statistic citations across five AI services and found only 40% could be traced back to an original study with matching figures, showing how orphaned or distorted numbers keep circulating."
+    }
+  ]
+}
