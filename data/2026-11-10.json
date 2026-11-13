@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-10",
+  "github_trending": [
+    {
+      "name": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 기반 멀티마켓 주식 분석 시스템임. 다중 시세 소스·실시간 뉴스를 모아 의사결정 대시보드와 자동 알림을 제공하고, 비용 없이 정기 실행 가능함.",
+      "description_en": "LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications and cost-free scheduled runs."
+    },
+    {
+      "name": "homeassistant-ai/ha-mcp",
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
+      "description": "Home Assistant용 MCP 서버임. Claude, ChatGPT 등 AI 어시스턴트로 스마트홈 설정과 자동화를 대화형으로 구성할 수 있음.",
+      "description_en": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants (MCP server)."
+    },
+    {
+      "name": "OpenBMB/VoxCPM",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "description": "토크나이저 없는 다국어 TTS 모델 VoxCPM2임. 음성 생성, 창의적 보이스 디자인, 실감 나는 음성 클로닝을 지원함.",
+      "description_en": "VoxCPM2: Tokenizer-free TTS for multilingual speech generation, creative voice design and true-to-life cloning."
+    },
+    {
+      "name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "완전 로컬 실행되는 오픈소스 ElevenLabs 대안임. 음성 클로닝·보이스 디자인·영상 더빙·받아쓰기·오디오북 제작을 646개 언어로 지원함.",
+      "description_en": "Open-source, fully-local ElevenLabs alternative: voice cloning, voice design, video dubbing, dictation, transcription and audiobook creation in 646 languages."
+    },
+    {
+      "name": "BigBodyCobain/Shadowbroker",
+      "url": "https://github.com/BigBodyCobain/Shadowbroker",
+      "description": "공개정보(OSINT) 통합 대시보드임. 전용기·정찰위성·지진 등 데이터를 한 화면에서 추적하고, AI 에이전트를 붙여 숨은 상관관계를 찾게 할 수 있음.",
+      "description_en": "Open-source intelligence for the global theater: track private jets, spy satellites and seismic events in one interface, with an AI agent to find hidden correlations."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "SplatAnything: 임의 장면에 대한 Feed-forward 3DGS용 Gaussian Spacing Normalization",
+      "title_en": "SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes",
+      "url": "https://huggingface.co/papers/2611.08264",
+      "summary": "기존 feed-forward 3DGS는 장면 스케일·카메라 배치에 따라 인접 Gaussian 간격이 크게 달라져 스케일 타깃이 흔들리는 문제가 있음. 장면 단위 Gaussian 간격 통계를 정규화하는 GSNorm을 제안해 학습 신호를 일관되게 만들고 다양한 장면에서 재구성 품질을 높임.",
+      "summary_en": "Applies Gaussian Spacing Normalization to canonicalize scene-level Gaussian spacing, giving more consistent supervision and better feed-forward 3DGS across varying scene scales and viewpoints."
+    },
+    {
+      "title": "P^2-MOPD: 파라미터 사전지식으로 다중 교사 On-Policy Distillation 가속",
+      "title_en": "P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors",
+      "url": "https://huggingface.co/papers/2611.03953",
+      "summary": "학생·전문가 모델 파라미터의 선형 결합을 하나의 미분 가능한 모델로 보고, 혼합 계수와 학생 가중치를 on-policy distillation 목표로 함께 최적화함. task arithmetic과 달리 학생이 계속 학습 가능해, 기존 MOPD보다 빠르고 균형 있게 전문가 능력을 흡수함.",
+      "summary_en": "Jointly optimizes mixing coefficients and student weights under an on-policy distillation objective, treating experts as parameter priors for faster, more balanced recovery than MOPD."
+    },
+    {
+      "title": "LowRAM: 테스트 타임 결합형 KV Cache 압축을 위한 Low-Rank Key와 Amortised Value",
+      "title_en": "LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression at Test-Time",
+      "url": "https://huggingface.co/papers/2611.07025",
+      "summary": "어텐션 헤드 안에서 value가 key로부터 상당 부분 예측 가능하다는 점을 이용함. 헤드별 경량 예측기로 value를 복원하고 오차 큰 토큰만 잔차를 저장해 value를 약 4배 무손실에 가깝게 압축함. 레이어 간 low-rank key 압축까지 더해 디코딩 처리량을 높이고 양자화·eviction과도 함께 쓸 수 있음.",
+      "summary_en": "Compresses KV caches by predicting values from keys within each head and applying cross-layer low-rank key compression, raising decoding throughput and composing with quantization and eviction."
+    },
+    {
+      "title": "LongBanana: 장문맥 다중 참조 이미지 합성을 위한 전문가 검증 벤치마크",
+      "title_en": "LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis",
+      "url": "https://huggingface.co/papers/2611.06856",
+      "summary": "참조 이미지 약 32장 속 흩어진 시각 증거를 찾아 하나의 이미지로 합성하는 과제 90개로 구성된 벤치마크임. 총 4,670개 전문가 평가 항목과 그래프 기반 체크리스트로 채점하고, 성능을 끌어올리는 에이전트 하네스 워크플로도 함께 제안함.",
+      "summary_en": "Expert-verified benchmark of 90 long-context multi-reference image synthesis tasks with graph-grounded checklists (4,670 items), plus an agent-harness workflow to improve results."
+    },
+    {
+      "title": "PCBRouteAgent: LLM 에이전트는 PCB 라우팅 엔지니어에 얼마나 가까운가?",
+      "title_en": "PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?",
+      "url": "https://huggingface.co/papers/2611.08175",
+      "summary": "사람 엔지니어처럼 전역 전략과 국소 실행을 나눈 멀티모달 PCB 라우팅 에이전트임. Global Planner가 보드 이미지와 전기·기하 정보로 연결 순서·경로·레이어 전환을 정하고, Executor가 KiCad 네이티브 라우터로 실제 배선을 수행함.",
+      "summary_en": "Multimodal PCB routing agent: a Global Routing Planner sets topology, order, corridors and layer transitions from board images and structured data, and an executor routes via KiCad's native engine."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "AI에 회사 맥락을 제공하고 '회사 두뇌'를 구축하는 방법",
+      "title_en": "How to give AI company context and build a 'company brain'",
+      "url": "https://ramp.com/blog/how-to-give-ai-context",
+      "summary": "Ramp 사례임. AI가 회사에 맞는 답을 하려면 지표 정의·정책·업무 방식처럼 추측 불가한 정보를 문서화하고 실제 업무 도구와 연결해 팀 전체가 공유해야 함.",
+      "summary_en": "Ramp explains that AI needs documented metric definitions, policies and workflows connected to real tools and shared across the team to give company-specific answers."
+    },
+    {
+      "title": "나는 AI로 인한 두뇌 과부하에 이렇게 대처한다",
+      "title_en": "Fighting AI brain fry",
+      "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+      "summary": "Claude Code·Codex 응답을 기다리며 병렬 작업을 늘리면 여러 대화 맥락을 동시에 붙잡게 돼 피로가 커짐. 작업 순서와 맥락 관리를 바꿔 인지 부하를 줄이는 실전 요령을 정리함.",
+      "summary_en": "Running many parallel Claude Code/Codex sessions overloads working memory; the author shares how ordering tasks and managing context reduces cognitive load."
+    },
+    {
+      "title": "사고 도구로서의 글쓰기",
+      "title_en": "Writing as a thinking tool",
+      "url": "http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html",
+      "summary": "분산시스템 연구자 Murat Demirbas의 글임. 글로 생각을 정리하면 머릿속에선 안 보이던 아이디어 간 연결이 드러나고, 한 번에 다루기 어려운 문제도 단계적으로 풀 수 있다고 주장함.",
+      "summary_en": "Murat Demirbas argues that writing reveals hidden connections between ideas and lets you break down problems too big to hold in your head."
+    },
+    {
+      "title": "국내 오픈소스 소액 지원 사업 'FOSS for All Microgrants 2026' 수혜 프로젝트 5곳",
+      "title_en": "FOSS for All Microgrants 2026: five funded Korean open-source projects",
+      "url": "https://forum.fossforall.org/t/foss-for-all-microgrants-2026/162",
+      "summary": "FOSS for All이 올해 처음 진행한 기부금 모집·분배 사업 결과 발표임. 국내 자유·오픈소스 생태계 활성화를 위해 프로젝트 5곳에 소액 지원금을 배분함.",
+      "summary_en": "FOSS for All announces the five Korean open-source projects funded by its first community microgrant program."
+    },
+    {
+      "title": "골드만 삭스, 은행원과 트레이더의 Claude Code 사용 제한",
+      "title_en": "Goldman Sachs restricts Claude Code use for bankers and traders",
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "summary": "Goldman Sachs가 생산성·위험 검토 후 Claude Code와 GitHub 사용을 엔지니어 중심으로 제한함. 대부분의 은행원·트레이더는 업무에서 쓸 수 없게 됨.",
+      "summary_en": "After a productivity and risk review, Goldman Sachs limited Claude Code and GitHub access mainly to engineers, cutting off most bankers and traders."
+    }
+  ]
+}
