@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-05",
+  "github_trending": [
+    {
+      "name": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "description": "데이터 위에 의미 기반 그래프 추론 계층을 만드는 Python 프레임워크임. 결정적 쿼리 생성, 더 나은 컨텍스트 검색, 설명 가능한 LLM·에이전트 워크플로를 지원함. 하루 2,000+ 스타 받음.",
+      "description_en": "Python framework for building semantic, graph-based reasoning layers over data, enabling deterministic query generation, better context retrieval and more explainable AI for LLM and agent workflows."
+    },
+    {
+      "name": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "description": "GitHub이 만든 Spec-Driven Development(SDD) 툴킷임. 스펙을 먼저 쓰고 AI 코딩 에이전트가 이를 기반으로 구현하도록 흐름을 잡아줌.",
+      "description_en": "GitHub's toolkit to help you get started with Spec-Driven Development (SDD) or any other process for AI coding agents."
+    },
+    {
+      "name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "주제나 키워드 하나로 대본·소재·자막·음성까지 자동 생성해 HD 숏폼 영상을 만드는 AI 워크플로임.",
+      "description_en": "Generate HD short videos from a topic or keyword with an automated AI LLM workflow."
+    },
+    {
+      "name": "The-PR-Agent/pr-agent",
+      "url": "https://github.com/The-PR-Agent/pr-agent",
+      "description": "원조 오픈소스 AI PR 리뷰어임. PR 요약, 코드 리뷰, 개선 제안을 자동으로 달아줌. Qodo 무료 티어와는 별개 프로젝트임.",
+      "description_en": "The original open-source AI PR reviewer (not the Qodo free tier): auto-describes, reviews and suggests improvements on pull requests."
+    },
+    {
+      "name": "Thysrael/Horizon",
+      "url": "https://github.com/Thysrael/Horizon",
+      "description": "AI 기반 개인 뉴스 레이더임. 관심 소스를 모아 영어·중국어 데일리 브리핑을 자동 생성함.",
+      "description_en": "Your own AI-powered news radar that generates daily briefings in English and Chinese."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "덜 생각하기, 국소적으로: 추론 압축을 위한 Local Preference Learning",
+      "title_en": "Think Less, Locally: Local Preference Learning for Reasoning Compression",
+      "url": "https://huggingface.co/papers/2611.04814",
+      "summary": "추론 모델이 답을 낼 정보가 충분한데도 계속 생각하는 overthinking 문제를 다룸. LoCo는 모델 자신의 trace에서 overthinking 지점을 찾아 그 prefix를 고정하고, 더 짧고 검증된 이어쓰기를 만들어 DPO로 학습함. 전체를 짧게 만드는 게 아니라 언제 멈출지를 가르치는 방식임.",
+      "summary_en": "LoCo detects overthinking states in a reasoning model's own traces, regenerates shorter verified continuations from them, and trains on state-conditioned preference pairs with DPO, teaching the model when to stop reasoning."
+    },
+    {
+      "title": "DreamX: 비디오 확산 모델은 범용 latent action 학습기임",
+      "title_en": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+      "url": "https://huggingface.co/papers/2611.05377",
+      "summary": "사전학습된 video diffusion 모델을 latent action 학습기로 재활용함. 프레임당 1,200→4 토큰(300배)으로 압축한 행동 표현을 뽑아내고, 외형·embodiment와 분리된 동역학을 담아 로봇 간 전이에 유리함.",
+      "summary_en": "Repurposes a pretrained video diffusion model to extract compact latent actions (300x compression, 1,200→4 tokens per frame) disentangled from appearance, serving as a shared action space across embodiments."
+    },
+    {
+      "title": "합성 이미지 검색을 위한 Factorized MLLM Embeddings",
+      "title_en": "Factorized MLLM Embeddings for Composed Image Retrieval",
+      "url": "https://huggingface.co/papers/2611.05193",
+      "summary": "참조 이미지+수정 문장으로 목표 이미지를 찾는 CIR 과제임. FactEmbed는 factorized latent로 의도된 시각적 수정을 먼저 상상하게 한 뒤 검색 임베딩을 만들어, MLLM의 조합적 이해를 더 잘 활용함.",
+      "summary_en": "FactEmbed decouples compositional query comprehension from embedding by using factorized latents that simulate the intended visual modification (target imagination) before building the retrieval embedding."
+    },
+    {
+      "title": "VidUEU-Agent: 멀티모달 이해·편집·통합 과제용 데이터 큐레이션 에이전트",
+      "title_en": "VidUEU-Agent: A Data-Curation Agent for Multimodal Understanding, Editing, and Unified Tasks",
+      "url": "https://huggingface.co/papers/2611.04418",
+      "summary": "원본 영상에서 instruction 데이터를 자동 합성하는 4단계 파이프라인임. 저품질 샷 필터링→키프레임·신호 추출→메타데이터 구성→샘플 합성 순이며, 다운스트림 학습 결과를 보고 데이터 분포를 스스로 조정함.",
+      "summary_en": "An automated four-stage agent pipeline that synthesizes instruction data from raw videos for understanding, editing and unified tasks, iteratively adjusting the data distribution based on downstream training results."
+    },
+    {
+      "title": "긴 컨텍스트는 필요 없음",
+      "title_en": "You don't need long context",
+      "url": "https://huggingface.co/papers/2611.05306",
+      "summary": "뒤쪽 토큰일수록 생성 비용이 최대 7배 비싸짐. 잦은 compaction으로 짧은 컨텍스트만 유지해도 장기·장문 과제 정확도 손실이 거의 없고, 컨텍스트당 1 action만 둬도 SWE 과제 성능이 무너지지 않음. 이를 바탕으로 semantic state space model(SSSM) 개념을 제안함.",
+      "summary_en": "Shows that frequent compaction keeps accuracy nearly intact on long-horizon/long-input tasks, even with one action per context on SWE tasks, questioning the need for long-context LLMs and proposing semantic state space models."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "JVM 시작 시간, 330초에서 3초로 줄이기",
+      "title_en": "We stopped our JVM from ever booting cold again",
+      "url": "https://medium.com/engineering-housing/we-stopped-our-jvm-from-ever-booting-cold-again-b5dbd492fe88",
+      "summary": "CRaC으로 워밍업이 끝난 JVM 프로세스 상태를 체크포인트로 저장하고 새 파드에서 복원함. 파드 준비 시간이 약 330초에서 2~3초로 줄어 오토스케일링 대응이 빨라짐.",
+      "summary_en": "Using CRaC to checkpoint a warmed-up JVM and restore it in new pods cut pod readiness from ~330s to 2-3s."
+    },
+    {
+      "title": "내 노트북의 Qwen 3.8 27B도 모델 가중치를 해석할 수 있음",
+      "title_en": "Qwen 3.8 27B on my laptop can interpret model weights",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "summary": "로컬 Qwen 3.8 27B가 도구·코드 실행 없이 신경망 가중치만 읽고 해당 모델이 학습한 게임(Pac-Man, Pong, Breakout)을 맞힘. GPT-6 Astra급 weight-space 해석이 로컬 모델에서도 일부 재현됨.",
+      "summary_en": "A local Qwen 3.8 27B identified which games (Pac-Man, Pong, Breakout) a network was trained on just by reading its weights, without tools."
+    },
+    {
+      "title": "에이전트가 일을 할 때의 비판적 사고",
+      "title_en": "Critical thinking when agents do the work",
+      "url": "https://x.com/addyosmani/status/2117512471930167377",
+      "summary": "에이전트 답이 빠르고 매끄러울수록 사람이 재검토할 계기가 줄어듦. 사용을 줄이기보다 검증 체크포인트·근거 요구 등 비판적 사고를 워크플로에 의도적으로 넣자는 제안임.",
+      "summary_en": "Addy Osmani argues that as agents get faster and more fluent, humans review less; critical thinking must be deliberately built into agent workflows."
+    },
+    {
+      "title": "Show GN: 게임 기획 실무에서 바로 쓰는 AI·Claude Code 활용법 (876쪽 원고 공개)",
+      "title_en": "Show GN: AI & Claude Code for game design practice — full 876-page manuscript",
+      "url": "https://news.hada.io/topic?id=36579",
+      "summary": "24년 차 게임 기획자가 Claude Code를 매일 실무에 쓰며 정리한 책 원고 전체를 GitHub에 마크다운으로 공개함(CC BY-NC-SA 4.0). 기획 문서·데이터 테이블 작업 등 비개발 직군 활용 사례가 풍부함.",
+      "summary_en": "A 24-year game designer open-sourced an 876-page markdown manuscript on using AI and Claude Code in daily game design work (CC BY-NC-SA 4.0)."
+    },
+    {
+      "title": "NIKKE PC 런처 침해 사고",
+      "title_en": "NIKKE PC launcher compromise",
+      "url": "https://gist.github.com/MotherSphere/d6c049a09ba8ac3085c51ee9df24a4e5",
+      "summary": "2026년 9월 27일부터 Level Infinite CDN의 공식 JavaScript 파일 4개에 공격자 코드가 삽입된 정황이 확인됨. 게임 런처를 통한 공급망 공격 사례로 분석 내용이 정리됨.",
+      "summary_en": "Since Sep 27, 2026, attacker code was injected into four official JavaScript files on Level Infinite's CDN used by the NIKKE PC launcher — a supply-chain compromise write-up."
+    }
+  ]
+}
