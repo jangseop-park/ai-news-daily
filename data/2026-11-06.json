@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-06",
+  "github_trending": [
+    {
+      "name": "google/skills",
+      "url": "https://github.com/google/skills",
+      "description": "Google 제품·기술용 공식 Agent Skills 모음임. AI 에이전트가 Google Cloud, Gemini API 등 Google 스택을 다룰 때 쓸 스킬을 패키지로 제공함.",
+      "description_en": "Agent Skills for Google products and technologies."
+    },
+    {
+      "name": "scenario-labs/skills",
+      "url": "https://github.com/scenario-labs/skills",
+      "description": "AI 에이전트에서 이미지·영상·오디오·3D를 바로 뽑게 해주는 스킬 모음임. 적합한 모델 선택, 비용 사전 산정, 캐릭터·브랜드 일관성 유지를 Scenario MCP로 처리하고 Blender·Unreal·Unity 등도 제어함.",
+      "description_en": "Skills for AI agents to produce production-ready images, video, audio and 3D via the Scenario MCP, with model selection, pricing and brand consistency, plus teams driving Blender, Maya, Unreal and Unity."
+    },
+    {
+      "name": "microsoft/VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "description": "Microsoft의 오픈소스 프런티어 음성 AI임. 긴 다화자 대화형 TTS 생성에 강점이 있음.",
+      "description_en": "Microsoft's open-source frontier voice AI."
+    },
+    {
+      "name": "sandbox-quantum/switch",
+      "url": "https://github.com/sandbox-quantum/switch",
+      "description": "Slack·Teams·Discord·Telegram·Mattermost에서 일하는 오픈소스 AI 팀원임. 셀프호스팅 가능하고 에이전트 harness와 모델을 자유롭게 고를 수 있음.",
+      "description_en": "Open-source, self-hostable AI teammates in Slack, Teams, Discord, Telegram and Mattermost with any agent harness and any model."
+    },
+    {
+      "name": "NVIDIA/Model-Optimizer",
+      "url": "https://github.com/NVIDIA/Model-Optimizer",
+      "description": "양자화·distillation·pruning·NAS·speculative decoding 등 SOTA 모델 최적화 기법을 한데 모은 NVIDIA 라이브러리임. TensorRT-LLM, vLLM 등 배포용으로 모델을 압축함.",
+      "description_en": "NVIDIA's unified library of SOTA model optimization techniques (quantization, distillation, pruning, NAS, speculative decoding) to compress models for downstream deployment."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "Turns Matter: Turn 단위 credit으로 스트리밍 비디오 RL 개선",
+      "title_en": "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit",
+      "url": "https://huggingface.co/papers/2611.06728",
+      "summary": "스트리밍 비디오 이해는 매 순간 응답할지 더 볼지 결정해야 함. 기존 GRPO 적용은 trajectory 전체에 advantage 하나만 줘서 어느 turn이 좋았는지 구분 못함. turn 단위 credit assignment를 도입해 응답 타이밍과 정확도를 함께 개선함. 오늘 upvote 1위(118)임.",
+      "summary_en": "Introduces turn-level credit assignment for GRPO in streaming video understanding, instead of a single trajectory-level advantage, improving when-to-respond decisions and accuracy."
+    },
+    {
+      "title": "멀티턴 RL은 LLM 에이전트의 무엇을 실제로 개선하는가?",
+      "title_en": "What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?",
+      "url": "https://huggingface.co/papers/2611.06483",
+      "summary": "샘플링 폭 K와 상호작용 깊이 T를 함께 보는 Pass@(K,T)로 평가함. 멀티턴 RL 이득은 상호작용 여유가 충분할 때만 나타나며, 새 능력보다는 기존 능력을 효율적으로 끌어내는 효과가 큼을 분석함.",
+      "summary_en": "Using Pass@(K,T) over sampling breadth and interaction depth, shows multi-turn agentic RL gains depend heavily on interaction budget."
+    },
+    {
+      "title": "Halley: 광 AI 데이터센터 네트워크를 위한 예측형 control plane",
+      "title_en": "Halley: A Predictive Control Plane for Optical AI Data Center Networks",
+      "url": "https://huggingface.co/papers/2611.04408",
+      "summary": "수만 개 가속기가 매 step 끝에 동시에 데이터를 주고받는 학습 트래픽은 예측 가능함. 레이저부터 스위치까지 고정 정책으로 돌던 광 네트워크 4계층을 트래픽 예측 기반으로 미리 제어해 효율을 높이는 control plane을 제안함.",
+      "summary_en": "Proposes a predictive control plane that exploits the predictable collective traffic of AI training to proactively manage all four layers of optical data center networks."
+    },
+    {
+      "title": "TAC-CoT: 명시적 토큰을 끼워 넣은 도구 활용 implicit CoT",
+      "title_en": "TAC-CoT: Tool-Empowered Implicit Chain-of-Thought via Interleaving Explicit Tokens",
+      "url": "https://huggingface.co/papers/2611.01926",
+      "summary": "explicit CoT는 생성 비용이 크고 implicit CoT는 도구 호출이 어려움. 잠재 추론 사이에 명시적 토큰을 섞어 도구를 쓸 수 있는 implicit CoT를 만들어, 정확도를 유지하면서 생성량을 줄임.",
+      "summary_en": "Interleaves explicit tokens into implicit (latent) chain-of-thought so agents can call tools while keeping reasoning cheap."
+    },
+    {
+      "title": "PyRUA-REAL: 실세계에서 RSI로 로봇 탐색·적응 학습",
+      "title_en": "PyRUA-REAL: Robot Exploration and Adaptive Learning through RSI in the Real World",
+      "url": "https://huggingface.co/papers/2611.06768",
+      "summary": "GPT-6-Astra 같은 코딩 에이전트가 물리 상호작용 결과를 보고 로봇 행동 코드를 스스로 고치는 embodied recursive self-improvement를 실제 로봇에서 연구함. 반복할수록 로봇 능력이 지속적으로 향상되는지 검증함.",
+      "summary_en": "Studies embodied recursive self-improvement where coding agents iteratively rewrite robot behavior code from real-world interaction."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "제프리 힌턴: AI가 없었더라면 더 나았을 수도 있음",
+      "title_en": "Geoffrey Hinton: we might be better off without AI",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+      "summary": "Hinton은 AI가 풍요를 열 가능성은 인정하지만, 위험 관리에 실패하면 빈부 격차와 대량 실업으로 사회가 무너질 수 있다고 경고함.",
+      "summary_en": "Hinton acknowledges AI could bring abundance but warns failure to manage risks could collapse society through inequality and mass unemployment."
+    },
+    {
+      "title": "AI가 40년간 쌓인 기술 부채를 갚도록 몰아붙이고 있음",
+      "title_en": "AI is forcing us to pay down 40 years of tech debt",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "summary": "단순 크래시 버그로 방치됐던 PHP 오류에서 AI 도움으로 원격 코드 실행 경로가 발견됨(PHP2Shell). 오래된 소프트웨어의 기술 부채가 곧 보안 위험이 되는 시대임을 보여줌.",
+      "summary_en": "AI helped turn a long-ignored PHP crash bug into remote code execution (PHP2Shell), showing legacy tech debt is now a security risk."
+    },
+    {
+      "title": "내가 AI를 쓰는 방식, 2026년 10월",
+      "title_en": "How I use AI, October 2026",
+      "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
+      "summary": "Salesforce AI Research의 Ben Stolovitz가 코딩 에이전트 5~6개를 병렬로 돌리며 코드 90% 이상을 AI에 맡기는 워크플로를 공유함. 에이전트마다 별도 Git worktree를 쓰는 등 실전 팁이 담김.",
+      "summary_en": "Ben Stolovitz runs 5-6 coding agents in parallel, each in its own git worktree, delegating 90%+ of his code to AI."
+    },
+    {
+      "title": "자율 에이전트를 위한 데이터 플랫폼 구축",
+      "title_en": "Building a data platform for autonomous agents",
+      "url": "https://www.linkedin.com/pulse/building-data-platform-autonomous-agents-vikram-k-gundeti-obd8c/",
+      "summary": "에이전트가 데이터 플랫폼을 안정적으로 쓰려면 시맨틱 모델만으론 부족하고, 데이터 최신성·완전성·파이프라인 실행 상태까지 확인할 수 있어야 한다는 설계 원칙을 정리함.",
+      "summary_en": "Argues agent-ready data platforms need freshness, completeness and pipeline-state signals beyond a semantic model."
+    },
+    {
+      "title": "sutura - AI 에이전트가 회사 지표 정의로 데이터를 조회하게 해주는 쿼리 엔진",
+      "title_en": "sutura - query engine letting AI agents query data with company metric definitions",
+      "url": "https://github.com/telekom/sutura",
+      "summary": "Deutsche Telekom이 공개한 도구임. 대시보드의 매출과 AI 에이전트에게 물은 매출이 같은 기준으로 계산되도록, 회사가 정의한 지표·차원으로 쿼리를 생성함.",
+      "summary_en": "Telekom's open-source engine so AI agents compute metrics using the same company definitions as dashboards."
+    }
+  ]
+}
