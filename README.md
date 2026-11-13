@@ -1,72 +1,39 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-10-29
+> 마지막 업데이트: 2026-11-13
 
-# AI 뉴스 — 2026-10-29
+# AI 뉴스 — 2026-11-13
 
 ## 🔥 GitHub Trending (Python)
 
-- [github/spec-kit](https://github.com/github/spec-kit): GitHub이 만든 Spec-Driven Development(SDD) 툴킷임. 명세를 먼저 쓰고 코딩 에이전트가 그 명세를 기준으로 계획·구현하도록 프로젝트 템플릿과 CLI를 제공함.
-- [p-e-w/heretic](https://github.com/p-e-w/heretic): 언어 모델의 거절(refusal) 동작을 자동으로 제거하는 도구임. abliteration 기법과 파라미터 자동 탐색을 결합해 원본 성능 손실을 최소화함.
-- [shitagaki-lab/see-through](https://github.com/shitagaki-lab/see-through): 애니메이션 캐릭터 이미지 한 장을 머리카락·얼굴·옷 등 편집 가능한 레이어로 분해하는 SIGGRAPH 2026 논문 구현체임. 일러스트 편집·Live2D 제작에 유용함.
-- [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector): AI 에이전트 skill용 보안 스캐너임. Claude Code·Codex·MCP skill을 설치하기 전에 prompt injection, 데이터 유출, 공급망 위험 등 악성 패턴을 탐지함.
-- [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents): 애널리스트·트레이더·리스크 관리자 역할의 LLM 에이전트들이 토론하며 매매 결정을 내리는 멀티 에이전트 금융 트레이딩 프레임워크임. 꾸준히 trending 상위권 유지 중임.
+- [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis): LLM 기반 다중 시장 주식 분석 시스템임. 여러 시세 소스와 실시간 뉴스를 모아 의사결정 대시보드와 자동 알림까지 제공함. 무료 스케줄 실행을 지원해 오늘 하루 1,290 star를 받음.
+- [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp): Home Assistant용 MCP 서버임. Claude, ChatGPT 같은 AI 어시스턴트로 스마트홈 기기 설정과 자동화를 대화형으로 구성할 수 있음.
+- [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector): AI 에이전트 스킬 전용 보안 스캐너임. 악성 패턴, prompt injection, 데이터 유출, 공급망 위험 등을 탐지함. NVIDIA가 함께 공개한 SkillEvaluator(스킬 품질 평가 프레임워크)와 짝을 이룸.
+- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill): 주제 하나를 주면 Reddit, X, YouTube, HN, Polymarket, 웹을 훑어 최근 30일 동향을 근거 기반으로 요약해주는 에이전트 스킬임.
+- [openai/whisper](https://github.com/openai/whisper): OpenAI의 대규모 약지도 학습 기반 음성 인식 모델임. 다국어 전사·번역을 지원하며 공개된 지 오래됐지만 다시 트렌딩에 오름.
 
 ## 📄 Hugging Face Papers
 
-- [장기 과제 LLM 에이전트를 위한 Multiscale Policy Optimization](https://huggingface.co/papers/2610.35013)
-  critic 값이 주로 턴 단위로 변한다는 관찰에서 출발함. 턴 단위로 최적화를 고정하고 턴 내부 토큰에는 더 세밀하게 credit을 배분하는 MPO를 제안함. upvote 318로 압도적 1위임.
-- [이산 토큰이 시각 신호의 의미적 무손실 표현이 될 수 있을까?](https://huggingface.co/papers/2610.37662)
-  양자화 오차 때문에 discrete visual token은 의미 손실이 불가피하다는 통념에 반박함. 이산 토큰으로도 의미적으로 무손실에 가까운 표현이 가능함을 보이며 통합 next-token 멀티모달 모델링의 근거를 제시함.
-- [Zooming without Zooming v2: 세부 인식에서 증거 연결까지](https://huggingface.co/papers/2610.37037)
-  embodied AI·멀티모달 에이전트의 핵심인 공간 인식과 긴 맥락 멀티모달 이해용 학습 데이터를 저비용으로 합성하는 방법을 제안함. 세부를 보는 능력을 여러 증거를 연결하는 추론으로 확장함.
-- [EmbeddingGemma 2: 통합·효율적 멀티모달 표현](https://huggingface.co/papers/2610.37364)
-  Google의 오픈 멀티모달 embedding 모델임. 텍스트·이미지·오디오·비디오와 그 조합을 하나의 공간에 표현함. 단순화된 per-layer embedding과 다단계 curriculum으로 단일·교차 모달 성능을 모두 확보함.
-- [h1: 자동 정리 증명에서 맛본 Bitter Lesson](https://huggingface.co/papers/2610.35962)
-  형식 정리 증명이 계획·분해·전용 prover 조합 같은 사람이 설계한 워크플로에 의존해 온 흐름에 의문을 제기함. 단순한 스케일링 위주 접근만으로도 경쟁력 있는 성능이 나오는지 검증함.
+- [구조화된 교과서로 수학 증명 지도학습 확장하기 (TOME-Math)](https://huggingface.co/papers/2610.40394)
+  대학 수학 교과서 2,118권을 장 순서·명제-증명 연결·의존 관계를 보존한 증명 지도 데이터 약 38만 건으로 변환한 TOME-Math 코퍼스를 제안함. 이를 활용한 curriculum learning과 스케일링 패턴을 분석했고, 전체 데이터로 fine-tuning 시 평균 점수가 base model 대비 16.7%p 오름. 공개 instruction 데이터 3종보다도 우수함.
+- [SteerDistill: 폐루프 교사 조향으로 LLM 에이전트 양자화하기](https://huggingface.co/papers/2611.13410)
+  저비트 양자화된 에이전트가 과제 조건을 놓쳐 실패하는 문제를 다룸. full-precision 교사가 실패한 응답의 수정을 유도하고 실행 피드백으로 지도를 반복 개선한 뒤, 그 교정을 학생에 내재화함. W4A16에서 최강 양자화 baseline보다 1.67~2.18점 높고 BF16과 1점 이내 차이임. τ²-Bench에서 QeRL보다 GPU 시간 67% 적게 쓰고 성공률 1.84%p 높음.
+- [강화학습으로 LLM의 자기주도 학습 유도하기](https://huggingface.co/papers/2610.39671)
+  모델이 긴 참고자료(교과서)를 스스로 탐색·학습해 문제에 적용하는 self-learning 능력을 연구함. BookNavigator 인터페이스와 세밀한 보상의 RL로 학습시켜 Intern-S2-Preview-35B의 증명 정확도를 51.5%에서 79.5%로 끌어올림. BrowseComp-Plus 등 장문맥 벤치마크에서도 향상됨.
+- [덜 읽고 더 푼다: AI 에이전트를 위한 토큰 효율적 희소 읽기 (SparseRead)](https://huggingface.co/papers/2608.22237)
+  웹페이지·문서·repo를 통째로 읽는 over-reading 문제를 해결하는 읽기 제어 계층 SparseRead를 제안함. 읽기 의도 추적, 적응형 리더 백엔드, 예산 기반 게이트로 구성되며 모델 수정 없이 붙일 수 있음. Claude Opus 5 포함 6개 모델에서 토큰 최대 92.9%, 소요 시간 최대 89% 절감하면서 97% 설정에서 품질 유지·개선함.
+- [프롬프트 적응형 비용 인지 LLM 추론을 위한 앙상블 라우팅 (PISA)](https://huggingface.co/papers/2611.10193)
+  프롬프트별로 모델 능력을 추정해 단일 모델을 고르는 라우터 PISA와, 앙상블 구성·개수까지 고르는 PISA-E를 제안함. 비용-품질 선호를 재학습 없이 추론 시 조절 가능함. 품질 우선 시 기존 앙상블보다 2~3%p 높고, 저비용 설정에선 비용을 25~36% 줄이면서 성능도 앞섬.
 
 ## 🦉 GeekNews
 
-- [AI는 일을 줄여준다고 약속했다. 나는 그 어느 때보다 많이 일하고 있다](https://oioannou.com/blog/ai-promised-less-work/)
-  모든 엔지니어링 업무에 AI 에이전트를 쓰면서 구현 비용이 줄자, 일을 빨리 끝내기보다 스스로 맡는 업무량이 오히려 늘었다는 경험담임. 여러 에이전트를 동시에 돌리며 생기는 인지 부담도 다룸.
-- [Show GN: Aqueous 압축 파일 포맷](https://news.hada.io/topic?id=36140)
-  국내 개발자가 몇 달간 만든 새 압축 포맷 공개 글임. 압축 대상 파일을 분석해 재압축 가능한 구조를 찾아 처리하는 방식으로 압축률을 끌어올림.
-- [소프트웨어가 나빠지고 있을지는 몰라도, 예전에는 끔찍했음](https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/)
-  현대 소프트웨어 품질 문제를 인정하면서도, 과거가 더 좋았다는 향수는 1990년대 잦은 시스템 충돌과 작업 손실을 잊은 것이라고 반박함.
-- [Unlimited-OCR 2 - 페이지 간 문맥을 이어 수백 페이지 문서를 파싱하는 OCR 모델](https://huggingface.co/baidu/Unlimited-OCR-2)
-  Baidu가 여러 페이지를 한 요청으로 처리하는 Unlimited-OCR 2를 공개함. 페이지 간 문맥을 활용하고, 제한된 context window 안에서도 매우 긴 문서를 한 번에 파싱함. GitHub Trending에도 올라옴.
-- [Ghostty 1.4.0 - 스크롤백 압축과 성능 개선을 담은 터미널 업데이트](https://ghostty.org/docs/install/release-notes/1-4-0)
-  터미널 에뮬레이터 Ghostty 1.4.0이 스크롤백 압축으로 메모리 사용량을 줄이고 성능을 개선함. Kitty 그래픽 프로토콜의 애니메이션·이미지 상대 배치를 Kitty 외 터미널 최초로 지원함.
-
----
-## 📅 이전 날짜
-
-- [2026-10-28](data/2026-10-28.md)
-- [2026-10-27](data/2026-10-27.md)
-- [2026-10-26](data/2026-10-26.md)
-- [2026-10-25](data/2026-10-25.md)
-- [2026-10-24](data/2026-10-24.md)
-- [2026-10-23](data/2026-10-23.md)
-- [2026-10-22](data/2026-10-22.md)
-- [2026-10-21](data/2026-10-21.md)
-- [2026-10-20](data/2026-10-20.md)
-- [2026-10-19](data/2026-10-19.md)
-- [2026-10-18](data/2026-10-18.md)
-- [2026-10-17](data/2026-10-17.md)
-- [2026-10-16](data/2026-10-16.md)
-- [2026-10-15](data/2026-10-15.md)
-- [2026-10-14](data/2026-10-14.md)
-- [2026-10-13](data/2026-10-13.md)
-- [2026-10-12](data/2026-10-12.md)
-- [2026-10-11](data/2026-10-11.md)
-- [2026-10-10](data/2026-10-10.md)
-- [2026-10-07](data/2026-10-07.md)
-- [2026-10-06](data/2026-10-06.md)
-- [2026-10-05](data/2026-10-05.md)
-- [2026-10-04](data/2026-10-04.md)
-- [2026-10-03](data/2026-10-03.md)
-- [2026-10-02](data/2026-10-02.md)
-- [2026-10-01](data/2026-10-01.md)
-- [2026-09-30](data/2026-09-30.md)
-- [2026-09-29](data/2026-09-29.md)
-- [2026-09-28](data/2026-09-28.md)
+- [AWS가 마침내 자체 AWS 에뮬레이터를 만들었다](https://github.com/aws/aws-emulator)
+  실제 AWS를 호출하지 않고 로컬·개발 서버·CI에서 AWS API를 테스트하는 공식 도구임. AWS 계정 없이 쓸 수 있고, 서버 모드(CLI/SDK 엔드포인트 지정)와 테스트별 격리 인스턴스를 띄우는 Rust 임베디드 모드를 지원함. 개발·테스트 전용이며 실제 AWS와의 동작 일치도는 릴리스별로 확인해야 함.
+- [AI 시대, git push 앞뒤에서 바뀌는 것들](https://news.hada.io/article/git-push-in-the-agent-era)
+  Anthropic이 사내 모노레포에서 Git을 자체 VCS인 Scion으로 교체했고 OpenAI도 병렬 에이전트용 체계를 내놓은 흐름을 정리함. 에이전트가 대량으로 커밋·PR을 만드는 환경에서 리뷰, 브랜치, CI 등 git push 전후 워크플로가 어떻게 달라지는지 다룸.
+- [Expo의 Exact - React 없이 웹·iOS·macOS·Linux 앱을 만드는 AI 에이전트 중심 런타임](https://github.com/expo/exact)
+  Expo가 공개한 Rust 기반 크로스 플랫폼 런타임임. UI는 선언형 언어 Contract로, 로직은 TypeScript/Rust로 작성하며 React·WebView·JS 브릿지가 필요 없음. 코딩 에이전트가 빌드·실행·화면 확인·조작·테스트까지 자동 수행하는 agent-native 구조가 핵심임.
+- [Gemini Decisions API - 입력 하나에 최대 1,000개 질문을 평가하는 멀티모달 API](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/)
+  Google이 gemini-decision-1 기반 판단 전용 API를 공개함. 텍스트·이미지·오디오·영상·PDF 입력 하나에 예/아니요·객관식·기준별 채점 질문을 최대 1,000개 묶어 보내면, 토큰 생성 없이 한 번의 forward pass로 확률과 신뢰도를 반환함. 지연 150~250ms, 입력 100만 토큰당 0.10달러이며 출력 요금은 없음.
+- [투박한 차단 망치로 단순한 봇을 가차 없이 막기](https://shkspr.mobi/blog/2026/11/blunt-banhammer-blocks-basic-bots-ballistically/)
+  robots.txt로 막아둔 숨은 허니팟 링크에 접근한 IP를 .htaccess로 즉시 차단하는 도구 B6 소개임. AI 크롤러로 월 2.5TB 넘게 트래픽이 나가던 OpenBenches.org에 적용하니 봇 트래픽 80% 이상, 일일 전송량 216GB에서 약 25GB로 줄어듦. 다만 무관한 이용자 오차단 가능성은 있음.
