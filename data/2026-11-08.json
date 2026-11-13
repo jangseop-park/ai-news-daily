@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-08",
+  "github_trending": [
+    {
+      "name": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "description": "사용자명 하나로 수백 개 소셜 네트워크의 계정을 찾아주는 OSINT 도구임. CLI로 바로 쓸 수 있음. 오늘 1,819 star로 급상승함.",
+      "description_en": "Hunt down social media accounts by username across hundreds of social networks."
+    },
+    {
+      "name": "jamiepine/voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "description": "오픈소스 AI 보이스 스튜디오임. 음성 클로닝, 받아쓰기, 음성 콘텐츠 제작을 로컬에서 할 수 있음.",
+      "description_en": "The open-source AI voice studio for voice cloning, dictation and creation."
+    },
+    {
+      "name": "mbillow/localthings",
+      "url": "https://github.com/mbillow/localthings",
+      "description": "Samsung 가전을 클라우드 계정 없이 Home Assistant에서 로컬 네트워크로 제어해주는 통합임. SmartThings 클라우드 의존을 없앰.",
+      "description_en": "Control Samsung appliances from Home Assistant over the local network without a cloud account."
+    },
+    {
+      "name": "aws/agent-toolkit-for-aws",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "description": "AWS가 공식 지원하는 MCP 서버, skill, plugin 모음임. AI 에이전트가 AWS 위에서 인프라와 앱을 구축하도록 도와줌.",
+      "description_en": "Official, AWS-supported MCP servers, skills and plugins to help AI agents build on AWS."
+    },
+    {
+      "name": "donnemartin/system-design-primer",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "description": "대규모 시스템 설계를 배우고 면접을 준비하는 학습 자료임. Anki 플래시카드도 포함함. 오늘 다시 trending에 오름.",
+      "description_en": "Learn how to design large-scale systems and prep for system design interviews, with Anki flashcards."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "VFlash: Flash Primitive Decoding으로 빠르고 정확한 시각 계획",
+      "title_en": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+      "url": "https://huggingface.co/papers/2611.08449",
+      "summary": "로봇·자율주행 같은 physical AI는 점, bounding box, trajectory 같은 시각적 계획을 씀. 기존 autoregressive VLM은 좌표를 토큰 하나씩 생성해서 계획이 풍부할수록 느려짐. VFlash는 primitive 단위로 한 번에 디코딩해 속도와 정확도를 같이 올림. upvote 99로 1위임.",
+      "summary_en": "Decodes visual plan primitives (points, boxes, trajectories) at once instead of coordinate token-by-token, making visual planning for physical AI fast and accurate."
+    },
+    {
+      "title": "자율 에이전트에서 인지적 공생자로: AI로 증강된 인간 지능",
+      "title_en": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+      "url": "https://huggingface.co/papers/2611.05376",
+      "summary": "지난 10년간 AI 발전은 기계가 혼자 얼마나 할 수 있는지로 측정됐음. 사람은 여전히 잊고, 놓치고, 자기 이력 없이 어려운 결정을 내림. 에이전트가 사람 대신 일하는 대신, 개인의 기억·주의·판단을 보강하는 cognitive symbiont 방향을 제안하는 position paper임.",
+      "summary_en": "Position paper arguing AI should evolve from autonomous agents acting on users' behalf into cognitive symbionts that augment human memory, attention and decision making."
+    },
+    {
+      "title": "Harness-S: 형제 하네스에서 배우는 일반화된 에이전트 학습",
+      "title_en": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
+      "url": "https://huggingface.co/papers/2611.04277",
+      "summary": "같은 base에서 갈라진 하네스 변형들은 각자 다른 실패를 고치고, 정책이 학습될수록 쓸모가 변함. 만능 하네스를 찾는 대신 sibling 하네스로 base 실행의 실패를 골라 구제하고, 그 능력을 단일 policy로 옮겨 학습함.",
+      "summary_en": "Rescues base-harness failures with sibling harnesses and distills the resulting capabilities into a single policy, exploiting locality, complementarity and nonstationarity of harness variants."
+    },
+    {
+      "title": "상상 없는 World Action Model을 위한 미래 표현 증류",
+      "title_en": "Future Representation Distillation for Imagination-free World Action Models",
+      "url": "https://huggingface.co/papers/2611.04527",
+      "summary": "World Action Model은 video diffusion으로 미래 영상을 예측해 로봇을 제어하지만, 반복 denoising이 느리고 예측이 틀리면 행동도 틀림. 현재 관측에서 계산한 시각 표현에 미래 예측 지식을 증류해 영상 생성 없이 행동을 예측함.",
+      "summary_en": "Distills the predictive knowledge of video diffusion models into representations of the current observation, enabling robot action prediction without costly future video generation."
+    },
+    {
+      "title": "TB-MathModel: 수학적 모델링을 위한 첫 agentic·검증 가능 벤치마크",
+      "title_en": "Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling",
+      "url": "https://huggingface.co/papers/2611.08237",
+      "summary": "수학적 모델링은 가정, 모델, 해, 권고까지 이어지는 작업임. 기존 벤치마크는 solver 일부만 채점하거나 LLM judge에 의존함. 터미널 환경에서 에이전트가 직접 모델링하고, 답이 기준값에 가까운지와 물리적으로 타당한지를 둘 다 검증함.",
+      "summary_en": "Agentic, terminal-style benchmark for mathematical modeling that verifies both closeness to credible references and physical feasibility instead of relying on LLM judges."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "DoorDash가 정확도를 유지하면서 LLM 검색 비용을 98% 줄인 방법",
+      "title_en": "How DoorDash reduced LLM search costs by 98% without losing accuracy",
+      "url": "https://careersatdoordash.com/blog/how-doordash-reduced-llm-search-costs-by-98-without-losing-accuracy/",
+      "summary": "LLM 내장 웹 검색을 별도 검색 API로 분리함. 검색어 의도 분류 평가에서 정확도를 유지하면서 검색 요금을 98% 넘게 아낌.",
+      "summary_en": "DoorDash split LLM built-in web search into a separate search API, cutting search costs by over 98% while keeping intent-classification accuracy."
+    },
+    {
+      "title": "Craft Anything - 웹사이트·앱·게임을 분석해 AI로 재구현하는 도구",
+      "title_en": "Craft Anything - analyze websites, apps and games and re-implement them with AI",
+      "url": "https://github.com/storytold/craft-anything",
+      "summary": "원본과 원하는 결과를 지정하면 분석, 구현, 비교, 개선 루프를 돌아 새 프로젝트를 만들어줌. '이 게임을 Rust로 만들어줘' 같은 요청도 처리함.",
+      "summary_en": "Specify a source and target; it loops through analyze, implement, compare and improve to rebuild sites, apps or games, e.g. porting a game to Rust."
+    },
+    {
+      "title": "약 2만 달러로 학습한 이미지 생성 모델 P-JiT, 코드와 가중치 공개",
+      "title_en": "P-JiT: an image generation model trained for ~$21k, code and weights released",
+      "url": "https://www.linum.ai/field-notes/pjit-21k",
+      "summary": "Linum이 GPU 비용 21,038달러로 학습한 이미지 생성 모델을 실험적으로 공개함. 더 저렴한 영상 생성 모델을 만들기 위한 개념 검증임.",
+      "summary_en": "Linum released code and weights for P-JiT, an image model trained for $21,038 of GPU time as a proof of concept toward cheaper video models."
+    },
+    {
+      "title": "Server Challenge - 1코어 서버로 31만 명, 4코어로 143만 동시 사용자 처리",
+      "title_en": "Server Challenge series - 310k concurrent users on 1 core, 1.43M on 4 cores",
+      "url": "https://github.com/arjaythedev/twelve-dollar-server-challenge",
+      "summary": "여러 언어와 프레임워크로 같은 API를 구현해 저가 서버의 동시 사용자 한계를 겨루는 오픈소스 성능 챌린지임.",
+      "summary_en": "Open-source web server performance challenge implementing the same API across languages and frameworks to push concurrent users on cheap servers."
+    },
+    {
+      "title": "애매한 사례만 Opus에 맡긴 Jev, 비용은 4분의 1로",
+      "title_en": "Jev escalates only uncertain cases to Opus, cutting cost to a quarter",
+      "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+      "summary": "고객 기록이 잘못 합쳐졌는지 판별할 때 저렴한 결정 모델 Jev를 먼저 쓰고, 점수가 애매한 사례만 Opus로 넘김. 정확도는 유지하고 비용은 1/4로 줄임.",
+      "summary_en": "Hightouch uses a cheap decision model first and escalates only ambiguous identity-resolution cases to Opus, reducing cost to one quarter."
+    }
+  ]
+}
