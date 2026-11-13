@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-07",
+  "github_trending": [
+    {
+      "name": "pipeshub-ai/pipeshub-ai",
+      "url": "https://github.com/pipeshub-ai/pipeshub-ai",
+      "description": "AI 에이전트용 오픈소스 컨텍스트 레이어임. Slack, Drive, Jira, GitHub, Microsoft 365 등 50개 이상 커넥터로 회사 지식을 모아, 권한을 반영해 에이전트가 검색할 수 있는 워크스페이스로 만들어줌.",
+      "description_en": "Open-source context layer for AI agents; turns company knowledge from 50+ connectors (Slack, Drive, Jira, GitHub, M365) into a permission-aware searchable workspace."
+    },
+    {
+      "name": "airbytehq/airbyte",
+      "url": "https://github.com/airbytehq/airbyte",
+      "description": "ELT 파이프라인과 AI 에이전트를 위한 오픈소스 데이터 이동 플랫폼임. API, DB, 파일에서 웨어하우스, 레이크, AI 앱으로 데이터를 옮겨줌. 셀프호스팅과 클라우드 둘 다 지원함.",
+      "description_en": "Open-source data movement for ELT pipelines and AI agents, from APIs, databases and files to warehouses, lakes and AI apps; self-hosted or cloud."
+    },
+    {
+      "name": "pandas-dev/pandas",
+      "url": "https://github.com/pandas-dev/pandas",
+      "description": "R의 data.frame 같은 라벨 기반 자료구조와 통계 함수를 제공하는 Python 데이터 분석·가공 라이브러리임. 오늘 157 star 늘어남.",
+      "description_en": "Flexible and powerful Python data analysis/manipulation library with labeled data structures similar to R data.frame and statistical functions."
+    },
+    {
+      "name": "python-poetry/poetry",
+      "url": "https://github.com/python-poetry/poetry",
+      "description": "Python 패키징과 의존성 관리를 쉽게 해주는 도구임. pyproject.toml 하나로 의존성 해석, lock 파일, 가상환경, 배포까지 처리함.",
+      "description_en": "Python packaging and dependency management made easy: dependency resolution, lockfiles, virtualenvs and publishing from pyproject.toml."
+    },
+    {
+      "name": "psf/requests",
+      "url": "https://github.com/psf/requests",
+      "description": "단순하고 우아한 Python HTTP 라이브러리임. 사실상 표준 HTTP 클라이언트로, 오늘 다시 trending에 오름(126 star).",
+      "description_en": "A simple, yet elegant, HTTP library for Python."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "DPDM: 에이전트를 위한 공유 조건부 예측기 기반 의사결정",
+      "title_en": "Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents",
+      "url": "https://huggingface.co/papers/2611.02075",
+      "summary": "에이전트 결정은 task 설명만으로는 알 수 없고 실제 배포 관측에서 드러나는 경험적 관계에 좌우됨. 여러 종류의 결정을 하나의 사전학습 learner가 푸는 조건부 예측 문제로 바꿈. 언어모델은 의미 표현만 제공하고 예측은 공유 predictor가 담당하는 구조임. upvote 113으로 1위임.",
+      "summary_en": "Formulates heterogeneous agent decisions as conditional prediction with a shared pretrained learner, using LMs for semantic representation while a shared predictor learns empirical relationships from deployment observations."
+    },
+    {
+      "title": "SLA: Continual Pre-training으로 Spatial-Language-Action 모델 확장",
+      "title_en": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
+      "url": "https://huggingface.co/papers/2611.08373",
+      "summary": "VLA 모델은 2D vision-language 사전학습 표현을 물려받아 3D 공간 이해가 약함. 공간 supervision을 task 적응 단계가 아니라 continual pre-training 단계에서 넣어 3D 공간 이해를 갖춘 로봇 조작 foundation 모델을 만듦.",
+      "summary_en": "Injects spatial supervision during continual pre-training rather than task adaptation, building VLA foundations with 3D spatial understanding for reliable robotic manipulation."
+    },
+    {
+      "title": "TailSteer: 다회차 이미지 편집의 drift를 막는 trajectory-tail steering",
+      "title_en": "TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing",
+      "url": "https://huggingface.co/papers/2611.06741",
+      "summary": "편집 결과를 계속 재입력하면 작은 변화가 누적돼 심한 시각적 drift가 생김. 추가 학습 없이 diffusion 샘플링 trajectory 끝부분만 조정해 drift를 억제함. pretrained prior를 건드리지 않는 게 장점임.",
+      "summary_en": "Training-free method that steers the tail of the sampling trajectory to suppress accumulated visual drift in multi-turn image editing without altering pretrained priors."
+    },
+    {
+      "title": "EvoMemState: 개인 에이전트를 위한 진화형 메모리 상태",
+      "title_en": "EvoMemState: Evolving Memory State for Personal Agents",
+      "url": "https://huggingface.co/papers/2611.03743",
+      "summary": "기존 LLM 에이전트 메모리는 사실을 독립 항목으로 저장해서 사실 간 관계와 시간에 따른 변화를 놓침. 사용자 메모리를 계속 갱신되는 상태로 관리해 장기 개인화 지원을 개선함.",
+      "summary_en": "Replaces fact-centric independent memories with an evolving memory state that captures relations and changes over time, improving long-term personalized assistance by LLM agents."
+    },
+    {
+      "title": "PACT: Prefill-to-Autoregressive 모델 간 전이의 기회와 과제",
+      "title_en": "On the Opportunities and Challenges of Prefill-to-Autoregressive Cross-Model Transfer",
+      "url": "https://huggingface.co/papers/2611.06976",
+      "summary": "큰 모델의 prompt 표현(prefill)과 작은 모델의 효율적 생성을 결합하는 latent communication 방식임. 성능과 추론 비용 사이 균형점으로 주목받지만, 기존 시스템은 따로 평가하기 어려움. 평가 프레임워크를 정리하고 기회와 한계를 분석함.",
+      "summary_en": "Studies PACT, combining a larger model's prefill representations with a smaller model's autoregressive generation, providing evaluation support and analyzing its opportunities and challenges."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "Claude Code로 완성하는 AI 에이전트 하네스 (eBook)",
+      "title_en": "Show GN: Building an AI Agent Harness with Claude Code (eBook)",
+      "url": "https://news.hada.io/topic?id=36680",
+      "summary": "코딩 에이전트로 회사 개발체계를 구축한 경험을 eBook으로 정리함. 실제 하네스 구축 과정과 노하우를 공유함.",
+      "summary_en": "An eBook sharing hands-on experience of building a company development system around coding agents with a Claude Code harness."
+    },
+    {
+      "title": "Discord, Electron 버리고 RAM 적게 쓰는 새 앱으로 전환",
+      "title_en": "Discord ditches Electron for a new app with lower RAM usage",
+      "url": "https://www.theverge.com/news/1027379/discord-ditching-electron-web-app",
+      "summary": "Discord가 데스크톱 앱 전체를 Rust로 바꾸며 Electron을 걷어내는 중임. 모바일도 React Native를 빼되 네이티브 UI는 유지하고 Rust 코어를 공유함.",
+      "summary_en": "Discord is moving its whole desktop app to Rust and removing Electron; mobile drops React Native while keeping native UI on a shared Rust core."
+    },
+    {
+      "title": "GitHub Copilot 런타임 코드베이스 전체를 Rust로 이식한 이유와 방법 [영상]",
+      "title_en": "Why and how GitHub ported the entire Copilot runtime codebase to Rust [video]",
+      "url": "https://www.youtube.com/watch?v=PLMOVlZC4eU",
+      "summary": "Copilot 런타임의 TypeScript 코드 약 40만~45만 줄을 Rust로 옮김. Rust 도입 자체보다 Node.js와 V8 의존성에서 벗어나는 게 목적이었음.",
+      "summary_en": "GitHub ported ~400-450k lines of TypeScript in the Copilot runtime to Rust, mainly to remove Node.js and V8 dependencies."
+    },
+    {
+      "title": "소프트웨어 엔지니어링은 어떻게 달라지고 있나: 두 시대의 이야기",
+      "title_en": "How software engineering is changing: a tale of two eras",
+      "url": "https://newsletter.pragmaticengineer.com/p/how-software-engineering-is-changing",
+      "summary": "AI 도입 후 한 엔지니어의 월간 PR이 약 19개에서 207개로 11배 늘어남. 코딩 에이전트 외에도 담당자 자율성, 선택적 사람 리뷰 같은 프로세스 변화가 함께 작용했음.",
+      "summary_en": "One engineer's monthly PRs grew 11x (19 to 207) after AI adoption, driven by coding agents plus ownership autonomy, selective human review and process changes."
+    },
+    {
+      "title": "OpenAI, Linux 커널에서 루트 권한 탈취 취약점 948개 발견",
+      "title_en": "OpenAI finds 948 root-escalation vulnerabilities in the Linux kernel",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+      "summary": "OpenAI가 Linux 커널 취약점 1,724건을 재현하고, 그중 로컬 권한 상승 948건에 대한 익스플로잇과 패치 후보를 만듦. 일반 Linux 데스크톱 보안에 미칠 영향이 큼.",
+      "summary_en": "OpenAI reproduced 1,724 Linux kernel vulnerabilities and generated exploits and patch candidates for 948 local privilege escalations."
+    }
+  ]
+}
