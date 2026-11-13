@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-02",
+  "github_trending": [
+    {
+      "name": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "금융 시장의 '언어'를 학습한 foundation model임. 캔들(K-line) 시계열을 토큰화해 가격·변동성 예측에 쓸 수 있음. 오늘 611 star 받음.",
+      "description_en": "Kronos: A Foundation Model for the Language of Financial Markets."
+    },
+    {
+      "name": "ifixai-ai/iFixAi",
+      "url": "https://github.com/ifixai-ai/iFixAi",
+      "description": "AI 에이전트를 독립적으로 감사(auditing)하는 도구임. 사람이 돌리거나 에이전트 스스로 실행해 '에이전트가 의도대로 동작하는가'를 점검함. 오늘 1,654 star로 1위급 상승세임.",
+      "description_en": "Independent auditing of AI agents, run by a human or by the agent itself, to check whether an agent is doing what it is supposed to do."
+    },
+    {
+      "name": "beenuar/AiSOC",
+      "url": "https://github.com/beenuar/AiSOC",
+      "description": "오픈소스 AI 보안관제센터(SOC)임. 알림 융합, LLM 에이전트 트리아지, MITRE ATT&CK 기반 조사, 에이전트 단계별 재생 가능한 결정 원장 제공함. API 키 없이 셀프호스팅 가능, MIT 라이선스임.",
+      "description_en": "Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, no API keys, MIT."
+    },
+    {
+      "name": "FlashML-org/FreeToken",
+      "url": "https://github.com/FlashML-org/FreeToken",
+      "description": "데이터센터급 모델 서빙을 데스크톱으로 가져오는 로컬 추론 엔진임. 대형 모델을 로컬에서 빠르고 효율적으로 돌리는 게 목표임.",
+      "description_en": "FreeToken brings datacenter-scale model serving to your desktop. Run massive models locally, fast and efficiently."
+    },
+    {
+      "name": "D4Vinci/Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "description": "단일 요청부터 대규모 크롤링까지 처리하는 웹 스크래핑 프레임워크임. 안티봇 우회·적응형 셀렉터 등 지원해 LLM 데이터 수집용으로 많이 쓰임.",
+      "description_en": "A web scraping framework that handles everything from a single request to a full-scale crawl."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "Multi-Token Prediction 제대로 하기",
+      "title_en": "Multi-Token Prediction Done Right",
+      "url": "https://huggingface.co/papers/2610.38331",
+      "summary": "표준 MTP 학습에서 MTP gradient의 잔여 성분이 next-token 학습과 multi-token 학습을 모두 방해하는 결함을 찾아냄. 이를 제거하는 학습법을 제안해 다운스트림 성능과 speculative decoding 추론 속도를 함께 개선함.",
+      "summary_en": "Identifies a flaw in standard MTP training where a residual component of the MTP gradient interferes with both next-token and multi-token learning, and proposes a fix that improves downstream performance and speculative-decoding speed."
+    },
+    {
+      "title": "AB-Attention: 비디오 Diffusion Transformer 가속을 위한 정확한 블록 어텐션",
+      "title_en": "AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers",
+      "url": "https://huggingface.co/papers/2610.39663",
+      "summary": "비디오 DiT의 3D full attention 이차 비용을 줄이는 동적 block-sparse attention이 높은 sparsity에서 품질이 떨어지는 문제를 다룸. 블록 선택 점수를 더 정확히 추정해 공격적 sparsity에서도 화질을 유지하며 추론을 가속함.",
+      "summary_en": "Dynamic block-sparse attention degrades under aggressive sparsity because blocks are scored inaccurately; AB-Attention scores blocks more accurately to keep fidelity while accelerating video DiT inference."
+    },
+    {
+      "title": "Holo4D: 비디오 Diffusion의 기하 제어를 위한 통합 4D 복원",
+      "title_en": "Holo4D: Holistic 4D Reconstruction as Geometric Control for Video Diffusion",
+      "url": "https://huggingface.co/papers/2610.25276",
+      "summary": "단안 영상을 새 카메라 궤적으로 재합성하는 문제임. feed-forward 4D 복원으로 장면 기하·움직임을 잡고, 이를 video diffusion의 제어 신호로 넣어 새로 보이는 영역을 생성 prior로 채움.",
+      "summary_en": "Re-renders a monocular video along a new camera trajectory by using feed-forward 4D reconstruction as geometric control for a video diffusion model that completes newly visible regions."
+    },
+    {
+      "title": "ABF-Bench: 에이전트 기반 블록체인 포렌식 검증 벤치마크",
+      "title_en": "ABF-Bench: A Verifiable Benchmark for Agentic Blockchain Forensics",
+      "url": "https://huggingface.co/papers/2610.23656",
+      "summary": "자금 분할·스왑·브리지·믹서를 거치는 자금세탁 추적을 LLM 에이전트가 얼마나 잘하는지 평가하는 벤치마크임. 공개 원장의 불변성을 이용해 정답을 검증 가능하게 구성함.",
+      "summary_en": "A benchmark evaluating LLM agents on adversarial, open-ended blockchain fund tracing (splits, swaps, bridges, mixers), with verifiable ground truth from immutable public ledgers."
+    },
+    {
+      "title": "사전학습된 자기회귀 이미지 모델에서 임의 순서 생성 열기",
+      "title_en": "Unlocking Any-Order Generation in Pretrained Autoregressive Image Models",
+      "url": "https://huggingface.co/papers/2610.39293",
+      "summary": "raster-scan 순서로 학습된 AR 이미지 생성기는 inpainting·outpainting·편집이 불가능함. 처음부터 재학습하지 않고 사전학습 AR 모델을 임의 순서 생성이 가능하도록 전환하는 방법을 제안함.",
+      "summary_en": "Converts pretrained raster-order autoregressive image generators into any-order generators without training from scratch, enabling inpainting, outpainting and editing."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "AI 네이티브 엔지니어링 조직 만들기",
+      "title_en": "Building an AI-Native Engineering Organization",
+      "url": "https://twitter.com/sgondala2/status/2115832070274723875",
+      "summary": "FurtherAI가 코드 작성·테스트·리뷰·CI·버그 접수·병합까지 개발 전 과정을 AI 중심으로 재설계한 사례임. 1월 이후 엔지니어당 하루 병합 건수가 약 5배 늘었음.",
+      "summary_en": "FurtherAI redesigned its whole dev pipeline (coding, testing, review, CI, bug intake, merging) around AI, raising merges per engineer per day about 5x since January."
+    },
+    {
+      "title": "Cisco, 27세 엔지니어에게 AI 토큰 무제한 제공해 레거시 코드 98% 리팩터링 추진",
+      "title_en": "Cisco gives a 27-year-old engineer unlimited AI tokens to rewrite 98% of legacy code",
+      "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
+      "summary": "Cisco가 2인 팀에 AI 토큰을 무제한 지원해 대규모 레거시 코드 재작성을 맡김. 주니어 엔지니어 역할과 AI 활용 방식 변화에 대한 논의로 이어짐.",
+      "summary_en": "Cisco handed a two-person team led by a 27-year-old engineer unlimited AI tokens to refactor legacy code, sparking debate about entry-level roles in the AI era."
+    },
+    {
+      "title": "ChatGPT 공유 링크 하나로 계정을 탈취한 방법",
+      "title_en": "How a single ChatGPT share link could take over an account",
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "summary": "악성 ChatGPT 공유 링크를 열면 로그인 사용자 권한으로 JavaScript가 실행되는 취약점 분석임. 자동 미리보기를 악용하면 추가 클릭 없이도 공격 가능했음.",
+      "summary_en": "A vulnerability where opening a malicious ChatGPT share link executed JavaScript with the logged-in user's privileges; with auto-preview it needed no extra click."
+    },
+    {
+      "title": "더 나은 글을 쓰는 방법: 개발자를 위한 실전 가이드",
+      "title_en": "Becoming a Better Writer: A Practical Guide for Developers",
+      "url": "https://newsletter.pragmaticengineer.com/p/becoming-a-better-writer",
+      "summary": "시니어·스태프 엔지니어로 갈수록 글쓰기가 커리어 핵심 역량이 된다는 Pragmatic Engineer 글임. 설계 문서·RFC 등 실무 글쓰기 요령을 정리함.",
+      "summary_en": "Pragmatic Engineer guide arguing writing becomes a core career skill for senior/staff engineers, with practical tips for design docs and RFCs."
+    },
+    {
+      "title": "Git 사용자를 위한 Jujutsu(jj) 워크숍",
+      "title_en": "Jujutsu (jj) Workshop for Git Users",
+      "url": "https://www.youtube.com/live/DczKGei6igY",
+      "summary": "vim.kr 주최로 10/31 열린 약 3시간 반 분량의 jj 실습 워크숍 영상임. Tangled 개발자가 Git 내부 구조와 비교하며 jj 워크플로를 설명함.",
+      "summary_en": "A ~3.5-hour hands-on Jujutsu (jj) workshop hosted by vim.kr on Oct 31, explaining jj workflows in contrast with Git internals."
+    }
+  ]
+}
