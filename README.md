@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-11-14
+> 마지막 업데이트: 2026-11-15
 
-# AI 뉴스 — 2026-11-14
+# AI 뉴스 — 2026-11-15
 
 ## 🔥 GitHub Trending (Python)
 
-- [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill): 코딩 에이전트용 로컬 영상 편집 도구임. FFmpeg 툴 42개를 기계가 읽을 수 있는 계약과 MCP 서버로 제공함. 컷 편집, 자막, 리프레이밍, 음량 정규화, 플랫폼별 내보내기를 Claude Code·Cursor·Codex에서 클라우드나 API 키 없이 처리함.
-- [ahujasid/mcp-for-blender](https://github.com/ahujasid/mcp-for-blender): 원하는 LLM으로 Blender 3D를 조작하게 해주는 커뮤니티 MCP 플러그인임. 자연어로 모델링·씬 구성을 지시할 수 있음. Blender 재단 공식 프로젝트는 아님.
-- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official): Anthropic이 직접 관리하는 고품질 Claude Code 플러그인 공식 디렉터리임. 검증된 플러그인을 한곳에서 찾아 설치할 수 있음.
-- [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom): 툴 출력, 로그, 파일, RAG 청크를 LLM에 넣기 전에 압축하는 도구임. 코딩 에이전트 토큰 20%, JSON은 60~95% 절감하면서 답은 동일하게 유지함. 라이브러리·프록시·MCP 서버 형태로 제공됨.
-- [volcengine/OpenViking](https://github.com/volcengine/OpenViking): AI 에이전트를 위한 자기진화형 컨텍스트 데이터베이스임. 에이전트 메모리, 지식 RAG, 스킬을 하나로 통합해 관리함. ByteDance 계열 Volcengine이 공개함.
+- [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills): 주식 투자자·트레이더용 Claude Code 스킬 모음임. 시장 분석, 기술적 차트, 경제 캘린더, 종목 스크리너, 매매 전략 개발까지 다룸. 하루 556스타로 오늘 1위임.
+- [andrewyng/openworker](https://github.com/andrewyng/openworker): Andrew Ng 측이 공개한 데스크톱 AI 동료 앱 겸 에이전트 하네스 SDK임. 클라우드 모델이나 Ollama 로컬 모델을 붙여 리서치·문서 작성·코드 리뷰를 맡길 수 있음. 에이전트 권한과 승인 단계를 직접 설정할 수 있고, 명령은 NVIDIA OpenShell 샌드박스에서 실행 가능함.
+- [NVIDIA/SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator): AI 에이전트 스킬을 평가하는 NVIDIA의 다단계 프레임워크임. 품질 게이트, 스킬 간 의미 중복 탐지, 합성 평가 데이터 생성, 실제 에이전트 동작에 스킬이 주는 영향 측정까지 지원함.
+- [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code): Claude Code, Codex, OpenCode 등 여러 코딩 하네스를 무료 토큰으로 터미널·IDE·폰·브라우저에서 쓰게 해준다는 프로젝트임. 멀티 하네스·멀티 모델과 음성을 지원함. 약관 준수 여부는 직접 확인이 필요함.
+- [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter): 버그 바운티·외부 레드팀용 Claude Code 스킬 번들임. 스킬 82개, 슬래시 명령 15개, 24개 핵심 취약점 유형에 걸친 공개 리포트 패턴 681개를 담음.
 
 ## 📄 Hugging Face Papers
 
-- [Open Vision Banana: 생성형 시각 인식을 위한 완전 공개 레시피](https://huggingface.co/papers/2611.15844)
-  사전학습된 이미지 생성 모델을 조건부 이미지 편집 방식으로 다중 작업 인식 시스템으로 바꾸는 Vision Banana를 완전 공개로 재현함. 색 인코딩, 프롬프트 설계, 파라미터 적응, 작업 균형이 일반화에 핵심이며 서로 상호작용함을 분석함. 4B·9B open-weight 모델과 공개 데이터 210만~380만 쌍으로 Cityscapes zero-shot 73.9 mIoU를 달성해 원본(69.9)을 넘어섬.
-- [Ropedia Xperience 2: 물리 AI 환경·행동 스케일링을 위한 골드 스탠더드](https://huggingface.co/papers/2611.17060)
-  GPT-6 Astra, Claude Fable 5.1 같은 파운데이션 모델이 로봇을 직접 제어하지만 장기·접촉이 많은 실제 작업엔 여전히 취약함. 물리 AI 성능이 환경과 행동 데이터에 따라 어떻게 스케일되는지 보기 위해 미터 스케일 3D 스캔 1,589개와 1인칭 녹화 4,230개로 구성된 데이터셋을 공개함. 사람 시연과 폐루프 평가 환경을 함께 제공하는 게 핵심임.
-- [TTB: Decoder-only 뷰 합성 모델의 효율적 렌더링을 위한 Test-time Baking](https://huggingface.co/papers/2611.17331)
-  KV-cache 기반 decoder-only LVSM은 품질이 높지만 느리고, TTT 레이어는 빠르지만 품질이 떨어짐. TTB는 cross-view attention의 전역 장면 정보를 가벼운 MLP에 테스트 시점에 '굽는' 방식으로 TTT 수준 속도와 훨씬 높은 품질을 동시에 달성함. 컨텍스트 토큰을 카메라 전용 표현으로 분리해 prefill과 렌더링 간 모달리티 불일치도 해결함.
-- [멀티모달 비전 인코딩 분해하기](https://huggingface.co/papers/2611.17334)
-  비전 인코더에 묶여 있는 세 가지 설계 선택(사전학습된 시각 prior, 전용 비전 용량, 융합 전 배치)을 통제 실험으로 분리해 분석함. 모든 모델을 같은 데이터·같은 총 연산량으로 처음부터 학습해 VQA와 언어 벤치마크로 비교함. 시각 prior는 필수가 아니며, 처음부터 함께 학습한 인코더가 사전학습 인코더와 대등한 성능을 냄.
-- [과제를 배우나, 검증기를 배우나? 체화 자기개선에서 기준 노출 재고](https://huggingface.co/papers/2611.08318)
-  로봇 시뮬레이션 벤치마크에서 자기개선 에이전트에게 성공 판정 기준을 노출하는 관행(Criteria Exposure)을 문제 삼음. 이 기준은 언어 지시보다 더 많은 걸 요구하는 경우가 많아 점수가 실제 과제 수행을 반영하지 못할 수 있음. 통제 실험으로 코딩 에이전트가 과제를 더 잘하게 되는지, 검증기에 과적합하는지를 검증함.
+- [누가 무엇을 기억하나? 다중 사용자·다중 에이전트 환경의 다층 메모리 추출](https://huggingface.co/papers/2611.10439)
+  여러 사용자와 에이전트가 경험을 공유할 때 각 교훈을 누가 써도 되는지, 무엇을 숨겨야 하는지 정하는 메모리 시스템 MixUA를 제안함. 교훈을 사용자-에이전트 쌍/사용자/에이전트/전역 범위로 나눠 저장함. 메모리 없을 때보다 통과율이 최대 16%p 올랐고, 개인정보 유출 탐지율은 0.02% 이하였음.
+- [DeepStress: 딥서치 에이전트 스트레스 테스트](https://huggingface.co/papers/2607.13920)
+  검색 에이전트에 신뢰도·관련성·사실성이 낮은 문서를 비율을 조절해 주입하는 동적 스트레스 테스트 프레임워크임. 12개 시스템을 평가한 결과, 여러 오픈웨이트 에이전트가 출처에 뚜렷한 위험 신호가 있어도 확신 있게 답했음. HotpotQA 문항 상당수는 검색 문서가 전부 틀려도 모델 내부 지식으로 답해버림.
+- [생각의 가치: 하이브리드 결정 모델에서 언제 추론할지 학습하기](https://huggingface.co/papers/2611.16961)
+  추론 길이를 줄이는 대신, 한 번의 forward pass로 바로 답하거나 전체 추론(T 토큰)을 할지 둘 중 하나를 고르는 'zero-or-T thinking'을 제안함. 고정된 백본 위 경량 라우팅 블록이 추론의 기대 이득을 추정해 요청별 가격 λ를 넘을 때만 느린 모드를 씀. 에이전트 과제용 RL 학습법 CDPO도 함께 제시함.
+- [재귀적 자기개선을 위한 경험 인계 강화학습](https://huggingface.co/papers/2611.16409)
+  스칼라 보상 RL은 에러 로그 같은 환경 정보를 버린다는 문제를 지적함. 하나의 모델이 행동·반성·플레이북 정리를 모두 맡도록 학습하고, 인계 산출물(플레이북)을 이후 롤아웃 성능으로 평가해 함께 최적화함. 여러 에이전트 벤치마크에서 기존 방법보다 높은 성능을 보임.
+- [JustRUA: GPT-6 로봇 사용 에이전트 통제 연구](https://huggingface.co/papers/2611.16009)
+  로봇 팔을 직접 조작하는 LLM 에이전트의 설계 요소(하네스, 행동 인터페이스, 경험 재사용, 장면 기하 정보)를 하나씩 분리해 검증함. 전체 에피소드 기록 유지와 동작 조기 종료만으로도 효과가 크고, 장면 기하 정보가 가장 도움이 됨. 학습 없이 RoboDojo 점수를 29.7→50.3으로 올림.
 
 ## 🦉 GeekNews
 
-- [추론은 어떤 목적함수를 풀고 있는가?](https://alexwang.ai/posts/reasoning-as-pathfinding/)
-  추론을 토큰 공간의 경로 탐색으로 보는 관점을 제시함. RL은 정답 경로를 만들 확률을 높일 뿐 개별 사고가 정답으로 수렴함을 보장하지 않음. 학습된 모델의 사고를 강제로 늘리면 정확도가 정체되거나 떨어질 수 있고, 정확한 검증기가 있다면 best-of-k 샘플링처럼 샘플 수를 늘리는 게 더 확실한 계산량 확장임. 최종 답만 보는 보상은 사고 충실성을 보장하지 못하고 보상 해킹을 낳을 수 있음.
-- [Gemini 4 Hydrogen - 일상적인 코딩과 에이전트 작업을 위한 빠른 실행 모델](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/)
-  Google이 Carbon·Argon을 보완하는 빠른 모델 Gemini 4 Hydrogen을 공개함. Artificial Analysis Intelligence Index 51점으로 Argon(50)을 넘었고, 100만 토큰 컨텍스트에 입력 $1.50/출력 $7.50(100만 토큰당) 단일 요금임. Gemini 3.8 Flash 대비 작업 속도 2.5배, Terminal-Bench 4.1 18.2%→57%로 상승함. Antigravity의 Orchestrator가 Carbon과 Hydrogen을 자동 전환해 할당량 24%, 완료 시간 19% 절감함.
-- [더 나은, 더 효율적인 RAG를 위한 빠른 검색](https://machinelearning.apple.com/research/faster-retrieval)
-  Apple 연구진이 고정된 벡터 DB와 실제 질의 분포로 작은 신경망을 미리 학습해 MIPS 검색 속도와 정확도를 높이는 방법을 제안함. SupportNet은 클러스터별 최고 점수를 예측해 질의를 적합한 클러스터로 보내고, KeyNet은 질의를 최적 키에 가깝게 변환해 기존 IVF 인덱스에 넘김. Natural Questions에서 99% 재현율 도달 시간을 최대 약 8배 단축함.
-- [OpenMAIC - 주제나 문서를 AI 교사와 토론하는 수업으로 만드는 오픈소스 플랫폼](https://github.com/THU-MAIC/OpenMAIC)
-  주제를 입력하거나 자료를 올리면 슬라이드, 퀴즈, 시뮬레이션, PBL이 포함된 수업을 자동 생성함. AI 교사가 음성으로 설명하며 칠판에 수식·그림을 그리고, 역할이 다른 AI 동급생 에이전트들과 토론도 가능함. PowerPoint·오프라인 HTML 내보내기, OpenClaw·Codex 연동, Docker 자체 호스팅을 지원하며 MIT 라이선스임.
-- [Apache HTTP Server의 치명적인 원격 코드 실행 취약점](https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability)
-  Apache HTTP Server mod_http2의 assign_headers() 경쟁 상태로 인증 없이 힙 손상→RCE가 가능한 CVE-2026-119618이 발견됨. HTTP/2를 켠 2.4.55~2.4.70이 영향 대상이고 2.4.71에서 수정됨. 당장 패치가 어려우면 h2/h2c를 끄고 HTTP/1.1만 쓰면 됨. PoC는 공개됐지만 실제 악용 보고는 아직 없음. Anthropic OSS Scanner와 Google Cloud 연구팀이 각각 발견함.
+- [No AI Slop 선언문](https://www.slopmanifesto.com/)
+  AIE Code Summit 2026 발표자·참가자들이 함께 쓴 선언문임. 2001년 애자일 선언처럼, AI가 대량으로 찍어내는 저품질 결과물(AI slop)에 맞서 개발 방식의 원칙을 다시 세우자는 내용임.
+- [클라우드 없이 쓰려고 코웨이 공기청정기를 역공학한 이야기](https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/)
+  Coway Airmega IconS의 통신과 Bluetooth 초기 설정 절차를 역공학해, 코웨이 클라우드 없이 Home Assistant에서 로컬로 제어하는 통합을 구현한 기록임.
+- [Edge0-145B - 개인 컴퓨터에서 실행하는 1,450억 매개변수 AI 모델](https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer)
+  Edge0가 Qwen3.8-Flash-Next 기반 145B/120B 모델 가중치와 로컬 추론 엔진, 배포 도구를 공개함. 코딩·추론·에이전트 작업을 개인 컴퓨터에서 돌리는 것이 목표임.
+- [nac - 긴 작업에서 원래 목표를 잃지 않게 하는 에이전트 하네스](https://github.com/arcee-ai/nac)
+  Arcee AI의 오픈소스 하네스임. 실험, 모델 학습, 인프라 구축처럼 오래 걸리는 작업에서 중앙 오케스트레이터가 처음 의도를 유지하며 하위 에이전트를 조율함.
+- [Ace - 내 Mac에서 팀원과 AI 에이전트가 함께 작업하는 코딩 환경](https://github.com/githubnext/ace)
+  GitHub Next의 실험 프로젝트임. 채널에서 팀원과 구현 방향을 논의한 뒤 @ace를 부르면 에이전트가 앞선 대화를 읽고 작업을 시작함. 작업 중 질문이 생기면 채널에 올려 팀원이 답할 수 있음.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-11-14](data/2026-11-14.md)
 - [2026-11-13](data/2026-11-13.md)
 - [2026-11-12](data/2026-11-12.md)
 - [2026-11-11](data/2026-11-11.md)
@@ -69,4 +70,3 @@
 - [2026-10-19](data/2026-10-19.md)
 - [2026-10-18](data/2026-10-18.md)
 - [2026-10-17](data/2026-10-17.md)
-- [2026-10-16](data/2026-10-16.md)
