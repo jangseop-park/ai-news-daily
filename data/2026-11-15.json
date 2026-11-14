@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-15",
+  "github_trending": [
+    {
+      "name": "tradermonty/claude-trading-skills",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "description": "주식 투자자·트레이더용 Claude Code 스킬 모음임. 시장 분석, 기술적 차트, 경제 캘린더, 종목 스크리너, 매매 전략 개발까지 다룸. 하루 556스타로 오늘 1위임.",
+      "description_en": "Claude Code skills for equity investors and traders: market analysis, technical charting, economic calendars, screeners, and trading strategy development."
+    },
+    {
+      "name": "andrewyng/openworker",
+      "url": "https://github.com/andrewyng/openworker",
+      "description": "Andrew Ng 측이 공개한 데스크톱 AI 동료 앱 겸 에이전트 하네스 SDK임. 클라우드 모델이나 Ollama 로컬 모델을 붙여 리서치·문서 작성·코드 리뷰를 맡길 수 있음. 에이전트 권한과 승인 단계를 직접 설정할 수 있고, 명령은 NVIDIA OpenShell 샌드박스에서 실행 가능함.",
+      "description_en": "A desktop AI coworker app plus a harness SDK for building agentic apps. Bring cloud or local (Ollama) models, set agent permissions and approvals, and optionally run commands in an NVIDIA OpenShell sandbox."
+    },
+    {
+      "name": "NVIDIA/SkillEvaluator",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "description": "AI 에이전트 스킬을 평가하는 NVIDIA의 다단계 프레임워크임. 품질 게이트, 스킬 간 의미 중복 탐지, 합성 평가 데이터 생성, 실제 에이전트 동작에 스킬이 주는 영향 측정까지 지원함.",
+      "description_en": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic eval dataset generation, and live agent evaluation."
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Claude Code, Codex, OpenCode 등 여러 코딩 하네스를 무료 토큰으로 터미널·IDE·폰·브라우저에서 쓰게 해준다는 프로젝트임. 멀티 하네스·멀티 모델과 음성을 지원함. 약관 준수 여부는 직접 확인이 필요함.",
+      "description_en": "Use Claude Code, Codex, OpenCode and other harnesses with free tokens from terminal, IDE, phone, or browser; multi-harness, multi-model, voice supported."
+    },
+    {
+      "name": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "description": "버그 바운티·외부 레드팀용 Claude Code 스킬 번들임. 스킬 82개, 슬래시 명령 15개, 24개 핵심 취약점 유형에 걸친 공개 리포트 패턴 681개를 담음.",
+      "description_en": "Claude Code skill bundle for bug hunting and external red-team work: 82 skills, 15 slash commands, 681 disclosed-report patterns across 24 vulnerability classes."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "누가 무엇을 기억하나? 다중 사용자·다중 에이전트 환경의 다층 메모리 추출",
+      "title_en": "Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction",
+      "url": "https://huggingface.co/papers/2611.10439",
+      "summary": "여러 사용자와 에이전트가 경험을 공유할 때 각 교훈을 누가 써도 되는지, 무엇을 숨겨야 하는지 정하는 메모리 시스템 MixUA를 제안함. 교훈을 사용자-에이전트 쌍/사용자/에이전트/전역 범위로 나눠 저장함. 메모리 없을 때보다 통과율이 최대 16%p 올랐고, 개인정보 유출 탐지율은 0.02% 이하였음.",
+      "summary_en": "MixUA distills user-agent trajectories into lessons scoped to pair, user, agent, or global level by benefit and privacy; up to +16 points pass rate with ≤0.02% privacy leakage on the new CrossLearnBench."
+    },
+    {
+      "title": "DeepStress: 딥서치 에이전트 스트레스 테스트",
+      "title_en": "DeepStress: Stress-Testing Deep Search Agents",
+      "url": "https://huggingface.co/papers/2607.13920",
+      "summary": "검색 에이전트에 신뢰도·관련성·사실성이 낮은 문서를 비율을 조절해 주입하는 동적 스트레스 테스트 프레임워크임. 12개 시스템을 평가한 결과, 여러 오픈웨이트 에이전트가 출처에 뚜렷한 위험 신호가 있어도 확신 있게 답했음. HotpotQA 문항 상당수는 검색 문서가 전부 틀려도 모델 내부 지식으로 답해버림.",
+      "summary_en": "A dynamic framework that injects degraded evidence at controlled rates; many open-weight agents answer confidently despite red flags, and many HotpotQA answers come from parametric knowledge."
+    },
+    {
+      "title": "생각의 가치: 하이브리드 결정 모델에서 언제 추론할지 학습하기",
+      "title_en": "The Value of Thinking: Learning When to Reason in Hybrid Decision Models",
+      "url": "https://huggingface.co/papers/2611.16961",
+      "summary": "추론 길이를 줄이는 대신, 한 번의 forward pass로 바로 답하거나 전체 추론(T 토큰)을 할지 둘 중 하나를 고르는 'zero-or-T thinking'을 제안함. 고정된 백본 위 경량 라우팅 블록이 추론의 기대 이득을 추정해 요청별 가격 λ를 넘을 때만 느린 모드를 씀. 에이전트 과제용 RL 학습법 CDPO도 함께 제시함.",
+      "summary_en": "Zero-or-T thinking: a self-routing block on a frozen backbone decides between answering in one forward pass or full reasoning, trained with CDPO for agentic tasks."
+    },
+    {
+      "title": "재귀적 자기개선을 위한 경험 인계 강화학습",
+      "title_en": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
+      "url": "https://huggingface.co/papers/2611.16409",
+      "summary": "스칼라 보상 RL은 에러 로그 같은 환경 정보를 버린다는 문제를 지적함. 하나의 모델이 행동·반성·플레이북 정리를 모두 맡도록 학습하고, 인계 산출물(플레이북)을 이후 롤아웃 성능으로 평가해 함께 최적화함. 여러 에이전트 벤치마크에서 기존 방법보다 높은 성능을 보임.",
+      "summary_en": "Trains one model to act, reflect, and curate playbooks, scoring handoff artifacts by downstream rollout performance; beats baselines on agentic benchmarks."
+    },
+    {
+      "title": "JustRUA: GPT-6 로봇 사용 에이전트 통제 연구",
+      "title_en": "JustRUA: A Controlled Study of GPT-6 Robot-Use Agents",
+      "url": "https://huggingface.co/papers/2611.16009",
+      "summary": "로봇 팔을 직접 조작하는 LLM 에이전트의 설계 요소(하네스, 행동 인터페이스, 경험 재사용, 장면 기하 정보)를 하나씩 분리해 검증함. 전체 에피소드 기록 유지와 동작 조기 종료만으로도 효과가 크고, 장면 기하 정보가 가장 도움이 됨. 학습 없이 RoboDojo 점수를 29.7→50.3으로 올림.",
+      "summary_en": "Ablates harness, action interface, experience reuse, and scene geometry for robot-use agents; a lean harness lifts RoboDojo from 29.7 to 50.3 without learning."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "No AI Slop 선언문",
+      "title_en": "The No AI Slop Manifesto",
+      "url": "https://www.slopmanifesto.com/",
+      "summary": "AIE Code Summit 2026 발표자·참가자들이 함께 쓴 선언문임. 2001년 애자일 선언처럼, AI가 대량으로 찍어내는 저품질 결과물(AI slop)에 맞서 개발 방식의 원칙을 다시 세우자는 내용임.",
+      "summary_en": "A manifesto by AIE Code Summit 2026 speakers and attendees, modeled on the Agile Manifesto, pushing back against low-quality AI-generated output."
+    },
+    {
+      "title": "클라우드 없이 쓰려고 코웨이 공기청정기를 역공학한 이야기",
+      "title_en": "Reverse engineering my Coway air purifier to ditch the cloud",
+      "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
+      "summary": "Coway Airmega IconS의 통신과 Bluetooth 초기 설정 절차를 역공학해, 코웨이 클라우드 없이 Home Assistant에서 로컬로 제어하는 통합을 구현한 기록임.",
+      "summary_en": "Reverse engineering the Coway Airmega IconS protocol and Bluetooth onboarding to build a local Home Assistant integration without the Coway cloud."
+    },
+    {
+      "title": "Edge0-145B - 개인 컴퓨터에서 실행하는 1,450억 매개변수 AI 모델",
+      "title_en": "Edge0-145B: frontier AI capabilities on your own computer",
+      "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+      "summary": "Edge0가 Qwen3.8-Flash-Next 기반 145B/120B 모델 가중치와 로컬 추론 엔진, 배포 도구를 공개함. 코딩·추론·에이전트 작업을 개인 컴퓨터에서 돌리는 것이 목표임.",
+      "summary_en": "Edge0 releases 145B/120B weights based on Qwen3.8-Flash-Next with a local inference engine and deployment tools for coding, reasoning, and agent tasks on personal machines."
+    },
+    {
+      "title": "nac - 긴 작업에서 원래 목표를 잃지 않게 하는 에이전트 하네스",
+      "title_en": "nac: an agent harness that keeps long-running work on goal",
+      "url": "https://github.com/arcee-ai/nac",
+      "summary": "Arcee AI의 오픈소스 하네스임. 실험, 모델 학습, 인프라 구축처럼 오래 걸리는 작업에서 중앙 오케스트레이터가 처음 의도를 유지하며 하위 에이전트를 조율함.",
+      "summary_en": "Open-source harness from Arcee AI where a central orchestrator keeps long-running tasks (experiments, training, infra) aligned with the original intent."
+    },
+    {
+      "title": "Ace - 내 Mac에서 팀원과 AI 에이전트가 함께 작업하는 코딩 환경",
+      "title_en": "Ace: a coding environment where teammates and AI agents work together on your Mac",
+      "url": "https://github.com/githubnext/ace",
+      "summary": "GitHub Next의 실험 프로젝트임. 채널에서 팀원과 구현 방향을 논의한 뒤 @ace를 부르면 에이전트가 앞선 대화를 읽고 작업을 시작함. 작업 중 질문이 생기면 채널에 올려 팀원이 답할 수 있음.",
+      "summary_en": "A GitHub Next experiment: discuss in a channel, mention @ace, and the agent picks up context and works, posting questions back to teammates."
+    }
+  ]
+}
