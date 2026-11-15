@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-11-15
+> 마지막 업데이트: 2026-11-16
 
-# AI 뉴스 — 2026-11-15
+# AI 뉴스 — 2026-11-16
 
 ## 🔥 GitHub Trending (Python)
 
-- [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills): 주식 투자자·트레이더용 Claude Code 스킬 모음임. 시장 분석, 기술적 차트, 경제 캘린더, 종목 스크리너, 매매 전략 개발까지 다룸. 하루 556스타로 오늘 1위임.
-- [andrewyng/openworker](https://github.com/andrewyng/openworker): Andrew Ng 측이 공개한 데스크톱 AI 동료 앱 겸 에이전트 하네스 SDK임. 클라우드 모델이나 Ollama 로컬 모델을 붙여 리서치·문서 작성·코드 리뷰를 맡길 수 있음. 에이전트 권한과 승인 단계를 직접 설정할 수 있고, 명령은 NVIDIA OpenShell 샌드박스에서 실행 가능함.
-- [NVIDIA/SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator): AI 에이전트 스킬을 평가하는 NVIDIA의 다단계 프레임워크임. 품질 게이트, 스킬 간 의미 중복 탐지, 합성 평가 데이터 생성, 실제 에이전트 동작에 스킬이 주는 영향 측정까지 지원함.
-- [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code): Claude Code, Codex, OpenCode 등 여러 코딩 하네스를 무료 토큰으로 터미널·IDE·폰·브라우저에서 쓰게 해준다는 프로젝트임. 멀티 하네스·멀티 모델과 음성을 지원함. 약관 준수 여부는 직접 확인이 필요함.
-- [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter): 버그 바운티·외부 레드팀용 Claude Code 스킬 번들임. 스킬 82개, 슬래시 명령 15개, 24개 핵심 취약점 유형에 걸친 공개 리포트 패턴 681개를 담음.
+- [bojieli/ai-infra-book](https://github.com/bojieli/ai-infra-book): 《深入理解 AI Infra》 오픈소스 책 원고임. 하드웨어 제약과 모델 구조에서 출발해 LLM 추론·학습 시스템 설계를 정량적으로 유도함. 본문·PDF·계산 도구·실험 코드 포함.
+- [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates): Claude Code용 에이전트·커맨드·스킬·훅·MCP·설정·모드를 모아 둔 오픈소스 레지스트리 겸 CLI임. 필요한 구성요소를 골라 바로 설치 가능함.
+- [HKUDS/AutoSwarm](https://github.com/HKUDS/AutoSwarm): 여러 AI 에이전트를 하나로 묶어 컨텍스트 장벽 없이 협업시키는 프레임워크임. 에이전트들이 함께 일하는 과정을 지켜볼 수 있음.
+- [PrefectHQ/fastmcp](https://github.com/PrefectHQ/fastmcp): MCP 서버·클라이언트를 Python답게 빠르게 만드는 라이브러리임. 데코레이터 기반으로 툴·리소스를 간단히 노출함.
+- [huytieu/COG-second-brain](https://github.com/huytieu/COG-second-brain): AI 스킬 35개·에이전트 10개·인맥 CRM을 갖춘 자기진화형 세컨드 브레인임. 작업자가 자기 결과를 스스로 채점하지 않는 V-모델 검증 루프가 특징임. Claude Code·Cursor·Codex 등에서 동작함.
 
 ## 📄 Hugging Face Papers
 
-- [누가 무엇을 기억하나? 다중 사용자·다중 에이전트 환경의 다층 메모리 추출](https://huggingface.co/papers/2611.10439)
-  여러 사용자와 에이전트가 경험을 공유할 때 각 교훈을 누가 써도 되는지, 무엇을 숨겨야 하는지 정하는 메모리 시스템 MixUA를 제안함. 교훈을 사용자-에이전트 쌍/사용자/에이전트/전역 범위로 나눠 저장함. 메모리 없을 때보다 통과율이 최대 16%p 올랐고, 개인정보 유출 탐지율은 0.02% 이하였음.
-- [DeepStress: 딥서치 에이전트 스트레스 테스트](https://huggingface.co/papers/2607.13920)
-  검색 에이전트에 신뢰도·관련성·사실성이 낮은 문서를 비율을 조절해 주입하는 동적 스트레스 테스트 프레임워크임. 12개 시스템을 평가한 결과, 여러 오픈웨이트 에이전트가 출처에 뚜렷한 위험 신호가 있어도 확신 있게 답했음. HotpotQA 문항 상당수는 검색 문서가 전부 틀려도 모델 내부 지식으로 답해버림.
-- [생각의 가치: 하이브리드 결정 모델에서 언제 추론할지 학습하기](https://huggingface.co/papers/2611.16961)
-  추론 길이를 줄이는 대신, 한 번의 forward pass로 바로 답하거나 전체 추론(T 토큰)을 할지 둘 중 하나를 고르는 'zero-or-T thinking'을 제안함. 고정된 백본 위 경량 라우팅 블록이 추론의 기대 이득을 추정해 요청별 가격 λ를 넘을 때만 느린 모드를 씀. 에이전트 과제용 RL 학습법 CDPO도 함께 제시함.
-- [재귀적 자기개선을 위한 경험 인계 강화학습](https://huggingface.co/papers/2611.16409)
-  스칼라 보상 RL은 에러 로그 같은 환경 정보를 버린다는 문제를 지적함. 하나의 모델이 행동·반성·플레이북 정리를 모두 맡도록 학습하고, 인계 산출물(플레이북)을 이후 롤아웃 성능으로 평가해 함께 최적화함. 여러 에이전트 벤치마크에서 기존 방법보다 높은 성능을 보임.
-- [JustRUA: GPT-6 로봇 사용 에이전트 통제 연구](https://huggingface.co/papers/2611.16009)
-  로봇 팔을 직접 조작하는 LLM 에이전트의 설계 요소(하네스, 행동 인터페이스, 경험 재사용, 장면 기하 정보)를 하나씩 분리해 검증함. 전체 에피소드 기록 유지와 동작 조기 종료만으로도 효과가 크고, 장면 기하 정보가 가장 도움이 됨. 학습 없이 RoboDojo 점수를 29.7→50.3으로 올림.
+- [Agent-R²: 실제 소스 데이터 합성으로 생산성 업무 에이전트 확장](https://huggingface.co/papers/2611.08219)
+  실제 파일·문서를 바탕으로 업무 과제를 합성하는 프레임워크를 제안함. 4천 개 과제로 4B 에이전트를 SFT와 루브릭 기반 RL로 학습시켜, 더 큰 모델보다 실무형 작업과 파일 기반 추론에서 나은 성능을 냄.
+- [다시 픽셀로: 잠재 비디오 확산 모델을 픽셀 공간으로 끌어올리기](https://huggingface.co/papers/2611.17336)
+  현재 비디오 생성 모델은 VAE latent 공간에서 시공간을 압축해 학습함. 이 압축이 고해상도·제어형·인터랙티브 생성의 병목이 됨을 지적하고, 기존 latent 비디오 확산 모델을 픽셀 공간 생성으로 옮기는 방법을 제시함.
+- [레퍼런스 기반 UAV 영상 안정화의 합의 포획 문제: 동적 도심 장면 벤치마크](https://huggingface.co/papers/2611.17190)
+  호버링 드론 영상을 기준 프레임에 정합하는 안정화 파이프라인을 다룸. 기존 매칭 벤치마크는 카메라만 움직이는 상황이라, 움직이는 차량·보행자가 많은 도심에서는 정합이 동적 객체에 끌려가는 문제를 드러내는 벤치마크를 제안함.
+- [TurtLES: 3D 난류 신경망 PDE 대리모델용 대규모 벤치마크](https://huggingface.co/papers/2611.09567)
+  CFD 가속용 ML surrogate 연구에 현실적인 시간의존 난류 벤치마크가 부족한 문제를 해결하려 14TB 규모 3D 난류 실린더 유동 데이터셋을 공개함. 여러 신경 PDE 모델을 비교 평가함.
+- [HiVe-Mem: 수평 메모리 확장과 수직 증거 구성을 결합한 멀티모달 에이전트 메모리](https://huggingface.co/papers/2611.12872)
+  의미 시드를 관계 그래프로 넓히는 수평 확장과, 질의에 맞춰 이질적 증거를 조합하는 수직 구성을 번갈아 수행하는 메모리 프레임워크임. 장기 멀티모달 상호작용 성능을 높임.
 
 ## 🦉 GeekNews
 
-- [No AI Slop 선언문](https://www.slopmanifesto.com/)
-  AIE Code Summit 2026 발표자·참가자들이 함께 쓴 선언문임. 2001년 애자일 선언처럼, AI가 대량으로 찍어내는 저품질 결과물(AI slop)에 맞서 개발 방식의 원칙을 다시 세우자는 내용임.
-- [클라우드 없이 쓰려고 코웨이 공기청정기를 역공학한 이야기](https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/)
-  Coway Airmega IconS의 통신과 Bluetooth 초기 설정 절차를 역공학해, 코웨이 클라우드 없이 Home Assistant에서 로컬로 제어하는 통합을 구현한 기록임.
-- [Edge0-145B - 개인 컴퓨터에서 실행하는 1,450억 매개변수 AI 모델](https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer)
-  Edge0가 Qwen3.8-Flash-Next 기반 145B/120B 모델 가중치와 로컬 추론 엔진, 배포 도구를 공개함. 코딩·추론·에이전트 작업을 개인 컴퓨터에서 돌리는 것이 목표임.
-- [nac - 긴 작업에서 원래 목표를 잃지 않게 하는 에이전트 하네스](https://github.com/arcee-ai/nac)
-  Arcee AI의 오픈소스 하네스임. 실험, 모델 학습, 인프라 구축처럼 오래 걸리는 작업에서 중앙 오케스트레이터가 처음 의도를 유지하며 하위 에이전트를 조율함.
-- [Ace - 내 Mac에서 팀원과 AI 에이전트가 함께 작업하는 코딩 환경](https://github.com/githubnext/ace)
-  GitHub Next의 실험 프로젝트임. 채널에서 팀원과 구현 방향을 논의한 뒤 @ace를 부르면 에이전트가 앞선 대화를 읽고 작업을 시작함. 작업 중 질문이 생기면 채널에 올려 팀원이 답할 수 있음.
+- [AI가 코딩을 해결했다면, 왜 내 소프트웨어는 여전히 그대로일까?](https://www.youtube.com/watch?v=IRK8h67ol7Q)
+  Jonathan Blow가 AI 코드 생성의 속도·비용 장점은 인정하면서도, 복잡한 소프트웨어의 품질과 사용자 경험이 실제로 좋아졌다는 증거는 없다고 지적함. 생산량과 완성도는 별개라는 주장임.
+- [ggml v1.0.0 출시 — 폐기 예정 API 제거, FP8 지원, 백엔드 성능 개선](https://github.com/ggml-org/ggml/releases/tag/v1.0.0)
+  llama.cpp의 텐서 연산 라이브러리 ggml이 1.0.0에 도달함. 폐기 예정 공개 API와 DIAGMASK 연산을 제거하고 YaRN 설정·FP8 지원을 확장했으며 여러 백엔드 성능을 개선함.
+- [Claude Fable 5.2로 에이전트 1,000개 팀 안전하게 돌리기 — 페르마의 마지막 정리 형식화 실험](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)
+  Anthropic 연구진이 출시 전 Claude Fable 5.2로 리드 에이전트 1개와 헬퍼 999개를 운용해 페르마의 마지막 정리 증명을 Lean으로 형식화한 실험을 공개함. 대규모 멀티에이전트를 안전하게 확장하는 방법을 다룸.
+- [ChatGPT 비즈니스 기능 소개](https://openai.com/ko-KR/index/introducing-businesses-chatgpt/)
+  OpenAI가 기업이 ChatGPT 안에서 비즈니스 소유권을 등록하고 정보를 관리하며 고객과 소통할 수 있는 기능을 베타로 공개함. ChatGPT가 검색·상거래 접점으로 확장되는 흐름임.
+- [테크 기업들이 프라이버시 개념을 다시 바꾸려 함](https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again)
+  EFF가 AI 스마트 안경·녹음형 웨어러블이 착용자 한 명의 선택으로 주변 사람의 대화와 행동까지 기록한다고 지적함. 프라이버시 문제가 물리적 일상으로 확장되고 있다고 경고함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-11-15](data/2026-11-15.md)
 - [2026-11-14](data/2026-11-14.md)
 - [2026-11-13](data/2026-11-13.md)
 - [2026-11-12](data/2026-11-12.md)
@@ -69,4 +70,3 @@
 - [2026-10-20](data/2026-10-20.md)
 - [2026-10-19](data/2026-10-19.md)
 - [2026-10-18](data/2026-10-18.md)
-- [2026-10-17](data/2026-10-17.md)
