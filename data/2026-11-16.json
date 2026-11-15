@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-16",
+  "github_trending": [
+    {
+      "name": "bojieli/ai-infra-book",
+      "url": "https://github.com/bojieli/ai-infra-book",
+      "description": "《深入理解 AI Infra》 오픈소스 책 원고임. 하드웨어 제약과 모델 구조에서 출발해 LLM 추론·학습 시스템 설계를 정량적으로 유도함. 본문·PDF·계산 도구·실험 코드 포함.",
+      "description_en": "Open-source manuscript of a book on AI infrastructure: quantitatively derives LLM inference and training system design from hardware constraints and model architecture, with full text, PDF, calculators and experiments."
+    },
+    {
+      "name": "davila7/claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "description": "Claude Code용 에이전트·커맨드·스킬·훅·MCP·설정·모드를 모아 둔 오픈소스 레지스트리 겸 CLI임. 필요한 구성요소를 골라 바로 설치 가능함.",
+      "description_en": "Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods."
+    },
+    {
+      "name": "HKUDS/AutoSwarm",
+      "url": "https://github.com/HKUDS/AutoSwarm",
+      "description": "여러 AI 에이전트를 하나로 묶어 컨텍스트 장벽 없이 협업시키는 프레임워크임. 에이전트들이 함께 일하는 과정을 지켜볼 수 있음.",
+      "description_en": "AutoSwarm: unify all your agents, break context barriers, and watch them work together."
+    },
+    {
+      "name": "PrefectHQ/fastmcp",
+      "url": "https://github.com/PrefectHQ/fastmcp",
+      "description": "MCP 서버·클라이언트를 Python답게 빠르게 만드는 라이브러리임. 데코레이터 기반으로 툴·리소스를 간단히 노출함.",
+      "description_en": "The fast, Pythonic way to build MCP servers and clients."
+    },
+    {
+      "name": "huytieu/COG-second-brain",
+      "url": "https://github.com/huytieu/COG-second-brain",
+      "description": "AI 스킬 35개·에이전트 10개·인맥 CRM을 갖춘 자기진화형 세컨드 브레인임. 작업자가 자기 결과를 스스로 채점하지 않는 V-모델 검증 루프가 특징임. Claude Code·Cursor·Codex 등에서 동작함.",
+      "description_en": "Self-evolving second brain with 35 AI skills, 10 agents and a people CRM, using a closed-loop V-model verification harness where the worker never grades its own homework."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "Agent-R²: 실제 소스 데이터 합성으로 생산성 업무 에이전트 확장",
+      "title_en": "Agent-R^2: Scaling Agents for Realistic Productivity Work via Real-Source Data Synthesis",
+      "url": "https://huggingface.co/papers/2611.08219",
+      "summary": "실제 파일·문서를 바탕으로 업무 과제를 합성하는 프레임워크를 제안함. 4천 개 과제로 4B 에이전트를 SFT와 루브릭 기반 RL로 학습시켜, 더 큰 모델보다 실무형 작업과 파일 기반 추론에서 나은 성능을 냄.",
+      "summary_en": "A real-source data synthesis framework trains a 4B agent on 4k task instances with SFT and rubric-based RL, outperforming larger models on realistic productivity work and file-grounded reasoning."
+    },
+    {
+      "title": "다시 픽셀로: 잠재 비디오 확산 모델을 픽셀 공간으로 끌어올리기",
+      "title_en": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
+      "url": "https://huggingface.co/papers/2611.17336",
+      "summary": "현재 비디오 생성 모델은 VAE latent 공간에서 시공간을 압축해 학습함. 이 압축이 고해상도·제어형·인터랙티브 생성의 병목이 됨을 지적하고, 기존 latent 비디오 확산 모델을 픽셀 공간 생성으로 옮기는 방법을 제시함.",
+      "summary_en": "Argues VAE latent compression now limits high-resolution, controllable and interactive video generation, and lifts pretrained latent video diffusion models into pixel space."
+    },
+    {
+      "title": "레퍼런스 기반 UAV 영상 안정화의 합의 포획 문제: 동적 도심 장면 벤치마크",
+      "title_en": "Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes",
+      "url": "https://huggingface.co/papers/2611.17190",
+      "summary": "호버링 드론 영상을 기준 프레임에 정합하는 안정화 파이프라인을 다룸. 기존 매칭 벤치마크는 카메라만 움직이는 상황이라, 움직이는 차량·보행자가 많은 도심에서는 정합이 동적 객체에 끌려가는 문제를 드러내는 벤치마크를 제안함.",
+      "summary_en": "A benchmark showing reference-frame registration pipelines for hovering-drone video can be captured by dynamic objects in urban scenes, unlike camera-only-motion matching benchmarks."
+    },
+    {
+      "title": "TurtLES: 3D 난류 신경망 PDE 대리모델용 대규모 벤치마크",
+      "title_en": "TurtLES: A Large-Scale Benchmark for Turbulent 3D Neural PDE Surrogates",
+      "url": "https://huggingface.co/papers/2611.09567",
+      "summary": "CFD 가속용 ML surrogate 연구에 현실적인 시간의존 난류 벤치마크가 부족한 문제를 해결하려 14TB 규모 3D 난류 실린더 유동 데이터셋을 공개함. 여러 신경 PDE 모델을 비교 평가함.",
+      "summary_en": "A 14 TB dataset of 3D turbulent cylinder flows (LES) for benchmarking neural PDE surrogates on realistic, time-dependent turbulence."
+    },
+    {
+      "title": "HiVe-Mem: 수평 메모리 확장과 수직 증거 구성을 결합한 멀티모달 에이전트 메모리",
+      "title_en": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
+      "url": "https://huggingface.co/papers/2611.12872",
+      "summary": "의미 시드를 관계 그래프로 넓히는 수평 확장과, 질의에 맞춰 이질적 증거를 조합하는 수직 구성을 번갈아 수행하는 메모리 프레임워크임. 장기 멀티모달 상호작용 성능을 높임.",
+      "summary_en": "A multimodal memory framework that interleaves relational-graph expansion of semantic seeds with query-adaptive composition of heterogeneous evidence for long-term interaction."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "AI가 코딩을 해결했다면, 왜 내 소프트웨어는 여전히 그대로일까?",
+      "title_en": "If AI Solved Coding, Why Is My Software Still the Same? (video)",
+      "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+      "summary": "Jonathan Blow가 AI 코드 생성의 속도·비용 장점은 인정하면서도, 복잡한 소프트웨어의 품질과 사용자 경험이 실제로 좋아졌다는 증거는 없다고 지적함. 생산량과 완성도는 별개라는 주장임.",
+      "summary_en": "Jonathan Blow grants AI makes code fast and cheap but sees no evidence that complex software quality or user experience has improved."
+    },
+    {
+      "title": "ggml v1.0.0 출시 — 폐기 예정 API 제거, FP8 지원, 백엔드 성능 개선",
+      "title_en": "ggml v1.0.0 - deprecated APIs removed, FP8 support, backend performance improvements",
+      "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+      "summary": "llama.cpp의 텐서 연산 라이브러리 ggml이 1.0.0에 도달함. 폐기 예정 공개 API와 DIAGMASK 연산을 제거하고 YaRN 설정·FP8 지원을 확장했으며 여러 백엔드 성능을 개선함.",
+      "summary_en": "ggml, the tensor library behind llama.cpp, hits 1.0.0: removes deprecated public APIs and DIAGMASK, extends YaRN and FP8 support, and improves backend performance."
+    },
+    {
+      "title": "Claude Fable 5.2로 에이전트 1,000개 팀 안전하게 돌리기 — 페르마의 마지막 정리 형식화 실험",
+      "title_en": "Safely scaling multi-agent teams with Claude Fable 5.2 - formalizing Fermat's Last Theorem",
+      "url": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
+      "summary": "Anthropic 연구진이 출시 전 Claude Fable 5.2로 리드 에이전트 1개와 헬퍼 999개를 운용해 페르마의 마지막 정리 증명을 Lean으로 형식화한 실험을 공개함. 대규모 멀티에이전트를 안전하게 확장하는 방법을 다룸.",
+      "summary_en": "Anthropic ran a pre-release Claude Fable 5.2 team of one lead and 999 helper agents to formalize Fermat's Last Theorem in Lean, describing how to scale multi-agent teams safely."
+    },
+    {
+      "title": "ChatGPT 비즈니스 기능 소개",
+      "title_en": "Introducing businesses in ChatGPT",
+      "url": "https://openai.com/ko-KR/index/introducing-businesses-chatgpt/",
+      "summary": "OpenAI가 기업이 ChatGPT 안에서 비즈니스 소유권을 등록하고 정보를 관리하며 고객과 소통할 수 있는 기능을 베타로 공개함. ChatGPT가 검색·상거래 접점으로 확장되는 흐름임.",
+      "summary_en": "OpenAI launches a beta letting businesses claim ownership, manage their information and engage customers inside ChatGPT."
+    },
+    {
+      "title": "테크 기업들이 프라이버시 개념을 다시 바꾸려 함",
+      "title_en": "Tech companies are trying to shift the entire concept of privacy, again",
+      "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
+      "summary": "EFF가 AI 스마트 안경·녹음형 웨어러블이 착용자 한 명의 선택으로 주변 사람의 대화와 행동까지 기록한다고 지적함. 프라이버시 문제가 물리적 일상으로 확장되고 있다고 경고함.",
+      "summary_en": "EFF warns that AI smart glasses and recording wearables let one wearer's choice capture bystanders' conversations, pushing privacy issues into physical everyday life."
+    }
+  ]
+}
