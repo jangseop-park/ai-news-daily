@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-11-16
+> 마지막 업데이트: 2026-11-17
 
-# AI 뉴스 — 2026-11-16
+# AI 뉴스 — 2026-11-17
 
 ## 🔥 GitHub Trending (Python)
 
-- [bojieli/ai-infra-book](https://github.com/bojieli/ai-infra-book): 《深入理解 AI Infra》 오픈소스 책 원고임. 하드웨어 제약과 모델 구조에서 출발해 LLM 추론·학습 시스템 설계를 정량적으로 유도함. 본문·PDF·계산 도구·실험 코드 포함.
-- [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates): Claude Code용 에이전트·커맨드·스킬·훅·MCP·설정·모드를 모아 둔 오픈소스 레지스트리 겸 CLI임. 필요한 구성요소를 골라 바로 설치 가능함.
-- [HKUDS/AutoSwarm](https://github.com/HKUDS/AutoSwarm): 여러 AI 에이전트를 하나로 묶어 컨텍스트 장벽 없이 협업시키는 프레임워크임. 에이전트들이 함께 일하는 과정을 지켜볼 수 있음.
-- [PrefectHQ/fastmcp](https://github.com/PrefectHQ/fastmcp): MCP 서버·클라이언트를 Python답게 빠르게 만드는 라이브러리임. 데코레이터 기반으로 툴·리소스를 간단히 노출함.
-- [huytieu/COG-second-brain](https://github.com/huytieu/COG-second-brain): AI 스킬 35개·에이전트 10개·인맥 CRM을 갖춘 자기진화형 세컨드 브레인임. 작업자가 자기 결과를 스스로 채점하지 않는 V-모델 검증 루프가 특징임. Claude Code·Cursor·Codex 등에서 동작함.
+- [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill): 코딩 에이전트용 로컬 영상 편집 도구임. FFmpeg 도구 42종을 기계가 읽을 수 있는 계약과 MCP 서버로 묶어 Claude Code·Cursor·Codex에서 컷 편집, 자막, 리프레이밍, 음량 조정, 플랫폼별 내보내기를 처리함. 클라우드·API 키 없이 동작함.
+- [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi): AI 에이전트 독립 감사 도구임. 사람이 직접 돌리거나 에이전트가 스스로 실행해서 '에이전트가 해야 할 일을 제대로 하고 있는가'를 120초 안에 점검함.
+- [google-research/paper-orchestra](https://github.com/google-research/paper-orchestra): Google Research의 AI 연구 논문 자동 작성용 multi-agent 프레임워크임. 여러 에이전트가 역할을 나눠 논문 초안 작성 과정을 자동화함.
+- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill): 어떤 주제든 Reddit, X, YouTube, HN, Polymarket, 웹을 훑어 최근 30일 동향을 조사하고 근거 기반 요약으로 정리해주는 AI 에이전트 skill임.
+- [isair/jarvis](https://github.com/isair/jarvis): 100% 로컬에서 도는 개인용 데스크톱 AI 비서임. 대화에 끼어들 수 있고 MCP 도구·자가학습 메모리를 무제한 지원함. WisprFlow 대체용 받아쓰기 기능도 있으며 macOS·Windows·Linux에서 실행됨.
 
 ## 📄 Hugging Face Papers
 
-- [Agent-R²: 실제 소스 데이터 합성으로 생산성 업무 에이전트 확장](https://huggingface.co/papers/2611.08219)
-  실제 파일·문서를 바탕으로 업무 과제를 합성하는 프레임워크를 제안함. 4천 개 과제로 4B 에이전트를 SFT와 루브릭 기반 RL로 학습시켜, 더 큰 모델보다 실무형 작업과 파일 기반 추론에서 나은 성능을 냄.
-- [다시 픽셀로: 잠재 비디오 확산 모델을 픽셀 공간으로 끌어올리기](https://huggingface.co/papers/2611.17336)
-  현재 비디오 생성 모델은 VAE latent 공간에서 시공간을 압축해 학습함. 이 압축이 고해상도·제어형·인터랙티브 생성의 병목이 됨을 지적하고, 기존 latent 비디오 확산 모델을 픽셀 공간 생성으로 옮기는 방법을 제시함.
-- [레퍼런스 기반 UAV 영상 안정화의 합의 포획 문제: 동적 도심 장면 벤치마크](https://huggingface.co/papers/2611.17190)
-  호버링 드론 영상을 기준 프레임에 정합하는 안정화 파이프라인을 다룸. 기존 매칭 벤치마크는 카메라만 움직이는 상황이라, 움직이는 차량·보행자가 많은 도심에서는 정합이 동적 객체에 끌려가는 문제를 드러내는 벤치마크를 제안함.
-- [TurtLES: 3D 난류 신경망 PDE 대리모델용 대규모 벤치마크](https://huggingface.co/papers/2611.09567)
-  CFD 가속용 ML surrogate 연구에 현실적인 시간의존 난류 벤치마크가 부족한 문제를 해결하려 14TB 규모 3D 난류 실린더 유동 데이터셋을 공개함. 여러 신경 PDE 모델을 비교 평가함.
-- [HiVe-Mem: 수평 메모리 확장과 수직 증거 구성을 결합한 멀티모달 에이전트 메모리](https://huggingface.co/papers/2611.12872)
-  의미 시드를 관계 그래프로 넓히는 수평 확장과, 질의에 맞춰 이질적 증거를 조합하는 수직 구성을 번갈아 수행하는 메모리 프레임워크임. 장기 멀티모달 상호작용 성능을 높임.
+- [MIRIX-2.0: 멀티 에이전트 메모리 시스템](https://huggingface.co/papers/2611.12068)
+  LLM 에이전트의 장기 메모리를 실용성·정확도·효율 모두 잡도록 설계한 multi-agent 메모리 시스템임. 파라메트릭 메모리의 학습 부담, 통합 시 정보 손실, 전체 기록 저장 시 검색 비용 문제를 함께 해결하려 함. 비교 시스템 중 QA 벤치마크 5개 중 4개에서 최고 정확도이며 LoCoMo 91.4%, LongMemEval-S 72.6% 달성함.
+- [V-JEPA-LM: 정적 텍스트 정렬 표현을 넘어 동역학을 읽는 Video-Language 모델](https://huggingface.co/papers/2611.17831)
+  V-JEPA 같은 world-model 영상 인코더는 방향·속도·순서·상태 변화를 학습하지만, 캡션/QA로 LLM과 붙이면 질문에 언급된 속성만 찾아 쓰고 동역학 정보는 버려진다는 문제를 지적함. 예컨대 frozen V-JEPA 특징에서 linear probe로는 속도를 87% 읽어내는데 VLM은 이를 못 씀. 인코더의 동역학을 실제로 읽도록 학습하는 방법을 제안함.
+- [DySENSE: 위성 영상 기반 동적 시공간 에너지 합성·에뮬레이션](https://huggingface.co/papers/2611.17878)
+  도시는 세계 에너지의 2/3, CO2 배출의 70% 이상을 차지함. 기존 연구는 기존 도시 예측 위주이고 세밀한 월별 에너지 데이터가 부족함. 위성 영상으로 미래 도시의 월별 동적 에너지 소비를 생성(generative)·에뮬레이션하는 프레임워크를 제안함.
+- [G-CAST: 변화하는 요구에 대응하는 이커머스 에이전트의 통제된 지속 자기학습](https://huggingface.co/papers/2611.17814)
+  쇼핑 대화 에이전트는 신규 카테고리·구매 시나리오 등 사용자 요구와 도구·skill·운영 절차(harness)가 계속 바뀜. 이런 변화 속에서 기존 능력을 해치지 않으면서 안전하게 지속 자기학습하도록 거버넌스를 둔 학습 프레임워크를 제안함.
+- [Mobile AI Factory: 내 스마트폰 전용 특화 언어모델 만들기](https://huggingface.co/papers/2611.13509)
+  온디바이스 SLM은 프라이버시·오프라인 장점이 있지만 작업·기기에 맞춘 파인튜닝과 크기 조정에 전문가 반복 작업이 필요함. 작업 명세와 대상 폰만 주면 orchestrator LLM이 하이퍼파라미터 튜닝, 데이터 마이닝 등을 스스로 결정해 파인튜닝·양자화된 SLM을 자동 생성하는 agentic 시스템임.
 
 ## 🦉 GeekNews
 
-- [AI가 코딩을 해결했다면, 왜 내 소프트웨어는 여전히 그대로일까?](https://www.youtube.com/watch?v=IRK8h67ol7Q)
-  Jonathan Blow가 AI 코드 생성의 속도·비용 장점은 인정하면서도, 복잡한 소프트웨어의 품질과 사용자 경험이 실제로 좋아졌다는 증거는 없다고 지적함. 생산량과 완성도는 별개라는 주장임.
-- [ggml v1.0.0 출시 — 폐기 예정 API 제거, FP8 지원, 백엔드 성능 개선](https://github.com/ggml-org/ggml/releases/tag/v1.0.0)
-  llama.cpp의 텐서 연산 라이브러리 ggml이 1.0.0에 도달함. 폐기 예정 공개 API와 DIAGMASK 연산을 제거하고 YaRN 설정·FP8 지원을 확장했으며 여러 백엔드 성능을 개선함.
-- [Claude Fable 5.2로 에이전트 1,000개 팀 안전하게 돌리기 — 페르마의 마지막 정리 형식화 실험](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)
-  Anthropic 연구진이 출시 전 Claude Fable 5.2로 리드 에이전트 1개와 헬퍼 999개를 운용해 페르마의 마지막 정리 증명을 Lean으로 형식화한 실험을 공개함. 대규모 멀티에이전트를 안전하게 확장하는 방법을 다룸.
-- [ChatGPT 비즈니스 기능 소개](https://openai.com/ko-KR/index/introducing-businesses-chatgpt/)
-  OpenAI가 기업이 ChatGPT 안에서 비즈니스 소유권을 등록하고 정보를 관리하며 고객과 소통할 수 있는 기능을 베타로 공개함. ChatGPT가 검색·상거래 접점으로 확장되는 흐름임.
-- [테크 기업들이 프라이버시 개념을 다시 바꾸려 함](https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again)
-  EFF가 AI 스마트 안경·녹음형 웨어러블이 착용자 한 명의 선택으로 주변 사람의 대화와 행동까지 기록한다고 지적함. 프라이버시 문제가 물리적 일상으로 확장되고 있다고 경고함.
+- [X.com을 처음부터 다시 구축하기 - 서버 3개를 하나로](https://blog.x.com/en/engineering/rebuilding-the-global-town-square-from-scratch)
+  X가 기존 웹앱을 엔지니어 5명과 AI 코딩 에이전트로 6개월 안에 재구축함. 사용자용·검색 크롤러용·링크 미리보기용으로 나뉘어 있던 서버 3개를 하나로 통합함.
+- [이제 거의 무엇이든 만들 수 있다. 무엇을 만들 가치가 있을까?](https://zchmael.substack.com/p/i-can-build-almost-anything-now-whats)
+  AI 덕분에 더 많은 아이디어를 구현할 수 있게 됐지만, 만드는 즐거움과 계속 운영할 책임은 별개의 선택이라는 글임. 학습용·개인 도구·서비스 등 프로젝트 성격별로 무엇을 만들고 유지할지 판단 기준을 제시함.
+- [DBDelve - Rust와 GPUI로 만든 가벼운 오픈소스 DB 클라이언트](https://github.com/ShayanAbbas1/dbdelve)
+  Zed 에디터의 GPU 가속 UI 프레임워크 GPUI로 만든 Rust DB 클라이언트임. 같은 UI 코드로 맥/윈도우/리눅스에서 네이티브 실행되며 PostgreSQL 등을 지원함.
+- [실전파 컴퓨터 과학자를 위한 도서 목록](https://nick-black.com/dankwiki/index.php?title=Book_list_for_streetfighting_computer_scientists)
+  2025년판 추천 도서 목록임. 흔한 코딩 관행서 대신 언어, 운영체제, 네트워크, 알고리듬, 계산 이론을 깊이 익히는 책 위주로 구성됨.
+- [AI 시대, 새로운 게임 개발자는 어떻게 탄생할까](https://www.a16z.news/p/gamings-next-origin-stories)
+  a16z 글임. AI는 인디 개발자·도구 제작자·월드 빌딩 스튜디오를 대체하기보다 셋 모두의 작업을 가속한다고 봄. AI 에이전트가 Blender로 에셋을 만드는 등 새 개발 흐름을 소개함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-11-16](data/2026-11-16.md)
 - [2026-11-15](data/2026-11-15.md)
 - [2026-11-14](data/2026-11-14.md)
 - [2026-11-13](data/2026-11-13.md)
@@ -69,4 +70,3 @@
 - [2026-10-21](data/2026-10-21.md)
 - [2026-10-20](data/2026-10-20.md)
 - [2026-10-19](data/2026-10-19.md)
-- [2026-10-18](data/2026-10-18.md)
