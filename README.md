@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-11-20
+> 마지막 업데이트: 2026-11-21
 
-# AI 뉴스 — 2026-11-20
+# AI 뉴스 — 2026-11-21
 
 ## 🔥 GitHub Trending (Python)
 
-- [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything): 모든 소프트웨어를 AI 에이전트가 쓸 수 있는 CLI로 바꿔주는 프레임워크임. 기존 앱을 에이전트 네이티브 도구로 감싸고 CLI-Hub로 공유할 수 있음.
-- [microsoft/markitdown](https://github.com/microsoft/markitdown): PDF·Word·Excel·PPT 등 오피스 문서를 Markdown으로 변환하는 Microsoft의 Python 도구임. LLM/RAG 입력 전처리용으로 많이 쓰임.
-- [p-e-w/heretic](https://github.com/p-e-w/heretic): 재학습 없이 언어모델 동작을 수정하는 도구임. 검열 제거, 상투적 문체(slop) 억제, 아첨(sycophancy) 감소 등을 weight 수정만으로 처리함.
-- [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills): Claude Code용 학술 연구 스킬 모음임. 조사→집필→리뷰→수정→마무리까지 논문 작성 전 과정을 단계별 스킬로 지원함.
-- [SWE-agent/mini-swe-agent](https://github.com/SWE-agent/mini-swe-agent): 100줄짜리 초경량 코딩 에이전트임. 복잡한 설정 없이 GitHub 이슈를 해결하며 SWE-bench Verified 74% 이상을 기록함.
+- [zhouxiaoka/autoclip](https://github.com/zhouxiaoka/autoclip): 링크 하나로 긴 영상을 숏폼으로 자동 편집해주는 오픈소스 AI 데스크톱 도구임. 팟캐스트·인터뷰·강의 영상을 잘라 자막·썸네일·게시 문구까지 만들고 TikTok, Reels, YouTube Shorts 등에 맞춰줌.
+- [Tracer-Cloud/opensre](https://github.com/Tracer-Cloud/opensre): CI/CD 신뢰성을 위한 오픈소스 AI 에이전트임. 파이프라인 실패 원인 분석과 운영(SRE) 업무를 에이전트로 자동화하는 것을 목표로 함.
+- [FlashML-org/FreeVideo](https://github.com/FlashML-org/FreeVideo): 가진 컴퓨터로 영상 생성을 돌리게 해주는 도구임. MiniMax H3 모델을 VRAM 8GB·RAM 16GB에서도 실행하고, 하드웨어에 맞춰 가속 경로를 자동으로 고름.
+- [phone-harness/phone-harness](https://github.com/phone-harness/phone-harness): AI 에이전트가 스마트폰을 직접 조작하게 해주는 하네스임. 앱 실행·터치·입력 같은 휴대폰 작업을 에이전트 도구로 연결함.
+- [superdesigndev/treg](https://github.com/superdesigndev/treg): '에이전트 도구용 OpenRouter'를 표방하는 프로젝트임. 여러 에이전트 도구를 하나의 레지스트리·인터페이스로 묶어 골라 쓰게 해줌.
 
 ## 📄 Hugging Face Papers
 
-- [Mind2Act World: 로봇 조작에서 인지·행동·결합 능력을 진단하는 벤치마크](https://huggingface.co/papers/2611.26444)
-  5개 실제 응용 도메인의 시뮬레이션 조작 과제 30개×난이도 3단계×장면 2종=180개 설정으로 구성된 벤치마크임. 과거 관찰 기반 추론(Mind), 정밀 실행(Act), 환경 피드백을 통한 결합을 분리 평가함. 개별 능력이 좋아도 결합 과제로는 잘 이어지지 않는다는 점을 보여줌.
-- [HiUni: 공유 시각 공간에서 이해와 생성을 통합](https://huggingface.co/papers/2611.26107)
-  사전학습 VLM을 그대로 확장해 시각 이해와 이미지 생성을 하나로 묶는 통합 멀티모달 모델임. 같은 language-aligned ViT와 dense Transformer backbone을 두 작업이 공유하고, 작업별 연산은 출력단에만 둠. 픽셀 공간 생성 최적화와 ViT의 공간 디테일 손실 문제를 함께 다룸.
-- [VLM의 '의식적' 마음 탐색: 선택적 접근과 Global Workspace](https://huggingface.co/papers/2611.26590)
-  Global Workspace Theory 관점에서 VLM 내부 개념 처리를 분석한 연구임. 멀티모달 Jacobian lens인 MC-Lens로 vision encoder와 language decoder 중간 상태를 공통 의미 공간에 매핑함. 과제에 따라 개념이 선택적으로 접근되는지, 개입 시 후속 연산이 어떻게 바뀌는지 확인함.
-- [동적 라우팅·KV 중심 실행·런타임 파이프라이닝으로 MoBA 가속](https://huggingface.co/papers/2611.26268)
-  긴 컨텍스트용 희소 attention인 MoBA를 가속하는 LightningMoBA를 제안함. 고정 Top-k 대신 점수 임계값 기반 dynamic routing을 쓰고, (head, KV block) 단위로 작업을 묶어 KV tile을 재사용함. Hopper GPU에서 전송과 연산을 겹쳐 속도를 높이면서 품질은 유지하거나 개선함.
-- [행동이 바꾸는 것을 학습하기: 동역학에 충실한 World Model을 위한 Action Effect Matching](https://huggingface.co/papers/2611.25980)
-  world model이 작은 행동 변화의 결과를 잘 못 잡는 문제를 다룸. 행동에 시간 상관 노이즈를 넣고, 생성 영상이 실제 영상과 같은 방식으로 반응하도록 학습하는 보조 목표 AFFECT를 제안함. 시뮬레이션과 실제 로봇 과제에서 rollout 정확도와 planning 성공률이 올라감.
+- [AltRA-Test: 공통 주석자 없이 LLM 심사위원을 검증하는 통계 검정](https://huggingface.co/papers/2611.26073)
+  LLM이 사람 주석자를 대체해도 되는지 판단하는 통계 검정임. 기존 Alt-Test는 모든 항목을 같은 주석자가 달아야 했지만, AltRA-Test는 항목마다 주석자가 달라도 bootstrap 재표집으로 비교함. 보통 약 100개 항목이면 충분하고 기존 방법보다 대체 판단이 정확함.
+- [Diffusion Transformer의 RL 후학습은 사실상 Activation Steering이다](https://huggingface.co/papers/2611.26627)
+  RL 후학습으로 얻은 이미지 품질·텍스트 렌더링·구성 정확도 향상 대부분이 고정된 steering vector 몇 개로 재현된다는 연구임. SD3.5-M에서 RL LoRA보다 65배 적은 파라미터로 대부분의 이득을 회복함. 개선의 상당 부분이 프롬프트별 변환이 아니라 일정한 shift라는 뜻임.
+- [LLM 기반 Weight-Space Programming을 위한 비전 모델 학습](https://huggingface.co/papers/2611.26408)
+  LLM이 신경망 가중치를 직접 고치는 weight-space programming을 비전 모델에서 평가한 벤치마크임. LLM 5종이 CNN·ViT를 재라벨링·오류 수정 과제로 편집한 2,600여 건을 성공률·부작용·정확도 손실로 채점함. 편집하기 좋게 학습시키면 성공률이 달라지는지 비교함.
+- [지시 기반 절차 영상에서 실시간 실수 감지](https://huggingface.co/papers/2611.25567)
+  사람이 절차를 수행하는 1인칭 영상을 보면서 작업 지시문과 비교해 실수를 실시간으로 잡는 모델임. 어떤 단계를 시도했는지 식별·위치를 찾고 정상/변형/실수/교정 등으로 분류함. 회복 가능한 시점에 알려주는 보조 AI를 목표로 함.
+- [두 번 들은 비평: LLM 시대 동료 심사의 주장 수준 균질화](https://huggingface.co/papers/2611.26286)
+  학회·저널 리뷰 간 지적 사항 중복도를 측정한 연구임. ICLR 리뷰 중복도가 2026년 12.0%에서 2027년 21.3%로 뛰었고, 세 번째 리뷰가 새로 짚는 문제 수도 줄었음. LLM 생성으로 판정된 리뷰끼리 더 비슷해 비평 다양성이 줄고 있음을 보여줌.
 
 ## 🦉 GeekNews
 
-- [우리에겐 진심으로 신경 쓰는 똑똑한 사람들이 필요하다](https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/)
-  복잡하고 취약한 시스템을 실제로 지탱하는 건 시스템을 깊이 이해하고 끝까지 신경 쓰는 사람들이라는 글임. 오래된 미국 은행 간 이체 시스템 ACH를 예로 들어, 자동화·AI 시대에도 책임감 있는 엔지니어의 가치가 크다고 강조함.
-- [LLM을 활용한 리버스 엔지니어링](https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering)
-  20년간 수작업으로 해 온 하드웨어/소프트웨어 리버스 엔지니어링을 AI 에이전트와 전용 스킬에 맡기고 사람은 방향만 조정하는 방식으로 바꾼 경험담임. 작업 시간이 크게 줄었다고 함.
-- [Reticle - AI 코딩 에이전트가 웹/데스크톱 앱을 직접 조작해 검증하는 도구](https://github.com/reticlehq/reticle)
-  코딩 에이전트가 기능을 고친 뒤 실제 앱에서 버튼 클릭·값 입력을 해서 로그인이나 결제가 의도대로 동작하는지 확인하게 해주는 도구임. 클릭 이후 발생한 API 호출까지 추적해 검증함.
-- [VM 한 대에서 웹 서버 1,500만 개 실행하기: smoltcp, DPDK, AF_XDP](https://kapteko.com/15-million-webservers/)
-  RAM 10GB·CPU 1코어에서 요청마다 OK를 반환하는 최소 웹 서버 1,500만 개를 띄운 실험임. 개별 프로세스 대신 단일 프로세스 맞춤 런타임과 smoltcp, DPDK, AF_XDP 같은 유저스페이스 네트워킹으로 구현함.
-- [모든 작업에 LLM이 필요한 것은 아니다](https://newsletter.posthog.com/p/decision-models)
-  PostHog가 예/아니오나 정해진 선택지와 확률만 반환하는 소형 '의사결정 모델'을 쓰는 사례임. 개인정보 탐지, 요청별 모델 선택, 검색 결과 재정렬 등에 적용해 비용과 지연을 줄임.
+- [Kiri - 무료 ngrok 대안을 내장한 경량 Docker Desktop 대체재](https://github.com/libracoder/kiri)
+  기존 Docker 이미지·CLI·Compose·buildx를 그대로 쓰는 맥/윈도우/리눅스용 컨테이너 런타임임. kiri share 명령으로 로컬 앱을 공개 HTTPS 주소로 바로 공유 가능함. 명령 하나로 Kubernetes 클러스터 생성, Docker Desktop·OrbStack 데이터 가져오기, 60초 유휴 시 VM 절전도 지원함.
+- [DaisyRose-27B - 장시간 에이전트 작업에 강화학습을 적용한 Qwen3.8-27B 기반 모델](https://www.radixark.com/blog/daisyrose-27b)
+  RadixArk가 Qwen3.8-27B에 작업 1,200개로 H200 144대·18일간 강화학습한 모델을 공개함. Terminal-Bench 4.1 pass@1이 5.6%→12.0%로 오름. 비동기 학습으로 GPU 시간 57% 절감했고 BF16·FP8·NVFP4 가중치를 Apache-2.0으로 풀었음.
+- [Show GN: OpenDocKit - HWP부터 PDF·엑셀까지 문서를 LLM용 Markdown으로 바꾸는 파이썬 라이브러리](https://news.hada.io/topic?id=37495)
+  RAG·에이전트 입력용 문서 변환 라이브러리임. PDF·DOCX·PPTX·XLSX·HWP/HWPX 등을 함수 하나로 읽고, 병합 셀 복원·테두리 없는 표 인식·수식 LaTeX 변환까지 처리함. 페이지 단위 섹션을 제공해 청킹과 출처 표기에 쓰기 좋음.
+- [AI는 왜 로컬로 향하는가](https://thedataexchange.media/pete-warden-moonshine/)
+  Moonshine Voice 개발자 Pete Warden 인터뷰임. 로컬 AI의 장벽은 이제 모델 품질보다 사용성이라고 봄. API 요금이 없어지면 새로운 앱이 가능해지고, 음성 인터페이스는 200ms 이하 응답이 중요하며, 추론 병목은 메모리 대역폭이라고 설명함.
+- [nginx2root - nginx 원격 코드 실행 취약점 5개와 Linux 커널 권한 상승 취약점](https://xint.io/blog/nginx2root-remote-code-execution)
+  Xint가 nginx 비인증 RCE 취약점 5개와 Linux SCTP 커널 취약점을 공개함. 가장 광범위한 CVE-2026-123007은 HTTP/2 활성화 서버(1.9.5~1.31.8)에 영향을 줌. 연계 시 root 획득·컨테이너 탈출까지 가능하며, stable 1.30.7 / mainline 1.31.9 이상으로 업데이트해야 함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-11-20](data/2026-11-20.md)
 - [2026-11-18](data/2026-11-18.md)
 - [2026-11-17](data/2026-11-17.md)
 - [2026-11-16](data/2026-11-16.md)
@@ -69,4 +70,3 @@
 - [2026-10-24](data/2026-10-24.md)
 - [2026-10-23](data/2026-10-23.md)
 - [2026-10-22](data/2026-10-22.md)
-- [2026-10-21](data/2026-10-21.md)
