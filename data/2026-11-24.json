@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-24",
+  "github_trending": [
+    {
+      "name": "odoo/odoo",
+      "url": "https://github.com/odoo/odoo",
+      "description": "CRM·회계·재고·이커머스·인사 등 비즈니스 앱을 한 플랫폼에 모은 오픈소스 ERP임. Python 기반 모듈 구조라 필요한 앱만 골라 설치·확장 가능함.",
+      "description_en": "Open-source ERP suite bundling CRM, accounting, inventory, e-commerce and HR apps on one Python-based modular platform."
+    },
+    {
+      "name": "samuelgursky/davinci-resolve-mcp",
+      "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+      "description": "DaVinci Resolve Studio를 MCP 서버로 연결해 Claude 같은 AI 에이전트가 타임라인·미디어 풀·렌더링을 직접 조작하게 해줌. 영상 편집 자동화용임.",
+      "description_en": "MCP server for DaVinci Resolve Studio that lets AI agents control timelines, media pool and rendering for automated video editing."
+    },
+    {
+      "name": "wshobson/agents",
+      "url": "https://github.com/wshobson/agents",
+      "description": "Claude Code·Codex CLI·Cursor·Copilot 등 여러 코딩 에이전트용 플러그인·에이전트·스킬·커맨드를 한 번 작성해 공통으로 쓰게 한 모음집임.",
+      "description_en": "Plugins, agents, skills and commands written once and shared across Claude Code, Codex CLI, Cursor, OpenCode, Copilot and more."
+    },
+    {
+      "name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Anthropic이 공개한 Agent Skills 공식 레포임. 문서 작성·데이터 처리 등 Claude에 붙여 쓸 수 있는 스킬 예제와 템플릿 제공함. 이번 주 스타 3.8k 증가함.",
+      "description_en": "Anthropic's public repository of Agent Skills, providing example and template skills that extend Claude for documents, data and more."
+    },
+    {
+      "name": "soxoj/maigret",
+      "url": "https://github.com/soxoj/maigret",
+      "description": "사용자명 하나로 6천여 개 사이트를 조회해 계정 존재 여부와 프로필 정보를 모아 보고서로 만드는 OSINT 도구임. 보안 조사·신원 확인용으로 쓰임.",
+      "description_en": "OSINT tool that builds a dossier on a person by checking a username across 6,000+ websites and collecting profile info into a report."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "cmHC: 기하학적 수축으로 Hyper-Connections의 스트림 혼합 균형 맞추기",
+      "title_en": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+      "url": "https://huggingface.co/papers/2611.27193",
+      "summary": "잔차 연결을 여러 스트림으로 확장한 mHC에서 혼합 행렬이 Birkhoff polytope의 꼭짓점 쪽이면 스트림이 따로 놀고, 중심 쪽이면 스트림 구분이 사라지는 트레이드오프를 이론적으로 밝힘. 기하학적 수축으로 혼합 정도를 조절하는 cmHC를 제안해 dense·MoE 대규모 사전학습의 안정성과 확장성을 개선함.",
+      "summary_en": "Shows a mixing trade-off in manifold-constrained hyper-connections within the Birkhoff polytope and proposes cmHC, a geometric-contraction method that stabilizes and scales dense and MoE pretraining."
+    },
+    {
+      "title": "물체를 뚫고 지나가지 않는 월드 모델",
+      "title_en": "Non-penetrating World Models",
+      "url": "https://huggingface.co/papers/2611.27963",
+      "summary": "인터랙티브 비디오 월드 모델이 장애물을 뚫고 지나가는 물리 오류를 평가하는 NoPeBench를 공개함. 오픈소스 모델 모두 실패하지만 DiT 은닉 상태에 관통 여부 정보가 이미 담겨 있음을 발견함. 고정된 DiT 위에 작은 예측 헤드를 붙인 NoPeWorld로 위험 행동을 안전한 행동으로 바꿔 물리 위반을 줄이고 zero-shot 일반화도 됨.",
+      "summary_en": "Introduces NoPeBench for object penetration in video world models and NoPeWorld, a light head on frozen DiT hidden states that detects and replaces penetrating actions, generalizing zero-shot."
+    },
+    {
+      "title": "Clover-35B-A3B-Preview 기술 보고서",
+      "title_en": "Clover-35B-A3B-Preview Technical Report",
+      "url": "https://huggingface.co/papers/2611.24636",
+      "summary": "총 35B·활성 3B 파라미터의 MoE 확산(diffusion) 언어모델로 thinking 모드를 지원함. Gated Delta Networks를 block diffusion에 접목해 과거 문맥은 순환 메모리로, 현재 블록은 양방향 attention으로 처리함. SWE-bench Verified 73.6, Terminal-Bench 2.1 51.7을 기록했고 GB300 GPU 한 장에서 초당 680토큰 생성 속도를 보고함.",
+      "summary_en": "A 35B-total/3B-active MoE diffusion LM with thinking mode, combining Gated Delta Networks with block diffusion; reports 73.6 on SWE-bench Verified and 680 tokens/s on a single GB300."
+    },
+    {
+      "title": "읽을 수 없는 글자 읽기: 텍스트 인식 초해상도에는 추론이 필요함",
+      "title_en": "Reading the Unreadable: Text-Aware Image Super-Resolution Needs Reasoning",
+      "url": "https://huggingface.co/papers/2611.15449",
+      "summary": "심하게 뭉개진 글자는 주변 픽셀만으로 복원이 안 되고 문맥·상식 추론이 필요하다는 문제를 제기함. 추론이 필요한 텍스트를 구분한 벤치마크 ReasonText와 검출 오류를 배제한 지표 GTTCA를 제안함. 최신 SR 모델 12개 모두 추론 필요 텍스트에서 성능이 크게 떨어짐을 확인함.",
+      "summary_en": "Argues text-aware super-resolution needs reasoning; introduces the ReasonText benchmark and GTTCA metric and finds 12 recent SR models drop sharply on reasoning-required text."
+    },
+    {
+      "title": "On-Policy 자기 증류로 라벨 없는 영상에서 미래 예측 추론 학습",
+      "title_en": "Learning Video Foresight Reasoning from Unlabeled Videos via On-Policy Self-Distillation",
+      "url": "https://huggingface.co/papers/2611.26954",
+      "summary": "VLM이 현재 영상에서 다음 사건·행동을 예측하도록, 과거-미래 영상 쌍을 자기지도 신호로 쓰는 on-policy self-distillation 프레임워크 Future-OPSD를 제안함. foresight score 기반 대조 이점으로 미래 클립 중 정말 중요한 정보만 배우게 해 추가 주석이나 LLM 감독 없이 예측·계획 성능을 높임.",
+      "summary_en": "Future-OPSD trains VLMs for video foresight via on-policy self-distillation on past-future pairs with a foresight-score-based advantage, needing no annotations or LLM supervision."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "HUMAN.md - AI 시대 창작자를 위한 선언문",
+      "title_en": "HUMAN.md - A manifesto for creators in the AI era",
+      "url": "https://www.human-md.ai/",
+      "summary": "AI 시대에 창작자가 지켜야 할 태도를 정리한 선언문임. 인간의 가치는 안목뿐 아니라 의도적인 규칙 파괴, 뜻밖의 경험에서 얻는 영감, 사람을 위한 창작에 있다고 강조함.",
+      "summary_en": "A manifesto on how creators should work in the AI era, arguing human value lies in taste, deliberate rule-breaking, serendipitous inspiration and creating for people."
+    },
+    {
+      "title": "Fast-Anything: 전체를 Rust로 재작성하지 말고, 느린 5%만 재작성하라",
+      "title_en": "Fast-Anything: Don't rewrite everything in Rust, just the slow 5%",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "summary": "앱의 병목 함수를 찾아 코딩 에이전트가 그 함수만 Rust로 이식하게 하는 도구임. 실제 호출 기록으로 결과가 같은지 검증한 뒤 교체해 안전하게 성능을 끌어올림.",
+      "summary_en": "A tool that profiles an app's bottleneck functions, has a coding agent port only those to Rust, verifies them against recorded real calls, then swaps them in."
+    },
+    {
+      "title": "AI 시대, 컴퓨터공학과 소프트웨어공학적 사고의 가치",
+      "title_en": "The value of computer science and software engineering thinking in the AI era",
+      "url": "https://okky.kr/articles/1566284",
+      "summary": "바이브 코딩 확산으로 CS 전공이 무의미하다는 주장이 늘지만, 시스템을 설계하고 문제를 구조화하는 공학적 사고는 AI 시대에 오히려 더 중요해진다고 주장하는 글임.",
+      "summary_en": "Argues that despite claims CS degrees are obsolete due to vibe coding, engineering thinking for system design and problem structuring matters more in the AI era."
+    },
+    {
+      "title": "이제 우리는 모두 주니어 인재다",
+      "title_en": "We Are All Junior Talent Now",
+      "url": "https://tomtunguz.com/we-are-all-junior-talent-now/",
+      "summary": "AI의 진짜 가치는 같은 일을 빨리 하는 효율화가 아니라 회사가 할 수 있는 일 자체를 재구상하는 데 있다고 봄. AI와 일하는 방식이 너무 빨리 바뀌어 경력과 상관없이 모두가 다시 배우는 주니어 입장이 됐다고 지적함.",
+      "summary_en": "Tomasz Tunguz argues AI's value is reimagining what companies can do, and that fast-changing AI workflows make everyone junior talent regardless of experience."
+    },
+    {
+      "title": "내 미술 작품 웹사이트의 기술 아키텍처가 꽤 마음에 든다",
+      "title_en": "I quite like the technical architecture of my art website",
+      "url": "https://klauria.tech/klauria-art/",
+      "summary": "방문자에게는 정적 사이트처럼 빠르게 서빙하면서, 운영자는 웹 기반 CRUD UI로 작품과 메타데이터를 수정하게 만든 미술 작품 사이트 구조를 소개함. 단순하지만 실용적인 하이브리드 설계 사례임.",
+      "summary_en": "Describes an art portfolio site served as fast as a static site to visitors while the owner edits works and metadata via a web CRUD UI — a simple, practical hybrid architecture."
+    }
+  ]
+}
