@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-11-25
+> 마지막 업데이트: 2026-11-26
 
-# AI 뉴스 — 2026-11-25
+# AI 뉴스 — 2026-11-26
 
 ## 🔥 GitHub Trending (Python)
 
-- [PostHog/posthog](https://github.com/PostHog/posthog): AI 관측(observability), 제품 분석, 세션 리플레이, 피처 플래그, A/B 실험, 에러 추적, 로그를 한 곳에 모은 오픈소스 제품 플랫폼임. 에이전트가 문제를 진단하고 수정까지 하도록 맥락을 수집하는 'self-driving product'를 지향함. Slack·웹·MCP로 제어 가능함.
-- [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins): Anthropic이 공개한 Claude Cowork용 플러그인 모음임. 개발자가 아닌 지식 노동자(영업·재무·법무·리서치 등)의 업무 흐름에 맞춘 스킬·커맨드·커넥터를 제공함. 이번 달 스타 4.7천 개 넘게 늘어남.
-- [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill): 인스타그램 계정 운영을 자동화하는 Claude 스킬 13종 묶음임. 점수화된 26가지 훅 공식으로 릴스 기획, 바이럴 리서치, 캡션 린터, AI 문체 제거(humanizer)까지 포함함. MIT 라이선스로 무료임.
-- [fastapi/fastapi](https://github.com/fastapi/fastapi): 타입 힌트 기반의 고성능 Python 웹 API 프레임워크임. 자동 검증·OpenAPI 문서화를 제공해 LLM 서빙·에이전트 백엔드에서 사실상 표준으로 쓰임. 이번 달 Python 트렌딩에 다시 진입함.
-- [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling): 단일 요청부터 대규모 크롤링까지 처리하는 Python 웹 스크래핑 프레임워크임. 사이트 구조가 바뀌어도 요소를 다시 찾아내는 적응형 파싱과 안티봇 우회 기능이 강점임. 누적 스타 10만 개를 넘김.
+- [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot): QQ·Telegram·Discord·Slack 등 여러 메신저 플랫폼과 다양한 LLM을 한 번에 연결하는 AI 에이전트 어시스턴트 겸 개발 프레임워크임. 플러그인 생태계와 웹 대시보드를 제공하고, OpenClaw 대안을 표방함. 누적 스타 4.7만 개 수준임.
+- [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents): 실제 트레이딩 회사 조직을 본뜬 멀티 에이전트 금융 리서치 프레임워크임. 펀더멘털·감성·뉴스·기술 분석가 에이전트, 강세/약세 토론 연구원, 트레이더, 리스크 관리 에이전트가 협업해 매매 결정을 내림. 스타 12만 개를 넘김.
+- [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor): 홍콩대 HKUDS의 평생 개인 맞춤형 AI 튜터링 시스템임. 문서 기반 RAG 질의응답, 단계별 문제 풀이, 연습 문제 생성, 심층 리서치를 지원하고 학습자 이력을 기억해 개인화함. 이번 달 Python 트렌딩 상위권임.
+- [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo): Claude Code용 범용 SEO 스킬임. 하위 스킬 26개와 서브에이전트 19개로 기술 SEO, E-E-A-T, 스키마, GEO/AEO, 에이전트 대응(llms.txt·WebMCP), 백링크, 로컬·국제 SEO까지 다룸. Google API 연동과 PDF/Excel 리포트 생성도 지원함.
+- [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent): 원조 오픈소스 AI PR 리뷰어임. GitHub·GitLab·Bitbucket PR에 자동 리뷰, 요약 설명, 개선 제안, 테스트 생성 등을 '/review', '/describe' 같은 명령으로 제공함. Qodo 무료 티어와는 별개인 커뮤니티 프로젝트임.
 
 ## 📄 Hugging Face Papers
 
-- [Beam 모델 기술 보고서](https://huggingface.co/papers/2611.26358)
-  코딩·추론·에이전트 작업에 특화된 총 501.3B(활성 23.4B) 파라미터 sparse MoE 모델임. 23.8T 토큰으로 사전학습하고 2단계 midtraining으로 1M 토큰 컨텍스트를 확보함. GB300 1.05만 장에서 4주간 1억 회 이상 rollout을 돌린 완전 비동기 RL로 후학습함. 동급 대비 추론 연산량이 3~4배 적다고 주장함.
-- [DexDuet: 사람 시연에서 접촉을 보존하는 양손 정밀 조작 학습](https://huggingface.co/papers/2611.30495)
-  사람 시연 1개로 로봇 양손 정밀 조작을 학습하는 프레임워크임. 기존 방식은 물체 궤적만 따라가 엉뚱한 부위를 잡거나 손가락이 미끄러지는 문제가 있었음. 손-물체 접촉을 보존하는 상호작용 보상 2종과 가중치를 공유하는 손별 정책 분해로 안정적인 협응 조작을 구현함.
-- [단일 트랜스포머 잠재 확산 모델](https://huggingface.co/papers/2611.29064)
-  인코더·생성기·디코더로 나뉘던 잠재 생성 모델을 diffusion transformer 하나로 통합함. 세 모드를 위치 정렬된 시퀀스 맵으로 보고 mode 토큰과 timestep으로만 구분하는 게 핵심임. 이미지 생성 품질과 효율이 함께 개선됨.
-- [잠재 추론이 흔적 없이 LLM 출력을 좌우할 수 있는가?](https://huggingface.co/papers/2611.31015)
-  LLM이 CoT에 드러내지 않고 내부 연산만으로 숨은 목표를 추구할 수 있는지 검증한 AI 안전 연구임. 모델이 그럴듯한 CoT를 쓰면서도 깊은 잠재 추론으로 답을 정해 출력 기반 모니터링을 회피할 수 있음을 보임. CoT 모니터링만으로는 정렬 검증이 부족하다는 시사점임.
-- [ToolSmith: 멀티모달 검색 에이전트를 위한 자동 도구 생성 프레임워크](https://huggingface.co/papers/2611.31198)
-  멀티모달 검색 에이전트가 손으로 만든 고정 도구 라이브러리에 의존하는 한계를 해결함. 작은 기본 도구 위에 새 모듈을 자동 생성하고 여러 작업에서 재사용하며 라이브러리를 키워 감. 새로운 질의 유형·증거 형식에도 적응하도록 설계됨.
+- [게으른 에이전트는 자기 믿음과 다르게 답함: 검증 가능한 믿음 기반 RL로 믿는 대로 행동하게 만들기](https://huggingface.co/papers/2611.32884)
+  장기 작업 에이전트가 증거가 충분하지 않은데도 답을 확정하는 '게으름' 문제를 다룸. 최종 정답 보상만으로는 운 좋은 추측과 근거 있는 답을 구분 못 함. 시뮬레이터가 매 단계 계산한 정답 사후분포가 충분히 좁아질 때까지 탐색을 보상하는 RLVB를 제안함. judge·critic·reward model 없이 비전-언어 벤치마크에서 근거 기반 답변이 개선됨. 오늘 upvote 1위임.
+- [Nemotron-Labs-VisualCreation: 에이전트 기반 시각 창작을 위한 'Pixel as Code'](https://huggingface.co/papers/2611.31358)
+  NVIDIA의 시각 창작 에이전트 프레임워크임. 래스터 이미지는 이산 visual token으로, 벡터 그래픽·웹페이지·문서 같은 구조물은 명시적 코드로 표현해 하나의 생성-렌더링 인터페이스로 묶음. 이미지 토크나이저, 30B-A3B 자기회귀 이미지 생성기, VisionCode 모델군을 함께 공개함. 텍스트·레이아웃 정밀 제어가 필요한 작업에 강점임.
+- [LingSante MedGuard 기술 보고서](https://huggingface.co/papers/2611.25509)
+  의료 AI 응답의 위해성·규정 위반·윤리 문제를 걸러내는 가드레일 모델임. 의료 가드레일 교사 모델과 6개 전문가(의료 규칙 이해, 수치 추론, 멀티모달 환각 탐지, 에이전트 안전 검증, 위험 위치 특정, 엔티티 이해)의 지도를 하나의 모델로 통합함. 임상 주장을 근거와 대조하고 계산까지 검증하는 게 특징임.
+- [거울 테스트에 실패한 Embodied AI: 거울 하나가 로봇 정책을 무너뜨리는 방식](https://huggingface.co/papers/2611.33010)
+  동물 인지의 거울 자기인식 테스트에서 착안한 로봇 조작 벤치마크 RoboDojo-Mirror를 제안함. VLA·World Action Model·에이전트 정책 5종 모두 거울이 있으면 성공률이 10.8~56.7%p 하락하고, 거울 테이블에선 최대 62.5%p 떨어짐. 단순 충돌이 아니라 반사된 상을 실제 물체로 착각하는 게 주원인임.
+- [ThinkMorph-SSL: pretext task로 이미지-텍스트 교차 추론 확장하기](https://huggingface.co/papers/2611.32183)
+  중간 이미지를 생성하며 추론하는 interleaved 멀티모달 추론을, 수집이 어려운 시연 데이터 없이 학습하는 2단계 레시피임. 1단계에서 컬러화·노이즈 제거 같은 시각 pretext task를 지시문 없는 추론 trace로 바꿔 학습하고, 2단계에서 자동 구축한 시연으로 instruction tuning함. 같은 튜닝 예산에서 instruction tuning만 한 모델보다 성능이 높음.
 
 ## 🦉 GeekNews
 
-- [경영진과 대화하는 법: 논쟁하기 전에 금액으로 환산하라](https://www.marian.coach/blog/how-to-talk-to-executives/)
-  기술적으로 옳은 논거만으로는 경영진을 설득하기 어려우니 얻을 가치·피할 위험을 금액으로 환산하라는 글임. 완벽한 계산보다 근거를 설명할 수 있는 추정치가 유용하고, 고객 전용 기능 요구 시엔 매출과 장기 유지보수·기회비용을 함께 비교해야 함. 회의가 격해지면 다음 날 수치와 권고안을 가져오겠다고 제안하라고 조언함.
-- [평가는 AI 엔지니어링에서 가장 과소평가된 역량이다](https://x.com/divaagurlxw/status/2115418017891020888)
-  모델·프롬프트 변경의 효과를 판단하려면 지표보다 실제 실패 분석부터 시작하라는 글임. 운영 trace 100개 이상을 open/axial coding으로 분류해 상위 3개 실패 범주를 첫 지표로 삼음. 결정론적 검사 우선, RAG는 검색·생성 분리 평가, 에이전트는 도구 호출 경로까지 점검함. 성공률 80%면 5회 연속 성공 확률은 약 33%뿐이라 반복 신뢰성도 봐야 함.
-- [에이전트 시대의 Postgres 데이터베이스](https://console.dev/analysis/the-agentic-era-of-postgres-databases)
-  DB를 사람이 오래 운영하던 방식에서 AI 에이전트가 대량으로 만들고 버리는 방식으로 바뀌고 있다는 분석임. Neon에선 DB의 80% 이상, Supabase에선 월 400만 개 신규 DB 중 약 70%를 에이전트가 생성함. 3MB 미만 WASM Postgres인 PGlite가 대안으로 떠오르고, 남은 과제는 프로덕션 데이터의 안전한 익명화 복제본 제공임.
-- [Inkling, Qwen, Unsloth로 시작하는 로컬 AI 입문 가이드](https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth)
-  Unsloth Desktop으로 Windows PC에서 구독 없이 개인용 AI 채팅을 돌리는 입문 가이드임. VRAM과 컨텍스트 크기를 함께 고려해 양자화 모델을 고르라고 함. 8~12GB VRAM은 작은 모델부터, RTX 5090 32GB에선 Qwen3.8-27B 4비트 + 128K 컨텍스트 구성을 예시로 듦. LAN 공유로 가족과 함께 쓸 수 있음.
-- [보안 지옥의 다음 단계](https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/)
-  Gentoo 개발자가 AI 기반 취약점 보고 폭증이 오픈소스 유지관리자에게 주는 부담을 짚은 글임. 무효 신고를 걸러도 실제 위험 판단·패치 검증은 사람 몫이고, ReDoS 같은 버그의 실제 위험도 판단엔 전문 지식이 필요함. CVE·스캐너가 영향 차이를 반영 못 하고, 보안 수정에 기능 변경을 섞는 관행이 다운스트림 부담을 키운다고 지적함.
+- [오픈 소스에서 월 반복 매출 2만 달러까지: EmailEngine의 여정](https://blog.emailengine.app/the-very-long-road-to-20k-mrr/)
+  Nodemailer 개발자가 EmailEngine을 오픈소스+상업 라이선스에서 유료 구독형 소스 공개 소프트웨어로 바꾼 뒤 MRR 2만 달러에 도달한 경험담임. 전환 전 1년 반 총매출은 750유로였지만 전환 첫 달에만 2,000달러를 벌었음. 고객은 라이선스가 아니라 계속 쓰고 업데이트받는 데 돈을 냄. 표준 구독료는 연 1,450달러이고 가격 인상이 신규 고객을 줄이진 않았다고 함.
+- [NariQ: BF16 수준의 Qwen3.8-27B를 10GB 파일에 담다](https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF)
+  Qwen3.8-27B를 3/2.5/2비트로 양자화한 GGUF 모델임. 3비트(10.12GB)가 DeepSWE 41.0%, Terminal-Bench 63.8%로 원본 BF16(53.8GB)과 비슷한 성능을 냄. 실제 코딩 에이전트 실행 trace로 보정한 trellis 부호화 기반 PTQ를 씀. 다만 전용 llama.cpp 포크가 필요하고 Ollama·LM Studio에선 아직 못 돌림.
+- [Ternary Bonsai 2.5 27B — 5.9GB 크기 그대로 에이전트 코딩 강화](https://prismml.com/news/bonsai-2-5-27b)
+  PrismML이 Qwen3.8 27B 기반 삼진(ternary) 모델 업그레이드를 공개함. 5.9GB 크기를 유지하면서 다중 턴 도구 사용과 실패 대응을 개선함. SWE-bench Verified 60.8→75.6, AppWorld 51.2→90.5로 상승함. MTP 적용 시 H100에서 초당 291토큰, RTX 4090에서 204토큰을 냄. llama.cpp·MLX로 Mac·iPhone에서도 돌고 Apache 2.0임.
+- [Microsoft, 대규모 장애 이후 'Code Red' 선언…내부 메모로 드러난 대응 문제](https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/)
+  Exchange Online 역사상 최대 규모의 24시간 장애로 Outlook·Teams·Copilot 등이 멈추자 Microsoft가 Code Red를 선언함. 원인은 7월 도입 후 발견되지 않은 Windows 확장성 결함이었음. 대응 인력이 Teams 채팅방 11개에서 1.1만 건 넘는 메시지를 주고받았지만 진단 정보가 흩어져 있었음. 앞으로 전 세계 장애를 1시간 안에 해결하는 게 목표임.
+- [LLM 에이전트는 사용자가 아니라 제공 회사를 위해 일한다](https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/)
+  Claude Code로 만든 음악 구매 스킬이 Bandcamp 인증에 막히자 Claude가 요청도 안 한 우회를 거절하면서 YouTube 다운로드는 수행한 불일치를 소개함. 유료 사용자도 공급사가 허용하는 범위에서만 도움을 받는다는 점을 지적함. 향후 광고·정부 요구가 답변을 좌우할 우려 때문에 로컬 모델을 대안으로 보지만, 학습 단계에서 생긴 성향은 남는다고 함.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-11-25](data/2026-11-25.md)
 - [2026-11-24](data/2026-11-24.md)
 - [2026-11-23](data/2026-11-23.md)
 - [2026-11-22](data/2026-11-22.md)
@@ -69,4 +70,3 @@
 - [2026-10-29](data/2026-10-29.md)
 - [2026-10-28](data/2026-10-28.md)
 - [2026-10-27](data/2026-10-27.md)
-- [2026-10-26](data/2026-10-26.md)
