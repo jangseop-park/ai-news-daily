@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-26",
+  "github_trending": [
+    {
+      "name": "AstrBotDevs/AstrBot",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "description": "QQ·Telegram·Discord·Slack 등 여러 메신저 플랫폼과 다양한 LLM을 한 번에 연결하는 AI 에이전트 어시스턴트 겸 개발 프레임워크임. 플러그인 생태계와 웹 대시보드를 제공하고, OpenClaw 대안을 표방함. 누적 스타 4.7만 개 수준임.",
+      "description_en": "AI agent assistant and development framework that connects many IM platforms (QQ, Telegram, Discord, Slack) with various LLMs, plugins and a web dashboard; positions itself as an OpenClaw alternative."
+    },
+    {
+      "name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "실제 트레이딩 회사 조직을 본뜬 멀티 에이전트 금융 리서치 프레임워크임. 펀더멘털·감성·뉴스·기술 분석가 에이전트, 강세/약세 토론 연구원, 트레이더, 리스크 관리 에이전트가 협업해 매매 결정을 내림. 스타 12만 개를 넘김.",
+      "description_en": "Multi-agent LLM framework for financial research that mirrors a trading firm: fundamental, sentiment, news and technical analyst agents, bull/bear researchers, a trader and risk managers collaborate on trading decisions."
+    },
+    {
+      "name": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "description": "홍콩대 HKUDS의 평생 개인 맞춤형 AI 튜터링 시스템임. 문서 기반 RAG 질의응답, 단계별 문제 풀이, 연습 문제 생성, 심층 리서치를 지원하고 학습자 이력을 기억해 개인화함. 이번 달 Python 트렌딩 상위권임.",
+      "description_en": "HKUDS's lifelong personalized AI tutoring system with document-grounded RAG Q&A, step-by-step problem solving, practice question generation and deep research, remembering learner history for personalization."
+    },
+    {
+      "name": "AgriciDaniel/claude-seo",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "description": "Claude Code용 범용 SEO 스킬임. 하위 스킬 26개와 서브에이전트 19개로 기술 SEO, E-E-A-T, 스키마, GEO/AEO, 에이전트 대응(llms.txt·WebMCP), 백링크, 로컬·국제 SEO까지 다룸. Google API 연동과 PDF/Excel 리포트 생성도 지원함.",
+      "description_en": "Universal SEO skill for Claude Code with 26 sub-skills and 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (llms.txt, WebMCP), backlinks, local and international SEO, Google APIs and PDF/Excel reports."
+    },
+    {
+      "name": "The-PR-Agent/pr-agent",
+      "url": "https://github.com/The-PR-Agent/pr-agent",
+      "description": "원조 오픈소스 AI PR 리뷰어임. GitHub·GitLab·Bitbucket PR에 자동 리뷰, 요약 설명, 개선 제안, 테스트 생성 등을 '/review', '/describe' 같은 명령으로 제공함. Qodo 무료 티어와는 별개인 커뮤니티 프로젝트임.",
+      "description_en": "The original open-source AI pull-request reviewer: automated review, PR descriptions, code suggestions and test generation via commands like /review and /describe on GitHub, GitLab and Bitbucket; a community project separate from Qodo's free tier."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "게으른 에이전트는 자기 믿음과 다르게 답함: 검증 가능한 믿음 기반 RL로 믿는 대로 행동하게 만들기",
+      "title_en": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
+      "url": "https://huggingface.co/papers/2611.32884",
+      "summary": "장기 작업 에이전트가 증거가 충분하지 않은데도 답을 확정하는 '게으름' 문제를 다룸. 최종 정답 보상만으로는 운 좋은 추측과 근거 있는 답을 구분 못 함. 시뮬레이터가 매 단계 계산한 정답 사후분포가 충분히 좁아질 때까지 탐색을 보상하는 RLVB를 제안함. judge·critic·reward model 없이 비전-언어 벤치마크에서 근거 기반 답변이 개선됨. 오늘 upvote 1위임.",
+      "summary_en": "Agents often commit to answers before gathering enough evidence. RLVB uses the simulator's exact posterior over answers to reward further exploration while multiple answers remain plausible and commitment once evidence suffices, requiring no judge, critic or reward model and improving evidence-based answering on vision-language benchmarks."
+    },
+    {
+      "title": "Nemotron-Labs-VisualCreation: 에이전트 기반 시각 창작을 위한 'Pixel as Code'",
+      "title_en": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
+      "url": "https://huggingface.co/papers/2611.31358",
+      "summary": "NVIDIA의 시각 창작 에이전트 프레임워크임. 래스터 이미지는 이산 visual token으로, 벡터 그래픽·웹페이지·문서 같은 구조물은 명시적 코드로 표현해 하나의 생성-렌더링 인터페이스로 묶음. 이미지 토크나이저, 30B-A3B 자기회귀 이미지 생성기, VisionCode 모델군을 함께 공개함. 텍스트·레이아웃 정밀 제어가 필요한 작업에 강점임.",
+      "summary_en": "NVIDIA's agentic visual-creation framework representing raster images as learned discrete tokens and structured artifacts (vector graphics, webpages, documents) as explicit programs behind a shared generation-and-rendering interface, with a new image tokenizer, a 30B-A3B autoregressive image generator and the VisionCode model family."
+    },
+    {
+      "title": "LingSante MedGuard 기술 보고서",
+      "title_en": "LingSante MedGuard Technical Report",
+      "url": "https://huggingface.co/papers/2611.25509",
+      "summary": "의료 AI 응답의 위해성·규정 위반·윤리 문제를 걸러내는 가드레일 모델임. 의료 가드레일 교사 모델과 6개 전문가(의료 규칙 이해, 수치 추론, 멀티모달 환각 탐지, 에이전트 안전 검증, 위험 위치 특정, 엔티티 이해)의 지도를 하나의 모델로 통합함. 임상 주장을 근거와 대조하고 계산까지 검증하는 게 특징임.",
+      "summary_en": "A capability-enhanced medical guardrail that unifies supervision from a guardrail teacher and six medical capability experts (rule understanding, numerical reasoning, multimodal hallucination detection, agentic safety, risk localization, entity understanding) to flag harmful, non-compliant or unethical medical AI responses."
+    },
+    {
+      "title": "거울 테스트에 실패한 Embodied AI: 거울 하나가 로봇 정책을 무너뜨리는 방식",
+      "title_en": "Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies",
+      "url": "https://huggingface.co/papers/2611.33010",
+      "summary": "동물 인지의 거울 자기인식 테스트에서 착안한 로봇 조작 벤치마크 RoboDojo-Mirror를 제안함. VLA·World Action Model·에이전트 정책 5종 모두 거울이 있으면 성공률이 10.8~56.7%p 하락하고, 거울 테이블에선 최대 62.5%p 떨어짐. 단순 충돌이 아니라 반사된 상을 실제 물체로 착각하는 게 주원인임.",
+      "summary_en": "RoboDojo-Mirror shows every tested robot policy (VLAs, World Action Models, agentic policies) loses 10.8-56.7 points of success with mirrors present, up to 62.5 on a mirrored tabletop, mostly because policies confuse reflections with real objects rather than colliding with the mirror."
+    },
+    {
+      "title": "ThinkMorph-SSL: pretext task로 이미지-텍스트 교차 추론 확장하기",
+      "title_en": "ThinkMorph-SSL: Scaling Interleaved Multimodal Reasoning with Pretext Tasks",
+      "url": "https://huggingface.co/papers/2611.32183",
+      "summary": "중간 이미지를 생성하며 추론하는 interleaved 멀티모달 추론을, 수집이 어려운 시연 데이터 없이 학습하는 2단계 레시피임. 1단계에서 컬러화·노이즈 제거 같은 시각 pretext task를 지시문 없는 추론 trace로 바꿔 학습하고, 2단계에서 자동 구축한 시연으로 instruction tuning함. 같은 튜닝 예산에서 instruction tuning만 한 모델보다 성능이 높음.",
+      "summary_en": "A two-stage recipe that turns visual pretext tasks (colorization, denoising) into instruction-free interleaved image-text reasoning traces, followed by instruction tuning on automatically built demonstrations, outperforming instruction tuning alone at the same budget."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "오픈 소스에서 월 반복 매출 2만 달러까지: EmailEngine의 여정",
+      "title_en": "The Very Long Road to $20K MRR: The EmailEngine Journey",
+      "url": "https://blog.emailengine.app/the-very-long-road-to-20k-mrr/",
+      "summary": "Nodemailer 개발자가 EmailEngine을 오픈소스+상업 라이선스에서 유료 구독형 소스 공개 소프트웨어로 바꾼 뒤 MRR 2만 달러에 도달한 경험담임. 전환 전 1년 반 총매출은 750유로였지만 전환 첫 달에만 2,000달러를 벌었음. 고객은 라이선스가 아니라 계속 쓰고 업데이트받는 데 돈을 냄. 표준 구독료는 연 1,450달러이고 가격 인상이 신규 고객을 줄이진 않았다고 함.",
+      "summary_en": "The Nodemailer author on switching EmailEngine from open source plus commercial licenses to source-available paid subscriptions: 750 EUR in 18 months before, $2,000 in the first month after, now $20K MRR at $1,450/year; customers pay for continued use and updates, not for a license."
+    },
+    {
+      "title": "NariQ: BF16 수준의 Qwen3.8-27B를 10GB 파일에 담다",
+      "title_en": "NariQ: BF16-Level Qwen3.8-27B in a 10GB File",
+      "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+      "summary": "Qwen3.8-27B를 3/2.5/2비트로 양자화한 GGUF 모델임. 3비트(10.12GB)가 DeepSWE 41.0%, Terminal-Bench 63.8%로 원본 BF16(53.8GB)과 비슷한 성능을 냄. 실제 코딩 에이전트 실행 trace로 보정한 trellis 부호화 기반 PTQ를 씀. 다만 전용 llama.cpp 포크가 필요하고 Ollama·LM Studio에선 아직 못 돌림.",
+      "summary_en": "GGUF quantizations of Qwen3.8-27B at 3/2.5/2 bits; the 10.12GB 3-bit model matches BF16 (53.8GB) on DeepSWE (41.0%) and Terminal-Bench (63.8%) using trellis-coded PTQ calibrated on real coding-agent traces. Requires a dedicated llama.cpp fork for now."
+    },
+    {
+      "title": "Ternary Bonsai 2.5 27B — 5.9GB 크기 그대로 에이전트 코딩 강화",
+      "title_en": "Ternary Bonsai 2.5 27B: Stronger Agentic Coding at 5.9GB",
+      "url": "https://prismml.com/news/bonsai-2-5-27b",
+      "summary": "PrismML이 Qwen3.8 27B 기반 삼진(ternary) 모델 업그레이드를 공개함. 5.9GB 크기를 유지하면서 다중 턴 도구 사용과 실패 대응을 개선함. SWE-bench Verified 60.8→75.6, AppWorld 51.2→90.5로 상승함. MTP 적용 시 H100에서 초당 291토큰, RTX 4090에서 204토큰을 냄. llama.cpp·MLX로 Mac·iPhone에서도 돌고 Apache 2.0임.",
+      "summary_en": "PrismML's ternary Qwen3.8 27B upgrade keeps the 5.9GB size while improving multi-turn tool use: SWE-bench Verified 60.8 to 75.6, AppWorld 51.2 to 90.5; 291 tok/s on H100 and 204 on RTX 4090 with MTP; runs via llama.cpp and MLX, Apache 2.0."
+    },
+    {
+      "title": "Microsoft, 대규모 장애 이후 'Code Red' 선언…내부 메모로 드러난 대응 문제",
+      "title_en": "Microsoft Declares Code Red After Historic Outage, Internal Memos Show",
+      "url": "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/",
+      "summary": "Exchange Online 역사상 최대 규모의 24시간 장애로 Outlook·Teams·Copilot 등이 멈추자 Microsoft가 Code Red를 선언함. 원인은 7월 도입 후 발견되지 않은 Windows 확장성 결함이었음. 대응 인력이 Teams 채팅방 11개에서 1.1만 건 넘는 메시지를 주고받았지만 진단 정보가 흩어져 있었음. 앞으로 전 세계 장애를 1시간 안에 해결하는 게 목표임.",
+      "summary_en": "After the largest Exchange Online outage ever (24 hours, hitting Outlook, Teams and Copilot), caused by an undetected Windows scalability bug from July, Microsoft declared Code Red; memos show scattered diagnostics across 11 Teams chats and 11K+ messages, with a new goal of resolving global outages within an hour."
+    },
+    {
+      "title": "LLM 에이전트는 사용자가 아니라 제공 회사를 위해 일한다",
+      "title_en": "LLM Agents Work for Their Parent Companies, Not for You",
+      "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+      "summary": "Claude Code로 만든 음악 구매 스킬이 Bandcamp 인증에 막히자 Claude가 요청도 안 한 우회를 거절하면서 YouTube 다운로드는 수행한 불일치를 소개함. 유료 사용자도 공급사가 허용하는 범위에서만 도움을 받는다는 점을 지적함. 향후 광고·정부 요구가 답변을 좌우할 우려 때문에 로컬 모델을 대안으로 보지만, 학습 단계에서 생긴 성향은 남는다고 함.",
+      "summary_en": "A Claude Code music-buying skill refused unrequested Bandcamp auth workarounds yet downloaded from YouTube; the author argues agents serve their providers' policies, not users, and explores local models while noting trained-in limits persist even with open weights."
+    }
+  ]
+}
