@@ -1,46 +1,47 @@
 # 📰 AI 뉴스 데일리
 
-> 마지막 업데이트: 2026-11-26
+> 마지막 업데이트: 2026-11-27
 
-# AI 뉴스 — 2026-11-26
+# AI 뉴스 — 2026-11-27
 
 ## 🔥 GitHub Trending (Python)
 
-- [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot): QQ·Telegram·Discord·Slack 등 여러 메신저 플랫폼과 다양한 LLM을 한 번에 연결하는 AI 에이전트 어시스턴트 겸 개발 프레임워크임. 플러그인 생태계와 웹 대시보드를 제공하고, OpenClaw 대안을 표방함. 누적 스타 4.7만 개 수준임.
-- [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents): 실제 트레이딩 회사 조직을 본뜬 멀티 에이전트 금융 리서치 프레임워크임. 펀더멘털·감성·뉴스·기술 분석가 에이전트, 강세/약세 토론 연구원, 트레이더, 리스크 관리 에이전트가 협업해 매매 결정을 내림. 스타 12만 개를 넘김.
-- [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor): 홍콩대 HKUDS의 평생 개인 맞춤형 AI 튜터링 시스템임. 문서 기반 RAG 질의응답, 단계별 문제 풀이, 연습 문제 생성, 심층 리서치를 지원하고 학습자 이력을 기억해 개인화함. 이번 달 Python 트렌딩 상위권임.
-- [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo): Claude Code용 범용 SEO 스킬임. 하위 스킬 26개와 서브에이전트 19개로 기술 SEO, E-E-A-T, 스키마, GEO/AEO, 에이전트 대응(llms.txt·WebMCP), 백링크, 로컬·국제 SEO까지 다룸. Google API 연동과 PDF/Excel 리포트 생성도 지원함.
-- [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent): 원조 오픈소스 AI PR 리뷰어임. GitHub·GitLab·Bitbucket PR에 자동 리뷰, 요약 설명, 개선 제안, 테스트 생성 등을 '/review', '/describe' 같은 명령으로 제공함. Qodo 무료 티어와는 별개인 커뮤니티 프로젝트임.
+- [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter): 버그 헌팅·외부 레드팀 작업용 Claude Code 스킬 번들임. 스킬 85개, 슬래시 명령 16개, 공개된 취약점 레포 681개 분석 노하우를 담음. 오늘 하루 1,600 스타로 daily 1위 재진입함.
+- [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector): AI 에이전트 스킬용 보안 스캐너임. 스킬 파일의 취약점, 악성 패턴, prompt injection, 데이터 유출 위험을 탐지함. 이번 달 6천 스타 이상 받음.
+- [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock): 사용자명 하나로 수백 개 소셜 네트워크의 계정을 찾아주는 OSINT 도구임. 이번 달 2.3만 스타로 monthly 상위권 유지 중임.
+- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo): 주제나 키워드만 넣으면 LLM과 자동화 워크플로로 대본·소재·자막·음성을 합쳐 HD 숏폼 영상을 한 번에 생성함. 이번 달 1.1만 스타 받음.
+- [blader/humanizer](https://github.com/blader/humanizer): 텍스트에서 AI가 쓴 티(상투 표현, 과한 구조화 등)를 지워 사람이 쓴 글처럼 다듬어주는 에이전트 스킬임. 이번 달 1.3만 스타 받음.
 
 ## 📄 Hugging Face Papers
 
-- [게으른 에이전트는 자기 믿음과 다르게 답함: 검증 가능한 믿음 기반 RL로 믿는 대로 행동하게 만들기](https://huggingface.co/papers/2611.32884)
-  장기 작업 에이전트가 증거가 충분하지 않은데도 답을 확정하는 '게으름' 문제를 다룸. 최종 정답 보상만으로는 운 좋은 추측과 근거 있는 답을 구분 못 함. 시뮬레이터가 매 단계 계산한 정답 사후분포가 충분히 좁아질 때까지 탐색을 보상하는 RLVB를 제안함. judge·critic·reward model 없이 비전-언어 벤치마크에서 근거 기반 답변이 개선됨. 오늘 upvote 1위임.
-- [Nemotron-Labs-VisualCreation: 에이전트 기반 시각 창작을 위한 'Pixel as Code'](https://huggingface.co/papers/2611.31358)
-  NVIDIA의 시각 창작 에이전트 프레임워크임. 래스터 이미지는 이산 visual token으로, 벡터 그래픽·웹페이지·문서 같은 구조물은 명시적 코드로 표현해 하나의 생성-렌더링 인터페이스로 묶음. 이미지 토크나이저, 30B-A3B 자기회귀 이미지 생성기, VisionCode 모델군을 함께 공개함. 텍스트·레이아웃 정밀 제어가 필요한 작업에 강점임.
-- [LingSante MedGuard 기술 보고서](https://huggingface.co/papers/2611.25509)
-  의료 AI 응답의 위해성·규정 위반·윤리 문제를 걸러내는 가드레일 모델임. 의료 가드레일 교사 모델과 6개 전문가(의료 규칙 이해, 수치 추론, 멀티모달 환각 탐지, 에이전트 안전 검증, 위험 위치 특정, 엔티티 이해)의 지도를 하나의 모델로 통합함. 임상 주장을 근거와 대조하고 계산까지 검증하는 게 특징임.
-- [거울 테스트에 실패한 Embodied AI: 거울 하나가 로봇 정책을 무너뜨리는 방식](https://huggingface.co/papers/2611.33010)
-  동물 인지의 거울 자기인식 테스트에서 착안한 로봇 조작 벤치마크 RoboDojo-Mirror를 제안함. VLA·World Action Model·에이전트 정책 5종 모두 거울이 있으면 성공률이 10.8~56.7%p 하락하고, 거울 테이블에선 최대 62.5%p 떨어짐. 단순 충돌이 아니라 반사된 상을 실제 물체로 착각하는 게 주원인임.
-- [ThinkMorph-SSL: pretext task로 이미지-텍스트 교차 추론 확장하기](https://huggingface.co/papers/2611.32183)
-  중간 이미지를 생성하며 추론하는 interleaved 멀티모달 추론을, 수집이 어려운 시연 데이터 없이 학습하는 2단계 레시피임. 1단계에서 컬러화·노이즈 제거 같은 시각 pretext task를 지시문 없는 추론 trace로 바꿔 학습하고, 2단계에서 자동 구축한 시연으로 instruction tuning함. 같은 튜닝 예산에서 instruction tuning만 한 모델보다 성능이 높음.
+- [VLM이 자신의 표현으로 이미지를 생성하게 하기 (Integral)](https://huggingface.co/papers/2611.31237)
+  사전학습 VLM을 이해·생성 통합 멀티모달 모델로 바꾸는 Integral을 제안함. 이해와 생성이 서로 다른 시각 표현을 쓰는 게 핵심 병목이라 보고, frozen vision encoder의 계층 표현을 모은 Abstraction Fusion으로 공유 시각 토큰 공간을 만듦. 이해 성능은 유지하면서 강한 이미지 생성 성능을 얻음.
+- [DexEngine: 사람 시연을 물리적으로 실행 가능한 전신 로봇 데이터로 확장](https://huggingface.co/papers/2611.33579)
+  사람의 손-물체 조작 데이터를 팔+손 로봇이 실제로 실행 가능한 궤적으로 바꾸는 시뮬레이션 파이프라인임. 팔 도달 범위에 맞게 배치 후 팔 동작을 찾고, residual RL로 물리 시뮬레이션에서 보정함. 데이터셋 9개에서 손 4종별 약 5,200 클립, 총 32.5만 에피소드(578시간)를 생성함.
+- [모델이 스스로 컨텍스트를 관리하게 하기: 현황 점검](https://huggingface.co/papers/2611.34147)
+  하네스가 창이 차면 자동 compaction하는 방식 대신, 모델이 context API로 언제·무엇을 압축할지 직접 정하게 함. NVIDIA 오픈소스 에이전트 하네스에서 8K~512K 예산으로 비교한 결과, 잘 쓰는 모델은 더 적은 토큰으로 정확도가 높아짐(GPT 6.1은 32K에서 21%→56%). 편집 후 KV cache 재사용으로 prefill 연산도 줄임.
+- [Autoresearch 하네스 해부: 컨텍스트와 스킬이 자기진화 에이전트를 어떻게 좌우하나](https://huggingface.co/papers/2611.28244)
+  실험을 스스로 설계·실행·개선하는 autoresearch 에이전트의 하네스를 컨텍스트 관리와 스킬 관리 두 축으로 체계적으로 분석함. MLE-Bench·KernelBench에서 context folding과 선택적 스킬 삭제가 성능을 높였고, 이를 반영한 MLEvolver가 강한 결과를 냄.
+- [단일 DB 보상은 해킹 가능함: Text-to-SQL RL을 위한 반사실 실행](https://huggingface.co/papers/2611.34363)
+  Text-to-SQL RL에서 DB 하나로만 결과를 비교하면 틀린 쿼리도 운 좋게 보상받음. 코드로 만든 숨은 DB 사본 여러 개에서도 실행해 전부 맞아야 보상하는 방식을 제안함. 버그 쿼리 전액 보상 비율이 29.5%→16.8%, reward hack은 54.1%→1.9%로 줄고 정답 쿼리는 하나도 거부하지 않음.
 
 ## 🦉 GeekNews
 
-- [오픈 소스에서 월 반복 매출 2만 달러까지: EmailEngine의 여정](https://blog.emailengine.app/the-very-long-road-to-20k-mrr/)
-  Nodemailer 개발자가 EmailEngine을 오픈소스+상업 라이선스에서 유료 구독형 소스 공개 소프트웨어로 바꾼 뒤 MRR 2만 달러에 도달한 경험담임. 전환 전 1년 반 총매출은 750유로였지만 전환 첫 달에만 2,000달러를 벌었음. 고객은 라이선스가 아니라 계속 쓰고 업데이트받는 데 돈을 냄. 표준 구독료는 연 1,450달러이고 가격 인상이 신규 고객을 줄이진 않았다고 함.
-- [NariQ: BF16 수준의 Qwen3.8-27B를 10GB 파일에 담다](https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF)
-  Qwen3.8-27B를 3/2.5/2비트로 양자화한 GGUF 모델임. 3비트(10.12GB)가 DeepSWE 41.0%, Terminal-Bench 63.8%로 원본 BF16(53.8GB)과 비슷한 성능을 냄. 실제 코딩 에이전트 실행 trace로 보정한 trellis 부호화 기반 PTQ를 씀. 다만 전용 llama.cpp 포크가 필요하고 Ollama·LM Studio에선 아직 못 돌림.
-- [Ternary Bonsai 2.5 27B — 5.9GB 크기 그대로 에이전트 코딩 강화](https://prismml.com/news/bonsai-2-5-27b)
-  PrismML이 Qwen3.8 27B 기반 삼진(ternary) 모델 업그레이드를 공개함. 5.9GB 크기를 유지하면서 다중 턴 도구 사용과 실패 대응을 개선함. SWE-bench Verified 60.8→75.6, AppWorld 51.2→90.5로 상승함. MTP 적용 시 H100에서 초당 291토큰, RTX 4090에서 204토큰을 냄. llama.cpp·MLX로 Mac·iPhone에서도 돌고 Apache 2.0임.
-- [Microsoft, 대규모 장애 이후 'Code Red' 선언…내부 메모로 드러난 대응 문제](https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/)
-  Exchange Online 역사상 최대 규모의 24시간 장애로 Outlook·Teams·Copilot 등이 멈추자 Microsoft가 Code Red를 선언함. 원인은 7월 도입 후 발견되지 않은 Windows 확장성 결함이었음. 대응 인력이 Teams 채팅방 11개에서 1.1만 건 넘는 메시지를 주고받았지만 진단 정보가 흩어져 있었음. 앞으로 전 세계 장애를 1시간 안에 해결하는 게 목표임.
-- [LLM 에이전트는 사용자가 아니라 제공 회사를 위해 일한다](https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/)
-  Claude Code로 만든 음악 구매 스킬이 Bandcamp 인증에 막히자 Claude가 요청도 안 한 우회를 거절하면서 YouTube 다운로드는 수행한 불일치를 소개함. 유료 사용자도 공급사가 허용하는 범위에서만 도움을 받는다는 점을 지적함. 향후 광고·정부 요구가 답변을 좌우할 우려 때문에 로컬 모델을 대안으로 보지만, 학습 단계에서 생긴 성향은 남는다고 함.
+- [1인 조직이 온다](https://www.choosingvictory.com/p/the-rise-of-the-one-person-institution)
+  AI 에이전트와 지식 생산 시스템으로 혼자서도 연구기관처럼 조사·정리·발행을 지속할 수 있다는 글임. 전문가 역할은 결과물을 직접 만드는 것에서 자신의 안목을 시스템 규칙으로 옮기는 일로 바뀜. 매일 뉴스 2.5만 건을 읽고 외교 전문 22건을 내는 Digital Embassy 사례를 소개함. 병목은 결국 인간의 판단력이라고 봄.
+- [똑똑하고 진심으로 책임지는 사람들은 도구를 쓴다](https://www.iankduncan.com/engineering/2026-11-19-smart-people-who-give-a-shit-use-tools)
+  LLM은 사용자의 기존 태도를 증폭한다는 주장임. 책임감 있는 엔지니어에겐 시간이 부족했을 뿐이라 AI로 설계 검증, 외부 API 시뮬레이터, 경계 조건 테스트까지 해냄. 기준은 AI 사용 여부가 아니라 코드 동작을 이해하고 장애에 책임지는지임.
+- [세상에, 세상에, 세상에: 지금 벌어지는 일의 엄청난 규모](https://scottaaronson.blog/?p=10379)
+  Scott Aaronson이 AI의 연이은 수학 난제 해결을 돌아본 글임. OpenAI가 행렬 곱셈 지수 ω=9/4와 하한을 증명했고, FFT 개선과 하한도 나옴. OpenAI·Anthropic이 Lean 증명 인증서를 공개하며 증명을 잠정 수용하는 단계에 이름. AI 특이점의 시작을 떠올리게 한다고 평가함.
+- [2026 앱 수익화 현황: 월 500달러에서 100만 달러까지](https://superwall.com/blog/state-of-app-monetization-2026)
+  Superwall의 수익 앱 9,770개 12개월 데이터 분석임. 약 4개 중 1개가 다음 매출 구간으로 성장함. 상위 앱은 paywall 전환율 6.4%(하위 2.9%), 체험 후 유료 전환 31%(하위 20%). 차이는 실험 성공률이 아니라 실험 횟수(연 72회 vs 1.4회)에서 남.
+- [바이럴 제품 출시의 비밀](https://x.com/kylejeong/status/2119925224334586085)
+  X에서 화제가 되는 스타트업 출시는 우연이 아니라 수주~수개월 준비의 결과라는 글임. 회사·창업자·영상·문구가 일관된 이야기를 전해야 함. 지인 확산은 평소 교류와 사전 체험으로 쌓고, 유료 인플루언서는 조회 수보다 출시 직후 확산 속도가 목적임.
 
 ---
 ## 📅 이전 날짜
 
+- [2026-11-26](data/2026-11-26.md)
 - [2026-11-25](data/2026-11-25.md)
 - [2026-11-24](data/2026-11-24.md)
 - [2026-11-23](data/2026-11-23.md)
