@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-27",
+  "github_trending": [
+    {
+      "name": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "description": "버그 헌팅·외부 레드팀 작업용 Claude Code 스킬 번들임. 스킬 85개, 슬래시 명령 16개, 공개된 취약점 레포 681개 분석 노하우를 담음. 오늘 하루 1,600 스타로 daily 1위 재진입함.",
+      "description_en": "A Claude Code skill bundle for bug hunting and external red-team work: 85 skills, 16 slash commands and lessons from 681 disclosed-vulnerability repos. Back at #1 on daily trending with 1,600 stars today."
+    },
+    {
+      "name": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "description": "AI 에이전트 스킬용 보안 스캐너임. 스킬 파일의 취약점, 악성 패턴, prompt injection, 데이터 유출 위험을 탐지함. 이번 달 6천 스타 이상 받음.",
+      "description_en": "NVIDIA's security scanner for AI agent skills. Detects vulnerabilities, malicious patterns, prompt injection and data-exfiltration risks in skill files. 6k+ stars this month."
+    },
+    {
+      "name": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "description": "사용자명 하나로 수백 개 소셜 네트워크의 계정을 찾아주는 OSINT 도구임. 이번 달 2.3만 스타로 monthly 상위권 유지 중임.",
+      "description_en": "OSINT tool that hunts down social media accounts by username across hundreds of networks. 23k stars this month, staying near the top of monthly trending."
+    },
+    {
+      "name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "주제나 키워드만 넣으면 LLM과 자동화 워크플로로 대본·소재·자막·음성을 합쳐 HD 숏폼 영상을 한 번에 생성함. 이번 달 1.1만 스타 받음.",
+      "description_en": "Generates HD short videos from a topic or keyword using LLMs and an automated workflow (script, footage, subtitles, voice). 11k stars this month."
+    },
+    {
+      "name": "blader/humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "description": "텍스트에서 AI가 쓴 티(상투 표현, 과한 구조화 등)를 지워 사람이 쓴 글처럼 다듬어주는 에이전트 스킬임. 이번 달 1.3만 스타 받음.",
+      "description_en": "Agent skill that removes telltale signs of AI-generated writing (clichés, over-structuring, etc.) so text reads as human-written. 13k stars this month."
+    }
+  ],
+  "huggingface": [
+    {
+      "title": "VLM이 자신의 표현으로 이미지를 생성하게 하기 (Integral)",
+      "title_en": "Let Vision-Language Models Generate Images through Their Representations",
+      "url": "https://huggingface.co/papers/2611.31237",
+      "summary": "사전학습 VLM을 이해·생성 통합 멀티모달 모델로 바꾸는 Integral을 제안함. 이해와 생성이 서로 다른 시각 표현을 쓰는 게 핵심 병목이라 보고, frozen vision encoder의 계층 표현을 모은 Abstraction Fusion으로 공유 시각 토큰 공간을 만듦. 이해 성능은 유지하면서 강한 이미지 생성 성능을 얻음.",
+      "summary_en": "Integral turns a pretrained VLM into a unified multimodal model by building a shared visual representation space for understanding and generation (Abstraction Fusion over frozen vision-encoder features), preserving understanding while enabling strong generation."
+    },
+    {
+      "title": "DexEngine: 사람 시연을 물리적으로 실행 가능한 전신 로봇 데이터로 확장",
+      "title_en": "DexEngine: Scaling Human Demonstrations into Physically Executable Whole-Robot Data",
+      "url": "https://huggingface.co/papers/2611.33579",
+      "summary": "사람의 손-물체 조작 데이터를 팔+손 로봇이 실제로 실행 가능한 궤적으로 바꾸는 시뮬레이션 파이프라인임. 팔 도달 범위에 맞게 배치 후 팔 동작을 찾고, residual RL로 물리 시뮬레이션에서 보정함. 데이터셋 9개에서 손 4종별 약 5,200 클립, 총 32.5만 에피소드(578시간)를 생성함.",
+      "summary_en": "A simulation pipeline converting human hand-object demos into physically executable arm-hand trajectories via reach-aware placement, arm motion fitting and residual RL correction; yields ~325k episodes (578 h) across four dexterous hands."
+    },
+    {
+      "title": "모델이 스스로 컨텍스트를 관리하게 하기: 현황 점검",
+      "title_en": "Letting Models Manage Their Own Context: Where We Stand",
+      "url": "https://huggingface.co/papers/2611.34147",
+      "summary": "하네스가 창이 차면 자동 compaction하는 방식 대신, 모델이 context API로 언제·무엇을 압축할지 직접 정하게 함. NVIDIA 오픈소스 에이전트 하네스에서 8K~512K 예산으로 비교한 결과, 잘 쓰는 모델은 더 적은 토큰으로 정확도가 높아짐(GPT 6.1은 32K에서 21%→56%). 편집 후 KV cache 재사용으로 prefill 연산도 줄임.",
+      "summary_en": "Compares harness-triggered compaction with model-driven context management via a context API. Models that use it well gain accuracy with fewer tokens (GPT 6.1: 21%→56% at 32K on OfficeQA Pro v2); KV-cache reuse after edits cuts prefill compute."
+    },
+    {
+      "title": "Autoresearch 하네스 해부: 컨텍스트와 스킬이 자기진화 에이전트를 어떻게 좌우하나",
+      "title_en": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
+      "url": "https://huggingface.co/papers/2611.28244",
+      "summary": "실험을 스스로 설계·실행·개선하는 autoresearch 에이전트의 하네스를 컨텍스트 관리와 스킬 관리 두 축으로 체계적으로 분석함. MLE-Bench·KernelBench에서 context folding과 선택적 스킬 삭제가 성능을 높였고, 이를 반영한 MLEvolver가 강한 결과를 냄.",
+      "summary_en": "Systematically studies autoresearch-agent harness design along context and skill management on MLE-Bench and KernelBench; context folding and selective skill deletion help, enabling the MLEvolver agent to perform strongly."
+    },
+    {
+      "title": "단일 DB 보상은 해킹 가능함: Text-to-SQL RL을 위한 반사실 실행",
+      "title_en": "Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-SQL RL",
+      "url": "https://huggingface.co/papers/2611.34363",
+      "summary": "Text-to-SQL RL에서 DB 하나로만 결과를 비교하면 틀린 쿼리도 운 좋게 보상받음. 코드로 만든 숨은 DB 사본 여러 개에서도 실행해 전부 맞아야 보상하는 방식을 제안함. 버그 쿼리 전액 보상 비율이 29.5%→16.8%, reward hack은 54.1%→1.9%로 줄고 정답 쿼리는 하나도 거부하지 않음.",
+      "summary_en": "A counterfactual-database reward runs queries on hidden generated DB copies; it cuts fully-paid buggy queries from 29.5% to 16.8% and reward hacks from 54.1% to 1.9% without rejecting correct queries, though mean-form training did not raise in-domain accuracy."
+    }
+  ],
+  "geeknews": [
+    {
+      "title": "1인 조직이 온다",
+      "title_en": "The Rise of the One-Person Institution",
+      "url": "https://www.choosingvictory.com/p/the-rise-of-the-one-person-institution",
+      "summary": "AI 에이전트와 지식 생산 시스템으로 혼자서도 연구기관처럼 조사·정리·발행을 지속할 수 있다는 글임. 전문가 역할은 결과물을 직접 만드는 것에서 자신의 안목을 시스템 규칙으로 옮기는 일로 바뀜. 매일 뉴스 2.5만 건을 읽고 외교 전문 22건을 내는 Digital Embassy 사례를 소개함. 병목은 결국 인간의 판단력이라고 봄.",
+      "summary_en": "AI agents let one person run a research-institution-like operation; the expert's job shifts to encoding judgment into system rules. Cites Digital Embassy (25k articles read, 22 cables published daily). The bottleneck moves to human judgment."
+    },
+    {
+      "title": "똑똑하고 진심으로 책임지는 사람들은 도구를 쓴다",
+      "title_en": "Smart people who give a shit use tools",
+      "url": "https://www.iankduncan.com/engineering/2026-11-19-smart-people-who-give-a-shit-use-tools",
+      "summary": "LLM은 사용자의 기존 태도를 증폭한다는 주장임. 책임감 있는 엔지니어에겐 시간이 부족했을 뿐이라 AI로 설계 검증, 외부 API 시뮬레이터, 경계 조건 테스트까지 해냄. 기준은 AI 사용 여부가 아니라 코드 동작을 이해하고 장애에 책임지는지임.",
+      "summary_en": "LLMs amplify existing attitudes: responsible engineers use them to do the verification and testing they never had time for. The bar is understanding and owning your code, not whether you use AI."
+    },
+    {
+      "title": "세상에, 세상에, 세상에: 지금 벌어지는 일의 엄청난 규모",
+      "title_en": "Holy shit, holy shit, holy shit, holy shit: the scale of what's happening",
+      "url": "https://scottaaronson.blog/?p=10379",
+      "summary": "Scott Aaronson이 AI의 연이은 수학 난제 해결을 돌아본 글임. OpenAI가 행렬 곱셈 지수 ω=9/4와 하한을 증명했고, FFT 개선과 하한도 나옴. OpenAI·Anthropic이 Lean 증명 인증서를 공개하며 증명을 잠정 수용하는 단계에 이름. AI 특이점의 시작을 떠올리게 한다고 평가함.",
+      "summary_en": "Scott Aaronson reflects on AI cracking math problems: OpenAI proving the matrix multiplication exponent ω=9/4 with a matching lower bound, FFT improvements, and Lean certificates from OpenAI and Anthropic, which he says evoke the start of an AI singularity."
+    },
+    {
+      "title": "2026 앱 수익화 현황: 월 500달러에서 100만 달러까지",
+      "title_en": "State of App Monetization 2026",
+      "url": "https://superwall.com/blog/state-of-app-monetization-2026",
+      "summary": "Superwall의 수익 앱 9,770개 12개월 데이터 분석임. 약 4개 중 1개가 다음 매출 구간으로 성장함. 상위 앱은 paywall 전환율 6.4%(하위 2.9%), 체험 후 유료 전환 31%(하위 20%). 차이는 실험 성공률이 아니라 실험 횟수(연 72회 vs 1.4회)에서 남.",
+      "summary_en": "Analysis of 9,770 revenue-generating apps on Superwall: ~1 in 4 moved up a revenue tier. Top apps convert paywalls at 6.4% vs 2.9% and trials at 31% vs 20%; the difference is experiment volume (72/yr vs 1.4), not win rate."
+    },
+    {
+      "title": "바이럴 제품 출시의 비밀",
+      "title_en": "The secret behind viral product launches",
+      "url": "https://x.com/kylejeong/status/2119925224334586085",
+      "summary": "X에서 화제가 되는 스타트업 출시는 우연이 아니라 수주~수개월 준비의 결과라는 글임. 회사·창업자·영상·문구가 일관된 이야기를 전해야 함. 지인 확산은 평소 교류와 사전 체험으로 쌓고, 유료 인플루언서는 조회 수보다 출시 직후 확산 속도가 목적임.",
+      "summary_en": "Viral startup launches on X are engineered over weeks to months: a consistent story across company, founders and video; community support cultivated in advance; paid influencers used for early velocity rather than raw views."
+    }
+  ]
+}
